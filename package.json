@@ -26,6 +26,7 @@
     "@haystacks/constants": "0.2.0"
   },
   "devDependencies": {
+    "eslint": "^8.18.0",
     "jsdoc": "3.6.7",
     "marked": ">=4.0.10",
     "markdown-it": ">=12.3.2",
