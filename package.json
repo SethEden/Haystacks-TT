@@ -1,0 +1,29 @@
+{
+  "name": "haystacks-tt",
+  "version": "0.0.1",
+  "description": "A simple Haystacks-async based command line typing tutor program for Windows, Mac & Linux",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SethEden/HaystacksTT.git"
+  },
+  "keywords": [
+    "Typing",
+    "Typing",
+    "Tutor",
+    "CLI",
+    "Command",
+    "Line",
+    "Cross",
+    "OS"
+  ],
+  "author": "Seth Hollingsead",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SethEden/HaystacksTT/issues"
+  },
+  "homepage": "https://github.com/SethEden/HaystacksTT#readme"
+}
