@@ -2,9 +2,12 @@
   "name": "haystacks-tt",
   "version": "0.0.1",
   "description": "A simple Haystacks-async based command line typing tutor program for Windows, Mac & Linux",
-  "main": "main.js",
+  "main": "./src/main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./src/main.js",
+    "vers": "standard-version -m \"chore(release) version %s \"",
+    "docs": "jsdoc -c jsdoc.json",
+    "test": "node ./src/main.js allApplicationValidations"
   },
   "repository": {
     "type": "git",
@@ -12,16 +15,22 @@
   },
   "keywords": [
     "Typing",
-    "Typing",
     "Tutor",
-    "CLI",
-    "Command",
-    "Line",
-    "Cross",
-    "OS"
+    "CLI"
   ],
-  "author": "Seth Hollingsead",
+  "author": "Seth Hollingsead <iceversaka@hotmail.com>",
   "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "@haystacks/async": "0.2.0",
+    "@haystacks/constants": "0.2.0"
+  },
+  "devDependencies": {
+    "jsdoc": "3.6.7",
+    "marked": ">=4.0.10",
+    "markdown-it": ">=12.3.2",
+    "standard-version": "9.3.2"
+  },
   "bugs": {
     "url": "https://github.com/SethEden/HaystacksTT/issues"
   },
