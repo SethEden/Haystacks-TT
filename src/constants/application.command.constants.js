@@ -9,13 +9,16 @@
  * @copyright Copyright © 2023-… by Seth Hollingsead. All rights reserved
  */
 
+// Internal imports
+
 // External imports
 import hayConst from '@haystacks/constants';
-const {num, wrd} = hayConst;
+const {bas, cmd, num, wrd} = hayConst;
 
 // ********************************
 // ApplicationSystem Commands in order
 // ********************************
+export const cinstructions = wrd.cinstructions; // instructions
 export const capplicationHelp = wrd.capplication + wrd.cHelp; // applicationHelp
 export const capplicationWorkflowHelp = wrd.capplication + wrd.cWorkflow + wrd.cHelp; // applicationWorkflowHelp
 
@@ -30,3 +33,8 @@ export const callApplicationValidations = wrd.call + wrd.cApplication + wrd.cVal
 // ********************************
 // Tutoring Commands in order
 // ********************************
+
+// ********************************
+// Application Workflows in order
+// ********************************
+export const cApplicationStartupWorkflow = wrd.cWorkflow + bas.cSpace + wrd.capplication + wrd.cStartup; // Workflow applicationStartup

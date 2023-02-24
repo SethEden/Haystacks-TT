@@ -27,6 +27,7 @@
 // Internal imports
 import tutoringRules from './businessRules/tutoringRulesLibrary.js';
 import tutoringCommands from './commands/tutoringCommandsLibrary.js';
+import * as app_cmd from './constants/application.command.constants.js';
 import * as app_cfg from './constants/application.configuration.constants.js';
 import * as apc from './constants/application.constants.js';
 import * as app_msg from './constants/application.message.constants.js';
@@ -125,7 +126,7 @@ async function bootStrapApplication() {
   }
   appConfig[sys.cclientBusinessRules] = await tutoringRules.initApplicationRulesLibrary();
   appConfig[sys.cclientCommands] = await tutoringCommands.initApplicationCommandsLibrary();
-  console.log('appConfig is: ', appConfig);
+  // console.log('appConfig is: ', appConfig);
   await haystacks.initFramework(appConfig);
   // console.log(`END ${namespacePrefix}${functionName} function`);
 }
@@ -139,12 +140,11 @@ async function bootStrapApplication() {
  */
 async function application() {
   let functionName = application.name;
-  await haystacks.consoleLog(namespacePrefix + functionName, msg.cBEGIN_Function);
+  await haystacks.consoleLog(namespacePrefix, functionName, msg.cBEGIN_Function);
   let commandInput;
   let commandResult;
 
-  // TODO: Make sure to add a new custom application startup workflow here, so we can print out basic instructions.
-  await haystacks.enqueueCommand(cmd.cStartupWorkflow);
+  await haystacks.enqueueCommand(app_cmd.cApplicationStartupWorkflow);
   // Make sure to process all of the startup command workflow commands before we go into the main program loop
   while (await haystacks.isCommandQueueEmpty() === false) {
     commandResult = await haystacks.processCommandQueue();

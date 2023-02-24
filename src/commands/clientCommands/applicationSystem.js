@@ -24,6 +24,27 @@ const baseFileName = path.basename(import.meta.url, path.extname(import.meta.url
 const namespacePrefix = wrd.capplication + bas.cDot + apc.cApplicationName + bas.cDot + wrd.ccommands + bas.cDot + wrd.cclient + wrd.cCommands + bas.cDot + baseFileName + bas.cDot;
 
 /**
+ * @function instructions
+ * @description Provides instructions to the end user on what steps they need to perform to get up and running and interface with the system.
+ * @param {string} inputData Not used for this command.
+ * @param {string} inputMetaData Not used for this command.
+ * @return {array<boolean,string>} An array with a boolean True or False value to indicate if the application should exit or not exit, followed by an empty string.
+ * @author Seth Hollingsead
+ * @date 2023/02/24
+ */
+async function instructions(inputData, inputMetaData) {
+  let functionName = instructions.name;
+  await haystacks.consoleLog(namespacePrefix, functionName, msg.cBEGIN_Function);
+  await haystacks.consoleLog(namespacePrefix, functionName, msg.cinputDataIs + inputData);
+  await haystacks.consoleLog(namespacePrefix, functionName, msg.cinputMetaDataIs + inputMetaData);
+  let returnData = [true, ''];
+  console.log(app_msg.c)
+  await haystacks.consoleLog(namespacePrefix, functionName, msg.creturnDataIs + JSON.stringify(returnData));
+  await haystacks.consoleLog(namespacePrefix, functionName, msg.cEND_Function);
+  return returnData;
+}
+
+/**
  * @function applicationHelp
  * @description A command to list the application commands. (There are no plugins for this application.)
  * See the Haystacks testHarness code for how to do this with plugins.
@@ -68,6 +89,7 @@ async function applicationWorkflowHelp(inputData, inputMetaData) {
 }
 
 export default {
+  instructions,
   applicationHelp,
   applicationWorkflowHelp
 };

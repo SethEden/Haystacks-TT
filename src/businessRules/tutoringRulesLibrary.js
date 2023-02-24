@@ -39,8 +39,8 @@ const namespacePrefix = wrd.capplication + bas.cDot + apc.cApplicationName + bas
  * but could be really confusing if you are struggling, trying to debug commands or business rules that do not appear to exist.
  */
 const initApplicationRulesLibrary = function() {
-  let functionName = initApplicationRulesLibrary.name;
-  console.log(`BEGIN ${namespacePrefix}${functionName} function`);
+  // let functionName = initApplicationRulesLibrary.name;
+  // console.log(`BEGIN ${namespacePrefix}${functionName} function`);
   return {
     // Client Business Rules
     // ***********************************************
