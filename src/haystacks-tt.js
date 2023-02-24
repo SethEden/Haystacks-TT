@@ -30,7 +30,7 @@ import tutoringCommands from './commands/tutoringCommandsLibrary.js';
 import * as app_cfg from './constants/application.configuration.constants.js';
 import * as apc from './constants/application.constants.js';
 import * as app_msg from './constants/application.message.constants.js';
-import allApCV from './resources/constantsValidation/allApplicationConstantsVaidatinoMetadata.js';
+import allAppCV from './resources/constantsValidation/allApplicationConstantsValidationMetadata.js';
 // External imports
 import haystacks from '@haystacks/async';
 import hayConst from '@haystacks/constants';
@@ -41,7 +41,7 @@ import path from 'path';
 const {bas, biz, cmd, msg, sys, wrd} = hayConst;
 let rootPath = '';
 let baseFileName = path.basename(import.meta.url, path.extname(import.meta.url));
-// application.main.
+// application.haystacks-tt.
 let namespacePrefix = wrd.capplication + bas.cDot + baseFileName + bas.cDot;
 // eslint-disable-next-line no-undef
 global.appRoot = path.resolve(process.cwd());
@@ -83,9 +83,9 @@ async function bootStrapApplication() {
       clientConstantsPath: rootPath + apc.cFullDevConstantsPath,
       clientRegisteredPlugins: rootPath + apc.cFullDevPluginsRegistryPath,
       clientWorkflowsPath: rootPath + apc.cFullDevWorkflowsPath,
-      clientTemesPath: rotPath + apc.cFullDevTheemsPath,
+      clientThemesPath: rootPath + apc.cFullDevThemesPath,
       applicationConstantsValidationData: allAppCV.initializeAllClientConstantsValidationData,
-      clientBusenssRules: {},
+      clientBusinessRules: {},
       clientCommands: {}
     };
   } else if (NODE_ENV === wrd.cproduction) {
@@ -99,9 +99,9 @@ async function bootStrapApplication() {
       clientConstantsPath: rootPath + apc.cFullProdConstantsPath,
       clientRegisteredPlugins: rootPath + apc.cFullProdPluginsRegistryPath,
       clientWorkflowsPath: rootPath + apc.cFullProdWorkflowsPath,
-      clientTemesPath: rotPath + apc.cFullProdThemesPath,
+      clientThemesPath: rootPath + apc.cFullProdThemesPath,
       applicationConstantsValidationData: allAppCV.initializeAllClientConstantsValidationData,
-      clientBusenssRules: {},
+      clientBusinessRules: {},
       clientCommands: {}
     };
   } else {
@@ -117,14 +117,15 @@ async function bootStrapApplication() {
       clientConstantsPath: rootPath + apc.cFullDevConstantsPath,
       clientRegisteredPlugins: rootPath + apc.cFullDevPluginsRegistryPath,
       clientWorkflowsPath: rootPath + apc.cFullDevWorkflowsPath,
-      clientTemesPath: rotPath + apc.cFullDevTheemsPath,
+      clientTemesPath: rootPath + apc.cFullDevThemesPath,
       applicationConstantsValidationData: allAppCV.initializeAllClientConstantsValidationData,
-      clientBusenssRules: {},
+      clientBusinessRules: {},
       clientCommands: {}
     };
   }
   appConfig[sys.cclientBusinessRules] = await tutoringRules.initApplicationRulesLibrary();
   appConfig[sys.cclientCommands] = await tutoringCommands.initApplicationCommandsLibrary();
+  console.log('appConfig is: ', appConfig);
   await haystacks.initFramework(appConfig);
   // console.log(`END ${namespacePrefix}${functionName} function`);
 }

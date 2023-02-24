@@ -13,7 +13,7 @@
  */
 
 // Internal imports
-import tutoringRules from './clientRules/tutoringRules.js';
+// import tutoringRules from './clientRules/tutoringRules.js';
 import * as app_biz from '../constants/application.business.constants.js';
 import * as apc from '../constants/application.constants.js';
 // External imports
@@ -23,7 +23,7 @@ import path from 'path';
 // eslint-disable-next-line no-unused-vars
 const {bas, msg, wrd} = hayConst;
 const baseFileName = path.basename(import.meta.url, path.extname(import.meta.url));
-// application.main.businessRules.tutoringRulesLibrary.
+// application.haystacks-tt.businessRules.tutoringRulesLibrary.
 // eslint-disable-next-line no-unused-vars
 const namespacePrefix = wrd.capplication + bas.cDot + apc.cApplicationName + bas.cDot + wrd.cbusiness + wrd.cRules + bas.cDot + baseFileName + bas.cDot;
 
@@ -46,7 +46,7 @@ const initApplicationRulesLibrary = function() {
     // ***********************************************
     // tutoringRules rules in order
     // ***********************************************
-    [app_biz.ccustomEcho]: (inputData, inputMetaData) => clientStringParsing.customEcho(inputData, inputMetaData),
+    // [app_biz.ccustomEcho]: (inputData, inputMetaData) => clientStringParsing.customEcho(inputData, inputMetaData),
   };
 }
 
