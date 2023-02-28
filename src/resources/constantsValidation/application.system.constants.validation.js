@@ -15,6 +15,7 @@ export const applicationSystemConstantsValidation = [
   // Tutoring system constants
   {Name: 'cuserAccounts', Actual: app_sys.cuserAccounts, Expected: 'userAccounts'},
   {Name: 'capplicationLessons', Actual: app_sys.capplicationLessons, Expected: 'applicationLessons'},
+  {Name: 'cLessonPlan', Actual: app_sys.cLessonPlan, Expected: 'LessonPlan'},
 
   {Name: 'cresolvedConstantsPath_Application', Actual: app_sys.cresolvedConstantsPath_Application, Expected: 'resolvedConstantsPath_Application'},
   {Name: 'capplicationBusinessConstantsValidation', Actual: app_sys.capplicationBusinessConstantsValidation, Expected: 'applicationBusinessConstantsValidation'},

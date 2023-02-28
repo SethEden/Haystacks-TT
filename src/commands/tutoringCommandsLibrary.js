@@ -51,7 +51,12 @@ const initApplicationCommandsLibrary = function() {
     // ***********************************************
     // tutoring commands in order
     // ***********************************************
-    [app_cmd.ccreateAccount]: (inputData, inputMetaData) => tutoringCommands.createAccount(inputData, inputMetaData)
+    [app_cmd.ccreateAccount]: (inputData, inputMetaData) => tutoringCommands.createAccount(inputData, inputMetaData),
+    [app_cmd.cprintAccountsData]: (inputData, inputMetaData) => tutoringCommands.printAccountsData(inputData, inputMetaData),
+    [app_cmd.cprintAccountData]: (inputData, inputMetaData) => tutoringCommands.printAccountData(inputData, inputMetaData),
+    [app_cmd.cdeleteAccount]: (inputData, inputMetaData) => tutoringCommands.deleteAccount(inputData, inputMetaData),
+    [app_cmd.clogin]: (inputData, inputMetaData) => tutoringCommands.login(inputData, inputMetaData),
+    [app_cmd.clogout]: (inputData, inputMetaData) => tutoringCommands.logout(inputData, inputMetaData)
   };
 }
 

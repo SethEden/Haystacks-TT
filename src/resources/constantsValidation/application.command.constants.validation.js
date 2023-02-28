@@ -38,6 +38,8 @@ export const applicationCommandConstantsValidation = [
   // Tutoring Commands in order
   // ********************************
   {Name: 'ccreateAccount', Actual: app_cmd.ccreateAccount, Expected: 'createAccount'},
+  {Name: 'cprintAccountsData', Actual: app_cmd.cprintAccountsData, Expected: 'printAccountsData'},
+  {Name: 'cprintAccountData', Actual: app_cmd.cprintAccountData, Expected: 'printAccountData'},
   {Name: 'cdeleteAccount', Actual: app_cmd.cdeleteAccount, Expected: 'deleteAccount'},
   {Name: 'clogin', Actual: app_cmd.clogin, Expected: 'login'},
   {Name: 'clogout', Actual: app_cmd.clogout, Expected: 'logout'},

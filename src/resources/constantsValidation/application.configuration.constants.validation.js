@@ -16,12 +16,13 @@ import * as app_cfg from '../../constants/application.configuration.constants.js
  * @description Initializes the application configuration constants validation data objects array.
  * @return {array<object<Name,Actual,Expected>>} An array of constants validation data objects.
  * @author Seth Hollingsead
- * @date 2023/02/24
+ * @date 2023/02/2
  */
 export const applicationConfigurationConstantsValidation = [
   {Name: 'cappAccountsPath', Actual: app_cfg.cappAccountsPath, Expected: 'appAccountsPath'},
   {Name: 'cappLessonsPath', Actual: app_cfg.cappLessonsPath, Expected: 'appLessonsPath'},
   {Name: 'csaveTypingRecords', Actual: app_cfg.csaveTypingRecords, Expected: 'saveTypingRecords'},
   {Name: 'clessonPlanSuccessLimitingFactor', Actual: app_cfg.clessonPlanSuccessLimitingFactor, Expected: 'lessonPlanSuccessLimitingFactor'},
-  {Name: 'cenableLessonPlanLimitingFactor', Actual: app_cfg.cenableLessonPlanLimitingFactor, Expected: 'enableLessonPlanLimitingFactor'}
+  {Name: 'cenableLessonPlanLimitingFactor', Actual: app_cfg.cenableLessonPlanLimitingFactor, Expected: 'enableLessonPlanLimitingFactor'},
+  {Name: 'cCurrentUser', Actual: app_cfg.cCurrentUser, Expected: 'CurrentUser'},
 ];

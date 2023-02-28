@@ -20,7 +20,23 @@ import * as app_msg from '../../constants/application.message.constants.js';
  */
 export const applicationMessageConstantsValidation = [
   // General application messages
+  {Name: 'crawAccountDataIs', Actual: app_msg.crawAccountDataIs, Expected: 'rawAccountData is: '},
+  {Name: 'crawLessonsDataIs', Actual: app_msg.crawLessonsDataIs, Expected: 'rawLessonsData is: '},
   {Name: 'cuserAccountDataIs', Actual: app_msg.cuserAccountDataIs, Expected: 'userAccountData is: '},
+  {Name: 'cuserAccountKeyIs', Actual: app_msg.cuserAccountKeyIs, Expected: 'userAccountKey is: '},
+  {Name: 'cuserAccountIs', Actual: app_msg.cuserAccountIs, Expected: 'userAccount is: '},
+  {Name: 'clessonsDataIs', Actual: app_msg.clessonsDataIs, Expected: 'lessonsData is: '},
+  {Name: 'clessonKeyIs', Actual: app_msg.clessonKeyIs, Expected: 'lessonKey is: '},
+  {Name: 'clessonDataIs', Actual: app_msg.clessonDataIs, Expected: 'lessonData is: '},
+  {Name: 'clessonNameArrayIs', Actual: app_msg.clessonNameArrayIs, Expected: 'lessonNameArray is: '},
+  {Name: 'clessonNameIs', Actual: app_msg.clessonNameIs, Expected: 'lessonName is: '},
+  {Name: 'cnewAccountIs', Actual: app_msg.cnewAccountIs, Expected: 'newAccount is: '},
+  {Name: 'cstoredAccountDataIs', Actual: app_msg.cstoredAccountDataIs, Expected: 'storedAccountData is: '},
+  {Name: 'cnewlyMergedAccountDataIs', Actual: app_msg.cnewlyMergedAccountDataIs, Expected: 'newlyMergedAccountData is: '},
+  {Name: 'cdataToStoreIs', Actual: app_msg.cdataToStoreIs, Expected: 'dataToStore is: '},
+  {Name: 'ccleanedAccountDataIs', Actual: app_msg.ccleanedAccountDataIs, Expected: 'cleanedAccountData is: '},
+  {Name: 'cconfirmedDeleteUserResponseIs', Actual: app_msg.cconfirmedDeleteUserResponseIs, Expected: 'confirmedDeleteUserResponse is: '},
+  {Name: 'callAccountsDataIs', Actual: app_msg.callAccountsDataIs, Expected: 'allAccountsData is: '},
 
   // Application messages
   {Name: 'cinstructionsMessage00', Actual: app_msg.cinstructionsMessage00, Expected: 'Instructions to end user:'},
@@ -40,8 +56,17 @@ export const applicationMessageConstantsValidation = [
   {Name: 'cinstructionsMessage14', Actual: app_msg.cinstructionsMessage14, Expected: 'Enter the command app?/appHelp or the command instructions to display these instructions again.'},
 
   {Name: 'cErrorInvalidUserNameCreateAccountMessage01', Actual: app_msg.cErrorInvalidUserNameCreateAccountMessage01, Expected: 'ERROR: Invalid user name, please try again with a valid username.'},
+  {Name: 'cErrorInvalidUserNameCreateAccountMessage02', Actual: app_msg.cErrorInvalidUserNameCreateAccountMessage02, Expected: 'ERROR: The user account already exists, please choose a different user name and try again.'},
+  {Name: 'cErrorCreateAccountMessage02', Actual: app_msg.cErrorCreateAccountMessage02, Expected: 'ERROR: Newly created account was not saved, could not create the specified account: '},
   {Name: 'cErrorNoUserAccountsDataLoadedMessage01', Actual: app_msg.cErrorNoUserAccountsDataLoadedMessage01, Expected: 'ERROR: No user accounts data was loaded, please ensure the accounts resources folder has accounts data. Path: '},
   {Name: 'cErrorNoLessonDataLoadedMessage01', Actual: app_msg.cErrorNoLessonDataLoadedMessage01, Expected: 'ERROR: No typing lessons data was loaded, please ensure the lessons folder has lessons data. Path: '},
+  {Name: 'cErrorNoUserFoundDeleteAccountMessage01', Acutal: app_msg.cErrorNoUserFoundDeleteAccountMessage01, Expected: 'ERROR: Cannot delete user, user does not exist.'},
+  {Name: 'cErrorNoDeleteAccountMessage02', Actual: app_msg.cErrorNoDeleteAccountMessage02, Expected: 'INFO: No account was deleted.'},
+  {Name: 'cUserDeleteAccountConfirmedMessage01', Actual: app_msg.cUserDeleteAccountConfirmedMessage01, Expected: 'WARNING: All user account data will be lost FOREVER!'},
+  {Name: 'cUserDeleteAccountConfirmedMessage02', Actual: app_msg.cUserDeleteAccountConfirmedMessage02, Expected: 'Are you sure you want to delete the account? (yes/y or no/n)'},
+  {Name: 'cErrorNoUserFoundLoginMessage01', Actual: app_msg.cErrorNoUserFoundLoginMessage01, Expceted: 'ERROR: Cannot login, user does not exist. '},
+  {Name: 'cErrorLoginMessage02', Actual: app_msg.cErrorLoginMessage02, Expected: 'ERROR: Unable to login with the specified user: '},
+  {Name: 'cErrorFailureToLogOutMessage01', Actual: app_msg.cErrorFailureToLogOutMessage01, Expected: 'ERROR: Failure to logout.'},
 
   // Constants Validation
   {Name: 'callClientConstantsValidationDataIs', Actual: app_msg.callClientConstantsValidationDataIs, Expected: 'allClientConstantsValidationData is: '},

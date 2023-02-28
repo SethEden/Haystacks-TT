@@ -34,6 +34,8 @@ export const callApplicationValidations = wrd.call + wrd.cApplication + wrd.cVal
 // Tutoring Commands in order
 // ********************************
 export const ccreateAccount = wrd.ccreate + wrd.cAccount; // createAccount
+export const cprintAccountsData = wrd.cprint + wrd.cAccounts + wrd.cData; // printAccountsData
+export const cprintAccountData = wrd.cprint + wrd.cAccount + wrd.cData; // printAccountData
 export const cdeleteAccount = wrd.cdelete + wrd.cAccount; // deleteAccount
 export const clogin = wrd.clogin; // login
 export const clogout = wrd.clogout; // logout

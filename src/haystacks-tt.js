@@ -6,6 +6,7 @@
  * @module main
  * @description This is the main init fro the haystacks-tt application.
  * It contains just enough of the main program loop and basic argument parsing to function as an interactive typing tutor application.
+ * @requires module:accountBroker
  * @requires module:tutoringRules
  * @requires module:tutoringCommands
  * @requires module:application.command.constants
@@ -25,6 +26,7 @@
  */
 
 // Internal imports
+import accountBroker from './brokers/accountBroker.js';
 import tutoringRules from './businessRules/tutoringRulesLibrary.js';
 import tutoringCommands from './commands/tutoringCommandsLibrary.js';
 import * as app_cmd from './constants/application.command.constants.js';
@@ -177,8 +179,9 @@ async function application() {
   // BEGIN command parser
   await haystacks.consoleLog(namespacePrefix, functionName, app_msg.capplicationMessage02);
   while (programRunning === true) {
+    currentUser = await accountBroker.currentUserAccount();
     if (await haystacks.isCommandQueueEmpty() === true) {
-      commandInput = await haystacks.executeBusinessRules([bas.cGreaterThan, ''], [wrd.cprompt]);
+      commandInput = await haystacks.executeBusinessRules([currentUser + bas.cGreaterThan, ''], [wrd.cprompt]);
       await haystacks.enqueueCommand(commandInput);
     } // End-if (await haystacks.isCommandQueueEmpty() === true)
     commandResult = await haystacks.processCommandQueue();
@@ -198,6 +201,7 @@ async function application() {
 
 // Launch the application!
 let programRunning = false;
+let currentUser = '';
 await bootStrapApplication();
 programRunning = true;
 await application();

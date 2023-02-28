@@ -18,7 +18,24 @@ import hayConst from '@haystacks/constants';
 const {bas, gen, msg, num, sys, wrd} = hayConst;
 
 // General application messages
+export const crawAccountDataIs = wrd.craw + wrd.cAccount + wrd.cData + sys.cSpaceIsColonSpace; // rawAccountData is:
+export const crawLessonsDataIs = wrd.craw + wrd.cLessons + wrd.cData + sys.cSpaceIsColonSpace; // rawLessonsData is:
 export const cuserAccountDataIs = wrd.cuser + wrd.cAccount + wrd.cData + sys.cSpaceIsColonSpace; // userAccountData is:
+export const cuserAccountKeyIs = wrd.cuser + wrd.cAccount + wrd.cKey + sys.cSpaceIsColonSpace; // userAccountKey is:
+export const cuserAccountIs = wrd.cuser + wrd.cAccount + sys.cSpaceIsColonSpace; // userAccount is:
+export const caccountNameIs = wrd.caccount + wrd.cName + sys.cSpaceIsColonSpace; // accountName is:
+export const clessonsDataIs = wrd.clessons + wrd.cData + sys.cSpaceIsColonSpace; // lessonsData is:
+export const clessonKeyIs = wrd.clesson + wrd.cKey + sys.cSpaceIsColonSpace; // lessonKey is:
+export const clessonDataIs = wrd.clesson + wrd.cData + sys.cSpaceIsColonSpace; // lessonData is:
+export const clessonNameArrayIs = wrd.clesson + wrd.cName + wrd.cArray + sys.cSpaceIsColonSpace; // lessonNameArray is:
+export const clessonNameIs = wrd.clesson + wrd.cName + sys.cSpaceIsColonSpace; // lessonName is:
+export const cnewAccountIs = wrd.cnew + wrd.cAccount + sys.cSpaceIsColonSpace; // newAccount is:
+export const cstoredAccountDataIs = wrd.cstored + wrd.cAccount + wrd.cData + sys.cSpaceIsColonSpace; // storedAccountData is:
+export const cnewlyMergedAccountDataIs = wrd.cnewly + wrd.cMerged + wrd.cAccount + wrd.cData + sys.cSpaceIsColonSpace; // newlyMergedAccountData is:
+export const cdataToStoreIs = wrd.cdata + wrd.cTo + wrd.cStore + sys.cSpaceIsColonSpace; // dataToStore is:
+export const ccleanedAccountDataIs = wrd.ccleaned + wrd.cAccount + wrd.cData + sys.cSpaceIsColonSpace; // cleanedAccountData is:
+export const cconfirmedDeleteUserResponseIs = wrd.cconfirmed + wrd.cDelete + wrd.cUser + wrd.cResponse + sys.cSpaceIsColonSpace; // confirmedDeleteUserResponse is:
+export const callAccountsDataIs = wrd.call + wrd.cAccounts + wrd.cData + sys.cSpaceIsColonSpace; // allAccountsData is:
 
 // Application messages
 export const cinstructionsMessage00 = wrd.cInstructions + bas.cSpace + wrd.cto + bas.cSpace + wrd.cend + bas.cSpace + wrd.cuser + bas.cColon; // Instructions to end user:
@@ -39,10 +56,28 @@ export const cinstructionsMessage14 = wrd.cEnter + bas.cSpace + wrd.cthe + bas.c
 
 // ERROR: Invalid user name, please try again with a valid username.
 export const cErrorInvalidUserNameCreateAccountMessage01 = msg.cERROR_Colon + wrd.cInvalid + bas.cSpace + wrd.cuser + bas.cSpace + wrd.cname + bas.cComa + bas.cSpace + wrd.cplease + bas.cSpace + wrd.ctry + bas.cSpace + wrd.cagain + bas.cSpace + wrd.cwith + bas.cSpace + bas.ca + bas.cSpace + wrd.cvalid + bas.cSpace + wrd.cuser + wrd.cname + bas.cDot;
+// ERROR: The user account already exists, please choose a different user name and try again.
+export const cErrorInvalidUserNameCreateAccountMessage02 = msg.cERROR_Colon + wrd.cThe + bas.cSpace + wrd.cuser + bas.cSpace + wrd.caccount + bas.cSpace + wrd.calready + bas.cSpace + wrd.cexists + bas.cComa + bas.cSpace + wrd.cplease + bas.cSpace + wrd.cchoose + bas.cSpace + bas.ca + bas.cSpace + wrd.cdifferent + bas.cSpace + wrd.cuser + bas.cSpace + wrd.cname + bas.cSpace + wrd.cand + bas.cSpace + wrd.ctry + bas.cSpace + wrd.cagain + bas.cDot
+// ERROR: Newly created account was not saved, could not create the specified account:
+export const cErrorCreateAccountMessage02 = msg.cERROR_Colon + wrd.cNewly + bas.cSpace + wrd.ccreated + bas.cSpace + wrd.caccount + bas.cSpace + wrd.cwas + bas.cSpace + wrd.cnot + bas.cSpace + wrd.csaved + bas.cComa + bas.cSpace + wrd.ccould + bas.cSpace + wrd.cnot + bas.cSpace + wrd.ccreate + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cspecified + bas.cSpace + wrd.caccount + bas.cColon + bas.cSpace;
 // ERROR: No user accounts data was loaded, please ensure the accounts resources folder has accounts data. Path:
 export const cErrorNoUserAccountsDataLoadedMessage01 = msg.cERROR_Colon + wrd.cNo + bas.cSpace + wrd.cuser + bas.cSpace + wrd.caccounts + bas.cSpace + wrd.cdata + bas.cSpace + wrd.cwas + bas.cSpace + wrd.cloaded + bas.cComa + bas.cSpace + wrd.cplease + bas.cSpace + wrd.censure + bas.cSpace + wrd.cthe + bas.cSpace + wrd.caccounts + bas.cSpace + wrd.cresources + bas.cSpace + wrd.cfolder + bas.cSpace + wrd.chas + bas.cSpace + wrd.caccounts + bas.cSpace + wrd.cdata + bas.cDot + bas.cSpace + wrd.cPath + bas.cColon + bas.cSpace;
 // ERROR: No typing lessons data was loaded, please ensure the lessons folder has lessons data. Path:
 export const cErrorNoLessonDataLoadedMessage01 = msg.cERROR_Colon + wrd.cNo + bas.cSpace + wrd.ctyping + bas.cSpace + wrd.clessons + bas.cSpace + wrd.cdata + bas.cSpace + wrd.cwas + bas.cSpace + wrd.cloaded + bas.cComa + bas.cSpace + wrd.cplease + bas.cSpace + wrd.censure + bas.cSpace + wrd.cthe + bas.cSpace + wrd.clessons + bas.cSpace + wrd.cfolder + bas.cSpace + wrd.chas + bas.cSpace + wrd.clessons + bas.cSpace + wrd.cdata + bas.cDot + bas.cSpace + wrd.cPath + bas.cColon + bas.cSpace;
+// ERROR: Cannot delete user, user does not exist.
+export const cErrorNoUserFoundDeleteAccountMessage01 = msg.cERROR_Colon + wrd.cCannot + bas.cSpace + wrd.cdelete + bas.cSpace + wrd.cuser + bas.cSpace + bas.cComa + bas.cSpace + wrd.cuser + bas.cSpace + wrd.cdoes + bas.cSpace + wrd.cnot + bas.cSpace + wrd.cexist + bas.cDot;
+// INFO: No account was deleted.
+export const cErrorNoDeleteAccountMessage02 = wrd.cINFO + bas.cColon + bas.cSpace + wrd.cNo + bas.cSpace + wrd.caccount + bas.cSpace + wrd.cwas + bas.cSpace + wrd.cdeleted + bas.cDot;
+// WARNING: All user account data will be lost FOREVER!
+export const cUserDeleteAccountConfirmedMessage01 = msg.cWARNING_Colon + wrd.cAll + bas.cSpace + wrd.cuser + bas.cSpace + wrd.caccount + bas.cSpace + wrd.cdata + bas.cSpace + wrd.cwill + bas.cSpace + wrd.cbe + bas.cSpace + wrd.clost + bas.cSpace + wrd.cFOREVER + bas.cExclamation;
+// Are you sure you want to delete the account? (yes/y or no/n)
+export const cUserDeleteAccountConfirmedMessage02 = wrd.cAre + bas.cSpace + wrd.cyou + bas.cSpace + wrd.csure + bas.cSpace + wrd.cyou + bas.cSpace + wrd.cwant + bas.cSpace + wrd.cto + bas.cSpace + wrd.cdelete + bas.cSpace + wrd.cthe + bas.cSpace + wrd.caccount + bas.cQuestion + bas.cSpace + bas.cOpenParenthesis + wrd.cyes + bas.cForwardSlash + bas.cy + bas.cSpace + wrd.cor + bas.cSpace + wrd.cno + bas.cForwardSlash + bas.cn + bas.cCloseParenthesis;
+// ERROR: Cannot login, user does not exist.
+export const cErrorNoUserFoundLoginMessage01 = msg.cERROR_Colon + wrd.cCannot + bas.cSpace + wrd.clogin + bas.cComa + bas.cSpace + wrd.cuser + bas.cSpace + wrd.cdoes + bas.cSpace + wrd.cnot + bas.cSpace + wrd.cexist + bas.cDot;
+// ERROR: Unable to login with the specified user:
+export const cErrorLoginMessage02 = msg.cERROR_Colon + wrd.cUnable + bas.cSpace + wrd.cto + bas.cSpace + wrd.clogin + bas.cSpace + wrd.cwith + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cspecified + bas.cSpace + wrd.cuser + bas.cColon + bas.cSpace;
+// ERROR: Failure to logout.
+export const cErrorFailureToLogOutMessage01 = msg.cERROR_Colon + wrd.cFailure + bas.cSpace + wrd.cto + bas.cSpace + wrd.clogout + bas.cDot;
 
 // Constants Validation
 export const callClientConstantsValidationDataIs = wrd.call + wrd.cClient + wrd.cConstants + wrd.cValidation + wrd.cData + sys.cSpaceIsColonSpace; // allClientConstantsValidationData is:

@@ -16,6 +16,7 @@ const {bas, gen, wrd} = hayConst;
 // Tutoring system constants
 export const cuserAccounts = wrd.cuser + wrd.cAccounts; // userAccounts
 export const capplicationLessons = wrd.capplication + wrd.cLessons; // applicationLessons
+export const cLessonPlan = wrd.cLesson + wrd.cPlan; // LessonPlan
 
 // Constants Validation
 export const cresolvedConstantsPath_Application = wrd.cresolved + wrd.cConstants + wrd.cPath + bas.cUnderscore + wrd.cApplication; // resolvedConstantsPath_Application
