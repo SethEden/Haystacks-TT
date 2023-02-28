@@ -1,3 +1,3 @@
 <?xml version="1.0" encoding="UTF-8"?><CommandsAliases>
-  <Command Name="command10" Aliases="Command10,CommandTen,C10,CTen,Cmd10" Description="Client Command 10"/>
+  <Command Name="createAccount" Aliases="CreateAccont,CreateAccnt,CreateAcct,CreateAct,CreateAccount,CAccont,CAccnt,CAcct,CAct,CAccount,CrtAccont,CrtAccnt,CrtAcct,CrtAct,CrtAccount,CratAccont,CratAccnt,CratAcct,CratAct,CratAccount,CretAccont,CretAccnt,CretAcct,CretAct,CretAccount,CrateAccont,CrateAccnt,CrateAcct,CrateAct,CrateAccount,CreeAccont,CreeAccnt,CreeAcct,CreeAct,CreeAccount,CreatAccont,CreatAccnt,CreatAcct,CreatAct" Description="Creates a Haystacks Typing Tutor account to track your progress."/>
 </CommandsAliases>

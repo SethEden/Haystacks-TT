@@ -12,4 +12,8 @@
 import hayConst from '@haystacks/constants';
 const {wrd} = hayConst;
 
-// smuggle something ccustomEchoCommand = wr1.ccustom + wr1.cEcho + wr1.cCommand; // customEchoCommand
+export const cappAccountsPath = wrd.capp + wrd.cAccounts + wrd.cPath; // appAccountsPath
+export const cappLessonsPath = wrd.capp + wrd.cLessons + wrd.cPath; // appLessonsPath
+export const csaveTypingRecords = wrd.csave + wrd.cTyping + wrd.cRecords; // saveTypingRecords
+export const clessonPlanSuccessLimitingFactor = wrd.clesson + wrd.cPlan + wrd.cSuccess + wrd.cLimiting + wrd.cFactor; // lessonPlanSuccessLimitingFactor
+export const cenableLessonPlanLimitingFactor = wrd.cenable + wrd.cLesson + wrd.cPlan + wrd.cLimiting + wrd.cFactor; // enableLessonPlanLimitingFactor

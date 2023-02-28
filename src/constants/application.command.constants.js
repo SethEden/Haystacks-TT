@@ -13,7 +13,7 @@
 
 // External imports
 import hayConst from '@haystacks/constants';
-const {bas, cmd, num, wrd} = hayConst;
+const {bas, wrd} = hayConst;
 
 // ********************************
 // ApplicationSystem Commands in order
@@ -33,6 +33,13 @@ export const callApplicationValidations = wrd.call + wrd.cApplication + wrd.cVal
 // ********************************
 // Tutoring Commands in order
 // ********************************
+export const ccreateAccount = wrd.ccreate + wrd.cAccount; // createAccount
+export const cdeleteAccount = wrd.cdelete + wrd.cAccount; // deleteAccount
+export const clogin = wrd.clogin; // login
+export const clogout = wrd.clogout; // logout
+export const cstartLesson = wrd.cstart + wrd.cLesson; // startLesson
+export const cprintRecords = wrd.cprint + wrd.cRecords; // printRecords
+export const cdestroyRecords = wrd.cdestroy + wrd.cRecords; // destroyRecords
 
 // ********************************
 // Application Workflows in order

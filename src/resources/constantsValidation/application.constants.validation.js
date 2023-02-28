@@ -25,31 +25,37 @@ export const applicationConstantsValidation = [
   {Name: 'cAppDevPath', Actual: apc.cAppDevPath, Expected: '/src/'},
   {Name: 'cAppProdPath', Actual: apc.cAppProdPath, Expected: '/bin/'},
   {Name: 'cResourcesCommonPath', Actual: apc.cResourcesCommonPath, Expected: 'resources/'},
+  {Name: 'cAccountsCommonPath', Actual: apc.cAccountsCommonPath, Expected: 'accounts/'},
   {Name: 'cCommandsCommonPath', Actual: apc.cCommandsCommonPath, Expected: 'commands/'},
   {Name: 'cConstantsPath', Actual: apc.cConstantsPath, Expected: 'constants/'},
   {Name: 'cConfigurationCommonPath', Actual: apc.cConfigurationCommonPath, Expected: 'configuration/'},
   {Name: 'cPluginsRegistryCommonPath', Actual: apc.cPluginsRegistryCommonPath, Expected: 'plugins/plugins.json'},
   {Name: 'cWorkflowsCommonPath', Actual: apc.cWorkflowsCommonPath, Expected: 'workflows/'},
+  {Name: 'cLessonsCommonPath', Actual: apc.cLessonsCommonPath, Expected: 'lessons/'},
   {Name: 'cThemesCommonPath', Actual: apc.cThemesCommonPath, Expected: 'themes/'},
   {Name: 'cReleasePath', Actual: apc.cReleasePath, Expected: 'release/'},
 
   // Full Dev Paths
   {Name: 'cFullDevResourcesPath', Actual: apc.cFullDevResourcesPath, Expected: '/src/resources/'},
+  {Name: 'cFullDevAccountsPath', Actual: apc.cFullDevAccountsPath, Expected: '/src/resources/accounts/'},
   {Name: 'cFullDevCommandsPath', Actual: apc.cFullDevCommandsPath, Expected: '/src/resources/commands/'},
   {Name: 'cFullDevConstantsPath', Actual: apc.cFullDevConstantsPath, Expected: '/src/constants/'},
   {Name: 'cFullDevConfigurationPath', Actual: apc.cFullDevConfigurationPath, Expected: '/src/resources/configuration/'},
   {Name: 'cFullDevPluginsRegistryPath', Actual: apc.cFullDevPluginsRegistryPath, Expected: '/src/resources/plugins/plugins.json'},
   {Name: 'cFullDevWorkflowsPath', Actual: apc.cFullDevWorkflowsPath, Expected: '/src/resources/workflows/'},
+  {Name: 'cFullDevLessonsPath', Actual: apc.cFullDevLessonsPath, Expected: '/src/resources/lessons/'},
   {Name: 'cFullDevThemesPath', Actual: apc.cFullDevThemesPath, Expected: '/src/resources/themes/'},
   {Name: 'cmetaDataDevPath', Actual: apc.cmetaDataDevPath, Expected: '/src/resources/metaData.json'},
 
   // Full Prod Paths
   {Name: 'cFullProdResourcesPath', Actual: apc.cFullProdResourcesPath, Expected: '/bin/resources/'},
+  {Name: 'cFullProdAccountsPath', Actual: apc.cFullProdAccountsPath, Expected: '/bin/resources/accounts/'},
   {Name: 'cFullProdCommandsPath', Actual: apc.cFullProdCommandsPath, Expected: '/bin/resources/commands/'},
   {Name: 'cFullProdConstantsPath', Actual: apc.cFullProdConstantsPath, Expected: '/bin/constants/'},
   {Name: 'cFullProdConfigurationPath', Actual: apc.cFullProdConfigurationPath, Expected: '/bin/resources/configuration/'},
   {Name: 'cFullProdPluginsRegistryPath', Actual: apc.cFullProdPluginsRegistryPath, Expected: '/bin/resources/plugins/plugins.json'},
   {Name: 'cFullProdWorkflowsPath', Actual: apc.cFullProdWorkflowsPath, Expected: '/bin/resources/workflows/'},
+  {Name: 'cFullProdLessonsPath', Actual: apc.cFullProdLessonsPath, Expected: '/bin/resources/lessons/'},
   {Name: 'cFullProdThemesPath', Actual: apc.cFullProdThemesPath, Expected: '/bin/resources/themes/'},
   {Name: 'cmetaDataProdPath', Actual: apc.cmetaDataProdPath, Expected: '/bin/resources/metaData.json'}
 ];

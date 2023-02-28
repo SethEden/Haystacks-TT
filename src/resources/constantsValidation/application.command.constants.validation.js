@@ -22,6 +22,7 @@ export const applicationCommandConstantsValidation = [
   // ********************************
   // ApplicationSystem Commands in order
   // ********************************
+  {Name: 'cinstructions', Actual: app_cmd.cinstructions, Expected: 'instructions'},
   {Name: 'capplicationHelp', Actual: app_cmd.capplicationHelp, Expected: 'applicationHelp'},
   {Name: 'capplicationWorkflowHelp', Actual: app_cmd.capplicationWorkflowHelp, Expected: 'applicationWorkflowHelp'},
 
@@ -36,5 +37,16 @@ export const applicationCommandConstantsValidation = [
   // ********************************
   // Tutoring Commands in order
   // ********************************
-  {Name: 'ccommand10', Actual: app_cmd.ccommand10, Expected: 'command10'}
+  {Name: 'ccreateAccount', Actual: app_cmd.ccreateAccount, Expected: 'createAccount'},
+  {Name: 'cdeleteAccount', Actual: app_cmd.cdeleteAccount, Expected: 'deleteAccount'},
+  {Name: 'clogin', Actual: app_cmd.clogin, Expected: 'login'},
+  {Name: 'clogout', Actual: app_cmd.clogout, Expected: 'logout'},
+  {Name: 'cstartLesson', Actual: app_cmd.cstartLesson, Expected: 'startLesson'},
+  {Name: 'cprintRecords', Actual: app_cmd.cprintRecords, Expected: 'printRecords'},
+  {Name: 'cdestroyRecords', Actual: app_cmd.cdestroyRecords, Expected: 'destroyRecords'},
+
+  // ********************************
+  // Application Workflows in order
+  // ********************************
+  {Name: 'cApplicationStartupWorkflow', Actual: app_cmd.cApplicationStartupWorkflow, Expected: 'Workflow applicationStartup'}
 ];

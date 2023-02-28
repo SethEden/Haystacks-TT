@@ -19,6 +19,30 @@ import * as app_msg from '../../constants/application.message.constants.js';
  * @date 2023/02/24
  */
 export const applicationMessageConstantsValidation = [
+  // General application messages
+  {Name: 'cuserAccountDataIs', Actual: app_msg.cuserAccountDataIs, Expected: 'userAccountData is: '},
+
+  // Application messages
+  {Name: 'cinstructionsMessage00', Actual: app_msg.cinstructionsMessage00, Expected: 'Instructions to end user:'},
+  {Name: 'cinstructionsMessage01', Actual: app_msg.cinstructionsMessage01, Expected: 'Create an account using the createAccount command and provide your username.'},
+  {Name: 'cinstructionsMessage02', Actual: app_msg.cinstructionsMessage02, Expected: 'Use the login command to login to your account, no password or email required.'},
+  {Name: 'cinstructionsMessage03', Actual: app_msg.cinstructionsMessage03, Expected: 'Use the logout command to logout, if you want to allow another user to login, or just exit by typing exit/quit or x/q.'},
+  {Name: 'cinstructionsMessage04', Actual: app_msg.cinstructionsMessage04, Expected: 'All your lesson records will be stored under your account name in a local file under the resources folder.'},
+  {Name: 'cinstructionsMessage05', Actual: app_msg.cinstructionsMessage05, Expected: 'You can opt-out of saving your records by changing the flag: saveTypingRecords in the configuration settings file: ./src/resources/configuration/application.system.json'},
+  {Name: 'cinstructionsMessage06', Actual: app_msg.cinstructionsMessage06, Expected: 'You can call destroyRecords command with your account name to wipe out your typing records for good.'},
+  {Name: 'cinstructionsMessage07', Actual: app_msg.cinstructionsMessage07, Expected: 'The deleteAccount command will delete your account and destroy all your typing records for good.'},
+  {Name: 'cinstructionsMessage08', Actual: app_msg.cinstructionsMessage08, Expected: 'Once you are logged in, you can use the lessons command to display the lessons and see which lessons you have completed, and which ones are not yet started.'},
+  {Name: 'cinstructionsMessage09', Actual: app_msg.cinstructionsMessage09, Expected: 'If you are NOT logged in, the lessons command will simply list all the lessons available by the system.'},
+  {Name: 'cinstructionsMessage10', Actual: app_msg.cinstructionsMessage10, Expected: 'If you are NOT logged in, running the startLesson with a lesson number will start the lesson without saving any of the typing records.'},
+  {Name: 'cinstructionsMessage11', Actual: app_msg.cinstructionsMessage11, Expected: 'If you are logged in the system will only let you proceed to the next lesson if you have completed all the previous lessons with 90% success or greater.'},
+  {Name: 'cinstructionsMessage12', Actual: app_msg.cinstructionsMessage12, Expected: 'You can change the success limiting factor by changing the configuration flag: lessonPlanSuccessLimitingFactor to some other value other than 90%.'},
+  {Name: 'cinstructionsMessage13', Actual: app_msg.cinstructionsMessage13, Expected: 'You can disable the success limiting factor completely and allow your users to take any lesson at any time by changing the configuration flag: enableLessonPlanLimitingFactor.'},
+  {Name: 'cinstructionsMessage14', Actual: app_msg.cinstructionsMessage14, Expected: 'Enter the command app?/appHelp or the command instructions to display these instructions again.'},
+
+  {Name: 'cErrorInvalidUserNameCreateAccountMessage01', Actual: app_msg.cErrorInvalidUserNameCreateAccountMessage01, Expected: 'ERROR: Invalid user name, please try again with a valid username.'},
+  {Name: 'cErrorNoUserAccountsDataLoadedMessage01', Actual: app_msg.cErrorNoUserAccountsDataLoadedMessage01, Expected: 'ERROR: No user accounts data was loaded, please ensure the accounts resources folder has accounts data. Path: '},
+  {Name: 'cErrorNoLessonDataLoadedMessage01', Actual: app_msg.cErrorNoLessonDataLoadedMessage01, Expected: 'ERROR: No typing lessons data was loaded, please ensure the lessons folder has lessons data. Path: '},
+
   // Constants Validation
   {Name: 'callClientConstantsValidationDataIs', Actual: app_msg.callClientConstantsValidationDataIs, Expected: 'allClientConstantsValidationData is: '},
   {Name: 'cresolvedConstantsPath_ApplicationBusinessIs', Actual: app_msg.cresolvedConstantsPath_ApplicationBusinessIs, Expected: 'resolvedConstantsPath_ApplicationBusiness is: '},

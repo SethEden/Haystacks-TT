@@ -19,5 +19,9 @@ import * as app_cfg from '../../constants/application.configuration.constants.js
  * @date 2023/02/24
  */
 export const applicationConfigurationConstantsValidation = [
-
+  {Name: 'cappAccountsPath', Actual: app_cfg.cappAccountsPath, Expected: 'appAccountsPath'},
+  {Name: 'cappLessonsPath', Actual: app_cfg.cappLessonsPath, Expected: 'appLessonsPath'},
+  {Name: 'csaveTypingRecords', Actual: app_cfg.csaveTypingRecords, Expected: 'saveTypingRecords'},
+  {Name: 'clessonPlanSuccessLimitingFactor', Actual: app_cfg.clessonPlanSuccessLimitingFactor, Expected: 'lessonPlanSuccessLimitingFactor'},
+  {Name: 'cenableLessonPlanLimitingFactor', Actual: app_cfg.cenableLessonPlanLimitingFactor, Expected: 'enableLessonPlanLimitingFactor'}
 ];

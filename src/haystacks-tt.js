@@ -31,6 +31,7 @@ import * as app_cmd from './constants/application.command.constants.js';
 import * as app_cfg from './constants/application.configuration.constants.js';
 import * as apc from './constants/application.constants.js';
 import * as app_msg from './constants/application.message.constants.js';
+import * as app_sys from './constants/application.system.constants.js';
 import allAppCV from './resources/constantsValidation/allApplicationConstantsValidationMetadata.js';
 // External imports
 import haystacks from '@haystacks/async';
@@ -39,7 +40,7 @@ import url from 'url';
 import dotenv from 'dotenv';
 import path from 'path';
 
-const {bas, biz, cmd, msg, sys, wrd} = hayConst;
+const {bas, msg, sys, wrd} = hayConst;
 let rootPath = '';
 let baseFileName = path.basename(import.meta.url, path.extname(import.meta.url));
 // application.haystacks-tt.
@@ -78,12 +79,14 @@ async function bootStrapApplication() {
       FrameworkName: apc.cExpectedActualFrameworkDevName,
       clientRootPath: rootPath,
       appConfigResourcesPath: rootPath + apc.cFullDevResourcesPath,
+      appAccountsPath: rootPath + apc.cFullDevAccountsPath,
       appConfigReferencePath: rootPath + apc.cFullDevConfigurationPath,
       clientMetaDataPath: apc.cmetaDataDevPath,
       clientCommandAliasesPath: rootPath + apc.cFullDevCommandsPath,
       clientConstantsPath: rootPath + apc.cFullDevConstantsPath,
       clientRegisteredPlugins: rootPath + apc.cFullDevPluginsRegistryPath,
       clientWorkflowsPath: rootPath + apc.cFullDevWorkflowsPath,
+      appLessonsPath: rootPath + apc.cFullDevLessonsPath,
       clientThemesPath: rootPath + apc.cFullDevThemesPath,
       applicationConstantsValidationData: allAppCV.initializeAllClientConstantsValidationData,
       clientBusinessRules: {},
@@ -94,12 +97,14 @@ async function bootStrapApplication() {
       FrameworkName: apc.cExpectedActualFrameworkProdName,
       clientRootPath: rootPath,
       appConfigResourcesPath: rootPath + apc.cFullProdResourcesPath,
+      appAccountsPath: rootPath + apc.cFullProdAccountsPath,
       appConfigReferencePath: rootPath + apc.cFullProdConfigurationPath,
       clientMetaDataPath: apc.metaDataProdPath,
       clientCommandAliasesPath: rootPath + apc.cFullProdCommandsPath,
       clientConstantsPath: rootPath + apc.cFullProdConstantsPath,
       clientRegisteredPlugins: rootPath + apc.cFullProdPluginsRegistryPath,
       clientWorkflowsPath: rootPath + apc.cFullProdWorkflowsPath,
+      appLessonsPath: rootPath + apc.cFullProdLessonsPath,
       clientThemesPath: rootPath + apc.cFullProdThemesPath,
       applicationConstantsValidationData: allAppCV.initializeAllClientConstantsValidationData,
       clientBusinessRules: {},
@@ -112,12 +117,14 @@ async function bootStrapApplication() {
       FrameworkName: apc.cExpectedActualFrameworkDevName,
       clientRootPath: rootPath,
       appConfigResourcesPath: rootPath + apc.cFullDevResourcesPath,
+      appAccountsPath: rootPath + apc.cFullDevAccountsPath,
       appConfigReferencePath: rootPath + apc.cFullDevConfigurationPath,
       clientMetaDataPath: apc.cmetaDataDevPath,
       clientCommandAliasesPath: rootPath + apc.cFullDevCommandsPath,
       clientConstantsPath: rootPath + apc.cFullDevConstantsPath,
       clientRegisteredPlugins: rootPath + apc.cFullDevPluginsRegistryPath,
       clientWorkflowsPath: rootPath + apc.cFullDevWorkflowsPath,
+      appLessonsPath: rootPath + apc.cFullDevLessonsPath,
       clientTemesPath: rootPath + apc.cFullDevThemesPath,
       applicationConstantsValidationData: allAppCV.initializeAllClientConstantsValidationData,
       clientBusinessRules: {},
@@ -128,6 +135,20 @@ async function bootStrapApplication() {
   appConfig[sys.cclientCommands] = await tutoringCommands.initApplicationCommandsLibrary();
   // console.log('appConfig is: ', appConfig);
   await haystacks.initFramework(appConfig);
+  await haystacks.setConfigurationSetting(wrd.csystem, app_cfg.cappAccountsPath, appConfig[app_cfg.cappAccountsPath]);
+  await haystacks.setConfigurationSetting(wrd.csystem, app_cfg.cappLessonsPath, appConfig[app_cfg.cappLessonsPath]);
+  let accountsData = await haystacks.loadAllJsonData(appConfig[app_cfg.cappAccountsPath], app_sys.cuserAccounts);
+  let lessonsData = await haystacks.loadAllJsonData(appConfig[app_cfg.cappLessonsPath], app_sys.capplicationLessons);
+  let accountDataStored = await haystacks.storeData(app_sys.cuserAccounts, accountsData);
+  let lessonDataStored = await haystacks.storeData(app_sys.capplicationLessons, lessonsData);
+  if (accountDataStored === false || !accountsData) {
+    // ERROR: No user accounts data was loaded, please ensure the accounts resources folder has accounts data. Path:
+    console.log(app_msg.cErrorNoUserAcountsDataLoadedMessage01 + appConfig[app_cfg.cappAccountsPath]);
+  }
+  if (lessonDataStored === false || !lessonsData) {
+    // ERROR: No typing lessons data was loaded, please ensure the lessons folder has lessons data. Path:
+    console.log(app_msg.cErrorNoLessonDataLoadedMessage01 + appConfig[app_cfg.cappLessonsPath]);
+  }
   // console.log(`END ${namespacePrefix}${functionName} function`);
 }
 

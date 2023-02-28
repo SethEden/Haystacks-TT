@@ -13,6 +13,10 @@
 import hayConst from '@haystacks/constants';
 const {bas, gen, wrd} = hayConst;
 
+// Tutoring system constants
+export const cuserAccounts = wrd.cuser + wrd.cAccounts; // userAccounts
+export const capplicationLessons = wrd.capplication + wrd.cLessons; // applicationLessons
+
 // Constants Validation
 export const cresolvedConstantsPath_Application = wrd.cresolved + wrd.cConstants + wrd.cPath + bas.cUnderscore + wrd.cApplication; // resolvedConstantsPath_Application
 export const capplicationBusinessConstantsValidation = wrd.capplication + wrd.cBusiness + wrd.cConstants + wrd.cValidation; // applicationBusinessConstantsValidation
