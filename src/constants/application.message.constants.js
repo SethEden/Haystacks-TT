@@ -37,6 +37,13 @@ export const ccleanedAccountDataIs = wrd.ccleaned + wrd.cAccount + wrd.cData + s
 export const cconfirmedDeleteUserResponseIs = wrd.cconfirmed + wrd.cDelete + wrd.cUser + wrd.cResponse + sys.cSpaceIsColonSpace; // confirmedDeleteUserResponse is:
 export const callAccountsDataIs = wrd.call + wrd.cAccounts + wrd.cData + sys.cSpaceIsColonSpace; // allAccountsData is:
 export const clessonNumberIs = wrd.clesson + wrd.cNumber + sys.cSpaceIsColonSpace; // lessonNumber is:
+export const cindividualLessonDataIs = wrd.cindividual + wrd.cLesson + wrd.cData + sys.cSpaceIsColonSpace; // individualLessonData is:
+export const cindividualLessonLineKeyIs = wrd.cindividual + wrd.cLesson + wrd.cLine + wrd.cKey + sys.cSpaceIsColonSpace; // individualLessonLineKey is:
+export const cindividualLessonLineIs = wrd.cindividual + wrd.cLesson + wrd.cLine + sys.cSpaceIsColonSpace; // individualLessonLine is:
+export const ccurrentUserNameIs = wrd.ccurrent + wrd.cUser + wrd.cName + sys.cSpaceIsColonSpace; // currentUserName is:
+export const clessonPassingScoreEnabledIs = wrd.clesson + wrd.cPassing + wrd.cScore + wrd.cEnabled + sys.cSpaceIsColonSpace; // lessonPassingScoreEnabled is:
+export const cpassingScoreLimitIs = wrd.cpassing + wrd.cScore + wrd.cLimit + sys.cSpaceIsColonSpace; // passingScoreLimit is:
+export const clessonScoreDataIs = wrd.clesson + wrd.cScore + wrd.cData + sys.cSpaceIsColonSpace; // lessonScoreData is:
 
 // Application messages
 export const cinstructionsMessage00 = wrd.cInstructions + bas.cSpace + wrd.cto + bas.cSpace + wrd.cend + bas.cSpace + wrd.cuser + bas.cColon; // Instructions to end user:
@@ -83,6 +90,46 @@ export const cErrorFailureToLogOutMessage01 = msg.cERROR_Colon + wrd.cFailure + 
 export const cErrorStartLessonMessage01 = msg.cERROR_Colon + wrd.cNo + bas.cSpace + wrd.clesson + bas.cSpace + wrd.cnumber + bas.cSpace + wrd.centered + bas.cDot + bas.cSpace + wrd.cPlease + bas.cSpace + wrd.center + bas.cSpace + bas.ca + bas.cSpace + wrd.cvalid + bas.cSpace + wrd.clesson + bas.cSpace + wrd.cnumber + bas.cSpace + wrd.cto + bas.cSpace + wrd.cexecute + bas.cDot;
 // ERROR: Invalid lesson number entered. Please enter a valid lesson number to execute.
 export const cErrorStartLessonMessage02 = msg.cERROR_Colon + wrd.cInvalid + bas.cSpace + wrd.clesson + bas.cSpace + wrd.cnumber + bas.cSpace + wrd.centered + bas.cDot + bas.cSpace + wrd.cPlease + bas.cSpace + wrd.center + bas.cSpace + bas.ca + bas.cSpace + wrd.cvalid + bas.cSpace + wrd.clesson + bas.cSpace + wrd.cnumber + bas.cSpace + wrd.cto + bas.cSpace + wrd.cexecute + bas.cDot;
+// ERROR: The lesson number entered is not available.
+export const cErrorStartLessonMessage03 = msg.cERROR_Colon + wrd.cThe + bas.cSpace + wrd.clesson + bas.cSpace + wrd.cnumber + bas.cSpace + wrd.centered + bas.cSpace + wrd.cis + bas.cSpace + wrd.cnot + bas.cSpace + wrd.cavailable + bas.cDot;
+// Please enter a lesson number between 1 and:
+export const cErrorStartLessonMessage04 = wrd.cPlease + bas.cSpace + wrd.center + bas.cSpace + bas.ca + bas.cSpace + wrd.clesson + bas.cSpace + wrd.cnumber + bas.cSpace + wrd.cbetween + bas.cSpace + num.c1 + bas.cSpace + wrd.cand + bas.cColon + bas.cSpace;
+// ERROR: There was an error with the lesson data, invalid lesson number: 
+export const cErrorGetIndividualLessonDataMessage01 = msg.cERROR_Colon + wrd.cThere + bas.cSpace + wrd.cwas + bas.cSpace + wrd.can + bas.cSpace + wrd.cerror + bas.cSpace + wrd.cwith + bas.cSpace + wrd.cthe + bas.cSpace + wrd.clesson + bas.cSpace + wrd.cdata + bas.cComa + bas.cSpace + wrd.cinvalid + bas.cSpace + wrd.clesson + bas.cSpace + wrd.cnumber + bas.cColon + bas.cSpace;
+// ERROR: No lesson lines for the specified lesson number:
+export const cErrorExecuteLessonMessage01 = msg.cERROR_Colon + wrd.cNo + bas.cSpace + wrd.clesson + bas.cSpace + wrd.clines + bas.cSpace + wrd.cfor + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cspecified + bas.cSpace + wrd.clesson + bas.cSpace + wrd.cnumber + bas.cColon + bas.cSpace;
+// ****************************************************************************************************
+// LESSON INSTRUCTIONS:
+export const cLessonInstructionsMessage01 = wrd.cLESSON + bas.cSpace + wrd.cINSTRUCTIONS + bas.cColon;
+// Place your left index finger on the "F" key, and your right index finger on the "J" key.
+export const cLessonInstructionsMessage02 = wrd.cPlace + bas.cSpace + wrd.cyour + bas.cSpace + wrd.cleft + bas.cSpace + wrd.cindex + bas.cSpace + wrd.cfinger + bas.cSpace + bas.con + bas.cSpace + wrd.cthe + bas.cSpace + bas.cDoubleQuote + bas.cF + bas.cDoubleQuote + bas.cSpace + wrd.ckey + bas.cComa + bas.cSpace + wrd.cand + bas.cSpace + wrd.cyour + bas.cSpace + wrd.cright + bas.cSpace + wrd.cindex + bas.cSpace + wrd.cfinger + bas.cSpace + bas.con + bas.cSpace + wrd.cthe + bas.cSpace + bas.cDoubleQuote + bas.cJ + bas.cDoubleQuote + bas.cSpace + wrd.ckey + bas.cDot;
+// Feel for the small raised bumps on the keys.
+export const cLessonInstructionsMessage03 = wrd.cFeel + wrd.cfor + wrd.cthe + wrd.csmall + wrd.craised + wrd.cbumps + bas.con + wrd.cthe + wrd.ckeys + bas.cDot;
+// These will help you ensure your fingers are on the correct home row before you begin typing.
+export const cLessonInstructionsMessage04 = wrd.cThese + bas.cSpace + wrd.cwill + bas.cSpace + wrd.chelp + bas.cSpace + wrd.cyou + bas.cSpace + wrd.censure + bas.cSpace + wrd.cyour + bas.cSpace + wrd.cfingers + bas.cSpace + wrd.care + bas.cSpace + bas.con + bas.cSpace + wrd.cthe + bas.cSpace + wrd.ccorrect + bas.cSpace + wrd.chome + bas.cSpace + wrd.crow + bas.cSpace + wrd.cbefore + bas.cSpace + wrd.cyou + bas.cSpace + wrd.cbegin + bas.cSpace + wrd.ctyping + bas.cDot;
+// The rest of your fingers should naturally fall to the 3 keys adjacent and inline on the same row.
+export const cLessonInstructionsMessage05 = wrd.cThe + bas.cSpace + wrd.crest + bas.cSpace + wrd.cof + bas.cSpace + wrd.cyour + bas.cSpace + wrd.cfingers + bas.cSpace + wrd.cshould + bas.cSpace + wrd.cnaturally + bas.cSpace + wrd.cfall + bas.cSpace + wrd.cto + bas.cSpace + wrd.cthe + bas.cSpace + num.c3 + bas.cSpace + wrd.ckeys + bas.cSpace + wrd.cadjacent + bas.cSpace + wrd.cand + bas.cSpace + wrd.cinline + bas.cSpace + bas.con + bas.cSpace + wrd.cthe + bas.cSpace + wrd.csame + bas.cSpace + wrd.crow + bas.cDot;
+// Left fingers should rest on the keys "D", "S", and "A".
+export const cLessonInstructionsMessage06 = wrd.cLeft + bas.cSpace + wrd.cfingers + bas.cSpace + wrd.cshould + bas.cSpace + wrd.crest + bas.cSpace + bas.con + bas.cSpace + wrd.cthe + bas.cSpace + wrd.ckeys + bas.cSpace + bas.cDoubleQuote + bas.cD + bas.cDoubleQuote + bas.cComa + bas.cSpace + bas.cDoubleQuote + bas.cS + bas.cDoubleQuote + bas.cComa + bas.cSpace + wrd.cand + bas.cSpace + bas.cDoubleQuote + bas.cA + bas.cDoubleQuote + bas.cDot;
+// Right fingers should rest on the keys "K", "L", and ";".
+export const cLessonInstructionsMessage07 = wrd.cRight + bas.cSpace + wrd.cfingers + bas.cSpace + wrd.cshould + bas.cSpace + wrd.crest + bas.cSpace + bas.con + bas.cSpace + wrd.cthe + bas.cSpace + wrd.ckeys + bas.cSpace + bas.cDoubleQuote + bas.cK + bas.cDoubleQuote + bas.cComa + bas.cSpace + bas.cDoubleQuote + bas.cL + bas.cDoubleQuote + bas.cComa + bas.cSpace + wrd.cand + bas.cSpace + bas.cDoubleQuote + bas.cSemiColon + bas.cDoubleQuote + bas.cDot;
+// Sit upright in your chair, back straight, elbows at your sides.
+export const cLessonInstructionsMessage08 = wrd.cSit + bas.cSpace + wrd.cupright + bas.cSpace + wrd.cin + bas.cSpace + wrd.cyour + bas.cSpace + wrd.cchair + bas.cComa + bas.cSpace + wrd.cback + bas.cSpace + wrd.cstraight + bas.cComa + bas.cSpace + wrd.celbows + bas.cSpace + wrd.cat + bas.cSpace + wrd.cyour + bas.cSpace + wrd.csides + bas.cDot;
+// The lesson will begin when you type the first character for each line.
+export const cLessonInstructionsMessage09 = wrd.cThe + bas.cSpace + wrd.clesson + bas.cSpace + wrd.cwill + bas.cSpace + wrd.cbegin + bas.cSpace + wrd.cwhen + bas.cSpace + wrd.cyou + bas.cSpace + wrd.ctype + bas.cSpace + wrd.cthe + bas.cSpace + num.cfirst + bas.cSpace + wrd.ccharacter + bas.cSpace + wrd.cfor + bas.cSpace + wrd.ceach + bas.cSpace + wrd.cline + bas.cDot;
+// This is a timed lesson, so the faster you go the better your score will be.
+export const cLessonInstructionsMessage10 = wrd.cThis + bas.cSpace + wrd.cis + bas.cSpace + bas.ca + bas.cSpace + wrd.ctimed + bas.cSpace + wrd.clesson + bas.cComa + bas.cSpace + wrd.cso + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cfaster + bas.cSpace + wrd.cyou + bas.cSpace + wrd.cgo + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cbetter + bas.cSpace + wrd.cyour + bas.cSpace + wrd.cscore + bas.cSpace + wrd.cwill + bas.cSpace + wrd.cbe + bas.cDot;
+// However, typing errors count against your score.
+export const cLessonInstructionsMessage11 = wrd.cHowever + bas.cComa + bas.cSpace + wrd.ctyping + bas.cSpace + wrd.cerrors + bas.cSpace + wrd.ccount + bas.cSpace + wrd.cagainst + bas.cSpace + wrd.cyour + bas.cSpace + wrd.cscore + bas.cDot;
+// You must get a score of:
+export const cLessonInstructionsMessage12 = wrd.cYou + bas.cSpace + wrd.cmust + bas.cSpace + wrd.cget + bas.cSpace + bas.ca + bas.cSpace + wrd.cscore + bas.cSpace + wrd.cof + bas.cColon + bas.cSpace;
+// or higher to advance to the next lesson.
+export const cLessonInstructionsMessage13 = wrd.cor + bas.cSpace + wrd.chigher + bas.cSpace + wrd.cto + bas.cSpace + wrd.cadvance + bas.cSpace + wrd.cto + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cnext + bas.cSpace + wrd.clesson + bas.cDot;
+// A report showing your score will display after the lesson is complete.
+export const cLessonInstructionsMessage14 = bas.cA + bas.cSpace + wrd.creport + bas.cSpace + wrd.cshowing + bas.cSpace + wrd.cyour + bas.cSpace + wrd.cscore + bas.cSpace + wrd.cwill + bas.cSpace + wrd.cdisplay + bas.cSpace + wrd.cafter + bas.cSpace + wrd.cthe + bas.cSpace + wrd.clesson + bas.cSpace + wrd.cis + bas.cSpace + wrd.ccomplete + bas.cDot;
+// Press the "ESC" key, in the far upper left corner of the keyboard to cancel a lesson.
+export const cLessonInstructionsMessage15 = wrd.cPress + bas.cSpace + wrd.cthe + bas.cSpace + bas.cDoubleQuote + gen.cESC + bas.cDoubleQuote + wrd.ckey + bas.cComa + bas.cSpace + wrd.cin + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cfar + bas.cSpace + wrd.cupper + bas.cSpace + wrd.cleft + bas.cSpace + wrd.ccorner + bas.cSpace + wrd.cof + bas.cSpace + wrd.cthe + bas.cSpace + wrd.ckeyboard + bas.cSpace + wrd.cto + bas.cSpace + wrd.ccancel + bas.cSpace + bas.ca + bas.cSpace + wrd.clesson + bas.cDot;
+// ****************************************************************************************************
 
 // Constants Validation
 export const callClientConstantsValidationDataIs = wrd.call + wrd.cClient + wrd.cConstants + wrd.cValidation + wrd.cData + sys.cSpaceIsColonSpace; // allClientConstantsValidationData is:

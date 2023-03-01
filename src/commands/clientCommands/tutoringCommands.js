@@ -15,7 +15,6 @@
 
 // Internal imports
 import accountBroker from '../../brokers/accountBroker.js';
-import * as app_cfg from '../../constants/application.configuration.constants.js';
 import * as apc from '../../constants/application.constants.js';
 import * as app_msg from '../../constants/application.message.constants.js';
 // External imports
@@ -282,7 +281,26 @@ async function startLesson(inputData, inputMetaData) {
   let returnData = [true, ''];
   if (Array.isArray(inputData) && inputData.length === 2) {
     if (parseInt(inputData[1]) > 0) {
-      
+      let maxLessonNumber = await accountBroker.getHighestLessonCount();
+      let userLessonNumber = parseInt(inputData[1]);
+      if (userLessonNumber > 0 && userLessonNumber <= maxLessonNumber) {
+        let lessonPassingScoreEnabled = await accountBroker.isLessonAdvancementLimitEnabled();
+        // lessonPassingScoreEnabled is:
+        await haystacks.consoleLog(namespacePrefix, functionName, app_msg.clessonPassingScoreEnabledIs + lessonPassingScoreEnabled);
+        let lessonAdvancementScoreLimit = await accountBroker.getLessonAdvancementScoreLimit();
+        // lessonAdvancementScoreLimit is:
+        await haystacks.consoleLog(namespacePrefix, functionName, msg.clessonAdvancementScoreLimitIs + lessonAdvancementScoreLimit);
+        // TODO: Filter on the above flag and determine if the user is going to be allowed to execute this lesson number or not,
+        // TODO: based on their history of passing scores on all their previous lessons.
+        let lessonScoreData = await accountBroker.executeLesson(userLessonNumber);
+        // lessonScoreData is:
+        await haystacks.consoleLog(namespacePrefix, functionName, msg.clessonScoreDataIs + JSON.stringify(lessonScoreData));
+      } else {
+        // ERROR: The lesson number entered is not available.
+        console.log(app_msg.cErrorStartLessonMessage03);
+        // Please enter a lesson number between 1 and:
+        console.log(app_msg.cErrorStartLessonMessage04 + maxLessonNumber);
+      }
     } else {
       // ERROR: Invalid lesson number entered. Please enter a valid lesson number to execute.
       console.log(app_msg.cErrorStartLessonMessage02)

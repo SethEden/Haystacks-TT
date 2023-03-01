@@ -3,7 +3,10 @@
     "Lesson_0001": {
       "Number": 1,
       "Description": "Keys f & j",
-      "Type": "fj"
+      "Lines": [{
+        "Line_01": "fj",
+        "Line_02": "ffffjjj"
+      }]
     }
   },
   {

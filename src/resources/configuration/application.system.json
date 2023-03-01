@@ -30,5 +30,6 @@
   "system.logAllCommands": true,
   "system.enableUserCommandsLogClearing": true,
   "system.enableAllCommandsLogClearing": true,
-  "system.AppSetting": "TrunkMonkey"
+  "system.enableLessonPlanLimitingFactor": true,
+  "system.lessonPlanSuccessLimitingFactor": 90
 }

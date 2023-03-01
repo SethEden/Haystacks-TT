@@ -38,6 +38,13 @@ export const applicationMessageConstantsValidation = [
   {Name: 'cconfirmedDeleteUserResponseIs', Actual: app_msg.cconfirmedDeleteUserResponseIs, Expected: 'confirmedDeleteUserResponse is: '},
   {Name: 'callAccountsDataIs', Actual: app_msg.callAccountsDataIs, Expected: 'allAccountsData is: '},
   {Name: 'clessonNumberIs', Actual: app_msg.clessonNumberIs, Expected: 'lessonNumber is: '},
+  {Name: 'cindividualLessonDataIs', Actual: app_msg.cindividualLessonDataIs, Expected: 'individualLessonData is: '},
+  {Name: 'cindividualLessonLineKeyIs', Actual: app_msg.cindividualLessonLineKeyIs, Expected: 'individualLessonLineKey is: '},
+  {Name: 'cindividualLessonLineIs', Actual: app_msg.cindividualLessonLineIs, Expected: 'individualLessonLine is: '},
+  {Name: 'ccurrentUserNameIs', Actual: app_msg.ccurrentUserNameIs, Expected: 'currentUserName is: '},
+  {Name: 'clessonPassingScoreEnabledIs', Actual: app_msg.clessonPassingScoreEnabledIs, Expected: 'lessonPassingScoreEnabled is: '},
+  {Name: 'cpassingScoreLimitIs', Actual: app_msg.cpassingScoreLimitIs, Expected: 'passingScoreLimit is: '},
+  {Name: 'clessonScoreDataIs', Actual: app_msg.clessonScoreDataIs, Expected: 'lessonScoreData is: '},
 
   // Application messages
   {Name: 'cinstructionsMessage00', Actual: app_msg.cinstructionsMessage00, Expected: 'Instructions to end user:'},
@@ -70,6 +77,27 @@ export const applicationMessageConstantsValidation = [
   {Name: 'cErrorFailureToLogOutMessage01', Actual: app_msg.cErrorFailureToLogOutMessage01, Expected: 'ERROR: Failure to logout.'},
   {Name: 'cErrorStartLessonMessage01', Actual: app_msg.cErrorStartLessonMessage01, Expected: 'ERROR: No lesson number entered. Please enter a valid lesson number to execute.'},
   {Name: 'cErrorStartLessonMessage02', Actual: app_msg.cErrorStartLessonMessage02, Expected: 'ERROR: Invalid lesson number entered. Please enter a valid lesson number to execute.'},
+  {Name: 'cErrorStartLessonMessage03', Actual: app_msg.cErrorStartLessonMessage03, Expected: 'ERROR: The lesson number entered is not available.'},
+  {Name: 'cErrorStartLessonMessage04', Actual: app_msg.cErrorStartLessonMessage04, Expected: 'Please enter a lesson number between 1 and: '},
+  {Name: 'cErrorGetIndividualLessonDataMessage01', Actual: app_msg.cErrorGetIndividualLessonDataMessage01, Expected: 'ERROR: There was an error with the lesson data, invalid lesson number: '},
+  {Name: 'cErrorExecuteLessonMessage01', Actual: app_msg.cErrorExecuteLessonMessage01, Expected: 'ERROR: No lesson lines for the specified lesson number: '},
+  // ****************************************************************************************************
+  {Name: 'cLessonInstructionsMessage01', Actual: app_msg.cLessonInstructionsMessage01, Expected: 'LESSON INSTRUCTIONS:'},
+  {Name: 'cLessonInstructionsMessage02', Actual: app_msg.cLessonInstructionsMessage02, Expected: 'Place your left index finger on the "F" key, and your right index finger on the "J" key.'},
+  {Name: 'cLessonInstructionsMessage03', Actual: app_msg.cLessonInstructionsMessage03, Expected: 'Feel for the small raised bumps on the keys.'},
+  {Name: 'cLessonInstructionsMessage04', Actual: app_msg.cLessonInstructionsMessage04, Expected: 'These will help you ensure your fingers are on the correct home row before you begin typing.'},
+  {Name: 'cLessonInstructionsMessage05', Actual: app_msg.cLessonInstructionsMessage05, Expected: 'The rest of your fingers should naturally fall to the 3 keys adjacent and inline on the same row.'},
+  {Name: 'cLessonInstructionsMessage06', Actual: app_msg.cLessonInstructionsMessage06, Expected: 'Left fingers should rest on the keys "D", "S", and "A".'},
+  {Name: 'cLessonInstructionsMessage07', Actual: app_msg.cLessonInstructionsMessage07, Expected: 'Right fingers should rest on the keys "K", "L", and ";".'},
+  {Name: 'cLessonInstructionsMessage08', Actual: app_msg.cLessonInstructionsMessage08, Expected: 'Sit upright in your chair, back straight, elbows at your sides.'},
+  {Name: 'cLessonInstructionsMessage09', Actual: app_msg.cLessonInstructionsMessage09, Expected: 'The lesson will begin when you type the first character for each line.'},
+  {Name: 'cLessonInstructionsMessage10', Actual: app_msg.cLessonInstructionsMessage10, Expected: 'This is a timed lesson, so the faster you go the better your score will be.'},
+  {Name: 'cLessonInstructionsMessage11', Actual: app_msg.cLessonInstructionsMessage11, Expected: 'However, typing errors count against your score.'},
+  {Name: 'cLessonInstructionsMessage12', Actual: app_msg.cLessonInstructionsMessage12, Expected: 'You must get a score of: '},
+  {Name: 'cLessonInstructionsMessage13', Actual: app_msg.cLessonInstructionsMessage13, Expected: 'or higher to advance to the next lesson.'},
+  {Name: 'cLessonInstructionsMessage14', Actual: app_msg.cLessonInstructionsMessage14, Expected: 'A report showing your score will display after the lesson is complete.'},
+  {Name: 'cLessonInstructionsMessage15', Actual: app_msg.cLessonInstructionsMessage15, Expected: 'Press the "ESC" key, in the far upper left corner of the keyboard to cancel a lesson.'},
+  // ****************************************************************************************************
 
   // Constants Validation
   {Name: 'callClientConstantsValidationDataIs', Actual: app_msg.callClientConstantsValidationDataIs, Expected: 'allClientConstantsValidationData is: '},
