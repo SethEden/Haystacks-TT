@@ -36,6 +36,7 @@ export const cdataToStoreIs = wrd.cdata + wrd.cTo + wrd.cStore + sys.cSpaceIsCol
 export const ccleanedAccountDataIs = wrd.ccleaned + wrd.cAccount + wrd.cData + sys.cSpaceIsColonSpace; // cleanedAccountData is:
 export const cconfirmedDeleteUserResponseIs = wrd.cconfirmed + wrd.cDelete + wrd.cUser + wrd.cResponse + sys.cSpaceIsColonSpace; // confirmedDeleteUserResponse is:
 export const callAccountsDataIs = wrd.call + wrd.cAccounts + wrd.cData + sys.cSpaceIsColonSpace; // allAccountsData is:
+export const clessonNumberIs = wrd.clesson + wrd.cNumber + sys.cSpaceIsColonSpace; // lessonNumber is:
 
 // Application messages
 export const cinstructionsMessage00 = wrd.cInstructions + bas.cSpace + wrd.cto + bas.cSpace + wrd.cend + bas.cSpace + wrd.cuser + bas.cColon; // Instructions to end user:
@@ -78,6 +79,10 @@ export const cErrorNoUserFoundLoginMessage01 = msg.cERROR_Colon + wrd.cCannot + 
 export const cErrorLoginMessage02 = msg.cERROR_Colon + wrd.cUnable + bas.cSpace + wrd.cto + bas.cSpace + wrd.clogin + bas.cSpace + wrd.cwith + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cspecified + bas.cSpace + wrd.cuser + bas.cColon + bas.cSpace;
 // ERROR: Failure to logout.
 export const cErrorFailureToLogOutMessage01 = msg.cERROR_Colon + wrd.cFailure + bas.cSpace + wrd.cto + bas.cSpace + wrd.clogout + bas.cDot;
+// ERROR: No lesson number entered. Please enter a valid lesson number to execute.
+export const cErrorStartLessonMessage01 = msg.cERROR_Colon + wrd.cNo + bas.cSpace + wrd.clesson + bas.cSpace + wrd.cnumber + bas.cSpace + wrd.centered + bas.cDot + bas.cSpace + wrd.cPlease + bas.cSpace + wrd.center + bas.cSpace + bas.ca + bas.cSpace + wrd.cvalid + bas.cSpace + wrd.clesson + bas.cSpace + wrd.cnumber + bas.cSpace + wrd.cto + bas.cSpace + wrd.cexecute + bas.cDot;
+// ERROR: Invalid lesson number entered. Please enter a valid lesson number to execute.
+export const cErrorStartLessonMessage02 = msg.cERROR_Colon + wrd.cInvalid + bas.cSpace + wrd.clesson + bas.cSpace + wrd.cnumber + bas.cSpace + wrd.centered + bas.cDot + bas.cSpace + wrd.cPlease + bas.cSpace + wrd.center + bas.cSpace + bas.ca + bas.cSpace + wrd.cvalid + bas.cSpace + wrd.clesson + bas.cSpace + wrd.cnumber + bas.cSpace + wrd.cto + bas.cSpace + wrd.cexecute + bas.cDot;
 
 // Constants Validation
 export const callClientConstantsValidationDataIs = wrd.call + wrd.cClient + wrd.cConstants + wrd.cValidation + wrd.cData + sys.cSpaceIsColonSpace; // allClientConstantsValidationData is:

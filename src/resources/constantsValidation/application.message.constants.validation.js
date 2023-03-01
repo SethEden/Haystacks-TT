@@ -37,6 +37,7 @@ export const applicationMessageConstantsValidation = [
   {Name: 'ccleanedAccountDataIs', Actual: app_msg.ccleanedAccountDataIs, Expected: 'cleanedAccountData is: '},
   {Name: 'cconfirmedDeleteUserResponseIs', Actual: app_msg.cconfirmedDeleteUserResponseIs, Expected: 'confirmedDeleteUserResponse is: '},
   {Name: 'callAccountsDataIs', Actual: app_msg.callAccountsDataIs, Expected: 'allAccountsData is: '},
+  {Name: 'clessonNumberIs', Actual: app_msg.clessonNumberIs, Expected: 'lessonNumber is: '},
 
   // Application messages
   {Name: 'cinstructionsMessage00', Actual: app_msg.cinstructionsMessage00, Expected: 'Instructions to end user:'},
@@ -67,6 +68,8 @@ export const applicationMessageConstantsValidation = [
   {Name: 'cErrorNoUserFoundLoginMessage01', Actual: app_msg.cErrorNoUserFoundLoginMessage01, Expceted: 'ERROR: Cannot login, user does not exist. '},
   {Name: 'cErrorLoginMessage02', Actual: app_msg.cErrorLoginMessage02, Expected: 'ERROR: Unable to login with the specified user: '},
   {Name: 'cErrorFailureToLogOutMessage01', Actual: app_msg.cErrorFailureToLogOutMessage01, Expected: 'ERROR: Failure to logout.'},
+  {Name: 'cErrorStartLessonMessage01', Actual: app_msg.cErrorStartLessonMessage01, Expected: 'ERROR: No lesson number entered. Please enter a valid lesson number to execute.'},
+  {Name: 'cErrorStartLessonMessage02', Actual: app_msg.cErrorStartLessonMessage02, Expected: 'ERROR: Invalid lesson number entered. Please enter a valid lesson number to execute.'},
 
   // Constants Validation
   {Name: 'callClientConstantsValidationDataIs', Actual: app_msg.callClientConstantsValidationDataIs, Expected: 'allClientConstantsValidationData is: '},

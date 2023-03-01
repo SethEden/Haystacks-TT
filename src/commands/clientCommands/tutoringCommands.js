@@ -264,11 +264,44 @@ async function logout(inputData, inputMetaData) {
   return returnData;
 }
 
+/**
+ * @function startLesson
+ * @description Allows the user to launch a typing lesson.
+ * @param {array<string>} inputData The input(s) the user entered into the command.
+ * @param {string} inputMetaData Not used for this command.
+ * @return {array<boolean,string>} An array with a boolean True or False value to
+ * indicate if the application should exit or not exit, followed by an empty string.
+ * @author Seth Hollingsead
+ * @date 2023/02/28
+ */
+async function startLesson(inputData, inputMetaData) {
+  let functionName = startLesson.name;
+  await haystacks.consoleLog(namespacePrefix, functionName, msg.cBEGIN_Function);
+  await haystacks.consoleLog(namespacePrefix, functionName, msg.cinputDataIs + inputData);
+  await haystacks.consoleLog(namespacePrefix, functionName, msg.cinputMetaDataIs + inputMetaData);
+  let returnData = [true, ''];
+  if (Array.isArray(inputData) && inputData.length === 2) {
+    if (parseInt(inputData[1]) > 0) {
+      
+    } else {
+      // ERROR: Invalid lesson number entered. Please enter a valid lesson number to execute.
+      console.log(app_msg.cErrorStartLessonMessage02)
+    }
+  } else {
+    // ERROR: No lesson number entered. Please enter a valid lesson number to execute.
+    console.log(app_msg.cErrorStartLessonMessage01);
+  }
+  await haystacks.consoleLog(namespacePrefix, functionName, msg.creturnDataIs + JSON.stringify(returnData));
+  await haystacks.consoleLog(namespacePrefix, functionName, msg.cEND_Function);
+  return returnData;
+}
+
 export default {
   createAccount,
   printAccountsData,
   printAccountData,
   deleteAccount,
   login,
-  logout
+  logout,
+  startLesson
 }

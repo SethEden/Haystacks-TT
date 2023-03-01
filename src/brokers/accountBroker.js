@@ -310,6 +310,45 @@ async function logoutUser(accountName) {
   return returnData;
 }
 
+/**
+ * @function executeLesson
+ * @description Does the work of executing the lesson, print out the line the user should type as part of the lesson.
+ * Also capture the user input and compare each character with the expected input and format color output accordingly.
+ * Also play a sound on the system speaker if the user types in incorrect keystroke.
+ * @param {integer} lessonNumber The number of the lesson that should be executed.
+ * @return {object} A JSON object that contains statistic of the lesson when it is completed.
+ * @author Seth Hollingsead
+ * @date 2023/02/28
+ */
+async function executeLesson(lessonNumber) {
+  let functionName = logoutUser.name;
+  await haystacks.consoleLog(namespacePrefix, functionName, msg.cBEGIN_Function);
+  // lessonNumber is:
+  await haystacks.consoleLog(namespacePrefix, functionName, app_msg.clessonNumberIs + lessonNumber);
+  let returnData = false;
+
+  await haystacks.consoleLog(namespacePrefix, functionName, msg.creturnDataIs + JSON.stringify(returnData));
+  await haystacks.consoleLog(namespacePrefix, functionName, msg.cEND_Function);
+  return returnData;
+}
+
+/**
+ * @function getHighestLessonCount
+ * @description Returns a number for the highest lesson number for the lessons currently available in the curriculum.
+ * @return {integer} The highest lesson number available in the curriculum.
+ * @author Seth Hollingsead
+ * @date 2023/02/28
+ */
+async function getHighestLessonCount() {
+  let functionName = logoutUser.name;
+  await haystacks.consoleLog(namespacePrefix, functionName, msg.cBEGIN_Function);
+  let returnData = 0;
+
+  await haystacks.consoleLog(namespacePrefix, functionName, msg.creturnDataIs + JSON.stringify(returnData));
+  await haystacks.consoleLog(namespacePrefix, functionName, msg.cEND_Function);
+  return returnData;
+}
+
 export default {
   getAccountData,
   getUserAccountData,
@@ -321,5 +360,7 @@ export default {
   generateBlankLessonData,
   currentUserAccount,
   loginUser,
-  logoutUser
+  logoutUser,
+  executeLesson,
+  getHighestLessonCount
 }
