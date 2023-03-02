@@ -145,7 +145,7 @@ async function bootStrapApplication() {
   let lessonDataStored = await haystacks.storeData(app_sys.capplicationLessons, lessonsData);
   if (accountDataStored === false || !accountsData) {
     // ERROR: No user accounts data was loaded, please ensure the accounts resources folder has accounts data. Path:
-    console.log(app_msg.cErrorNoUserAcountsDataLoadedMessage01 + appConfig[app_cfg.cappAccountsPath]);
+    console.log(app_msg.cErrorNoUserAccountsDataLoadedMessage01 + appConfig[app_cfg.cappAccountsPath]);
   }
   if (lessonDataStored === false || !lessonsData) {
     // ERROR: No typing lessons data was loaded, please ensure the lessons folder has lessons data. Path:

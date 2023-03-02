@@ -375,7 +375,7 @@ async function executeLesson(lessonNumber) {
     await haystacks.consoleLog(namespacePrefix, functionName, app_msg.callLessonLinesIs + JSON.stringify(allLessonLines));
     let lessonPassingScoreEnabled = await isLessonAdvancementLimitEnabled();
     // lessonPassingScoreEnabled is:
-    await haystacks.consoleLog(namespacePrefix, functionName, msg.clessonPassingScoreEnabledIs + lessonPassingScoreEnabled);
+    await haystacks.consoleLog(namespacePrefix, functionName, app_msg.clessonPassingScoreEnabledIs + lessonPassingScoreEnabled);
     // ****************************************************************************************************
     // LESSON INSTRUCTIONS:
     console.log(app_msg.cLessonInstructionsMessage01);
@@ -403,7 +403,7 @@ async function executeLesson(lessonNumber) {
     if (lessonPassingScoreEnabled === true) {
       let passingScoreLimit = await getLessonAdvancementScoreLimit();
       // passingScoreLimit is:
-      await haystacks.consoleLog(namespacePrefix, functionName, msg.cpassingScoreLimitIs + passingScoreLimit);
+      await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cpassingScoreLimitIs + passingScoreLimit);
       // You must get a score of:
       // or higher to advance to the next lesson.
       console.log(app_msg.cLessonInstructionsMessage01 + passingScoreLimit + bas.cPercent + bas.cSpace + app_msg.cLessonInstructionsMessage01);
@@ -422,6 +422,8 @@ async function executeLesson(lessonNumber) {
         // individualLessonLine is:
         await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cindividualLessonLineIs + individualLessonLine);
         // TODO: Execute the lesson line here
+        // TODO: We need to do this next so that we can actually generate data.
+        // TODO: Which the rest of the systems are now dependent and waiting on to get started.
       } // End-for (let individualLessonLineKey in allLessonLines)
     } else {
       // ERROR: No lesson lines for the specified lesson number:
