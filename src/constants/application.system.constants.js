@@ -17,6 +17,12 @@ const {bas, gen, wrd} = hayConst;
 export const cuserAccounts = wrd.cuser + wrd.cAccounts; // userAccounts
 export const capplicationLessons = wrd.capplication + wrd.cLessons; // applicationLessons
 export const cLessonPlan = wrd.cLesson + wrd.cPlan; // LessonPlan
+export const ctypingTutorKeystroke = wrd.ctyping + wrd.cTutor + wrd.cKeystroke; // typingTutorKeystroke
+export const clineStartTime = wrd.cline + wrd.cStart + wrd.cTime; // lineStartTime
+export const clineEndTime = wrd.cline + wrd.cEnd + wrd.cTime; // lineEndTime
+export const cdeltaTime = wrd.cdelta + wrd.cTime; // deltaTime
+export const ccorrectCharacterCount = wrd.ccorrect + wrd.cCharacter + wrd.cCount; // correctCharacterCount
+export const cincorrectCharacterCount = wrd.cincorrect + wrd.cCharacter + wrd.cCount; // incorrectCharacterCount
 
 // Constants Validation
 export const cresolvedConstantsPath_Application = wrd.cresolved + wrd.cConstants + wrd.cPath + bas.cUnderscore + wrd.cApplication; // resolvedConstantsPath_Application

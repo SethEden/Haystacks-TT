@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 /**
  * @file accountBroker.js
  * @module accountBroker
@@ -8,6 +9,8 @@
  * @requires module:application.system.constants
  * @requires {@link https://www.npmjs.com/package/@haystacks/async|@haystacks/async}
  * @requires {@link https://www.npmjs.com/package/@haystacks/constants|@haystacks/constants}
+ * @requires {@link https://www.npmjs.com/package/chalk|chalk}
+ * @requires {@link https://www.npmjs.com/package/play-sound|play-sound}
  * @requires {@link https://www.npmjs.com/package/path|path}
  * @author Seth Hollingsead
  * @date 2023/02/28
@@ -22,12 +25,17 @@ import * as app_sys from '../constants/application.system.constants.js';
 // External imports
 import haystacks from '@haystacks/async';
 import hayConst from '@haystacks/constants';
+import chalk from 'chalk';
+import play from 'play-sound';
 import path from 'path';
 
-const {bas, cfg, msg, wrd} = hayConst;
+const {bas, biz, clr, cfg, gen, msg, wrd} = hayConst;
 const baseFileName = path.basename(import.meta.url, path.extname(import.meta.url));
 // application.haystacks-tt.brokers.accountBroker.
 const namespacePrefix = wrd.capplication + bas.cDot + apc.cApplicationName + bas.cDot + wrd.cbrokers + bas.cDot + baseFileName + bas.cDot;
+// Initialize the player so we have access to the system speaker. Generate a tone when the user types an incorrect key.
+// This is part of an important learning strategy part of reinforcement learning through punishment, known as Operant conditioning.
+const player = play();
 
 /**
  * @function getAccountData
@@ -152,9 +160,18 @@ async function getIndividualLessonData(lessonNumber) {
       let individualLessonData = allLessonsData[app_sys.cLessonPlan][lessonKey];
       // individualLessonData is:
       await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cindividualLessonDataIs + JSON.stringify(individualLessonData));
-      let currentLessonNumber = individualLessonData[wrd.cNumber];
+      let individualLessonDataKeys = Object.keys(individualLessonData);
+      let lessonName = individualLessonDataKeys[0];
+      // lessonName is:
+      await haystacks.consoleLog(namespacePrefix, functionName, app_msg.clessonNameIs + lessonName);
+      let actualLessonData = individualLessonData[individualLessonDataKeys[0]];
+      // actualLessonData is:
+      await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cactualLessonDataIs + JSON.stringify(actualLessonData));
+      let currentLessonNumber = actualLessonData[wrd.cNumber];
+      // currentLessonNumber is:
+      await haystacks.consoleLog(namespacePrefix, functionName, app_msg.ccurrentLessonNumberIs + currentLessonNumber);
       if ((Number.isInteger(currentLessonNumber) && currentLessonNumber === lessonNumber) || parseInt(currentLessonNumber) === lessonNumber) {
-        returnData = individualLessonData;
+        returnData = actualLessonData;
         break;
       } else {
         // ERROR: There was an error with the lesson data, invalid lesson number: 
@@ -358,7 +375,7 @@ async function logoutUser(accountName) {
  * @date 2023/02/28
  */
 async function executeLesson(lessonNumber) {
-  let functionName = logoutUser.name;
+  let functionName = executeLesson.name;
   await haystacks.consoleLog(namespacePrefix, functionName, msg.cBEGIN_Function);
   // lessonNumber is:
   await haystacks.consoleLog(namespacePrefix, functionName, app_msg.clessonNumberIs + lessonNumber);
@@ -380,25 +397,25 @@ async function executeLesson(lessonNumber) {
     // LESSON INSTRUCTIONS:
     console.log(app_msg.cLessonInstructionsMessage01);
     // Place your left index finger on the "F" key, and your right index finger on the "J" key.
-    console.log(app_msg.cLessonInstructionsMessage01);
+    console.log(app_msg.cLessonInstructionsMessage02);
     // Feel for the small raised bumps on the keys.
-    console.log(app_msg.cLessonInstructionsMessage01);
+    console.log(app_msg.cLessonInstructionsMessage03);
     // These will help you ensure your fingers are on the correct home row before you begin typing.
-    console.log(app_msg.cLessonInstructionsMessage01);
+    console.log(app_msg.cLessonInstructionsMessage04);
     // The rest of your fingers should naturally fall to the 3 keys adjacent and inline on the same row.
-    console.log(app_msg.cLessonInstructionsMessage01);
+    console.log(app_msg.cLessonInstructionsMessage05);
     // Left fingers should rest on the keys "D", "S", and "A".
-    console.log(app_msg.cLessonInstructionsMessage01);
+    console.log(app_msg.cLessonInstructionsMessage06);
     // Right fingers should rest on the keys "K", "L", and ";".
-    console.log(app_msg.cLessonInstructionsMessage01);
+    console.log(app_msg.cLessonInstructionsMessage07);
     // Sit upright in your chair, back straight, elbows at your sides.
-    console.log(app_msg.cLessonInstructionsMessage01);
+    console.log(app_msg.cLessonInstructionsMessage08);
     // The lesson will begin when you type the first character for each line.
-    console.log(app_msg.cLessonInstructionsMessage01);
+    console.log(app_msg.cLessonInstructionsMessage09);
     // This is a timed lesson, so the faster you go the better your score will be.
-    console.log(app_msg.cLessonInstructionsMessage01);
+    console.log(app_msg.cLessonInstructionsMessage10);
     // However, typing errors count against your score.
-    console.log(app_msg.cLessonInstructionsMessage01);
+    console.log(app_msg.cLessonInstructionsMessage11);
     
     if (lessonPassingScoreEnabled === true) {
       let passingScoreLimit = await getLessonAdvancementScoreLimit();
@@ -406,30 +423,164 @@ async function executeLesson(lessonNumber) {
       await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cpassingScoreLimitIs + passingScoreLimit);
       // You must get a score of:
       // or higher to advance to the next lesson.
-      console.log(app_msg.cLessonInstructionsMessage01 + passingScoreLimit + bas.cPercent + bas.cSpace + app_msg.cLessonInstructionsMessage01);
+      console.log(app_msg.cLessonInstructionsMessage12 + passingScoreLimit + bas.cPercent + bas.cSpace + app_msg.cLessonInstructionsMessage13);
     }
     
     // A report showing your score will display after the lesson is complete.
-    console.log(app_msg.cLessonInstructionsMessage01);
+    console.log(app_msg.cLessonInstructionsMessage14);
     // Press the "ESC" key, in the far upper left corner of the keyboard to cancel a lesson.
-    console.log(app_msg.cLessonInstructionsMessage01);
+    console.log(app_msg.cLessonInstructionsMessage15);
     // ****************************************************************************************************
-    if (Array.isArray(allLessonLines) && allLessonLines.length > 0) {
-      for (let individualLessonLineKey in allLessonLines) {
+    let allLessonLinesDataKeys = Object.keys(allLessonLines);
+    let allLessonLinesDataObject = allLessonLines[allLessonLinesDataKeys[0]];
+    // allLessonLinesDataObject is:
+    await haystacks.consoleLog(namespacePrefix, functionName, app_msg.callLessonLinesDataObjectIs + JSON.stringify(allLessonLinesDataObject));
+    if (allLessonLinesDataObject) {
+      for (const individualLessonLineKey in allLessonLinesDataObject) {
         // individualLessonLineKey is:
         await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cindividualLessonLineKeyIs + individualLessonLineKey);
-        let individualLessonLine = allLessonLines[individualLessonLineKey];
+        let individualLessonLine = allLessonLinesDataObject[individualLessonLineKey];
         // individualLessonLine is:
-        await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cindividualLessonLineIs + individualLessonLine);
-        // TODO: Execute the lesson line here
-        // TODO: We need to do this next so that we can actually generate data.
-        // TODO: Which the rest of the systems are now dependent and waiting on to get started.
+        await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cindividualLessonLineIs + JSON.stringify(individualLessonLine));
+        let lessonLineScoreData = await executeLessonLine(individualLessonLine);
+        // lessonLineScoreData is:
+        await haystacks.consoleLog(namespacePrefix, functionName, app_msg.clessonLineScoreDataIs + JSON.stringify(lessonLineScoreData));
+        if (lessonLineScoreData === false) {
+          // User must have pressed the ESC key, break completely out!
+          break;
+        }
       } // End-for (let individualLessonLineKey in allLessonLines)
     } else {
       // ERROR: No lesson lines for the specified lesson number:
       console.log(app_msg.cErrorExecuteLessonMessage01 + lessonNumber);
     }
   }
+  await haystacks.consoleLog(namespacePrefix, functionName, msg.creturnDataIs + JSON.stringify(returnData));
+  await haystacks.consoleLog(namespacePrefix, functionName, msg.cEND_Function);
+  return returnData;
+}
+
+/**
+ * @function executeLessonLine
+ * @description Prompts the user with the typing tutoring lesson line,
+ * Captures the user input as the user types it,
+ * Checks if the user typed the correct character or not,
+ * Tracks the time when the user starts typing the line, and when the user is done typing the line.
+ * Alerts each time the user makes an error by typing a character that doesn't match the expected input.
+ * Tracks all the errors the user makes when typing the same line.
+ * Escapes the lesson if the user presses the ESC key.
+ * Generates some report data that can be used to aggregate statistics across an entire lesson by the calling function.
+ * @param {string} lessonLineString The string of characters the user should type into their keyboard.
+ * @return {object} A JSON object that contains the start time, end time, and number of errors, and the length of the string.
+ * @author Seth Hollingsead
+ * @date 2023/03/02
+ */
+async function executeLessonLine(lessonLineString) {
+  let functionName = executeLessonLine.name;
+  await haystacks.consoleLog(namespacePrefix, functionName, msg.cBEGIN_Function);
+  // lessonLineString is:
+  await haystacks.consoleLog(namespacePrefix, functionName, app_msg.clessonLineStringIs + lessonLineString);
+  let returnData = false;
+  let userQuit = false;
+  let userCharacterEntryCount = 0; // Used to track the number of characters the user has entered, as they type.
+  let charactersCorrectCount = 0;
+  let charactersIncorrectCount = 0;
+  let lineStartTime = '';
+  let lineEndTime = '';
+  let deltaTime = '';
+  let greenBackground = await haystacks.executeBusinessRules([clr.cGreen, [0,255,0]], [biz.cgetNamedColorDataArray]);
+  let redBackground = await haystacks.executeBusinessRules([clr.cRed, [255,0,0]], [biz.cgetNamedColorDataArray]);
+  let blackForeground = await haystacks.executeBusinessRules([clr.cBlack, [0,0,0]], [biz.cgetNamedColorDataArray]);
+  console.log(lessonLineString); // Output the text the user should type as part of the lesson line.
+
+  while (userCharacterEntryCount < lessonLineString.length) {
+    let userEnteredCharacter = await haystacks.executeBusinessRules(['', ''], [biz.cpromptRaw]);
+    if (userEnteredCharacter === false) {
+      userQuit = true;
+      break;
+    }
+    if (userCharacterEntryCount === 0) {
+      // The user just entered the first character. Start the timer.
+      lineStartTime = await haystacks.executeBusinessRules([gen.cYYYYMMDD_HHmmss_SSS, ''], [biz.cgetNowMoment]);
+      // lineStartTime is:
+      // await haystacks.consoleLog(namespacePrefix, functionName, app_msg.clineStartTimeIs + lineStartTime);
+    }
+    // Format the user entered keystroke with chalk, based on if it is the correct character or an incorrect character.
+    if (userEnteredCharacter === lessonLineString.charAt(userCharacterEntryCount)) {
+      // User entered the correct character
+      userEnteredCharacter = chalk.rgb(blackForeground[0], blackForeground[1], blackForeground[2])(userEnteredCharacter);
+      userEnteredCharacter = chalk.bgRgb(greenBackground[0], greenBackground[1], greenBackground[2])(userEnteredCharacter);
+      charactersCorrectCount = charactersCorrectCount + 1;
+    } else {
+      // user entered an incorrect character
+      userEnteredCharacter = chalk.rgb(blackForeground[0], blackForeground[1], blackForeground[2])(userEnteredCharacter);
+      userEnteredCharacter = chalk.bgRgb(redBackground[0], redBackground[1], redBackground[2])(userEnteredCharacter);
+      charactersIncorrectCount = charactersIncorrectCount + 1;
+      await generateTone();
+    }
+    userCharacterEntryCount = userCharacterEntryCount + 1;
+    // userEnteredCharacter is:
+    // await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cuserEnteredCharacterIs + userEnteredCharacter);
+    process.stdout.write(userEnteredCharacter);
+  }
+  if (userQuit === false) {
+    // Make sure we write out a new line so followup logs will not be on the same line as the user entry from the above loop.
+    process.stdout.write(bas.cNewLine);
+    lineEndTime = await haystacks.executeBusinessRules([gen.cYYYYMMDD_HHmmss_SSS, ''], [biz.cgetNowMoment]);
+    // lineEndTime is:
+    await haystacks.consoleLog(namespacePrefix, functionName, app_msg.clineEndTimeIs + lineEndTime);
+    deltaTime = await haystacks.executeBusinessRules([lineStartTime, lineEndTime], [biz.ccomputeDeltaTime]);
+    // deltaTime is:
+    await haystacks.consoleLog(namespacePrefix, functionName, msg.cdeltaTimeIs + deltaTime);
+    // charactersCorrectCount is:
+    await haystacks.consoleLog(namespacePrefix, functionName, app_msg.ccharactersCorrectCountIs + charactersCorrectCount);
+    // charactersIncorrectCount is:
+    await haystacks.consoleLog(namespacePrefix, functionName, app_msg.ccharactersInCorrectCountIs + charactersIncorrectCount);
+    returnData = {
+      [app_sys.clineStartTime]: lineStartTime,
+      [app_sys.clineEndTime]: lineEndTime,
+      [app_sys.cdeltaTime]: deltaTime,
+      [app_sys.ccorrectCharacterCount]: charactersCorrectCount,
+      [app_sys.cincorrectCharacterCount]: charactersIncorrectCount
+    }
+  }
+  await haystacks.consoleLog(namespacePrefix, functionName, msg.creturnDataIs + JSON.stringify(returnData));
+  await haystacks.consoleLog(namespacePrefix, functionName, msg.cEND_Function);
+  return returnData;
+}
+
+/**
+ * @function generateTone
+ * @description Generates a short burst tone to the system speaker to let the user know they have entered an incorrect character.
+ * @return {boolean} True or False to indicate if the tone was generated successfully or not.
+ * @author Seth Hollingsead
+ * @date 2023/03/02
+ * @NOTE Initialize the player so we have access to the system speaker. Generate a tone when the user types an incorrect key.
+ * This is part of an important learning strategy part of reinforcement learning through punishment, known as Operant conditioning.
+ */
+async function generateTone() {
+  let functionName = generateTone.name;
+  await haystacks.consoleLog(namespacePrefix, functionName, msg.cBEGIN_Function);
+  let returnData = false;
+  // const frequency = 440; // Hz
+  // const duration = 500; // ms
+  // const sampleRate = 44100;
+  // const amplitude = 0.5; // Volume
+
+  // const numSamples = sampleRate * (duration / 1000);
+  // const buffer = Buffer.alloc(numSamples * 2);
+  // let sample;
+
+  // for (let i = 0; i < numSamples; i++) {
+  //   const t = i / sampleRate;
+  //   sample = Math.round(amplitude * 32767 * Math.sin(2 * Math.Pi * frequency * t));
+  //   buffer.writeInt16LE(sample, i * 2);
+  // }
+
+  // player.play(buffer);
+  // process.stderr.write('\007');
+  process.stderr.write('0x07');
+  returnData = true;
   await haystacks.consoleLog(namespacePrefix, functionName, msg.creturnDataIs + JSON.stringify(returnData));
   await haystacks.consoleLog(namespacePrefix, functionName, msg.cEND_Function);
   return returnData;
@@ -443,12 +594,14 @@ async function executeLesson(lessonNumber) {
  * @date 2023/02/28
  */
 async function getHighestLessonCount() {
-  let functionName = logoutUser.name;
+  let functionName = getHighestLessonCount.name;
   await haystacks.consoleLog(namespacePrefix, functionName, msg.cBEGIN_Function);
   let returnData = 0;
   let lessonsData = await getLessonData();
-  if (lessonsData && Array.isArray(lessonsData)) {
-    returnData = lessonsData.length;
+  // lessonsData is:
+  await haystacks.consoleLog(namespacePrefix, functionName, app_msg.clessonsDataIs + JSON.stringify(lessonsData));
+  if (lessonsData[app_sys.cLessonPlan] && Array.isArray(lessonsData[app_sys.cLessonPlan])) {
+    returnData = lessonsData[app_sys.cLessonPlan].length;
   }
   await haystacks.consoleLog(namespacePrefix, functionName, msg.creturnDataIs + JSON.stringify(returnData));
   await haystacks.consoleLog(namespacePrefix, functionName, msg.cEND_Function);

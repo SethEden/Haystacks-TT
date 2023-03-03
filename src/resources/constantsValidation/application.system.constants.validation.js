@@ -16,6 +16,12 @@ export const applicationSystemConstantsValidation = [
   {Name: 'cuserAccounts', Actual: app_sys.cuserAccounts, Expected: 'userAccounts'},
   {Name: 'capplicationLessons', Actual: app_sys.capplicationLessons, Expected: 'applicationLessons'},
   {Name: 'cLessonPlan', Actual: app_sys.cLessonPlan, Expected: 'LessonPlan'},
+  {Name: 'ctypingTutorKeystroke', Actual: app_sys.ctypingTutorKeystroke, Expected: 'typingTutorKeystroke'},
+  {Name: 'clineStartTime', Actual: app_sys.clineStartTime, Expected: 'lineStartTime'},
+  {Name: 'clineEndTime', Actual: app_sys.clineEndTime, Expected: 'lineEndTime'},
+  {Name: 'cdeltaTime', Actual: app_sys.cdeltaTime, Expected: 'deltaTime'},
+  {Name: 'ccorrectCharacterCount', Actual: app_sys.ccorrectCharacterCount, Expected: 'correctCharacterCount'},
+  {Name: 'cincorrectCharacterCount', Actual: app_sys.cincorrectCharacterCount, Expected: 'incorrectCharacterCount'},
 
   {Name: 'cresolvedConstantsPath_Application', Actual: app_sys.cresolvedConstantsPath_Application, Expected: 'resolvedConstantsPath_Application'},
   {Name: 'capplicationBusinessConstantsValidation', Actual: app_sys.capplicationBusinessConstantsValidation, Expected: 'applicationBusinessConstantsValidation'},

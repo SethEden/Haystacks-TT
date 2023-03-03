@@ -282,19 +282,23 @@ async function startLesson(inputData, inputMetaData) {
   if (Array.isArray(inputData) && inputData.length === 2) {
     if (parseInt(inputData[1]) > 0) {
       let maxLessonNumber = await accountBroker.getHighestLessonCount();
+      // maxLessonNumber is:
+      await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cmaxLessonNumberIs + maxLessonNumber);
       let userLessonNumber = parseInt(inputData[1]);
+      // userLessonNumber is:
+      await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cuserLessonNumberIs + userLessonNumber);
       if (userLessonNumber > 0 && userLessonNumber <= maxLessonNumber) {
         let lessonPassingScoreEnabled = await accountBroker.isLessonAdvancementLimitEnabled();
         // lessonPassingScoreEnabled is:
         await haystacks.consoleLog(namespacePrefix, functionName, app_msg.clessonPassingScoreEnabledIs + lessonPassingScoreEnabled);
         let lessonAdvancementScoreLimit = await accountBroker.getLessonAdvancementScoreLimit();
         // lessonAdvancementScoreLimit is:
-        await haystacks.consoleLog(namespacePrefix, functionName, msg.clessonAdvancementScoreLimitIs + lessonAdvancementScoreLimit);
+        await haystacks.consoleLog(namespacePrefix, functionName, app_msg.clessonAdvancementScoreLimitIs + lessonAdvancementScoreLimit);
         // TODO: Filter on the above flag and determine if the user is going to be allowed to execute this lesson number or not,
         // TODO: based on their history of passing scores on all their previous lessons.
         let lessonScoreData = await accountBroker.executeLesson(userLessonNumber);
         // lessonScoreData is:
-        await haystacks.consoleLog(namespacePrefix, functionName, msg.clessonScoreDataIs + JSON.stringify(lessonScoreData));
+        await haystacks.consoleLog(namespacePrefix, functionName, app_msg.clessonScoreDataIs + JSON.stringify(lessonScoreData));
       } else {
         // ERROR: The lesson number entered is not available.
         console.log(app_msg.cErrorStartLessonMessage03);

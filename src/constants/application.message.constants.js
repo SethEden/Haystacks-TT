@@ -44,6 +44,21 @@ export const ccurrentUserNameIs = wrd.ccurrent + wrd.cUser + wrd.cName + sys.cSp
 export const clessonPassingScoreEnabledIs = wrd.clesson + wrd.cPassing + wrd.cScore + wrd.cEnabled + sys.cSpaceIsColonSpace; // lessonPassingScoreEnabled is:
 export const cpassingScoreLimitIs = wrd.cpassing + wrd.cScore + wrd.cLimit + sys.cSpaceIsColonSpace; // passingScoreLimit is:
 export const clessonScoreDataIs = wrd.clesson + wrd.cScore + wrd.cData + sys.cSpaceIsColonSpace; // lessonScoreData is:
+export const cmaxLessonNumberIs = wrd.cmax + wrd.cLesson + wrd.cNumber + sys.cSpaceIsColonSpace; // maxLessonNumber is:
+export const cuserLessonNumberIs = wrd.cuser + wrd.cLesson + wrd.cNumber + sys.cSpaceIsColonSpace; // userLessonNumber is:
+export const clessonAdvancementScoreLimitIs = wrd.clesson + wrd.cAdvancement + wrd.cScore + wrd.cLimit + sys.cSpaceIsColonSpace; // lessonAdvancementScoreLimit is:
+export const cactualLessonDataIs = wrd.cactual + wrd.cLesson + wrd.cData + sys.cSpaceIsColonSpace; // actualLessonData is:
+export const ccurrentLessonNumberIs = wrd.ccurrent + wrd.cLesson + wrd.cNumber + sys.cSpaceIsColonSpace; // currentLessonNumber is:
+export const clessonDescriptionIs = wrd.clesson + wrd.cDescription + sys.cSpaceIsColonSpace; // lessonDescription is:
+export const callLessonLinesIs = wrd.call + wrd.cLesson + wrd.cLines + sys.cSpaceIsColonSpace; // allLessonLines is:
+export const callLessonLinesDataObjectIs = wrd.call + wrd.cLesson + wrd.cLines + wrd.cData + wrd.cObject + sys.cSpaceIsColonSpace; // allLessonLinesDataObject is:
+export const clessonLineScoreDataIs = wrd.clesson + wrd.cLine + wrd.cScore + wrd.cData + sys.cSpaceIsColonSpace; // lessonLineScoreData is:
+export const clessonLineStringIs = wrd.clesson + wrd.cLine + wrd.cString + sys.cSpaceIsColonSpace; // lessonLineString is:
+export const cuserEnteredCharacterIs = wrd.cuser + wrd.cEntered + wrd.cCharacter + sys.cSpaceIsColonSpace; // userEnteredCharacter is:
+export const clineStartTimeIs = wrd.cline + wrd.cStart + wrd.cTime + sys.cSpaceIsColonSpace; // lineStartTime is:
+export const clineEndTimeIs = wrd.cline + wrd.cEnd + wrd.cTime + sys.cSpaceIsColonSpace; // lineEndTime is:
+export const ccharactersCorrectCountIs = wrd.ccharacters + wrd.cCorrect + wrd.cCount + sys.cSpaceIsColonSpace; // charactersCorrectCount is:
+export const ccharactersInCorrectCountIs = wrd.ccharacters + wrd.cIncorrect + wrd.cCount + sys.cSpaceIsColonSpace; // charactersIncorrectCount is:
 
 // Application messages
 export const cinstructionsMessage00 = wrd.cInstructions + bas.cSpace + wrd.cto + bas.cSpace + wrd.cend + bas.cSpace + wrd.cuser + bas.cColon; // Instructions to end user:
