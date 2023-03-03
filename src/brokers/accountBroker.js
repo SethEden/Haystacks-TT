@@ -10,7 +10,8 @@
  * @requires {@link https://www.npmjs.com/package/@haystacks/async|@haystacks/async}
  * @requires {@link https://www.npmjs.com/package/@haystacks/constants|@haystacks/constants}
  * @requires {@link https://www.npmjs.com/package/chalk|chalk}
- * @requires {@link https://www.npmjs.com/package/play-sound|play-sound}
+ * @requires {@link https://www.npmjs.com/package/speaker|speaker}
+ * @requires {@link https://www.npmjs.com/package/pcm-util|pcm-util}
  * @requires {@link https://www.npmjs.com/package/path|path}
  * @author Seth Hollingsead
  * @date 2023/02/28
@@ -25,17 +26,18 @@ import * as app_sys from '../constants/application.system.constants.js';
 // External imports
 import haystacks from '@haystacks/async';
 import hayConst from '@haystacks/constants';
+import Speaker from 'speaker';
+import pcmUtils from 'pcm-util';
 import chalk from 'chalk';
-import play from 'play-sound';
 import path from 'path';
 
+const { createPCMData } = pcmUtils;
 const {bas, biz, clr, cfg, gen, msg, wrd} = hayConst;
 const baseFileName = path.basename(import.meta.url, path.extname(import.meta.url));
 // application.haystacks-tt.brokers.accountBroker.
 const namespacePrefix = wrd.capplication + bas.cDot + apc.cApplicationName + bas.cDot + wrd.cbrokers + bas.cDot + baseFileName + bas.cDot;
 // Initialize the player so we have access to the system speaker. Generate a tone when the user types an incorrect key.
 // This is part of an important learning strategy part of reinforcement learning through punishment, known as Operant conditioning.
-const player = play();
 
 /**
  * @function getAccountData
@@ -562,6 +564,8 @@ async function generateTone() {
   let functionName = generateTone.name;
   await haystacks.consoleLog(namespacePrefix, functionName, msg.cBEGIN_Function);
   let returnData = false;
+  // ATTEMPT 1
+  // ********************************************************************
   // const frequency = 440; // Hz
   // const duration = 500; // ms
   // const sampleRate = 44100;
@@ -578,8 +582,60 @@ async function generateTone() {
   // }
 
   // player.play(buffer);
+  // ********************************************************************
+
+  // ATTEMPT 2
+  // ********************************************************************
   // process.stderr.write('\007');
-  process.stderr.write('0x07');
+  // ********************************************************************
+  
+  // ATTEMPT 3
+  // ********************************************************************
+  // process.stderr.write('0x07');
+  // ********************************************************************
+
+  // ATTEMPT 4
+  // ********************************************************************
+  // const sampleRate = 44100;
+  // const frequency = 440; // Hz
+  // const duration = 1000; // ms
+  // const amplitude = 0.5;
+
+  // const generator = audioGenerator(() => {
+  //   let t = 0;
+  //   return (time, i) => {
+  //     t = time;
+  //     return amplitude * Math.sin(2 * Math.PI * frequency * t);
+  //   };
+  // }, { duration, sampleRate });
+
+  // generator.pipe(new Speaker({ sampleRate }));
+  // ********************************************************************
+
+  const sampleRate = 44100;
+  const frequency = 440; // Hz
+  const duration = 1000; // ms
+  const amplitude = 0.5;
+
+  const numSamples = sampleRate * (duration / 1000);
+  const buffer = createPCMData({
+    sampleRate,
+    bitDepth: 16,
+    channelCount: 1,
+    interleaved: true,
+    data: new Float32Array(numSamples).map((_, i) => {
+      const t = i / sampleRate;
+      return amplitude * Math.sin(2 * Math.PI * frequency * t);
+    }),
+  });
+
+  const speaker = new Speaker({
+    sampleRate: sampleRate,
+    bitDepth: 16,
+    channels: 1,
+  });
+
+  speaker.write(buffer);
   returnData = true;
   await haystacks.consoleLog(namespacePrefix, functionName, msg.creturnDataIs + JSON.stringify(returnData));
   await haystacks.consoleLog(namespacePrefix, functionName, msg.cEND_Function);
