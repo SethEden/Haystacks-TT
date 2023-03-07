@@ -299,6 +299,10 @@ async function startLesson(inputData, inputMetaData) {
         let lessonScoreData = await accountBroker.executeLesson(userLessonNumber);
         // lessonScoreData is:
         await haystacks.consoleLog(namespacePrefix, functionName, app_msg.clessonScoreDataIs + JSON.stringify(lessonScoreData));
+        let updatedUserAccountData = await accountBroker.appendUsersLessonScoreData(lessonScoreData, userLessonNumber);
+        // updatedUserAccountData is:
+        await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cupdatedUserAccountDataIs + JSON.stringify(updatedUserAccountData));
+        await accountBroker.storeAccountData(updatedUserAccountData);
       } else {
         // ERROR: The lesson number entered is not available.
         console.log(app_msg.cErrorStartLessonMessage03);

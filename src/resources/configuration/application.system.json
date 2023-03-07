@@ -31,5 +31,6 @@
   "system.enableUserCommandsLogClearing": true,
   "system.enableAllCommandsLogClearing": true,
   "system.enableLessonPlanLimitingFactor": true,
-  "system.lessonPlanSuccessLimitingFactor": 90
+  "system.lessonPlanSuccessLimitingAccuracy": 90,
+  "system.lessonPlanSuccessLimitingSpeed": 70
 }

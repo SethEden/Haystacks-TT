@@ -26,12 +26,12 @@ import * as app_sys from '../constants/application.system.constants.js';
 // External imports
 import haystacks from '@haystacks/async';
 import hayConst from '@haystacks/constants';
-import Speaker from 'speaker';
-import pcmUtils from 'pcm-util';
+// import Speaker from 'speaker';
+// import pcmUtils from 'pcm-util';
 import chalk from 'chalk';
 import path from 'path';
 
-const { createPCMData } = pcmUtils;
+// const { createPCMData } = pcmUtils;
 const {bas, biz, clr, cfg, gen, msg, wrd} = hayConst;
 const baseFileName = path.basename(import.meta.url, path.extname(import.meta.url));
 // application.haystacks-tt.brokers.accountBroker.
@@ -116,6 +116,62 @@ async function storeAccountData(dataToStore) {
 }
 
 /**
+ * @function appendUsersLessonScoreData
+ * @description Adds a users lesson score data to a users account data according to the lesson number.
+ * @param {object} dataToAppend A JSON object that contains lesson scores data.
+ * @param {integer} lessonNumber The lesson number for which the data should apply.
+ * @author Seth Hollingsead
+ * @date 2023/03/06
+ */
+async function appendUsersLessonScoreData(dataToAppend, lessonNumber) {
+  let functionName = appendUsersLessonScoreData.name;
+  await haystacks.consoleLog(namespacePrefix, functionName, msg.cBEGIN_Function);
+  // dataToAppend is:
+  await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cdataToAppendIs + JSON.stringify(dataToAppend));
+  // lessonNumber is:
+  await haystacks.consoleLog(namespacePrefix, functionName, app_msg.clessonNumberIs + lessonNumber);
+  let returnData = false;
+  let currentUserAccountName = await currentUserAccount();
+  // currentUserAccountName is:
+  await haystacks.consoleLog(namespacePrefix, functionName, app_msg.currentUserAccountNameIs + currentUserAccountName);
+  let lessonName = await getIndividualLessonName(lessonNumber);
+  // lessonName is:
+  await haystacks.consoleLog(namespacePrefix, functionName, app_msg.clessonNameIs + lessonName);
+  let allAccountsData = await getAccountData();
+  // allAccountsData is:
+  await haystacks.consoleLog(namespacePrefix, functionName, app_msg.callAccountsDataIs + JSON.stringify(allAccountsData));
+  for (let userAccountKey in allAccountsData) {
+    // userAccountKey is:
+    await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cuserAccountKeyIs + userAccountKey);
+    if (userAccountKey === currentUserAccountName){
+      let userAccountData = allAccountsData[userAccountKey];
+      for (const lessonNameKey in userAccountData) {
+        // lessonNameKey is:
+        await haystacks.consoleLog(namespacePrefix, functionName, app_msg.clessonNameKeyIs + lessonNameKey);
+        let usersLessonDataObject = userAccountData[lessonNameKey];
+        // usersLessonDataObject is:
+        await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cusersLessonDataObjectIs + JSON.stringify(usersLessonDataObject));
+        let usersLessonDataObjectKeys = Object.keys(usersLessonDataObject);
+        // usersLessonDataObjectKeys is: 
+        console.log('usersLessonDataObjectKeys is: ' + JSON.stringify(usersLessonDataObjectKeys));
+        if (usersLessonDataObjectKeys[0] === lessonName) {
+          console.log('lessonNameKey === lessonName');
+          let usersLessonData = userAccountData[lessonNameKey];
+          console.log('usersLessonData is: ' + JSON.stringify(usersLessonData));
+          usersLessonData[lessonName].push(dataToAppend);
+          console.log('usersLessonData after data push is: ' + JSON.stringify(usersLessonData));
+        }
+      } // End-for (const lessonNameKey in userAccountData)
+      break;
+    } // End-if (userAccountKey === accountName)
+  } // End-for (let userAccountKey in allAccountsData)
+  returnData = allAccountsData;
+  await haystacks.consoleLog(namespacePrefix, functionName, msg.creturnDataIs + JSON.stringify(returnData));
+  await haystacks.consoleLog(namespacePrefix, functionName, msg.cEND_Function);
+  return returnData;
+}
+
+/**
  * @function getLessonData
  * @description Recovers the currently loaded lesson data from its storage location on the Haystacks D-data structure data storage hive.
  * @return {object} A JSON object that contains all of the currently loaded lesson data.
@@ -181,6 +237,52 @@ async function getIndividualLessonData(lessonNumber) {
       }
     } // End-for (let lessonKey in lessonsData[app_sys.cLessonPlan])
   } // End-if (Array.isArray(lessonsData[app_sys.cLessonPlan]) && lessonsData[app_sys.cLessonPlan].length > 0)
+  await haystacks.consoleLog(namespacePrefix, functionName, msg.creturnDataIs + JSON.stringify(returnData));
+  await haystacks.consoleLog(namespacePrefix, functionName, msg.cEND_Function);
+  return returnData;
+}
+
+/**
+ * @function getIndividualLessonName
+ * @description Recovers the name of a lesson, based on the input lesson number.
+ * @param {integer} lessonNumber The number of the lesson for which we should get a lesson name.
+ * @return {string} The name of the specified lesson.
+ * @author Seth Hollingsead
+ * @date 2023/03/06
+ */
+async function getIndividualLessonName(lessonNumber) {
+  let functionName = getIndividualLessonName.name;
+  await haystacks.consoleLog(namespacePrefix, functionName, msg.cBEGIN_Function);
+  // lessonNumber is:
+  await haystacks.consoleLog(namespacePrefix, functionName, app_msg.clessonNumberIs + lessonNumber);
+  let returnData = false;
+  let allLessonsData = await getLessonData();
+  if (Array.isArray(allLessonsData[app_sys.cLessonPlan]) && allLessonsData[app_sys.cLessonPlan].length > 0) {
+    for (let lessonKey in allLessonsData[app_sys.cLessonPlan]) {
+      // lessonKey is:
+      await haystacks.consoleLog(namespacePrefix, functionName, app_msg.clessonKeyIs + lessonKey);
+      let individualLessonData = allLessonsData[app_sys.cLessonPlan][lessonKey];
+      // individualLessonData is:
+      await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cindividualLessonDataIs + JSON.stringify(individualLessonData));
+      let individualLessonDataKeys = Object.keys(individualLessonData);
+      let lessonName = individualLessonDataKeys[0];
+      // lessonName is:
+      await haystacks.consoleLog(namespacePrefix, functionName, app_msg.clessonNameIs + lessonName);
+      let actualLessonData = individualLessonData[individualLessonDataKeys[0]];
+      // actualLessonData is:
+      await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cactualLessonDataIs + JSON.stringify(actualLessonData));
+      let currentLessonNumber = actualLessonData[wrd.cNumber];
+      // currentLessonNumber is:
+      await haystacks.consoleLog(namespacePrefix, functionName, app_msg.ccurrentLessonNumberIs + currentLessonNumber);
+      if ((Number.isInteger(currentLessonNumber) && currentLessonNumber === lessonNumber) || parseInt(currentLessonNumber) === lessonNumber) {
+        returnData = lessonName;
+        break;
+      } else {
+        // ERROR: There was an error with the lesson data, invalid lesson number: 
+        console.log(app_msg.cErrorGetIndividualLessonDataMessage01 + lessonKey);
+      }
+    } // End-for (let lessonKey in allLessonsData[app_sys.cLessonPlan])
+  } // End-if (Array.isArray(allLessonsData[app_sys.cLessonPlan]) && allLessonsData[app_sys.cLessonPlan].length > 0)
   await haystacks.consoleLog(namespacePrefix, functionName, msg.creturnDataIs + JSON.stringify(returnData));
   await haystacks.consoleLog(namespacePrefix, functionName, msg.cEND_Function);
   return returnData;
@@ -300,7 +402,7 @@ async function generateBlankLessonData() {
       let lessonName = lessonNameArray[0];
       // lessonName is:
       await haystacks.consoleLog(namespacePrefix, functionName, app_msg.clessonNameIs + lessonName);
-      returnData.push({[lessonName]: {}});
+      returnData.push({[lessonName]: []});
     } // End-for (let lessonKey in lessonsData[app_sys.cLessonPlan])
   } // End-if (Array.isArray(lessonsData[app_sys.cLessonPlan]) && lessonsData[app_sys.cLessonPlan].length > 0)
   await haystacks.consoleLog(namespacePrefix, functionName, msg.creturnDataIs + JSON.stringify(returnData));
@@ -383,6 +485,7 @@ async function executeLesson(lessonNumber) {
   await haystacks.consoleLog(namespacePrefix, functionName, app_msg.clessonNumberIs + lessonNumber);
   let returnData = false;
   let individualLessonData = await getIndividualLessonData(lessonNumber);
+  let lineLessonScoresDataArray = [];
   // individualLessonData is:
   await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cindividualLessonDataIs + JSON.stringify(individualLessonData));
   if (individualLessonData) {
@@ -450,8 +553,17 @@ async function executeLesson(lessonNumber) {
         if (lessonLineScoreData === false) {
           // User must have pressed the ESC key, break completely out!
           break;
+        } else {
+          // Store the lesson line data so we can compute all the line data once all the lines are completed, and generate final data for the entire lesson.
+          lineLessonScoresDataArray.push(lessonLineScoreData);
         }
       } // End-for (let individualLessonLineKey in allLessonLines)
+      if (lineLessonScoresDataArray.length > 1) {
+        // Must compute average values for all of the data elements for all the lines from the lesson.
+        returnData = computeAverageLessonScoreValues(lineLessonScoresDataArray);
+      } else if (lineLessonScoresDataArray.length === 1) {
+        returnData = lineLessonScoresDataArray[0];
+      }
     } else {
       // ERROR: No lesson lines for the specified lesson number:
       console.log(app_msg.cErrorExecuteLessonMessage01 + lessonNumber);
@@ -518,7 +630,7 @@ async function executeLessonLine(lessonLineString) {
       userEnteredCharacter = chalk.rgb(blackForeground[0], blackForeground[1], blackForeground[2])(userEnteredCharacter);
       userEnteredCharacter = chalk.bgRgb(redBackground[0], redBackground[1], redBackground[2])(userEnteredCharacter);
       charactersIncorrectCount = charactersIncorrectCount + 1;
-      await generateTone();
+      // await generateTone();
     }
     userCharacterEntryCount = userCharacterEntryCount + 1;
     // userEnteredCharacter is:
@@ -538,12 +650,35 @@ async function executeLessonLine(lessonLineString) {
     await haystacks.consoleLog(namespacePrefix, functionName, app_msg.ccharactersCorrectCountIs + charactersCorrectCount);
     // charactersIncorrectCount is:
     await haystacks.consoleLog(namespacePrefix, functionName, app_msg.ccharactersInCorrectCountIs + charactersIncorrectCount);
+
+    // ************************************************************************************************************************
+    // BEGIN Computed values
+    // ************************************************************************************************************************
+    // Developer Notes:
+    // Total Number of Words = Total Keys Pressed / 5
+    // WPM = Total Number of Words / Time Elapsed in Minutes (rounded down)
+    // Accuracy = Number of Correct Keys / Total Number of Keys Pressed
+    let totalNumberOfWords = userCharacterEntryCount / 5;
+    // totalNumberOfWords is:
+    await haystacks.consoleLog(namespacePrefix, functionName, app_msg.ctotalNumberOfWordsIs + totalNumberOfWords);
+    let wpm = totalNumberOfWords / (deltaTime / 60000) // convert milliseconds to seconds
+    // wpm is:
+    await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cwpmIs + wpm);
+    let accuracy = charactersCorrectCount / userCharacterEntryCount;
+    // accuracy is:
+    await haystacks.consoleLog(namespacePrefix, functionName, app_msg.caccuracyIs + accuracy);
+    // ************************************************************************************************************************
+    // END Computed values
+    // ************************************************************************************************************************
     returnData = {
       [app_sys.clineStartTime]: lineStartTime,
       [app_sys.clineEndTime]: lineEndTime,
       [app_sys.cdeltaTime]: deltaTime,
       [app_sys.ccorrectCharacterCount]: charactersCorrectCount,
-      [app_sys.cincorrectCharacterCount]: charactersIncorrectCount
+      [app_sys.cincorrectCharacterCount]: charactersIncorrectCount,
+      [app_sys.ctotalWords]: totalNumberOfWords,
+      [app_sys.cwpm]: wpm,
+      [app_sys.caccuracy]: accuracy
     }
   }
   await haystacks.consoleLog(namespacePrefix, functionName, msg.creturnDataIs + JSON.stringify(returnData));
@@ -551,92 +686,162 @@ async function executeLessonLine(lessonLineString) {
   return returnData;
 }
 
+// /**
+// @NOTE: This is being de-scoped, if I can get it to work at some point in the future it might be in-scope again.
+// There are more important things that must be implemented. If anybody wants to pick this up and make it work, please feel free to let me know!
+// I'll be happy to help!!
+//  * @function generateTone
+//  * @description Generates a short burst tone to the system speaker to let the user know they have entered an incorrect character.
+//  * @return {boolean} True or False to indicate if the tone was generated successfully or not.
+//  * @author Seth Hollingsead
+//  * @date 2023/03/02
+//  * @NOTE Initialize the player so we have access to the system speaker. Generate a tone when the user types an incorrect key.
+//  * This is part of an important learning strategy part of reinforcement learning through punishment, known as Operant conditioning.
+//  */
+// async function generateTone() {
+//   let functionName = generateTone.name;
+//   await haystacks.consoleLog(namespacePrefix, functionName, msg.cBEGIN_Function);
+//   let returnData = false;
+//   // ATTEMPT 1
+//   // ********************************************************************
+//   // const frequency = 440; // Hz
+//   // const duration = 500; // ms
+//   // const sampleRate = 44100;
+//   // const amplitude = 0.5; // Volume
+
+//   // const numSamples = sampleRate * (duration / 1000);
+//   // const buffer = Buffer.alloc(numSamples * 2);
+//   // let sample;
+
+//   // for (let i = 0; i < numSamples; i++) {
+//   //   const t = i / sampleRate;
+//   //   sample = Math.round(amplitude * 32767 * Math.sin(2 * Math.Pi * frequency * t));
+//   //   buffer.writeInt16LE(sample, i * 2);
+//   // }
+
+//   // player.play(buffer);
+//   // ********************************************************************
+
+//   // ATTEMPT 2
+//   // ********************************************************************
+//   // process.stderr.write('\007');
+//   // ********************************************************************
+
+//   // ATTEMPT 3
+//   // ********************************************************************
+//   // process.stderr.write('0x07');
+//   // ********************************************************************
+
+//   // ATTEMPT 4
+//   // ********************************************************************
+//   // const sampleRate = 44100;
+//   // const frequency = 440; // Hz
+//   // const duration = 1000; // ms
+//   // const amplitude = 0.5;
+
+//   // const generator = audioGenerator(() => {
+//   //   let t = 0;
+//   //   return (time, i) => {
+//   //     t = time;
+//   //     return amplitude * Math.sin(2 * Math.PI * frequency * t);
+//   //   };
+//   // }, { duration, sampleRate });
+
+//   // generator.pipe(new Speaker({ sampleRate }));
+//   // ********************************************************************
+
+//   // ATTEMPT 5
+//   // ********************************************************************
+//   const sampleRate = 44100;
+//   const frequency = 440; // Hz
+//   const duration = 1000; // ms
+//   const amplitude = 0.5;
+
+//   const numSamples = sampleRate * (duration / 1000);
+//   const buffer = createPCMData({
+//     sampleRate,
+//     bitDepth: 16,
+//     channelCount: 1,
+//     interleaved: true,
+//     data: new Float32Array(numSamples).map((_, i) => {
+//       const t = i / sampleRate;
+//       return amplitude * Math.sin(2 * Math.PI * frequency * t);
+//     }),
+//   });
+
+//   const speaker = new Speaker({
+//     sampleRate: sampleRate,
+//     bitDepth: 16,
+//     channels: 1,
+//   });
+//   speaker.write(buffer);
+//   // ********************************************************************
+//   returnData = true;
+//   await haystacks.consoleLog(namespacePrefix, functionName, msg.creturnDataIs + JSON.stringify(returnData));
+//   await haystacks.consoleLog(namespacePrefix, functionName, msg.cEND_Function);
+//   return returnData;
+// }
+
 /**
- * @function generateTone
- * @description Generates a short burst tone to the system speaker to let the user know they have entered an incorrect character.
- * @return {boolean} True or False to indicate if the tone was generated successfully or not.
+ * @function computeAverageLessonScoreValues
+ * @description Averages all of the values across all the lines for the lesson.
+ * @param {array<object>} scoresDataArray An array of JSON objects that contains all of lesson data for each line in the lesson.
+ * @return {object} A single JSON object that contains an average or sum of all the data from all of the lines of the entire lesson.
  * @author Seth Hollingsead
- * @date 2023/03/02
- * @NOTE Initialize the player so we have access to the system speaker. Generate a tone when the user types an incorrect key.
- * This is part of an important learning strategy part of reinforcement learning through punishment, known as Operant conditioning.
+ * @date 2023/03/06
  */
-async function generateTone() {
-  let functionName = generateTone.name;
+async function computeAverageLessonScoreValues(scoresDataArray) {
+  let functionName = computeAverageLessonScoreValues.name;
   await haystacks.consoleLog(namespacePrefix, functionName, msg.cBEGIN_Function);
+  // scoresDataArray is:
+  await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cscoresDataArrayIs + JSON.stringify(scoresDataArray));
   let returnData = false;
-  // ATTEMPT 1
-  // ********************************************************************
-  // const frequency = 440; // Hz
-  // const duration = 500; // ms
-  // const sampleRate = 44100;
-  // const amplitude = 0.5; // Volume
+  let totalTime = 0;
+  let totalCorrectCharacterCount = 0;
+  let totalIncorrectCharacterCount = 0;
+  let totalWords = 0;
+  let wpmSum = 0;
+  let accuracySum = 0;
+  let averageWPM = 0;
+  let averageAccuracy = 0;
+  if (scoresDataArray && Array.isArray(scoresDataArray) && scoresDataArray.length > 1) {
+    for (let scoreObjectKey in scoresDataArray) {
+      let scoreObject = scoresDataArray[scoreObjectKey];
+      // scoreObject is:
+      await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cscoreObjectIs + JSON.stringify(scoreObject));
+      totalTime = totalTime + scoreObject[app_sys.cdeltaTime];
+      totalCorrectCharacterCount = totalCorrectCharacterCount + scoreObject[app_sys.ccorrectCharacterCount];
+      totalIncorrectCharacterCount = totalIncorrectCharacterCount + scoreObject[app_sys.cincorrectCharacterCount];
+      totalWords = totalWords + scoreObject[app_sys.ctotalWords];
+      wpmSum = wpmSum + scoreObject[app_sys.cwpm];
+      accuracySum = accuracySum + scoreObject[app_sys.caccuracy];
+    }
+    averageWPM = wpmSum / scoresDataArray.length;
+    averageAccuracy = accuracySum / scoresDataArray.length;
 
-  // const numSamples = sampleRate * (duration / 1000);
-  // const buffer = Buffer.alloc(numSamples * 2);
-  // let sample;
+    // totalTime is:
+    await haystacks.consoleLog(namespacePrefix, functionName, app_msg.ctotalTimeIs + totalTime);
+    // totalCorrectCharacterCount is:
+    await haystacks.consoleLog(namespacePrefix, functionName, app_msg.ctotalCorrectCharacterCountIs + totalCorrectCharacterCount);
+    // totalIncorrectCharacterCount is:
+    await haystacks.consoleLog(namespacePrefix, functionName, app_msg.ctotalIncorrectCharacterCountIs + totalIncorrectCharacterCount);
+    // totalWords is:
+    await haystacks.consoleLog(namespacePrefix, functionName, app_msg.ctotalWordsIs + totalWords);
+    // averageWPM is:
+    await haystacks.consoleLog(namespacePrefix, functionName, app_msg.caverageWpmIs + averageWPM);
+    // averageAccuracy is:
+    await haystacks.consoleLog(namespacePrefix, functionName, app_msg.caverageAccuracyIs + averageAccuracy);
 
-  // for (let i = 0; i < numSamples; i++) {
-  //   const t = i / sampleRate;
-  //   sample = Math.round(amplitude * 32767 * Math.sin(2 * Math.Pi * frequency * t));
-  //   buffer.writeInt16LE(sample, i * 2);
-  // }
-
-  // player.play(buffer);
-  // ********************************************************************
-
-  // ATTEMPT 2
-  // ********************************************************************
-  // process.stderr.write('\007');
-  // ********************************************************************
-  
-  // ATTEMPT 3
-  // ********************************************************************
-  // process.stderr.write('0x07');
-  // ********************************************************************
-
-  // ATTEMPT 4
-  // ********************************************************************
-  // const sampleRate = 44100;
-  // const frequency = 440; // Hz
-  // const duration = 1000; // ms
-  // const amplitude = 0.5;
-
-  // const generator = audioGenerator(() => {
-  //   let t = 0;
-  //   return (time, i) => {
-  //     t = time;
-  //     return amplitude * Math.sin(2 * Math.PI * frequency * t);
-  //   };
-  // }, { duration, sampleRate });
-
-  // generator.pipe(new Speaker({ sampleRate }));
-  // ********************************************************************
-
-  const sampleRate = 44100;
-  const frequency = 440; // Hz
-  const duration = 1000; // ms
-  const amplitude = 0.5;
-
-  const numSamples = sampleRate * (duration / 1000);
-  const buffer = createPCMData({
-    sampleRate,
-    bitDepth: 16,
-    channelCount: 1,
-    interleaved: true,
-    data: new Float32Array(numSamples).map((_, i) => {
-      const t = i / sampleRate;
-      return amplitude * Math.sin(2 * Math.PI * frequency * t);
-    }),
-  });
-
-  const speaker = new Speaker({
-    sampleRate: sampleRate,
-    bitDepth: 16,
-    channels: 1,
-  });
-
-  speaker.write(buffer);
-  returnData = true;
+    returnData = {};
+    returnData = {
+      [app_sys.ctotalTime]: totalTime,
+      [app_sys.ctotalCorrectCharacterCount]: totalCorrectCharacterCount,
+      [app_sys.ctotalIncorrectCharacterCount]: totalIncorrectCharacterCount,
+      [app_sys.ctotalWords]: totalWords,
+      [app_sys.caverageWpm]: averageWPM,
+      [app_sys.caverageAccuracy]: averageAccuracy
+    };
+  }
   await haystacks.consoleLog(namespacePrefix, functionName, msg.creturnDataIs + JSON.stringify(returnData));
   await haystacks.consoleLog(namespacePrefix, functionName, msg.cEND_Function);
   return returnData;
@@ -695,7 +900,7 @@ async function isLessonAdvancementLimitEnabled() {
   let functionName = isLessonAdvancementLimitEnabled.name;
   await haystacks.consoleLog(namespacePrefix, functionName, msg.cBEGIN_Function);
   let returnData = false;
-  returnData = await haystacks.getConfigurationSetting(wrd.csystem, app_cfg.cenableLessonPlanLimitingFactor);
+  returnData = await haystacks.getConfigurationSetting(wrd.csystem, app_cfg.cenableLessonPlanLimitingFactors);
   await haystacks.consoleLog(namespacePrefix, functionName, msg.creturnDataIs + JSON.stringify(returnData));
   await haystacks.consoleLog(namespacePrefix, functionName, msg.cEND_Function);
   return returnData;
@@ -761,8 +966,10 @@ export default {
   getAccountData,
   getUserAccountData,
   storeAccountData,
+  appendUsersLessonScoreData,
   getLessonData,
   getIndividualLessonData,
+  getIndividualLessonName,
   doesAccountExist,
   createAccount,
   removeAccount,

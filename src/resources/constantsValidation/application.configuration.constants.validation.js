@@ -22,7 +22,8 @@ export const applicationConfigurationConstantsValidation = [
   {Name: 'cappAccountsPath', Actual: app_cfg.cappAccountsPath, Expected: 'appAccountsPath'},
   {Name: 'cappLessonsPath', Actual: app_cfg.cappLessonsPath, Expected: 'appLessonsPath'},
   {Name: 'csaveTypingRecords', Actual: app_cfg.csaveTypingRecords, Expected: 'saveTypingRecords'},
-  {Name: 'clessonPlanSuccessLimitingFactor', Actual: app_cfg.clessonPlanSuccessLimitingFactor, Expected: 'lessonPlanSuccessLimitingFactor'},
-  {Name: 'cenableLessonPlanLimitingFactor', Actual: app_cfg.cenableLessonPlanLimitingFactor, Expected: 'enableLessonPlanLimitingFactor'},
+  {Name: 'cenableLessonPlanLimitingFactors', Actual: app_cfg.cenableLessonPlanLimitingFactors, Expected: 'enableLessonPlanLimitingFactors'},
+  {Name: 'clessonPlanSuccessLimitingAccuracy', Actual: app_cfg.clessonPlanSuccessLimitingAccuracy, Expected: 'enableLessonPlanLimitingAccuracy'},
+  {Name: 'cenableLessonPlanLimitingSpeed', Actual: app_cfg.cenableLessonPlanLimitingSpeed, Expected: 'enableLessonPlanLimitingSpeed'},
   {Name: 'cCurrentUser', Actual: app_cfg.cCurrentUser, Expected: 'CurrentUser'},
 ];

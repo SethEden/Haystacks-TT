@@ -23,6 +23,14 @@ export const clineEndTime = wrd.cline + wrd.cEnd + wrd.cTime; // lineEndTime
 export const cdeltaTime = wrd.cdelta + wrd.cTime; // deltaTime
 export const ccorrectCharacterCount = wrd.ccorrect + wrd.cCharacter + wrd.cCount; // correctCharacterCount
 export const cincorrectCharacterCount = wrd.cincorrect + wrd.cCharacter + wrd.cCount; // incorrectCharacterCount
+export const ctotalWords = wrd.ctotal + wrd.cWords; // totalWords
+export const cwpm = bas.cwp + bas.cm; // wpm
+export const caccuracy = wrd.caccuracy; // accuracy
+export const ctotalTime = wrd.ctotal + wrd.cTime; // totalTime
+export const ctotalCorrectCharacterCount = wrd.ctotal + wrd.cCorrect + wrd.cCharacter + wrd.cCount; // totalCorrectCharacterCount
+export const ctotalIncorrectCharacterCount = wrd.ctotal + wrd.cIncorrect + wrd.cCharacter + wrd.cCount; // totalIncorrectCharacterCount
+export const caverageWpm = wrd.caverage + bas.cWp + bas.cm; // averageWpm
+export const caverageAccuracy = wrd.caverage + wrd.cAccuracy; // averageAccuracy
 
 // Constants Validation
 export const cresolvedConstantsPath_Application = wrd.cresolved + wrd.cConstants + wrd.cPath + bas.cUnderscore + wrd.cApplication; // resolvedConstantsPath_Application
