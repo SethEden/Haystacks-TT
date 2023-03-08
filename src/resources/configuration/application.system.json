@@ -30,7 +30,7 @@
   "system.logAllCommands": true,
   "system.enableUserCommandsLogClearing": true,
   "system.enableAllCommandsLogClearing": true,
-  "system.enableLessonPlanLimitingFactor": true,
+  "system.enableLessonPlanLimitingFactors": true,
   "system.lessonPlanSuccessLimitingAccuracy": 90,
   "system.lessonPlanSuccessLimitingSpeed": 70
 }

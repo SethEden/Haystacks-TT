@@ -43,11 +43,13 @@ export const applicationMessageConstantsValidation = [
   {Name: 'cindividualLessonLineIs', Actual: app_msg.cindividualLessonLineIs, Expected: 'individualLessonLine is: '},
   {Name: 'ccurrentUserNameIs', Actual: app_msg.ccurrentUserNameIs, Expected: 'currentUserName is: '},
   {Name: 'clessonPassingScoreEnabledIs', Actual: app_msg.clessonPassingScoreEnabledIs, Expected: 'lessonPassingScoreEnabled is: '},
-  {Name: 'cpassingScoreLimitIs', Actual: app_msg.cpassingScoreLimitIs, Expected: 'passingScoreLimit is: '},
+  {Name: 'cpassingAccuracyScoreLimitIs', Actual: app_msg.cpassingAccuracyScoreLimitIs, Expected: 'passingAccuracyScoreLimit is: '},
+  {Name: 'cpassingSpeedScoreLimitIs', Actual: app_msg.cpassingSpeedScoreLimitIs, Expected: 'passingSpeedScoreLimit is: '},
   {Name: 'clessonScoreDataIs', Actual: app_msg.clessonScoreDataIs, Expected: 'lessonScoreData is: '},
   {Name: 'cmaxLessonNumberIs', Actual: app_msg.cmaxLessonNumberIs, Expected: 'maxLessonNumber is: '},
   {Name: 'cuserLessonNumberIs', Actual: app_msg.cuserLessonNumberIs, Expected: 'userLessonNumber is: '},
-  {Name: 'clessonAdvancementScoreLimitIs', Actual: app_msg.clessonAdvancementScoreLimitIs, Expected: 'lessonAdvancementScoreLimit is: '},
+  {Name: 'clessonAdvancementScoreLimitAccuracyIs', Actual: app_msg.clessonAdvancementScoreLimitAccuracyIs, Expected: 'lessonAdvancementScoreLimitAccuracy is: '},
+  {Name: 'clessonAdvancementScoreLimitSpeedIs', Actual: app_msg.clessonAdvancementScoreLimitSpeedIs, Expected: 'lessonAdvancementScoreLimitSpeed is: '},
   {Name: 'cactualLessonDataIs', Actual: app_msg.cactualLessonDataIs, Expected: 'actualLessonData is: '},
   {Name: 'ccurrentLessonNumberIs', Actual: app_msg.ccurrentLessonNumberIs, Expected: 'currentLessonNumber is: '},
   {Name: 'clessonDescriptionIs', Actual: app_msg.clessonDescriptionIs, Expected: 'lessonDescription is: '},
@@ -76,6 +78,15 @@ export const applicationMessageConstantsValidation = [
   {Name: 'ccurrentUserAccountNameIs', Actual: app_msg.ccurrentUserAccountNameIs, Expected: 'currentUserAccountName is: '},
   {Name: 'clessonNameKeyIs', Actual: app_msg.clessonNameKeyIs, Expected: 'lessonNameKey is: '},
   {Name: 'cusersLessonDataObjectIs', Actual: app_msg.cusersLessonDataObjectIs, Expected: 'usersLessonDataObject is: '},
+  {Name: 'cusersLessonDataObjectKeysIs', Actual: app_msg.cusersLessonDataObjectKeysIs, Expected: 'usersLessonDataObjectKeys is: '},
+  {Name: 'cusersLessonDataIs', Actual: app_msg.cusersLessonDataIs, Expected: 'usersLessonData is: '},
+  {Name: 'cusersLessonDataAfterPushIs', Actual: app_msg.cusersLessonDataAfterPushIs, Expected: 'usersLessonData after data push is: '},
+  {Name: 'clessonNameKeyEqualsLessonName', Actual: app_msg.clessonNameKeyEqualsLessonName, Expected: 'lessonNameKey === lessonName'},
+  {Name: 'cappAccountsPathIs', Actual: app_msg.cappAccountsPathIs, Expected: 'appAccountsPath is: '},
+  {Name: 'cadvancementLimitSettingIs', Actual: app_msg.cadvancementLimitSettingIs, Expected: 'advancementLimitSetting is: '},
+  {Name: 'callLessonsDataIs', Actual: app_msg.callLessonsDataIs, Expected: 'allLessonsData is: '},
+  {Name: 'clessonPlanKeysIs', Actual: app_msg.clessonPlanKeysIs, Expected: 'lessonPlanKeys is: '},
+  {Name: 'clessonKeyValueIs', Actual: app_msg.clessonKeyValueIs, Expected: 'lessonKeyValue is: '},
 
   // Application messages
   {Name: 'cinstructionsMessage00', Actual: app_msg.cinstructionsMessage00, Expected: 'Instructions to end user:'},
@@ -112,6 +123,7 @@ export const applicationMessageConstantsValidation = [
   {Name: 'cErrorStartLessonMessage04', Actual: app_msg.cErrorStartLessonMessage04, Expected: 'Please enter a lesson number between 1 and: '},
   {Name: 'cErrorGetIndividualLessonDataMessage01', Actual: app_msg.cErrorGetIndividualLessonDataMessage01, Expected: 'ERROR: There was an error with the lesson data, invalid lesson number: '},
   {Name: 'cErrorExecuteLessonMessage01', Actual: app_msg.cErrorExecuteLessonMessage01, Expected: 'ERROR: No lesson lines for the specified lesson number: '},
+  {Name: 'csaveAccountDataFailureMessage01', Actual: app_msg.csaveAccountDataFailureMessage01, Expected: 'ERROR: Failure to write out the file: '},
   // ****************************************************************************************************
   {Name: 'cLessonInstructionsMessage01', Actual: app_msg.cLessonInstructionsMessage01, Expected: 'LESSON INSTRUCTIONS:'},
   {Name: 'cLessonInstructionsMessage02', Actual: app_msg.cLessonInstructionsMessage02, Expected: 'Place your left index finger on the "F" key, and your right index finger on the "J" key.'},
@@ -125,9 +137,10 @@ export const applicationMessageConstantsValidation = [
   {Name: 'cLessonInstructionsMessage10', Actual: app_msg.cLessonInstructionsMessage10, Expected: 'This is a timed lesson, so the faster you go the better your score will be.'},
   {Name: 'cLessonInstructionsMessage11', Actual: app_msg.cLessonInstructionsMessage11, Expected: 'However, typing errors count against your score.'},
   {Name: 'cLessonInstructionsMessage12', Actual: app_msg.cLessonInstructionsMessage12, Expected: 'You must get a score of: '},
-  {Name: 'cLessonInstructionsMessage13', Actual: app_msg.cLessonInstructionsMessage13, Expected: 'or higher to advance to the next lesson.'},
-  {Name: 'cLessonInstructionsMessage14', Actual: app_msg.cLessonInstructionsMessage14, Expected: 'A report showing your score will display after the lesson is complete.'},
-  {Name: 'cLessonInstructionsMessage15', Actual: app_msg.cLessonInstructionsMessage15, Expected: 'Press the "ESC" key, in the far upper left corner of the keyboard to cancel a lesson.'},
+  {Name: 'cLessonInstructionsMessage13', Actual: app_msg.cLessonInstructionsMessage13, Expected: 'And a speed score of at least: '},
+  {Name: 'cLessonInstructionsMessage14', Actual: app_msg.cLessonInstructionsMessage14, Expected: 'or higher to advance to the next lesson.'},
+  {Name: 'cLessonInstructionsMessage15', Actual: app_msg.cLessonInstructionsMessage15, Expected: 'A report showing your score will display after the lesson is complete.'},
+  {Name: 'cLessonInstructionsMessage16', Actual: app_msg.cLessonInstructionsMessage16, Expected: 'Press the "ESC" key, in the far upper left corner of the keyboard to cancel a lesson.'},
   // ****************************************************************************************************
 
   // Constants Validation

@@ -291,18 +291,23 @@ async function startLesson(inputData, inputMetaData) {
         let lessonPassingScoreEnabled = await accountBroker.isLessonAdvancementLimitEnabled();
         // lessonPassingScoreEnabled is:
         await haystacks.consoleLog(namespacePrefix, functionName, app_msg.clessonPassingScoreEnabledIs + lessonPassingScoreEnabled);
-        let lessonAdvancementScoreLimit = await accountBroker.getLessonAdvancementScoreLimit();
-        // lessonAdvancementScoreLimit is:
-        await haystacks.consoleLog(namespacePrefix, functionName, app_msg.clessonAdvancementScoreLimitIs + lessonAdvancementScoreLimit);
+        let lessonAdvancementScoreLimitAccuracy = await accountBroker.getLessonAdvancementScoreLimitAccuracy();
+        // lessonAdvancementScoreLimitAccuracy is:
+        await haystacks.consoleLog(namespacePrefix, functionName, app_msg.clessonAdvancementScoreLimitAccuracyIs + lessonAdvancementScoreLimitAccuracy);
+        let lessonAdvancementScoreLimitSpeed = await accountBroker.getLessonAdvancementScoreLimitSpeed();
+        // lessonAdvancementScoreLimitSpeed is:
+        await haystacks.consoleLog(namespacePrefix, functionName, app_msg.clessonAdvancementScoreLimitSpeedIs + lessonAdvancementScoreLimitSpeed);
         // TODO: Filter on the above flag and determine if the user is going to be allowed to execute this lesson number or not,
         // TODO: based on their history of passing scores on all their previous lessons.
         let lessonScoreData = await accountBroker.executeLesson(userLessonNumber);
         // lessonScoreData is:
         await haystacks.consoleLog(namespacePrefix, functionName, app_msg.clessonScoreDataIs + JSON.stringify(lessonScoreData));
-        let updatedUserAccountData = await accountBroker.appendUsersLessonScoreData(lessonScoreData, userLessonNumber);
-        // updatedUserAccountData is:
-        await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cupdatedUserAccountDataIs + JSON.stringify(updatedUserAccountData));
-        await accountBroker.storeAccountData(updatedUserAccountData);
+        if (lessonScoreData) {
+          let updatedUserAccountData = await accountBroker.appendUsersLessonScoreData(lessonScoreData, userLessonNumber);
+          // updatedUserAccountData is:
+          await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cupdatedUserAccountDataIs + JSON.stringify(updatedUserAccountData));
+          await accountBroker.storeAccountData(updatedUserAccountData);
+        }
       } else {
         // ERROR: The lesson number entered is not available.
         console.log(app_msg.cErrorStartLessonMessage03);

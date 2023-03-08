@@ -14,6 +14,7 @@ import hayConst from '@haystacks/constants';
 const {bas, gen, wrd} = hayConst;
 
 // Tutoring system constants
+export const cclientData = wrd.cclient + wrd.cData; // clientData
 export const cuserAccounts = wrd.cuser + wrd.cAccounts; // userAccounts
 export const capplicationLessons = wrd.capplication + wrd.cLessons; // applicationLessons
 export const cLessonPlan = wrd.cLesson + wrd.cPlan; // LessonPlan

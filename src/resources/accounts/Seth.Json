@@ -1,0 +1,42 @@
+[
+  {
+    "Lesson_0001": [
+      {
+        "totalTime": 1376,
+        "totalCorrectCharacterCount": 9,
+        "totalIncorrectCharacterCount": 0,
+        "totalWords": 1.7999999999999998,
+        "averageWpm": 90.02976190476191,
+        "averageAccuracy": 1
+      },
+      {
+        "totalTime": 6345,
+        "totalCorrectCharacterCount": 34,
+        "totalIncorrectCharacterCount": 0,
+        "totalWords": 6.8,
+        "averageWpm": 89.12360623457722,
+        "averageAccuracy": 1
+      }
+    ]
+  },
+  {
+    "Lesson_0002": [
+      {
+        "totalTime": 11648,
+        "totalCorrectCharacterCount": 20,
+        "totalIncorrectCharacterCount": 10,
+        "totalWords": 5.999999999999999,
+        "averageWpm": 40.565461854657755,
+        "averageAccuracy": 0.6666666666666667
+      },
+      {
+        "totalTime": 8321,
+        "totalCorrectCharacterCount": 30,
+        "totalIncorrectCharacterCount": 0,
+        "totalWords": 5.999999999999999,
+        "averageWpm": 50.5325017413439,
+        "averageAccuracy": 1
+      }
+    ]
+  }
+]

@@ -13,6 +13,7 @@ import * as app_sys from '../../constants/application.system.constants.js';
 
 export const applicationSystemConstantsValidation = [
   // Tutoring system constants
+  {Name: 'cclientData', Actual: app_sys.cclientData, Expected: 'clientData'},
   {Name: 'cuserAccounts', Actual: app_sys.cuserAccounts, Expected: 'userAccounts'},
   {Name: 'capplicationLessons', Actual: app_sys.capplicationLessons, Expected: 'applicationLessons'},
   {Name: 'cLessonPlan', Actual: app_sys.cLessonPlan, Expected: 'LessonPlan'},

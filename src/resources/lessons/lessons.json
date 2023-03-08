@@ -5,15 +5,219 @@
       "Description": "Keys f & j",
       "Lines": [{
         "Line_01": "fj",
-        "Line_02": "ffffjjj"
+        "Line_02": "ffffjjj",
+        "Line_03": "jffffjj",
+        "Line_04": "jjffjjf",
+        "Line_05": "fjjfjfj",
+        "Line_06": "jfjf"
       }]
-    }
-  },
-  {
+    },
     "Lesson_0002": {
       "Number": 2,
-      "Description": "Practice f & j",
-      "Type": "ffffjjj"
+      "Description": "Practice f & j Lesson 1",
+      "Lines": [{
+        "Line_01": "f f j j",
+        "Line_02": "ff f f",
+        "Line_03": "jj jj f",
+        "Line_04": "j jf ff",
+        "Line_05": "j j"
+      }]
+    },
+    "Lesson_0003": {
+      "Number": 3,
+      "Description": "Practice f & j Lesson 2",
+      "Lines": [{
+        "Line_01": "ffff jjjj ff jj fff jjj fj fj jjf ffj",
+        "Line_02": "fff jjj ffj jjf fjfj fffj jjjf ffjj",
+        "Line_03": "ff jj ffff"
+      }]
+    },
+    "Lesson_0004": {
+      "Number": 4,
+      "Description": "Keys d & k",
+      "Lines": [{
+        "Line_01": "dk",
+        "Line_02": "ddddkkk",
+        "Line_03": "kddddkk",
+        "Line_04": "kkddkkd",
+        "Line_05": "dkkdkdk",
+        "Line_06": "kdkd"
+      }]
+    },
+    "Lesson_0005": {
+      "Number": 5,
+      "Description": "Practice d & k Lesson 1",
+      "Lines": [{
+        "Line_01": "dd kk dk dk kd kd ddd kkd ddk dkk",
+        "Line_02": "kkdd ddkk dddd kkkk ddkk kkdd kdd kddd",
+        "Line_03": "dk kk"
+      }]
+    },
+    "Lesson_0006": {
+      "Number": 6,
+      "Description": "Practice d & k Lesson 2",
+      "Lines": [{
+        "Line_01": "ffff ddd jjjj kkkk df df jk jk jjj",
+        "Line_02": "fff ddff jjkk kkdd fdfd jkjk dfjk dfjk",
+        "Line_03": "kkdd jkjk dfdf dfjj jjfd kkjj dfjk",
+        "Line_04": "ddkd kkdk"
+      }]
+    },
+    "Lesson_0007": {
+      "Number": 7,
+      "Description": "Test 1",
+      "Lines": [{
+        "Line_01": "ffjjfjkdjkdfkjdkfjkdjfkjdfkdjfkdfdkjfkdf"
+      }]
+    },
+    "Lesson_0008": {
+      "Number": 8,
+      "Description": "Keys s & l",
+      "Lines": [{
+        "Line_01": "sl",
+        "Line_02": "sssslll",
+        "Line_03": "lssssll",
+        "Line_04": "llsslls",
+        "Line_05": "sllslsl",
+        "Line_06": "lsls"
+      }]
+    },
+    "Lesson_0009": {
+      "Number": 9,
+      "Description": "Practice s & l Lesson 1",
+      "Lines": [{
+        "Line_01": "ll ss ssll slsl lsssl slls lsll ssl",
+        "Line_02": "lss ssll slsl llsslsll ssl ssll slsl",
+        "Line_03": "lsll ll"
+      }]
+    },
+    "Lesson_0010": {
+      "Number": 10,
+      "Description": "Practice s & l Lesson 2",
+      "Lines": [{
+        "Line_01": "jj ff kk dd ll ssssd df fj jk kl",
+        "Line_02": "sdfsk dl ks jf kd lslfl kl js kd jf",
+        "Line_03": "sdfllk kkj jjf"
+      }]
+    },
+    "Lesson_0011": {
+      "Number": 11,
+      "Description": "Keys a & ;",
+      "Lines": [{
+        "Line_01": "a;",
+        "Line_02": "aaaa;;;",
+        "Line_03": ";aaaa;;",
+        "Line_04": ";;aa;;a",
+        "Line_05": "a;;a;a;",
+        "Line_06": ";a;a"
+      }]
+    },
+    "Lesson_0012": {
+      "Number": 11,
+      "Description": "Practice a & ; Lesson 1",
+      "Lines": [{
+        "Line_01": "aa ;; ;;aa ;a;a a;;;a ;aa; a;aa",
+        "Line_02": ";;aaa;; ;;aa ;a;a aa;;a;aa ;;a ;;aa",
+        "Line_03": ";a;a"
+      }]
+    },
+    "Lesson_0013": {
+      "Number": 13,
+      "Description": "Practice a & ; Lesson 2",
+      "Lines": [{
+        "Line_01": "ask dad all salads fall; lass as all",
+        "Line_02": "ads add salsa jaff kad; flask lass sad",
+        "Line_03": "fall alfa jak kaj dad ask"
+      }]
+    },
+    "Lesson_0014": {
+      "Number": 14,
+      "Description": "Test 2",
+      "Lines": [{
+        "Line_01": "all;fallflask;salad;salad;sfallfallaladjlaskflaskasasaladask"
+      }]
+    },
+    "Lesson_0015": {
+      "Number": 15,
+      "Description": "Home Row L-Hand",
+      "Lines": [{
+        "Line_01": "dad dada ad ada adad sad sada",
+        "Line_02": "dasad fas fasd dada affa fada fasa",
+        "Line_03": "saf fdds sadf"
+      }]
+    },
+    "Lesson_0016": {
+      "Number": 16,
+      "Description": "Home Row R-Hand",
+      "Lines": [{
+        "Line_01": "jk jk jjkk jlkj ;;;; lkjj jj;;",
+        "Line_02": "lkjj lkjj lk;; jkl; jjkk lkj jjkk",
+        "Line_03": "lkjj ;;;; llll kkkk jjjj jl jk kj",
+        "Line_04": "klj lkj kljj kljj"
+      }]
+    },
+    "Lesson_0017": {
+      "Number": 17,
+      "Description": "Keys g & h",
+      "Lines": [{
+        "Line_01": "gh",
+        "Line_02": "gggghhh",
+        "Line_03": "hgggghh",
+        "Line_04": "hhgghhg",
+        "Line_05": "ghhghgh",
+        "Line_06": "hgh"
+      }]
+    },
+    "Lesson_0018": {
+      "Number": 18,
+      "Description": "Practice g & h Lesson 1",
+      "Lines": [{
+        "Line_01": "gf ggf gf ggf hj hhj hj hhj gfgf",
+        "Line_02": "hjhj gggf hhhj fghj fgf jhj fgfgf",
+        "Line_03": "jhjhj ggf hhj gghh ghgh ghfj ggf",
+        "Line_04": "hhj"
+      }]
+    },
+    "Lesson_0019": {
+      "Number": 19,
+      "Description": "Practice g & h Lesson 2",
+      "Lines": [{
+        "Line_01": "glad glass gag had haha gal hal",
+        "Line_02": "gaf hah haha gaga glad hala hal",
+        "Line_03": "hasha shash gl"
+      }]
+    },
+    "Lesson_0020": {
+      "Number": 20,
+      "Description": "Home Row Review",
+      "Lines": [{
+        "Line_01": "glad dad had half a glass as",
+        "Line_02": "salad; dad shall ask glass flags",
+        "Line_03": "had glass ask shall flask had",
+        "Line_04": "slash jaff"
+      }]
+    },
+    "Lesson_0021": {
+      "Number": 21,
+      "Description": "Keys r & u",
+      "Lines": [{
+        "Line_01": "ru",
+        "Line_02": "rrruuru",
+        "Line_03": "uuuruur",
+        "Line_04": "rruruur",
+        "Line_05": "rrruruu",
+        "Line_06": "uruu"
+      }]
+    },
+    "Lesson_0022": {
+      "Number": 22,
+      "Description": "Practice r & u Lesson 1",
+      "Lines": [{
+        "Line_01": "rf rrf rf rrf uj uuj uj uuj rfrf",
+        "Line_02": "ujuj rrrf uuuj fruj frf juj frfrf",
+        "Line_03": "jujuj rrf uuj rruu ruru rufj rrf",
+        "Line_04": "uuj"
+      }]
     }
   }]
 }

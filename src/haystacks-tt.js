@@ -139,8 +139,9 @@ async function bootStrapApplication() {
   await haystacks.initFramework(appConfig);
   await haystacks.setConfigurationSetting(wrd.csystem, app_cfg.cappAccountsPath, appConfig[app_cfg.cappAccountsPath]);
   await haystacks.setConfigurationSetting(wrd.csystem, app_cfg.cappLessonsPath, appConfig[app_cfg.cappLessonsPath]);
-  let accountsData = await haystacks.loadAllJsonData(appConfig[app_cfg.cappAccountsPath], app_sys.cuserAccounts);
-  let lessonsData = await haystacks.loadAllJsonData(appConfig[app_cfg.cappLessonsPath], app_sys.capplicationLessons);
+  let accountsData = await haystacks.loadAllJsonData(appConfig[app_cfg.cappAccountsPath], app_sys.cclientData + bas.cColon + app_sys.cuserAccounts);
+  console.log('accountsData is: ' + JSON.stringify(accountsData));
+  let lessonsData = await haystacks.loadAllJsonData(appConfig[app_cfg.cappLessonsPath], app_sys.cclientData + bas.cColon + app_sys.capplicationLessons);
   let accountDataStored = await haystacks.storeData(app_sys.cuserAccounts, accountsData);
   let lessonDataStored = await haystacks.storeData(app_sys.capplicationLessons, lessonsData);
   if (accountDataStored === false || !accountsData) {
@@ -186,6 +187,8 @@ async function application() {
     } // End-if (await haystacks.isCommandQueueEmpty() === true)
     commandResult = await haystacks.processCommandQueue();
     if (commandResult[exitConditionArrayIndex] === false) {
+      // Save the account data
+      await accountBroker.saveAccountData();
       // END command parser
       await haystacks.consoleLog(namespacePrefix, functionName, app_msg.capplicationMessage03);
       programRunning = false;
