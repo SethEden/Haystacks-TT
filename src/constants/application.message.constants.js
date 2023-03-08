@@ -66,6 +66,7 @@ export const cwpmIs = bas.cwp + bas.cm + sys.cSpaceIsColonSpace; // wpm is:
 export const caccuracyIs = wrd.caccuracy + sys.cSpaceIsColonSpace; // accuracy is:
 export const cscoresDataArrayIs = wrd.cscores + wrd.cData + wrd.cArray + sys.cSpaceIsColonSpace; // scoresDataArray is:
 export const cscoreObjectIs = wrd.cscore + wrd.cObject + sys.cSpaceIsColonSpace; // scoreObject is:
+export const clessonTimeStampIs = wrd.clesson + wrd.cTime + wrd.cStamp + sys.cSpaceIsColonSpace; // lessonTimeStamp is:
 export const ctotalTimeIs = wrd.ctotal + wrd.cTime + sys.cSpaceIsColonSpace; // totalTime is:
 export const ctotalCorrectCharacterCountIs = wrd.ctotal + wrd.cCorrect + wrd.cCharacter + wrd.cCount + sys.cSpaceIsColonSpace; // totalCorrectCharacterCount is:
 export const ctotalIncorrectCharacterCountIs = wrd.ctotal + wrd.cIncorrect + wrd.cCharacter + wrd.cCount + sys.cSpaceIsColonSpace; // totalIncorrectCharacterCount is:

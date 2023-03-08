@@ -867,6 +867,7 @@ async function computeAverageLessonScoreValues(scoresDataArray) {
   // scoresDataArray is:
   await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cscoresDataArrayIs + JSON.stringify(scoresDataArray));
   let returnData = false;
+  let lessonTimeStamp = '';
   let totalTime = 0;
   let totalCorrectCharacterCount = 0;
   let totalIncorrectCharacterCount = 0;
@@ -880,6 +881,7 @@ async function computeAverageLessonScoreValues(scoresDataArray) {
       let scoreObject = scoresDataArray[scoreObjectKey];
       // scoreObject is:
       await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cscoreObjectIs + JSON.stringify(scoreObject));
+      lessonTimeStamp = await haystacks.executeBusinessRules([gen.cYYYYMMDD_HHmmss_SSS, ''], [biz.cgetNowMoment]);
       totalTime = totalTime + scoreObject[app_sys.cdeltaTime];
       totalCorrectCharacterCount = totalCorrectCharacterCount + scoreObject[app_sys.ccorrectCharacterCount];
       totalIncorrectCharacterCount = totalIncorrectCharacterCount + scoreObject[app_sys.cincorrectCharacterCount];
@@ -889,7 +891,8 @@ async function computeAverageLessonScoreValues(scoresDataArray) {
     }
     averageWPM = wpmSum / scoresDataArray.length;
     averageAccuracy = accuracySum / scoresDataArray.length;
-
+    // lessonTimeStamp is:
+    await haystacks.consoleLog(namespacePrefix, functionName, app_msg.clessonTimeStampIs + lessonTimeStamp);
     // totalTime is:
     await haystacks.consoleLog(namespacePrefix, functionName, app_msg.ctotalTimeIs + totalTime);
     // totalCorrectCharacterCount is:
@@ -905,6 +908,7 @@ async function computeAverageLessonScoreValues(scoresDataArray) {
 
     returnData = {};
     returnData = {
+      [app_sys.clessonTimeStamp]: lessonTimeStamp,
       [app_sys.ctotalTime]: totalTime,
       [app_sys.ctotalCorrectCharacterCount]: totalCorrectCharacterCount,
       [app_sys.ctotalIncorrectCharacterCount]: totalIncorrectCharacterCount,

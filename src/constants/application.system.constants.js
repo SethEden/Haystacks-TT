@@ -27,6 +27,7 @@ export const cincorrectCharacterCount = wrd.cincorrect + wrd.cCharacter + wrd.cC
 export const ctotalWords = wrd.ctotal + wrd.cWords; // totalWords
 export const cwpm = bas.cwp + bas.cm; // wpm
 export const caccuracy = wrd.caccuracy; // accuracy
+export const clessonTimeStamp = wrd.clesson + wrd.cTime + wrd.cStamp; // lessonTimeStamp
 export const ctotalTime = wrd.ctotal + wrd.cTime; // totalTime
 export const ctotalCorrectCharacterCount = wrd.ctotal + wrd.cCorrect + wrd.cCharacter + wrd.cCount; // totalCorrectCharacterCount
 export const ctotalIncorrectCharacterCount = wrd.ctotal + wrd.cIncorrect + wrd.cCharacter + wrd.cCount; // totalIncorrectCharacterCount

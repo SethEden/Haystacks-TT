@@ -26,6 +26,7 @@ export const applicationSystemConstantsValidation = [
   {Name: 'ctotalWords', Actual: app_sys.ctotalWords, Expected: 'totalWords'},
   {Name: 'cwpm', Actual: app_sys.cwpm, Expected: 'wpm'},
   {Name: 'caccuracy', Actual: app_sys.caccuracy, Expected: 'accuracy'},
+  {Name: 'clessonTimeStamp', Actual: app_sys.clessonTimeStamp, Expected: 'lessonTimeStamp'},
   {Name: 'ctotalTime', Actual: app_sys.ctotalTime, Expected: 'totalTime'},
   {Name: 'ctotalCorrectCharacterCount', Actual: app_sys.ctotalCorrectCharacterCount, Expected: 'totalCorrectCharacterCount'},
   {Name: 'ctotalIncorrectCharacterCount', Actual: app_sys.ctotalIncorrectCharacterCount, Expected: 'totalIncorrectCharacterCount'},

@@ -67,6 +67,7 @@ export const applicationMessageConstantsValidation = [
   {Name: 'caccuracyIs', Actual: app_msg.caccuracyIs, Expected: 'accuracy is: '},
   {Name: 'cscoresDataArrayIs', Actual: app_msg.cscoresDataArrayIs, Expected: 'scoresDataArray is: '},
   {Name: 'cscoreObjectIs', Actual: app_msg.cscoreObjectIs, Expected: 'scoreObject is: '},
+  {Name: 'clessonTimeStampIs', Actual: app_msg.clessonTimeStampIs, Expected: 'lessonTimeStamp is: '},
   {Name: 'ctotalTimeIs', Actual: app_msg.ctotalTimeIs, Expected: 'totalTime is: '},
   {Name: 'ctotalCorrectCharacterCountIs', Actual: app_msg.ctotalCorrectCharacterCountIs, Expected: 'totalCorrectCharacterCount is: '},
   {Name: 'ctotalIncorrectCharacterCountIs', Actual: app_msg.ctotalIncorrectCharacterCountIs, Expected: 'totalIncorrectCharacterCount is: '},
