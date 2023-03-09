@@ -143,7 +143,7 @@ async function appendUsersLessonScoreData(dataToAppend, lessonNumber) {
   for (let userAccountKey in allAccountsData) {
     // userAccountKey is:
     await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cuserAccountKeyIs + userAccountKey);
-    if (userAccountKey === currentUserAccountName){
+    if (userAccountKey === currentUserAccountName) {
       let userAccountData = allAccountsData[userAccountKey];
       for (const lessonNameKey in userAccountData) {
         // lessonNameKey is:
@@ -169,6 +169,65 @@ async function appendUsersLessonScoreData(dataToAppend, lessonNumber) {
     } // End-if (userAccountKey === accountName)
   } // End-for (let userAccountKey in allAccountsData)
   returnData = allAccountsData;
+  await haystacks.consoleLog(namespacePrefix, functionName, msg.creturnDataIs + JSON.stringify(returnData));
+  await haystacks.consoleLog(namespacePrefix, functionName, msg.cEND_Function);
+  return returnData;
+}
+
+/**
+ * @function getUsersLessonScoreData
+ * @description Finds the lesson score data for the current user and returns the entire collection of data for the specified lesson.
+ * @param {integer} lessonNumber The lesson number for which the data should be returned.
+ * @return {object} The JSON object that contains all of the lesson data for the specified lesson number.
+ * @author Seth Hollingsead
+ * @date 2023/03/08
+ */
+async function getUsersLessonScoreData(lessonNumber) {
+  let functionName = getUsersLessonScoreData.name;
+  await haystacks.consoleLog(namespacePrefix, functionName, msg.cBEGIN_Function);
+  // lessonNumber is:
+  await haystacks.consoleLog(namespacePrefix, functionName, app_msg.clessonNumberIs + lessonNumber);
+  let returnData = false;
+  let foundLessonData = false;
+  let currentUserAccountName = await currentUserAccount();
+  // currentUserAccountName is:
+  await haystacks.consoleLog(namespacePrefix, functionName, app_msg.currentUserAccountNameIs + currentUserAccountName);
+  let lessonName = await getIndividualLessonName(lessonNumber);
+  // lessonName is:
+  await haystacks.consoleLog(namespacePrefix, functionName, app_msg.clessonNameIs + lessonName);
+  let allAccountsData = await getAccountData();
+  // allAccountsData is:
+  await haystacks.consoleLog(namespacePrefix, functionName, app_msg.callAccountsDataIs + JSON.stringify(allAccountsData));
+  for (let userAccountKey in allAccountsData) {
+    // userAccountKey is:
+    await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cuserAccountKeyIs + userAccountKey);
+    if (userAccountKey === currentUserAccountName) {
+      let userAccountData = allAccountsData[userAccountKey];
+      for (const lessonNameKey in userAccountData) {
+        // lessonNameKey is:
+        await haystacks.consoleLog(namespacePrefix, functionName, app_msg.clessonNameKeyIs + lessonNameKey);
+        let usersLessonDataObject = userAccountData[lessonNameKey];
+        // usersLessonDataObject is:
+        await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cusersLessonDataObjectIs + JSON.stringify(usersLessonDataObject));
+        let usersLessonDataObjectKeys = Object.keys(usersLessonDataObject);
+        // usersLessonDataObjectKeys is:
+        await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cusersLessonDataObjectKeysIs + JSON.stringify(usersLessonDataObjectKeys));
+        if (usersLessonDataObjectKeys[0] === lessonName) {
+          // lessonNameKey === lessonName
+          await haystacks.consoleLog(namespacePrefix, functionName, app_msg.clessonNameKeyEqualsLessonName);
+          let usersLessonData = userAccountData[lessonNameKey];
+          // usersLessonData is:
+          await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cusersLessonDataIs + JSON.stringify(usersLessonData));
+          returnData = usersLessonData;
+          foundLessonData = true;
+          break;
+        } // End-if (usersLessonDataObjectKeys[0] === lessonName)
+      } // End-for (const lessonNameKey in userAccountData)
+    } // End-if (userAccountKey === currentUserAccountName)
+    if (foundLessonData === true) {
+      break;
+    }
+  } // End-for (let userAccountKey in allAccountsData)
   await haystacks.consoleLog(namespacePrefix, functionName, msg.creturnDataIs + JSON.stringify(returnData));
   await haystacks.consoleLog(namespacePrefix, functionName, msg.cEND_Function);
   return returnData;
@@ -247,6 +306,29 @@ async function getLessonData() {
 }
 
 /**
+ * @function getLessonCount
+ * @description Returns the number of lessons in the curriculum.
+ * @return {integer} The number of lessons in the current curriculum.
+ * @author Seth Hollingsead
+ * @date 2023/03/08
+ */
+async function getLessonCount() {
+  let functionName = getLessonCount.name;
+  await haystacks.consoleLog(namespacePrefix, functionName, msg.cBEGIN_Function);
+  let returnData = false;
+  // Get the lesson data.
+  let lessonsData = await getLessonData();
+  // lessonsData is:
+  await haystacks.consoleLog(namespacePrefix, functionName, app_msg.clessonsDataIs + JSON.stringify(lessonsData));
+  if (lessonsData && Array.isArray(lessonsData[wrd.clessons][app_sys.cLessonPlan]) && lessonsData[wrd.clessons][app_sys.cLessonPlan].length > 0) {
+    returnData = Object.keys(lessonsData[wrd.clessons][app_sys.cLessonPlan][0]).length;
+  }
+  await haystacks.consoleLog(namespacePrefix, functionName, msg.creturnDataIs + JSON.stringify(returnData));
+  await haystacks.consoleLog(namespacePrefix, functionName, msg.cEND_Function);
+  return returnData;
+}
+
+/**
  * @function getIndividualLessonData
  * @description Recovers the data for a specific lesson, based on an input lesson number.
  * @param {integer} lessonNumber The number of the lesson for which we should get data.
@@ -290,7 +372,7 @@ async function getIndividualLessonData(lessonNumber) {
         break;
       } else {
         // ERROR: There was an error with the lesson data, invalid lesson number: 
-        console.log(app_msg.cErrorGetIndividualLessonDataMessage01 + lessonKey);
+        // console.log(app_msg.cErrorGetIndividualLessonDataMessage01 + lessonKey);
       }
     } // End-for (let lessonKey in lessonsData[app_sys.cLessonPlan])
   } // End-if (Array.isArray(lessonsData[app_sys.cLessonPlan]) && lessonsData[app_sys.cLessonPlan].length > 0)
@@ -342,8 +424,8 @@ async function getIndividualLessonName(lessonNumber) {
         returnData = lessonName;
         break;
       } else {
-        // ERROR: There was an error with the lesson data, invalid lesson number: 
-        console.log(app_msg.cErrorGetIndividualLessonDataMessage01 + lessonKey);
+        // // ERROR: There was an error with the lesson data, invalid lesson number: 
+        // console.log(app_msg.cErrorGetIndividualLessonDataMessage01 + lessonKey);
       }
     } // End-for (let lessonKey in allLessonsData[app_sys.cLessonPlan])
   } // End-if (Array.isArray(allLessonsData[app_sys.cLessonPlan]) && allLessonsData[app_sys.cLessonPlan].length > 0)
@@ -449,24 +531,28 @@ async function generateBlankLessonData() {
   await haystacks.consoleLog(namespacePrefix, functionName, msg.cBEGIN_Function);
   let returnData = false;
   // Get the lesson data.
-  let lessonsData = await getLessonData();
-  // lessonsData is:
-  await haystacks.consoleLog(namespacePrefix, functionName, app_msg.clessonsDataIs + JSON.stringify(lessonsData));
+  let masterLessonsData = await getLessonData();
+  // masterLessonsData is:
+  await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cmasterLessonsData + JSON.stringify(masterLessonsData));
   returnData = [];
-  if (Array.isArray(lessonsData[app_sys.cLessonPlan]) && lessonsData[app_sys.cLessonPlan].length > 0) {
-    for (let lessonKey in lessonsData[app_sys.cLessonPlan]) {
+  if (Array.isArray(masterLessonsData[wrd.clessons][app_sys.cLessonPlan]) && masterLessonsData[wrd.clessons][app_sys.cLessonPlan].length > 0) {
+    for (let lessonKey in masterLessonsData[wrd.clessons][app_sys.cLessonPlan]) {
       // lessonKey is:
       await haystacks.consoleLog(namespacePrefix, functionName, app_msg.clessonKeyIs + lessonKey);
-      let lessonData = lessonsData[app_sys.cLessonPlan][lessonKey];
+      let lessonData = masterLessonsData[wrd.clessons][app_sys.cLessonPlan][lessonKey];
       // lessonData is:
       await haystacks.consoleLog(namespacePrefix, functionName, app_msg.clessonDataIs + JSON.stringify(lessonData));
       let lessonNameArray = Object.keys(lessonData);
       // lessonNameArray is:
       await haystacks.consoleLog(namespacePrefix, functionName, app_msg.clessonNameArrayIs + JSON.stringify(lessonNameArray));
-      let lessonName = lessonNameArray[0];
-      // lessonName is:
-      await haystacks.consoleLog(namespacePrefix, functionName, app_msg.clessonNameIs + lessonName);
-      returnData.push({[lessonName]: []});
+      for (let lessonNameKey in lessonNameArray) {
+        // lessonNameKey is:
+        await haystacks.consoleLog(namespacePrefix, functionName, app_msg.clessonNameKeyIs + lessonNameKey);
+        let lessonName = lessonNameArray[lessonNameKey];
+        // lessonName is:
+        await haystacks.consoleLog(namespacePrefix, functionName, app_msg.clessonNameIs + lessonName);
+        returnData.push({[lessonName]: []});
+      } // End-for (let lessonName in lessonNameArray)      
     } // End-for (let lessonKey in lessonsData[app_sys.cLessonPlan])
   } // End-if (Array.isArray(lessonsData[app_sys.cLessonPlan]) && lessonsData[app_sys.cLessonPlan].length > 0)
   await haystacks.consoleLog(namespacePrefix, functionName, msg.creturnDataIs + JSON.stringify(returnData));
@@ -876,6 +962,7 @@ async function computeAverageLessonScoreValues(scoresDataArray) {
   let accuracySum = 0;
   let averageWPM = 0;
   let averageAccuracy = 0;
+  let adjustedWpm = 0;
   if (scoresDataArray && Array.isArray(scoresDataArray) && scoresDataArray.length > 1) {
     for (let scoreObjectKey in scoresDataArray) {
       let scoreObject = scoresDataArray[scoreObjectKey];
@@ -891,6 +978,7 @@ async function computeAverageLessonScoreValues(scoresDataArray) {
     }
     averageWPM = wpmSum / scoresDataArray.length;
     averageAccuracy = accuracySum / scoresDataArray.length;
+    adjustedWpm = averageWPM * averageAccuracy;
     // lessonTimeStamp is:
     await haystacks.consoleLog(namespacePrefix, functionName, app_msg.clessonTimeStampIs + lessonTimeStamp);
     // totalTime is:
@@ -905,6 +993,8 @@ async function computeAverageLessonScoreValues(scoresDataArray) {
     await haystacks.consoleLog(namespacePrefix, functionName, app_msg.caverageWpmIs + averageWPM);
     // averageAccuracy is:
     await haystacks.consoleLog(namespacePrefix, functionName, app_msg.caverageAccuracyIs + averageAccuracy);
+    // adjustedWpm is:
+    await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cadjustedWpmIs + adjustedWpm);
 
     returnData = {};
     returnData = {
@@ -914,7 +1004,8 @@ async function computeAverageLessonScoreValues(scoresDataArray) {
       [app_sys.ctotalIncorrectCharacterCount]: totalIncorrectCharacterCount,
       [app_sys.ctotalWords]: totalWords,
       [app_sys.caverageWpm]: averageWPM,
-      [app_sys.caverageAccuracy]: averageAccuracy
+      [app_sys.caverageAccuracy]: averageAccuracy,
+      [app_sys.cadjustedWpm]: adjustedWpm
     };
   }
   await haystacks.consoleLog(namespacePrefix, functionName, msg.creturnDataIs + JSON.stringify(returnData));
@@ -1008,28 +1099,59 @@ async function isLessonAdvancementLimitEnabled() {
 }
 
 /**
- * @function getHighestScoreForLesson
+ * @function getHighestScoringDataObjectForLesson
  * @description Uses the currently logged in user and a lesson number to determine what was the highest score the user got for that lesson.
  * There could be many lesson data records for each lesson. This will find the highest score for all of them.
  * @param {integer} lessonNumber The lesson number that we should get the highest score for.
- * @return {integer} The value of the highest score the user got for the specified lesson number.
+ * @return {object} A JSON object that contains the data from the highest scoring lesson record the user has for the specified lesson number.
+ * @NOTE The caller of this function can use this function to interrogate the registered users lesson records and determine
+ * if the user is qualified to execute a specific lesson or not based on the minimum advancement specifications as established in the configuration settings file.
  * @author Seth Hollingsead
  * @date 2023/03/01
  */
-async function getHighestScoreForLesson(lessonNumber) {
-  let functionName = getHighestScoreForLesson.name;
+async function getHighestScoringDataObjectForLesson(lessonNumber) {
+  let functionName = getHighestScoringDataObjectForLesson.name;
   await haystacks.consoleLog(namespacePrefix, functionName, msg.cBEGIN_Function);
   // lessonNumber is:
   await haystacks.consoleLog(namespacePrefix, functionName, app_msg.clessonNumberIs + lessonNumber);
   let returnData = false;
+  let currentMaxScore = 0;
+  let indexOfMaxScore = 0;
   let currentUserName = await currentUserAccount();
   // currentUserName is:
   await haystacks.consoleLog(namespacePrefix, functionName, app_msg.ccurrentUserNameIs + currentUserName);
   let userAccountData = await getUserAccountData(currentUserName);
   // userAccountData is:
   await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cuserAccountDataIs + JSON.stringify(userAccountData));
-  // TODO: Get the data for a specific lesson.
-  // TODO: Iterate over the lesson data and try to find the highest score.
+  let individualLessonName = await getIndividualLessonName(lessonNumber);
+  // individualLessonName is:
+  await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cindividualLessonNameIs + individualLessonName);
+  for (let usersLessonDataKey in userAccountData) {
+    let usersLessonData = userAccountData[usersLessonDataKey];
+    // usersLessonData is:
+    await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cusersLessonDataIs + JSON.stringify(usersLessonData));
+    if (Object.keys(usersLessonData)[0] === individualLessonName) {
+      if (Array.isArray(usersLessonData[individualLessonName]) && usersLessonData[individualLessonName].length > 0) {
+        // TODO: Iterate over all of the lesson scores for this specific lesson data object and find the one with the highest score!
+        for (let usersLessonScoreIndividualLessonRecordKey in usersLessonData[individualLessonName]) {
+          let usersLessonScoreIndividualLessonRecord = usersLessonData[individualLessonName][usersLessonScoreIndividualLessonRecordKey];
+          // usersLessonScoreIndividualLessonRecord is:
+          await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cusersLessonScoreIndividualLessonRecordIs + JSON.stringify(usersLessonScoreIndividualLessonRecord));
+          if (usersLessonScoreIndividualLessonRecord[app_sys.cadjustedWpm] > currentMaxScore) {
+            currentMaxScore = usersLessonScoreIndividualLessonRecord[app_sys.cadjustedWpm]
+            indexOfMaxScore = usersLessonScoreIndividualLessonRecordKey;
+          }
+        } // End-for (let usersLessonScoreIndividualLessonRecord in usersLessonData[individualLessonName])
+        // The max index should now be established, return that object,
+        // so the caller can determine if the lesson passes the minimum advancement limit.
+        returnData = usersLessonData[individualLessonName][indexOfMaxScore]
+        break;
+      } else {
+        // lesson doesn't have any data, return false!
+        break;
+      }
+    } // End-if (Object.keys(usersLessonData)[0] === individualLessonName)
+  } // End-for (let usersLessonDataKey in userAccountData)
   await haystacks.consoleLog(namespacePrefix, functionName, msg.creturnDataIs + JSON.stringify(returnData));
   await haystacks.consoleLog(namespacePrefix, functionName, msg.cEND_Function);
   return returnData;
@@ -1048,15 +1170,65 @@ async function getHighestLessonNumberAboveAdvancementScoringLimit() {
   let functionName = getHighestLessonNumberAboveAdvancementScoringLimit.name;
   await haystacks.consoleLog(namespacePrefix, functionName, msg.cBEGIN_Function);
   let returnData = 0;
-  returnData = await getHighestLessonCount();
   if (await isLessonAdvancementLimitEnabled() === true) {
+    let accuracyLimit = await getLessonAdvancementScoreLimitAccuracy();
+    // accuracyLimit is:
+    await haystacks.consoleLog(namespacePrefix, functionName, app_msg.caccuracyLimitIs + accuracyLimit);
+    let speedLimit = await getLessonAdvancementScoreLimitSpeed();
+    // speedLimit is:
+    await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cspeedLimitIs + speedLimit);
     let currentUserName = await currentUserAccount();
     // currentUserName is:
     await haystacks.consoleLog(namespacePrefix, functionName, app_msg.ccurrentUserNameIs + currentUserName);
     let userAccountData = await getUserAccountData(currentUserName);
     // userAccountData is:
     await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cuserAccountDataIs + JSON.stringify(userAccountData));
-    // TODO: Implement the rest of the function here walking over the users data.
+    let lessonCount = await getLessonCount();
+    // lessonCount is:
+    await haystacks.consoleLog(namespacePrefix, functionName, app_msg.clessonCountIs + lessonCount);
+    for (let i = 1; i < lessonCount; i++) {
+      let highestScoreForLesson = await getHighestScoringDataObjectForLesson(i);
+      // highestScoreForLesson is:
+      await haystacks.consoleLog(namespacePrefix, functionName, app_msg.chighestScoreForLessonIs + JSON.stringify(highestScoreForLesson));
+      if (highestScoreForLesson === false) {
+        returnData = i;
+        // if (i === 1) {
+        //   // Always allow the user to execute the first lesson.
+        //   returnData = 1;
+        // } else {
+        //   returnData = i;
+        // }
+        break;
+      } else {
+        // We must have gotten an object back.
+        // Process it to see if the current test passes the minimum lesson advancement limit.
+        let averageAccuracy = highestScoreForLesson[app_sys.caverageAccuracy] * 100;
+        // averageAccuracy is:
+        await haystacks.consoleLog(namespacePrefix, functionName, app_msg.caverageAccuracyIs + averageAccuracy);
+        let averageWPM = highestScoreForLesson[app_sys.caverageWpm];
+        // averageWPM is:
+        await haystacks.consoleLog(namespacePrefix, functionName, app_msg.caverageWpmIs + averageWPM);
+        if (averageAccuracy >= accuracyLimit && averageWPM >= speedLimit) {
+          // if (i === 1) {
+          //   // Always allow the user to execute the first lesson.
+          //   returnData = 1;
+          // } else {
+          //   returnData = i;
+          // }
+          returnData = i;
+        } else {
+          if (returnData === 0) {
+            returnData = 1;
+          }
+          break;
+        }
+      }
+      // let currentLessonScore = individualLessonData[app_sys.cadjustedWpm];
+      // if (currentMaxScore < currentLessonScore) {
+      //   currentMaxScore = currentLessonScore;
+      //   returnData = individualLessonData;
+      // }
+    } // End-for (let i = 0; i < lessonCount; i++)
   }
   await haystacks.consoleLog(namespacePrefix, functionName, msg.creturnDataIs + returnData);
   await haystacks.consoleLog(namespacePrefix, functionName, msg.cEND_Function);
@@ -1068,8 +1240,10 @@ export default {
   getUserAccountData,
   storeAccountData,
   appendUsersLessonScoreData,
+  getUsersLessonScoreData,
   saveAccountData,
   getLessonData,
+  getLessonCount,
   getIndividualLessonData,
   getIndividualLessonName,
   doesAccountExist,
@@ -1084,6 +1258,6 @@ export default {
   getLessonAdvancementScoreLimitAccuracy,
   getLessonAdvancementScoreLimitSpeed,
   isLessonAdvancementLimitEnabled,
-  getHighestScoreForLesson,
+  getHighestScoringDataObjectForLesson,
   getHighestLessonNumberAboveAdvancementScoringLimit
 }

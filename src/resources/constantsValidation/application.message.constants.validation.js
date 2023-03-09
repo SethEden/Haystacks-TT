@@ -88,6 +88,15 @@ export const applicationMessageConstantsValidation = [
   {Name: 'callLessonsDataIs', Actual: app_msg.callLessonsDataIs, Expected: 'allLessonsData is: '},
   {Name: 'clessonPlanKeysIs', Actual: app_msg.clessonPlanKeysIs, Expected: 'lessonPlanKeys is: '},
   {Name: 'clessonKeyValueIs', Actual: app_msg.clessonKeyValueIs, Expected: 'lessonKeyValue is: '},
+  {Name: 'cadjustedWpmIs', Actual: app_msg.cadjustedWpmIs, Expected: 'adjustedWpm is: '},
+  {Name: 'clessonCountIs', Actual: app_msg.clessonCountIs, Expected: 'lessonCount is: '},
+  {Name: 'chighestScoringLessonAboveAdvancementLimitIs', Actual: app_msg.chighestScoringLessonAboveAdvancementLimitIs, Expected: 'highestScoringLessonAboveAdvancementLimit is: '},
+  {Name: 'cmasterLessonsData', Actual: app_msg.cmasterLessonsData, Expected: 'masterLessonsData is: '},
+  {Name: 'chighestScoreForLessonIs', Actual: app_msg.chighestScoreForLessonIs, Expected: 'highestScoreForLesson is: '},
+  {Name: 'cindividualLessonNameIs', Actual: app_msg.cindividualLessonNameIs, Expected: 'individualLessonName is: '},
+  {Name: 'cusersLessonScoreIndividualLessonRecordIs', Actual: app_msg.cusersLessonScoreIndividualLessonRecordIs, Expected: 'usersLessonScoreIndividualLessonRecord is: '},
+  {Name: 'caccuracyLimitIs', Actual: app_msg.caccuracyLimitIs, Expected: 'accuracyLimit is: '},
+  {Name: 'cspeedLimitIs', Actual: app_msg.cspeedLimitIs, Expected: 'speedLimit is: '},
 
   // Application messages
   {Name: 'cinstructionsMessage00', Actual: app_msg.cinstructionsMessage00, Expected: 'Instructions to end user:'},
@@ -125,6 +134,8 @@ export const applicationMessageConstantsValidation = [
   {Name: 'cErrorGetIndividualLessonDataMessage01', Actual: app_msg.cErrorGetIndividualLessonDataMessage01, Expected: 'ERROR: There was an error with the lesson data, invalid lesson number: '},
   {Name: 'cErrorExecuteLessonMessage01', Actual: app_msg.cErrorExecuteLessonMessage01, Expected: 'ERROR: No lesson lines for the specified lesson number: '},
   {Name: 'csaveAccountDataFailureMessage01', Actual: app_msg.csaveAccountDataFailureMessage01, Expected: 'ERROR: Failure to write out the file: '},
+  {Name: 'cWarningStartLessonMessage01', Actual: app_msg.cWarningStartLessonMessage01, Expected: 'WARNING: You are not allowed to run this lesson,'},
+  {Name: 'cWarningStartLessonMessage02', Actual: app_msg.cWarningStartLessonMessage02, Expected: 'please complete the earlier lessons before proceeding.'},
   // ****************************************************************************************************
   {Name: 'cLessonInstructionsMessage01', Actual: app_msg.cLessonInstructionsMessage01, Expected: 'LESSON INSTRUCTIONS:'},
   {Name: 'cLessonInstructionsMessage02', Actual: app_msg.cLessonInstructionsMessage02, Expected: 'Place your left index finger on the "F" key, and your right index finger on the "J" key.'},

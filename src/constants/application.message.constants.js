@@ -87,6 +87,15 @@ export const cadvancementLimitSettingIs = wrd.cadvancement + wrd.cLimit + wrd.cS
 export const callLessonsDataIs = wrd.call + wrd.cLessons + wrd.cData + sys.cSpaceIsColonSpace; // allLessonsData is:
 export const clessonPlanKeysIs = wrd.clesson + wrd.cPlan + wrd.cKeys + sys.cSpaceIsColonSpace; // lessonPlanKeys is:
 export const clessonKeyValueIs = wrd.clesson + wrd.cKey + wrd.cValue + sys.cSpaceIsColonSpace; // lessonKeyValue is:
+export const cadjustedWpmIs = wrd.cadjusted + bas.cWp + bas.cm + sys.cSpaceIsColonSpace; // adjustedWpm is:
+export const clessonCountIs = wrd.clesson + wrd.cCount + sys.cSpaceIsColonSpace; // lessonCount is:
+export const chighestScoringLessonAboveAdvancementLimitIs = wrd.chighest + wrd.cScoring + wrd.cLesson + wrd.cAbove + wrd.cAdvancement + wrd.cLimit + sys.cSpaceIsColonSpace; // highestScoringLessonAboveAdvancementLimit is:
+export const cmasterLessonsData = wrd.cmaster + wrd.cLessons + wrd.cData + sys.cSpaceIsColonSpace; // masterLessonsData is:
+export const chighestScoreForLessonIs = wrd.chighest + wrd.cScore + wrd.cFor + wrd.cLesson + sys.cSpaceIsColonSpace; // highestScoreForLesson is:
+export const cindividualLessonNameIs = wrd.cindividual + wrd.cLesson + wrd.cName + sys.cSpaceIsColonSpace; // individualLessonName is:
+export const cusersLessonScoreIndividualLessonRecordIs = wrd.cusers + wrd.cLesson + wrd.cScore + wrd.cIndividual + wrd.cLesson + wrd.cRecord + sys.cSpaceIsColonSpace; // usersLessonScoreIndividualLessonRecord is:
+export const caccuracyLimitIs = wrd.caccuracy + wrd.cLimit + sys.cSpaceIsColonSpace; // accuracyLimit is:
+export const cspeedLimitIs = wrd.cspeed + wrd.cLimit + sys.cSpaceIsColonSpace; // speedLimit is:
 
 // Application messages
 export const cinstructionsMessage00 = wrd.cInstructions + bas.cSpace + wrd.cto + bas.cSpace + wrd.cend + bas.cSpace + wrd.cuser + bas.cColon; // Instructions to end user:
@@ -142,6 +151,10 @@ export const cErrorGetIndividualLessonDataMessage01 = msg.cERROR_Colon + wrd.cTh
 // ERROR: No lesson lines for the specified lesson number:
 export const cErrorExecuteLessonMessage01 = msg.cERROR_Colon + wrd.cNo + bas.cSpace + wrd.clesson + bas.cSpace + wrd.clines + bas.cSpace + wrd.cfor + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cspecified + bas.cSpace + wrd.clesson + bas.cSpace + wrd.cnumber + bas.cColon + bas.cSpace;
 export const csaveAccountDataFailureMessage01 = msg.cERROR_Colon + wrd.cFailure + bas.cSpace + wrd.cto + bas.cSpace + wrd.cwrite + bas.cSpace + wrd.cout + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cfile + bas.cColon + bas.cSpace; // ERROR: Failure to write out the file:
+// WARNING: You are not allowed to run this lesson,
+export const cWarningStartLessonMessage01 = msg.cWARNING_Colon + wrd.cYou + bas.cSpace + wrd.care + bas.cSpace + wrd.cnot + bas.cSpace + wrd.callowed + bas.cSpace + wrd.cto + bas.cSpace + wrd.crun + bas.cSpace + wrd.cthis + bas.cSpace + wrd.clesson + bas.cComa;
+// please complete the earlier lessons before proceeding.
+export const cWarningStartLessonMessage02 = wrd.cplease + bas.cSpace + wrd.ccomplete + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cearlier + bas.cSpace + wrd.clessons + bas.cSpace + wrd.cbefore + bas.cSpace + wrd.cproceeding + bas.cDot;
 // ****************************************************************************************************
 // LESSON INSTRUCTIONS:
 export const cLessonInstructionsMessage01 = wrd.cLESSON + bas.cSpace + wrd.cINSTRUCTIONS + bas.cColon;

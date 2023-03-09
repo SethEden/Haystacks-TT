@@ -32,6 +32,7 @@ export const applicationSystemConstantsValidation = [
   {Name: 'ctotalIncorrectCharacterCount', Actual: app_sys.ctotalIncorrectCharacterCount, Expected: 'totalIncorrectCharacterCount'},
   {Name: 'caverageWpm', Actual: app_sys.caverageWpm, Expected: 'averageWpm'},
   {Name: 'caverageAccuracy', Actual: app_sys.caverageAccuracy, Expected: 'averageAccuracy'},
+  {Name: 'cadjustedWpm', Actual: app_sys.cadjustedWpm, Expected: 'adjustedWpm'},
 
   {Name: 'cresolvedConstantsPath_Application', Actual: app_sys.cresolvedConstantsPath_Application, Expected: 'resolvedConstantsPath_Application'},
   {Name: 'capplicationBusinessConstantsValidation', Actual: app_sys.capplicationBusinessConstantsValidation, Expected: 'applicationBusinessConstantsValidation'},

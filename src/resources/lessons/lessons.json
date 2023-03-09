@@ -1,6 +1,7 @@
 {
   "LessonPlan": [{
     "Lesson_0001": {
+      "Name": "Lesson_0001",
       "Number": 1,
       "Description": "Keys f & j",
       "Lines": [{
@@ -13,6 +14,7 @@
       }]
     },
     "Lesson_0002": {
+      "Name": "Lesson_0002",
       "Number": 2,
       "Description": "Practice f & j Lesson 1",
       "Lines": [{
@@ -24,6 +26,7 @@
       }]
     },
     "Lesson_0003": {
+      "Name": "Lesson_0003",
       "Number": 3,
       "Description": "Practice f & j Lesson 2",
       "Lines": [{
@@ -33,6 +36,7 @@
       }]
     },
     "Lesson_0004": {
+      "Name": "Lesson_0004",
       "Number": 4,
       "Description": "Keys d & k",
       "Lines": [{
@@ -45,6 +49,7 @@
       }]
     },
     "Lesson_0005": {
+      "Name": "Lesson_0005",
       "Number": 5,
       "Description": "Practice d & k Lesson 1",
       "Lines": [{
@@ -54,6 +59,7 @@
       }]
     },
     "Lesson_0006": {
+      "Name": "Lesson_0006",
       "Number": 6,
       "Description": "Practice d & k Lesson 2",
       "Lines": [{
@@ -64,6 +70,7 @@
       }]
     },
     "Lesson_0007": {
+      "Name": "Lesson_0007",
       "Number": 7,
       "Description": "Test 1",
       "Lines": [{
@@ -71,6 +78,7 @@
       }]
     },
     "Lesson_0008": {
+      "Name": "Lesson_0008",
       "Number": 8,
       "Description": "Keys s & l",
       "Lines": [{
@@ -83,6 +91,7 @@
       }]
     },
     "Lesson_0009": {
+      "Name": "Lesson_0009",
       "Number": 9,
       "Description": "Practice s & l Lesson 1",
       "Lines": [{
@@ -92,6 +101,7 @@
       }]
     },
     "Lesson_0010": {
+      "Name": "Lesson_0010",
       "Number": 10,
       "Description": "Practice s & l Lesson 2",
       "Lines": [{
@@ -101,6 +111,7 @@
       }]
     },
     "Lesson_0011": {
+      "Name": "Lesson_0011",
       "Number": 11,
       "Description": "Keys a & ;",
       "Lines": [{
@@ -113,6 +124,7 @@
       }]
     },
     "Lesson_0012": {
+      "Name": "Lesson_0012",
       "Number": 11,
       "Description": "Practice a & ; Lesson 1",
       "Lines": [{
@@ -122,6 +134,7 @@
       }]
     },
     "Lesson_0013": {
+      "Name": "Lesson_0013",
       "Number": 13,
       "Description": "Practice a & ; Lesson 2",
       "Lines": [{
@@ -131,6 +144,7 @@
       }]
     },
     "Lesson_0014": {
+      "Name": "Lesson_0014",
       "Number": 14,
       "Description": "Test 2",
       "Lines": [{
@@ -138,6 +152,7 @@
       }]
     },
     "Lesson_0015": {
+      "Name": "Lesson_0015",
       "Number": 15,
       "Description": "Home Row L-Hand",
       "Lines": [{
@@ -147,6 +162,7 @@
       }]
     },
     "Lesson_0016": {
+      "Name": "Lesson_0016",
       "Number": 16,
       "Description": "Home Row R-Hand",
       "Lines": [{
@@ -157,6 +173,7 @@
       }]
     },
     "Lesson_0017": {
+      "Name": "Lesson_0017",
       "Number": 17,
       "Description": "Keys g & h",
       "Lines": [{
@@ -169,6 +186,7 @@
       }]
     },
     "Lesson_0018": {
+      "Name": "Lesson_0018",
       "Number": 18,
       "Description": "Practice g & h Lesson 1",
       "Lines": [{
@@ -179,6 +197,7 @@
       }]
     },
     "Lesson_0019": {
+      "Name": "Lesson_0019",
       "Number": 19,
       "Description": "Practice g & h Lesson 2",
       "Lines": [{
@@ -188,6 +207,7 @@
       }]
     },
     "Lesson_0020": {
+      "Name": "Lesson_0020",
       "Number": 20,
       "Description": "Home Row Review",
       "Lines": [{
@@ -198,6 +218,7 @@
       }]
     },
     "Lesson_0021": {
+      "Name": "Lesson_0021",
       "Number": 21,
       "Description": "Keys r & u",
       "Lines": [{
@@ -210,6 +231,7 @@
       }]
     },
     "Lesson_0022": {
+      "Name": "Lesson_0022",
       "Number": 22,
       "Description": "Practice r & u Lesson 1",
       "Lines": [{
