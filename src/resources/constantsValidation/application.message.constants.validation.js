@@ -97,6 +97,7 @@ export const applicationMessageConstantsValidation = [
   {Name: 'cusersLessonScoreIndividualLessonRecordIs', Actual: app_msg.cusersLessonScoreIndividualLessonRecordIs, Expected: 'usersLessonScoreIndividualLessonRecord is: '},
   {Name: 'caccuracyLimitIs', Actual: app_msg.caccuracyLimitIs, Expected: 'accuracyLimit is: '},
   {Name: 'cspeedLimitIs', Actual: app_msg.cspeedLimitIs, Expected: 'speedLimit is: '},
+  {Name: 'cinputUserNameIs', Actual: app_msg.cinputUserNameIs, Expected: 'inputUserName is: '},
 
   // Application messages
   {Name: 'cinstructionsMessage00', Actual: app_msg.cinstructionsMessage00, Expected: 'Instructions to end user:'},
@@ -136,6 +137,10 @@ export const applicationMessageConstantsValidation = [
   {Name: 'csaveAccountDataFailureMessage01', Actual: app_msg.csaveAccountDataFailureMessage01, Expected: 'ERROR: Failure to write out the file: '},
   {Name: 'cWarningStartLessonMessage01', Actual: app_msg.cWarningStartLessonMessage01, Expected: 'WARNING: You are not allowed to run this lesson,'},
   {Name: 'cWarningStartLessonMessage02', Actual: app_msg.cWarningStartLessonMessage02, Expected: 'please complete the earlier lessons before proceeding.'},
+  {Name: 'cgenerateUserReportMessage01', Actual: app_msg.cgenerateUserReportMessage01, Expected: 'Haystacks Typing Tutor report card for user: '},
+  {Name: 'cgenerateUserReportMessage02', Actual: app_msg.cgenerateUserReportMessage02, Expected: 'ERROR: User is not logged in, cannot generate user report.'},
+  {Name: 'cgenerateUserReportMessage03', Actual: app_msg.cgenerateUserReportMessage03, Expected: 'Login to an account and try again.'},
+  {Name: 'cprintRecordsMessage01', Actual: app_msg.cprintRecordsMessage01, Expected: 'Haystacks Typing Tutor users report:'},
   // ****************************************************************************************************
   {Name: 'cLessonInstructionsMessage01', Actual: app_msg.cLessonInstructionsMessage01, Expected: 'LESSON INSTRUCTIONS:'},
   {Name: 'cLessonInstructionsMessage02', Actual: app_msg.cLessonInstructionsMessage02, Expected: 'Place your left index finger on the "F" key, and your right index finger on the "J" key.'},
@@ -153,6 +158,16 @@ export const applicationMessageConstantsValidation = [
   {Name: 'cLessonInstructionsMessage14', Actual: app_msg.cLessonInstructionsMessage14, Expected: 'or higher to advance to the next lesson.'},
   {Name: 'cLessonInstructionsMessage15', Actual: app_msg.cLessonInstructionsMessage15, Expected: 'A report showing your score will display after the lesson is complete.'},
   {Name: 'cLessonInstructionsMessage16', Actual: app_msg.cLessonInstructionsMessage16, Expected: 'Press the "ESC" key, in the far upper left corner of the keyboard to cancel a lesson.'},
+  // ****************************************************************************************************
+  {Name: 'destroyRecordsInstructionsMessage01', Actual: app_msg.destroyRecordsInstructionsMessage01, Expected: 'Before you destroy the records, make sure you exit the Haystacks Typing Tutor application,'},
+  {Name: 'destroyRecordsInstructionsMessage02', Actual: app_msg.destroyRecordsInstructionsMessage02, Expected: 'or the records will be resaved after you delete them.'},
+  {Name: 'destroyRecordsInstructionsMessage03', Actual: app_msg.destroyRecordsInstructionsMessage03, Expected: 'You can destroy all records by going to the application installed path:'},
+  {Name: 'destroyRecordsInstructionsMessage04', Actual: app_msg.destroyRecordsInstructionsMessage04, Expected: './src/resources/accounts/'},
+  {Name: 'destroyRecordsInstructionsMessage05', Actual: app_msg.destroyRecordsInstructionsMessage05, Expected: './bin/resources/accounts/'},
+  {Name: 'destroyRecordsInstructionsMessage06', Actual: app_msg.destroyRecordsInstructionsMessage06, Expected: 'Then delete all of the files with the .JSON file extension.'},
+  {Name: 'destroyRecordsInstructionsMessage07', Actual: app_msg.destroyRecordsInstructionsMessage07, Expected: 'This will remove all account data from the system forever.'},
+  {Name: 'destroyRecordsInstructionsMessage08', Actual: app_msg.destroyRecordsInstructionsMessage08, Expected: 'If you wish to back-up the account data,'},
+  {Name: 'destroyRecordsInstructionsMessage09', Actual: app_msg.destroyRecordsInstructionsMessage09, Expected: 'you can copy these files to another storage location before deleting them.'},
   // ****************************************************************************************************
 
   // Constants Validation

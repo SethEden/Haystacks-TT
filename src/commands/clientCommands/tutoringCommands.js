@@ -5,6 +5,7 @@
  * @requires module:accountBroker
  * @requires module:application.command.constants
  * @requires module:application.message.constants
+ * @requires module:application.system.constants
  * @requires {@link https://www.npmjs.com/package/@haystacks/async|@haystacks/async}
  * @requires {@link https://www.npmjs.com/package/@haystacks/constants|@haystacks/constants}
  * @requires {@link https://www.npmjs.com/package/path|path}
@@ -17,6 +18,7 @@
 import accountBroker from '../../brokers/accountBroker.js';
 import * as apc from '../../constants/application.constants.js';
 import * as app_msg from '../../constants/application.message.constants.js';
+import * as app_sys from '../../constants/application.system.constants.js';
 // External imports
 import haystacks from '@haystacks/async';
 import hayConst from '@haystacks/constants';
@@ -345,6 +347,125 @@ async function startLesson(inputData, inputMetaData) {
   return returnData;
 }
 
+/**
+ * @function generateUserReport
+ * @description Generates a report based on the currently logged in user,
+ * of the lessons with passing scores and not passing scores to display to the user.
+ * @param {array<string>} inputData Not used for this command.
+ * @param {string} inputMetaData Not used for this command.
+ * @return {array<boolean,string>} An array with a boolean True or False value to
+ * indicate if the application should exit or not exit, followed by an empty string.
+ * @author Seth Hollingsead
+ * @date 2023/03/09
+ */
+async function generateUserReport(inputData, inputMetaData) {
+  let functionName = generateUserReport.name;
+  await haystacks.consoleLog(namespacePrefix, functionName, msg.cBEGIN_Function);
+  await haystacks.consoleLog(namespacePrefix, functionName, msg.cinputDataIs + inputData);
+  await haystacks.consoleLog(namespacePrefix, functionName, msg.cinputMetaDataIs + inputMetaData);
+  let returnData = [true, ''];
+  let userReportData;
+  let currentUserName = '';
+
+  if (inputData && Array.isArray(inputData) && inputData.length === 2) {
+    // User specified a username, pass that in as a parameter.
+    if (await accountBroker.doesAccountExist(inputData[1])) {
+      userReportData = await accountBroker.generateUserReport(inputData[1]);
+      currentUserName = inputData[1];
+    } else {
+      // ERROR: Invalid user name, please try again with a valid username.
+      console.log(app_msg.cErrorInvalidUserNameCreateAccountMessage01 + inputData[1]);
+    }
+  } else {
+    userReportData = await accountBroker.generateUserReport();
+    currentUserName = await accountBroker.currentUserAccount();
+  }
+
+  // currentUserName is:
+  await haystacks.consoleLog(namespacePrefix, functionName, app_msg.ccurrentUserNameIs + currentUserName);
+  if (userReportData) {
+    // Haystacks Typing Tutor report card for user:
+    console.log(app_msg.cgenerateUserReportMessage01 + currentUserName);
+    console.table(userReportData, [wrd.cPass + bas.cDash + wrd.cFail]);
+  }
+  await haystacks.consoleLog(namespacePrefix, functionName, msg.creturnDataIs + JSON.stringify(returnData));
+  await haystacks.consoleLog(namespacePrefix, functionName, msg.cEND_Function);
+  return returnData;
+}
+
+/**
+ * @function printRecords
+ * @description Generates a report that contains the highest passing lesson for all registered users.
+ * This is useful for teachers who might have multiple students using the system and want to
+ * get a report on how well their students are doing.
+ * @param {array<string>} inputData Not used for this command.
+ * @param {string} inputMetaData Not used for this command.
+ * @return {array<boolean,string>} An array with a boolean True or False value to
+ * indicate if the application should exit or not exit, followed by an empty string.
+ * @author Seth Hollingsead
+ * @date 2023/03/09
+ */
+async function printRecords(inputData, inputMetaData) {
+  let functionName = printRecords.name;
+  await haystacks.consoleLog(namespacePrefix, functionName, msg.cBEGIN_Function);
+  await haystacks.consoleLog(namespacePrefix, functionName, msg.cinputDataIs + inputData);
+  await haystacks.consoleLog(namespacePrefix, functionName, msg.cinputMetaDataIs + inputMetaData);
+  let returnData = [true, ''];
+  let allUsersReportData = await accountBroker.generateReportAllUsers();
+  // Haystacks Typing Tutor users report:
+  console.log(app_msg.cprintRecordsMessage01);
+  console.table(allUsersReportData, [app_sys.cLessonNumber])
+  await haystacks.consoleLog(namespacePrefix, functionName, msg.creturnDataIs + JSON.stringify(returnData));
+  await haystacks.consoleLog(namespacePrefix, functionName, msg.cEND_Function);
+  return returnData;
+}
+
+/**
+ * @function destroyRecords
+ * @description Completely destroys all user accounts and user account records after prompting the user to confirm.
+ * @NOTE UPDATE: I'm not actually going to destroy the records in this command.
+ * Rather I will just provide some basic instructions to the user about how they should manually destroy the records.
+ * By deleting the users JSON files from the accounts folder.
+ * This will avoid the risk that a user might destroy records of all the other users on the system.
+ * @param {string} inputData Not used for this command.
+ * @param {string} inputMetaData Not used for this command.
+ * @return {array<boolean,string>} An array with a boolean True or False value to
+ * indicate if the application should exit or not exit, followed by an empty string.
+ * @author Seth Hollingsead
+ * @date 2023/03/09
+ */
+async function destroyRecords(inputData, inputMetaData) {
+  let functionName = destroyRecords.name;
+  await haystacks.consoleLog(namespacePrefix, functionName, msg.cBEGIN_Function);
+  await haystacks.consoleLog(namespacePrefix, functionName, msg.cinputDataIs + inputData);
+  await haystacks.consoleLog(namespacePrefix, functionName, msg.cinputMetaDataIs + inputMetaData);
+  let returnData = [true, ''];
+  // Before you destroy the records, make sure you exit the Haystacks Typing Tutor application,
+  console.log(app_msg.destroyRecordsInstructionsMessage01);
+  // or the records will be resaved after you delete them.
+  console.log(app_msg.destroyRecordsInstructionsMessage02);
+  // You can destroy all records by going to the application installed path:
+  console.log(app_msg.destroyRecordsInstructionsMessage03);
+  // ./src/resources/accounts/
+  console.log(app_msg.destroyRecordsInstructionsMessage04);
+  // or
+  console.log(wrd.cor);
+  // ./bin/resources/accounts/
+  console.log(app_msg.destroyRecordsInstructionsMessage05);
+  // Then delete all of the files with the .JSON file extension.
+  console.log(app_msg.destroyRecordsInstructionsMessage06);
+  // This will remove all account data from the system forever.
+  console.log(app_msg.destroyRecordsInstructionsMessage07);
+  // If you wish to back-up the account data,
+  console.log(app_msg.destroyRecordsInstructionsMessage08);
+  // you can copy these files to another storage location before deleting them.
+  console.log(app_msg.destroyRecordsInstructionsMessage09);
+  // ****************************************************************************************************
+  await haystacks.consoleLog(namespacePrefix, functionName, msg.creturnDataIs + JSON.stringify(returnData));
+  await haystacks.consoleLog(namespacePrefix, functionName, msg.cEND_Function);
+  return returnData;
+}
+
 export default {
   createAccount,
   printAccountsData,
@@ -352,5 +473,8 @@ export default {
   deleteAccount,
   login,
   logout,
-  startLesson
+  startLesson,
+  generateUserReport,
+  printRecords,
+  destroyRecords
 }

@@ -44,6 +44,7 @@ export const applicationCommandConstantsValidation = [
   {Name: 'clogin', Actual: app_cmd.clogin, Expected: 'login'},
   {Name: 'clogout', Actual: app_cmd.clogout, Expected: 'logout'},
   {Name: 'cstartLesson', Actual: app_cmd.cstartLesson, Expected: 'startLesson'},
+  {Name: 'cgenerateUserReport', Actual: app_cmd.cgenerateUserReport, Expected: 'generateUserReport'},
   {Name: 'cprintRecords', Actual: app_cmd.cprintRecords, Expected: 'printRecords'},
   {Name: 'cdestroyRecords', Actual: app_cmd.cdestroyRecords, Expected: 'destroyRecords'},
 

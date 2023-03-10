@@ -1103,21 +1103,29 @@ async function isLessonAdvancementLimitEnabled() {
  * @description Uses the currently logged in user and a lesson number to determine what was the highest score the user got for that lesson.
  * There could be many lesson data records for each lesson. This will find the highest score for all of them.
  * @param {integer} lessonNumber The lesson number that we should get the highest score for.
+ * @param {string} inputUserName An optional parameter to allow for the caller to specify the current user name, rather than requiring a user to be logged in.
  * @return {object} A JSON object that contains the data from the highest scoring lesson record the user has for the specified lesson number.
  * @NOTE The caller of this function can use this function to interrogate the registered users lesson records and determine
  * if the user is qualified to execute a specific lesson or not based on the minimum advancement specifications as established in the configuration settings file.
  * @author Seth Hollingsead
  * @date 2023/03/01
  */
-async function getHighestScoringDataObjectForLesson(lessonNumber) {
+async function getHighestScoringDataObjectForLesson(lessonNumber, inputUserName) {
   let functionName = getHighestScoringDataObjectForLesson.name;
   await haystacks.consoleLog(namespacePrefix, functionName, msg.cBEGIN_Function);
   // lessonNumber is:
   await haystacks.consoleLog(namespacePrefix, functionName, app_msg.clessonNumberIs + lessonNumber);
+  // inputUserName is:
+  await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cinputUserNameIs + inputUserName);
   let returnData = false;
   let currentMaxScore = 0;
   let indexOfMaxScore = 0;
-  let currentUserName = await currentUserAccount();
+  let currentUserName = '';
+  if (inputUserName === '') {
+    currentUserName = await currentUserAccount();
+  } else {
+    currentUserName = inputUserName;
+  }
   // currentUserName is:
   await haystacks.consoleLog(namespacePrefix, functionName, app_msg.ccurrentUserNameIs + currentUserName);
   let userAccountData = await getUserAccountData(currentUserName);
@@ -1132,7 +1140,6 @@ async function getHighestScoringDataObjectForLesson(lessonNumber) {
     await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cusersLessonDataIs + JSON.stringify(usersLessonData));
     if (Object.keys(usersLessonData)[0] === individualLessonName) {
       if (Array.isArray(usersLessonData[individualLessonName]) && usersLessonData[individualLessonName].length > 0) {
-        // TODO: Iterate over all of the lesson scores for this specific lesson data object and find the one with the highest score!
         for (let usersLessonScoreIndividualLessonRecordKey in usersLessonData[individualLessonName]) {
           let usersLessonScoreIndividualLessonRecord = usersLessonData[individualLessonName][usersLessonScoreIndividualLessonRecordKey];
           // usersLessonScoreIndividualLessonRecord is:
@@ -1187,17 +1194,11 @@ async function getHighestLessonNumberAboveAdvancementScoringLimit() {
     // lessonCount is:
     await haystacks.consoleLog(namespacePrefix, functionName, app_msg.clessonCountIs + lessonCount);
     for (let i = 1; i < lessonCount; i++) {
-      let highestScoreForLesson = await getHighestScoringDataObjectForLesson(i);
+      let highestScoreForLesson = await getHighestScoringDataObjectForLesson(i, '');
       // highestScoreForLesson is:
       await haystacks.consoleLog(namespacePrefix, functionName, app_msg.chighestScoreForLessonIs + JSON.stringify(highestScoreForLesson));
       if (highestScoreForLesson === false) {
         returnData = i;
-        // if (i === 1) {
-        //   // Always allow the user to execute the first lesson.
-        //   returnData = 1;
-        // } else {
-        //   returnData = i;
-        // }
         break;
       } else {
         // We must have gotten an object back.
@@ -1209,12 +1210,6 @@ async function getHighestLessonNumberAboveAdvancementScoringLimit() {
         // averageWPM is:
         await haystacks.consoleLog(namespacePrefix, functionName, app_msg.caverageWpmIs + averageWPM);
         if (averageAccuracy >= accuracyLimit && averageWPM >= speedLimit) {
-          // if (i === 1) {
-          //   // Always allow the user to execute the first lesson.
-          //   returnData = 1;
-          // } else {
-          //   returnData = i;
-          // }
           returnData = i;
         } else {
           if (returnData === 0) {
@@ -1223,14 +1218,169 @@ async function getHighestLessonNumberAboveAdvancementScoringLimit() {
           break;
         }
       }
-      // let currentLessonScore = individualLessonData[app_sys.cadjustedWpm];
-      // if (currentMaxScore < currentLessonScore) {
-      //   currentMaxScore = currentLessonScore;
-      //   returnData = individualLessonData;
-      // }
     } // End-for (let i = 0; i < lessonCount; i++)
-  }
+  } // End-if (await isLessonAdvancementLimitEnabled() === true)
   await haystacks.consoleLog(namespacePrefix, functionName, msg.creturnDataIs + returnData);
+  await haystacks.consoleLog(namespacePrefix, functionName, msg.cEND_Function);
+  return returnData;
+}
+
+/**
+ * @function generateUserReport
+ * @description Generates a report for the currently logged in user that shows
+ * which tests they has passed and which ones they have not yet passed.
+ * @param {string} inputUserName An optional input parameter that allows the caller to specify the user name.
+ * Rather than requiring the user to be logged in.
+ * @return {array<array<string>,array<object>>} An array of arrays that contain
+ * a list of the tests for which there is data, and an array of JSON objects that contain lesson data to display.
+ * @author Seth Hollingsead
+ * @date 2023/03/09
+ */
+async function generateUserReport(inputUserName) {
+  let functionName = generateUserReport.name;
+  await haystacks.consoleLog(namespacePrefix, functionName, msg.cBEGIN_Function);
+  // inputUserName
+  await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cinputUserNameIs + inputUserName);
+  let returnData = {};
+  let proxyReportDataEntry = {};
+  let currentUserName = '';
+  let passMessage = wrd.cPass;
+  let failMessage = wrd.cFail;
+  let passFailLabel = wrd.cPass + bas.cDash + wrd.cFail;
+  let accuracyLimit = await getLessonAdvancementScoreLimitAccuracy();
+  // accuracyLimit is:
+  await haystacks.consoleLog(namespacePrefix, functionName, app_msg.caccuracyLimitIs + accuracyLimit);
+  let speedLimit = await getLessonAdvancementScoreLimitSpeed();
+  // speedLimit is:
+  await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cspeedLimitIs + speedLimit);
+  if (inputUserName === '') {
+    currentUserName = await currentUserAccount();
+  } else {
+    currentUserName = inputUserName;
+  }  
+  // currentUserName is:
+  await haystacks.consoleLog(namespacePrefix, functionName, app_msg.ccurrentUserNameIs + currentUserName);
+  if (currentUserName) {
+    let userAccountData = await getUserAccountData(currentUserName);
+    // userAccountData is:
+    await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cuserAccountDataIs + JSON.stringify(userAccountData));
+    let lessonCount = await getLessonCount();
+    // lessonCount is:
+    await haystacks.consoleLog(namespacePrefix, functionName, app_msg.clessonCountIs + lessonCount);
+    for (let i = 1; i < lessonCount; i++) {
+      let individualLessonName = await getIndividualLessonName(i);
+      // individualLessonName is:
+      await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cindividualLessonNameIs + individualLessonName);
+      let highestScoreForLesson = await getHighestScoringDataObjectForLesson(i, currentUserName);
+      // highestScoreForLesson is:
+      await haystacks.consoleLog(namespacePrefix, functionName, app_msg.chighestScoreForLessonIs + JSON.stringify(highestScoreForLesson));
+      if (highestScoreForLesson === false) {
+        proxyReportDataEntry = {[individualLessonName]: {[passFailLabel]: failMessage}};
+        returnData[individualLessonName] = proxyReportDataEntry[Object.keys(proxyReportDataEntry)[0]];
+        break;
+      } else {
+        // We must have gotten an object back.
+        // Process it to see if the current test passes the minimum lesson advancement limit.
+        let averageAccuracy = highestScoreForLesson[app_sys.caverageAccuracy] * 100;
+        // averageAccuracy is:
+        await haystacks.consoleLog(namespacePrefix, functionName, app_msg.caverageAccuracyIs + averageAccuracy);
+        let averageWPM = highestScoreForLesson[app_sys.caverageWpm];
+        // averageWPM is:
+        await haystacks.consoleLog(namespacePrefix, functionName, app_msg.caverageWpmIs + averageWPM);
+        if (averageAccuracy >= accuracyLimit && averageWPM >= speedLimit) {
+          proxyReportDataEntry = {[individualLessonName]: {[passFailLabel]: passMessage}};
+          returnData[individualLessonName] = proxyReportDataEntry[Object.keys(proxyReportDataEntry)[0]];
+        } else {
+          proxyReportDataEntry = {[individualLessonName]: {[passFailLabel]: failMessage}};
+          returnData[individualLessonName] = proxyReportDataEntry[Object.keys(proxyReportDataEntry)[0]];
+          break;
+        }
+      }
+    } // End-for (let i = 1; i < lessonCount; i++)
+  } else {
+    // ERROR: User is not logged in, cannot generate user report.
+    // Login to an account and try again.
+    console.log(app_msg.cgenerateUserReportMessage02);
+    console.log(app_msg.cgenerateUserReportMessage03);
+    returnData = false;
+  }
+  await haystacks.consoleLog(namespacePrefix, functionName, msg.creturnDataIs + JSON.stringify(returnData));
+  await haystacks.consoleLog(namespacePrefix, functionName, msg.cEND_Function);
+  return returnData;
+}
+
+/**
+ * @function generateReportAllUsers
+ * @description Generates a report that contains the highest passing lesson number
+ * for all users registered with the system.
+ * @return {array<array<string>,array<object>>} An array of arrays that contain
+ * a list of the tests for which there is data, and an array of JSON objects that contain lesson data to display.
+ * @author Seth Hollingsead
+ * @date 2023/03/09
+ */
+async function generateReportAllUsers() {
+  let functionName = generateReportAllUsers.name;
+  await haystacks.consoleLog(namespacePrefix, functionName, msg.cBEGIN_Function);
+  let returnData = {};
+  let currentUserMaxLessonPass = 0;
+  let allAccountsData = await getAccountData();
+  // allAccountsData is:
+  await haystacks.consoleLog(namespacePrefix, functionName, app_msg.callAccountsDataIs + JSON.stringify(allAccountsData));
+  let accuracyLimit = await getLessonAdvancementScoreLimitAccuracy();
+  // accuracyLimit is:
+  await haystacks.consoleLog(namespacePrefix, functionName, app_msg.caccuracyLimitIs + accuracyLimit);
+  let speedLimit = await getLessonAdvancementScoreLimitSpeed();
+  // speedLimit is:
+  await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cspeedLimitIs + speedLimit);
+  let lessonCount = await getLessonCount();
+  // lessonCount is:
+  await haystacks.consoleLog(namespacePrefix, functionName, app_msg.clessonCountIs + lessonCount);
+
+  let allAccountUserNames = Object.keys(allAccountsData);
+  for (let currentUserNameKey in allAccountUserNames) {
+    currentUserMaxLessonPass = 0;
+    let currentUserName = allAccountUserNames[currentUserNameKey];
+    // currentUserName is:
+    await haystacks.consoleLog(namespacePrefix, functionName, app_msg.ccurrentUserNameIs + currentUserName);
+    let userAccountData = await getUserAccountData(currentUserName);
+    // userAccountData is:
+    await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cuserAccountDataIs + JSON.stringify(userAccountData));
+    for (let i = 1; i < lessonCount; i++) {
+      let highestScoreForLesson = await getHighestScoringDataObjectForLesson(i, currentUserName);
+      // highestScoreForLesson is:
+      await haystacks.consoleLog(namespacePrefix, functionName, app_msg.chighestScoreForLessonIs + JSON.stringify(highestScoreForLesson));
+      if (highestScoreForLesson === false) {
+
+        // proxyReportDataEntry = {[individualLessonName]: {[passFailLabel]: failMessage}};
+        // returnData[individualLessonName] = proxyReportDataEntry[Object.keys(proxyReportDataEntry)[0]];
+        currentUserMaxLessonPass = i;
+        
+        break;
+      } else {
+        // We must have gotten an object back.
+        // Process it to see if the current test passes the minimum lesson advancement limit.
+        let averageAccuracy = highestScoreForLesson[app_sys.caverageAccuracy] * 100;
+        // averageAccuracy is:
+        await haystacks.consoleLog(namespacePrefix, functionName, app_msg.caverageAccuracyIs + averageAccuracy);
+        let averageWPM = highestScoreForLesson[app_sys.caverageWpm];
+        // averageWPM is:
+        await haystacks.consoleLog(namespacePrefix, functionName, app_msg.caverageWpmIs + averageWPM);
+        if (averageAccuracy >= accuracyLimit && averageWPM >= speedLimit) {
+          currentUserMaxLessonPass = i;
+        } else {
+          currentUserMaxLessonPass = i;
+          break;
+        }
+      }
+    } // End-for (let i = 0; i < lessonCount; i++)
+    if (currentUserMaxLessonPass > 1) {
+      // Make sure to subtract off 1,
+      // because the algorthim solves for the first unsolved lesson over the last passed lesson.
+      currentUserMaxLessonPass = currentUserMaxLessonPass - 1;
+    }
+    returnData[currentUserName] = {[app_sys.cLessonNumber]: currentUserMaxLessonPass};
+  } // End-for (let userName in allAccountUserNames)
+  await haystacks.consoleLog(namespacePrefix, functionName, msg.creturnDataIs + JSON.stringify(returnData));
   await haystacks.consoleLog(namespacePrefix, functionName, msg.cEND_Function);
   return returnData;
 }
@@ -1259,5 +1409,7 @@ export default {
   getLessonAdvancementScoreLimitSpeed,
   isLessonAdvancementLimitEnabled,
   getHighestScoringDataObjectForLesson,
-  getHighestLessonNumberAboveAdvancementScoringLimit
+  getHighestLessonNumberAboveAdvancementScoringLimit,
+  generateUserReport,
+  generateReportAllUsers
 }

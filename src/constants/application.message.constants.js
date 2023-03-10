@@ -2,6 +2,10 @@
  * @file application.message.constants.js
  * @module application.message.constants
  * @description Contains many re-usable application message constants.
+ * @requires module:application.command.constants
+ * @requires module:application.configuration.constants
+ * @requires module:application.constants
+ * @requires module:application.system.constants
  * @requires {@link https://www.npmjs.com/package/@haystacks/constants|@haystacks/constants}
  * @author Seth Hollingsead
  * @date 2023/02/24
@@ -11,6 +15,7 @@
 // Internal Imports
 import * as app_cmd from './application.command.constants.js';
 import * as app_cfg from './application.configuration.constants.js';
+import * as apc from './application.constants.js';
 import * as app_sys from './application.system.constants.js';
 
 // External imports
@@ -96,6 +101,7 @@ export const cindividualLessonNameIs = wrd.cindividual + wrd.cLesson + wrd.cName
 export const cusersLessonScoreIndividualLessonRecordIs = wrd.cusers + wrd.cLesson + wrd.cScore + wrd.cIndividual + wrd.cLesson + wrd.cRecord + sys.cSpaceIsColonSpace; // usersLessonScoreIndividualLessonRecord is:
 export const caccuracyLimitIs = wrd.caccuracy + wrd.cLimit + sys.cSpaceIsColonSpace; // accuracyLimit is:
 export const cspeedLimitIs = wrd.cspeed + wrd.cLimit + sys.cSpaceIsColonSpace; // speedLimit is:
+export const cinputUserNameIs = wrd.cinput + wrd.cUser + wrd.cName + sys.cSpaceIsColonSpace; // inputUserName is:
 
 // Application messages
 export const cinstructionsMessage00 = wrd.cInstructions + bas.cSpace + wrd.cto + bas.cSpace + wrd.cend + bas.cSpace + wrd.cuser + bas.cColon; // Instructions to end user:
@@ -155,6 +161,10 @@ export const csaveAccountDataFailureMessage01 = msg.cERROR_Colon + wrd.cFailure 
 export const cWarningStartLessonMessage01 = msg.cWARNING_Colon + wrd.cYou + bas.cSpace + wrd.care + bas.cSpace + wrd.cnot + bas.cSpace + wrd.callowed + bas.cSpace + wrd.cto + bas.cSpace + wrd.crun + bas.cSpace + wrd.cthis + bas.cSpace + wrd.clesson + bas.cComa;
 // please complete the earlier lessons before proceeding.
 export const cWarningStartLessonMessage02 = wrd.cplease + bas.cSpace + wrd.ccomplete + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cearlier + bas.cSpace + wrd.clessons + bas.cSpace + wrd.cbefore + bas.cSpace + wrd.cproceeding + bas.cDot;
+export const cgenerateUserReportMessage01 = wrd.cHaystacks + bas.cSpace + wrd.cTyping + bas.cSpace + wrd.cTutor + bas.cSpace + wrd.creport + bas.cSpace + wrd.ccard + bas.cSpace + wrd.cfor + bas.cSpace + wrd.cuser + bas.cColon + bas.cSpace; // Haystacks Typing Tutor report card for user:
+export const cgenerateUserReportMessage02 = msg.cERROR_Colon + wrd.cUser + bas.cSpace + wrd.cis + bas.cSpace + wrd.cnot + bas.cSpace + wrd.clogged + bas.cSpace + wrd.cin + bas.cComa + bas.cSpace + wrd.ccannot + bas.cSpace + wrd.cgenerate + bas.cSpace + wrd.cuser + bas.cSpace + wrd.creport + bas.cDot; // ERROR: User is not logged in, cannot generate user report.
+export const cgenerateUserReportMessage03 = wrd.cLogin + bas.cSpace + wrd.cto + bas.cSpace + wrd.can + bas.cSpace + wrd.caccount + bas.cSpace + wrd.cand + bas.cSpace + wrd.ctry + bas.cSpace + wrd.cagain + bas.cDot; // Login to an account and try again.
+export const cprintRecordsMessage01 = wrd.cHaystacks + bas.cSpace + wrd.cTyping + bas.cSpace + wrd.cTutor + bas.cSpace + wrd.cusers + bas.cSpace + wrd.creport + bas.cColon; // Haystacks Typing Tutor users report:
 // ****************************************************************************************************
 // LESSON INSTRUCTIONS:
 export const cLessonInstructionsMessage01 = wrd.cLESSON + bas.cSpace + wrd.cINSTRUCTIONS + bas.cColon;
@@ -188,6 +198,26 @@ export const cLessonInstructionsMessage14 = wrd.cor + bas.cSpace + wrd.chigher +
 export const cLessonInstructionsMessage15 = bas.cA + bas.cSpace + wrd.creport + bas.cSpace + wrd.cshowing + bas.cSpace + wrd.cyour + bas.cSpace + wrd.cscore + bas.cSpace + wrd.cwill + bas.cSpace + wrd.cdisplay + bas.cSpace + wrd.cafter + bas.cSpace + wrd.cthe + bas.cSpace + wrd.clesson + bas.cSpace + wrd.cis + bas.cSpace + wrd.ccomplete + bas.cDot;
 // Press the "ESC" key, in the far upper left corner of the keyboard to cancel a lesson.
 export const cLessonInstructionsMessage16 = wrd.cPress + bas.cSpace + wrd.cthe + bas.cSpace + bas.cDoubleQuote + gen.cESC + bas.cDoubleQuote + wrd.ckey + bas.cComa + bas.cSpace + wrd.cin + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cfar + bas.cSpace + wrd.cupper + bas.cSpace + wrd.cleft + bas.cSpace + wrd.ccorner + bas.cSpace + wrd.cof + bas.cSpace + wrd.cthe + bas.cSpace + wrd.ckeyboard + bas.cSpace + wrd.cto + bas.cSpace + wrd.ccancel + bas.cSpace + bas.ca + bas.cSpace + wrd.clesson + bas.cDot;
+// ****************************************************************************************************
+// Destroy Records Instructions
+// Before you destroy the records, make sure you exit the Haystacks Typing Tutor application,
+export const destroyRecordsInstructionsMessage01 = wrd.cBefore + bas.cSpace + wrd.cyou + bas.cSpace + wrd.cdestroy + bas.cSpace + wrd.cthe + bas.cSpace + wrd.crecords + bas.cComa + bas.cSpace + wrd.cmake + bas.cSpace + wrd.csure + bas.cSpace + wrd.cyou + bas.cSpace + wrd.cexit + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cHaystacks + bas.cSpace + wrd.cTyping + bas.cSpace + wrd.cTutor + bas.cSpace + wrd.capplication + bas.cComa;
+// or the records will be resaved after you delete them.
+export const destroyRecordsInstructionsMessage02 = wrd.cor + bas.cSpace + wrd.cthe + bas.cSpace + wrd.crecords + bas.cSpace + wrd.cwill + bas.cSpace + wrd.cbe + bas.cSpace + wrd.cresaved + bas.cSpace + wrd.cafter + bas.cSpace + wrd.cyou + bas.cSpace + wrd.cdelete + bas.cSpace + wrd.cthem + bas.cDot;
+// You can destroy all records by going to the application installed path:
+export const destroyRecordsInstructionsMessage03 = wrd.cYou + bas.cSpace + wrd.ccan + bas.cSpace + wrd.cdestroy + bas.cSpace + wrd.call + bas.cSpace + wrd.crecords + bas.cSpace + wrd.cby + bas.cSpace + wrd.cgoing + bas.cSpace + wrd.cto + bas.cSpace + wrd.cthe + bas.cSpace + wrd.capplication + bas.cSpace + wrd.cinstalled + bas.cSpace + wrd.cpath + bas.cColon;
+// ./src/resources/accounts/
+export const destroyRecordsInstructionsMessage04 = bas.cDot + apc.cFullDevAccountsPath;
+// ./bin/resources/accounts/
+export const destroyRecordsInstructionsMessage05 = bas.cDot + apc.cFullProdAccountsPath;
+// Then delete all of the files with the .JSON file extension.
+export const destroyRecordsInstructionsMessage06 = wrd.cThen + bas.cSpace + wrd.cdelete + bas.cSpace + wrd.call + bas.cSpace + wrd.cof + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cfiles + bas.cSpace + wrd.cwith + bas.cSpace + wrd.cthe + bas.cSpace + gen.cDotJSON + bas.cSpace + wrd.cfile + bas.cSpace + wrd.cextension + bas.cDot;
+// This will remove all account data from the system forever.
+export const destroyRecordsInstructionsMessage07 = wrd.cThis + bas.cSpace + wrd.cwill + bas.cSpace + wrd.cremove + bas.cSpace + wrd.call + bas.cSpace + wrd.caccount + bas.cSpace + wrd.cdata + bas.cSpace + wrd.cfrom + bas.cSpace + wrd.cthe + bas.cSpace + wrd.csystem + bas.cSpace + wrd.cforever + bas.cDot;
+// If you wish to back-up the account data,
+export const destroyRecordsInstructionsMessage08 = wrd.cIf + bas.cSpace + wrd.cyou + bas.cSpace + wrd.cwish + bas.cSpace + wrd.cto + bas.cSpace + wrd.cback + bas.cDash + wrd.cup + bas.cSpace + wrd.cthe + bas.cSpace + wrd.caccount + bas.cSpace + wrd.cdata + bas.cComa;
+// you can copy these files to another storage location before deleting them.
+export const destroyRecordsInstructionsMessage09 = wrd.cyou + bas.cSpace + wrd.ccan + bas.cSpace + wrd.ccopy + bas.cSpace + wrd.cthese + bas.cSpace + wrd.cfiles + bas.cSpace + wrd.cto + bas.cSpace + wrd.canother + bas.cSpace + wrd.cstorage + bas.cSpace + wrd.clocation + bas.cSpace + wrd.cbefore + bas.cSpace + wrd.cdeleting + bas.cSpace + wrd.cthem + bas.cDot;
 // ****************************************************************************************************
 
 // Constants Validation

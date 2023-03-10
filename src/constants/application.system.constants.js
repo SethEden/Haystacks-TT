@@ -34,6 +34,8 @@ export const ctotalIncorrectCharacterCount = wrd.ctotal + wrd.cIncorrect + wrd.c
 export const caverageWpm = wrd.caverage + bas.cWp + bas.cm; // averageWpm
 export const caverageAccuracy = wrd.caverage + wrd.cAccuracy; // averageAccuracy
 export const cadjustedWpm = wrd.cadjusted + bas.cWp + bas.cm; // adjustedWpm
+export const cUsername = wrd.cUser + wrd.cname; // Username
+export const cLessonNumber = wrd.cLesson + wrd.cNumber; // LessonNumber
 
 // Constants Validation
 export const cresolvedConstantsPath_Application = wrd.cresolved + wrd.cConstants + wrd.cPath + bas.cUnderscore + wrd.cApplication; // resolvedConstantsPath_Application

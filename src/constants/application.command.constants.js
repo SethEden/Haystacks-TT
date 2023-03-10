@@ -40,6 +40,7 @@ export const cdeleteAccount = wrd.cdelete + wrd.cAccount; // deleteAccount
 export const clogin = wrd.clogin; // login
 export const clogout = wrd.clogout; // logout
 export const cstartLesson = wrd.cstart + wrd.cLesson; // startLesson
+export const cgenerateUserReport = wrd.cgenerate + wrd.cUser + wrd.cReport; // generateUserReport
 export const cprintRecords = wrd.cprint + wrd.cRecords; // printRecords
 export const cdestroyRecords = wrd.cdestroy + wrd.cRecords; // destroyRecords
 
