@@ -1,5 +1,5 @@
 {
-  "debugFiles|debugSetting.application.haystacks-tt": true,
+  "debugFiles|debugSetting.application.haystacks-tt": false,
   "debugFiles|debugSetting.application.haystacks-tt@ModuleFontStyle": "Bold|Underline",
   "debugFiles|debugSetting.application.haystacks-tt@FunctionFontStyle": "Bold|Underline",
   "debugFiles|debugSetting.application.haystacks-tt@MessageFontStyle": "Underline",

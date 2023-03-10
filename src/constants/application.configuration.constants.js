@@ -17,5 +17,5 @@ export const cappLessonsPath = wrd.capp + wrd.cLessons + wrd.cPath; // appLesson
 export const csaveTypingRecords = wrd.csave + wrd.cTyping + wrd.cRecords; // saveTypingRecords
 export const cenableLessonPlanLimitingFactors = wrd.cenable + wrd.cLesson + wrd.cPlan + wrd.cLimiting + wrd.cFactors; // enableLessonPlanLimitingFactors
 export const clessonPlanSuccessLimitingAccuracy = wrd.clesson + wrd.cPlan + wrd.cSuccess + wrd.cLimiting + wrd.cAccuracy; // lessonPlanSuccessLimitingAccuracy
-export const clessonPlanSuccessLimitingSpeed = wrd.clesson + wrd.cPlan + wrd.cSuccess + wrd.cLimiting + wrd.cSpeed; // lessonPlanSuccessLimitSpeed
+export const clessonPlanSuccessLimitingSpeed = wrd.clesson + wrd.cPlan + wrd.cSuccess + wrd.cLimiting + wrd.cSpeed; // lessonPlanSuccessLimitingSpeed
 export const cCurrentUser = wrd.cCurrent + wrd.cUser; // CurrentUser
