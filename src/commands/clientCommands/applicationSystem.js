@@ -66,7 +66,7 @@ async function instructions(inputData, inputMetaData) {
   console.log(app_msg.cinstructionsMessage11)
   // You can change the success limiting factor by changing the configuration flag: lessonPlanSuccessLimitingFactor to some other value other than 90%.
   console.log(app_msg.cinstructionsMessage12)
-  // You can disable the success limiting factor completely and allow your users to take any lesson at any time by changing the configuration flag: enableLessonPlanLimitingFactor.
+  // You can change the success limiting factor by changing the configuration flags: lessonPlanSuccessLimitingAccuracy, lessonPlanSuccessLimitingSpeed to some other value other than 90%, 70wpm.
   console.log(app_msg.cinstructionsMessage13)
   // Enter the command app?/appHelp or the command instructions to display these instructions again.
   console.log(app_msg.cinstructionsMessage14)

@@ -113,7 +113,7 @@ export const applicationMessageConstantsValidation = [
   {Name: 'cinstructionsMessage09', Actual: app_msg.cinstructionsMessage09, Expected: 'If you are NOT logged in, the lessons command will simply list all the lessons available by the system.'},
   {Name: 'cinstructionsMessage10', Actual: app_msg.cinstructionsMessage10, Expected: 'If you are NOT logged in, running the startLesson with a lesson number will start the lesson without saving any of the typing records.'},
   {Name: 'cinstructionsMessage11', Actual: app_msg.cinstructionsMessage11, Expected: 'If you are logged in the system will only let you proceed to the next lesson if you have completed all the previous lessons with 90% success or greater.'},
-  {Name: 'cinstructionsMessage12', Actual: app_msg.cinstructionsMessage12, Expected: 'You can change the success limiting factor by changing the configuration flags: lessonPlanSuccessLimitingAccuracy, lessonPlanSuccessLimitingSpeed to some other values other than 90%, 70wpm.'},
+  {Name: 'cinstructionsMessage12', Actual: app_msg.cinstructionsMessage12, Expected: 'You can change the success limiting factor by changing the configuration flags: lessonPlanSuccessLimitingAccuracy, lessonPlanSuccessLimitingSpeed to some other value other than 90%, 70wpm.'},
   {Name: 'cinstructionsMessage13', Actual: app_msg.cinstructionsMessage13, Expected: 'You can disable the success limiting factor completely and allow your users to take any lesson at any time by changing the configuration flag: enableLessonPlanLimitingFactors.'},
   {Name: 'cinstructionsMessage14', Actual: app_msg.cinstructionsMessage14, Expected: 'Enter the command app?/appHelp or the command instructions to display these instructions again.'},
 
@@ -126,7 +126,7 @@ export const applicationMessageConstantsValidation = [
   {Name: 'cErrorNoDeleteAccountMessage02', Actual: app_msg.cErrorNoDeleteAccountMessage02, Expected: 'INFO: No account was deleted.'},
   {Name: 'cUserDeleteAccountConfirmedMessage01', Actual: app_msg.cUserDeleteAccountConfirmedMessage01, Expected: 'WARNING: All user account data will be lost FOREVER!'},
   {Name: 'cUserDeleteAccountConfirmedMessage02', Actual: app_msg.cUserDeleteAccountConfirmedMessage02, Expected: 'Are you sure you want to delete the account? (yes/y or no/n)'},
-  {Name: 'cErrorNoUserFoundLoginMessage01', Actual: app_msg.cErrorNoUserFoundLoginMessage01, Expected: 'ERROR: Cannot login, user does not exist. '},
+  {Name: 'cErrorNoUserFoundLoginMessage01', Actual: app_msg.cErrorNoUserFoundLoginMessage01, Expected: 'ERROR: Cannot login, user does not exist.'},
   {Name: 'cErrorLoginMessage02', Actual: app_msg.cErrorLoginMessage02, Expected: 'ERROR: Unable to login with the specified user: '},
   {Name: 'cErrorFailureToLogOutMessage01', Actual: app_msg.cErrorFailureToLogOutMessage01, Expected: 'ERROR: Failure to logout.'},
   {Name: 'cErrorStartLessonMessage01', Actual: app_msg.cErrorStartLessonMessage01, Expected: 'ERROR: No lesson number entered. Please enter a valid lesson number to execute.'},
