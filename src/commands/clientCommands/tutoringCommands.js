@@ -377,8 +377,8 @@ async function generateUserReport(inputData, inputMetaData) {
       console.log(app_msg.cErrorInvalidUserNameCreateAccountMessage01 + inputData[1]);
     }
   } else {
-    userReportData = await accountBroker.generateUserReport();
     currentUserName = await accountBroker.currentUserAccount();
+    userReportData = await accountBroker.generateUserReport(currentUserName);
   }
 
   // currentUserName is:

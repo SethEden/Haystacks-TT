@@ -68,6 +68,26 @@
         "averageWpm": 55.72156004511353,
         "averageAccuracy": 0.990990990990991,
         "adjustedWpm": 55.219564008671064
+      },
+      {
+        "lessonTimeStamp": "20230314-151630-334",
+        "totalTime": 18018,
+        "totalCorrectCharacterCount": 81,
+        "totalIncorrectCharacterCount": 1,
+        "totalWords": 16.4,
+        "averageWpm": 59.31421893950903,
+        "averageAccuracy": 0.990990990990991,
+        "adjustedWpm": 58.779856606720664
+      },
+      {
+        "lessonTimeStamp": "20230314-153831-855",
+        "totalTime": 18296,
+        "totalCorrectCharacterCount": 79,
+        "totalIncorrectCharacterCount": 3,
+        "totalWords": 16.4,
+        "averageWpm": 58.63471445573203,
+        "averageAccuracy": 0.971943371943372,
+        "adjustedWpm": 56.98962208104097
       }
     ]
   },

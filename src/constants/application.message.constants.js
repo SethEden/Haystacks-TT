@@ -67,7 +67,7 @@ export const clineEndTimeIs = wrd.cline + wrd.cEnd + wrd.cTime + sys.cSpaceIsCol
 export const ccharactersCorrectCountIs = wrd.ccharacters + wrd.cCorrect + wrd.cCount + sys.cSpaceIsColonSpace; // charactersCorrectCount is:
 export const ccharactersInCorrectCountIs = wrd.ccharacters + wrd.cIncorrect + wrd.cCount + sys.cSpaceIsColonSpace; // charactersIncorrectCount is:
 export const ctotalNumberOfWordsIs = wrd.ctotal + wrd.cNumber + wrd.cOf + wrd.cWords + sys.cSpaceIsColonSpace; // totalNumberOfWords is:
-export const cwpmIs = bas.cwp + bas.cm + sys.cSpaceIsColonSpace; // wpm is:
+export const cwpmIs = gen.cwpm + sys.cSpaceIsColonSpace; // wpm is:
 export const caccuracyIs = wrd.caccuracy + sys.cSpaceIsColonSpace; // accuracy is:
 export const cscoresDataArrayIs = wrd.cscores + wrd.cData + wrd.cArray + sys.cSpaceIsColonSpace; // scoresDataArray is:
 export const cscoreObjectIs = wrd.cscore + wrd.cObject + sys.cSpaceIsColonSpace; // scoreObject is:
@@ -76,7 +76,7 @@ export const ctotalTimeIs = wrd.ctotal + wrd.cTime + sys.cSpaceIsColonSpace; // 
 export const ctotalCorrectCharacterCountIs = wrd.ctotal + wrd.cCorrect + wrd.cCharacter + wrd.cCount + sys.cSpaceIsColonSpace; // totalCorrectCharacterCount is:
 export const ctotalIncorrectCharacterCountIs = wrd.ctotal + wrd.cIncorrect + wrd.cCharacter + wrd.cCount + sys.cSpaceIsColonSpace; // totalIncorrectCharacterCount is:
 export const ctotalWordsIs = wrd.ctotal + wrd.cWords + sys.cSpaceIsColonSpace; // totalWords is:
-export const caverageWpmIs = wrd.caverage + bas.cWP + bas.cM + sys.cSpaceIsColonSpace; // averageWPM is:
+export const caverageWpmIs = wrd.caverage + gen.cWPM + sys.cSpaceIsColonSpace; // averageWPM is:
 export const caverageAccuracyIs = wrd.caverage + wrd.cAccuracy + sys.cSpaceIsColonSpace; // averageAccuracy is:
 export const cupdatedUserAccountDataIs = wrd.cupdated + wrd.cUser + wrd.cAccount + wrd.cData + sys.cSpaceIsColonSpace; // updatedUserAccountData is:
 export const cdataToAppendIs = wrd.cdata + wrd.cTo + wrd.cAppend + sys.cSpaceIsColonSpace; // dataToAppend is:
@@ -92,7 +92,7 @@ export const cadvancementLimitSettingIs = wrd.cadvancement + wrd.cLimit + wrd.cS
 export const callLessonsDataIs = wrd.call + wrd.cLessons + wrd.cData + sys.cSpaceIsColonSpace; // allLessonsData is:
 export const clessonPlanKeysIs = wrd.clesson + wrd.cPlan + wrd.cKeys + sys.cSpaceIsColonSpace; // lessonPlanKeys is:
 export const clessonKeyValueIs = wrd.clesson + wrd.cKey + wrd.cValue + sys.cSpaceIsColonSpace; // lessonKeyValue is:
-export const cadjustedWpmIs = wrd.cadjusted + bas.cWp + bas.cm + sys.cSpaceIsColonSpace; // adjustedWpm is:
+export const cadjustedWpmIs = wrd.cadjusted + gen.cWpm + sys.cSpaceIsColonSpace; // adjustedWpm is:
 export const clessonCountIs = wrd.clesson + wrd.cCount + sys.cSpaceIsColonSpace; // lessonCount is:
 export const chighestScoringLessonAboveAdvancementLimitIs = wrd.chighest + wrd.cScoring + wrd.cLesson + wrd.cAbove + wrd.cAdvancement + wrd.cLimit + sys.cSpaceIsColonSpace; // highestScoringLessonAboveAdvancementLimit is:
 export const cmasterLessonsData = wrd.cmaster + wrd.cLessons + wrd.cData + sys.cSpaceIsColonSpace; // masterLessonsData is:
@@ -116,7 +116,7 @@ export const cinstructionsMessage08 = wrd.cOnce + bas.cSpace + wrd.cyou + bas.cS
 export const cinstructionsMessage09 = wrd.cIf + bas.cSpace + wrd.cyou + bas.cSpace + wrd.care + bas.cSpace + wrd.cNOT + bas.cSpace + wrd.clogged + bas.cSpace + wrd.cin + bas.cComa + bas.cSpace + wrd.cthe + bas.cSpace + wrd.clessons + bas.cSpace + wrd.ccommand + bas.cSpace + wrd.cwill + bas.cSpace + wrd.csimply + bas.cSpace + wrd.clist + bas.cSpace + wrd.call + bas.cSpace + wrd.cthe + bas.cSpace + wrd.clessons + bas.cSpace + wrd.cavailable + bas.cSpace + wrd.cby + bas.cSpace + wrd.cthe + bas.cSpace + wrd.csystem + bas.cDot; // If you are NOT logged in, the lessons command will simply list all the lessons available by the system.
 export const cinstructionsMessage10 = wrd.cIf + bas.cSpace + wrd.cyou + bas.cSpace + wrd.care + bas.cSpace + wrd.cNOT + bas.cSpace + wrd.clogged + bas.cSpace + wrd.cin + bas.cComa + bas.cSpace + wrd.crunning + bas.cSpace + wrd.cthe + bas.cSpace + app_cmd.cstartLesson + bas.cSpace + wrd.cwith + bas.cSpace + bas.ca + bas.cSpace + wrd.clesson + bas.cSpace + wrd.cnumber + bas.cSpace + wrd.cwill + bas.cSpace + wrd.cstart + bas.cSpace + wrd.cthe + bas.cSpace + wrd.clesson + bas.cSpace + wrd.cwithout + bas.cSpace + wrd.csaving + bas.cSpace + wrd.cany + bas.cSpace + wrd.cof + bas.cSpace + wrd.cthe + bas.cSpace + wrd.ctyping + bas.cSpace + wrd.crecords + bas.cDot; // If you are NOT logged in, running the startLesson with a lesson number will start the lesson without saving any of the typing records.
 export const cinstructionsMessage11 = wrd.cIf + bas.cSpace + wrd.cyou + bas.cSpace + wrd.care + bas.cSpace + wrd.clogged + bas.cSpace + wrd.cin + bas.cSpace + wrd.cthe + bas.cSpace + wrd.csystem + bas.cSpace + wrd.cwill + bas.cSpace + wrd.conly + bas.cSpace + wrd.clet + bas.cSpace + wrd.cyou + bas.cSpace + wrd.cproceed + bas.cSpace + wrd.cto + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cnext + bas.cSpace + wrd.clesson + bas.cSpace + wrd.cif + bas.cSpace + wrd.cyou + bas.cSpace + wrd.chave + bas.cSpace + wrd.ccompleted + bas.cSpace + wrd.call + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cprevious + bas.cSpace + wrd.clessons + bas.cSpace + wrd.cwith + bas.cSpace + num.c90 + bas.cPercent + bas.cSpace + wrd.csuccess + bas.cSpace + wrd.cor + bas.cSpace + wrd.cgreater + bas.cDot; // If you are logged in the system will only let you proceed to the next lesson if you have completed all the previous lessons with 90% success or greater.
-export const cinstructionsMessage12 = wrd.cYou + bas.cSpace + wrd.ccan + bas.cSpace + wrd.cchange + bas.cSpace + wrd.cthe + bas.cSpace + wrd.csuccess + bas.cSpace + wrd.climiting + bas.cSpace + wrd.cfactor + bas.cSpace + wrd.cby + bas.cSpace + wrd.cchanging + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cconfiguration + bas.cSpace + wrd.cflags + bas.cColon + bas.cSpace + app_cfg.clessonPlanSuccessLimitingAccuracy + bas.cComa + bas.cSpace + app_cfg.clessonPlanSuccessLimitingSpeed + bas.cSpace + wrd.cto + bas.cSpace + wrd.csome + bas.cSpace + wrd.cother + bas.cSpace + wrd.cvalue + bas.cSpace + wrd.cother + bas.cSpace + wrd.cthan + bas.cSpace + num.c90 + bas.cPercent + bas.cComa + bas.cSpace + num.c70 + bas.cwp + bas.cm + bas.cDot; // You can change the success limiting factor by changing the configuration flags: lessonPlanSuccessLimitingAccuracy, lessonPlanSuccessLimitingSpeed to some other value other than 90%, 70wpm.
+export const cinstructionsMessage12 = wrd.cYou + bas.cSpace + wrd.ccan + bas.cSpace + wrd.cchange + bas.cSpace + wrd.cthe + bas.cSpace + wrd.csuccess + bas.cSpace + wrd.climiting + bas.cSpace + wrd.cfactor + bas.cSpace + wrd.cby + bas.cSpace + wrd.cchanging + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cconfiguration + bas.cSpace + wrd.cflags + bas.cColon + bas.cSpace + app_cfg.clessonPlanSuccessLimitingAccuracy + bas.cComa + bas.cSpace + app_cfg.clessonPlanSuccessLimitingSpeed + bas.cSpace + wrd.cto + bas.cSpace + wrd.csome + bas.cSpace + wrd.cother + bas.cSpace + wrd.cvalue + bas.cSpace + wrd.cother + bas.cSpace + wrd.cthan + bas.cSpace + num.c90 + bas.cPercent + bas.cComa + bas.cSpace + num.c70 + gen.cWPM + bas.cDot; // You can change the success limiting factor by changing the configuration flags: lessonPlanSuccessLimitingAccuracy, lessonPlanSuccessLimitingSpeed to some other value other than 90%, 70wpm.
 export const cinstructionsMessage13 = wrd.cYou + bas.cSpace + wrd.ccan + bas.cSpace + wrd.cdisable + bas.cSpace + wrd.cthe + bas.cSpace + wrd.csuccess + bas.cSpace + wrd.climiting + bas.cSpace + wrd.cfactor + bas.cSpace + wrd.ccompletely + bas.cSpace + wrd.cand + bas.cSpace + wrd.callow + bas.cSpace + wrd.cyour + bas.cSpace + wrd.cusers + bas.cSpace + wrd.cto + bas.cSpace + wrd.ctake + bas.cSpace + wrd.cany + bas.cSpace + wrd.clesson + bas.cSpace + wrd.cat + bas.cSpace + wrd.cany + bas.cSpace + wrd.ctime + bas.cSpace + wrd.cby + bas.cSpace + wrd.cchanging + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cconfiguration + bas.cSpace + wrd.cflag + bas.cColon + bas.cSpace + app_cfg.cenableLessonPlanLimitingFactors + bas.cDot; // You can disable the success limiting factor completely and allow your users to take any lesson at any time by changing the configuration flag: enableLessonPlanLimitingFactors.
 export const cinstructionsMessage14 = wrd.cEnter + bas.cSpace + wrd.cthe + bas.cSpace + wrd.ccommand + bas.cSpace + wrd.capp + bas.cQuestion + bas.cForwardSlash + wrd.capp + wrd.cHelp + bas.cSpace + wrd.cor + bas.cSpace + wrd.cthe + bas.cSpace + wrd.ccommand + bas.cSpace + wrd.cinstructions + bas.cSpace + wrd.cto + bas.cSpace + wrd.cdisplay + bas.cSpace + wrd.cthese + bas.cSpace + wrd.cinstructions + bas.cSpace + wrd.cagain + bas.cDot; // Enter the command app?/appHelp or the command instructions to display these instructions again.
 
@@ -165,6 +165,15 @@ export const cgenerateUserReportMessage01 = wrd.cHaystacks + bas.cSpace + wrd.cT
 export const cgenerateUserReportMessage02 = msg.cERROR_Colon + wrd.cUser + bas.cSpace + wrd.cis + bas.cSpace + wrd.cnot + bas.cSpace + wrd.clogged + bas.cSpace + wrd.cin + bas.cComa + bas.cSpace + wrd.ccannot + bas.cSpace + wrd.cgenerate + bas.cSpace + wrd.cuser + bas.cSpace + wrd.creport + bas.cDot; // ERROR: User is not logged in, cannot generate user report.
 export const cgenerateUserReportMessage03 = wrd.cLogin + bas.cSpace + wrd.cto + bas.cSpace + wrd.can + bas.cSpace + wrd.caccount + bas.cSpace + wrd.cand + bas.cSpace + wrd.ctry + bas.cSpace + wrd.cagain + bas.cDot; // Login to an account and try again.
 export const cprintRecordsMessage01 = wrd.cHaystacks + bas.cSpace + wrd.cTyping + bas.cSpace + wrd.cTutor + bas.cSpace + wrd.cusers + bas.cSpace + wrd.creport + bas.cColon; // Haystacks Typing Tutor users report:
+
+export const cmessageLessonTimeStampIs = wrd.cLesson + bas.cSpace + wrd.ctime + bas.cSpace + wrd.cstamp + sys.cSpaceIsColonSpace; // Lesson time stamp is:
+export const cmessageTotalTimeIs = wrd.cTotal + bas.cSpace + wrd.ctime + sys.cSpaceIsColonSpace; // Total time is:
+export const cmessageTotalCorrectCharacterCountIs = wrd.cTotal + bas.cSpace + wrd.ccorrect + bas.cSpace + wrd.ccharacter + bas.cSpace + wrd.ccount + sys.cSpaceIsColonSpace; // Total correct character count is:
+export const cmessageTotalIncorrectCharacterCountIs = wrd.cTotal + bas.cSpace + wrd.cincorrect + bas.cSpace + wrd.ccharacter + bas.cSpace + wrd.ccount + sys.cSpaceIsColonSpace; // Total incorrect character count is:
+export const cmessageTotalWordsIs = wrd.cTotal + bas.cSpace + wrd.cwords + sys.cSpaceIsColonSpace; // Total words is:
+export const cmessageAverageWpmIs = wrd.cAverage + gen.cWPM + sys.cSpaceIsColonSpace; // Average WPM is:
+export const cmessageAverageAccuracyIs = wrd.cAverage + bas.cSpace + wrd.caccuracy + sys.cSpaceIsColonSpace; // Average accuracy is:
+export const cmessageAdjustedWpmIs = wrd.cAdjusted + bas.cSpace + gen.cWPM + sys.cSpaceIsColonSpace; // Adjusted WPM is:
 // ****************************************************************************************************
 // LESSON INSTRUCTIONS:
 export const cLessonInstructionsMessage01 = wrd.cLESSON + bas.cSpace + wrd.cINSTRUCTIONS + bas.cColon;
@@ -292,7 +301,7 @@ bas.cOpenBracket + bas.cE + bas.cCloseBracket +
 bas.cOpenBracket + bas.cD + bas.cCloseBracket + bas.cSpace +
 bas.cOpenBracket + num.c7 + bas.cCloseBracket + 
 bas.cOpenBracket + num.c8 + bas.cCloseBracket +
-bas.cOpenBracket + num.c9 + bas.cCloseBracket + bas.cPipe + bas.cPlus + bas.cPipe.repeat(2);
+bas.cOpenBracket + num.c9 + bas.cCloseBracket + bas.cPipe + bas.cPlus + bas.cDoublePipe;
 // | [CAP][A][S][D][F][G][H][J][K][L][;]['][_<-_]           [4][5][6]|_||
 export const cKeyboardAsciMap06 = bas.cPipe + bas.cSpace +
 bas.cOpenBracket + bas.cCA + bas.cP + bas.cCloseBracket +
@@ -310,7 +319,7 @@ bas.cOpenBracket + bas.cSingleQuote + bas.cCloseBracket +
 bas.cOpenBracket + bas.cUnderscore + bas.cLessThan + bas.cDash + bas.cUnderscore + bas.cCloseBracket + bas.cSpace.repeat(11) +
 bas.cOpenBracket + num.c4 + bas.cCloseBracket +
 bas.cOpenBracket + num.c5 + bas.cCloseBracket +
-bas.cOpenBracket + num.c6 + bas.cCloseBracket + bas.cPipe + bas.cUnderscore + bas.cPipe.repeat(2);
+bas.cOpenBracket + num.c6 + bas.cCloseBracket + bas.cPipe + bas.cUnderscore + bas.cDoublePipe;
 // | [SHIFT][Z][X][C][V][B][N][M][,][.][/][SHIFT]    [^]    [1][2][3]| ||
 export const cKeyboardAsciMap07 = bas.cPipe + bas.cSpace +
 bas.cOpenBracket + gen.cSHIFT + bas.cCloseBracket +
@@ -328,19 +337,19 @@ bas.cOpenBracket + gen.cSHIFT + bas.cCloseBracket + bas.cSpace.repeat(4) +
 bas.cOpenBracket + bas.cCarrot + bas.cCloseBracket + bas.cSpace.repeat(4) +
 bas.cOpenBracket + num.c1 + bas.cCloseBracket +
 bas.cOpenBracket + num.c2 + bas.cCloseBracket +
-bas.cOpenBracket + num.c3 + bas.cCloseBracket + bas.cPipe + bas.cSpace + bas.cPipe.repeat(2);
+bas.cOpenBracket + num.c3 + bas.cCloseBracket + bas.cPipe + bas.cSpace + bas.cDoublePipe;
 // | [CTRL][ALT][_______SPACE________][ALT][CTRL] [<][V][>] [ 0  ][.]|_||
 export const cKeyboardAsciMap08 = bas.cPipe + bas.cSpace +
 bas.cOpenBracket + gen.cCTRL + bas.cCloseBracket +
 bas.cOpenBracket + gen.cALT + bas.cCloseBracket + 
-bas.cOpenBracket + bas.cUnderscore.repreat(7) + wrd.cSpace + bas.cUnderscore.repeat(8) + bas.cCloseBracket +
+bas.cOpenBracket + bas.cUnderscore.repeat(7) + gen.cSPACE + bas.cUnderscore.repeat(8) + bas.cCloseBracket +
 bas.cOpenBracket + gen.cALT + bas.cCloseBracket +
 bas.cOpenBracket + gen.cCTRL + bas.cCloseBracket + bas.cSpace +
 bas.cOpenBracket + bas.cLessThan + bas.cCloseBracket +
 bas.cOpenBracket + bas.cV + bas.cCloseBracket +
 bas.cOpenBracket + bas.cGreaterThan + bas.cCloseBracket + bas.cSpace +
 bas.cOpenBracket + bas.cSpace + num.c0 + bas.cSpace.repeat(2) + bas.cCloseBracket +
-bas.cOpenBracket + bas.cDot + bas.cCloseBracket + bas.cPipe + bas.cUnderscore + bas.cPipe.repeat(2);
+bas.cOpenBracket + bas.cDot + bas.cCloseBracket + bas.cPipe + bas.cUnderscore + bas.cDoublePipe;
 // ****************************************************************************************************
 
 // Constants Validation

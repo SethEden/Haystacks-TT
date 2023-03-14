@@ -140,7 +140,7 @@ async function bootStrapApplication() {
   await haystacks.setConfigurationSetting(wrd.csystem, app_cfg.cappAccountsPath, appConfig[app_cfg.cappAccountsPath]);
   await haystacks.setConfigurationSetting(wrd.csystem, app_cfg.cappLessonsPath, appConfig[app_cfg.cappLessonsPath]);
   let accountsData = await haystacks.loadAllJsonData(appConfig[app_cfg.cappAccountsPath], app_sys.cclientData + bas.cColon + app_sys.cuserAccounts);
-  console.log('accountsData is: ' + JSON.stringify(accountsData));
+  // console.log('accountsData is: ' + JSON.stringify(accountsData));
   let lessonsData = await haystacks.loadAllJsonData(appConfig[app_cfg.cappLessonsPath], app_sys.cclientData + bas.cColon + app_sys.capplicationLessons);
   let accountDataStored = await haystacks.storeData(app_sys.cuserAccounts, accountsData);
   let lessonDataStored = await haystacks.storeData(app_sys.capplicationLessons, lessonsData);
