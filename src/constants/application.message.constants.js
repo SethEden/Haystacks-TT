@@ -219,6 +219,129 @@ export const destroyRecordsInstructionsMessage08 = wrd.cIf + bas.cSpace + wrd.cy
 // you can copy these files to another storage location before deleting them.
 export const destroyRecordsInstructionsMessage09 = wrd.cyou + bas.cSpace + wrd.ccan + bas.cSpace + wrd.ccopy + bas.cSpace + wrd.cthese + bas.cSpace + wrd.cfiles + bas.cSpace + wrd.cto + bas.cSpace + wrd.canother + bas.cSpace + wrd.cstorage + bas.cSpace + wrd.clocation + bas.cSpace + wrd.cbefore + bas.cSpace + wrd.cdeleting + bas.cSpace + wrd.cthem + bas.cDot;
 // ****************************************************************************************************
+// ASCII Keyboard map art:
+// ****************************************************************************************************
+// .--------------------------------------------------------------------.
+// | [Esc] [F1][F2][F3][F4][F5][F6][F7][F8][F9][F0][F10][F11][F12] o o o|
+// |                                                                    |
+// | [`][1][2][3][4][5][6][7][8][9][0][-][=][_<_] [I][H][U] [N][/][*][-]|
+// | [/T][Q][W][E][R][T][Y][U][I][O][P][{][}] | | [D][E][D] [7][8][9]|+||
+// | [CAP][A][S][D][F][G][H][J][K][L][;]['][_<-_]           [4][5][6]|_||
+// | [SHIFT][Z][X][C][V][B][N][M][,][.][/][SHIFT]    [^]    [1][2][3]| ||
+// | [CTRL][ALT][_______SPACE________][ALT][CTRL] [<][V][>] [ 0  ][.]|_||
+// `--------------------------------------------------------------------'
+// ****************************************************************************************************
+// .--------------------------------------------------------------------.
+export const cKeyboardAsciMap01 = bas.cDot + bas.cDoubleDash.repeat(34) + bas.cDot;
+// | [Esc] [F1][F2][F3][F4][F5][F6][F7][F8][F9][F0][F10][F11][F12] o o o|
+export const cKeyboardAsciMap02 = bas.cPipe + bas.cSpace + bas.cOpenBracket + gen.cESC + bas.cCloseBracket + bas.cSpace +
+bas.cOpenBracket + bas.cF + num.c1 + bas.cCloseBracket + 
+bas.cOpenBracket + bas.cF + num.c2 + bas.cCloseBracket +
+bas.cOpenBracket + bas.cF + num.c3 + bas.cCloseBracket +
+bas.cOpenBracket + bas.cF + num.c4 + bas.cCloseBracket +
+bas.cOpenBracket + bas.cF + num.c5 + bas.cCloseBracket +
+bas.cOpenBracket + bas.cF + num.c6 + bas.cCloseBracket +
+bas.cOpenBracket + bas.cF + num.c7 + bas.cCloseBracket +
+bas.cOpenBracket + bas.cF + num.c8 + bas.cCloseBracket +
+bas.cOpenBracket + bas.cF + num.c9 + bas.cCloseBracket +
+bas.cOpenBracket + bas.cF + num.c10 + bas.cCloseBracket +
+bas.cOpenBracket + bas.cF + num.c11 + bas.cCloseBracket +
+bas.cOpenBracket + bas.cF + num.c12 + bas.cCloseBracket + bas.cSpace + bas.co + bas.cSpace + bas.co + bas.cSpace + bas.co + bas.cPipe;
+// |                                                                    |
+export const cKeyboardAsciMap03 = bas.cPipe + bas.cSpace.repeat(68) + bas.cPipe;
+// | [`][1][2][3][4][5][6][7][8][9][0][-][=][_<_] [I][H][U] [N][/][*][-]|
+export const cKeyboardAsciMap04 = bas.cPipe + bas.cSpace + 
+bas.cOpenBracket + bas.cBackTickQuote + bas.cCloseBracket +
+bas.cOpenBracket + num.c1 + bas.cCloseBracket +
+bas.cOpenBracket + num.c2 + bas.cCloseBracket +
+bas.cOpenBracket + num.c3 + bas.cCloseBracket +
+bas.cOpenBracket + num.c4 + bas.cCloseBracket +
+bas.cOpenBracket + num.c5 + bas.cCloseBracket +
+bas.cOpenBracket + num.c6 + bas.cCloseBracket +
+bas.cOpenBracket + num.c7 + bas.cCloseBracket +
+bas.cOpenBracket + num.c8 + bas.cCloseBracket +
+bas.cOpenBracket + num.c9 + bas.cCloseBracket +
+bas.cOpenBracket + num.c0 + bas.cCloseBracket +
+bas.cOpenBracket + bas.cDash + bas.cCloseBracket +
+bas.cOpenBracket + bas.cEqual + bas.cCloseBracket +
+bas.cOpenBracket + bas.cUnderscore + bas.cLessThan + bas.cUnderscore + bas.cCloseBracket + bas.cSpace +
+bas.cOpenBracket + bas.cI + bas.cCloseBracket +
+bas.cOpenBracket + bas.cH + bas.cCloseBracket +
+bas.cOpenBracket + bas.cU + bas.cCloseBracket + bas.cSpace +
+bas.cOpenBracket + bas.cN + bas.cCloseBracket +
+bas.cOpenBracket + bas.cForwardSlash + bas.cCloseBracket +
+bas.cOpenBracket + bas.cStar + bas.cCloseBracket +
+bas.cOpenBracket + bas.cDash + bas.cCloseBracket + bas.cPipe;
+// | [/T][Q][W][E][R][T][Y][U][I][O][P][{][}] | | [D][E][D] [7][8][9]|+||
+export const cKeyboardAsciMap05 = bas.cPipe + bas.cSpace +
+bas.cOpenBracket + bas.cForwardSlash + bas.cT + bas.cCloseBracket +
+bas.cOpenBracket + bas.cQ + bas.cCloseBracket +
+bas.cOpenBracket + bas.cW + bas.cCloseBracket +
+bas.cOpenBracket + bas.cE + bas.cCloseBracket +
+bas.cOpenBracket + bas.cR + bas.cCloseBracket +
+bas.cOpenBracket + bas.cT + bas.cCloseBracket +
+bas.cOpenBracket + bas.cY + bas.cCloseBracket +
+bas.cOpenBracket + bas.cU + bas.cCloseBracket +
+bas.cOpenBracket + bas.cI + bas.cCloseBracket +
+bas.cOpenBracket + bas.cO + bas.cCloseBracket +
+bas.cOpenBracket + bas.cP + bas.cCloseBracket +
+bas.cOpenBracket + bas.cOpenCurlyBrace + bas.cCloseBracket +
+bas.cOpenBracket + bas.cCloseCurlyBrace + bas.cCloseBracket + bas.cSpace + bas.cPipe + bas.cSpace + bas.cPipe + bas.cSpace +
+bas.cOpenBracket + bas.cD + bas.cCloseBracket +
+bas.cOpenBracket + bas.cE + bas.cCloseBracket +
+bas.cOpenBracket + bas.cD + bas.cCloseBracket + bas.cSpace +
+bas.cOpenBracket + num.c7 + bas.cCloseBracket + 
+bas.cOpenBracket + num.c8 + bas.cCloseBracket +
+bas.cOpenBracket + num.c9 + bas.cCloseBracket + bas.cPipe + bas.cPlus + bas.cPipe.repeat(2);
+// | [CAP][A][S][D][F][G][H][J][K][L][;]['][_<-_]           [4][5][6]|_||
+export const cKeyboardAsciMap06 = bas.cPipe + bas.cSpace +
+bas.cOpenBracket + bas.cCA + bas.cP + bas.cCloseBracket +
+bas.cOpenBracket + bas.cA + bas.cCloseBracket +
+bas.cOpenBracket + bas.cS + bas.cCloseBracket +
+bas.cOpenBracket + bas.cD + bas.cCloseBracket +
+bas.cOpenBracket + bas.cF + bas.cCloseBracket +
+bas.cOpenBracket + bas.cG + bas.cCloseBracket +
+bas.cOpenBracket + bas.cH + bas.cCloseBracket +
+bas.cOpenBracket + bas.cJ + bas.cCloseBracket +
+bas.cOpenBracket + bas.cK + bas.cCloseBracket +
+bas.cOpenBracket + bas.cL + bas.cCloseBracket +
+bas.cOpenBracket + bas.cSemiColon + bas.cCloseBracket +
+bas.cOpenBracket + bas.cSingleQuote + bas.cCloseBracket +
+bas.cOpenBracket + bas.cUnderscore + bas.cLessThan + bas.cDash + bas.cUnderscore + bas.cCloseBracket + bas.cSpace.repeat(11) +
+bas.cOpenBracket + num.c4 + bas.cCloseBracket +
+bas.cOpenBracket + num.c5 + bas.cCloseBracket +
+bas.cOpenBracket + num.c6 + bas.cCloseBracket + bas.cPipe + bas.cUnderscore + bas.cPipe.repeat(2);
+// | [SHIFT][Z][X][C][V][B][N][M][,][.][/][SHIFT]    [^]    [1][2][3]| ||
+export const cKeyboardAsciMap07 = bas.cPipe + bas.cSpace +
+bas.cOpenBracket + gen.cSHIFT + bas.cCloseBracket +
+bas.cOpenBracket + bas.cZ + bas.cCloseBracket +
+bas.cOpenBracket + bas.cX + bas.cCloseBracket +
+bas.cOpenBracket + bas.cC + bas.cCloseBracket +
+bas.cOpenBracket + bas.cV + bas.cCloseBracket +
+bas.cOpenBracket + bas.cB + bas.cCloseBracket +
+bas.cOpenBracket + bas.cN + bas.cCloseBracket +
+bas.cOpenBracket + bas.cM + bas.cCloseBracket +
+bas.cOpenBracket + bas.cComa + bas.cCloseBracket +
+bas.cOpenBracket + bas.cDot + bas.cCloseBracket +
+bas.cOpenBracket + bas.cForwardSlash + bas.cCloseBracket +
+bas.cOpenBracket + gen.cSHIFT + bas.cCloseBracket + bas.cSpace.repeat(4) +
+bas.cOpenBracket + bas.cCarrot + bas.cCloseBracket + bas.cSpace.repeat(4) +
+bas.cOpenBracket + num.c1 + bas.cCloseBracket +
+bas.cOpenBracket + num.c2 + bas.cCloseBracket +
+bas.cOpenBracket + num.c3 + bas.cCloseBracket + bas.cPipe + bas.cSpace + bas.cPipe.repeat(2);
+// | [CTRL][ALT][_______SPACE________][ALT][CTRL] [<][V][>] [ 0  ][.]|_||
+export const cKeyboardAsciMap08 = bas.cPipe + bas.cSpace +
+bas.cOpenBracket + gen.cCTRL + bas.cCloseBracket +
+bas.cOpenBracket + gen.cALT + bas.cCloseBracket + 
+bas.cOpenBracket + bas.cUnderscore.repreat(7) + wrd.cSpace + bas.cUnderscore.repeat(8) + bas.cCloseBracket +
+bas.cOpenBracket + gen.cALT + bas.cCloseBracket +
+bas.cOpenBracket + gen.cCTRL + bas.cCloseBracket + bas.cSpace +
+bas.cOpenBracket + bas.cLessThan + bas.cCloseBracket +
+bas.cOpenBracket + bas.cV + bas.cCloseBracket +
+bas.cOpenBracket + bas.cGreaterThan + bas.cCloseBracket + bas.cSpace +
+bas.cOpenBracket + bas.cSpace + num.c0 + bas.cSpace.repeat(2) + bas.cCloseBracket +
+bas.cOpenBracket + bas.cDot + bas.cCloseBracket + bas.cPipe + bas.cUnderscore + bas.cPipe.repeat(2);
+// ****************************************************************************************************
 
 // Constants Validation
 export const callClientConstantsValidationDataIs = wrd.call + wrd.cClient + wrd.cConstants + wrd.cValidation + wrd.cData + sys.cSpaceIsColonSpace; // allClientConstantsValidationData is:
