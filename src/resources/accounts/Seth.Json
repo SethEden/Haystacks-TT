@@ -54,6 +54,16 @@
         "averageWpm": 77.90994409973771,
         "averageAccuracy": 1,
         "adjustedWpm": 77.90994409973771
+      },
+      {
+        "lessonTimeStamp": "20230316-052529-344",
+        "totalTime": 5472,
+        "totalCorrectCharacterCount": 29,
+        "totalIncorrectCharacterCount": 1,
+        "totalWords": 5.999999999999999,
+        "averageWpm": 72.42973239021842,
+        "averageAccuracy": 0.9666666666666668,
+        "adjustedWpm": 70.01540797721114
       }
     ]
   },

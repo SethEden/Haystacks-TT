@@ -181,7 +181,7 @@ export const applicationMessageConstantsValidation = [
   // ASCII Keyboard map art:
   // ****************************************************************************************************
   // .--------------------------------------------------------------------.
-  // | [Esc] [F1][F2][F3][F4][F5][F6][F7][F8][F9][F0][F10][F11][F12] o o o|
+  // | [ESC] [F1][F2][F3][F4][F5][F6][F7][F8][F9][F0][F10][F11][F12] o o o|
   // |                                                                    |
   // | [`][1][2][3][4][5][6][7][8][9][0][-][=][_<_] [I][H][U] [N][/][*][-]|
   // | [/T][Q][W][E][R][T][Y][U][I][O][P][{][}] | | [D][E][D] [7][8][9]|+||
@@ -191,8 +191,9 @@ export const applicationMessageConstantsValidation = [
   // `--------------------------------------------------------------------'
   // ****************************************************************************************************
   {Name: 'cKeyboardAsciMap01', Actual: app_msg.cKeyboardAsciMap01, Expected: '.--------------------------------------------------------------------.'},
-  {Name: 'cKeyboardAsciMap02', Actual: app_msg.cKeyboardAsciMap02, Expected: '| [Esc] [F1][F2][F3][F4][F5][F6][F7][F8][F9][F0][F10][F11][F12] o o o|'},
+  {Name: 'cKeyboardAsciMap02', Actual: app_msg.cKeyboardAsciMap02, Expected: '| [ESC] [F1][F2][F3][F4][F5][F6][F7][F8][F9][F10][F11][F12] o o o|'},
   {Name: 'cKeyboardAsciMap03', Actual: app_msg.cKeyboardAsciMap03, Expected: '|                                                                    |'},
+  {Name: 'cKeyboardAsciMap04', Actual: app_msg.cKeyboardAsciMap04, Expected: '| [`][1][2][3][4][5][6][7][8][9][0][-][=][_<_] [I][H][U] [N][/][*][-]|'},
   {Name: 'cKeyboardAsciMap05', Actual: app_msg.cKeyboardAsciMap05, Expected: '| [/T][Q][W][E][R][T][Y][U][I][O][P][{][}] | | [D][E][D] [7][8][9]|+||'},
   {Name: 'cKeyboardAsciMap06', Actual: app_msg.cKeyboardAsciMap06, Expected: '| [CAP][A][S][D][F][G][H][J][K][L][;][\'][_<-_]           [4][5][6]|_||'},
   {Name: 'cKeyboardAsciMap07', Actual: app_msg.cKeyboardAsciMap07, Expected: '| [SHIFT][Z][X][C][V][B][N][M][,][.][/][SHIFT]    [^]    [1][2][3]| ||'},
