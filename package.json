@@ -6,6 +6,7 @@
   "type": "module",
   "scripts": {
     "start": "node ./src/haystacks-tt.js",
+    "release": "pkg package.json --out-path ./bin/",
     "vers": "standard-version -m \"chore(release) version %s \"",
     "docs": "jsdoc -c jsdoc.json",
     "test": "node ./src/haystacks-tt.js allApplicationValidations"
@@ -22,13 +23,14 @@
   "author": "Seth Hollingsead <iceversaka@hotmail.com>",
   "license": "MIT",
   "dependencies": {
-    "@haystacks/async": "0.2.4",
-    "@haystacks/constants": "0.2.4",
+    "@haystacks/async": ">=0.2.4",
+    "@haystacks/constants": ">=0.2.4",
     "audio-generator": "^2.1.2",
     "audio-through": "^2.0.0",
     "chalk": "5.0.1",
     "dotenv": "^16.0.0",
     "pcm-util": "^3.0.0",
+    "pkg": ">=5.8.1",
     "speaker": "^0.5.4"
   },
   "devDependencies": {
