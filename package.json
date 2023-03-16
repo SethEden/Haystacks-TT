@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "A simple Haystacks-async based command line typing tutor program for Windows, Mac & Linux.",
   "main": "./src/haystacks-tt.js",
+  "bin": "./bin/haystacks-tt.js",
   "type": "module",
   "scripts": {
     "start": "node ./src/haystacks-tt.js",
