@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><CommandWorkflows>
+  <debug>
+    <businessRules>
+      <clientRules>
+        <tutoringRules>
+          <Workflow Name="tutoringRulesEnable" Value="changeConfigSetting debugSetting.application.haystacks-tt.busienssRules.clientRules.tutoringRules true"/>
+          <Workflow Name="tutoringRulesDisable" Value="changeConfigSetting debugSetting.application.haystacks-tt.busienssRules.clientRules.tutoringRules false"/>
+          <Workflow Name="customEchoEnable" Value="changeConfigSetting debugSetting.application.haystacks-tt.busienssRules.clientRules.tutoringRules.customEcho true"/>
+          <Workflow Name="customEchoDisable" Value="changeConfigSetting debugSetting.application.haystacks-tt.busienssRules.clientRules.tutoringRules.customEcho false"/>
+        </tutoringRules>
+      </clientRules>
+    </businessRules>
+  </debug>
+</CommandWorkflows>

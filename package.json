@@ -1,10 +1,17 @@
 {
   "name": "haystacks-tt",
   "version": "0.0.1",
-  "description": "A simple Haystacks-async based command line typing tutor program for Windows, Mac & Linux",
-  "main": "main.js",
+  "description": "A simple Haystacks-async based command line typing tutor program for Windows, Mac & Linux.",
+  "main": "./src/haystacks-tt.js",
+  "bin": "./bin/haystacks-tt.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./src/haystacks-tt.js",
+    "deploy": "node ./build/buildRelease/src/buildRelease.js",
+    "release": "pkg package.json --out-path ./bin/",
+    "vers": "standard-version -m \"chore(release) version %s \"",
+    "docs": "jsdoc -c jsdoc.json",
+    "test": "node ./src/haystacks-tt.js allApplicationValidations"
   },
   "repository": {
     "type": "git",
@@ -12,16 +19,29 @@
   },
   "keywords": [
     "Typing",
-    "Typing",
     "Tutor",
-    "CLI",
-    "Command",
-    "Line",
-    "Cross",
-    "OS"
+    "CLI"
   ],
-  "author": "Seth Hollingsead",
+  "author": "Seth Hollingsead <iceversaka@hotmail.com>",
   "license": "MIT",
+  "dependencies": {
+    "@haystacks/async": ">=0.2.4",
+    "@haystacks/constants": ">=0.2.4",
+    "audio-generator": "^2.1.2",
+    "audio-through": "^2.0.0",
+    "chalk": "5.0.1",
+    "dotenv": "^16.0.0",
+    "pcm-util": "^3.0.0",
+    "pkg": ">=5.8.1",
+    "speaker": "^0.5.4"
+  },
+  "devDependencies": {
+    "eslint": "^8.18.0",
+    "jsdoc": "3.6.7",
+    "markdown-it": ">=12.3.2",
+    "marked": ">=4.0.10",
+    "standard-version": "9.3.2"
+  },
   "bugs": {
     "url": "https://github.com/SethEden/HaystacksTT/issues"
   },
