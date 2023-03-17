@@ -143,12 +143,7 @@ async function deployApplication() {
     } // End-while (haystacks.isCommandQueueEmpty() === false)
 
     // 2nd stage deploy-release process:
-    // console.log(app_msg.cReleasingFramework);
-    // await haystacks.enqueueCommand(cmd.cFrameworkDetailsWorkflow);
-    // while (await haystacks.isCommandQueueEmpty() === false) {
-    //   await haystacks.processCommandQueue();
-    // } // End-while (haystacks.isCommandQueueEmpty() === false)
-
+    console.log(app_msg.cReleasingFramework);
     console.log(app_msg.cResolvingAppPath)
     await haystacks.enqueueCommand(app_cmd.cresolveAppPath + bas.cSpace + applicationRootPath);
     while (await haystacks.isCommandQueueEmpty() === false) {
@@ -164,9 +159,9 @@ async function deployApplication() {
 
     // NOTE: Enable these lines of code to force the test-pass condition and
     // edit the build workflow to remove the testing when debugging this system.
-    await haystacks.setConfigurationSetting(wrd.csystem, cfg.cpassAllConstantsValidation, true);
-    await haystacks.setConfigurationSetting(wrd.csystem, cfg.cpassedAllCommandAliasesDuplicateChecks, true);
-    await haystacks.setConfigurationSetting(wrd.csystem, cfg.cpassedAllWorkflowDuplicateChecks, true);
+    // await haystacks.setConfigurationSetting(wrd.csystem, cfg.cpassAllConstantsValidation, true);
+    // await haystacks.setConfigurationSetting(wrd.csystem, cfg.cpassedAllCommandAliasesDuplicateChecks, true);
+    // await haystacks.setConfigurationSetting(wrd.csystem, cfg.cpassedAllWorkflowDuplicateChecks, true);
 
     // 4th stage deploy-release process:
     await haystacks.enqueueCommand(app_cmd.cBuildWorkflow);
