@@ -214,6 +214,8 @@ async function deployApplication(inputData, inputMetaData) {
     // DEPLOY APPLICATION
     console.log(msg.cDEPLOY_APPLICATION);
     let appRootPath = await haystacks.getConfigurationSetting(wrd.csystem, cfg.cappRootPath);
+    // appRootPath is:
+    await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cappRootPathIs + appRootPath);
     let sourcePath = appRootPath + await haystacks.getConfigurationSetting(wrd.csystem, app_cfg.csourcePath);
     let destinationPath = appRootPath + await haystacks.getConfigurationSetting(wrd.csystem, app_cfg.cdestinationPath);
     // sourcePath is:
@@ -269,11 +271,12 @@ async function releaseApplication(inputData, inputMetaData) {
     // RELEASE APPLICATION
     console.log(msg.cRELEASE_APPLICATION);
     let appRootPath = await haystacks.getConfigurationSetting(wrd.csystem, cfg.cappRootPath)
+    // appRootPath is:
+    await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cappRootPathIs + appRootPath);
     // NOTE: The destinationResourcesPath works out to be the root/bin of the framework, for this next operation that will be our source path.
-    // TODO: These source and destination paths are for the bin and release folder paths, used by the zip package to package the release.
-    // TODO: Fix them, because currently they are not set correctly.
-    let sourcePath = appRootPath + await haystacks.getConfigurationSetting(wrd.csystem, app_cfg.csourceResourcesPath);
-    let destinationPath = appRootPath + await haystacks.getConfigurationSetting(wrd.csystem, app_cfg.cdestinationResourcesPath);
+    // These source and destination paths are for the bin and release folder paths, used by the zip package to package the release.
+    let sourcePath = appRootPath + await haystacks.getConfigurationSetting(wrd.csystem, app_cfg.cdestinationPath);
+    let destinationPath = appRootPath + apc.cReleasePath;
 
     // sourcePath is:
     await haystacks.consoleLog(namespacePrefix, functionName, app_msg.csourcePathIs + sourcePath);
