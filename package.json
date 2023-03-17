@@ -7,6 +7,7 @@
   "type": "module",
   "scripts": {
     "start": "node ./src/haystacks-tt.js",
+    "deploy": "node ./build/buildRelease/src/buildRelease.js",
     "release": "pkg package.json --out-path ./bin/",
     "vers": "standard-version -m \"chore(release) version %s \"",
     "docs": "jsdoc -c jsdoc.json",

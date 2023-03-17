@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><CommandWorkflows>
+  <debug>
+    <commandsBlob>
+      <commands>
+        <tutoringCommands>
+          <Workflow Name="tutoringCommandsEnable" Value="changeConfigSetting debugSetting.application.haystacks-tt.commands.clientCommands.tutoringCommands true"/>
+          <Workflow Name="tutoringCommandsDisable" Value="changeConfigSetting debugSetting.application.haystacks-tt.commands.clientCommands.tutoringCommands false"/>
+          <Workflow Name="createAccountEnable" Value="changeConfigSetting debugSetting.application.haystacks-tt.commands.clientCommands.tutoringCommands.createAccount true"/>
+          <Workflow Name="createAccountDisable" Value="changeConfigSetting debugSetting.application.haystacks-tt.commands.clientCommands.tutoringCommands.createAccount false"/>
+          <Workflow Name="printAccountsDataEnable" Value="changeConfigSetting debugSetting.application.haystacks-tt.commands.clientCommands.tutoringCommands.printAccountsData true"/>
+          <Workflow Name="printAccountsDataDisable" Value="changeConfigSetting debugSetting.application.haystacks-tt.commands.clientCommands.tutoringCommands.printAccountsData false"/>
+        </tutoringCommands>
+      </commands>
+    </commandsBlob>
+  </debug>
+</CommandWorkflows>
