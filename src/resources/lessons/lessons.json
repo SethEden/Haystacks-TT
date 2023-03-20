@@ -532,6 +532,149 @@
         "Line_02": "vvvf mmmj fvmj fvf jmj fvfvf jmjmj vvf",
         "Line_03": "mmj vvmm vmvm vmfj vvf mmj"
       }]
+    },
+    "Lesson_0051": {
+      "Name": "Lesson_0051",
+      "Number": 51,
+      "Description": "Travel R Index Finger",
+      "Lines": [{
+        "Line_01": "mju mju muj muj mjum jumu jmum mjmmu",
+        "Line_02": "jummj mujm muj mju"
+      }]
+    },
+    "Lesson_0052": {
+      "Name": "Lesson_0052",
+      "Number": 52,
+      "Description": "Travel L Index Finger",
+      "Lines": [{
+        "Line_01": "vfr vfr vrf vrf vfrv frvr fvrv vfvvr",
+        "Line_02": "frvvf vrfv vrf vfr"
+      }]
+    },
+    "Lesson_0053": {
+      "Name": "Lesson_0053",
+      "Number": 53,
+      "Description": "Keys c & ,",
+      "Lines": [{
+        "Line_01": "c,",
+        "Line_02": "c,c,cc,",
+        "Line_03": ",c,cccc",
+        "Line_04": ",c,,,c,",
+        "Line_05": "c,ccc,c",
+        "LIne_06": ",c,c"
+      }]
+    },
+    "Lesson_0054": {
+      "Name": "Lesson_0054",
+      "Number": 54,
+      "Description": "Practice c & , Lesson 1",
+      "Lines": [{
+        "Line_01": "cd ccd cd ccd ,k ,,k ,k ,k cdcd ,k,k",
+        "Line_02": "cccd ,,,k dc,k dcd k,k dcdcd k,k,k ccd",
+        "Line_03": ",,k cc,, c,c, c,dk ccd ,,k"
+      }]
+    },
+    "Lesson_0055": {
+      "Name": "Lesson_0055",
+      "Number": 55,
+      "Description": "Practice c & , Lesson 2",
+      "Lines": [{
+        "Line_01": "i accept the idea of class, she lost",
+        "Line_02": "her credit card, this car could reach",
+        "Line_03": "top speed, the chair must touch the",
+        "Line_04": "wall, ice hockey created"
+      }]
+    },
+    "Lesson_0056": {
+      "Name": "Lesson_0056",
+      "Number": 56,
+      "Description": "Travel R Middle Finger",
+      "Lines": [{
+        "Line_01": ",ki ,ki ,ik ,ik ,ki, ki,i k,i, ,k,,i",
+        "Line_02": "ki,,k ,ik, ,ik ,ki"
+      }]
+    },
+    "Lesson_0057": {
+      "Name": "Lesson_0057",
+      "Number": 57,
+      "Description": "Travel L Middle Finger",
+      "Lines": [{
+        "Line_01": "cde cde ced ced cdec dece dcec cdcce",
+        "Line_02": "deccd cedc ced cde"
+      }]
+    },
+    "Lesson_0058": {
+      "Name": "Lesson_0058",
+      "Number": 58,
+      "Description": "Test 9 - vmc",
+      "Lines": [{
+        "Line_01": "accept,oracle,class,credit,card,car,could,clever,came,could"
+      }]
+    },
+    "Lesson_0059": {
+      "Name": "Lesson_0059",
+      "Number": 59,
+      "Description": "Keys x & .",
+      "Lines": [{
+        "Line_01": "x.",
+        "Line_02": "x.x.xx.",
+        "Line_03": ".x.xxxx",
+        "Line_04": ".x...x.",
+        "Line_05": "x.xxx.x",
+        "Line_06": ".x.x"
+      }]
+    },
+    "Lesson_0060": {
+      "Name": "Lesson_0060",
+      "Number": 60,
+      "Description": "Practice x & . Lesson 1",
+      "Lines": [{
+        "Line_01": "xs xxs xs xxs .l ..l .l ..l xsxs .l.l",
+        "Line_02": "xxxs ...l sx.l sxs l.l sxsxs l.l.l xxs",
+        "Line_03": ".l xx. x.x. x.sl xxs ..l"
+      }]
+    },
+    "Lesson_0061": {
+      "Name": "Lesson_0061",
+      "Number": 61,
+      "Description": "Practice x & . Lesson 2",
+      "Lines": [{
+        "Line_01": "exercise makes me feel relaxed. after",
+        "Line_02": "i took the exit exam sixty times, i",
+        "Line_03": "watched mad max. i fixed my xm radio.",
+        "Line_04": "i did extra examples."
+      }]
+    },
+    "Lesson_0062": {
+      "Name": "Lesson_0062",
+      "Number": 62,
+      "Description": "Travel R Ring Finger",
+      "Lines": [{
+        "Line_01": ".lo .lo .ol .ol .lo. lo.o l.o. .l..o",
+        "Line_02": "lo..l .ol. .ol .lo"
+      }]
+    },
+    "Lesson_0063": {
+      "Name": "Lesson_0063",
+      "Number": 63,
+      "Description": "Travel L Ring Finger",
+      "Lines": [{
+        "Line_01": "xsw xsw xws xws xswx swxw sxwx xsxxw",
+        "Line_02": "swxxs xwsx xws xsw"
+      }]
+    },
+    "Lesson_0064": {
+      "Name": "Lesson_0064",
+      "Number": 64,
+      "Description": "Keys z & /",
+      "Lines": [{
+        "Line_01": "z/",
+        "Line_02": "z/z/zz/",
+        "Line_03": "/z/zzzz",
+        "Line_04": "/z///z/",
+        "Line_05": "z/zzz/z",
+        "Line_06": "/z/z"
+      }]
     }
   }]
 }
