@@ -219,7 +219,7 @@
     },
     "Lesson_0021": {
       "Name": "Lesson_0021",
-      "Number": 20,
+      "Number": 21,
       "Description": "Test 3",
       "Lines": [{
         "Line_01": "dadhalfasaladagladflaghadslashladsaladhalfasaladadsfadfs"
@@ -227,7 +227,7 @@
     },
     "Lesson_0022": {
       "Name": "Lesson_0022",
-      "Number": 21,
+      "Number": 22,
       "Description": "Keys r & u",
       "Lines": [{
         "Line_01": "ru",
@@ -240,7 +240,7 @@
     },
     "Lesson_0023": {
       "Name": "Lesson_0023",
-      "Number": 22,
+      "Number": 23,
       "Description": "Practice r & u Lesson 1",
       "Lines": [{
         "Line_01": "rf rrf rf rrf uj uuj uj uuj rfrf",
@@ -251,7 +251,7 @@
     },
     "Lesson_0024": {
       "Name": "Lesson_0024",
-      "Number": 22,
+      "Number": 24,
       "Description": "Practice r & u Lesson 2",
       "Lines": [{
         "Line_01": "usual salad has hug laugh rush us lurk",
@@ -261,7 +261,7 @@
     },
     "Lesson_0025": {
       "Name": "Lesson_0025",
-      "Number": 22,
+      "Number": 25,
       "Description": "Keys e & i",
       "Lines": [{
         "Line_01": "ei",
@@ -274,7 +274,7 @@
     },
     "Lesson_0026": {
       "Name": "Lesson_0026",
-      "Number": 22,
+      "Number": 26,
       "Description": "Practice e & i Lesson 1",
       "Lines": [{
         "Line_01": "ed eed ed eed ik iik ik iik eded ikik",
@@ -284,7 +284,7 @@
     },
     "Lesson_0027": {
       "Name": "Lesson_0027",
-      "Number": 22,
+      "Number": 27,
       "Description": "Practice e & i Lesson 2",
       "Lines": [{
         "Line_01": "address add reader skill did suffer",
@@ -295,7 +295,7 @@
     },
     "Lesson_0028": {
       "Name": "Lesson_0028",
-      "Number": 22,
+      "Number": 28,
       "Description": "Review Home + ruei",
       "Lines": [{
         "Line_01": "red fair hear her her life here has",
@@ -303,6 +303,30 @@
         "Line_03": "raised her rule as reared far as he",
         "Line_04": "red field her dreaded here al hard",
         "Line_05": "herself hair;"
+      }]
+    },
+    "Lesson_0029": {
+      "Name": "Lesson_0029",
+      "Number": 29,
+      "Description": "Top Row: Left Hand",
+      "Lines": [{
+        "Line_01": "",
+        "Line_02": "",
+        "Line_03": "",
+        "Line_04": "",
+        "Line_05": ""
+      }]
+    },
+    "Lesson_0030": {
+      "Name": "Lesson_0030",
+      "Number": 30,
+      "Description": "Top Row: Right Hand",
+      "Lines": [{
+        "Line_01": "",
+        "Line_02": "",
+        "Line_03": "",
+        "Line_04": "",
+        "Line_05": ""
       }]
     }
   }]
