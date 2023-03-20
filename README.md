@@ -1,6 +1,9 @@
 # HaystacksTT
 A simple Haystacks-async based command line typing tutor program for Windows, Mac &amp; Linux.
 
+Please consider supporting, so I can develop more free open source software for the benefit of everyone.
+https://www.buymeacoffee.com/iceversakah
+
 # Purpose
 Used to teach kids typing skills, or anybody who wants to level up their typing skills, typing accuracy &amp; typing speed.
 
