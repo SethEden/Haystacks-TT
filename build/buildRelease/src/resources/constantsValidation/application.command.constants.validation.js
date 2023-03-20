@@ -23,7 +23,7 @@ export const applicationCommandConstantsValidation = [
   // Client Commands in order
   // ********************************
   {Name: 'ccustomEchoCommand', Actual: app_cmd.ccustomEchoCommand, Expected: 'customEchoCommand'},
-  {Name: 'resolveAppPath', Actual: app_cmd.resolveAppPath, Expected: 'resolveAppPath'},
+  {Name: 'cresolveAppPath', Actual: app_cmd.cresolveAppPath, Expected: 'resolveAppPath'},
   {Name: 'crectifyAppMetaData', Actual: app_cmd.crectifyAppMetaData, Expected: 'rectifyAppMetaData'},
   {Name: 'cdeployMetaData', Actual: app_cmd.cdeployMetaData, Expected: 'deployMetaData'},
   {Name: 'cdeployApplication', Actual: app_cmd.cdeployApplication, Expected: 'deployApplication'},
