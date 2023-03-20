@@ -20,6 +20,7 @@ import * as app_cfg from '../../constants/application.configuration.constants.js
  */
 export const applicationConfigurationConstantsValidation = [
   {Name: 'cargumentDrivenInterface', Actual: app_cfg.cargumentDrivenInterface, Expected: 'argumentDrivenInterface'},
+  {Name: 'cpathSeparator', Actual: app_cfg.cpathSeparator, Expected: 'pathSeparator'},
   {Name: 'csourcePath', Actual: app_cfg.csourcePath, Expected: 'sourcePath'},
   {Name: 'cdestinationPath', Actual: app_cfg.cdestinationPath, Expected: 'destinationPath'},
   {Name: 'csourceResourcesPath', Actual: app_cfg.csourceResourcesPath, Expected: 'sourceResourcesPath'},
