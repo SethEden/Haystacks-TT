@@ -248,6 +248,42 @@
         "Line_03": "jujuj rrf uuj rruu ruru rufj rrf",
         "Line_04": "uuj"
       }]
+    },
+    "Lesson_0024": {
+      "Name": "Lesson_0024",
+      "Number": 22,
+      "Description": "Practice r & u Lesson 2",
+      "Lines": [{
+        "Line_01": "usual salad has hug laugh rush us lurk",
+        "Line_02": "radar rural shark skull sugar us ask",
+        "Line_03": "dull dad flag harsh"
+      }]
+    },
+    "Lesson_0025": {
+      "Name": "Lesson_0025",
+      "Number": 22,
+      "Description": "Keys e & i",
+      "Lines": [{
+        "Line_01": "ei",
+        "Line_02": "eiiieee",
+        "Line_03": "eiieiee",
+        "Line_04": "iieieii",
+        "Line_05": "ieeiiei",
+        "Line_06": "eiee"
+      }]
+    },
+    "Lesson_0026": {
+      "Name": "Lesson_0026",
+      "Number": 22,
+      "Description": "Keys e & i",
+      "Lines": [{
+        "Line_01": "ei",
+        "Line_02": "eiiieee",
+        "Line_03": "eiieiee",
+        "Line_04": "iieieii",
+        "Line_05": "ieeiiei",
+        "Line_06": "eiee"
+      }]
     }
   }]
 }
