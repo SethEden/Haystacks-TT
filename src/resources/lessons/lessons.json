@@ -125,7 +125,7 @@
     },
     "Lesson_0012": {
       "Name": "Lesson_0012",
-      "Number": 11,
+      "Number": 12,
       "Description": "Practice a & ; Lesson 1",
       "Lines": [{
         "Line_01": "aa ;; ;;aa ;a;a a;;;a ;aa; a;aa",
@@ -220,6 +220,14 @@
     "Lesson_0021": {
       "Name": "Lesson_0021",
       "Number": 21,
+      "Description": "Test 3",
+      "Lines": [{
+        "Line_01": "dadhalfasaladagladflaghadslashladsaladhalfasaladadsfadfs"
+      }]
+    },
+    "Lesson_0022": {
+      "Name": "Lesson_0022",
+      "Number": 22,
       "Description": "Keys r & u",
       "Lines": [{
         "Line_01": "ru",
@@ -230,15 +238,309 @@
         "Line_06": "uruu"
       }]
     },
-    "Lesson_0022": {
-      "Name": "Lesson_0022",
-      "Number": 22,
+    "Lesson_0023": {
+      "Name": "Lesson_0023",
+      "Number": 23,
       "Description": "Practice r & u Lesson 1",
       "Lines": [{
         "Line_01": "rf rrf rf rrf uj uuj uj uuj rfrf",
         "Line_02": "ujuj rrrf uuuj fruj frf juj frfrf",
         "Line_03": "jujuj rrf uuj rruu ruru rufj rrf",
         "Line_04": "uuj"
+      }]
+    },
+    "Lesson_0024": {
+      "Name": "Lesson_0024",
+      "Number": 24,
+      "Description": "Practice r & u Lesson 2",
+      "Lines": [{
+        "Line_01": "usual salad has hug laugh rush us lurk",
+        "Line_02": "radar rural shark skull sugar us ask",
+        "Line_03": "dull dad flag harsh"
+      }]
+    },
+    "Lesson_0025": {
+      "Name": "Lesson_0025",
+      "Number": 25,
+      "Description": "Keys e & i",
+      "Lines": [{
+        "Line_01": "ei",
+        "Line_02": "eiiieee",
+        "Line_03": "eiieiee",
+        "Line_04": "iieieii",
+        "Line_05": "ieeiiei",
+        "Line_06": "eiee"
+      }]
+    },
+    "Lesson_0026": {
+      "Name": "Lesson_0026",
+      "Number": 26,
+      "Description": "Practice e & i Lesson 1",
+      "Lines": [{
+        "Line_01": "ed eed ed eed ik iik ik iik eded ikik",
+        "Line_02": "eeed iik deik dede kik deded kikik",
+        "Line_03": "eed iik eeii eiei eidk eed ik"
+      }]
+    },
+    "Lesson_0027": {
+      "Name": "Lesson_0027",
+      "Number": 27,
+      "Description": "Practice e & i Lesson 2",
+      "Lines": [{
+        "Line_01": "address add reader skill did suffer",
+        "Line_02": "all field ear free kiss ride aide died",
+        "Line_03": "dealers lied alike darker area afraid",
+        "Line_04": "all air duller user free idea"
+      }]
+    },
+    "Lesson_0028": {
+      "Name": "Lesson_0028",
+      "Number": 28,
+      "Description": "Review Home + ruei",
+      "Lines": [{
+        "Line_01": "red fair hear her her life here has",
+        "Line_02": "raise a hers here is read his rugs",
+        "Line_03": "raised her rule as reared far as he",
+        "Line_04": "red field her dreaded here al hard",
+        "Line_05": "herself hair;"
+      }]
+    },
+    "Lesson_0029": {
+      "Name": "Lesson_0029",
+      "Number": 29,
+      "Description": "Top Row: Left Hand",
+      "Lines": [{
+        "Line_01": "a red address dragged a dare dare as",
+        "Line_02": "feared degree reads rage are seeds a",
+        "Line_03": "address are see fared garage dare read",
+        "Line_04": "dear see"
+      }]
+    },
+    "Lesson_0030": {
+      "Name": "Lesson_0030",
+      "Number": 30,
+      "Description": "Top Row: Right Hand",
+      "Lines": [{
+        "Line_01": "hill ill lill; hill lik jil jh jll",
+        "Line_02": "kll jjjk jjjl lll; ;;;k lkj ;lkj jill",
+        "Line_03": "hill kih khil khil likh"
+      }]
+    },
+    "Lesson_0031": {
+      "Name": "Lesson_0031",
+      "Number": 31,
+      "Description": "Test 4 - ruei",
+      "Lines": [{
+        "Line_01": "afraid guess laugh heard shall dress glass field"
+      }]
+    },
+    "Lesson_0032": {
+      "Name": "Lesson_0032",
+      "Number": 32,
+      "Description": "Keys w & o",
+      "Lines": [{
+        "Line_01": "wo",
+        "Line_02": "wwoowwo",
+        "Line_03": "owwooow",
+        "Line_04": "woowwwo",
+        "Line_05": "owwowoo",
+        "Line_06": "wwwo"
+      }]
+    },
+    "Lesson_0033": {
+      "Name": "Lesson_0033",
+      "Number": 33,
+      "Description": "Practice w & o Lesson 1",
+      "Lines": [{
+        "Line_01": "ws wws ws wws ol ool ol ool wsws olol",
+        "Line_02": "wwws oool swol sws lol swsws lolol wws",
+        "Line_03": "ool wwoo wowo wosl wws ool"
+      }]
+    },
+    "Lesson_0034": {
+      "Name": "Lesson_0034",
+      "Number": 34,
+      "Description": "Practice w & o Lesson 2",
+      "Lines": [{
+        "Line_01": "swear owe lower alo allow row weak",
+        "Line_02": "flower follow wear sure well road saw",
+        "Line_03": "rear risker order soldiers worried",
+        "Line_04": "awkward firewood afford"
+      }]
+    },
+    "Lesson_0035": {
+      "Name": "Lesson_0035",
+      "Number": 35,
+      "Description": "Test 5 - Top 6 Keys",
+      "Lines": [{
+        "Line_01": "soshewaswereafewflowerssawhisshadowwereweawareofwhere"
+      }]
+    },
+    "Lesson_0036": {
+      "Name": "Lesson_0036",
+      "Number": 36,
+      "Description": "Keys q & y",
+      "Lines": [{
+        "Line_01": "qy",
+        "Line_02": "qyyqyyyy",
+        "Line_03": "qyqqqyy",
+        "Line_04": "yqyqyyq",
+        "Line_05": "yyyqqqy",
+        "Line_06": "yqyq"
+      }]
+    },
+    "Lesson_0037": {
+      "Name": "Lesson_0037",
+      "Number": 37,
+      "Description": "Practice q & y Lesson 1",
+      "Lines": [{
+        "Line_01": "qa qqa qa qqa yj yyj yj yyj qaqa yjyj",
+        "Line_02": "qqqa yyyj aqyj aqa jyj aqaqa jyjyj qqa",
+        "Line_03": "yyj qqy qyqy qyaj qqa yyj"
+      }]
+    },
+    "Lesson_0038": {
+      "Name": "Lesson_0038",
+      "Number": 38,
+      "Description": "Practice q & y Lesson 2",
+      "Lines": [{
+        "Line_01": "sheaf qualify already yellow we early",
+        "Line_02": "why require year sir how liquid yard",
+        "Line_03": "joy yield risk lady offer rough ready"
+      }]
+    },
+    "Lesson_0039": {
+      "Name": "Lesson_0039",
+      "Number": 39,
+      "Description": "Keys t & p",
+      "Lines": [{
+        "Line_01": "tp",
+        "Line_02": "pptptpt",
+        "Line_03": "ttttptp",
+        "Line_04": "tpptptp",
+        "Line_05": "pptpttp",
+        "Line_06": "tppt"
+      }]
+    },
+    "Lesson_0040": {
+      "Name": "Lesson_0040",
+      "Number": 40,
+      "Description": "Practice t & p Lesson 1",
+      "Lines": [{
+        "Line_01": "tf ttf tf ttf p; pp; p; pp; tftf p;p;",
+        "Line_02": "tttf ppp; ftp; ftf ;p; ftftf ;p;p; ttf",
+        "Line_03": "pp; ttpp tptp tpf; ttf pp;"
+      }]
+    },
+    "Lesson_0041": {
+      "Name": "Lesson_0041",
+      "Number": 41,
+      "Description": "Practice t & p Lesson 2",
+      "Lines": [{
+        "Line_01": "two fall first soft white adapt thirty",
+        "Line_02": "ought other post wealthy our totally",
+        "Line_03": "tree teeth faith trailer rapidly slight",
+        "Line_04": "fourth fast"
+      }]
+    },
+    "Lesson_0042": {
+      "Name": "Lesson_0042",
+      "Number": 42,
+      "Description": "Test 6 - Top Row",
+      "Lines": [{
+        "Line_01": "hueadgsfpo;rtwjlqkiyohpskwfytldgqjui;raeokrpwltsgqiyja;uedhf"
+      }]
+    },
+    "Lesson_0043": {
+      "Name": "Lesson_0043",
+      "Number": 43,
+      "Description": "Review - Home + Top Rows",
+      "Lines": [{
+        "Line_01": "with all their faults well if the",
+        "Line_02": "wages are the depth of his safest take",
+        "Line_03": "out of this world with us of his",
+        "Line_04": "property till he pay you for slipped"
+      }]
+    },
+    "Lesson_0044": {
+      "Name": "Lesson_0044",
+      "Number": 44,
+      "Description": "Top Row - Left Hand",
+      "Lines": [{
+        "Line_01": "we are at a great ease a start as fast",
+        "Line_02": "as a referred sea rewarded a wage tea",
+        "Line_03": "art wetted gate a great add are at",
+        "Line_04": "tea start were art free"
+      }]
+    },
+    "Lesson_0045": {
+      "Name": "Lesson_0045",
+      "Number": 45,
+      "Description": "Top Row - Left Hand",
+      "Lines": [{
+        "Line_01": "we are at a great ease a start as fast",
+        "Line_02": "as a referred sea rewarded a wage tea",
+        "Line_03": "art wetted gate a great add are at",
+        "Line_04": "tea start were art free"
+      }]
+    },
+    "Lesson_0046": {
+      "Name": "Lesson_0046",
+      "Number": 46,
+      "Description": "Top Row - Right Hand",
+      "Lines": [{
+        "Line_01": "you look up you pul up poppy; loop",
+        "Line_02": "oil you joy hop hill; oh pool up you",
+        "Line_03": "jolly hill ill pill lol you; joy"
+      }]
+    },
+    "Lesson_0047": {
+      "Name": "Lesson_0047",
+      "Number": 47,
+      "Description": "Test 7 - Top Row",
+      "Lines": [{
+        "Line_01": "yrgilokwfthygeswaopiqwertyuiopjufrkefikikw"
+      }]
+    },
+    "Lesson_0048": {
+      "Name": "Lesson_0048",
+      "Number": 48,
+      "Description": "Test 8 - Top Row FINAL",
+      "Lines": [{
+        "Line_01": "the air is like this is lot like the early edge were"
+      }]
+    },
+    "Lesson_0049": {
+      "Name": "Lesson_0049",
+      "Number": 49,
+      "Description": "Keys v & m",
+      "Lines": [{
+        "Line_01": "vm",
+        "Line_02": "vmvmmvm",
+        "Line_03": "mmvvvvm",
+        "Line_04": "vmvmvmm",
+        "Line_05": "mvmvmmv",
+        "Line_06": "vvmm"
+      }]
+    },
+    "Lesson_0050": {
+      "Name": "Lesson_0050",
+      "Number": 50,
+      "Description": "Practice v & m Lesson 1",
+      "Lines": [{
+        "Line_01": "vf vvf vf vvf mj mmj mj mmj vfvf mjmj",
+        "Line_02": "vvvf mmmj fvmj fvf jmj fvfvf jmjmj vvf",
+        "Line_03": "mmj vvmm vmvm vmfj vvf mmj"
+      }]
+    },
+    "Lesson_0051": {
+      "Name": "Lesson_0051",
+      "Number": 51,
+      "Description": "Practice v & m Lesson 2",
+      "Lines": [{
+        "Line_01": "i drive everyday as god as dave who",
+        "Line_02": "developed eladership qualities to moved",
+        "Line_03": "overhead of other drivers"
       }]
     }
   }]
