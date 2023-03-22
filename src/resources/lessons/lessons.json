@@ -886,6 +886,156 @@
         "Line_01": "look, only you join him. only you look",
         "Line_02": "him up."
       }]
+    },
+    "Lesson_0086": {
+      "Name": "Lesson_0086",
+      "Number": 86,
+      "Description": "Test 13 - Play: Words",
+      "Lines": [{
+        "Line_01": "type increase finers look make perfect practice look make"
+      }]
+    },
+    "Lesson_0087": {
+      "Name": "Lesson_0087",
+      "Number": 87,
+      "Description": "Staring at Screen",
+      "Lines": [{
+        "Line_01": "when we stare at a screen we tend to",
+        "Line_02": "blink less. that is bad for the eyes",
+        "Line_03": "because they can get dry."
+      }]
+    },
+    "Lesson_0088": {
+      "Name": "Lesson_0088",
+      "Number": 88,
+      "Description": "Take Breaks",
+      "Lines": [{
+        "Line_01": "make sure to look away from the",
+        "Line_02": "computer every fifteen minutes, and",
+        "Line_03": "take a five minute break every hour."
+      }]
+    },
+    "Lesson_0089": {
+      "Name": "Lesson_0089",
+      "Number": 89,
+      "Description": "Take Breaks",
+      "Lines": [{
+        "Line_01": "once you have finished typing this",
+        "Line_02": "lesson, look away from the computer",
+        "Line_03": "for a few short seconds before looking",
+        "Line_04": "at the results."
+      }]
+    },
+    "Lesson_0090": {
+      "Name": "Lesson_0090",
+      "Number": 90,
+      "Description": "Active Breaks",
+      "Lines": [{
+        "Line_01": "because sitting at a computer is the",
+        "Line_02": "exact opposite of exercise, you should",
+        "Line_03": "take a more active break every hour or",
+        "Line_04": "so."
+      }]
+    },
+    "Lesson_0091": {
+      "Name": "Lesson_0091",
+      "Number": 91,
+      "Description": "Practice L Hand",
+      "Lines": [{
+        "Line_01": "as tree grew grass waved grass were",
+        "Line_02": "watered trees were fed"
+      }]
+    },
+    "Lesson_0092": {
+      "Name": "Lesson_0092",
+      "Number": 92,
+      "Description": "Test 14 - Play: Numbers",
+      "Lines": [{
+        "Line_01": "one two three four five six seven eight nine ten eleven twelve"
+      }]
+    },
+    "Lesson_0093": {
+      "Name": "Lesson_0093",
+      "Number": 93,
+      "Description": "Muscle Memory",
+      "Lines": [{
+        "Line_01": "it usually takes a few weeks of",
+        "Line_02": "practice to build the muscle memory",
+        "Line_03": "needed to type fast."
+      }]
+    },
+    "Lesson_0094": {
+      "Name": "Lesson_0094",
+      "Number": 94,
+      "Description": "Good posture",
+      "Lines": [{
+        "Line_01": "good posture helps improve our",
+        "Line_02": "concentration, letting you work longer",
+        "Line_03": "and harder. it also prevents sore",
+        "Line_04": "muscles."
+      }]
+    },
+    "Lesson_0095": {
+      "Name": "Lesson_0095",
+      "Number": 95,
+      "Description": "Adjust Your Screen",
+      "Lines": [{
+        "Line_01": "look straight ahead. make sure your",
+        "Line_02": "eyes look directly into your monitor",
+        "Line_03": "the same way you would look at someone",
+        "Line_04": "across the table from you."
+      }]
+    },
+    "Lesson_0096": {
+      "Name": "Lesson_0096",
+      "Number": 96,
+      "Description": "Trust Yourself",
+      "Lines": [{
+        "Line_01": "once you are more comfortable with the",
+        "Line_02": "keyboard, you may turn off the virtual",
+        "Line_03": "hand guides by using the settings at",
+        "Line_04": "the top of the page."
+      }]
+    },
+    "Lesson_0097": {
+      "Name": "Lesson_0097",
+      "Number": 97,
+      "Description": "Practice R Hand",
+      "Lines": [{
+        "Line_01": "my opinion on him. pumpkin oil, milk,",
+        "Line_02": "ink, mill."
+      }]
+    },
+    "Lesson_0098": {
+      "Name": "Lesson_0098",
+      "Number": 98,
+      "Description": "Test 15 - Play Words",
+      "Lines": [{
+        "Line_01": "improve good weeks usually ahead ahead practice sure straight memory keyboard make posture look concentration"
+      }]
+    },
+    "Lesson_0099": {
+      "Name": "Lesson_0099",
+      "Number": 99,
+      "Description": "Brain Power",
+      "Lines": [{
+        "Line_01": "as you type, your brain remembers each",
+        "Line_02": "word as a pattern of keystrokes. this",
+        "Line_03": "allows you to type the same words",
+        "Line_04": "without thining about how to type",
+        "Line_05": "each character."
+      }]
+    },
+    "Lesson_0100": {
+      "Name": "Lesson_0100",
+      "Number": 100,
+      "Description": "Repeat Lessons",
+      "Lines": [{
+        "Line_01": "to see how it works lets type the",
+        "Line_02": "next sentence five times. i am glad. i",
+        "Line_03": "am glad. i am glad. i am glad. i am",
+        "Line_04": "glad."
+      }]
     }
   }]
 }
