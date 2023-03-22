@@ -1,4 +1,4 @@
-# HaystacksTT
+# Haystacks-TT
 A simple Haystacks-async based command line typing tutor program for Windows, Mac &amp; Linux.
 
 Please consider supporting, so I can develop more free open source software for the benefit of everyone.
