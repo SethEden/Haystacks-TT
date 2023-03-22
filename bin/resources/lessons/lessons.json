@@ -532,6 +532,510 @@
         "Line_02": "vvvf mmmj fvmj fvf jmj fvfvf jmjmj vvf",
         "Line_03": "mmj vvmm vmvm vmfj vvf mmj"
       }]
+    },
+    "Lesson_0051": {
+      "Name": "Lesson_0051",
+      "Number": 51,
+      "Description": "Travel R Index Finger",
+      "Lines": [{
+        "Line_01": "mju mju muj muj mjum jumu jmum mjmmu",
+        "Line_02": "jummj mujm muj mju"
+      }]
+    },
+    "Lesson_0052": {
+      "Name": "Lesson_0052",
+      "Number": 52,
+      "Description": "Travel L Index Finger",
+      "Lines": [{
+        "Line_01": "vfr vfr vrf vrf vfrv frvr fvrv vfvvr",
+        "Line_02": "frvvf vrfv vrf vfr"
+      }]
+    },
+    "Lesson_0053": {
+      "Name": "Lesson_0053",
+      "Number": 53,
+      "Description": "Keys c & ,",
+      "Lines": [{
+        "Line_01": "c,",
+        "Line_02": "c,c,cc,",
+        "Line_03": ",c,cccc",
+        "Line_04": ",c,,,c,",
+        "Line_05": "c,ccc,c",
+        "LIne_06": ",c,c"
+      }]
+    },
+    "Lesson_0054": {
+      "Name": "Lesson_0054",
+      "Number": 54,
+      "Description": "Practice c & , Lesson 1",
+      "Lines": [{
+        "Line_01": "cd ccd cd ccd ,k ,,k ,k ,k cdcd ,k,k",
+        "Line_02": "cccd ,,,k dc,k dcd k,k dcdcd k,k,k ccd",
+        "Line_03": ",,k cc,, c,c, c,dk ccd ,,k"
+      }]
+    },
+    "Lesson_0055": {
+      "Name": "Lesson_0055",
+      "Number": 55,
+      "Description": "Practice c & , Lesson 2",
+      "Lines": [{
+        "Line_01": "i accept the idea of class, she lost",
+        "Line_02": "her credit card, this car could reach",
+        "Line_03": "top speed, the chair must touch the",
+        "Line_04": "wall, ice hockey created"
+      }]
+    },
+    "Lesson_0056": {
+      "Name": "Lesson_0056",
+      "Number": 56,
+      "Description": "Travel R Middle Finger",
+      "Lines": [{
+        "Line_01": ",ki ,ki ,ik ,ik ,ki, ki,i k,i, ,k,,i",
+        "Line_02": "ki,,k ,ik, ,ik ,ki"
+      }]
+    },
+    "Lesson_0057": {
+      "Name": "Lesson_0057",
+      "Number": 57,
+      "Description": "Travel L Middle Finger",
+      "Lines": [{
+        "Line_01": "cde cde ced ced cdec dece dcec cdcce",
+        "Line_02": "deccd cedc ced cde"
+      }]
+    },
+    "Lesson_0058": {
+      "Name": "Lesson_0058",
+      "Number": 58,
+      "Description": "Test 9 - vmc",
+      "Lines": [{
+        "Line_01": "accept,oracle,class,credit,card,car,could,clever,came,could"
+      }]
+    },
+    "Lesson_0059": {
+      "Name": "Lesson_0059",
+      "Number": 59,
+      "Description": "Keys x & .",
+      "Lines": [{
+        "Line_01": "x.",
+        "Line_02": "x.x.xx.",
+        "Line_03": ".x.xxxx",
+        "Line_04": ".x...x.",
+        "Line_05": "x.xxx.x",
+        "Line_06": ".x.x"
+      }]
+    },
+    "Lesson_0060": {
+      "Name": "Lesson_0060",
+      "Number": 60,
+      "Description": "Practice x & . Lesson 1",
+      "Lines": [{
+        "Line_01": "xs xxs xs xxs .l ..l .l ..l xsxs .l.l",
+        "Line_02": "xxxs ...l sx.l sxs l.l sxsxs l.l.l xxs",
+        "Line_03": ".l xx. x.x. x.sl xxs ..l"
+      }]
+    },
+    "Lesson_0061": {
+      "Name": "Lesson_0061",
+      "Number": 61,
+      "Description": "Practice x & . Lesson 2",
+      "Lines": [{
+        "Line_01": "exercise makes me feel relaxed. after",
+        "Line_02": "i took the exit exam sixty times, i",
+        "Line_03": "watched mad max. i fixed my xm radio.",
+        "Line_04": "i did extra examples."
+      }]
+    },
+    "Lesson_0062": {
+      "Name": "Lesson_0062",
+      "Number": 62,
+      "Description": "Travel R Ring Finger",
+      "Lines": [{
+        "Line_01": ".lo .lo .ol .ol .lo. lo.o l.o. .l..o",
+        "Line_02": "lo..l .ol. .ol .lo"
+      }]
+    },
+    "Lesson_0063": {
+      "Name": "Lesson_0063",
+      "Number": 63,
+      "Description": "Travel L Ring Finger",
+      "Lines": [{
+        "Line_01": "xsw xsw xws xws xswx swxw sxwx xsxxw",
+        "Line_02": "swxxs xwsx xws xsw"
+      }]
+    },
+    "Lesson_0064": {
+      "Name": "Lesson_0064",
+      "Number": 64,
+      "Description": "Keys z & /",
+      "Lines": [{
+        "Line_01": "z/",
+        "Line_02": "z/z/zz/",
+        "Line_03": "/z/zzzz",
+        "Line_04": "/z///z/",
+        "Line_05": "z/zzz/z",
+        "Line_06": "/z/z"
+      }]
+    },
+    "Lesson_0065": {
+      "Name": "Lesson_0065",
+      "Number": 65,
+      "Description": "Practice z & / Lesson 1",
+      "Lines": [{
+        "Line_01": "zazza za zza /; //; /; //; zaza /;/;",
+        "Line_02": "zzza ///; az/; aza ;/; azaza ;/;/; zza",
+        "Line_03": "//; zz// z/z/ z/a; zza //;"
+      }]
+    },
+    "Lesson_0066": {
+      "Name": "Lesson_0066",
+      "Number": 66,
+      "Description": "Practice z & / Lesson 2",
+      "Lines": [{
+        "Line_01": "i was amazed / the wall / puzzled how",
+        "Line_02": "lazy / crazy zak was. he had a jazz",
+        "Line_03": "quiz close to a freezer. she makes him",
+        "Line_04": "dizzy. he realized the size was",
+        "Line_05": "smaller."
+      }]
+    },
+    "Lesson_0067": {
+      "Name": "Lesson_0067",
+      "Number": 67,
+      "Description": "Travel R Pinky Finger",
+      "Lines": [{
+        "Line_01": "/;p /;p /p; /p; /;p/ ;p/p ;/p/ /;//p",
+        "Line_02": ";p//; /p;/ /p; /;p"
+      }]
+    },
+    "Lesson_0068": {
+      "Name": "Lesson_0068",
+      "Number": 68,
+      "Description": "Travel L Pinky Finger",
+      "Lines": [{
+        "Line_01": "zaq zaq zqa zqa zaqz aqzq azqz zazzq",
+        "Line_02": "aqzza zqaz zqa zaq"
+      }]
+    },
+    "Lesson_0069": {
+      "Name": "Lesson_0069",
+      "Number": 69,
+      "Description": "Test 10 - Btotom Row",
+      "Lines": [{
+        "Line_01": "zxcvm.zxvmmzxcv,zxcm,zmxcv,zmxz,cv,zxcvxmcv,"
+      }]
+    },
+    "Lesson_0070": {
+      "Name": "Lesson_0070",
+      "Number": 70,
+      "Description": "Keys b & n",
+      "Lines": [{
+        "Line_01": "bn",
+        "Line_02": "bnbnbbn",
+        "Line_03": "nbbbnnn",
+        "Line_04": "bnnnbnn",
+        "Line_05": "bnbnbnb",
+        "Line_06": "nbnn"
+      }]
+    },
+    "Lesson_0071": {
+      "Name": "Lesson_0071",
+      "Number": 71,
+      "Description": "Practice b & n Lesson 1",
+      "Lines": [{
+        "Line_01": "bf bbf bf bbf nj nnj nj nnj bfbf njnj",
+        "Line_02": "bbbf nnnj fbnj fbf jnj fbfbf jnjnj bbf",
+        "Line_03": "nnj bbnn bnbn bnfj bbf nnj"
+      }]
+    },
+    "Lesson_0072": {
+      "Name": "Lesson_0072",
+      "Number": 72,
+      "Description": "Practice b & n Lesson 2",
+      "Lines": [{
+        "Line_01": "a baby is the very young offspring of",
+        "Line_02": "humans. a new born is an infant who is",
+        "Line_03": "within hours and up to a few weeks",
+        "Line_04": "from birth"
+      }]
+    },
+    "Lesson_0073": {
+      "Name": "Lesson_0073",
+      "Number": 73,
+      "Description": "Bottom Row - L Hand",
+      "Lines": [{
+        "Line_01": "a reserved eager tree was at secret",
+        "Line_02": "vast ever read exceeded defeated a few",
+        "Line_03": "wave sweetest vast raced bazaar ever",
+        "Line_04": "at a safe seat"
+      }]
+    },
+    "Lesson_0074": {
+      "Name": "Lesson_0074",
+      "Number": 74,
+      "Description": "Bottom Row - R Hand",
+      "Lines": [{
+        "Line_01": "ok you in only in jump on you in milk",
+        "Line_02": "pull ok pop hook lump pink my you up",
+        "Line_03": "on look no him hill noon moon upon",
+        "Line_04": "july join oil milion"
+      }]
+    },
+    "Lesson_0075": {
+      "Name": "Lesson_0075",
+      "Number": 75,
+      "Description": "Practice Bottom Row",
+      "Lines": [{
+        "Line_01": "great work so far. we will now move",
+        "Line_02": "on to learn about the tab and enter",
+        "Line_03": "key, and then work on your speed."
+      }]
+    },
+    "Lesson_0076": {
+      "Name": "Lesson_0076",
+      "Number": 76,
+      "Description": "Test 11 - Bottom Row",
+      "Lines": [{
+        "Line_01": "mcn/vbx,z.x,cm/vnbz.c,vnbzx,/cmvnbbz.zxccmx,vnbz,x./"
+      }]
+    },
+    "Lesson_0077": {
+      "Name": "Lesson_0077",
+      "Number": 77,
+      "Description": "Test 12 - Bottom Row FINAL",
+      "Lines": [{
+        "Line_01": "someone balloon picture morning chicken another brought"
+      }]
+    },
+    "Lesson_0078": {
+      "Name": "Lesson_0078",
+      "Number": 78,
+      "Description": "Travel R All",
+      "Lines": [{
+        "Line_01": "mju ,ki .lo /;p ujm ik, ol. p;/ mju",
+        "Line_02": ",ki .lo /;p ujm ik, ol. p;/"
+      }]
+    },
+    "Lesson_0079": {
+      "Name": "Lesson_0079",
+      "Number": 79,
+      "Description": "Travel L All",
+      "Lines": [{
+        "Line_01": "vfr cde xsw zaq rfv edc wsx qaz vfr",
+        "Line_02": "cde xsw zaq rfv edc wsx qaz"
+      }]
+    },
+    "Lesson_0080": {
+      "Name": "Lesson_0080",
+      "Number": 80,
+      "Description": "Dynamic Practice",
+      "Lines": [{
+        "Line_01": "gr gr gro gre group greatly great",
+        "Line_02": "ge ge ege nge college range germany",
+        "Line_03": "ga ga ega gan began legal negative",
+        "Line_04": "gn gn ign agn foreign electromagnetic",
+        "Line_05": "signals",
+        "Line_06": "gi gi egi igi regional original",
+        "Line_07": "originally"
+      }]
+    },
+    "Lesson_0081": {
+      "Name": "Lesson_0081",
+      "Number": 81,
+      "Description": "Using Ten Fingers",
+      "Lines": [{
+        "Line_01": "now that you know how to type with",
+        "Line_02": "all ten fingers, lets work on your",
+        "Line_03": "speed and then move on to other keys."
+      }]
+    },
+    "Lesson_0082": {
+      "Name": "Lesson_0082",
+      "Number": 82,
+      "Description": "Increase Speed",
+      "Lines": [{
+        "Line_01": "if you want your typing speed to",
+        "Line_02": "increase, you must first focus on your",
+        "Line_03": "accuracy."
+      }]
+    },
+    "Lesson_0083": {
+      "Name": "Lesson_0083",
+      "Number": 83,
+      "Description": "Speed Practice 1",
+      "Lines": [{
+        "Line_01": "practice makes perfect. every time you",
+        "Line_02": "repeat this lesson, your speed will",
+        "Line_03": "increase."
+      }]
+    },
+    "Lesson_0084": {
+      "Name": "Lesson_0084",
+      "Number": 84,
+      "Description": "Don't Look Down",
+      "Lines": [{
+        "Line_01": "remember the first and only rule of",
+        "Line_02": "typing, never ever look at the",
+        "Line_03": "keyboard while typing."
+      }]
+    },
+    "Lesson_0085": {
+      "Name": "Lesson_0085",
+      "Number": 85,
+      "Description": "Practice R Hand",
+      "Lines": [{
+        "Line_01": "look, only you join him. only you look",
+        "Line_02": "him up."
+      }]
+    },
+    "Lesson_0086": {
+      "Name": "Lesson_0086",
+      "Number": 86,
+      "Description": "Test 13 - Play: Words",
+      "Lines": [{
+        "Line_01": "type increase finers look make perfect practice look make"
+      }]
+    },
+    "Lesson_0087": {
+      "Name": "Lesson_0087",
+      "Number": 87,
+      "Description": "Staring at Screen",
+      "Lines": [{
+        "Line_01": "when we stare at a screen we tend to",
+        "Line_02": "blink less. that is bad for the eyes",
+        "Line_03": "because they can get dry."
+      }]
+    },
+    "Lesson_0088": {
+      "Name": "Lesson_0088",
+      "Number": 88,
+      "Description": "Take Breaks",
+      "Lines": [{
+        "Line_01": "make sure to look away from the",
+        "Line_02": "computer every fifteen minutes, and",
+        "Line_03": "take a five minute break every hour."
+      }]
+    },
+    "Lesson_0089": {
+      "Name": "Lesson_0089",
+      "Number": 89,
+      "Description": "Take Breaks",
+      "Lines": [{
+        "Line_01": "once you have finished typing this",
+        "Line_02": "lesson, look away from the computer",
+        "Line_03": "for a few short seconds before looking",
+        "Line_04": "at the results."
+      }]
+    },
+    "Lesson_0090": {
+      "Name": "Lesson_0090",
+      "Number": 90,
+      "Description": "Active Breaks",
+      "Lines": [{
+        "Line_01": "because sitting at a computer is the",
+        "Line_02": "exact opposite of exercise, you should",
+        "Line_03": "take a more active break every hour or",
+        "Line_04": "so."
+      }]
+    },
+    "Lesson_0091": {
+      "Name": "Lesson_0091",
+      "Number": 91,
+      "Description": "Practice L Hand",
+      "Lines": [{
+        "Line_01": "as tree grew grass waved grass were",
+        "Line_02": "watered trees were fed"
+      }]
+    },
+    "Lesson_0092": {
+      "Name": "Lesson_0092",
+      "Number": 92,
+      "Description": "Test 14 - Play: Numbers",
+      "Lines": [{
+        "Line_01": "one two three four five six seven eight nine ten eleven twelve"
+      }]
+    },
+    "Lesson_0093": {
+      "Name": "Lesson_0093",
+      "Number": 93,
+      "Description": "Muscle Memory",
+      "Lines": [{
+        "Line_01": "it usually takes a few weeks of",
+        "Line_02": "practice to build the muscle memory",
+        "Line_03": "needed to type fast."
+      }]
+    },
+    "Lesson_0094": {
+      "Name": "Lesson_0094",
+      "Number": 94,
+      "Description": "Good posture",
+      "Lines": [{
+        "Line_01": "good posture helps improve our",
+        "Line_02": "concentration, letting you work longer",
+        "Line_03": "and harder. it also prevents sore",
+        "Line_04": "muscles."
+      }]
+    },
+    "Lesson_0095": {
+      "Name": "Lesson_0095",
+      "Number": 95,
+      "Description": "Adjust Your Screen",
+      "Lines": [{
+        "Line_01": "look straight ahead. make sure your",
+        "Line_02": "eyes look directly into your monitor",
+        "Line_03": "the same way you would look at someone",
+        "Line_04": "across the table from you."
+      }]
+    },
+    "Lesson_0096": {
+      "Name": "Lesson_0096",
+      "Number": 96,
+      "Description": "Trust Yourself",
+      "Lines": [{
+        "Line_01": "once you are more comfortable with the",
+        "Line_02": "keyboard, you may turn off the virtual",
+        "Line_03": "hand guides by using the settings at",
+        "Line_04": "the top of the page."
+      }]
+    },
+    "Lesson_0097": {
+      "Name": "Lesson_0097",
+      "Number": 97,
+      "Description": "Practice R Hand",
+      "Lines": [{
+        "Line_01": "my opinion on him. pumpkin oil, milk,",
+        "Line_02": "ink, mill."
+      }]
+    },
+    "Lesson_0098": {
+      "Name": "Lesson_0098",
+      "Number": 98,
+      "Description": "Test 15 - Play Words",
+      "Lines": [{
+        "Line_01": "improve good weeks usually ahead ahead practice sure straight memory keyboard make posture look concentration"
+      }]
+    },
+    "Lesson_0099": {
+      "Name": "Lesson_0099",
+      "Number": 99,
+      "Description": "Brain Power",
+      "Lines": [{
+        "Line_01": "as you type, your brain remembers each",
+        "Line_02": "word as a pattern of keystrokes. this",
+        "Line_03": "allows you to type the same words",
+        "Line_04": "without thining about how to type",
+        "Line_05": "each character."
+      }]
+    },
+    "Lesson_0100": {
+      "Name": "Lesson_0100",
+      "Number": 100,
+      "Description": "Repeat Lessons",
+      "Lines": [{
+        "Line_01": "to see how it works lets type the",
+        "Line_02": "next sentence five times. i am glad. i",
+        "Line_03": "am glad. i am glad. i am glad. i am",
+        "Line_04": "glad."
+      }]
     }
   }]
 }

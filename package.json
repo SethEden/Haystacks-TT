@@ -1,6 +1,6 @@
 {
   "name": "haystacks-tt",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A simple Haystacks-async based command line typing tutor program for Windows, Mac & Linux.",
   "main": "./src/haystacks-tt.js",
   "bin": "./bin/haystacks-tt.js",
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SethEden/HaystacksTT.git"
+    "url": "git+https://github.com/SethEden/Haystacks-TT.git"
   },
   "keywords": [
     "Typing",
@@ -43,7 +43,7 @@
     "standard-version": "9.3.2"
   },
   "bugs": {
-    "url": "https://github.com/SethEden/HaystacksTT/issues"
+    "url": "https://github.com/SethEden/Haystacks-TT/issues"
   },
-  "homepage": "https://github.com/SethEden/HaystacksTT#readme"
+  "homepage": "https://github.com/SethEden/Haystacks-TT#readme"
 }
