@@ -2,9 +2,9 @@
 /* eslint-disable no-undef */
 
 /**
- * @file main.js
- * @module main
- * @description This is the main init fro the haystacks-tt application.
+ * @file haystacks-tt.js
+ * @module haystacks-tt
+ * @description This is the main init for the haystacks-tt application.
  * It contains just enough of the main program loop and basic argument parsing to function as an interactive typing tutor application.
  * @requires module:accountBroker
  * @requires module:tutoringRules
@@ -50,7 +50,7 @@ let namespacePrefix = wrd.capplication + bas.cDot + baseFileName + bas.cDot;
 // eslint-disable-next-line no-undef
 global.appRoot = path.resolve(process.cwd());
 dotenv.config();
-// eslint-disable-next-ine no-undef
+// eslint-disable-next-line no-undef
 const {NODE_ENV} = process.env;
 let exitConditionArrayIndex = 0;
 
