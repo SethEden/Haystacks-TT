@@ -536,6 +536,7 @@
     "Lesson_0051": {
       "Name": "Lesson_0051",
       "Number": 51,
+<<<<<<< HEAD
       "Description": "Travel R Index Finger",
       "Lines": [{
         "Line_01": "mju mju muj muj mjum jumu jmum mjmmu",
@@ -1035,6 +1036,13 @@
         "Line_02": "next sentence five times. i am glad. i",
         "Line_03": "am glad. i am glad. i am glad. i am",
         "Line_04": "glad."
+=======
+      "Description": "Practice v & m Lesson 2",
+      "Lines": [{
+        "Line_01": "i drive everyday as god as dave who",
+        "Line_02": "developed eladership qualities to moved",
+        "Line_03": "overhead of other drivers"
+>>>>>>> develop
       }]
     }
   }]
