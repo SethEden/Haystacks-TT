@@ -823,6 +823,69 @@
         "Line_01": "vfr cde xsw zaq rfv edc wsx qaz vfr",
         "Line_02": "cde xsw zaq rfv edc wsx qaz"
       }]
+    },
+    "Lesson_0080": {
+      "Name": "Lesson_0080",
+      "Number": 80,
+      "Description": "Dynamic Practice",
+      "Lines": [{
+        "Line_01": "gr gr gro gre group greatly great",
+        "Line_02": "ge ge ege nge college range germany",
+        "Line_03": "ga ga ega gan began legal negative",
+        "Line_04": "gn gn ign agn foreign electromagnetic",
+        "Line_05": "signals",
+        "Line_06": "gi gi egi igi regional original",
+        "Line_07": "originally"
+      }]
+    },
+    "Lesson_0081": {
+      "Name": "Lesson_0081",
+      "Number": 81,
+      "Description": "Using Ten Fingers",
+      "Lines": [{
+        "Line_01": "now that you know how to type with",
+        "Line_02": "all ten fingers, lets work on your",
+        "Line_03": "speed and then move on to other keys."
+      }]
+    },
+    "Lesson_0082": {
+      "Name": "Lesson_0082",
+      "Number": 82,
+      "Description": "Increase Speed",
+      "Lines": [{
+        "Line_01": "if you want your typing speed to",
+        "Line_02": "increase, you must first focus on your",
+        "Line_03": "accuracy."
+      }]
+    },
+    "Lesson_0083": {
+      "Name": "Lesson_0083",
+      "Number": 83,
+      "Description": "Speed Practice 1",
+      "Lines": [{
+        "Line_01": "practice makes perfect. every time you",
+        "Line_02": "repeat this lesson, your speed will",
+        "Line_03": "increase."
+      }]
+    },
+    "Lesson_0084": {
+      "Name": "Lesson_0084",
+      "Number": 84,
+      "Description": "Don't Look Down",
+      "Lines": [{
+        "Line_01": "remember the first and only rule of",
+        "Line_02": "typing, never ever look at the",
+        "Line_03": "keyboard while typing."
+      }]
+    },
+    "Lesson_0085": {
+      "Name": "Lesson_0085",
+      "Number": 85,
+      "Description": "Practice R Hand",
+      "Lines": [{
+        "Line_01": "look, only you join him. only you look",
+        "Line_02": "him up."
+      }]
     }
   }]
 }
