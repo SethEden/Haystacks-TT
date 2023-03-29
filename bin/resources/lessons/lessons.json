@@ -827,7 +827,7 @@
     "Lesson_0080": {
       "Name": "Lesson_0080",
       "Number": 80,
-      "Description": "Dynamic Practice",
+      "Description": "Dynamic Practice 1",
       "Lines": [{
         "Line_01": "gr gr gro gre group greatly great",
         "Line_02": "ge ge ege nge college range germany",
@@ -1009,7 +1009,7 @@
     "Lesson_0098": {
       "Name": "Lesson_0098",
       "Number": 98,
-      "Description": "Test 15 - Play Words",
+      "Description": "Test 15 - Play Words 1",
       "Lines": [{
         "Line_01": "improve good weeks usually ahead ahead practice sure straight memory keyboard make posture look concentration"
       }]
@@ -1035,6 +1035,1194 @@
         "Line_02": "next sentence five times. i am glad. i",
         "Line_03": "am glad. i am glad. i am glad. i am",
         "Line_04": "glad."
+      }]
+    },
+    "Lesson_0101": {
+      "Name": "Lesson_0101",
+      "Number": 101,
+      "Description": "Never Stop",
+      "Lines": [{
+        "Line_01": "to make sure you do not go back to",
+        "Line_02": "typing with two or four fingers, make",
+        "Line_03": "sure to revisit these lessons a few",
+        "Line_04": "times during the coming week."
+      }]
+    },
+    "Lesson_0102": {
+      "Name": "Lesson_0102",
+      "Number": 102,
+      "Description": "No Peeking",
+      "Lines": [{
+        "Line_01": "if you learn to never look at your",
+        "Line_02": "keyboard when typing, the computer will",
+        "Line_03": "feel like a part of your body with",
+        "Line_04": "your mind in full control."
+      }]
+    },
+    "Lesson_0103": {
+      "Name": "Lesson_0103",
+      "Number": 103,
+      "Description": "Practice L Hand",
+      "Lines": [{
+        "Line_01": "streets are safe better see a fast car",
+        "Line_02": "race served a tea we rest"
+      }]
+    },
+    "Lesson_0104": {
+      "Name": "Lesson_0104",
+      "Number": 104,
+      "Description": "Test 16 - Play Words 2",
+      "Lines": [{
+        "Line_01": "next five your brain keyboard how remember words patterns typing keyboards"
+      }]
+    },
+    "Lesson_0105": {
+      "Name": "Lesson_0105",
+      "Number": 105,
+      "Description": "Home Row",
+      "Lines": [{
+        "Line_01": "placing your fingers on the home row",
+        "Line_02": "will help you learn to type faster and",
+        "Line_03": "bild the correct muscle memory. now",
+        "Line_04": "try doing it with your eyes closed or",
+        "Line_05": "while you look at the screen."
+      }]
+    },
+    "Lesson_0106": {
+      "Name": "Lesson_0106",
+      "Number": 106,
+      "Description": "Moving Forward",
+      "Lines": [{
+        "Line_01": "from the home row all other keys are",
+        "Line_02": "just a short distance away. as you",
+        "Line_03": "practice, you will build speed because",
+        "Line_04": "you hardly have to move your fingers",
+        "Line_05": "from one key to the next."
+      }]
+    },
+    "Lesson_0107": {
+      "Name": "Lesson_0107",
+      "Number": 107,
+      "Description": "Type Correctly",
+      "Lines": [{
+        "Line_01": "while it may feel easier at first,",
+        "Line_02": "hunting and pecking at letters makes",
+        "Line_03": "it harder to concentrate when you",
+        "Line_04": "type. you also type slower and build",
+        "Line_05": "the wrong muscle memory."
+      }]
+    },
+    "Lesson_0108": {
+      "Name": "Lesson_0108",
+      "Number": 108,
+      "Description": "Train Your Muscles",
+      "Lines": [{
+        "Line_01": "just like a basketball player trains",
+        "Line_02": "their muscles so they focus on the",
+        "Line_03": "game, you can train your muscles to",
+        "Line_04": "type without much thinking about it"
+      }]
+    },
+    "Lesson_0109": {
+      "Name": "Lesson_0109",
+      "Number": 109,
+      "Description": "Practice R Hand",
+      "Lines": [{
+        "Line_01": "jolly puppy look up on you. lumpy",
+        "Line_02": "pumkin only you."
+      }]
+    },
+    "Lesson_0110": {
+      "Name": "Lesson_0110",
+      "Number": 110,
+      "Description": "Test 16 - Play Words 3",
+      "Lines": [{
+        "Line_01": "basketball trains hunting pecking distance fingers comfortable players"
+      }]
+    },
+    "Lesson_0111": {
+      "Name": "Lesson_0111",
+      "Number": 111,
+      "Description": "Virtual Guide",
+      "Lines": [{
+        "Line_01": "whenever you are unsure which finger",
+        "Line_02": "you should use to type a certain",
+        "Line_03": "letter, take a look down at the",
+        "Line_04": "virtual hands. they will guide you."
+      }]
+    },
+    "Lesson_0112": {
+      "Name": "Lesson_0112",
+      "Number": 112,
+      "Description": "Bumps on J & F",
+      "Lines": [{
+        "Line_01": "your index fngers should always find",
+        "Line_02": "their way back to f and j by feeling",
+        "Line_03": "for those bumps. it takes some",
+        "Line_04": "practice ut it will help you get",
+        "Line_05": "better."
+      }]
+    },
+    "Lesson_0113": {
+      "Name": "Lesson_0113",
+      "Number": 113,
+      "Description": "Become a Pro",
+      "Lines": [{
+        "Line_01": "fast typists forget about the kyeboard",
+        "Line_02": "and do not even realize their fingers",
+        "Line_03": "are at work. once you practice more",
+        "Line_04": "you will feel the same way too."
+      }]
+    },
+    "Lesson_0114": {
+      "Name": "Lesson_0114",
+      "Number": 114,
+      "Description": "The Shift Key",
+      "Lines": [{
+        "Line_01": "next, we will move on to practice",
+        "Line_02": "tricky words and then focus on",
+        "Line_03": "learning how to type capital",
+        "Line_04": "characters. great work so far."
+      }]
+    },
+    "Lesson_0115": {
+      "Name": "Lesson_0115",
+      "Number": 115,
+      "Description": "Practice L Hand",
+      "Lines": [{
+        "Line_01": "a sad state after a few dates we",
+        "Line_02": "agree a few cards were fade"
+      }]
+    },
+    "Lesson_0116": {
+      "Name": "Lesson_0116",
+      "Number": 116,
+      "Description": "Test 17 - Play Words 4",
+      "Lines": [{
+        "Line_01": "type finger certain final help key should about whenever unsure distance sift",
+        "Line_02": "virtual practice comfortable realize typists keyboard shift"
+      }]
+    },
+    "Lesson_0117": {
+      "Name": "Lesson_0117",
+      "Number": 117,
+      "Description": "Dynamic Practice 2",
+      "Lines": [{
+        "Line_01": "gr gr gra gre grand great greek",
+        "Line_02": "ge ge dge nge bridge range exchane",
+        "Line_03": "ga ga rga aga organic again gave",
+        "Line_04": "gn gn ign gna signals foreign reign",
+        "Line_05": "gi gi igi ngi religious changing",
+        "Line_06": "engineering"
+      }]
+    },
+    "Lesson_0118": {
+      "Name": "Lesson_0118",
+      "Number": 118,
+      "Description": "Jewelry...",
+      "Lines": [{
+        "Line_01": "she wore dazzling jewelry with",
+        "Line_02": "sparkling gems.",
+        "Line_03": "jewelry jewelry jewelry jewelry jewelry",
+        "Line_04": "she put a single rapberry on top of",
+        "Line_05": "each cupcake.",
+        "Line_06": "raspberry raspberry raspberry raspberry",
+        "Line_07": "raspberry",
+        "Line_08": "the piece of jewelry looked like a",
+        "Line_09": "tiny raspberry.",
+        "Line_10": "jewlery raspberry jewelry raspberry"
+      }]
+    },
+    "Lesson_0119": {
+      "Name": "Lesson_0119",
+      "Number": 119,
+      "Description": "Achieve-Believe",
+      "Lines": [{
+        "Line_01": "you can achieve anything if you focus",
+        "Line_02": "and work hard.",
+        "Line_03": "achieve achieve achieve achieve achieve",
+        "Line_04": "no matter what they say, always",
+        "Line_05": "believe in yourself.",
+        "Line_06": "believe believe believe believe believe",
+        "Line_07": "you can achieve your dreams if you",
+        "Line_08": "believe in yourself.",
+        "Line_09": "achieve believe achieve believe"
+      }]
+    },
+    "Lesson_0120": {
+      "Name": "Lesson_0120",
+      "Number": 120,
+      "Description": "Breath-Breathe",
+      "Lines": [{
+        "Line_01": "if you feel overwhelmed stop and take",
+        "Line_02": "a deep breath.",
+        "Line_03": "breath breath breath breath breath",
+        "Line_04": "when you are exercising remember to",
+        "Line_05": "breathe.",
+        "Line_06": "breathe breathe breathe breathe breathe",
+        "Line_07": "she took a deep breath and reminded",
+        "Line_08": "herself it is important to breathe.",
+        "Line_09": "breath breathe breath breathe"
+      }]
+    },
+    "Lesson_0121": {
+      "Name": "Lesson_0121",
+      "Number": 121,
+      "Description": "Disappear...",
+      "Lines": [{
+        "Line_01": "most rainbows disappear very quickly.",
+        "Line_02": "disappear disappear disappear disappear",
+        "Line_03": "disappear",
+        "Line_04": "it will disappoint me if you do",
+        "Line_05": "not share the candy.",
+        "Line_06": "disappoint disappoint disappoint",
+        "Line_07": "disappoint disappoint",
+        "Line_08": "the magician was disappointed that the",
+        "Line_09": "rabbit did not disappear.",
+        "Line_10": "disappear disappoint disappear disappoint"
+      }]
+    },
+    "Lesson_0122": {
+      "Name": "Lesson_0122",
+      "Number": 122,
+      "Description": "Accept-Except",
+      "Lines": [{
+        "Line_01": "she cannot accept any presents.",
+        "Line_02": "accept accept acept accept accept",
+        "Line_03": "he passed all of his tests except for",
+        "Line_04": "math.",
+        "Line_05": "except except except except except",
+        "Line_06": "i can accept your rules except for the",
+        "Line_07": "one about running.",
+        "Line_08": "accept except accept except"
+      }]
+    },
+    "Lesson_0123": {
+      "Name": "Lesson_0123",
+      "Number": 123,
+      "Description": "Forward-Foreword",
+      "Lines": [{
+        "Line_01": "you must move forward and leave the",
+        "Line_02": "past behind you.",
+        "Line_03": "forward forward forward forward forward",
+        "Line_04": "a foreword is a piece of writing",
+        "Line_05": "sometimes placed at the beginning of a",
+        "Line_06": "book.",
+        "Line_07": "foreword foreword foreword foreword",
+        "Line_08": "foreword",
+        "Line_09": "we cannot move forward until the",
+        "Line_10": "author finishes writing the foreword.",
+        "Line_11": "forward foreword forward foreword"
+      }]
+    },
+    "Lesson_0124": {
+      "Name": "Lesson_0124",
+      "Number": 124,
+      "Description": "Prefer-Defer",
+      "Lines": [{
+        "Line_01": "people generally prefer to exercise in",
+        "Line_02": "the morning.",
+        "Line_03": "prefer prefer prefer prefer prefer",
+        "Line_04": "he will defer to his parents because",
+        "Line_05": "they know best.",
+        "Line_06": "defer defer defer defer defer",
+        "Line_07": "i would prefer if you would defer to",
+        "Line_08": "your mother.",
+        "Line_09": "prefer defer prefer defer"
+      }]
+    },
+    "Lesson_0125": {
+      "Name": "Lesson_0125",
+      "Number": 125,
+      "Description": "To-Too-Two",
+      "Lines": [{
+        "Line_01": "please give this cookie to your",
+        "Line_02": "friend.",
+        "Line_03": "to to to to to",
+        "Line_04": "that is my favorite video game too.",
+        "Line_05": "to too too too too",
+        "Line_06": "i read two books over the weekend.",
+        "Line_07": "two two two two two",
+        "Line_08": "give two cookies to your brother, too.",
+        "Line_09": "to too two to too two"
+      }]
+    },
+    "Lesson_0126": {
+      "Name": "Lesson_0126",
+      "Number": 126,
+      "Description": "Advice-Advise",
+      "Lines": [{
+        "Line_01": "sarah asked the advice of her friends",
+        "Line_02": "before deciding.",
+        "Line_03": "advice advice advice advice advice",
+        "Line_04": "older studetns advise younger students",
+        "Line_05": "on the rules.",
+        "Line_06": "advise advise advise advise advise",
+        "Line_07": "i would advise that you should not",
+        "Line_08": "give advice unless it is asked for.",
+        "Line_09": "advice advise advice advise"
+      }]
+    },
+    "Lesson_0127": {
+      "Name": "Lesson_0127",
+      "Number": 127,
+      "Description": "By-Bye-Buy",
+      "Lines": [{
+        "Line_01": "this book was written by a famous",
+        "Line_02": "author.",
+        "Line_03": "by by by by by",
+        "Line_04": "sometimes it is hard to say bye to a",
+        "Line_05": "good friend.",
+        "Line_06": "bye bye bye bye bye",
+        "Line_07": "my grandma said she will buy me a",
+        "Line_08": "puppy.",
+        "Line_09": "buy buy buy buy buy",
+        "Line_10": "by the time i buy the groceries, you",
+        "Line_11": "should say bye to your friends.",
+        "Line_12": "by bye buy by bye buy"
+      }]
+    },
+    "Lesson_0128": {
+      "Name": "Lesson_0128",
+      "Number": 128,
+      "Description": "Dynamic Practice 3",
+      "Lines": [{
+        "Line_01": "gr gr ogr gra grand program groups",
+        "Line_02": "ge ge nge rge change range charge",
+        "Line_03": "ga ga aga gai against gardens gas",
+        "Line_04": "gn gn ogn ign recognized reign",
+        "Line_05": "magnetic,",
+        "Line_06": "gi gi ngi egi giving changing begins"
+      }]
+    },
+    "Lesson_0129": {
+      "Name": "Lesson_0129",
+      "Number": 129,
+      "Description": "Capital F & J",
+      "Lines": [{
+        "Line_01": "fFfFfFj",
+        "Line_02": "JjJjJFf",
+        "Line_03": "JjFfJjF",
+        "Line_04": "fJjFFJJ",
+        "Line_05": "fJjF"
+      }]
+    },
+    "Lesson_0130": {
+      "Name": "Lesson_0130",
+      "Number": 130,
+      "Description": "Review F & J",
+      "Lines": [{
+        "Line_01": "faa Faa faa Faa Foo Faa",
+        "Line_02": "Jee Jaa Jee Joo Jaa Jee",
+        "Line_03": "faa Faa faa Faa Foo Fee",
+        "Line_04": "Joo Jii Joo Jee Joo Jee"
+      }]
+    },
+    "Lesson_0131": {
+      "Name": "Lesson_0131",
+      "Number": 131,
+      "Description": "Practice F & J",
+      "Lines": [{
+        "Line_01": "From Just Fun Jump Father Job Fly July",
+        "Line_02": "For Join Fast January Four Joke Fell",
+        "Line_03": "Joy Farm Junior Found Join Fish July",
+        "Line_04": "Funny Jam Fire June Find Jim Five Jobs"
+      }]
+    },
+    "Lesson_0132": {
+      "Name": "Lesson_0132",
+      "Number": 132,
+      "Description": "Capital D & K",
+      "Lines": [{
+        "Line_01": "dDdDdDk",
+        "Line_02": "KkKkKDd",
+        "Line_03": "KkDdKkD",
+        "Line_04": "dKkDDKK",
+        "Line_05": "dKkD"
+      }]
+    },
+    "Lesson_0133": {
+      "Name": "Lesson_0133",
+      "Number": 133,
+      "Description": "Review D & K",
+      "Lines": [{
+        "Line_01": "Dee Doo Dee Doo Dee Doo",
+        "Line_02": "Kee Koo Kee Koo Kee Koo",
+        "Line_03": "Dea Dea Dea Dea Daa Doa",
+        "Line_04": "Ko Kea Koo Kea Koo Kea"
+      }]
+    },
+    "Lesson_0134": {
+      "Name": "Lesson_0134",
+      "Number": 134,
+      "Description": "Practice D & K",
+      "Lines": [{
+        "Line_01": "Keen Dad Kind Did Jump King Door Know",
+        "Line_02": "June Join Dog Knife Dress Fast Kick",
+        "Line_03": "Develop Kurd Far Demand Found Keep For",
+        "Line_04": "During Kept Did From July Key Dad",
+        "Line_05": "Known Duck"
+      }]
+    },
+    "Lesson_0135": {
+      "Name": "Lesson_0135",
+      "Number": 135,
+      "Description": "Test 18 - FJDK",
+      "Lines": [{
+        "Line_01": "FooJeeDooKeeKFooDFooKJooJooFeeDFJKJooJeeDooDeeKooKeeFeeFoo"
+      }]
+    },
+    "Lesson_0136": {
+      "Name": "Lesson_0136",
+      "Number": 136,
+      "Description": "Capital S & L",
+      "Lines": [{
+        "Line_01": "sSsSsSl",
+        "Line_02": "LlLlLSs",
+        "Line_03": "LlSsLlS",
+        "Line_04": "sLlSSLL",
+        "Line_05": "sLlS"
+      }]
+    },
+    "Lesson_0137": {
+      "Name": "Lesson_0137",
+      "Number": 137,
+      "Description": "Review S & L",
+      "Lines": [{
+        "Line_01": "See Soo See Soo See Soo",
+        "Line_02": "Lee Loo Lee Loo Lee Loo",
+        "Line_03": "Sea Sea Sea Sea Saa Soa",
+        "Line_04": "Loo Lea Loo Lea Loo Lea"
+      }]
+    },
+    "Lesson_0138": {
+      "Name": "Lesson_0138",
+      "Number": 138,
+      "Description": "Practice S & L",
+      "Lines": [{
+        "Line_01": "Late Sleep Say Dad Stay Street Some",
+        "Line_02": "Last Jump Lot Listen Left Dog Live",
+        "Line_03": "Stop Look Like Sie Sky Sand Long",
+        "Line_04": "Something Know Story Sat Shall Little",
+        "Line_05": "Sent Leave Funny"
+      }]
+    },
+    "Lesson_0139": {
+      "Name": "Lesson_0139",
+      "Number": 139,
+      "Description": "Capital A & :",
+      "Lines": [{
+        "Line_01": "aAaAaA;",
+        "Line_02": ":;:;:Aa",
+        "Line_03": ":;Aa:;A",
+        "Line_04": "a:;AA::",
+        "Line_05": "a:;A"
+      }]
+    },
+    "Lesson_0140": {
+      "Name": "Lesson_0140",
+      "Number": 140,
+      "Description": "Review A & :",
+      "Lines": [{
+        "Line_01": "A;; A:: A:a A;a a:: a;; a:A a;A",
+        "Line_02": "A;a A:a A;: A:; a;A a:A a;: a:;",
+        "Line_03": ";:: ;;: ;:; ::; aaA AAa AaA aaA",
+        "Line_04": "A:; A;: a:; A:; :a; ;a: ;A: :A:"
+      }]
+    },
+    "Lesson_0141": {
+      "Name": "Lesson_0141",
+      "Number": 141,
+      "Description": "Practice A & :",
+      "Lines": [{
+        "Line_01": "All: Are: An: Known At: Away: Stay",
+        "Line_02": "About: June Ask: After: Lot Apple:",
+        "Line_03": "Around: Far Afraid: Airplane Sky: Add:",
+        "Line_04": "Again; Across: Along: Any: Air: Almost:",
+        "Line_05": "Also: Always:"
+      }]
+    },
+    "Lesson_0142": {
+      "Name": "Lesson_0142",
+      "Number": 142,
+      "Description": "Test 19: SLA",
+      "Lines": [{
+        "Line_01": "Aa;jJ;lLkK:hLgoodDoosSoobhSghSgAaa;ghsSDd"
+      }]
+    },
+    "Lesson_0143": {
+      "Name": "Lesson_0143",
+      "Number": 143,
+      "Description": "Capital G & H",
+      "Lines": [{
+        "Line_01": "gGgGgGh",
+        "Line_02": "HhHhHGg",
+        "Line_03": "HhGgHhG",
+        "Line_04": "gHhGGHH",
+        "Line_05": "gHhG"
+      }]
+    },
+    "Lesson_0144": {
+      "Name": "Lesson_0144",
+      "Number": 144,
+      "Description": "Review G & H",
+      "Lines": [{
+        "Line_01": "Gaa Gaa Gaa Gaa Gee Gee",
+        "Line_02": "Hoo Hoo Haa Hii Hoo Hee",
+        "Line_03": "Gee Hee Gee Hee Goo Hoo",
+        "Line_04": "Gah Haa Haa Gah Hoo Goo"
+      }]
+    },
+    "Lesson_0145": {
+      "Name": "Lesson_0145",
+      "Number": 145,
+      "Description": "Practice G & H",
+      "Lines": [{
+        "Line_01": "Hat Horse Great Him At Home Got Hair",
+        "Line_02": "About Give He House Lot Gave Get How",
+        "Line_03": "Game Go Demand Green Happy Good Heard",
+        "Line_04": "Kept Hurry Help Here Have Head Almost",
+        "Line_05": "Hello Gold"
+      }]
+    },
+    "Lesson_0146": {
+      "Name": "Lesson_0146",
+      "Number": 146,
+      "Description": "Capital T & Y",
+      "Lines": [{
+        "Line_01": "tTtTtTy",
+        "Line_02": "YyYyYTt",
+        "Line_03": "YyTtYyT",
+        "Line_04": "tYyTTYY",
+        "Line_05": "tYyT"
+      }]
+    },
+    "Lesson_0147": {
+      "Name": "Lesson_0147",
+      "Number": 147,
+      "Description": "Review T & Y",
+      "Lines": [{
+        "Line_01": "Tee Too Tee Too Tee Too",
+        "Line_02": "Yoo Yee Yoo Yee Yoo Yee",
+        "Line_03": "Tee Yoo Tee Yee Too Yee",
+        "Line_04": "You Tou Yea Tea You Tea"
+      }]
+    },
+    "Lesson_0148": {
+      "Name": "Lesson_0148",
+      "Number": 148,
+      "Description": "Practice T & Y",
+      "Lines": [{
+        "Line_01": "Take Great Young Them Yourself Thank",
+        "Line_02": "Hat Yesterday Tran You They Apple",
+        "Line_03": "Yours Took Yacht Add Thing Tell Yoyo",
+        "Line_04": "Yard Kept Tree There Too Did Yes Three",
+        "Line_05": "Yard For Then You"
+      }]
+    },
+    "Lesson_0149": {
+      "Name": "Lesson_0149",
+      "Number": 149,
+      "Description": "Test 20: GHTY",
+      "Lines": [{
+        "Line_01": "TeaYouHeaGeeHelloYouHeaGraHyeHeaYouHoGea"
+      }]
+    },
+    "Lesson_0150": {
+      "Name": "Lesson_0150",
+      "Number": 150,
+      "Description": "Capital R & U",
+      "Lines": [{
+        "Line_01": "rRrRrRu",
+        "Line_02": "UuuuURr",
+        "Line_03": "UuRrUuR",
+        "Line_04": "rUuRRUU",
+        "Line_05": "rUuR"
+      }]
+    },
+    "Lesson_0151": {
+      "Name": "Lesson_0151",
+      "Number": 151,
+      "Description": "Review R & U",
+      "Lines": [{
+        "Line_01": "Rea Rou Rea Rou Rea Rou",
+        "Line_02": "Umb Umb Und Und Umb Und",
+        "Line_03": "Rea Umb Rou Und Und Rou",
+        "Line_04": "Rel Unc Use Rea Rai Usu"
+      }]
+    },
+    "Lesson_0152": {
+      "Name": "Lesson_0152",
+      "Number": 152,
+      "Description": "Practice R & U",
+      "Lines": [{
+        "Line_01": "Room Unique Road Try Up Ride Roll Huge",
+        "Line_02": "Round Us Lot University Race Yours",
+        "Line_03": "Useful Rope Universe Job Remember Read",
+        "Line_04": "Got Understand Right Stay Rain Real",
+        "Line_05": "Reach Leave Usualy"
+      }]
+    },
+    "Lesson_0153": {
+      "Name": "Lesson_0153",
+      "Number": 153,
+      "Description": "Capital E & I",
+      "Lines": [{
+        "Line_01": "eEeEeEi",
+        "Line_02": "IiIiIEe",
+        "Line_03": "IiEeIiE",
+        "Line_04": "eIiEEII",
+        "Line_05": "eIiE"
+      }]
+    },
+    "Lesson_0154": {
+      "Name": "Lesson_0154",
+      "Number": 154,
+      "Description": "Review E & I",
+      "Lines": [{
+        "Line_01": "Ele Ele End End Ele Ele",
+        "Line_02": "Int Int Ice Ice Inv Ind",
+        "Line_03": "Inv Ide Exi Eco Ira Ess",
+        "Line_04": "Enf Eva Imp Ele Ins Ina"
+      }]
+    },
+    "Lesson_0155": {
+      "Name": "Lesson_0155",
+      "Number": 155,
+      "Description": "Practice E & I",
+      "Lines": [{
+        "Line_01": "Is Explain If End them Even Each Under",
+        "Line_02": "Ice East Iea Reiver Early Ever",
+        "Line_03": "Include Took its Every I Green Into",
+        "Line_04": "Egg Except Happy Iron Inside Apple",
+        "Line_05": "Inch Itself Gold Easy Eat"
+      }]
+    },
+    "Lesson_0156": {
+      "Name": "Lesson_0156",
+      "Number": 156,
+      "Description": "Test 21: RUEI",
+      "Lines": [{
+        "Line_01": "IcHeFeGeEieLiUndofEaRoUeIeUeIaTerYer"
+      }]
+    },
+    "Lesson_0157": {
+      "Name": "Lesson_0157",
+      "Number": 157,
+      "Description": "Capital W & O",
+      "Lines": [{
+        "Line_01": "wWwWwWo",
+        "Line_02": "OoOoOWw",
+        "Line_03": "OoWwOoW",
+        "Line_04": "wOoWWOO",
+        "Line_05": "wOoW"
+      }]
+    },
+    "Lesson_0158": {
+      "Name": "Lesson_0158",
+      "Number": 158,
+      "Description": "Review W & O",
+      "Lines": [{
+        "Line_01": "Wow Wow Whe Whe Wow Whe",
+        "Line_02": "Owe Ora Owe Ora Oka Obe",
+        "Line_03": "Whe Wow Ora Owe Whe Wow",
+        "Line_04": "Ora Whe One Wha Wow Oka"
+      }]
+    },
+    "Lesson_0159": {
+      "Name": "Lesson_0159",
+      "Number": 159,
+      "Description": "Practice W & O",
+      "Lines": [{
+        "Line_01": "Open Well Our Is What Or Over End",
+        "Line_02": "Other Orange Huge One Went Who Your",
+        "Line_03": "Will Wall Why Is Was Once Would Got",
+        "Line_04": "We Outside Out Gold When Old Way Oh",
+        "Line_05": "Try Only Want With Hat On Eat"
+      }]
+    },
+    "Lesson_0160": {
+      "Name": "Lesson_0160",
+      "Number": 160,
+      "Description": "Capital Q & P",
+      "Lines": [{
+        "Line_01": "qQqQqQp",
+        "Line_02": "PpPpPQq",
+        "Line_03": "PpQqPpQ",
+        "Line_04": "qPpQQPP",
+        "Line_05": "qPpQ"
+      }]
+    },
+    "Lesson_0161": {
+      "Name": "Lesson_0161",
+      "Number": 161,
+      "Description": "Review Q & P",
+      "Lines": [{
+        "Line_01": "Pla Pla Par Par Pou Pou",
+        "Line_02": "Que Que Qui Qui Que Qui",
+        "Line_03": "Pic Pla Pic Peo Peo Pic",
+        "Line_04": "Que Qui Que Qui Que Qui"
+      }]
+    },
+    "Lesson_0162": {
+      "Name": "Lesson_0162",
+      "Number": 162,
+      "Description": "Practice Q & P",
+      "Lines": [{
+        "Line_01": "Quickly Well Quiet Pink Other Purple",
+        "Line_02": "Part Quaify Early Paper Place Will",
+        "Line_03": "Quality Quantity Why Pass Queen Once",
+        "Line_04": "Quail Play Tree Pet Pretty Pull Head",
+        "Line_05": "Quick Pig Leave Pick"
+      }]
+    },
+    "Lesson_0163": {
+      "Name": "Lesson_0163",
+      "Number": 163,
+      "Description": "Test 22: WOQP",
+      "Lines": [{
+        "Line_01": "PartyPurpleQualityPartQualifyPutPinkPaperQuickPlayPaint"
+      }]
+    },
+    "Lesson_0164": {
+      "Name": "Lesson_0164",
+      "Number": 164,
+      "Description": "Capital V & M",
+      "Lines": [{
+        "Line_01": "vVvVvVm",
+        "Line_02": "MmMmMVv",
+        "Line_03": "MmVvMmV",
+        "Line_04": "vMmVVMM",
+        "Line_05": "vMmV"
+      }]
+    },
+    "Lesson_0165": {
+      "Name": "Lesson_0165",
+      "Number": 165,
+      "Description": "Review V & M",
+      "Lines": [{
+        "Line_01": "Vie Vie Voi Voi Val Val",
+        "Line_02": "Mor Mak Mad Met Man May",
+        "Line_03": "Var Var Veg Vis Vac Vol",
+        "Line_04": "Mus Mon Muc Mig Min Moo"
+      }]
+    },
+    "Lesson_0166": {
+      "Name": "Lesson_0166",
+      "Number": 166,
+      "Description": "Practice V & M",
+      "Lines": [{
+        "Line_01": "Man Verb Well Visit Vacation Pink",
+        "Line_02": "Middle Most Qualify Valley Many Early",
+        "Line_03": "Met Voyage Wall Various Money Why Very",
+        "Line_04": "Mad Milk Egg Men Value Old Miss Me",
+        "Line_05": "Veto It View My Pick"
+      }]
+    },
+    "Lesson_0167": {
+      "Name": "Lesson_0167",
+      "Number": 167,
+      "Description": "Travel Index Caps",
+      "Lines": [{
+        "Line_01": "UMJ RVFR UMJU VRFR MUMJUJ VFRFVRVF UJM"
+      }]
+    },
+    "Lesson_0168": {
+      "Name": "Lesson_0168",
+      "Number": 168,
+      "Description": "Capital C & ?",
+      "Lines": [{
+        "Line_01": "cCcCcC?",
+        "Line_02": "?????Cc",
+        "Line_03": "??Cc??C",
+        "Line_04": "c??CC??",
+        "Line_05": "c??C"
+      }]
+    },
+    "Lesson_0169": {
+      "Name": "Lesson_0169",
+      "Number": 169,
+      "Description": "Review C & ?",
+      "Lines": [{
+        "Line_01": "Can? Cat? Can? Cow? Cap? Cut?",
+        "Line_02": "Con? Coa? Com? Cau? Com? Can?",
+        "Line_03": "Cha? Con? Can? Cap? Cat? Can?"
+      }]
+    },
+    "Lesson_0170": {
+      "Name": "Lesson_0170",
+      "Number": 170,
+      "Description": "Practice C & ?",
+      "Lines": [{
+        "Line_01": "Clothes Country Please Cat? Caught Play",
+        "Line_02": "Cap? Clock? At Clean Can? Horse Cake?",
+        "Line_03": "Cloud You Climb Came? Last Cover?",
+        "Line_04": "Coat? Try Chair? Corner Call? Miss Cut",
+        "Line_05": "Corn? View Car? Could?"
+      }]
+    },
+    "Lesson_0171": {
+      "Name": "Lesson_0171",
+      "Number": 171,
+      "Description": "Test 23: VMC?",
+      "Lines": [{
+        "Line_01": "cC??cCCat?MyVoiceCat?ValueMetManCanMin?MVC?"
+      }]
+    },
+    "Lesson_0172": {
+      "Name": "Lesson_0172",
+      "Number": 172,
+      "Description": "Capital N & Z",
+      "Lines": [{
+        "Line_01": "zZzZzZn",
+        "Line_02": "NnNnNZz",
+        "Line_03": "NnZzNnZ",
+        "Line_04": "zNnZZNN",
+        "Line_05": "zNnZ"
+      }]
+    },
+    "Lesson_0173": {
+      "Name": "Lesson_0173",
+      "Number": 173,
+      "Description": "Review N & Z",
+      "Lines": [{
+        "Line_01": "Zoo Zan Zee Zab Zag Zor",
+        "Line_02": "Now Now Nor Nee Nos Noi",
+        "Line_03": "Zal Zep Zip Zo Zek Zin",
+        "Line_04": "Nev Nic Not Nov Num Nes"
+      }]
+    },
+    "Lesson_0174": {
+      "Name": "Lesson_0174",
+      "Number": 174,
+      "Description": "Practice N & Z",
+      "Lines": [{
+        "Line_01": "Need Zinger Please neck Night Can Next",
+        "Line_02": "Noise At Zen Zoo Nothing Cake Nose Zoro",
+        "Line_03": "North You Name Zero Last Near Zero New",
+        "Line_04": "Coat Never Zambian Zipped Me Zip Nail",
+        "Line_05": "At Zip Now Funny"
+      }]
+    },
+    "Lesson_0175": {
+      "Name": "Lesson_0175",
+      "Number": 175,
+      "Description": "Captial X & B",
+      "Lines": [{
+        "Line_01": "xXxXxXb",
+        "Line_02": "BbBbBXx",
+        "Line_03": "BbXxBbX",
+        "Line_04": "xBbXXBB",
+        "Line_05": "xBbX"
+      }]
+    },
+    "Lesson_0176": {
+      "Name": "Lesson_0176",
+      "Number": 176,
+      "Description": "Review X & B",
+      "Lines": [{
+        "Line_01": "Xam Xor Xem Xor Xus Xor",
+        "Line_02": "Boy Bit Bat Boy Bar Big",
+        "Line_03": "Xei Xam Xor Xem Xen Xel",
+        "Line_04": "Bui Bal Bir Blu Bab Bri"
+      }]
+    },
+    "Lesson_0177": {
+      "Name": "Lesson_0177",
+      "Number": 177,
+      "Description": "Practice X & B",
+      "Lines": [{
+        "Line_01": "eXpect Please neXt eXam Night eXplain",
+        "Line_02": "Brown boX At siX Baby fiX Cake Book",
+        "Line_03": "Big But You eXpress Bring eXact Near",
+        "Line_04": "Black Bit Be Our Ball eXample eXcept",
+        "Line_05": "Is Bed By Xi You Boy Best"
+      }]
+    },
+    "Lesson_0178": {
+      "Name": "Lesson_0178",
+      "Number": 178,
+      "Description": "Travel Middle Caps",
+      "Lines": [{
+        "Line_01": "IKI EDCDEC KIKI EDCE KI EDCED KI EDCE",
+        "Line_02": "IK"
+      }]
+    },
+    "Lesson_0179": {
+      "Name": "Lesson_0179",
+      "Number": 179,
+      "Description": "Travel Ring Caps",
+      "Lines": [{
+        "Line_01": "WSXW OL WXWWS OLOLL WXWSW OLOLO WXS LO W"
+      }]
+    },
+    "Lesson_0180": {
+      "Name": "Lesson_0180",
+      "Number": 180,
+      "Description": "Travel Pinky Caps",
+      "Lines": [{
+        "Line_01": "QZQAQ PP QAZQ P QAZQ P QAZQ P AQZQ P QZA P A"
+      }]
+    },
+    "Lesson_0181": {
+      "Name": "Lesson_0181",
+      "Number": 181,
+      "Description": "Dynamic Practice 4",
+      "Lines": [{
+        "Line_01": "gr gr gro gre group grew greatly",
+        "Line_02": "ge ge nge age get changed age",
+        "Line_03": "ga ga aga gas gas gave again",
+        "Line_04": "gn gn agn ogn electromagnetic",
+        "Line_05": "recognized significantly",
+        "Line_06": "gi gi egi ngi beginning changing",
+        "Line_07": "regional"
+      }]
+    },
+    "Lesson_0182": {
+      "Name": "Lesson_0182",
+      "Number": 182,
+      "Description": "the",
+      "Lines": [{
+        "Line_01": "the the the the the the",
+        "Line_02": "there then there then there then",
+        "Line_03": "the the the the the the",
+        "Line_04": "they theft they theft they theft",
+        "Line_05": "the the the the the the",
+        "Line_06": "them their them their them there"
+      }]
+    },
+    "Lesson_0183": {
+      "Name": "Lesson_0183",
+      "Number": 183,
+      "Description": "ing",
+      "Lines": [{
+        "Line_01": "ing ing ing ing ing ing",
+        "Line_02": "thing ring thing ring thing ring",
+        "Line_03": "ing ing ing ing ing ing",
+        "Line_04": "sing wing sing wing sing wing",
+        "Line_05": "ing ing ing ing ing ing",
+        "Line_06": "king going king going king going"
+      }]
+    },
+    "Lesson_0184": {
+      "Name": "Lesson_0184",
+      "Number": 184,
+      "Description": "tion",
+      "Lines": [{
+        "Line_01": "tion tion tion tion tion tion",
+        "Line_02": "motion fraction motion fraction mothion",
+        "Line_03": "fraction",
+        "Line_04": "tion tion tion tion tion tion",
+        "Line_05": "vacation nation vacation nation",
+        "Line_06": "vacation nation",
+        "Line_07": "tion tion tion tion tion tion",
+        "Line_08": "direction rejection direction rejection",
+        "Line_09": "direction rejection"
+      }]
+    },
+    "Lesson_0185": {
+      "Name": "Lesson_0185",
+      "Number": 185,
+      "Description": "est",
+      "Lines": [{
+        "Line_01": "est est est est est est",
+        "Line_02": "best smallest best smallest best",
+        "Line_03": "smallest",
+        "Line_04": "est est est est est est",
+        "Line_05": "quickest nest quickest nest quickest",
+        "Line_06": "nest",
+        "Line_07": "est est est est est est",
+        "Line_08": "rest infest rest infest rest infest"
+      }]
+    },
+    "Lesson_0186": {
+      "Name": "Lesson_0186",
+      "Number": 186,
+      "Description": "and",
+      "Lines": [{
+        "Line_01": "and and and and and and",
+        "Line_02": "hand sand hand sand hand sand",
+        "Line_03": "and and and and and and",
+        "Line_04": "band land band land band land",
+        "Line_05": "and and and and and and",
+        "Line_06": "grand island grand island grand island"
+      }]
+    },
+    "Lesson_0187": {
+      "Name": "Lesson_0187",
+      "Number": 187,
+      "Description": "int",
+      "Lines": [{
+        "Line_01": "int int int int int int",
+        "Line_02": "internet mint internet mint internet",
+        "Line_03": "mint",
+        "Line_04": "int int int int int int",
+        "Line_05": "interest hint interest hint interest",
+        "Line_06": "hint",
+        "Line_07": "int int int int int int",
+        "Line_08": "lint pint lint pint lint pint"
+      }]
+    },
+    "Lesson_0188": {
+      "Name": "Lesson_0188",
+      "Number": 188,
+      "Description": "ship",
+      "Lines": [{
+        "Line_01": "ship ship ship ship ship ship",
+        "Line_02": "internship mentorship internship",
+        "Line_03": "mentorship internship mentorship",
+        "Line_04": "ship ship ship ship ship ship",
+        "Line_05": "citizenship hardship citizenship",
+        "Line_06": "hardship citizenship hardship",
+        "Line_07": "ship ship ship ship ship ship",
+        "Line_08": "shipment leadership shipment leadership",
+        "Line_09": "shipment leadership"
+      }]
+    },
+    "Lesson_0189": {
+      "Name": "Lesson_0189",
+      "Number": 189,
+      "Description": "nth",
+      "Lines": [{
+        "Line_01": "nth nth nth nth nth nth",
+        "Line_02": "tenth ninth tenth ninth tenth ninth",
+        "Line_03": "nth nth nth nth nth nth",
+        "Line_04": "onth seventh month seventh month",
+        "Line_05": "seventh",
+        "Line_06": "nth nth nth nth nth nth",
+        "Line_07": "labyrinth hydranth labyrinth hydranth",
+        "Line_08": "labyrinth hydranth"
+      }]
+    },
+    "Lesson_0190": {
+      "Name": "Lesson_0190",
+      "Number": 190,
+      "Description": "ear",
+      "Lines": [{
+        "Line_01": "ear ear ear ear ear ear",
+        "Line_02": "hear fear hear fear hear fear",
+        "Line_03": "ear ear ear ear ear ear",
+        "Line_04": "near gear near gear near gear",
+        "Line_05": "ear ear ear ear ear ear",
+        "Line_06": "dear bear dear bear dear bear"
+      }]
+    },
+    "Lesson_0191": {
+      "Name": "Lesson_0191",
+      "Number": 191,
+      "Description": "ore",
+      "Lines": [{
+        "Line_01": "ore ore ore ore ore ore",
+        "Line_02": "core sore core sore core sore",
+        "Line_03": "ore ore ore ore ore ore",
+        "Line_04": "bore more bore more bore more",
+        "Line_05": "ore ore ore ore ore ore",
+        "Line_06": "shore wore shore wore shore wore"
+      }]
+    },
+    "Lesson_0192": {
+      "Name": "Lesson_0192",
+      "Number": 192,
+      "Description": "Dynamic Practice 5",
+      "Lines": [{
+        "Line_01": "gr gr gre gra greatly grew gravity",
+        "Line_02": "ge ge nge age longer stage changes",
+        "Line_03": "ga ga rga gam games gave organic",
+        "Line_04": "gn gn ign gna reign signals foreign",
+        "Line_05": "gi gi igi egi religious regional",
+        "Line_06": "giving"
+      }]
+    },
+    "Lesson_0193": {
+      "Name": "Lesson_0193",
+      "Number": 193,
+      "Description": "Cacao Tree",
+      "Lines": [{
+        "Line_01": "Chocolate comes from the fruit of the",
+        "Line_02": "cacao tree which is commonly found in",
+        "Line_03": "the deep tropical areas of the",
+        "Line_04": "Americas. The most commonly found type",
+        "Line_05": "of the plant first came from the",
+        "Line_06": "Amazon basin."
+      }]
+    },
+    "Lesson_0194": {
+      "Name": "Lesson_0194",
+      "Number": 194,
+      "Description": "Wooden Churches",
+      "Lines": [{
+        "Line_01": "Almost fifty amazing wooden churches",
+        "Line_02": "stand all over Slovakia, a small",
+        "Line_03": "country in the heart of Europe. They",
+        "Line_04": "are al wood without a single nail."
+      }]
+    },
+    "Lesson_0195": {
+      "Name": "Lesson_0195",
+      "Number": 195,
+      "Description": "Vasco da Gama",
+      "Lines": [{
+        "Line_01": "Lisbon, the capital city of Portugal,",
+        "Line_02": "is home to the longest bridge in",
+        "Line_03": "Europe. The Vasco da Gama Bridge in",
+        "Line_04": "Lisbon is seventeen ikilometers or ten",
+        "Line_05": "and a half miles long."
+      }]
+    },
+    "Lesson_0196": {
+      "Name": "Lesson_0196",
+      "Number": 196,
+      "Description": "Solar System",
+      "Lines": [{
+        "Line_01": "The solar system is the Sun and all",
+        "Line_02": "the objects in orbit arund it. The",
+        "Line_03": "Sun is orbited by planets, asteroids,",
+        "Line_04": "comets, and other things."
+      }]
+    },
+    "Lesson_0197": {
+      "Name": "Lesson_0197",
+      "Number": 197,
+      "Description": "Test 24: Play Words 5",
+      "Lines": [{
+        "Line_01": "fifty City solar pine Tree cacao Sun orbit amazing system Comet single Nali"
+      }]
+    },
+    "Lesson_0198": {
+      "Name": "Lesson_0198",
+      "Number": 198,
+      "Description": "Dogs",
+      "Lines": [{
+        "Line_01": "Dogs were the first animals ever to be",
+        "Line_02": "domesticated. They are usually playful,",
+        "Line_03": "friendly, and listen to humans. Thirty",
+        "Line_04": "million dogs in the United States are",
+        "Line_05": "registered as pets."
+      }]
+    },
+    "Lesson_0199": {
+      "Name": "Lesson_0199",
+      "Number": 199,
+      "Description": "Spaces in English",
+      "Lines": [{
+        "Line_01": "A thousand years ago, the English",
+        "Line_02": "language did not put spaces between",
+        "Line_03": "its words. It made writing faster, but",
+        "Line_04": "readers had to guess where each word",
+        "Line_05": "began."
+      }]
+    },
+    "Lesson_0200": {
+      "Name": "Lesson_0200",
+      "Number": 200,
+      "Description": "",
+      "Lines": [{
+        "Line_01": "Puppies",
+        "Line_02": "Puppies develop very quickly during",
+        "Line_03": "their first three months, particularly",
+        "Line_04": "after their eyes and ears open and",
+        "Line_05": "they are no longer completely dependent",
+        "Line_06": "on their mother."
       }]
     }
   }]

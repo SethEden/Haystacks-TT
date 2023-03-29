@@ -15,9 +15,8 @@
 // Internal imports
 import applicationSystem from './clientCommands/applicationSystem.js';
 import applicationTest from './clientCommands/applicationTests.js';
-// import tutoringCommands from './clientCommands/tutoringCommands.js';
+import tutoringCommands from './clientCommands/tutoringCommands.js';
 import * as app_cmd from '../constants/application.command.constants.js';
-import tutoringCommands from './clientCommands/tutoringCommands.js'
 
 /**
  * @function initApplicationCommandsLibrary
