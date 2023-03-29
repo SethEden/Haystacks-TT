@@ -135,7 +135,7 @@ async function bootStrapApplication() {
   }
   appConfig[sys.cclientBusinessRules] = await tutoringRules.initApplicationRulesLibrary();
   appConfig[sys.cclientCommands] = await tutoringCommands.initApplicationCommandsLibrary();
-  // console.log('appConfig is: ', appConfig);
+  console.log('appConfig is: ', appConfig);
   await haystacks.initFramework(appConfig);
   await haystacks.setConfigurationSetting(wrd.csystem, app_cfg.cappAccountsPath, appConfig[app_cfg.cappAccountsPath]);
   await haystacks.setConfigurationSetting(wrd.csystem, app_cfg.cappLessonsPath, appConfig[app_cfg.cappLessonsPath]);
@@ -169,7 +169,7 @@ async function application() {
   let commandResult;
 
   await haystacks.enqueueCommand(app_cmd.cApplicationStartupWorkflow);
-  // Make sure to process all of the startup command workflow commands before we go into the main program loop
+  // Make sure to process all of the startup command workflow commands before we go into the main program loop.
   while (await haystacks.isCommandQueueEmpty() === false) {
     commandResult = await haystacks.processCommandQueue();
   } // End-while (await haystacks.isCommandQueueEmpty() === false)

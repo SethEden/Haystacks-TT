@@ -126,7 +126,7 @@ You will see something like this:
   A report showing your score will display after the lesson is complete.
   Press the "ESC" key, in the far upper left corner of the keyboard to cancel a lesson.
   .--------------------------------------------------------------------.
-  | [ESC] [F1][F2][F3][F4][F5][F6][F7][F8][F9][F10][F11][F12] o o o|
+  | [ESC] [F1][F2][F3][F4][F5][F6][F7][F8][F9][F10][F11][F12]     o o o|
   |                                                                    |
   | [`][1][2][3][4][5][6][7][8][9][0][-][=][_<_] [I][H][U] [N][/][*][-]|
   | [/T][Q][W][E][R][T][Y][U][I][O][P][{][}] | | [D][E][D] [7][8][9]|+||

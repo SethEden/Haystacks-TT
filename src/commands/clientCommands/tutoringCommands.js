@@ -1,7 +1,7 @@
 /**
  * @file tutoringCommands.js
  * @module tutoringCommands
- * @description Contains all client defined commands fro execution of client actions with various operations, specific for typing tutoring.
+ * @description Contains all client defined commands for execution of client actions with various operations, specific for typing tutoring.
  * @requires module:accountBroker
  * @requires module:application.command.constants
  * @requires module:application.message.constants
