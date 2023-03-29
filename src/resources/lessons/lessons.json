@@ -2185,38 +2185,31 @@
       "Number": 197,
       "Description": "Test 24: Play Words 5",
       "Lines": [{
-        "Line_01": "",
-        "Line_02": "",
-        "Line_03": "",
-        "Line_04": "",
-        "Line_05": "",
-        "Line_06": ""
+        "Line_01": "fifty City solar pine Tree cacao Sun orbit amazing system Comet single Nali"
       }]
     },
     "Lesson_0198": {
       "Name": "Lesson_0198",
       "Number": 198,
-      "Description": "",
+      "Description": "Dogs",
       "Lines": [{
-        "Line_01": "",
-        "Line_02": "",
-        "Line_03": "",
-        "Line_04": "",
-        "Line_05": "",
-        "Line_06": ""
+        "Line_01": "Dogs were the first animals ever to be",
+        "Line_02": "domesticated. They are usually playful,",
+        "Line_03": "friendly, and listen to humans. Thirty",
+        "Line_04": "million dogs in the United States are",
+        "Line_05": "registered as pets."
       }]
     },
     "Lesson_0199": {
       "Name": "Lesson_0199",
       "Number": 199,
-      "Description": "",
+      "Description": "Spaces in English",
       "Lines": [{
-        "Line_01": "",
-        "Line_02": "",
-        "Line_03": "",
-        "Line_04": "",
-        "Line_05": "",
-        "Line_06": ""
+        "Line_01": "A thousand years ago, the English",
+        "Line_02": "language did not put spaces between",
+        "Line_03": "its words. It made writing faster, but",
+        "Line_04": "readers had to guess where each word",
+        "Line_05": "began."
       }]
     },
     "Lesson_0200": {
@@ -2224,12 +2217,12 @@
       "Number": 200,
       "Description": "",
       "Lines": [{
-        "Line_01": "",
-        "Line_02": "",
-        "Line_03": "",
-        "Line_04": "",
-        "Line_05": "",
-        "Line_06": ""
+        "Line_01": "Puppies",
+        "Line_02": "Puppies develop very quickly during",
+        "Line_03": "their first three months, particularly",
+        "Line_04": "after their eyes and ears open and",
+        "Line_05": "they are no longer completely dependent",
+        "Line_06": "on their mother."
       }]
     }
   }]
