@@ -135,7 +135,7 @@ async function bootStrapApplication() {
   }
   appConfig[sys.cclientBusinessRules] = await tutoringRules.initApplicationRulesLibrary();
   appConfig[sys.cclientCommands] = await tutoringCommands.initApplicationCommandsLibrary();
-  console.log('appConfig is: ', appConfig);
+  // console.log('appConfig is: ', appConfig);
   await haystacks.initFramework(appConfig);
   await haystacks.setConfigurationSetting(wrd.csystem, app_cfg.cappAccountsPath, appConfig[app_cfg.cappAccountsPath]);
   await haystacks.setConfigurationSetting(wrd.csystem, app_cfg.cappLessonsPath, appConfig[app_cfg.cappLessonsPath]);
