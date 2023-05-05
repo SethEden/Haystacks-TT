@@ -2487,7 +2487,7 @@
       "Number": 223,
       "Description": "Dynamic Practice 6",
       "Lines": [{
-        "Line_01": "gr gr ogr gre great gradually program",
+        "Line_01": "gr gr gre gro great gradually program",
         "Line_02": "ge ge nge get get range general",
         "Line_03": "ga ga aga gai again gave games",
         "Line_04": "gn gn ign gna design doreign signals",
@@ -2599,6 +2599,135 @@
         "Line_06": "She offered her sister a piece of cake",
         "Line_07": "to make peace with her.",
         "Line_08": "piece peace piece peace"
+      }]
+    },
+    "Lesson_0231": {
+      "Name": "Lesson_0231",
+      "Number": 231,
+      "Description": "Definitely",
+      "Lines": [{
+        "Line_01": "Our teacher is definitely the best.",
+        "Line_02": "definitely definitely definitely",
+        "Line_03": "definitely definitely",
+        "Line_04": "I have completely mastered touch",
+        "Line_05": "typing.",
+        "Line_06": "completely completely completely",
+        "Line_07": "completely completely",
+        "Line_08": "He definitely said he was completely",
+        "Line_09": "finished.",
+        "Line_10": "definitely completely definitely",
+        "Line_11": "completely"
+      }]
+    },
+    "Lesson_0232": {
+      "Name": "Lesson_0232",
+      "Number": 232,
+      "Description": "Ridiculous",
+      "Lines": [{
+        "Line_01": "They laughed because the clown made a",
+        "Line_02": "ridiculous face.",
+        "Line_03": "ridiculous ridiculous ridiculous",
+        "Line_04": "ridiculous ridiculous",
+        "Line_05": "The glamorous movie star posed for a",
+        "Line_06": "picture.",
+        "Line_07": "glamorous glamorous glamorous glamorous",
+        "Line_08": "glamorous",
+        "Line_09": "The clown looked ridiculous in the",
+        "Line_10": "glamorus dress.",
+        "Line_11": "ridiculous glamorous ridiculous glamorous"
+      }]
+    },
+    "Lesson_0233": {
+      "Name": "Lesson_0233",
+      "Number": 233,
+      "Description": "Scent/Cent",
+      "Lines": [{
+        "Line_01": "The scent of baking cookies drifted",
+        "Line_02": "rom the bakery.",
+        "Line_03": "scent scent scent scent scent",
+        "Line_04": "A penny is one cent and a quarter is",
+        "Line_05": "twenty five cents.",
+        "Line_06": "cent cent cent cent cent",
+        "Line_07": "The scent of the cookies convinced him",
+        "Line_08": "to spend hsi last cent on them.",
+        "Line_09": "scent cent scent cent"
+      }]
+    },
+    "Lesson_0234": {
+      "Name": "Lesson_0234",
+      "Number": 234,
+      "Description": "Dynamic Practice 7",
+      "Lines": [{
+        "Line_01": "gr gr gro gre ground groups greatly",
+        "Line_02": "ge ge nge rge angeles largely bridges",
+        "Line_03": "ga ga gar gav gardens garden gave",
+        "Line_04": "gn gn ign agn signal electromagnetic",
+        "Line_05": "foreign",
+        "Line_06": "gi gi igi gin original give origin"
+      }]
+    },
+    "Lesson_0235": {
+      "Name": "Lesson_0235",
+      "Number": 235,
+      "Description": "Keys 4 and 7",
+      "Lines": [{
+        "Line_01": "4747447",
+        "Line_02": "7477447",
+        "Line_03": "447474"
+      }]
+    },
+    "Lesson_0236": {
+      "Name": "Lesson_0236",
+      "Number": 236,
+      "Description": "Review: 4 and 7",
+      "Lines": [{
+        "Line_01": "f4f4 j7j7 f4j7 jj7 4ffj 74jf 47fj jf74",
+        "Line_02": "447 4f7j 7j4f j47f 447j 74jf j7j474"
+      }]
+    },
+    "Lesson_0237": {
+      "Name": "Lesson_0237",
+      "Number": 237,
+      "Description": "Practice: 4 and 7",
+      "Lines": [{
+        "Line_01": "44 cats 74 men 44 doors in the room",
+        "Line_02": "74 trees more than 47 is the number 7",
+        "Line_03": "is a great choice 4 is a better one 4",
+        "Line_04": "by 7 is you guessed right 44 more",
+        "Line_05": "days give me 4 and a 7 then 47 then",
+        "Line_06": "44777"
+      }]
+    },
+    "Lesson_0238": {
+      "Name": "Lesson_0238",
+      "Number": 238,
+      "Description": "Keys 3 and 8",
+      "Lines": [{
+        "Line_01": "8838383",
+        "Line_02": "3883883",
+        "Line_03": "838838"
+      }]
+    },
+    "Lesson_0239": {
+      "Name": "Lesson_0239",
+      "Number": 239,
+      "Description": "Review: 3 and 8",
+      "Lines": [{
+        "Line_01": "d3k8 d3k8 d3k8 kk8 3dd8 k38dk 83kd8",
+        "Line_02": "kk38dk k83k 38dk3 k83d d38 k3d8 k 3 8 d"
+      }]
+    },
+    "Lesson_0240": {
+      "Name": "Lesson_0240",
+      "Number": 240,
+      "Description": "Practice: 3 and 8",
+      "Lines": [{
+        "Line_01": "88 ittle dogs 3 big cows 33 more",
+        "Line_02": "likes 83 is greater 38 is not 88 cars",
+        "Line_03": "3 shoes 33 bags now 88 sounds good 33",
+        "Line_04": "not so good 3 is a little less 8 is",
+        "Line_05": "more than that 333 and 888 now 338",
+        "Line_06": "and 883"
       }]
     }
   }]
