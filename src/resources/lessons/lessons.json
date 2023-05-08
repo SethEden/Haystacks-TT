@@ -2729,6 +2729,110 @@
         "Line_05": "more than that 333 and 888 now 338",
         "Line_06": "and 883"
       }]
+    },
+    "Lesson_0241": {
+      "Name": "Lesson_0241",
+      "Number": 241,
+      "Description": "Keys 2 and 9",
+      "Lines": [{
+        "Line_01": "2292929",
+        "Line_02": "2292992",
+        "Line_03": "929929"
+      }]
+    },
+    "Lesson_0242": {
+      "Name": "Lesson_0242",
+      "Number": 242,
+      "Description": "Review: 2 and 9",
+      "Lines": [{
+        "Line_01": "s2 l9 s2l9 292s 9l2s 9ll2s 2ls9 9s2l",
+        "Line_02": "l9s2 ll2s 929s 29sl ls92 92ll 2s99 2ls"
+      }]
+    },
+    "Lesson_0243": {
+      "Name": "Lesson_0243",
+      "Number": 243,
+      "Description": "Practice: 2 and 9",
+      "Lines": [{
+        "Line_01": "29 bat 92 boats 99 cents with 22 more",
+        "Line_02": "2 short plants and 92 stones 2 white",
+        "Line_03": "cars travel 9 hundred miles 29 times",
+        "Line_04": "to the zoo 2 is a number and 9 is",
+        "Line_05": "too but 2 is the smaller one you must",
+        "Line_06": "know"
+      }]
+    },
+    "Lesson_0244": {
+      "Name": "Lesson_0244",
+      "Number": 244,
+      "Description": "Keys 1 and 0",
+      "Lines": [{
+        "Line_01": "1001010",
+        "Line_02": "0100101",
+        "Line_03": "010011"
+      }]
+    },
+    "Lesson_0245": {
+      "Name": "Lesson_0245",
+      "Number": 245,
+      "Description": "Review: 1 and 0",
+      "Lines": [{
+        "Line_01": "a1 ;0 a10; 01;a 1010 a;10 0110;a",
+        "Line_02": ";a001; 10a;10a; 011;a 1;a0 0a;1 a1;0",
+        "Line_03": ";1a0;"
+      }]
+    },
+    "Lesson_0246": {
+      "Name": "Lesson_0246",
+      "Number": 246,
+      "Description": "Practice: 1 and 0",
+      "Lines": [{
+        "Line_01": "1 is teh only one 0 is none 11 is",
+        "Line_02": "more and 10 is less 100 is a ot but",
+        "Line_03": "1000 is even more learn the numbers",
+        "Line_04": "and you should know more 1010101 type",
+        "Line_05": "the key 1 and next type the key 0"
+      }]
+    },
+    "Lesson_0247": {
+      "Name": "Lesson_0247",
+      "Number": 247,
+      "Description": "Keys 5 and 6",
+      "Lines": [{
+        "Line_01": "5656555",
+        "Line_02": "5656556",
+        "Line_03": "566565"
+      }]
+    },
+    "Lesson_0248": {
+      "Name": "Lesson_0248",
+      "Number": 248,
+      "Description": "Review: 5 and 6",
+      "Lines": [{
+        "Line_01": "f5 j6 g5 h6 56gj 55 66 5656 j65f f56j",
+        "Line_02": "jf56 j5f6 6f5j 5j6f j556f f66j5 f5j6f"
+      }]
+    },
+    "Lesson_0249": {
+      "Name": "Lesson_0249",
+      "Number": 249,
+      "Description": "Practice: 5 and 6",
+      "Lines": [{
+        "Line_01": "5 cute dolphins, 6 big whales, and 55",
+        "Line_02": "baloons are floatng in the air. 56",
+        "Line_03": "reversed is 65 but 56 is smaller than",
+        "Line_04": "65. Five pounds of sand in 6 little",
+        "Line_05": "jars. 5 is my favorite number and 6",
+        "Line_06": "is yours."
+      }]
+    },
+    "Lesson_0250": {
+      "Name": "Lesson_0250",
+      "Number": 250,
+      "Description": "Test 30: All Numbers",
+      "Lines": [{
+        "Line_01": "9234712340987598102346501234087156926357"
+      }]
     }
   }]
 }
