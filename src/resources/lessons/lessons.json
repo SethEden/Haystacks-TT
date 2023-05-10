@@ -2926,6 +2926,127 @@
         "Line_01": "j7k8 l9;0 h6k8 j7k8 h6;0 l9k8 h6j7",
         "Line_02": "h6j7 l9;0 k8;0 l9k8 j7h6 k8l9 j70; k89l"
       }]
+    },
+    "Lesson_0261": {
+      "Name": "Lesson_0261",
+      "Number": 261,
+      "Description": "Left Hand Numbers",
+      "Lines": [{
+        "Line_01": "a1 d3 s2 f4 g5 c2 d4 v5 c1 x4 r4",
+        "Line_02": "ev2 ec4 rv2 ce2 ez5 x4c2 b2v4 z4 x2",
+        "Line_03": "c53 v2"
+      }]
+    },
+    "Lesson_0262": {
+      "Name": "Lesson_0262",
+      "Number": 262,
+      "Description": "Right Hand Numbers",
+      "Lines": [{
+        "Line_01": ";0 l9 k8 j7 p0 o9 i8 u7 ju7 ki8 lo9",
+        "Line_02": ";p0 m7 m7 ,8 ,8 l9 l9 p0 p0 7j 8k",
+        "Line_03": "9l 0p"
+      }]
+    },
+    "Lesson_0263": {
+      "Name": "Lesson_0263",
+      "Number": 263,
+      "Description": "Travel All Numbers",
+      "Lines": [{
+        "Line_01": "j7f4 k8d3 l9s2 ;0a1 4f7j 3d8k 2s9l",
+        "Line_02": "1a0; 10a; 29sl 38dk 47fj 56gh dk38 sl29"
+      }]
+    },
+    "Lesson_0264": {
+      "Name": "Lesson_0264",
+      "Number": 264,
+      "Description": "Test 31: Numbers",
+      "Lines": [{
+        "Line_01": "15cars 6bears 4ducks 9chairs 1bus 20trees 9cents 3boats 7trains 18homes 23bikes 76planes"
+      }]
+    },
+    "Lesson_0265": {
+      "Name": "Lesson_0265",
+      "Number": 265,
+      "Description": "Common Patterns: eal",
+      "Lines": [{
+        "Line_01": "eal eal eal eal eal eal",
+        "Line_02": "deal real deal real deal real",
+        "Line_03": "eal eal eal eal eal eal",
+        "Line_04": "real meal real meal real meal",
+        "Line_05": "eal eal eal eal eal eal",
+        "Line_06": "heal peal heal peal heal peal"
+      }]
+    },
+    "Lesson_0266": {
+      "Name": "Lesson_0266",
+      "Number": 266,
+      "Description": "Common Patterns: ate",
+      "Lines": [{
+        "Line_01": "ate ate ate ate ate ate",
+        "Line_02": "fate late fate late fate late",
+        "Line_03": "ate ate ate ate ate ate",
+        "Line_04": "hate gate hate gate hate gate",
+        "Line_05": "ate ate ate ate ate ate",
+        "Line_06": "date rate date rate date rate"
+      }]
+    },
+    "Lesson_0267": {
+      "Name": "Lesson_0267",
+      "Number": 267,
+      "Description": "Common Patterns: ted",
+      "Lines": [{
+        "Line_01": "ted ted ted ted ted ted",
+        "Line_02": "created interested created interested",
+        "Line_03": "created interested",
+        "Line_04": "ted ted ted ted ted ted",
+        "Line_05": "united located united located united",
+        "Line_06": "located",
+        "Line_07": "ted ted ted ted ted ted",
+        "Line_08": "counted tainted counted tainted counted",
+        "Line_09": "tainted"
+      }]
+    },
+    "Lesson_0268": {
+      "Name": "Lesson_0268",
+      "Number": 268,
+      "Description": "Common Patterns: one",
+      "Lines": [{
+        "Line_01": "one one one one one one",
+        "Line_02": "done phone done phone done phone",
+        "Line_03": "one one one one one one",
+        "Line_04": "drone cone drone cone drone cone",
+        "Line_05": "one one one one one one",
+        "Line_06": "bone zone bone zone bone zone"
+      }]
+    },
+    "Lesson_0269": {
+      "Name": "Lesson_0269",
+      "Number": 269,
+      "Description": "Common Patterns: ame",
+      "Lines": [{
+        "Line_01": "ame ame ame ame ame ame",
+        "Line_02": "came flame came flame came flame",
+        "Line_03": "ame ame ame ame ame ame",
+        "Line_04": "shame blame shame blame shame blame",
+        "Line_05": "ame ame ame ame ame ame",
+        "Line_06": "game same game same game same"
+      }]
+    },
+    "Lesson_0270": {
+      "Name": "Lesson_0270",
+      "Number": 270,
+      "Description": "Common Patterns: tor",
+      "Lines": [{
+        "Line_01": "tor tor tor tor tor tor",
+        "Line_02": "creator inventor creator inventor",
+        "Line_03": "creator inventor",
+        "Line_04": "tor tor tor tor tor tor",
+        "Line_05": "mentor vector mentor vector mentor",
+        "Line_06": "vector",
+        "Line_07": "tor tor tor tor tor tor",
+        "Line_08": "tractor rotor tractor rotor tractor",
+        "Line_09": "rotor"
+      }]
     }
   }]
 }
