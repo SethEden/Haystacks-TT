@@ -2833,6 +2833,99 @@
       "Lines": [{
         "Line_01": "9234712340987598102346501234087156926357"
       }]
+    },
+    "Lesson_0251": {
+      "Name": "Lesson_0251",
+      "Number": 251,
+      "Description": "Travel 4 and 5",
+      "Lines": [{
+        "Line_01": "f4v4r4 b5g5t5 rv4f 5t5gb5g fr4vr4f",
+        "Line_02": "de3cde3 f4v4f4r d3c3e3d v4c3r4e c3v4e3c3"
+      }]
+    },
+    "Lesson_0252": {
+      "Name": "Lesson_0252",
+      "Number": 252,
+      "Description": "Travel 3 and 2",
+      "Lines": [{
+        "Line_01": "d3 c3 d3 e3 s2x2 w2x2 s2 w2 s22x2",
+        "Line_02": "sw22 x22w2 x2w x22w d3 c3 d33e c33c33",
+        "Line_03": "e3d"
+      }]
+    },
+    "Lesson_0253": {
+      "Name": "Lesson_0253",
+      "Number": 253,
+      "Description": "Travel 1 and 5",
+      "Lines": [{
+        "Line_01": "a1z1q1 a1z1q1 g5t5b5 b5g5t5 1a1q1z1",
+        "Line_02": "5t5g5b5 1q1a1z1 5b5g5t5 1q1a1z1 5b5g5t"
+      }]
+    },
+    "Lesson_0254": {
+      "Name": "Lesson_0254",
+      "Number": 254,
+      "Description": "Travel 6 and 7",
+      "Lines": [{
+        "Line_01": "j7j7m7u7 h6n6y6 u7j7m7 6y6h6n j7m7u7",
+        "Line_02": "h6n6y6 7u7j7m7 6h6n6y6 6y6h6n6 7u7j7m7"
+      }]
+    },
+    "Lesson_0255": {
+      "Name": "Lesson_0255",
+      "Number": 255,
+      "Description": "Travel 8 and 9",
+      "Lines": [{
+        "Line_01": "k8i8,8 l9.9o9 k8i8,8 i8k8,8 l9l.o9l i8,8k8",
+        "Line_02": "8i8k8,8 9o9l9.9 8,8k8i8 9.9l9o9"
+      }]
+    },
+    "Lesson_0256": {
+      "Name": "Lesson_0256",
+      "Number": 256,
+      "Description": "Travel 0 and 6",
+      "Lines": [{
+        "Line_01": ";0p0/0 /0;0p0 /0p0/0 h7n7y6 h6y6m6",
+        "Line_02": ";0p0/0 n6y6 0;0/ n6y6 0;0/ 6n6n6n",
+        "Line_03": "0/0/0/"
+      }]
+    },
+    "Lesson_0257": {
+      "Name": "Lesson_0257",
+      "Number": 257,
+      "Description": "Keys 1 to 5",
+      "Lines": [{
+        "Line_01": "15243 5 4 3 1 23 51 43 2 11 23 42",
+        "Line_02": "15 5112 34143 5521 24123 52 2 11 324",
+        "Line_03": "5321"
+      }]
+    },
+    "Lesson_0258": {
+      "Name": "Lesson_0258",
+      "Number": 258,
+      "Description": "Keys 6 to 0",
+      "Lines": [{
+        "Line_01": "69 07 87 9 7 6789 807 9876 07 79 807",
+        "Line_02": "987 60 687 9870 607978 6078 067 66 087"
+      }]
+    },
+    "Lesson_0259": {
+      "Name": "Lesson_0259",
+      "Number": 259,
+      "Description": "Travel Left",
+      "Lines": [{
+        "Line_01": "f4d3 s2a1 g5 d3a1 f4d3 s2g5 a1g5d3",
+        "Line_02": "s2f4 g5d3s2 a1d3f4 s2d3 1a2s3d4f5g g54f"
+      }]
+    },
+    "Lesson_0260": {
+      "Name": "Lesson_0260",
+      "Number": 260,
+      "Description": "Travel Right",
+      "Lines": [{
+        "Line_01": "j7k8 l9;0 h6k8 j7k8 h6;0 l9k8 h6j7",
+        "Line_02": "h6j7 l9;0 k8;0 l9k8 j7h6 k8l9 j70; k89l"
+      }]
     }
   }]
 }
