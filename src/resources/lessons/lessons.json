@@ -3047,6 +3047,131 @@
         "Line_08": "tractor rotor tractor rotor tractor",
         "Line_09": "rotor"
       }]
+    },
+    "Lesson_0271": {
+      "Name": "Lesson_0271",
+      "Number": 271,
+      "Description": "Common Patterns: ine",
+      "Lines": [{
+        "Line_01": "ine ine ine ine ine ine",
+        "Line_02": "dine fine dine fine dine fine",
+        "Line_03": "ine ine ine ine ine ine",
+        "Line_04": "shine line shine line shine line",
+        "Line_05": "ine ine ine ine ine ine",
+        "Line_06": "wine pine wine pine wine pine"
+      }]
+    },
+    "Lesson_0272": {
+      "Name": "Lesson_0272",
+      "Number": 272,
+      "Description": "Common Patterns: ave",
+      "Lines": [{
+        "Line_01": "ave ave ave ave ave ave",
+        "Line_02": "gave save gave save gave save",
+        "Line_03": "ave ave ave ave ave ave",
+        "Line_04": "behave forgave behave forgave behave forgave",
+        "Line_05": "ave ave ave ave ave ave",
+        "Line_06": "wave cave wave cave wave cave"
+      }]
+    },
+    "Lesson_0273": {
+      "Name": "Lesson_0273",
+      "Number": 273,
+      "Description": "Common Patterns: ound",
+      "Lines": [{
+        "Line_01": "ound ound ound ound ound",
+        "Line_02": "ground found ground found ground found",
+        "Line_03": "ound ound ound ound ound",
+        "Line_04": "sound hound sound hound sound hound",
+        "Line_05": "ound ound ound ound ound",
+        "Line_06": "round pound round pound round pound"
+      }]
+    },
+    "Lesson_0274": {
+      "Name": "Lesson_0274",
+      "Number": 274,
+      "Description": "Common Patterns: age",
+      "Lines": [{
+        "Line_01": "age age age age age age",
+        "Line_02": "stage manage stage manage stage manage",
+        "Line_03": "age age age age age age",
+        "Line_04": "page wage page wage page wage",
+        "Line_05": "age age age age age age",
+        "Line_06": "courage foliage courage foliage courage foliage"
+      }]
+    },
+    "Lesson_0275": {
+      "Name": "Lesson_0275",
+      "Number": 275,
+      "Description": "Dynamic Practice 8",
+      "Lines": [{
+        "Line_01": "gr gr ogr gra gravity groups programs",
+        "Line_02": "ge ge rge dge get large bridge",
+        "Line_03": "ga ga aga gai against gave gas",
+        "Line_04": "gn gn agn ign magnetic electromagnetic designed",
+        "Line_05": "gi gi ngi gin engines changing ranging"
+      }]
+    },
+    "Lesson_0276": {
+      "Name": "Lesson_0276",
+      "Number": 276,
+      "Description": "San Francisco",
+      "Lines": [{
+        "Line_01": "San Francisco, officially the City and",
+        "Line_02": "County of San Francisco, is the",
+        "Line_03": "financial, cultural, and transportation",
+        "Line_04": "center of the San Francisco Bay Area,",
+        "Line_05": "a region of 7.15 million people which",
+        "Line_06": "includes San Jose and Oakland."
+      }]
+    },
+    "Lesson_0277": {
+      "Name": "Lesson_0277",
+      "Number": 277,
+      "Description": "Spoken Languages",
+      "Lines": [{
+        "Line_01": "There are over 6,000 languages spoken",
+        "Line_02": "in the world today, many of which are",
+        "Line_03": "spoken by fewer than a few hundred",
+        "Line_04": "people. The top 10 or 12 languages,",
+        "Line_05": "however, make up the vast majority of",
+        "Line_06": "all of the speakers in the world."
+      }]
+    },
+    "Lesson_0278": {
+      "Name": "Lesson_0278",
+      "Number": 278,
+      "Description": "New Mexico",
+      "Lines": [{
+        "Line_01": "New Mexico became a state on January",
+        "Line_02": "6, 1912 and became the 47th state",
+        "Line_03": "accepted into the United States. The",
+        "Line_04": "state capital is Santa Fe. The",
+        "Line_05": "population is 1,819,046 and most of",
+        "Line_06": "the people live in the biggest city, Albuquerque."
+      }]
+    },
+    "Lesson_0279": {
+      "Name": "Lesson_0279",
+      "Number": 279,
+      "Description": "Earthquake",
+      "Lines": [{
+        "Line_01": "There are dozens of tectonic plates",
+        "Line_02": "below the surface of the Earth that",
+        "Line_03": "move continuously and slowly past each",
+        "Line_04": "other. When the plates squeeze or",
+        "Line_05": "stretch, huge rocks form at their",
+        "Line_06": "edges and the rocks shift with great",
+        "Line_07": "force, causing an earthquake."
+      }]
+    },
+    "Lesson_0280": {
+      "Name": "Lesson_0280",
+      "Number": 280,
+      "Description": "Test 32: Play Words 11",
+      "Lines": [{
+        "Line_01": "about world Today many county Surface state Mexico past huge edge shift Great force vast area People"
+      }]
     }
   }]
 }
