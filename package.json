@@ -33,7 +33,9 @@
     "dotenv": "^16.0.0",
     "pcm-util": "^3.0.0",
     "pkg": ">=5.8.1",
-    "speaker": "^0.5.4"
+    "speaker": "^0.5.4",
+    "word-wrap": ">=1.2.4",
+    "semver": ">=5.7.2"
   },
   "devDependencies": {
     "eslint": "^8.18.0",
