@@ -1,6 +1,6 @@
 {
   "name": "haystacks-tt",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "A simple Haystacks-async based command line typing tutor program for Windows, Mac & Linux.",
   "main": "./src/haystacks-tt.js",
   "bin": "./bin/haystacks-tt.js",
@@ -25,15 +25,17 @@
   "author": "Seth Hollingsead <iceversaka@hotmail.com>",
   "license": "MIT",
   "dependencies": {
-    "@haystacks/async": ">=0.2.7",
-    "@haystacks/constants": ">=0.2.7",
+    "@haystacks/async": ">=0.2.11",
+    "@haystacks/constants": ">=0.2.11",
     "audio-generator": "^2.1.2",
     "audio-through": "^2.0.0",
     "chalk": "5.0.1",
     "dotenv": "^16.0.0",
     "pcm-util": "^3.0.0",
     "pkg": ">=5.8.1",
-    "speaker": "^0.5.4"
+    "speaker": "^0.5.4",
+    "word-wrap": ">=1.2.4",
+    "semver": ">=5.7.2"
   },
   "devDependencies": {
     "eslint": "^8.18.0",
