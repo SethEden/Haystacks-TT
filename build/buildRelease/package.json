@@ -23,9 +23,10 @@
   "author": "Seth Hollingsead",
   "license": "MIT",
   "dependencies": {
-    "@haystacks/async": ">=0.2.7",
-    "@haystacks/constants": ">=0.2.7",
-    "figlet": "^1.5.2"
+    "@haystacks/async": ">=0.2.11",
+    "@haystacks/constants": ">=0.2.11",
+    "figlet": "^1.5.2",
+    "semver": ">=5.7.2"
   },
   "bugs": {
     "url": "https://github.com/SethEden/haystacks-async/issues"
