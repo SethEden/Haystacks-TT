@@ -2215,14 +2215,1229 @@
     "Lesson_0200": {
       "Name": "Lesson_0200",
       "Number": 200,
-      "Description": "",
+      "Description": "Puppies",
       "Lines": [{
-        "Line_01": "Puppies",
-        "Line_02": "Puppies develop very quickly during",
-        "Line_03": "their first three months, particularly",
-        "Line_04": "after their eyes and ears open and",
-        "Line_05": "they are no longer completely dependent",
-        "Line_06": "on their mother."
+        "Line_01": "Puppies develop very quickly during",
+        "Line_02": "their first three months, particularly",
+        "Line_03": "after their eyes and ears open and",
+        "Line_04": "they are no longer completely dependent",
+        "Line_05": "on their mother."
+      }]
+    },
+    "Lesson_0201": {
+      "Name": "Lesson_0201",
+      "Number": 201,
+      "Description": "Books",
+      "Lines": [{
+        "Line_01": "Books are teh quietest and most",
+        "Line_02": "constant of friends; they are the most",
+        "Line_03": "accessible and wisest of counselors,",
+        "Line_04": "and the most patient of teachers.",
+        "Line_05": "Charles William Eliot"
+      }]
+    },
+    "Lesson_0202": {
+      "Name": "Lesson_0202",
+      "Number": 202,
+      "Description": "Test 25: Play Words 6",
+      "Lines": [{
+        "Line_01": "First after Guess dog develop million Quick Animal teacher usually most During listen word book year"
+      }]
+    },
+    "Lesson_0203": {
+      "Name": "Lesson_0203",
+      "Number": 203,
+      "Description": "Singing Whales",
+      "Lines": [{
+        "Line_01": "Whales love to sing. They use songs as",
+        "Line_02": "a form of communication, and also just",
+        "Line_03": "for fun. After a period of tim, they",
+        "Line_04": "get bored of the same song and begin",
+        "Line_05": "to sing a different tune."
+      }]
+    },
+    "Lesson_0204": {
+      "Name": "Lesson_0204",
+      "Number": 204,
+      "Description": "Africa",
+      "Lines": [{
+        "Line_01": "Africa is the second largest continent",
+        "Line_02": "in the world in both size and",
+        "Line_03": "population. Madagascar is not only a",
+        "Line_04": "popular animated comedy film, but also",
+        "Line_05": "the largest island in Africa."
+      }]
+    },
+    "Lesson_0205": {
+      "Name": "Lesson_0205",
+      "Number": 205,
+      "Description": "Polyps",
+      "Lines": [{
+        "Line_01": "Polyps attach themselves to surfaces",
+        "Line_02": "like docks and bulkheads. There they",
+        "Line_03": "grow, until late spring when they",
+        "Line_04": "become millions of new jellyfish. These",
+        "Line_05": "jellyfish are sting ready by summer."
+      }]
+    },
+    "Lesson_0206": {
+      "Name": "Lesson_0206",
+      "Number": 206,
+      "Description": "Photosynthesis",
+      "Lines": [{
+        "Line_01": "All living things need energy to live,",
+        "Line_02": "and energy comes from food. Plants can",
+        "Line_03": "not eat food like animals, so they",
+        "Line_04": "must get their energy in a different",
+        "Line_05": "way. They use photosynthesis."
+      }]
+    },
+    "Lesson_0207": {
+      "Name": "Lesson_0207",
+      "Number": 207,
+      "Description": "Test 26: Play Words 7",
+      "Lines": [{
+        "Line_01": "sing Energy song attach size Both form need Food grow popular film begin Same Period Africa island"
+      }]
+    },
+    "Lesson_0208": {
+      "Name": "Lesson_0208",
+      "Number": 208,
+      "Description": "Astronauts",
+      "Lines": [{
+        "Line_01": "The name astronaut comes from the",
+        "Line_02": "Greek words for star and sailor. Astro",
+        "Line_03": "means star, and naut refers to",
+        "Line_04": "sailors. Astronauts orbiting Earth can",
+        "Line_05": "see up to sixteen sunrises and sunsets",
+        "Line_06": "every day."
+      }]
+    },
+    "Lesson_0209": {
+      "Name": "Lesson_0209",
+      "Number": 209,
+      "Description": "Cultural Diversity",
+      "Lines": [{
+        "Line_01": "Cultural diversity is having different",
+        "Line_02": "cultures respect each others",
+        "Line_03": "differences. It could also mean the",
+        "Line_04": "variety of human societies or cultures",
+        "Line_05": "in a specific region, or in the world",
+        "Line_06": "as a whole."
+      }]
+    },
+    "Lesson_0210": {
+      "Name": "Lesson_0210",
+      "Number": 210,
+      "Description": "Sharks",
+      "Lines": [{
+        "Line_01": "Sharks do not have a single bone in",
+        "Line_02": "their bodies. Rather then bones, sharks",
+        "Line_03": "have a skeleton made of cartilage.",
+        "Line_04": "Cartilage is the same type of tough,",
+        "Line_05": "flexible tissue that makes up human",
+        "Line_06": "ears and noses."
+      }]
+    },
+    "Lesson_0211": {
+      "Name": "Lesson_0211",
+      "Number": 211,
+      "Description": "Biology",
+      "Lines": [{
+        "Line_01": "Like al sciences, biology uses the",
+        "Line_02": "scientific method. This means that",
+        "Line_03": "biologists must be able to show",
+        "Line_04": "evidence for their ideas, and that",
+        "Line_05": "other biologists must be able to test",
+        "Line_06": "the ideas for themselves."
+      }]
+    },
+    "Lesson_0212": {
+      "Name": "Lesson_0212",
+      "Number": 212,
+      "Description": "Test 27: Play Words 8",
+      "Lines": [{
+        "Line_01": "single each human respect Sailor Tissue method Greek idea Name Sharks nose bone region star culture"
+      }]
+    },
+    "Lesson_0213": {
+      "Name": "Lesson_0213",
+      "Number": 213,
+      "Description": "Typewriters",
+      "Lines": [{
+        "Line_01": "Typewriters, unlike modern keyboards,",
+        "Line_02": "use large mechanical parts to press",
+        "Line_03": "ink down on paper. If someone pressed",
+        "Line_04": "down keys that were next to each other",
+        "Line_05": "on the typewriter, the parts would",
+        "Line_06": "sometimes get jammed."
+      }]
+    },
+    "Lesson_0214": {
+      "Name": "Lesson_0214",
+      "Number": 214,
+      "Description": "Pandas",
+      "Lines": [{
+        "Line_01": "The giant panda, or panda, is a bear",
+        "Line_02": "native to central western and",
+        "Line_03": "southwestern China. It is easily",
+        "Line_04": "recognized by its large, distinctive",
+        "Line_05": "black patches around the eyes, over",
+        "Line_06": "the ears, and across its round body."
+      }]
+    },
+    "Lesson_0215": {
+      "Name": "Lesson_0215",
+      "Number": 215,
+      "Description": "Biologist",
+      "Lines": [{
+        "Line_01": "People who study biology are called",
+        "Line_02": "biologists. Biology looks at how",
+        "Line_03": "animals and other organisms behave and",
+        "Line_04": "work, and what they are like. Biology",
+        "Line_05": "also studies how organisms react with",
+        "Line_06": "each other and the environment."
+      }]
+    },
+    "Lesson_0216": {
+      "Name": "Lesson_0216",
+      "Number": 216,
+      "Description": "Keyboard Layout",
+      "Lines": [{
+        "Line_01": "Keyboards look as if someone jumbled",
+        "Line_02": "the letters around to make it harder",
+        "Line_03": "to find each key. In fact, the QWERTY",
+        "Line_04": "layout was very carefully designed to",
+        "Line_05": "prevent the mechanical parts of",
+        "Line_06": "typewriters from jamming together."
+      }]
+    },
+    "Lesson_0217": {
+      "Name": "Lesson_0217",
+      "Number": 217,
+      "Description": "Test 28: Play Words 9",
+      "Lines": [{
+        "Line_01": "modern large Bioogy around prevent Behave keys native People look body Letter round keyboard"
+      }]
+    },
+    "Lesson_0218": {
+      "Name": "Lesson_0218",
+      "Number": 218,
+      "Description": "Super Power",
+      "Lines": [{
+        "Line_01": "Our muscles have an amazing way of",
+        "Line_02": "letting our bodies do difficult things",
+        "Line_03": "without even thinking about it. It is",
+        "Line_04": "called Muscle Memory. When you practice",
+        "Line_05": "typing, you are building muscle memory",
+        "Line_06": "so you can type without having to",
+        "Line_07": "focus on it."
+      }]
+    },
+    "Lesson_0219": {
+      "Name": "Lesson_0219",
+      "Number": 219,
+      "Description": "Mongolia's Capital",
+      "Lines": [{
+        "Line_01": "Ulaanbaatar is the capital of Mongolia",
+        "Line_02": "and its largest city. As a nomadic",
+        "Line_03": "city, the capital used to move three",
+        "Line_04": "times a year. With just four people",
+        "Line_05": "per square mile, Mongolia is the least",
+        "Line_06": "densely populated country on Earth."
+      }]
+    },
+    "Lesson_0220": {
+      "Name": "Lesson_0220",
+      "Number": 220,
+      "Description": "Chinese Art",
+      "Lines": [{
+        "Line_01": "Arts and crafts have a long history in",
+        "Line_02": "China. Thousands of years ago the",
+        "Line_03": "Chinese were some of the first people",
+        "Line_04": "to use silk, jade, bronze, wood, and",
+        "Line_05": "paper to make art. The artistic",
+        "Line_06": "writing called caligraphy was invented",
+        "Line_07": "in China."
+      }]
+    },
+    "Lesson_0221": {
+      "Name": "Lesson_0221",
+      "Number": 221,
+      "Description": "Pandas, Part 2",
+      "Lines": [{
+        "Line_01": "Giant pandas live in the temperate",
+        "Line_02": "zone bamboo forests of central China.",
+        "Line_03": "They are among the best recognized but",
+        "Line_04": "rarest animals in the world. Pandas",
+        "Line_05": "have come to symbolize endangered",
+        "Line_06": "species and conservation efforts."
+      }]
+    },
+    "Lesson_0222": {
+      "Name": "Lesson_0222",
+      "Number": 222,
+      "Description": "Test 29: Play Words 10",
+      "Lines": [{
+        "Line_01": "boxing Earth live China move Giant capital among Mile pandas Three black history paper Effort Wood"
+      }]
+    },
+    "Lesson_0223": {
+      "Name": "Lesson_0223",
+      "Number": 223,
+      "Description": "Dynamic Practice 6",
+      "Lines": [{
+        "Line_01": "gr gr gre gro great gradually program",
+        "Line_02": "ge ge nge get get range general",
+        "Line_03": "ga ga aga gai again gave games",
+        "Line_04": "gn gn ign gna design doreign signals",
+        "Line_05": "gi gi egi ngi begins engines giving"
+      }]
+    },
+    "Lesson_0224": {
+      "Name": "Lesson_0224",
+      "Number": 224,
+      "Description": "Lose/Loose/Loss",
+      "Lines": [{
+        "Line_01": "It can be very frustrating to lose",
+        "Line_02": "your homework.",
+        "Line_03": "lose lose lose lose lose",
+        "Line_04": "Be careful because your shoelace is",
+        "Line_05": "loose.",
+        "Line_06": "loose loose loose loose loose",
+        "Line_07": "Their loss today means they are out of",
+        "Line_08": "the championship.",
+        "Line_09": "loss loss loss loss loss"
+      }]
+    },
+    "Lesson_0225": {
+      "Name": "Lesson_0225",
+      "Number": 225,
+      "Description": "Scene/Science",
+      "Lines": [{
+        "Line_01": "The artist painted a beautiful scene",
+        "Line_02": "with mountains.",
+        "Line_03": "scene scene scene scene scene",
+        "Line_04": "I love learning about the universe in",
+        "Line_05": "science class.",
+        "Line_06": "science science science science science",
+        "Line_07": "She drew a scene of her science",
+        "Line_08": "classroom.",
+        "Line_09": "scene science scene science"
+      }]
+    },
+    "Lesson_0226": {
+      "Name": "Lesson_0226",
+      "Number": 226,
+      "Description": "Thought/Fought",
+      "Lines": [{
+        "Line_01": "She thought she saw a rabgbit in the woods.",
+        "Line_02": "thought thought thought thought thought",
+        "Line_03": "They fought over the last piece of pizza.",
+        "Line_04": "fought fought fought fought fought",
+        "Line_05": "I thought they fought too much.",
+        "Line_06": "thought fought thought fought"
+      }]
+    },
+    "Lesson_0227": {
+      "Name": "Lesson_0227",
+      "Number": 227,
+      "Description": "Hole/Whole",
+      "Lines": [{
+        "Line_01": "The dog dug a hole in the backyard",
+        "Line_02": "for his bone.",
+        "Line_03": "hole hole hole hole hole",
+        "Line_04": "My brother and sister ate the whole pizza.",
+        "Line_05": "whole whole whole whole whole",
+        "Line_06": "The fat squirrel squished its whole",
+        "Line_07": "body into the tiny hole in the tree.",
+        "Line_08": "hole whole hole whole"
+      }]
+    },
+    "Lesson_0228": {
+      "Name": "Lesson_0228",
+      "Number": 228,
+      "Description": "Prepare/Presence",
+      "Lines": [{
+        "Line_01": "To prepare for a test, you should",
+        "Line_02": "study hard.",
+        "Line_03": "prepare prepare prepare prepare prepare",
+        "Line_04": "Your presence in class makes everyone",
+        "Line_05": "happy.",
+        "Line_06": "presence presence presence presence presence",
+        "Line_07": "They will prepare for the presence of",
+        "Line_08": "the queen.",
+        "Line_09": "prepare presence prepare presence"
+      }]
+    },
+    "Lesson_0229": {
+      "Name": "Lesson_0229",
+      "Number": 229,
+      "Description": "Desert/Dessert",
+      "Lines": [{
+        "Line_01": "Camels are well adapted to living in",
+        "Line_02": "the desert.",
+        "Line_03": "desert desert desert desert desert",
+        "Line_04": "She baked a delicious dessert to share",
+        "Line_05": "with her friends.",
+        "Line_06": "dessert dessert dessert dessert dessert",
+        "Line_07": "In the hot and dry desert, cold ice",
+        "Line_08": "cream makes a great dessert.",
+        "Line_09": "desert dessert desert dessert"
+      }]
+    },
+    "Lesson_0230": {
+      "Name": "Lesson_0230",
+      "Number": 230,
+      "Description": "Piece/Peace",
+      "Lines": [{
+        "Line_01": "He offered her a piece of the vanilla",
+        "Line_02": "cake.",
+        "Line_03": "piece piece piece piece piece",
+        "Line_04": "Everyone wants world peace.",
+        "Line_05": "peace peace peace peace peace",
+        "Line_06": "She offered her sister a piece of cake",
+        "Line_07": "to make peace with her.",
+        "Line_08": "piece peace piece peace"
+      }]
+    },
+    "Lesson_0231": {
+      "Name": "Lesson_0231",
+      "Number": 231,
+      "Description": "Definitely",
+      "Lines": [{
+        "Line_01": "Our teacher is definitely the best.",
+        "Line_02": "definitely definitely definitely",
+        "Line_03": "definitely definitely",
+        "Line_04": "I have completely mastered touch",
+        "Line_05": "typing.",
+        "Line_06": "completely completely completely",
+        "Line_07": "completely completely",
+        "Line_08": "He definitely said he was completely",
+        "Line_09": "finished.",
+        "Line_10": "definitely completely definitely",
+        "Line_11": "completely"
+      }]
+    },
+    "Lesson_0232": {
+      "Name": "Lesson_0232",
+      "Number": 232,
+      "Description": "Ridiculous",
+      "Lines": [{
+        "Line_01": "They laughed because the clown made a",
+        "Line_02": "ridiculous face.",
+        "Line_03": "ridiculous ridiculous ridiculous",
+        "Line_04": "ridiculous ridiculous",
+        "Line_05": "The glamorous movie star posed for a",
+        "Line_06": "picture.",
+        "Line_07": "glamorous glamorous glamorous glamorous",
+        "Line_08": "glamorous",
+        "Line_09": "The clown looked ridiculous in the",
+        "Line_10": "glamorus dress.",
+        "Line_11": "ridiculous glamorous ridiculous glamorous"
+      }]
+    },
+    "Lesson_0233": {
+      "Name": "Lesson_0233",
+      "Number": 233,
+      "Description": "Scent/Cent",
+      "Lines": [{
+        "Line_01": "The scent of baking cookies drifted",
+        "Line_02": "rom the bakery.",
+        "Line_03": "scent scent scent scent scent",
+        "Line_04": "A penny is one cent and a quarter is",
+        "Line_05": "twenty five cents.",
+        "Line_06": "cent cent cent cent cent",
+        "Line_07": "The scent of the cookies convinced him",
+        "Line_08": "to spend hsi last cent on them.",
+        "Line_09": "scent cent scent cent"
+      }]
+    },
+    "Lesson_0234": {
+      "Name": "Lesson_0234",
+      "Number": 234,
+      "Description": "Dynamic Practice 7",
+      "Lines": [{
+        "Line_01": "gr gr gro gre ground groups greatly",
+        "Line_02": "ge ge nge rge angeles largely bridges",
+        "Line_03": "ga ga gar gav gardens garden gave",
+        "Line_04": "gn gn ign agn signal electromagnetic",
+        "Line_05": "foreign",
+        "Line_06": "gi gi igi gin original give origin"
+      }]
+    },
+    "Lesson_0235": {
+      "Name": "Lesson_0235",
+      "Number": 235,
+      "Description": "Keys 4 and 7",
+      "Lines": [{
+        "Line_01": "4747447",
+        "Line_02": "7477447",
+        "Line_03": "447474"
+      }]
+    },
+    "Lesson_0236": {
+      "Name": "Lesson_0236",
+      "Number": 236,
+      "Description": "Review: 4 and 7",
+      "Lines": [{
+        "Line_01": "f4f4 j7j7 f4j7 jj7 4ffj 74jf 47fj jf74",
+        "Line_02": "447 4f7j 7j4f j47f 447j 74jf j7j474"
+      }]
+    },
+    "Lesson_0237": {
+      "Name": "Lesson_0237",
+      "Number": 237,
+      "Description": "Practice: 4 and 7",
+      "Lines": [{
+        "Line_01": "44 cats 74 men 44 doors in the room",
+        "Line_02": "74 trees more than 47 is the number 7",
+        "Line_03": "is a great choice 4 is a better one 4",
+        "Line_04": "by 7 is you guessed right 44 more",
+        "Line_05": "days give me 4 and a 7 then 47 then",
+        "Line_06": "44777"
+      }]
+    },
+    "Lesson_0238": {
+      "Name": "Lesson_0238",
+      "Number": 238,
+      "Description": "Keys 3 and 8",
+      "Lines": [{
+        "Line_01": "8838383",
+        "Line_02": "3883883",
+        "Line_03": "838838"
+      }]
+    },
+    "Lesson_0239": {
+      "Name": "Lesson_0239",
+      "Number": 239,
+      "Description": "Review: 3 and 8",
+      "Lines": [{
+        "Line_01": "d3k8 d3k8 d3k8 kk8 3dd8 k38dk 83kd8",
+        "Line_02": "kk38dk k83k 38dk3 k83d d38 k3d8 k 3 8 d"
+      }]
+    },
+    "Lesson_0240": {
+      "Name": "Lesson_0240",
+      "Number": 240,
+      "Description": "Practice: 3 and 8",
+      "Lines": [{
+        "Line_01": "88 ittle dogs 3 big cows 33 more",
+        "Line_02": "likes 83 is greater 38 is not 88 cars",
+        "Line_03": "3 shoes 33 bags now 88 sounds good 33",
+        "Line_04": "not so good 3 is a little less 8 is",
+        "Line_05": "more than that 333 and 888 now 338",
+        "Line_06": "and 883"
+      }]
+    },
+    "Lesson_0241": {
+      "Name": "Lesson_0241",
+      "Number": 241,
+      "Description": "Keys 2 and 9",
+      "Lines": [{
+        "Line_01": "2292929",
+        "Line_02": "2292992",
+        "Line_03": "929929"
+      }]
+    },
+    "Lesson_0242": {
+      "Name": "Lesson_0242",
+      "Number": 242,
+      "Description": "Review: 2 and 9",
+      "Lines": [{
+        "Line_01": "s2 l9 s2l9 292s 9l2s 9ll2s 2ls9 9s2l",
+        "Line_02": "l9s2 ll2s 929s 29sl ls92 92ll 2s99 2ls"
+      }]
+    },
+    "Lesson_0243": {
+      "Name": "Lesson_0243",
+      "Number": 243,
+      "Description": "Practice: 2 and 9",
+      "Lines": [{
+        "Line_01": "29 bat 92 boats 99 cents with 22 more",
+        "Line_02": "2 short plants and 92 stones 2 white",
+        "Line_03": "cars travel 9 hundred miles 29 times",
+        "Line_04": "to the zoo 2 is a number and 9 is",
+        "Line_05": "too but 2 is the smaller one you must",
+        "Line_06": "know"
+      }]
+    },
+    "Lesson_0244": {
+      "Name": "Lesson_0244",
+      "Number": 244,
+      "Description": "Keys 1 and 0",
+      "Lines": [{
+        "Line_01": "1001010",
+        "Line_02": "0100101",
+        "Line_03": "010011"
+      }]
+    },
+    "Lesson_0245": {
+      "Name": "Lesson_0245",
+      "Number": 245,
+      "Description": "Review: 1 and 0",
+      "Lines": [{
+        "Line_01": "a1 ;0 a10; 01;a 1010 a;10 0110;a",
+        "Line_02": ";a001; 10a;10a; 011;a 1;a0 0a;1 a1;0",
+        "Line_03": ";1a0;"
+      }]
+    },
+    "Lesson_0246": {
+      "Name": "Lesson_0246",
+      "Number": 246,
+      "Description": "Practice: 1 and 0",
+      "Lines": [{
+        "Line_01": "1 is teh only one 0 is none 11 is",
+        "Line_02": "more and 10 is less 100 is a ot but",
+        "Line_03": "1000 is even more learn the numbers",
+        "Line_04": "and you should know more 1010101 type",
+        "Line_05": "the key 1 and next type the key 0"
+      }]
+    },
+    "Lesson_0247": {
+      "Name": "Lesson_0247",
+      "Number": 247,
+      "Description": "Keys 5 and 6",
+      "Lines": [{
+        "Line_01": "5656555",
+        "Line_02": "5656556",
+        "Line_03": "566565"
+      }]
+    },
+    "Lesson_0248": {
+      "Name": "Lesson_0248",
+      "Number": 248,
+      "Description": "Review: 5 and 6",
+      "Lines": [{
+        "Line_01": "f5 j6 g5 h6 56gj 55 66 5656 j65f f56j",
+        "Line_02": "jf56 j5f6 6f5j 5j6f j556f f66j5 f5j6f"
+      }]
+    },
+    "Lesson_0249": {
+      "Name": "Lesson_0249",
+      "Number": 249,
+      "Description": "Practice: 5 and 6",
+      "Lines": [{
+        "Line_01": "5 cute dolphins, 6 big whales, and 55",
+        "Line_02": "baloons are floatng in the air. 56",
+        "Line_03": "reversed is 65 but 56 is smaller than",
+        "Line_04": "65. Five pounds of sand in 6 little",
+        "Line_05": "jars. 5 is my favorite number and 6",
+        "Line_06": "is yours."
+      }]
+    },
+    "Lesson_0250": {
+      "Name": "Lesson_0250",
+      "Number": 250,
+      "Description": "Test 30: All Numbers",
+      "Lines": [{
+        "Line_01": "9234712340987598102346501234087156926357"
+      }]
+    },
+    "Lesson_0251": {
+      "Name": "Lesson_0251",
+      "Number": 251,
+      "Description": "Travel 4 and 5",
+      "Lines": [{
+        "Line_01": "f4v4r4 b5g5t5 rv4f 5t5gb5g fr4vr4f",
+        "Line_02": "de3cde3 f4v4f4r d3c3e3d v4c3r4e c3v4e3c3"
+      }]
+    },
+    "Lesson_0252": {
+      "Name": "Lesson_0252",
+      "Number": 252,
+      "Description": "Travel 3 and 2",
+      "Lines": [{
+        "Line_01": "d3 c3 d3 e3 s2x2 w2x2 s2 w2 s22x2",
+        "Line_02": "sw22 x22w2 x2w x22w d3 c3 d33e c33c33",
+        "Line_03": "e3d"
+      }]
+    },
+    "Lesson_0253": {
+      "Name": "Lesson_0253",
+      "Number": 253,
+      "Description": "Travel 1 and 5",
+      "Lines": [{
+        "Line_01": "a1z1q1 a1z1q1 g5t5b5 b5g5t5 1a1q1z1",
+        "Line_02": "5t5g5b5 1q1a1z1 5b5g5t5 1q1a1z1 5b5g5t"
+      }]
+    },
+    "Lesson_0254": {
+      "Name": "Lesson_0254",
+      "Number": 254,
+      "Description": "Travel 6 and 7",
+      "Lines": [{
+        "Line_01": "j7j7m7u7 h6n6y6 u7j7m7 6y6h6n j7m7u7",
+        "Line_02": "h6n6y6 7u7j7m7 6h6n6y6 6y6h6n6 7u7j7m7"
+      }]
+    },
+    "Lesson_0255": {
+      "Name": "Lesson_0255",
+      "Number": 255,
+      "Description": "Travel 8 and 9",
+      "Lines": [{
+        "Line_01": "k8i8,8 l9.9o9 k8i8,8 i8k8,8 l9l.o9l i8,8k8",
+        "Line_02": "8i8k8,8 9o9l9.9 8,8k8i8 9.9l9o9"
+      }]
+    },
+    "Lesson_0256": {
+      "Name": "Lesson_0256",
+      "Number": 256,
+      "Description": "Travel 0 and 6",
+      "Lines": [{
+        "Line_01": ";0p0/0 /0;0p0 /0p0/0 h7n7y6 h6y6m6",
+        "Line_02": ";0p0/0 n6y6 0;0/ n6y6 0;0/ 6n6n6n",
+        "Line_03": "0/0/0/"
+      }]
+    },
+    "Lesson_0257": {
+      "Name": "Lesson_0257",
+      "Number": 257,
+      "Description": "Keys 1 to 5",
+      "Lines": [{
+        "Line_01": "15243 5 4 3 1 23 51 43 2 11 23 42",
+        "Line_02": "15 5112 34143 5521 24123 52 2 11 324",
+        "Line_03": "5321"
+      }]
+    },
+    "Lesson_0258": {
+      "Name": "Lesson_0258",
+      "Number": 258,
+      "Description": "Keys 6 to 0",
+      "Lines": [{
+        "Line_01": "69 07 87 9 7 6789 807 9876 07 79 807",
+        "Line_02": "987 60 687 9870 607978 6078 067 66 087"
+      }]
+    },
+    "Lesson_0259": {
+      "Name": "Lesson_0259",
+      "Number": 259,
+      "Description": "Travel Left",
+      "Lines": [{
+        "Line_01": "f4d3 s2a1 g5 d3a1 f4d3 s2g5 a1g5d3",
+        "Line_02": "s2f4 g5d3s2 a1d3f4 s2d3 1a2s3d4f5g g54f"
+      }]
+    },
+    "Lesson_0260": {
+      "Name": "Lesson_0260",
+      "Number": 260,
+      "Description": "Travel Right",
+      "Lines": [{
+        "Line_01": "j7k8 l9;0 h6k8 j7k8 h6;0 l9k8 h6j7",
+        "Line_02": "h6j7 l9;0 k8;0 l9k8 j7h6 k8l9 j70; k89l"
+      }]
+    },
+    "Lesson_0261": {
+      "Name": "Lesson_0261",
+      "Number": 261,
+      "Description": "Left Hand Numbers",
+      "Lines": [{
+        "Line_01": "a1 d3 s2 f4 g5 c2 d4 v5 c1 x4 r4",
+        "Line_02": "ev2 ec4 rv2 ce2 ez5 x4c2 b2v4 z4 x2",
+        "Line_03": "c53 v2"
+      }]
+    },
+    "Lesson_0262": {
+      "Name": "Lesson_0262",
+      "Number": 262,
+      "Description": "Right Hand Numbers",
+      "Lines": [{
+        "Line_01": ";0 l9 k8 j7 p0 o9 i8 u7 ju7 ki8 lo9",
+        "Line_02": ";p0 m7 m7 ,8 ,8 l9 l9 p0 p0 7j 8k",
+        "Line_03": "9l 0p"
+      }]
+    },
+    "Lesson_0263": {
+      "Name": "Lesson_0263",
+      "Number": 263,
+      "Description": "Travel All Numbers",
+      "Lines": [{
+        "Line_01": "j7f4 k8d3 l9s2 ;0a1 4f7j 3d8k 2s9l",
+        "Line_02": "1a0; 10a; 29sl 38dk 47fj 56gh dk38 sl29"
+      }]
+    },
+    "Lesson_0264": {
+      "Name": "Lesson_0264",
+      "Number": 264,
+      "Description": "Test 31: Numbers",
+      "Lines": [{
+        "Line_01": "15cars 6bears 4ducks 9chairs 1bus 20trees 9cents 3boats 7trains 18homes 23bikes 76planes"
+      }]
+    },
+    "Lesson_0265": {
+      "Name": "Lesson_0265",
+      "Number": 265,
+      "Description": "Common Patterns: eal",
+      "Lines": [{
+        "Line_01": "eal eal eal eal eal eal",
+        "Line_02": "deal real deal real deal real",
+        "Line_03": "eal eal eal eal eal eal",
+        "Line_04": "real meal real meal real meal",
+        "Line_05": "eal eal eal eal eal eal",
+        "Line_06": "heal peal heal peal heal peal"
+      }]
+    },
+    "Lesson_0266": {
+      "Name": "Lesson_0266",
+      "Number": 266,
+      "Description": "Common Patterns: ate",
+      "Lines": [{
+        "Line_01": "ate ate ate ate ate ate",
+        "Line_02": "fate late fate late fate late",
+        "Line_03": "ate ate ate ate ate ate",
+        "Line_04": "hate gate hate gate hate gate",
+        "Line_05": "ate ate ate ate ate ate",
+        "Line_06": "date rate date rate date rate"
+      }]
+    },
+    "Lesson_0267": {
+      "Name": "Lesson_0267",
+      "Number": 267,
+      "Description": "Common Patterns: ted",
+      "Lines": [{
+        "Line_01": "ted ted ted ted ted ted",
+        "Line_02": "created interested created interested",
+        "Line_03": "created interested",
+        "Line_04": "ted ted ted ted ted ted",
+        "Line_05": "united located united located united",
+        "Line_06": "located",
+        "Line_07": "ted ted ted ted ted ted",
+        "Line_08": "counted tainted counted tainted counted",
+        "Line_09": "tainted"
+      }]
+    },
+    "Lesson_0268": {
+      "Name": "Lesson_0268",
+      "Number": 268,
+      "Description": "Common Patterns: one",
+      "Lines": [{
+        "Line_01": "one one one one one one",
+        "Line_02": "done phone done phone done phone",
+        "Line_03": "one one one one one one",
+        "Line_04": "drone cone drone cone drone cone",
+        "Line_05": "one one one one one one",
+        "Line_06": "bone zone bone zone bone zone"
+      }]
+    },
+    "Lesson_0269": {
+      "Name": "Lesson_0269",
+      "Number": 269,
+      "Description": "Common Patterns: ame",
+      "Lines": [{
+        "Line_01": "ame ame ame ame ame ame",
+        "Line_02": "came flame came flame came flame",
+        "Line_03": "ame ame ame ame ame ame",
+        "Line_04": "shame blame shame blame shame blame",
+        "Line_05": "ame ame ame ame ame ame",
+        "Line_06": "game same game same game same"
+      }]
+    },
+    "Lesson_0270": {
+      "Name": "Lesson_0270",
+      "Number": 270,
+      "Description": "Common Patterns: tor",
+      "Lines": [{
+        "Line_01": "tor tor tor tor tor tor",
+        "Line_02": "creator inventor creator inventor",
+        "Line_03": "creator inventor",
+        "Line_04": "tor tor tor tor tor tor",
+        "Line_05": "mentor vector mentor vector mentor",
+        "Line_06": "vector",
+        "Line_07": "tor tor tor tor tor tor",
+        "Line_08": "tractor rotor tractor rotor tractor",
+        "Line_09": "rotor"
+      }]
+    },
+    "Lesson_0271": {
+      "Name": "Lesson_0271",
+      "Number": 271,
+      "Description": "Common Patterns: ine",
+      "Lines": [{
+        "Line_01": "ine ine ine ine ine ine",
+        "Line_02": "dine fine dine fine dine fine",
+        "Line_03": "ine ine ine ine ine ine",
+        "Line_04": "shine line shine line shine line",
+        "Line_05": "ine ine ine ine ine ine",
+        "Line_06": "wine pine wine pine wine pine"
+      }]
+    },
+    "Lesson_0272": {
+      "Name": "Lesson_0272",
+      "Number": 272,
+      "Description": "Common Patterns: ave",
+      "Lines": [{
+        "Line_01": "ave ave ave ave ave ave",
+        "Line_02": "gave save gave save gave save",
+        "Line_03": "ave ave ave ave ave ave",
+        "Line_04": "behave forgave behave forgave behave forgave",
+        "Line_05": "ave ave ave ave ave ave",
+        "Line_06": "wave cave wave cave wave cave"
+      }]
+    },
+    "Lesson_0273": {
+      "Name": "Lesson_0273",
+      "Number": 273,
+      "Description": "Common Patterns: ound",
+      "Lines": [{
+        "Line_01": "ound ound ound ound ound",
+        "Line_02": "ground found ground found ground found",
+        "Line_03": "ound ound ound ound ound",
+        "Line_04": "sound hound sound hound sound hound",
+        "Line_05": "ound ound ound ound ound",
+        "Line_06": "round pound round pound round pound"
+      }]
+    },
+    "Lesson_0274": {
+      "Name": "Lesson_0274",
+      "Number": 274,
+      "Description": "Common Patterns: age",
+      "Lines": [{
+        "Line_01": "age age age age age age",
+        "Line_02": "stage manage stage manage stage manage",
+        "Line_03": "age age age age age age",
+        "Line_04": "page wage page wage page wage",
+        "Line_05": "age age age age age age",
+        "Line_06": "courage foliage courage foliage courage foliage"
+      }]
+    },
+    "Lesson_0275": {
+      "Name": "Lesson_0275",
+      "Number": 275,
+      "Description": "Dynamic Practice 8",
+      "Lines": [{
+        "Line_01": "gr gr ogr gra gravity groups programs",
+        "Line_02": "ge ge rge dge get large bridge",
+        "Line_03": "ga ga aga gai against gave gas",
+        "Line_04": "gn gn agn ign magnetic electromagnetic designed",
+        "Line_05": "gi gi ngi gin engines changing ranging"
+      }]
+    },
+    "Lesson_0276": {
+      "Name": "Lesson_0276",
+      "Number": 276,
+      "Description": "San Francisco",
+      "Lines": [{
+        "Line_01": "San Francisco, officially the City and",
+        "Line_02": "County of San Francisco, is the",
+        "Line_03": "financial, cultural, and transportation",
+        "Line_04": "center of the San Francisco Bay Area,",
+        "Line_05": "a region of 7.15 million people which",
+        "Line_06": "includes San Jose and Oakland."
+      }]
+    },
+    "Lesson_0277": {
+      "Name": "Lesson_0277",
+      "Number": 277,
+      "Description": "Spoken Languages",
+      "Lines": [{
+        "Line_01": "There are over 6,000 languages spoken",
+        "Line_02": "in the world today, many of which are",
+        "Line_03": "spoken by fewer than a few hundred",
+        "Line_04": "people. The top 10 or 12 languages,",
+        "Line_05": "however, make up the vast majority of",
+        "Line_06": "all of the speakers in the world."
+      }]
+    },
+    "Lesson_0278": {
+      "Name": "Lesson_0278",
+      "Number": 278,
+      "Description": "New Mexico",
+      "Lines": [{
+        "Line_01": "New Mexico became a state on January",
+        "Line_02": "6, 1912 and became the 47th state",
+        "Line_03": "accepted into the United States. The",
+        "Line_04": "state capital is Santa Fe. The",
+        "Line_05": "population is 1,819,046 and most of",
+        "Line_06": "the people live in the biggest city, Albuquerque."
+      }]
+    },
+    "Lesson_0279": {
+      "Name": "Lesson_0279",
+      "Number": 279,
+      "Description": "Earthquake",
+      "Lines": [{
+        "Line_01": "There are dozens of tectonic plates",
+        "Line_02": "below the surface of the Earth that",
+        "Line_03": "move continuously and slowly past each",
+        "Line_04": "other. When the plates squeeze or",
+        "Line_05": "stretch, huge rocks form at their",
+        "Line_06": "edges and the rocks shift with great",
+        "Line_07": "force, causing an earthquake."
+      }]
+    },
+    "Lesson_0280": {
+      "Name": "Lesson_0280",
+      "Number": 280,
+      "Description": "Test 32: Play Words 11",
+      "Lines": [{
+        "Line_01": "about world Today many county Surface state Mexico past huge edge shift Great force vast area People"
+      }]
+    },
+    "Lesson_0281": {
+      "Name": "Lesson_0281",
+      "Number": 281,
+      "Description": "Hurricane",
+      "Lines": [{
+        "Line_01": "A hurricane is a huge storm. It can",
+        "Line_02": "be up to 600 miles across and have",
+        "Line_03": "strong winds spiraling inwards and",
+        "Line_04": "upward at speeds of 75 to 200 mph.",
+        "Line_05": "Each hurricane usually lasts for over",
+        "Line_06": "a week, movign 10 to 20 miles per",
+        "Line_07": "hour over the open ocean."
+      }]
+    },
+    "Lesson_0282": {
+      "Name": "Lesson_0282",
+      "Number": 282,
+      "Description": "Tectonic Plates",
+      "Lines": [{
+        "Line_01": "The Pacific Ocean is currently",
+        "Line_02": "shrinking due to plate tectonics, while",
+        "Line_03": "the Atlantic Ocean is increasing in",
+        "Line_04": "size, by roughly an inch per year or",
+        "Line_05": "2 to 3 cm/yr on 3 sides, roughly",
+        "Line_06": "averaging 0.2 square miles or 0.52",
+        "Line_07": "square kilometers a year."
+      }]
+    },
+    "Lesson_0283": {
+      "Name": "Lesson_0283",
+      "Number": 283,
+      "Description": "Tectonic Plates",
+      "Lines": [{
+        "Line_01": "The Pacific Ocean is currently",
+        "Line_02": "shrinking due to plate tectonics, while",
+        "Line_03": "the Atlantic Ocean is increasing in",
+        "Line_04": "size, by roughly an inch per year or",
+        "Line_05": "2 to 3 cm/yr on 3 sides, roughly",
+        "Line_06": "averaging 0.2 square miles or 0.52",
+        "Line_07": "square kilometers a year."
+      }]
+    },
+    "Lesson_0284": {
+      "Name": "Lesson_0284",
+      "Number": 284,
+      "Description": "Aphelion",
+      "Lines": [{
+        "Line_01": "July 4th is the 185th day of the year",
+        "Line_02": "or 186th in leap years in the",
+        "Line_03": "Gregorian calendar. There are 180 days",
+        "Line_04": "remaining until the end of the year.",
+        "Line_05": "Aphelion, the point durng the orbit",
+        "Line_06": "of the Earth when it is furthest from",
+        "Line_07": "the Sun, occurs around this date."
+      }]
+    },
+    "Lesson_0285": {
+      "Name": "Lesson_0285",
+      "Number": 285,
+      "Description": "Mark Twain Quote",
+      "Lines": [{
+        "Line_01": "Twenty years from now you will be more",
+        "Line_02": "disappointed by the things that you",
+        "Line_03": "did not do than by the ones you did do,",
+        "Line_04": "so throw off the bowlines, sail",
+        "Line_05": "away from safe harbor, catch the trade",
+        "Line_06": "winds in your sails, Explore, Dream,",
+        "Line_07": "Discover. Mark Twain"
+      }]
+    },
+    "Lesson_0286": {
+      "Name": "Lesson_0286",
+      "Number": 286,
+      "Description": "Test 33: Play Words 12",
+      "Lines": [{
+        "Line_01": "last Surface harbor Safe over until Ocean year throws pacific shrink speed storm huge Leap Average"
+      }]
+    },
+    "Lesson_0287": {
+      "Name": "Lesson_0287",
+      "Number": 287,
+      "Description": "Galaxies",
+      "Lines": [{
+        "Line_01": "Scientists calculate that there are at",
+        "Line_02": "least 10 billion galaxies in the",
+        "Line_03": "observable universe, each one brimming",
+        "Line_04": "with stars. On a very large scale,",
+        "Line_05": "they form a bubbly structure, in which",
+        "Line_06": "vast sheets and  filaments of galaxies",
+        "Line_07": "surround gargantuan voids."
+      }]
+    },
+    "Lesson_0288": {
+      "Name": "Lesson_0288",
+      "Number": 288,
+      "Description": "Trains",
+      "Lines": [{
+        "Line_01": "A train is a connected series of",
+        "Line_02": "vehicles for rail transport that moves",
+        "Line_03": "along a track to transport cargo or",
+        "Line_04": "passengers from one place to another.",
+        "Line_05": "The track usually consists of two",
+        "Line_06": "rails, but might also be a monorail or",
+        "Line_07": "maglev guideway."
+      }]
+    },
+    "Lesson_0289": {
+      "Name": "Lesson_0289",
+      "Number": 289,
+      "Description": "Lightning Rods",
+      "Lines": [{
+        "Line_01": "Benjamin Franklin carried out extensive",
+        "Line_02": "electricity research in the 18th",
+        "Line_03": "century, inventing the lightning rod",
+        "Line_04": "amongst his many discoveries. Lightning",
+        "Line_05": "rods protect buildings in the event of",
+        "Line_06": "lightning by conducting lightning",
+        "Line_07": "strikes through a grounded wire."
+      }]
+    },
+    "Lesson_0290": {
+      "Name": "Lesson_0290",
+      "Number": 290,
+      "Description": "Weather",
+      "Lines": [{
+        "Line_01": "Weather is the state of the atmosphere",
+        "Line_02": "at any time, including things such as",
+        "Line_03": "temperature, precipitation, air",
+        "Line_04": "pressure, and cloud cover. Daily",
+        "Line_05": "changes in the weather are due to",
+        "Line_06": "winds and storms. Seasonal changes are",
+        "Line_07": "due to the Earth revolving around the sun."
+      }]
+    },
+    "Lesson_0291": {
+      "Name": "Lesson_0291",
+      "Number": 291,
+      "Description": "Test 34: Play Words 13",
+      "Lines": [{
+        "Line_01": "vehicle Sheet Tracks Franklin vast Calculate protect train cargo Invent weather large cloud pressure"
+      }]
+    },
+    "Lesson_0292": {
+      "Name": "Lesson_0292",
+      "Number": 292,
+      "Description": "Newton's First Law",
+      "Lines": [{
+        "Line_01": "The first law of motion says: if a",
+        "Line_02": "body is at rest it remains at rest",
+        "Line_03": "or, if it is in motion, it moves with",
+        "Line_04": "uniform velocity, until it is acted on",
+        "Line_05": "by a resultant force. An object",
+        "Line_06": "continues to do whatever it happens to",
+        "Line_07": "be doing unless a force is exerted upon it."
+      }]
+    },
+    "Lesson_0293": {
+      "Name": "Lesson_0293",
+      "Number": 293,
+      "Description": "Silverback",
+      "Lines": [{
+        "Line_01": "An adult male gorilla is called a",
+        "Line_02": "silverback because of the distinctive",
+        "Line_03": "silvery fur growing on their back and",
+        "Line_04": "hips. Each gorilla family has a",
+        "Line_05": "silverback as leader who scares away",
+        "Line_06": "other animals by standing on their",
+        "Line_07": "back legs and beating their chest."
+      }]
+    },
+    "Lesson_0294": {
+      "Name": "Lesson_0294",
+      "Number": 294,
+      "Description": "Manhattan",
+      "Lines": [{
+        "Line_01": "The oldest part of New York City, the",
+        "Line_02": "island of Manhattan, still has its",
+        "Line_03": "original Lenape Native American name.",
+        "Line_04": "Although native people such as the",
+        "Line_05": "Lenape and Canarsees had lived there",
+        "Line_06": "for many thousands of years, New York",
+        "Line_07": "City was first explored by Europeans",
+        "Line_08": "in the 1500s."
+      }]
+    },
+    "Lesson_0295": {
+      "Name": "Lesson_0295",
+      "Number": 295,
+      "Description": "Inside Hurricanes",
+      "Lines": [{
+        "Line_01": "Hurricanes gather head and energy",
+        "Line_02": "through contact with warm ocean waters.",
+        "Line_03": "Evaporation from the seawater increases",
+        "Line_04": "their power. Hurricanes rotate in a",
+        "Line_05": "counterclockwise direction around the",
+        "Line_06": "eye in the Northern Hemisphere, and",
+        "Line_07": "clockwise direction in the Southern Hemisphere."
+      }]
+    },
+    "Lesson_0296": {
+      "Name": "Lesson_0296",
+      "Number": 296,
+      "Description": "Test 35: Play Words 14",
+      "Lines": [{
+        "Line_01": "heat First law Gorilla energy uniform Rest force Velocity name still People native chest because From"
+      }]
+    },
+    "Lesson_0297": {
+      "Name": "Lesson_0297",
+      "Number": 297,
+      "Description": "Native Americans",
+      "Lines": [{
+        "Line_01": "Native American tradition says that",
+        "Line_02": "they were always in America. Most of",
+        "Line_03": "the scientific evidence suggests that",
+        "Line_04": "their ancestors came from Asia in",
+        "Line_05": "prehistoric times, either by foot over",
+        "Line_06": "a land bridge or using ancient boats.",
+        "Line_07": "This would have hapened more than",
+        "Line_08": "20,000 years ago."
+      }]
+    },
+    "Lesson_0298": {
+      "Name": "Lesson_0298",
+      "Number": 298,
+      "Description": "Astronomy",
+      "Lines": [{
+        "Line_01": "Astronomy is the study of everything",
+        "Line_02": "outside the atmosphere of the Earth.",
+        "Line_03": "It studies celestial objects such as",
+        "Line_04": "stars, galaxies, planets, moons,",
+        "Line_05": "asterids, comets and nebulae and",
+        "Line_06": "processes such as supernovae",
+        "Line_07": "explosions, gamma ray bursts, and",
+        "Line_08": "cosmic microwave background radiation."
+      }]
+    },
+    "Lesson_0299": {
+      "Name": "Lesson_0299",
+      "Number": 299,
+      "Description": "Speed of Light",
+      "Lines": [{
+        "Line_01": "The speed of light in a vacuum,",
+        "Line_02": "usually denoted by c, is a physical",
+        "Line_03": "constant important in many areas of",
+        "Line_04": "physics. Its value is 299,792,458",
+        "Line_05": "meters per second, a figure that is",
+        "Line_06": "exact snce the length of the meter is",
+        "Line_07": "defiend from this constant and the",
+        "Line_08": "international standard for time."
+      }]
+    },
+    "Lesson_0300": {
+      "Name": "Lesson_0300",
+      "Number": 300,
+      "Description": "Wind Farms",
+      "Lines": [{
+        "Line_01": "A.W. Hawaii Wind is a Texas company,",
+        "Line_02": "It is proposing two offshore floating",
+        "Line_03": "wind farms. Each would consist of 50",
+        "Line_04": "turbines that would generate about 400",
+        "Line_05": "megawatts of energy. The wind farms",
+        "Line_06": "would be placed more than 10 miles",
+        "Line_07": "offshore. Tehy would float in waters",
+        "Line_08": "about a half a mile deep."
       }]
     }
   }]
