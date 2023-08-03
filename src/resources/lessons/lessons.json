@@ -3288,7 +3288,7 @@
         "Line_02": "electricity research in the 18th",
         "Line_03": "century, inventing the lightning rod",
         "Line_04": "amongst his many discoveries. Lightning",
-        "Line_05": "rods rpotect buildings in the event of",
+        "Line_05": "rods protect buildings in the event of",
         "Line_06": "lightning by conducting lightning",
         "Line_07": "strikes through a grounded wire."
       }]
@@ -3298,13 +3298,146 @@
       "Number": 290,
       "Description": "Weather",
       "Lines": [{
-        "Line_01": "Weather is teh state of the atmosphere",
+        "Line_01": "Weather is the state of the atmosphere",
         "Line_02": "at any time, including things such as",
         "Line_03": "temperature, precipitation, air",
         "Line_04": "pressure, and cloud cover. Daily",
         "Line_05": "changes in the weather are due to",
         "Line_06": "winds and storms. Seasonal changes are",
         "Line_07": "due to the Earth revolving around the sun."
+      }]
+    },
+    "Lesson_0291": {
+      "Name": "Lesson_0291",
+      "Number": 291,
+      "Description": "Test 34: Play Words 13",
+      "Lines": [{
+        "Line_01": "vehicle Sheet Tracks Franklin vast Calculate protect train cargo Invent weather large cloud pressure"
+      }]
+    },
+    "Lesson_0292": {
+      "Name": "Lesson_0292",
+      "Number": 292,
+      "Description": "Newton's First Law",
+      "Lines": [{
+        "Line_01": "The first law of motion says: if a",
+        "Line_02": "body is at rest it remains at rest",
+        "Line_03": "or, if it is in motion, it moves with",
+        "Line_04": "uniform velocity, until it is acted on",
+        "Line_05": "by a resultant force. An object",
+        "Line_06": "continues to do whatever it happens to",
+        "Line_07": "be doing unless a force is exerted upon it."
+      }]
+    },
+    "Lesson_0293": {
+      "Name": "Lesson_0293",
+      "Number": 293,
+      "Description": "Silverback",
+      "Lines": [{
+        "Line_01": "An adult male gorilla is called a",
+        "Line_02": "silverback because of the distinctive",
+        "Line_03": "silvery fur growing on their back and",
+        "Line_04": "hips. Each gorilla family has a",
+        "Line_05": "silverback as leader who scares away",
+        "Line_06": "other animals by standing on their",
+        "Line_07": "back legs and beating their chest."
+      }]
+    },
+    "Lesson_0294": {
+      "Name": "Lesson_0294",
+      "Number": 294,
+      "Description": "Manhattan",
+      "Lines": [{
+        "Line_01": "The oldest part of New York City, the",
+        "Line_02": "island of Manhattan, still has its",
+        "Line_03": "original Lenape Native American name.",
+        "Line_04": "Although native people such as the",
+        "Line_05": "Lenape and Canarsees had lived there",
+        "Line_06": "for many thousands of years, New York",
+        "Line_07": "City was first explored by Europeans",
+        "Line_08": "in the 1500s."
+      }]
+    },
+    "Lesson_0295": {
+      "Name": "Lesson_0295",
+      "Number": 295,
+      "Description": "Inside Hurricanes",
+      "Lines": [{
+        "Line_01": "Hurricanes gather head and energy",
+        "Line_02": "through contact with warm ocean waters.",
+        "Line_03": "Evaporation from the seawater increases",
+        "Line_04": "their power. Hurricanes rotate in a",
+        "Line_05": "counterclockwise direction around the",
+        "Line_06": "eye in the Northern Hemisphere, and",
+        "Line_07": "clockwise direction in the Southern Hemisphere."
+      }]
+    },
+    "Lesson_0296": {
+      "Name": "Lesson_0296",
+      "Number": 296,
+      "Description": "Test 35: Play Words 14",
+      "Lines": [{
+        "Line_01": "heat First law Gorilla energy uniform Rest force Velocity name still People native chest because From"
+      }]
+    },
+    "Lesson_0297": {
+      "Name": "Lesson_0297",
+      "Number": 297,
+      "Description": "Native Americans",
+      "Lines": [{
+        "Line_01": "Native American tradition says that",
+        "Line_02": "they were always in America. Most of",
+        "Line_03": "the scientific evidence suggests that",
+        "Line_04": "their ancestors came from Asia in",
+        "Line_05": "prehistoric times, either by foot over",
+        "Line_06": "a land bridge or using ancient boats.",
+        "Line_07": "This would have hapened more than",
+        "Line_08": "20,000 years ago."
+      }]
+    },
+    "Lesson_0298": {
+      "Name": "Lesson_0298",
+      "Number": 298,
+      "Description": "Astronomy",
+      "Lines": [{
+        "Line_01": "Astronomy is the study of everything",
+        "Line_02": "outside the atmosphere of the Earth.",
+        "Line_03": "It studies celestial objects such as",
+        "Line_04": "stars, galaxies, planets, moons,",
+        "Line_05": "asterids, comets and nebulae and",
+        "Line_06": "processes such as supernovae",
+        "Line_07": "explosions, gamma ray bursts, and",
+        "Line_08": "cosmic microwave background radiation."
+      }]
+    },
+    "Lesson_0299": {
+      "Name": "Lesson_0299",
+      "Number": 299,
+      "Description": "Speed of Light",
+      "Lines": [{
+        "Line_01": "The speed of light in a vacuum,",
+        "Line_02": "usually denoted by c, is a physical",
+        "Line_03": "constant important in many areas of",
+        "Line_04": "physics. Its value is 299,792,458",
+        "Line_05": "meters per second, a figure that is",
+        "Line_06": "exact snce the length of the meter is",
+        "Line_07": "defiend from this constant and the",
+        "Line_08": "international standard for time."
+      }]
+    },
+    "Lesson_0300": {
+      "Name": "Lesson_0300",
+      "Number": 300,
+      "Description": "Wind Farms",
+      "Lines": [{
+        "Line_01": "A.W. Hawaii Wind is a Texas company,",
+        "Line_02": "It is proposing two offshore floating",
+        "Line_03": "wind farms. Each would consist of 50",
+        "Line_04": "turbines that would generate about 400",
+        "Line_05": "megawatts of energy. The wind farms",
+        "Line_06": "would be placed more than 10 miles",
+        "Line_07": "offshore. Tehy would float in waters",
+        "Line_08": "about a half a mile deep."
       }]
     }
   }]
