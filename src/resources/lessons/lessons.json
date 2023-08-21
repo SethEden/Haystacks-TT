@@ -3557,6 +3557,105 @@
         "Line_03": "continue$ building& relation& mother$",
         "Line_04": "engage&"
       }]
+    },
+    "Lesson_0311": {
+      "Name": "Lesson_0311",
+      "Number": 311,
+      "Description": "Keys # to *",
+      "Lines": [{
+        "Line_01": "**#*#*#",
+        "Line_02": "#**#**#",
+        "Line_03": "*#**#*"
+      }]
+    },
+    "Lesson_0312": {
+      "Name": "Lesson_0312",
+      "Number": 312,
+      "Description": "Review # and *",
+      "Lines": [{
+        "Line_01": "d#k* d#k* d#k* kk* #dd* k#*dk *#kd*",
+        "Line_02": "kk#*dk k*#k #*dk# k*#d d#* k#d* k # * d"
+      }]
+    },
+    "Lesson_0313": {
+      "Name": "Lesson_0313",
+      "Number": 313,
+      "Description": "Practice: # and *",
+      "Lines": [{
+        "Line_01": "#wise *busy #past *both *park #when",
+        "Line_02": "#length* sooner # thrown * income#",
+        "Line_03": "expense# windows* drawn# *eat #off",
+        "Line_04": "*doors #money #welcome *six #day #bed"
+      }]
+    },
+    "Lesson_0314": {
+      "Name": "Lesson_0314",
+      "Number": 314,
+      "Description": "Keys @ to (",
+      "Lines": [{
+        "Line_01": "@@(@(@(",
+        "Line_02": "@@(@((@",
+        "Line_03": "(@((@("
+      }]
+    },
+    "Lesson_0315": {
+      "Name": "Lesson_0315",
+      "Number": 315,
+      "Description": "Review @ and (",
+      "Lines": [{
+        "Line_01": "s@ l( s@l( @(@s (l@s (ll@s @ls( (s@l",
+        "Line_02": "l(s@ ll@s (@(s @(sl ls(@ (@ll @s(( @ls"
+      }]
+    },
+    "Lesson_0316": {
+      "Name": "Lesson_0316",
+      "Number": 316,
+      "Description": "Practice: @ and (",
+      "Lines": [{
+        "Line_01": "@new (event @company @first (culture",
+        "Line_02": "@island @research lake( @ocean (energy",
+        "Line_03": "@foot( year@ native( @tradition (vacuum@"
+      }]
+    },
+    "Lesson_0317": {
+      "Name": "Lesson_0317",
+      "Number": 317,
+      "Description": "Keys ! to )",
+      "Lines": [{
+        "Line_01": "!))!)!)",
+        "Line_02": ")!))!)!",
+        "Line_03": ")!))!!"
+      }]
+    },
+    "Lesson_0318": {
+      "Name": "Lesson_0318",
+      "Number": 318,
+      "Description": "Review ! and )",
+      "Lines": [{
+        "Line_01": "a! ;) a!); )!;a !)!) a;!) )!!);a",
+        "Line_02": ";a))!; !)a;!)a; )!!;a !;a) )a;! a!;) ;!a);"
+      }]
+    },
+    "Lesson_0319": {
+      "Name": "Lesson_0319",
+      "Number": 319,
+      "Description": "Practice: ! and )",
+      "Lines": [{
+        "Line_01": "!state )boat !transport )weather",
+        "Line_02": "pressure! region! )boarder sweet!",
+        "Line_03": ")surface palm! )music! written) index!",
+        "Line_04": ")habit !paper)"
+      }]
+    },
+    "Lesson_0320": {
+      "Name": "Lesson_0320",
+      "Number": 320,
+      "Description": "Keys % to ^",
+      "Lines": [{
+        "Line_01": "%^%^%%%",
+        "Line_02": "%^%^%%^",
+        "Line_03": "%^^%^%"
+      }]
     }
   }]
 }
