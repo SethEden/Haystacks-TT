@@ -3656,6 +3656,96 @@
         "Line_02": "%^%^%%^",
         "Line_03": "%^^%^%"
       }]
+    },
+    "Lesson_0321": {
+      "Name": "Lesson_0321",
+      "Number": 321,
+      "Description": "Review % and ^",
+      "Lines": [{
+        "Line_01": "f% j^ g% h^ %^gj %% ^^ %^%^ j^%f f%^j",
+        "Line_02": "jf%^ j%f^ ^f%j %j^f j%%^f f^^j% f%j^f"
+      }]
+    },
+    "Lesson_0322": {
+      "Name": "Lesson_0322",
+      "Number": 322,
+      "Description": "Practice: % and ^",
+      "Lines": [{
+        "Line_01": "%inside ^power %famous ^south %children",
+        "Line_02": "%smell ^river% ^follow %piece^ united%",
+        "Line_03": "^break %example quick^ @cloud billion^"
+      }]
+    },
+    "Lesson_0323": {
+      "Name": "Lesson_0323",
+      "Number": 323,
+      "Description": "Test 38: Play All Symbols",
+      "Lines": [{
+        "Line_01": "$&#*@(!)%^*$(@*%!)@(&$&%*(@#$!@%#@&%(@#*"
+      }]
+    },
+    "Lesson_0324": {
+      "Name": "Lesson_0324",
+      "Number": 324,
+      "Description": "Travel $",
+      "Lines": [{
+        "Line_01": "F$ R% V$ R$ V$ F$R$V$ F$V$R$",
+        "Line_02": "$R$F$V $R$F$V $F$R$V R$V$R$"
+      }]
+    },
+    "Lesson_0325": {
+      "Name": "Lesson_0325",
+      "Number": 325,
+      "Description": "Travel #",
+      "Lines": [{
+        "Line_01": "D# C# E# D# D# E# C# #D #E #C D#E#C#",
+        "Line_02": "E#D#C# #E#D#C #D#C#E"
+      }]
+    },
+    "Lesson_0326": {
+      "Name": "Lesson_0326",
+      "Number": 326,
+      "Description": "Travel @",
+      "Lines": [{
+        "Line_01": "S@ X@ W@ S@ S@ W@ X@ @S @W @X @W@S@X",
+        "Line_02": "@W@X@S S@W@X@ W@S@X@"
+      }]
+    },
+    "Lesson_0327": {
+      "Name": "Lesson_0327",
+      "Number": 327,
+      "Description": "Travel !",
+      "Lines": [{
+        "Line_01": "A! Q! Z! A! Z! Q! A! Q! Z! A!Q!Z!",
+        "Line_02": "Q!A!Z! !Q!A!Z !Q!Z!Q"
+      }]
+    },
+    "Lesson_0328": {
+      "Name": "Lesson_0328",
+      "Number": 328,
+      "Description": "Travel %",
+      "Lines": [{
+        "Line_01": "G% T% B% B% G% T% G% T% B% %T%G%B",
+        "Line_02": "%G%B%T G%T%B% T%B%T%"
+      }]
+    },
+    "Lesson_0329": {
+      "Name": "Lesson_0329",
+      "Number": 329,
+      "Description": "Travel &",
+      "Lines": [{
+        "Line_01": "J& U& M& J& U& M& J&U&M& J&U&M&",
+        "Line_02": "&U&J&M &J&M&U &M&J&U"
+      }]
+    },
+    "Lesson_0330": {
+      "Name": "Lesson_0330",
+      "Number": 330,
+      "Description": "Travel *",
+      "Lines": [{
+        "Line_01": "K* I* K* K* I* I* K*I*K* K*I*K*",
+        "Line_02": "*I*K*I *K*I*K K*I*K*"
+      }]
     }
   }]
 }
