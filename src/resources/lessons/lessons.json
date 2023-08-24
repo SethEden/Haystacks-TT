@@ -3848,6 +3848,134 @@
         "Line_05": "son son son son son son",
         "Line_06": "lesson grandson lesson grandson lesson grandson"
       }]
+    },
+    "Lesson_0341": {
+      "Name": "Lesson_0341",
+      "Number": 341,
+      "Description": "ink",
+      "Lines": [{
+        "Line_01": "ink ink ink ink ink ink",
+        "Line_02": "think sink think sink think sink",
+        "Line_03": "ink ink ink ink ink ink",
+        "Line_04": "pink link pink link pink link",
+        "Line_05": "ink ink ink ink ink ink",
+        "Line_06": "drink wink drink wink drink wink"
+      }]
+    },
+    "Lesson_0342": {
+      "Name": "Lesson_0342",
+      "Number": 342,
+      "Description": "rea",
+      "Lines": [{
+        "Line_01": "rea rea rea rea rea rea",
+        "Line_02": "area reason area reason area reason",
+        "Line_03": "rea rea rea rea rea rea",
+        "Line_04": "real reach real reach real reach",
+        "Line_05": "rea rea rea rea rea rea",
+        "Line_06": "read react read react read react"
+      }]
+    },
+    "Lesson_0343": {
+      "Name": "Lesson_0343",
+      "Number": 343,
+      "Description": "eed",
+      "Lines": [{
+        "Line_01": "eed eed eed eed eed eed",
+        "Line_02": "feed seed feed seed feed seed",
+        "Line_03": "eed eed eed eed eed eed",
+        "Line_04": "breed need breed need breed need",
+        "Line_05": "eed eed eed eed eed eed",
+        "Line_06": "indeed greed indeed greed indeed greed"
+      }]
+    },
+    "Lesson_0344": {
+      "Name": "Lesson_0344",
+      "Number": 344,
+      "Description": "ast",
+      "Lines": [{
+        "Line_01": "ast ast ast ast ast ast",
+        "Line_02": "fast alst fast last fast last",
+        "Line_03": "ast ast ast ast ast ast",
+        "Line_04": "vast past vast past vast past",
+        "Line_05": "ast ast ast ast ast ast",
+        "Line_06": "cast blast cast blast cast blast"
+      }]
+    },
+    "Lesson_0345": {
+      "Name": "Lesson_0345",
+      "Number": 345,
+      "Description": "you",
+      "Lines": [{
+        "Line_01": "you you you you you you",
+        "Line_02": "youth young youth young youth young",
+        "Line_03": "you you you you you you",
+        "Line_04": "layout yourself layout yourself layout yourself",
+        "Line_05": "you you you you you you",
+        "Line_06": "tryout payout tryout payout tryout payout"
+      }]
+    },
+    "Lesson_0346": {
+      "Name": "Lesson_0346",
+      "Number": 346,
+      "Description": "utt",
+      "Lines": [{
+        "Line_01": "utt utt utt utt utt utt",
+        "Line_02": "button butter button butter button butter",
+        "Line_03": "utt utt utt utt utt utt",
+        "Line_04": "cutter gutter cutter gutter cutter gutter",
+        "Line_05": "utt utt utt utt utt utt",
+        "Line_06": "clutter utter clutter utter clutter utter"
+      }]
+    },
+    "Lesson_0347": {
+      "Name": "Lesson_0347",
+      "Number": 347,
+      "Description": "ity",
+      "Lines": [{
+        "Line_01": "ity ity ity ity ity ity",
+        "Line_02": "unity city unity city unity city",
+        "Line_03": "ity ity ity ity ity ity",
+        "Line_04": "cavity sanity cavity sanity cavity sanity",
+        "Line_05": "ity ity ity ity ity ity",
+        "Line_06": "gravity reality gravity reality gravity reality"
+      }]
+    },
+    "Lesson_0348": {
+      "Name": "Lesson_0348",
+      "Number": 348,
+      "Description": "Dynamic Practice 10",
+      "Lines": [{
+        "Line_01": "gr gr gro gro grow ground groups",
+        "Line_02": "ge ge dge nge bridges get longer",
+        "Line_03": "ga ga ega gas gas began legal",
+        "Line_04": "gn gn ign agn design electromagnetic signals",
+        "Line_05": "gi gi egi gin begins give given"
+      }]
+    },
+    "Lesson_0349": {
+      "Name": "Lesson_0349",
+      "Number": 349,
+      "Description": "Energy Formula",
+      "Lines": [{
+        "Line_01": "Energy equals mass multiplied by (*)",
+        "Line_02": "the peed of light squared (^2). The",
+        "Line_03": "multiplication sign is usually left",
+        "Line_04": "out, giving e is equal to mc squared."
+      }]
+    },
+    "Lesson_0350": {
+      "Name": "Lesson_0350",
+      "Number": 350,
+      "Description": "Formula",
+      "Lines": [{
+        "Line_01": "E^2 is equal to (m0c^2)^2 plus (pc)^2 where",
+        "Line_02": "#1 E represents the energy of a particle",
+        "Line_03": "#2 m0 represents the mass of the",
+        "Line_04": "particle when it is not moving",
+        "Line_05": "#3 p represents the momentum of the",
+        "Line_06": "particle when it is moving",
+        "Line_07": "#4 c represents the speed of light."
+      }]
     }
   }]
 }
