@@ -3976,6 +3976,150 @@
         "Line_06": "particle when it is moving",
         "Line_07": "#4 c represents the speed of light."
       }]
+    },
+    "Lesson_0351": {
+      "Name": "Lesson_0351",
+      "Number": 351,
+      "Description": "Math",
+      "Lines": [{
+        "Line_01": "The c^2 in the equation stands for the",
+        "Line_02": "speed of light squared. To square",
+        "Line_03": "something means to multiply it by",
+        "Line_04": "itself. The speed of light is",
+        "Line_05": "approximately 3 * 10^8. If we square",
+        "Line_06": "this, we get 9 * 10^16",
+        "Line_07": "meters^2/seconds^2 or to",
+        "Line_08": "90,000,000,000,000,000 meters^2/seconds^2."
+      }]
+    },
+    "Lesson_0352": {
+      "Name": "Lesson_0352",
+      "Number": 352,
+      "Description": "Mention",
+      "Lines": [{
+        "Line_01": "A mention (also known as @replies or",
+        "Line_02": "taggin, not to be confused with",
+        "Line_03": "metadata tags or hashtags #) is a",
+        "Line_04": "means by which a blog post references",
+        "Line_05": "or links to a user profile. This may",
+        "Line_06": "be done as a matter of getting the",
+        "Line_07": "attention of (or drawing attention to)",
+        "Line_08": "another user of a social networking or",
+        "Line_09": "blogging service."
+      }]
+    },
+    "Lesson_0353": {
+      "Name": "Lesson_0353",
+      "Number": 353,
+      "Description": "Test 39: Play Bottom Row",
+      "Lines": [{
+        "Line_01": "Dogs have lived with people for at least 30,000 years. Dogs can serve people in many ways.",
+        "Line_02": "For example, there are guard dogs, hunting dogs, and guide dogs for blind people."
+      }]
+    },
+    "Lesson_0354": {
+      "Name": "Lesson_0354",
+      "Number": 354,
+      "Description": "Tigers",
+      "Lines": [{
+        "Line_01": "Tigers vary in size depending on their",
+        "Line_02": "subspecies. Siberian tigers are the",
+        "Line_03": "largest. Males can grow to be 6 feet",
+        "Line_04": "(1.8 meters) long (body length) and",
+        "Line_05": "weigh about 500 pounds (230 kg).",
+        "Line_06": "Females are a bit smaller. The record",
+        "Line_07": "weight for males is claimed to be 700",
+        "Line_08": "pounds (318 kg), but this cannot be",
+        "Line_09": "confirmed."
+      }]
+    },
+    "Lesson_0355": {
+      "Name": "Lesson_0355",
+      "Number": 355,
+      "Description": "Natural Diamonds",
+      "Lines": [{
+        "Line_01": "Most natural diamonds are formed at",
+        "Line_02": "high temperature and pressure at depths",
+        "Line_03": "of 140 to 190 kilometers (87 to 118",
+        "Line_04": "mi) in the mantle of the Earth.",
+        "Line_05": "Minerals containing carbon provide the",
+        "Line_06": "carbon source, and the growth occurs",
+        "Line_07": "over periods from 1 billion to 3.3",
+        "Line_08": "billion years (25% to 75% of the age",
+        "Line_09": "of the Earth). Although the dating techniques used",
+        "Line_10": "do raise concerns if this age is accurate."
+      }]
+    },
+    "Lesson_0356": {
+      "Name": "Lesson_0356",
+      "Number": 356,
+      "Description": "Canada",
+      "Lines": [{
+        "Line_01": "Canada is the second largest country",
+        "Line_02": "in the world by total area (Russia is",
+        "Line_03": "the largest). It features teh longest",
+        "Line_04": "coastline in the world, stretching",
+        "Line_05": "202080 kilometers (125570 miles)",
+        "Line_06": "Canada shares the longest land boarder",
+        "Line_07": "in the world with the United States,",
+        "Line_08": "totaling 8891 kilometers (5525 miles)."
+      }]
+    },
+    "Lesson_0357": {
+      "Name": "Lesson_0357",
+      "Number": 357,
+      "Description": "Driverless Cars",
+      "Lines": [{
+        "Line_01": "Fully autonomous vehicles (driverless",
+        "Line_02": "cars) currently exist in prototype",
+        "Line_03": "(Google has deveoped a driverless",
+        "Line_04": "car). These cars are expected to be",
+        "Line_05": "available commercially in the near",
+        "Line_06": "future. Autonomous cars could help to",
+        "Line_07": "reduce the number of vehicles needed",
+        "Line_08": "on the road and dramatically increase",
+        "Line_09": "safety."
+      }]
+    },
+    "Lesson_0358": {
+      "Name": "Lesson_0358",
+      "Number": 358,
+      "Description": "Test 40: Play Words 17",
+      "Lines": [{
+        "Line_01": "about boarder reduce provide These cannot least world earth amount could their increase total natural around Record"
+      }]
+    },
+    "Lesson_0359": {
+      "Name": "Lesson_0359",
+      "Number": 359,
+      "Description": "Scandinavia",
+      "Lines": [{
+        "Line_01": "Scandinavia is a geographical and",
+        "Line_02": "cultural region in Northern Europe,",
+        "Line_03": "which consists of Norway, Sweden, and",
+        "Line_04": "Denmark. There is a completely",
+        "Line_05": "different language spoken in each",
+        "Line_06": "country (norwegian, Danish, and",
+        "Line_07": "Swedish). However, all three languages",
+        "Line_08": "have Germanic roots and are considered",
+        "Line_09": "utually understandable."
+      }]
+    },
+    "Lesson_0360": {
+      "Name": "Lesson_0360",
+      "Number": 360,
+      "Description": "Air",
+      "Lines": [{
+        "Line_01": "Air is the clear gas which living",
+        "Line_02": "things breathe. It has no color or",
+        "Line_03": "smel. The air around us is a mixture",
+        "Line_04": "of many gases and dust particles. It",
+        "Line_05": "is a mixture of about 78% nitrogen,",
+        "Line_06": "21% oxygen, 0.9% argon, 0.04% carbon",
+        "Line_07": "dioxide, and very small amounts of",
+        "Line_08": "other gases. There is also an average",
+        "Line_09": "of abut 1% water vapor."
+      }]
     }
   }]
 }
