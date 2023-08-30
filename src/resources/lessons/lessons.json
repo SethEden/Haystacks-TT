@@ -4397,6 +4397,95 @@
         "Line_03": "~~~`~`",
         "Line_04": "``~``~~"
       }]
+    },
+    "Lesson_0381": {
+      "Name": "Lesson_0381",
+      "Number": 381,
+      "Description": "Review ~ and `",
+      "Lines": [{
+        "Line_01": "a~a` j~k` u~i` e~w` P~n` c`x~"
+      }]
+    },
+    "Lesson_0382": {
+      "Name": "Lesson_0382",
+      "Number": 382,
+      "Description": "Practice: ~ and `",
+      "Lines": [{
+        "Line_01": "some` symbols~ are` kind~ of`",
+        "Line_02": "difficult~ to master`"
+      }]
+    },
+    "Lesson_0383": {
+      "Name": "Lesson_0383",
+      "Number": 383,
+      "Description": "Keys ' and \"",
+      "Lines": [{
+        "Line_01": "\"'\"'\"''",
+        "Line_02": "\"\"'\"\"'\"",
+        "Line_03": "'\"\"'\"\""
+      }]
+    },
+    "Lesson_0384": {
+      "Name": "Lesson_0384",
+      "Number": 384,
+      "Description": "Review ' and \"",
+      "Lines": [{
+        "Line_01": "e'c\" y'i\" n'c\" w\"q' i'p\" q'W\""
+      }]
+    },
+    "Lesson_0385": {
+      "Name": "Lesson_0385",
+      "Number": 385,
+      "Description": "Practice: ' and \"",
+      "Lines": [{
+        "Line_01": "we don't always use \"special symbols\"",
+        "Line_02": "in normal text"
+      }]
+    },
+    "Lesson_0386": {
+      "Name": "Lesson_0386",
+      "Number": 386,
+      "Description": "Keys - and =",
+      "Lines": [{
+        "Line_01": "-=-=--=",
+        "Line_02": "-==-=-=",
+        "Line_03": "--==-="
+      }]
+    },
+    "Lesson_0387": {
+      "Name": "Lesson_0387",
+      "Number": 387,
+      "Description": "Review - and =",
+      "Lines": [{
+        "Line_01": "e-w= c-v= n-i= q-e= i=x- s-a="
+      }]
+    },
+    "Lesson_0388": {
+      "Name": "Lesson_0388",
+      "Number": 388,
+      "Description": "Practice: - and =",
+      "Lines": [{
+        "Line_01": "minus- and equal= symbols are- typed",
+        "Line_02": "with= the -same- finger="
+      }]
+    },
+    "Lesson_0389": {
+      "Name": "Lesson_0389",
+      "Number": 389,
+      "Description": "Keys _ and +",
+      "Lines": [{
+        "Line_01": "_+_+__+",
+        "Line_02": "_+_+++_",
+        "Line_03": "+_++_+"
+      }]
+    },
+    "Lesson_0390": {
+      "Name": "Lesson_0390",
+      "Number": 390,
+      "Description": "Review _ and +",
+      "Lines": [{
+        "Line_01": "d_w+ w_q+ j+l_ n_i+ q_o+ c+x_"
+      }]
     }
   }]
 }
