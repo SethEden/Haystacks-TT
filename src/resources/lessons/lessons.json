@@ -4486,6 +4486,96 @@
       "Lines": [{
         "Line_01": "d_w+ w_q+ j+l_ n_i+ q_o+ c+x_"
       }]
+    },
+    "Lesson_0391": {
+      "Name": "Lesson_0391",
+      "Number": 391,
+      "Description": "Practice: _ and +",
+      "Lines": [{
+        "Line_01": "_ and + are _more_ examples +of+",
+        "Line_02": "symbols_ on +the keyboard+"
+      }]
+    },
+    "Lesson_0392": {
+      "Name": "Lesson_0392",
+      "Number": 392,
+      "Description": "Keys [ and ]",
+      "Lines": [{
+        "Line_01": "[][[][]",
+        "Line_02": "[]][][]",
+        "Line_03": "[]][]["
+      }]
+    },
+    "Lesson_0393": {
+      "Name": "Lesson_0393",
+      "Number": 393,
+      "Description": "Review [ and ]",
+      "Lines": [{
+        "Line_01": "w[d] c]z[ i[p] l[s] S]Q[ K[p] ]s["
+      }]
+    },
+    "Lesson_0394": {
+      "Name": "Lesson_0394",
+      "Number": 394,
+      "Description": "Practice: [ and ]",
+      "Lines": [{
+        "Line_01": "open[ and closed] square[] brackets are",
+        "Line_02": "[symbols] used ]in[ coding"
+      }]
+    },
+    "Lesson_0395": {
+      "Name": "Lesson_0395",
+      "Number": 395,
+      "Description": "Keys { and }",
+      "Lines": [{
+        "Line_01": "{}{{}{}",
+        "Line_02": "}}{{}{{",
+        "Line_03": "}}{}}{"
+      }]
+    },
+    "Lesson_0396": {
+      "Name": "Lesson_0396",
+      "Number": 396,
+      "Description": "Review { and }",
+      "Lines": [{
+        "Line_01": "w{q} c}d} k{s} }ww{ s{W} o{a}"
+      }]
+    },
+    "Lesson_0397": {
+      "Name": "Lesson_0397",
+      "Number": 397,
+      "Description": "Practice: { and }",
+      "Lines": [{
+        "Line_01": "open{ and closed} curly{} brackets are",
+        "Line_02": "{also} used frequently {in} coding"
+      }]
+    },
+    "Lesson_0398": {
+      "Name": "Lesson_0398",
+      "Number": 398,
+      "Description": "Keys \\ and |",
+      "Lines": [{
+        "Line_01": "\\|\\|\\|",
+        "Line_02": "\\\\|||\\|",
+        "Line_03": "\\|\\\\|\\"
+      }]
+    },
+    "Lesson_0399": {
+      "Name": "Lesson_0399",
+      "Number": 399,
+      "Description": "Review \\ and |",
+      "Lines": [{
+        "Line_01": "w|s\\ x\\q| o\\p| k\\z\\ o|i| p\\u\\"
+      }]
+    },
+    "Lesson_0400": {
+      "Name": "Lesson_0400",
+      "Number": 400,
+      "Description": "Practice: \\ and |",
+      "Lines": [{
+        "Line_01": "some|more|examples \\of\\symbols\\ are the",
+        "Line_02": "|pipe| and \\back\\slash symbols"
+      }]
     }
   }]
 }
