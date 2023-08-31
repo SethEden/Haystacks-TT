@@ -1,6 +1,6 @@
 {
   "name": "haystacks-tt",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "A simple Haystacks-async based command line typing tutor program for Windows, Mac & Linux.",
   "main": "./src/haystacks-tt.js",
   "bin": "./bin/haystacks-tt.js",
