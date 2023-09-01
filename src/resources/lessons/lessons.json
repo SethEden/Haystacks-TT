@@ -4576,6 +4576,102 @@
         "Line_01": "some|more|examples \\of\\symbols\\ are the",
         "Line_02": "|pipe| and \\back\\slash symbols"
       }]
+    },
+    "Lesson_0401": {
+      "Name": "Lesson_0401",
+      "Number": 401,
+      "Description": "Keys < and >",
+      "Lines": [{
+        "Line_01": "<><><>>",
+        "Line_02": "<<><><>",
+        "Line_03": ">><<>>"
+      }]
+    },
+    "Lesson_0402": {
+      "Name": "Lesson_0402",
+      "Number": 402,
+      "Description": "Review < and >",
+      "Lines": [{
+        "Line_01": "x<o> p>d< t>w< u>i< s>a> p>w<"
+      }]
+    },
+    "Lesson_0403": {
+      "Name": "Lesson_0403",
+      "Number": 403,
+      "Description": "Practice: < and >",
+      "Lines": [{
+        "Line_01": "there are <two> mroe symbols >to<",
+        "Line_02": "learn. The less<than and greater>than signs."
+      }]
+    },
+    "Lesson_0404": {
+      "Name": "Lesson_0404",
+      "Number": 404,
+      "Description": "Test 45: Play Symbols",
+      "Lines": [{
+        "Line_01": "~-+[{]|+-'\"-+-_[{]'|{\"\\~`'~]{]}\\|]]_~_~'"
+      }]
+    },
+    "Lesson_0405": {
+      "Name": "Lesson_0405",
+      "Number": 405,
+      "Description": "Review: No shift",
+      "Lines": [{
+        "Line_01": "\\]['=-` \\][=-'` \\]['=-` \\]['=-` =]-'` \\] =['`\\"
+      }]
+    },
+    "Lesson_0406": {
+      "Name": "Lesson_0406",
+      "Number": 406,
+      "Description": "Review: With shift",
+      "Lines": [{
+        "Line_01": "|}{\"+_~ |}{\"+_~ |}{\"+_~ |}{\"+_~ +}_\"~ |} +{\"~|"
+      }]
+    },
+    "Lesson_0407": {
+      "Name": "Lesson_0407",
+      "Number": 407,
+      "Description": "Practice: Symbols 1",
+      "Lines": [{
+        "Line_01": "{it} is -equally+ [important] to",
+        "Line_02": "\\learn\\ \"how\" to' type _all_ the",
+        "Line_03": "symbols+ =on _your` keyboard~"
+      }]
+    },
+    "Lesson_0408": {
+      "Name": "Lesson_0408",
+      "Number": 408,
+      "Description": "Practice: Symbols 2",
+      "Lines": [{
+        "Line_01": "\\Typing' {symbols~ can\" 'be] =tricky_",
+        "Line_02": "[so+ \\keep- =practicing| =until~ 'you{",
+        "Line_03": "}fully[ 'master~ \\it\\"
+      }]
+    },
+    "Lesson_0409": {
+      "Name": "Lesson_0409",
+      "Number": 409,
+      "Description": "Practice: Symbols 3",
+      "Lines": [{
+        "Line_01": "_at_ this+point- you\\ should- be' able|",
+        "Line_02": "to type~ all\" the{ letters] and",
+        "Line_03": "symbols{ on} [your] |keyboard\\"
+      }]
+    },
+    "Lesson_0410": {
+      "Name": "Lesson_0410",
+      "Number": 410,
+      "Description": "Weather/Whether",
+      "Lines": [{
+        "Line_01": "The weather is suposed to be warmer tomorrow.",
+        "Line_02": "weather weather weather weather weather",
+        "Line_03": "You can still come whether or not you are invited.",
+        "Line_04": "wheather whether whether whether whether",
+        "Line_05": "Whether the weather is god, or",
+        "Line_06": "whether the weather is bad, whatever",
+        "Line_07": "the weather, we'll weather together.",
+        "Line_08": "weather whether weather whether"
+      }]
     }
   }]
 }
