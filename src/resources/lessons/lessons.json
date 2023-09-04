@@ -4667,10 +4667,142 @@
         "Line_02": "weather weather weather weather weather",
         "Line_03": "You can still come whether or not you are invited.",
         "Line_04": "wheather whether whether whether whether",
-        "Line_05": "Whether the weather is god, or",
+        "Line_05": "Whether the weather is good, or",
         "Line_06": "whether the weather is bad, whatever",
         "Line_07": "the weather, we'll weather together.",
         "Line_08": "weather whether weather whether"
+      }]
+    },
+    "Lesson_0411": {
+      "Name": "Lesson_0411",
+      "Number": 411,
+      "Description": "Lightning",
+      "Lines": [{
+        "Line_01": "The bright flash of lightning lit up",
+        "Line_02": "the night sky.",
+        "Line_03": "lightning lightning lightning lightning lightning",
+        "Line_04": "The sun is lightening the sky as it rises.",
+        "Line_05": "lightening lightening lightening lightening lightening",
+        "Line_06": "Flashes of lightning are lightening up the sky.",
+        "Line_07": "lightning lightening lightning lightening lightning lightening"
+      }]
+    },
+    "Lesson_0412": {
+      "Name": "Lesson_0412",
+      "Number": 412,
+      "Description": "Environment...",
+      "Lines": [{
+        "Line_01": "We should do all we can to save the environment.",
+        "Line_02": "environment environment environment",
+        "Line_03": "environment environment",
+        "Line_04": "Use your best judgment when making choices.",
+        "Line_05": "judgment judgment judgment judgment judgment",
+        "Line_06": "Good judgment can save the evnironment.",
+        "Line_07": "environment judgment environment judgment"
+      }]
+    },
+    "Lesson_0413": {
+      "Name": "Lesson_0413",
+      "Number": 413,
+      "Description": "Their-They're-There",
+      "Lines": [{
+        "Line_01": "Their teacher said they were the best class.",
+        "Line_02": "their their their their their",
+        "Line_03": "They're climbing to the top of the mountain.",
+        "Line_04": "They're They're They're They're They're",
+        "Line_05": "There are so many monkeys in that tree!",
+        "Line_06": "there there there there there"
+      }]
+    },
+    "Lesson_0414": {
+      "Name": "Lesson_0414",
+      "Number": 414,
+      "Description": "Personal-Personnel",
+      "Lines": [{
+        "Line_01": "You should keep your personal belongings safe.",
+        "Line_02": "personal personal personal personal personal",
+        "Line_03": "The company's personnel were trained well.",
+        "Line_04": "personnel personnel personnel personnel personnel",
+        "Line_05": "The company's personnel each have a personal laptop.",
+        "Line_06": "personal personnel personal personnel"
+      }]
+    },
+    "Lesson_0415": {
+      "Name": "Lesson_0415",
+      "Number": 415,
+      "Description": "Appreciate...",
+      "Lines": [{
+        "Line_01": "Tell your friends you appreciate they often.",
+        "Line_02": "appreciate appreciate appreciate appreciate appreciate",
+        "Line_03": "He would exaggerate about hwo fast could type.",
+        "Line_04": "exaggerate exaggerate exaggerate exaggerate exaggerate",
+        "Line_05": "I do not exaggerate when I say how much I appreciate you.",
+        "Line_06": "apreciate exaggerate appreciate exaggerate"
+      }]
+    },
+    "Lesson_0416": {
+      "Name": "Lesson_0416",
+      "Number": 416,
+      "Description": "Principle-Principal",
+      "Lines": [{
+        "Line_01": "Majority rule is a basic principle of democracy.",
+        "Line_02": "principle principle principle principle principle",
+        "Line_03": "Our school's principal is a kind and intelligent woman.",
+        "Line_04": "principal principal principal principal principal",
+        "Line_05": "Their principal reminded them of the principle rule:",
+        "Line_06": "be kind to others.",
+        "Line_07": "principal principle principal principle principal principle"
+      }]
+    },
+    "Lesson_0417": {
+      "Name": "Lesson_0417",
+      "Number": 417,
+      "Description": "Grammar",
+      "Lines": [{
+        "Line_01": "She wrote the date on the calendar.",
+        "Line_02": "calendar calendar calendar calendar calendar",
+        "Line_03": "He was not particular about food. He would eat anything.",
+        "Line_04": "particular particular particular particular particular",
+        "Line_05": "Which particular calendar did yuo want to buy?",
+        "Line_06": "calendar particular calendar particular"
+      }]
+    },
+    "Lesson_0418": {
+      "Name": "Lesson_0418",
+      "Number": 418,
+      "Description": "It's-Its",
+      "Lines": [{
+        "Line_01": "Sometimes it's hard to understand a difficult subject.",
+        "Line_02": "it's it's it's it's it's",
+        "Line_03": "The dog turned its head and barked.",
+        "Line_04": "its its its its its",
+        "Line_05": "When a dog is wagging its tail, it's usually happy.",
+        "Line_06": "its it's its it's its"
+      }]
+    },
+    "Lesson_0419": {
+      "Name": "Lesson_0419",
+      "Number": 419,
+      "Description": "Though-Thorough",
+      "Lines": [{
+        "Line_01": "Though she be but little, she is fierce.",
+        "Line_02": "though though though though though",
+        "Line_03": "He gave a thorough explaination of the math principle.",
+        "Line_04": "thorough thorough thorough thorough thorough",
+        "Line_05": "Even though he was thorough, he still made a mistake.",
+        "Line_06": "though thorough though thorough"
+      }]
+    },
+    "Lesson_0420": {
+      "Name": "Lesson_0420",
+      "Number": 420,
+      "Description": "Dynamic Practice 12",
+      "Lines": [{
+        "Line_01": "gr gr gro gro groups ground grown",
+        "Line_02": "ge ge nge uge exchange longer huge",
+        "Line_03": "ga ga aga ega against gate began",
+        "Line_04": "gn gn ign gna signal design reign",
+        "Line_05": "gi gi igi gin original originally origin"
       }]
     }
   }]
