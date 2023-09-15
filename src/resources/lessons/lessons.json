@@ -4932,7 +4932,7 @@
       "Number": 429,
       "Description": "Jovian Planets",
       "Lines": [{
-        "Line_01": "Teh four outer planets, or gas giants,",
+        "Line_01": "The four outer planets, or gas giants,",
         "Line_02": "collectively make up 99% of the mass",
         "Line_03": "known to orbit the Sun. Jupiter",
         "Line_04": "and Saturn are each many tens of times the",
@@ -4949,6 +4949,152 @@
       "Description": "Test 47: Play Words 23",
       "Lines": [{
         "Line_01": "solar until because These example economy become orbit various cross mainland twelve their famous include first"
+      }]
+    },
+    "Lesson_0431": {
+      "Name": "Lesson_0431",
+      "Number": 431,
+      "Description": "Independence Day",
+      "Lines": [{
+        "Line_01": "Independence Day in the United States",
+        "Line_02": "of America is celebrated on the 4th of",
+        "Line_03": "July. On this day, the Declaration of",
+        "Line_04": "Independence was aproved by Congress.",
+        "Line_05": "This document declared that the 13",
+        "Line_06": "colonies were a new nation, and",
+        "Line_07": "independent from the British Empire."
+      }]
+    },
+    "Lesson_0432": {
+      "Name": "Lesson_0432",
+      "Number": 432,
+      "Description": "Carbon Dioxide",
+      "Lines": [{
+        "Line_01": "When humans burn fossil fuels like gas",
+        "Line_02": "and oil, a gas caled carbon dioxide",
+        "Line_03": "is released into the air. There, it",
+        "Line_04": "reacts with water vapor. Some of the",
+        "Line_05": "carbon falls back to Earth as rain.",
+        "Line_06": "This causes the level of carbon in the",
+        "Line_07": "ocean to rise. The carbon prevents",
+        "Line_08": "oysters and clams from growing thick,",
+        "Line_09": "hard shells. It also hurts coral."
+      }]
+    },
+    "Lesson_0433": {
+      "Name": "Lesson_0433",
+      "Number": 433,
+      "Description": "Diesel Engines",
+      "Lines": [{
+        "Line_01": "Cars with diesel engines tend to have",
+        "Line_02": "better fuel economy, which means they",
+        "Line_03": "can travel further on a single tank of",
+        "Line_04": "gas. Teh drawback is that diesel",
+        "Line_05": "engines emit gases called oxides of",
+        "Line_06": "nitrogen, which pollute the",
+        "Line_07": "environment. NOx can lead to acid",
+        "Line_08": "rain, smog, and ozone. High levels of",
+        "Line_09": "NOx in the atmosphere can make it hard",
+        "Line_10": "to breathe."
+      }]
+    },
+    "Lesson_0434": {
+      "Name": "Lesson_0434",
+      "Number": 434,
+      "Description": "Stay-at-home Dads",
+      "Lines": [{
+        "Line_01": "Fathers are more involved in their",
+        "Line_02": "children's lives today than in the",
+        "Line_03": "past, says a new report from the",
+        "Line_04": "American Academy of Pediatrics. It",
+        "Line_05": "draws on census data, surveys, and",
+        "Line_06": "academic research. Among the findings,",
+        "Line_07": "the number of stay-at-home dads has",
+        "Line_08": "increased by more than 60%. There were",
+        "Line_09": "98,000 n 2003 and 159,000 in 2012,",
+        "Line_10": "according to the U.S. Census."
+      }]
+    },
+    "Lesson_0435": {
+      "Name": "Lesson_0435",
+      "Number": 435,
+      "Description": "Test 48: Play Words 24",
+      "Lines": [{
+        "Line_01": "drawback their level number water Academy Among economy United single declared colonies ocean research better"
+      }]
+    },
+    "Lesson_0436": {
+      "Name": "Lesson_0436",
+      "Number": 436,
+      "Description": "The US President",
+      "Lines": [{
+        "Line_01": "The president of the United States of",
+        "Line_02": "America is both the head of state and",
+        "Line_03": "head of the government. The office of",
+        "Line_04": "president was created in the United",
+        "Line_05": "States Constitution in 1788. The first",
+        "Line_06": "president took office in 1789. The",
+        "Line_07": "president serves as chief executive and",
+        "Line_08": "is in charge of the executive branch",
+        "Line_09": "of the United States government."
+      }]
+    },
+    "Lesson_0437": {
+      "Name": "Lesson_0437",
+      "Number": 437,
+      "Description": "Mexican Parrots",
+      "Lines": [{
+        "Line_01": "In Mexico, bird habitats have been",
+        "Line_02": "destroyed as forests and trees have",
+        "Line_03": "been cut down to make room for farms",
+        "Line_04": "and ranches. Right now, scientists are",
+        "Line_05": "working to get an accurate count of",
+        "Line_06": "the population. The last study,",
+        "Line_07": "pubished in 1994, estimated the parrot",
+        "Line_08": "population to be 3,000 to 6,500 birds.",
+        "Line_09": "That's down from more than 100,000 in",
+        "Line_10": "the 1950's."
+      }]
+    },
+    "Lesson_0438": {
+      "Name": "Lesson_0438",
+      "Number": 438,
+      "Description": "Gold Rush",
+      "Lines": [{
+        "Line_01": "In 1776, colonists from Spain",
+        "Line_02": "established a fort at the Golden Gate",
+        "Line_03": "and a mission named for Francis of",
+        "Line_04": "Assisi. The California Gold Rush of",
+        "Line_05": "1849 propelled the city into a period",
+        "Line_06": "of rapid growth, increasing the",
+        "Line_07": "population in one year frmo 1,000 to",
+        "Line_08": "25,000, and thus transforming it into",
+        "Line_09": "the largest city on the West Coast at",
+        "Line_10": "the time."
+      }]
+    },
+    "Lesson_0439": {
+      "Name": "Lesson_0439",
+      "Number": 439,
+      "Description": "Pluto",
+      "Lines": [{
+        "Line_01": "Pluto is the 2nd most massive known",
+        "Line_02": "dwarf planet in the solar system and",
+        "Line_03": "the 10th most massive body observed",
+        "Line_04": "directly orbiting the Sun. Originally",
+        "Line_05": "classified as the 9th planet from the",
+        "Line_06": "Sun, Pluto was recategorized as a",
+        "Line_07": "dwarf planet and plutoid due to the",
+        "Line_08": "discovery that it is 1 of many large",
+        "Line_09": "bodies in the newly charted Kuiper belt."
+      }]
+    },
+    "Lesson_0440": {
+      "Name": "Lesson_0440",
+      "Number": 440,
+      "Description": "Test 49: Play Words 25",
+      "Lines": [{
+        "Line_01": "after state ninth first Right study within second several charge period chief United planet Coast Solar branch count"
       }]
     }
   }]
