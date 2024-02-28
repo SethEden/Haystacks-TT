@@ -293,6 +293,7 @@ async function startLesson(inputData, inputMetaData) {
       await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cuserLessonNumberIs + userLessonNumber);
       if (userLessonNumber > 0 && userLessonNumber <= maxLessonNumber) {
         let lessonPassingScoreEnabled = await accountBroker.isLessonAdvancementLimitEnabled();
+        // TODO: Add support for per-lesson passing score configuration setting.
         // lessonPassingScoreEnabled is:
         await haystacks.consoleLog(namespacePrefix, functionName, app_msg.clessonPassingScoreEnabledIs + lessonPassingScoreEnabled);
         if (lessonPassingScoreEnabled === true) {
