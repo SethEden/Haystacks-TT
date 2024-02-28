@@ -4576,6 +4576,1427 @@
         "Line_01": "some|more|examples \\of\\symbols\\ are the",
         "Line_02": "|pipe| and \\back\\slash symbols"
       }]
+    },
+    "Lesson_0401": {
+      "Name": "Lesson_0401",
+      "Number": 401,
+      "Description": "Keys < and >",
+      "Lines": [{
+        "Line_01": "<><><>>",
+        "Line_02": "<<><><>",
+        "Line_03": ">><<>>"
+      }]
+    },
+    "Lesson_0402": {
+      "Name": "Lesson_0402",
+      "Number": 402,
+      "Description": "Review < and >",
+      "Lines": [{
+        "Line_01": "x<o> p>d< t>w< u>i< s>a> p>w<"
+      }]
+    },
+    "Lesson_0403": {
+      "Name": "Lesson_0403",
+      "Number": 403,
+      "Description": "Practice: < and >",
+      "Lines": [{
+        "Line_01": "there are <two> mroe symbols >to<",
+        "Line_02": "learn. The less<than and greater>than signs."
+      }]
+    },
+    "Lesson_0404": {
+      "Name": "Lesson_0404",
+      "Number": 404,
+      "Description": "Test 45: Play Symbols",
+      "Lines": [{
+        "Line_01": "~-+[{]|+-'\"-+-_[{]'|{\"\\~`'~]{]}\\|]]_~_~'"
+      }]
+    },
+    "Lesson_0405": {
+      "Name": "Lesson_0405",
+      "Number": 405,
+      "Description": "Review: No shift",
+      "Lines": [{
+        "Line_01": "\\]['=-` \\][=-'` \\]['=-` \\]['=-` =]-'` \\] =['`\\"
+      }]
+    },
+    "Lesson_0406": {
+      "Name": "Lesson_0406",
+      "Number": 406,
+      "Description": "Review: With shift",
+      "Lines": [{
+        "Line_01": "|}{\"+_~ |}{\"+_~ |}{\"+_~ |}{\"+_~ +}_\"~ |} +{\"~|"
+      }]
+    },
+    "Lesson_0407": {
+      "Name": "Lesson_0407",
+      "Number": 407,
+      "Description": "Practice: Symbols 1",
+      "Lines": [{
+        "Line_01": "{it} is -equally+ [important] to",
+        "Line_02": "\\learn\\ \"how\" to' type _all_ the",
+        "Line_03": "symbols+ =on _your` keyboard~"
+      }]
+    },
+    "Lesson_0408": {
+      "Name": "Lesson_0408",
+      "Number": 408,
+      "Description": "Practice: Symbols 2",
+      "Lines": [{
+        "Line_01": "\\Typing' {symbols~ can\" 'be] =tricky_",
+        "Line_02": "[so+ \\keep- =practicing| =until~ 'you{",
+        "Line_03": "}fully[ 'master~ \\it\\"
+      }]
+    },
+    "Lesson_0409": {
+      "Name": "Lesson_0409",
+      "Number": 409,
+      "Description": "Practice: Symbols 3",
+      "Lines": [{
+        "Line_01": "_at_ this+point- you\\ should- be' able|",
+        "Line_02": "to type~ all\" the{ letters] and",
+        "Line_03": "symbols{ on} [your] |keyboard\\"
+      }]
+    },
+    "Lesson_0410": {
+      "Name": "Lesson_0410",
+      "Number": 410,
+      "Description": "Weather/Whether",
+      "Lines": [{
+        "Line_01": "The weather is suposed to be warmer tomorrow.",
+        "Line_02": "weather weather weather weather weather",
+        "Line_03": "You can still come whether or not you are invited.",
+        "Line_04": "wheather whether whether whether whether",
+        "Line_05": "Whether the weather is good, or",
+        "Line_06": "whether the weather is bad, whatever",
+        "Line_07": "the weather, we'll weather together.",
+        "Line_08": "weather whether weather whether"
+      }]
+    },
+    "Lesson_0411": {
+      "Name": "Lesson_0411",
+      "Number": 411,
+      "Description": "Lightning",
+      "Lines": [{
+        "Line_01": "The bright flash of lightning lit up",
+        "Line_02": "the night sky.",
+        "Line_03": "lightning lightning lightning lightning lightning",
+        "Line_04": "The sun is lightening the sky as it rises.",
+        "Line_05": "lightening lightening lightening lightening lightening",
+        "Line_06": "Flashes of lightning are lightening up the sky.",
+        "Line_07": "lightning lightening lightning lightening lightning lightening"
+      }]
+    },
+    "Lesson_0412": {
+      "Name": "Lesson_0412",
+      "Number": 412,
+      "Description": "Environment...",
+      "Lines": [{
+        "Line_01": "We should do all we can to save the environment.",
+        "Line_02": "environment environment environment",
+        "Line_03": "environment environment",
+        "Line_04": "Use your best judgment when making choices.",
+        "Line_05": "judgment judgment judgment judgment judgment",
+        "Line_06": "Good judgment can save the evnironment.",
+        "Line_07": "environment judgment environment judgment"
+      }]
+    },
+    "Lesson_0413": {
+      "Name": "Lesson_0413",
+      "Number": 413,
+      "Description": "Their-They're-There",
+      "Lines": [{
+        "Line_01": "Their teacher said they were the best class.",
+        "Line_02": "their their their their their",
+        "Line_03": "They're climbing to the top of the mountain.",
+        "Line_04": "They're They're They're They're They're",
+        "Line_05": "There are so many monkeys in that tree!",
+        "Line_06": "there there there there there"
+      }]
+    },
+    "Lesson_0414": {
+      "Name": "Lesson_0414",
+      "Number": 414,
+      "Description": "Personal-Personnel",
+      "Lines": [{
+        "Line_01": "You should keep your personal belongings safe.",
+        "Line_02": "personal personal personal personal personal",
+        "Line_03": "The company's personnel were trained well.",
+        "Line_04": "personnel personnel personnel personnel personnel",
+        "Line_05": "The company's personnel each have a personal laptop.",
+        "Line_06": "personal personnel personal personnel"
+      }]
+    },
+    "Lesson_0415": {
+      "Name": "Lesson_0415",
+      "Number": 415,
+      "Description": "Appreciate...",
+      "Lines": [{
+        "Line_01": "Tell your friends you appreciate they often.",
+        "Line_02": "appreciate appreciate appreciate appreciate appreciate",
+        "Line_03": "He would exaggerate about hwo fast could type.",
+        "Line_04": "exaggerate exaggerate exaggerate exaggerate exaggerate",
+        "Line_05": "I do not exaggerate when I say how much I appreciate you.",
+        "Line_06": "apreciate exaggerate appreciate exaggerate"
+      }]
+    },
+    "Lesson_0416": {
+      "Name": "Lesson_0416",
+      "Number": 416,
+      "Description": "Principle-Principal",
+      "Lines": [{
+        "Line_01": "Majority rule is a basic principle of democracy.",
+        "Line_02": "principle principle principle principle principle",
+        "Line_03": "Our school's principal is a kind and intelligent woman.",
+        "Line_04": "principal principal principal principal principal",
+        "Line_05": "Their principal reminded them of the principle rule:",
+        "Line_06": "be kind to others.",
+        "Line_07": "principal principle principal principle principal principle"
+      }]
+    },
+    "Lesson_0417": {
+      "Name": "Lesson_0417",
+      "Number": 417,
+      "Description": "Grammar",
+      "Lines": [{
+        "Line_01": "She wrote the date on the calendar.",
+        "Line_02": "calendar calendar calendar calendar calendar",
+        "Line_03": "He was not particular about food. He would eat anything.",
+        "Line_04": "particular particular particular particular particular",
+        "Line_05": "Which particular calendar did yuo want to buy?",
+        "Line_06": "calendar particular calendar particular"
+      }]
+    },
+    "Lesson_0418": {
+      "Name": "Lesson_0418",
+      "Number": 418,
+      "Description": "It's-Its",
+      "Lines": [{
+        "Line_01": "Sometimes it's hard to understand a difficult subject.",
+        "Line_02": "it's it's it's it's it's",
+        "Line_03": "The dog turned its head and barked.",
+        "Line_04": "its its its its its",
+        "Line_05": "When a dog is wagging its tail, it's usually happy.",
+        "Line_06": "its it's its it's its"
+      }]
+    },
+    "Lesson_0419": {
+      "Name": "Lesson_0419",
+      "Number": 419,
+      "Description": "Though-Thorough",
+      "Lines": [{
+        "Line_01": "Though she be but little, she is fierce.",
+        "Line_02": "though though though though though",
+        "Line_03": "He gave a thorough explaination of the math principle.",
+        "Line_04": "thorough thorough thorough thorough thorough",
+        "Line_05": "Even though he was thorough, he still made a mistake.",
+        "Line_06": "though thorough though thorough"
+      }]
+    },
+    "Lesson_0420": {
+      "Name": "Lesson_0420",
+      "Number": 420,
+      "Description": "Dynamic Practice 12",
+      "Lines": [{
+        "Line_01": "gr gr gro gro groups ground grown",
+        "Line_02": "ge ge nge uge exchange longer huge",
+        "Line_03": "ga ga aga ega against gate began",
+        "Line_04": "gn gn ign gna signal design reign",
+        "Line_05": "gi gi igi gin original originally origin"
+      }]
+    },
+    "Lesson_0421": {
+      "Name": "Lesson_0421",
+      "Number": 421,
+      "Description": "Red-Crowned Parrot",
+      "Lines": [{
+        "Line_01": "In 2011, the U.S. Fish and Wildlife",
+        "Line_02": "Service announced that the red-crowned",
+        "Line_03": "parrot warranted federal protection.",
+        "Line_04": "They too acknowledged that the birds'",
+        "Line_05": "homes ahve been lost, and that they've",
+        "Line_06": "been poached for the pet trade. They",
+        "Line_07": "wanted the birds to be protected by",
+        "Line_08": "being on America's official list of",
+        "Line_09": "endangered species."
+      }]
+    },
+    "Lesson_0422": {
+      "Name": "Lesson_0422",
+      "Number": 422,
+      "Description": "Eclipse of 2017",
+      "Lines": [{
+        "Line_01": "During the eclipse of 2017, the Moon's",
+        "Line_02": "shadow raced over the Earth's surface",
+        "Line_03": "at more than 2,00 miles per hour. A",
+        "Line_04": "roughly 65-mile-wide zone, called the",
+        "Line_05": "path of totality, offered the best",
+        "Line_06": "viewing. Stars and planets came out,",
+        "Line_07": "and the Sun's corona glowed in a",
+        "Line_08": "perfect circle around the dark side of",
+        "Line_09": "the Moon."
+      }]
+    },
+    "Lesson_0423": {
+      "Name": "Lesson_0423",
+      "Number": 423,
+      "Description": "Thomas Jeferson",
+      "Lines": [{
+        "Line_01": "Thomas Jefferson, the third of ten",
+        "Line_02": "children, was born on April 13, 1743",
+        "Line_03": "in Shadwell, Virginia into a planter",
+        "Line_04": "family. His parents were Peter and",
+        "Line_05": "Jane Jefferson. He had six sisters and",
+        "Line_06": "three brothers. At 9 years old",
+        "Line_07": "Jefferson began studying Latin, Greek,",
+        "Line_08": "and French; he also learned to ride",
+        "Line_09": "horses, and began to study nature."
+      }]
+    },
+    "Lesson_0424": {
+      "Name": "Lesson_0424",
+      "Number": 424,
+      "Description": "Food Allergies",
+      "Lines": [{
+        "Line_01": "Food allergies are fairly common",
+        "Line_02": "amongst adults and even more so among",
+        "Line_03": "children. Around 2% of adults and 8%",
+        "Line_04": "of children suffer from some type of",
+        "Line_05": "food allergy where the immune system",
+        "Line_06": "makes a mistake and thinks a certain",
+        "Line_07": "food protein is dangerous and attacks",
+        "Line_08": "it. Common food alergies are to",
+        "Line_09": "Seafood and peanuts."
+      }]
+    },
+    "Lesson_0425": {
+      "Name": "Lesson_0425",
+      "Number": 425,
+      "Description": "Test 46: Play Words 22",
+      "Lines": [{
+        "Line_01": "family around certain third Service began study circle surface among being perfect federal include where known"
+      }]
+    },
+    "Lesson_0426": {
+      "Name": "Lesson_0426",
+      "Number": 426,
+      "Description": "King Kong",
+      "Lines": [{
+        "Line_01": "King Kong is a fictional character, a",
+        "Line_02": "giant movie monster resembling a",
+        "Line_03": "gorilla, that has appeared in several",
+        "Line_04": "movies since 1933. These include the",
+        "Line_05": "groundbreaking 1933 movie, the film",
+        "Line_06": "remakes of 1976 and 2005, as well as",
+        "Line_07": "various sequels of the first two",
+        "Line_08": "films. The character has become one of",
+        "Line_09": "the world's most famous movie icons."
+      }]
+    },
+    "Lesson_0427": {
+      "Name": "Lesson_0427",
+      "Number": 427,
+      "Description": "Great Eclipse",
+      "Lines": [{
+        "Line_01": "In 2017, the mainland U.S. will",
+        "Line_02": "experience its first solar eclipse in",
+        "Line_03": "almost 30 years. At the time of",
+        "Line_04": "writing, the ecipse is scheduled to",
+        "Line_05": "occur on August 21, 2017. Some are",
+        "Line_06": "calling it the Great American Eclipse",
+        "Line_07": "because the moon's shadow will cross",
+        "Line_08": "twelve states from Oregon in the",
+        "Line_09": "Pacific Northwest to Suth Carolina in",
+        "Line_10": "the Southeast."
+      }]
+    },
+    "Lesson_0428": {
+      "Name": "Lesson_0428",
+      "Number": 428,
+      "Description": "Great Depression",
+      "Lines": [{
+        "Line_01": "The timing of the Great Depression",
+        "Line_02": "varied across nations, but in most",
+        "Line_03": "countries it started in 1929 and",
+        "Line_04": "lasted until the late 1930s or early",
+        "Line_05": "1940s. It was the longest, most",
+        "Line_06": "widespread, and deepest depression of",
+        "Line_07": "the 20th century. In the 21st century,",
+        "Line_08": "the Great Depression is commonly used",
+        "Line_09": "as an example of how far the world's",
+        "Line_10": "economy can decline."
+      }]
+    },
+    "Lesson_0429": {
+      "Name": "Lesson_0429",
+      "Number": 429,
+      "Description": "Jovian Planets",
+      "Lines": [{
+        "Line_01": "The four outer planets, or gas giants,",
+        "Line_02": "collectively make up 99% of the mass",
+        "Line_03": "known to orbit the Sun. Jupiter",
+        "Line_04": "and Saturn are each many tens of times the",
+        "Line_05": "mass of the Earth and consist",
+        "Line_06": "overwhelmingly of hydrogen and helium.",
+        "Line_07": "Uranus and Neptune are far less",
+        "Line_08": "massive (<20 Earth masses) and possess",
+        "Line_09": "ore ice in their makeup."
+      }]
+    },
+    "Lesson_0430": {
+      "Name": "Lesson_0430",
+      "Number": 430,
+      "Description": "Test 47: Play Words 23",
+      "Lines": [{
+        "Line_01": "solar until because These example economy become orbit various cross mainland twelve their famous include first"
+      }]
+    },
+    "Lesson_0431": {
+      "Name": "Lesson_0431",
+      "Number": 431,
+      "Description": "Independence Day",
+      "Lines": [{
+        "Line_01": "Independence Day in the United States",
+        "Line_02": "of America is celebrated on the 4th of",
+        "Line_03": "July. On this day, the Declaration of",
+        "Line_04": "Independence was aproved by Congress.",
+        "Line_05": "This document declared that the 13",
+        "Line_06": "colonies were a new nation, and",
+        "Line_07": "independent from the British Empire."
+      }]
+    },
+    "Lesson_0432": {
+      "Name": "Lesson_0432",
+      "Number": 432,
+      "Description": "Carbon Dioxide",
+      "Lines": [{
+        "Line_01": "When humans burn fossil fuels like gas",
+        "Line_02": "and oil, a gas caled carbon dioxide",
+        "Line_03": "is released into the air. There, it",
+        "Line_04": "reacts with water vapor. Some of the",
+        "Line_05": "carbon falls back to Earth as rain.",
+        "Line_06": "This causes the level of carbon in the",
+        "Line_07": "ocean to rise. The carbon prevents",
+        "Line_08": "oysters and clams from growing thick,",
+        "Line_09": "hard shells. It also hurts coral."
+      }]
+    },
+    "Lesson_0433": {
+      "Name": "Lesson_0433",
+      "Number": 433,
+      "Description": "Diesel Engines",
+      "Lines": [{
+        "Line_01": "Cars with diesel engines tend to have",
+        "Line_02": "better fuel economy, which means they",
+        "Line_03": "can travel further on a single tank of",
+        "Line_04": "gas. Teh drawback is that diesel",
+        "Line_05": "engines emit gases called oxides of",
+        "Line_06": "nitrogen, which pollute the",
+        "Line_07": "environment. NOx can lead to acid",
+        "Line_08": "rain, smog, and ozone. High levels of",
+        "Line_09": "NOx in the atmosphere can make it hard",
+        "Line_10": "to breathe."
+      }]
+    },
+    "Lesson_0434": {
+      "Name": "Lesson_0434",
+      "Number": 434,
+      "Description": "Stay-at-home Dads",
+      "Lines": [{
+        "Line_01": "Fathers are more involved in their",
+        "Line_02": "children's lives today than in the",
+        "Line_03": "past, says a new report from the",
+        "Line_04": "American Academy of Pediatrics. It",
+        "Line_05": "draws on census data, surveys, and",
+        "Line_06": "academic research. Among the findings,",
+        "Line_07": "the number of stay-at-home dads has",
+        "Line_08": "increased by more than 60%. There were",
+        "Line_09": "98,000 n 2003 and 159,000 in 2012,",
+        "Line_10": "according to the U.S. Census."
+      }]
+    },
+    "Lesson_0435": {
+      "Name": "Lesson_0435",
+      "Number": 435,
+      "Description": "Test 48: Play Words 24",
+      "Lines": [{
+        "Line_01": "drawback their level number water Academy Among economy United single declared colonies ocean research better"
+      }]
+    },
+    "Lesson_0436": {
+      "Name": "Lesson_0436",
+      "Number": 436,
+      "Description": "The US President",
+      "Lines": [{
+        "Line_01": "The president of the United States of",
+        "Line_02": "America is both the head of state and",
+        "Line_03": "head of the government. The office of",
+        "Line_04": "president was created in the United",
+        "Line_05": "States Constitution in 1788. The first",
+        "Line_06": "president took office in 1789. The",
+        "Line_07": "president serves as chief executive and",
+        "Line_08": "is in charge of the executive branch",
+        "Line_09": "of the United States government."
+      }]
+    },
+    "Lesson_0437": {
+      "Name": "Lesson_0437",
+      "Number": 437,
+      "Description": "Mexican Parrots",
+      "Lines": [{
+        "Line_01": "In Mexico, bird habitats have been",
+        "Line_02": "destroyed as forests and trees have",
+        "Line_03": "been cut down to make room for farms",
+        "Line_04": "and ranches. Right now, scientists are",
+        "Line_05": "working to get an accurate count of",
+        "Line_06": "the population. The last study,",
+        "Line_07": "pubished in 1994, estimated the parrot",
+        "Line_08": "population to be 3,000 to 6,500 birds.",
+        "Line_09": "That's down from more than 100,000 in",
+        "Line_10": "the 1950's."
+      }]
+    },
+    "Lesson_0438": {
+      "Name": "Lesson_0438",
+      "Number": 438,
+      "Description": "Gold Rush",
+      "Lines": [{
+        "Line_01": "In 1776, colonists from Spain",
+        "Line_02": "established a fort at the Golden Gate",
+        "Line_03": "and a mission named for Francis of",
+        "Line_04": "Assisi. The California Gold Rush of",
+        "Line_05": "1849 propelled the city into a period",
+        "Line_06": "of rapid growth, increasing the",
+        "Line_07": "population in one year frmo 1,000 to",
+        "Line_08": "25,000, and thus transforming it into",
+        "Line_09": "the largest city on the West Coast at",
+        "Line_10": "the time."
+      }]
+    },
+    "Lesson_0439": {
+      "Name": "Lesson_0439",
+      "Number": 439,
+      "Description": "Pluto",
+      "Lines": [{
+        "Line_01": "Pluto is the 2nd most massive known",
+        "Line_02": "dwarf planet in the solar system and",
+        "Line_03": "the 10th most massive body observed",
+        "Line_04": "directly orbiting the Sun. Originally",
+        "Line_05": "classified as the 9th planet from the",
+        "Line_06": "Sun, Pluto was recategorized as a",
+        "Line_07": "dwarf planet and plutoid due to the",
+        "Line_08": "discovery that it is 1 of many large",
+        "Line_09": "bodies in the newly charted Kuiper belt."
+      }]
+    },
+    "Lesson_0440": {
+      "Name": "Lesson_0440",
+      "Number": 440,
+      "Description": "Test 49: Play Words 25",
+      "Lines": [{
+        "Line_01": "after state ninth first Right study within second several charge period chief United planet Coast Solar branch count"
+      }]
+    },
+    "Lesson_0441": {
+      "Name": "Lesson_0441",
+      "Number": 441,
+      "Description": "Mexico",
+      "Lines": [{
+        "Line_01": "First inhabited more than 10,000 years",
+        "Line_02": "ago, the cultures that developed in",
+        "Line_03": "Mexico became one of the cradles of",
+        "Line_04": "civilization. During the 300 year rule",
+        "Line_05": "by the Spanish, Mexico became a",
+        "Line_06": "crossroad for the people and cultures",
+        "Line_07": "of Europe, Africa, and Asia. The",
+        "Line_08": "government of Mexico actively promotes",
+        "Line_09": "shared cultural traits in order to",
+        "Line_10": "create a national identity."
+      }]
+    },
+    "Lesson_0442": {
+      "Name": "Lesson_0442",
+      "Number": 442,
+      "Description": "The Moon",
+      "Lines": [{
+        "Line_01": "The Moon is in synchronous rotation",
+        "Line_02": "with Earth. This means it always shows",
+        "Line_03": "Earth the same face with its near side",
+        "Line_04": "marked by dark volcanic maria that",
+        "Line_05": "fills the spaces between the crustal",
+        "Line_06": "highlands and impact craters. It is",
+        "Line_07": "the brightest object in the sky after",
+        "Line_08": "the Sun, although its surface is",
+        "Line_09": "actually dark."
+      }]
+    },
+    "Lesson_0443": {
+      "Name": "Lesson_0443",
+      "Number": 443,
+      "Description": "Oil",
+      "Lines": [{
+        "Line_01": "The word oil is used for many",
+        "Line_02": "different kinds of liquids. Oil usually",
+        "Line_03": "does not mix with water. Some oils are",
+        "Line_04": "made from plants and used in foods and",
+        "Line_05": "for cooking. Some varieties of plant",
+        "Line_06": "oils are African palm, maize (corn),",
+        "Line_07": "olive, peanut, soy, and sunflower.",
+        "Line_08": "Other kinds of oil are made from crude",
+        "Line_09": "oil (petroleum) which comes from under",
+        "Line_10": "the ground."
+      }]
+    },
+    "Lesson_0444": {
+      "Name": "Lesson_0444",
+      "Number": 444,
+      "Description": "Life of Plants",
+      "Lines": [{
+        "Line_01": "Plants take water from soil through",
+        "Line_02": "their veins, which are called xylem.",
+        "Line_03": "The water goes to their leaves, which",
+        "Line_04": "take carbon dioxide from the air.",
+        "Line_05": "carbon dioxide mixes with the water.",
+        "Line_06": "Energy from the sun helps this process",
+        "Line_07": "along and turns the combination into a",
+        "Line_08": "sugar called glucose. Glucose is plant",
+        "Line_09": "food, it gives plants energy to grow."
+      }]
+    },
+    "Lesson_0445": {
+      "Name": "Lesson_0445",
+      "Number": 445,
+      "Description": "Test 50: Play Words 26",
+      "Lines": [{
+        "Line_01": "number although fatigue Other plant object their before people after Earth always water peanut nunder Energy process"
+      }]
+    },
+    "Lesson_0446": {
+      "Name": "Lesson_0446",
+      "Number": 446,
+      "Description": "Iron",
+      "Lines": [{
+        "Line_01": "It might only take you a few minutes",
+        "Line_02": "to finish a meal but it takes your",
+        "Line_03": "body around 12 hours before it has",
+        "Line_04": "completely digested the food. The human",
+        "Line_05": "body needs iron to help perform a",
+        "Line_06": "number of important functions. Iron",
+        "Line_07": "helps carry oxygen to parts of your",
+        "Line_08": "body in the form of hemoglobin. Not",
+        "Line_09": "having enough can lead to iron",
+        "Line_10": "deficiency and symptoms such as",
+        "Line_11": "weakness and fatigue."
+      }]
+    },
+    "Lesson_0447": {
+      "Name": "Lesson_0447",
+      "Number": 447,
+      "Description": "Refrigeration",
+      "Lines": [{
+        "Line_01": "Persians invented a type of evaporative",
+        "Line_02": "cooler known as a Yakhchal around 400",
+        "Line_03": "BCE. It was a dome-shaped object used",
+        "Line_04": "as a means of refrigeration. The items",
+        "Line_05": "meant to be kept cool were stored in",
+        "Line_06": "the subterranean part of this structure",
+        "Line_07": "and since it had this subterranean",
+        "Line_08": "space as well as heat-resistant",
+        "Line_09": "materials, it was capable of storing",
+        "Line_10": "ice or foods in the hot desert",
+        "Line_11": "year-round."
+      }]
+    },
+    "Lesson_0448": {
+      "Name": "Lesson_0448",
+      "Number": 448,
+      "Description": "Muhammad Ali",
+      "Lines": [{
+        "Line_01": "Muhammad Ali, the three time world",
+        "Line_02": "heavyweight boxing champion, never",
+        "Line_03": "forgot his roots. He returned to his",
+        "Line_04": "old neighborhood and visited high",
+        "Line_05": "school classmates even after becoming",
+        "Line_06": "one of the most recognizable men in",
+        "Line_07": "the world. Muhammad Ali was born and",
+        "Line_08": "raised in Kentucky, where he started",
+        "Line_09": "boxing at the age of 12.",
+        "Line_10": "Also the author of this application, Haystacks-TT, has",
+        "Line_11": "seen Muhammad Ali in person visiting",
+        "Line_12": "Andrews University Pioneer Memorial Church",
+        "Line_13": "In Berrien Springs Michigan"
+      }]
+    },
+    "Lesson_0449": {
+      "Name": "Lesson_0449",
+      "Number": 449,
+      "Description": "Music Production",
+      "Lines": [{
+        "Line_01": "There are many more people working on",
+        "Line_02": "pop music than those that are seen on",
+        "Line_03": "stage or in the videos. These people",
+        "Line_04": "include the studio, production,",
+        "Line_05": "distribution and retail staff, each of",
+        "Line_06": "which help the musicians to record",
+        "Line_07": "with extensive quality control, and",
+        "Line_08": "sell it to the stores and finally to",
+        "Line_09": "people."
+      }]
+    },
+    "Lesson_0450": {
+      "Name": "Lesson_0450",
+      "Number": 450,
+      "Description": "Test 51: Play Words 27",
+      "Lines": [{
+        "Line_01": "Include quality Persians meal Video structure muscle iron fatigue cooler music Oxygen Memory retail Power function"
+      }]
+    },
+    "Lesson_0451": {
+      "Name": "Lesson_0451",
+      "Number": 451,
+      "Description": "Dynamic Practice 13",
+      "Lines": [{
+        "Line_01": "gr gr gre gro greenhouse greatly growing",
+        "Line_02": "ge ge age gen stage age genetic",
+        "Line_03": "ga ga aga ega again gardens negative",
+        "Line_04": "gn gn ogn ign recognized significantly magnetic",
+        "Line_05": "gi gi egi ngi beginning giant engine"
+      }]
+    },
+    "Lesson_0452": {
+      "Name": "Lesson_0452",
+      "Number": 452,
+      "Description": "Australia",
+      "Lines": [{
+        "Line_01": "There are rougyhly six times more sheep",
+        "Line_02": "in Australia than there are people.",
+        "Line_03": "Australia is a relatively wealthy",
+        "Line_04": "country which makes it an attractive",
+        "Line_05": "place to live for many people around",
+        "Line_06": "the world. Sydney is one of the eight",
+        "Line_07": "capital cities in Australia. It is",
+        "Line_08": "also Australia's largest city, followed",
+        "Line_09": "by Melbourne, Brisbane, Perth and Adelaide."
+      }]
+    },
+    "Lesson_0453": {
+      "Name": "Lesson_0453",
+      "Number": 453,
+      "Description": "Robots",
+      "Lines": [{
+        "Line_01": "Robots have many uses. Factories use",
+        "Line_02": "industrial robotos to do hard work",
+        "Line_03": "quickly and without mistakes. The",
+        "Line_04": "military uses robots to find and get",
+        "Line_05": "rid of bombs. If a mistake is made on",
+        "Line_06": "a battlefield, the robot is damaged or",
+        "Line_07": "destroyed, which is better than a",
+        "Line_08": "person being killed. There are also",
+        "Line_09": "domestic robots that can vacuum or cut grass."
+      }]
+    },
+    "Lesson_0454": {
+      "Name": "Lesson_0454",
+      "Number": 454,
+      "Description": "Windmills",
+      "Lines": [{
+        "Line_01": "A windmill converts the energy of the",
+        "Line_02": "wind into rotational energy. Wind power",
+        "Line_03": "stations use the wind to turn a",
+        "Line_04": "turbine which turns a magnet inside a coil.",
+        "Line_05": "The wind has kinetic energy",
+        "Line_06": "(movement energy) which is changed into",
+        "Line_07": "mechanical energy by the blades on the",
+        "Line_08": "turbine. The turbine then turns a",
+        "Line_09": "generator which creates electrical",
+        "Line_10": "energy (voltage)."
+      }]
+    },
+    "Lesson_0455": {
+      "Name": "Lesson_0455",
+      "Number": 455,
+      "Description": "Ancient China",
+      "Lines": [{
+        "Line_01": "China has the world's oldest continuous",
+        "Line_02": "civilization. There is archaeological",
+        "Line_03": "evidence of this that is over 5,000",
+        "Line_04": "years old. China also has one of the",
+        "Line_05": "world's oldest writing systems, and is",
+        "Line_06": "viewed as the source of many major",
+        "Line_07": "inventions. China is home to some of",
+        "Line_08": "the oldest artwork in the world.",
+        "Line_09": "Statues and pottery are some classic examples."
+      }]
+    },
+    "Lesson_0456": {
+      "Name": "Lesson_0456",
+      "Number": 456,
+      "Description": "Test 52: Play Words 28",
+      "Lines": [{
+        "Line_01": "quickly being better world There without power health inside major person learn vitamins because energy"
+      }]
+    },
+    "Lesson_0457": {
+      "Name": "Lesson_0457",
+      "Number": 457,
+      "Description": "Gas Giants",
+      "Lines": [{
+        "Line_01": "The four farthest planets in the solar",
+        "Line_02": "system, Jupiter, Saturn, Uranus, and",
+        "Line_03": "Neptune, are called gas giants. This",
+        "Line_04": "is because they are large planets that",
+        "Line_05": "are mostly made of gas, such as",
+        "Line_06": "hydrogen and helium, with a relatively",
+        "Line_07": "small rocky core. Even though they are",
+        "Line_08": "made of gas, they have significantly",
+        "Line_09": "more mass than the terrestrial planets."
+      }]
+    },
+    "Lesson_0458": {
+      "Name": "Lesson_0458",
+      "Number": 458,
+      "Description": "Water",
+      "Lines": [{
+        "Line_01": "Water is a molecule made of 2 hydrogen",
+        "Line_02": "atoms and 1 oxygen atom. Its chemical",
+        "Line_03": "formula is H2O. Water has surface",
+        "Line_04": "tension, so a little bit of water",
+        "Line_05": "makes a drop rather than spreading out",
+        "Line_06": "over the surface. Though a human being",
+        "Line_07": "can survive for up to a week without",
+        "Line_08": "food, they can only survive for a day",
+        "Line_09": "or two without water."
+      }]
+    },
+    "Lesson_0459": {
+      "Name": "Lesson_0459",
+      "Number": 459,
+      "Description": "Citation",
+      "Lines": [{
+        "Line_01": "When you do research, always remember",
+        "Line_02": "to write down the places you find",
+        "Line_03": "information. This is called citing, or",
+        "Line_04": "making a citation. A good idea is to",
+        "Line_05": "bookmark all of the pages with",
+        "Line_06": "information you want to use so you",
+        "Line_07": "don't lose track of your sources.",
+        "Line_08": "Then, when you are ready to make your",
+        "Line_09": "bibliography, you'll be prepared."
+      }]
+    },
+    "Lesson_0460": {
+      "Name": "Lesson_0460",
+      "Number": 460,
+      "Description": "The Sun",
+      "Lines": [{
+        "Line_01": "Although we think of our Sun as a",
+        "Line_02": "unique celestial body, it is actually",
+        "Line_03": "one of trillions of stars in the",
+        "Line_04": "universe. Some estimates for stars",
+        "Line_05": "similar to the Sun in just the Milky",
+        "Line_06": "Way galaxy are as high as 7 billion.",
+        "Line_07": "If this number is correct, there could",
+        "Line_08": "be over one trillion stars that are",
+        "Line_09": "roughly the same as our Sun in the universe."
+      }]
+    },
+    "Lesson_0461": {
+      "Name": "Lesson_0461",
+      "Number": 461,
+      "Description": "Test 53: Rhyming Words 1",
+      "Lines": [{
+        "Line_01": "plaid mad tad fad sad glad clad grad ad pad dad doodad lad chad gad rad had granddad cad dyad bad add brad comrade"
+      }]
+    },
+    "Lesson_0462": {
+      "Name": "Lesson_0462",
+      "Number": 462,
+      "Description": "Black Hole",
+      "Lines": [{
+        "Line_01": "A black hole is a region of spacetime",
+        "Line_02": "from which nothing, not even light,",
+        "Line_03": "can escape. The theory of general",
+        "Line_04": "relativity predicts that a sufficiently",
+        "Line_05": "compact mass will deform spacetime to",
+        "Line_06": "form a black hole. Most black holes",
+        "Line_07": "are made when a supergiant star dies."
+      }]
+    },
+    "Lesson_0463": {
+      "Name": "Lesson_0463",
+      "Number": 463,
+      "Description": "Your Communities",
+      "Lines": [{
+        "Line_01": "How much time do you spend thinking",
+        "Line_02": "about the communities you belong to?",
+        "Line_03": "If you're like most of us, probably",
+        "Line_04": "not enough. That's because we take",
+        "Line_05": "them for granted. Whether it's our",
+        "Line_06": "circle of friends, the clubs we've",
+        "Line_07": "joined or even the sports teams we",
+        "Line_08": "play for, we tend to forget we belong",
+        "Line_09": "to many different communities at the",
+        "Line_10": "same time."
+      }]
+    },
+    "Lesson_0464": {
+      "Name": "Lesson_0464",
+      "Number": 464,
+      "Description": "Marie Curie",
+      "Lines": [{
+        "Line_01": "The first woman to win a Nobel Prize",
+        "Line_02": "was Marie Sklodowska Curie, who won",
+        "Line_03": "the Nobel Prize in Physics in 1903",
+        "Line_04": "with her husband, Pierre Curie, and",
+        "Line_05": "Henri Becquerel. Curie is also the",
+        "Line_06": "only woman to have won multiple Nobel",
+        "Line_07": "Prizes; in 1911, she won the Nobel",
+        "Line_08": "Prize in Chemistry. Curie's daughter,",
+        "Line_09": "Irene Joliot-Curie, won the Nobel Prize",
+        "Line_10": "in Chemistry in 1935."
+      }]
+    },
+    "Lesson_0465": {
+      "Name": "Lesson_0465",
+      "Number": 465,
+      "Description": "Marine Life",
+      "Lines": [{
+        "Line_01": "While there are hundreds of thousands",
+        "Line_02": "of known marine life forms, there are",
+        "Line_03": "many that are yet to be discovered.",
+        "Line_04": "Scientists suggest that there could",
+        "Line_05": "actually be millions of marine life",
+        "Line_06": "forms out there. We've only explored",
+        "Line_07": "about 5% of Earth's oceans! The oceans",
+        "Line_08": "cover 71% of the Earth's surface and",
+        "Line_09": "contain 97% of the Earth's water."
+      }]
+    },
+    "Lesson_0466": {
+      "Name": "Lesson_0466",
+      "Number": 466,
+      "Description": "Test 54: Rhyming Words 2",
+      "Lines": [{
+        "Line_01": "gab stab slab flab jab dab drab scab grab cab tab nab crab lab fab nab wab vab"
+      }]
+    },
+    "Lesson_0467": {
+      "Name": "Lesson_0467",
+      "Number": 467,
+      "Description": "Birds",
+      "Lines": [{
+        "Line_01": "Different types of birds eat different",
+        "Line_02": "foods. Most birds are carnivorous",
+        "Line_03": "meaning that they eat meat. Some",
+        "Line_04": "examples are fish, small reptiles,",
+        "Line_05": "insects, and mice. Birds of prey eat",
+        "Line_06": "mammals and other birds. Many birds",
+        "Line_07": "such as parrots and finches live on",
+        "Line_08": "seeds and fruit. Humming birds drink",
+        "Line_09": "nectar from flowers."
+      }]
+    },
+    "Lesson_0468": {
+      "Name": "Lesson_0468",
+      "Number": 468,
+      "Description": "River",
+      "Lines": [{
+        "Line_01": "A river is a stream of water that",
+        "Line_02": "flows through a 'channel' (or passage)",
+        "Line_03": "in the surface of the ground. The",
+        "Line_04": "passage where the river flows is",
+        "Line_05": "called the riverbed and the earth on",
+        "Line_06": "each side is called a riverbank. A",
+        "Line_07": "river begins on high ground or in",
+        "Line_08": "hills or mountains and flows down from",
+        "Line_09": "the high ground to the lower ground",
+        "Line_10": "due to gravity. Some rivers flow underground",
+        "Line_11": "through caves. The worlds longest underground",
+        "Line_12": "river is in Palawan Philippines"
+      }]
+    },
+    "Lesson_0469": {
+      "Name": "Lesson_0469",
+      "Number": 469,
+      "Description": "New Zealand",
+      "Lines": [{
+        "Line_01": "New Zealand was the first country in",
+        "Line_02": "the world to allow women to vote in",
+        "Line_03": "1893. It has been recognized as the",
+        "Line_04": "world's most peaceful country. New",
+        "Line_05": "Zealanders refer to themselves as",
+        "Line_06": "Kiwis, which probably dates back to",
+        "Line_07": "World War I when New Zealand soldiers",
+        "Line_08": "acquired the nickname. The New Zealand",
+        "Line_09": "dollar coin features a kiwi bird on",
+        "Line_10": "one side."
+      }]
+    },
+    "Lesson_0470": {
+      "Name": "Lesson_0470",
+      "Number": 470,
+      "Description": "Indonesia",
+      "Lines": [{
+        "Line_01": "Indonesia is the largest archipelago in",
+        "Line_02": "the world, and is made up of 18,000",
+        "Line_03": "separate islands. Indonesia is home to",
+        "Line_04": "the most odorous flower on Earth,",
+        "Line_05": "often referred to as the corpse",
+        "Line_06": "flower. It can grow to an average",
+        "Line_07": "height of 2 meters (6.5 ft). When it",
+        "Line_08": "blooms, it releases a foul odor",
+        "Line_09": "comparable to rotten meat, which can",
+        "Line_10": "be smelled from half a mile away."
+      }]
+    },
+    "Lesson_0471": {
+      "Name": "Lesson_0471",
+      "Number": 466,
+      "Description": "Test 55: Play Words 29",
+      "Lines": [{
+        "Line_01": "clear color sketch There oxygen women least small Water believe people average children result still paper their"
+      }]
+    },
+    "Lesson_0472": {
+      "Name": "Lesson_0472",
+      "Number": 472,
+      "Description": "George Washington",
+      "Lines": [{
+        "Line_01": "Washington was a delegate to the First",
+        "Line_02": "Continental Congress, which was created",
+        "Line_03": "by the Thirteen Colonies to respond to",
+        "Line_04": "various laws passed by the British",
+        "Line_05": "government. Washington was chosen by",
+        "Line_06": "the Second Continental Congress to be",
+        "Line_07": "the commanding general of the",
+        "Line_08": "Continental Army. Washington led the",
+        "Line_09": "army from 1775 until the end of the",
+        "Line_10": "war in 1783."
+      }]
+    },
+    "Lesson_0473": {
+      "Name": "Lesson_0473",
+      "Number": 473,
+      "Description": "Crowdfunding",
+      "Lines": [{
+        "Line_01": "Crowdfunding is becoming a popular",
+        "Line_02": "option for early-stage startups. It",
+        "Line_03": "generates buzz among potential",
+        "Line_04": "customers. It may be an especially",
+        "Line_05": "attractive option in the current",
+        "Line_06": "market, with venture funding harder to",
+        "Line_07": "come by. But multimillion-dollar",
+        "Line_08": "success stories remain rare.",
+        "Line_09": "Crowdfunding isn't expected to replace",
+        "Line_10": "venture funding anytime soon."
+      }]
+    },
+    "Lesson_0474": {
+      "Name": "Lesson_0474",
+      "Number": 474,
+      "Description": "Background Actors",
+      "Lines": [{
+        "Line_01": "Background actors are also known as",
+        "Line_02": "'extras'. They are often called the",
+        "Line_03": "unsung heroes of TV shows, movies,",
+        "Line_04": "music videos, and commercials. They are",
+        "Line_05": "men, women, and sometimes children who",
+        "Line_06": "get paid $8-$12 an hour. They make",
+        "Line_07": "city streets look busy, hospitals look",
+        "Line_08": "crowded, and parties look fun."
+      }]
+    },
+    "Lesson_0475": {
+      "Name": "Lesson_0475",
+      "Number": 475,
+      "Description": "Laws of Robotics",
+      "Lines": [{
+        "Line_01": "A robot may not injure a human being,",
+        "Line_02": "or through inaction, allow a human",
+        "Line_03": "being to come to harm. A robot must",
+        "Line_04": "obey orders given to it by human",
+        "Line_05": "beings, except where such orders would",
+        "Line_06": "conflict with the first law. A robot",
+        "Line_07": "must protect its own existence as long",
+        "Line_08": "as such protection does not conflict",
+        "Line_09": "with the first or second law."
+      }]
+    },
+    "Lesson_0476": {
+      "Name": "Lesson_0476",
+      "Number": 476,
+      "Description": "Test 56: Play Words 30",
+      "Lines": [{
+        "Line_01": "human various among women first current allow given remain where Congress general Colonies often music children"
+      }]
+    },
+    "Lesson_0477": {
+      "Name": "Lesson_0477",
+      "Number": 477,
+      "Description": "Olive Oil",
+      "Lines": [{
+        "Line_01": "While grapes are an important part of",
+        "Line_02": "many Mediterranean cultures, nothing",
+        "Line_03": "beats the importance of olives in",
+        "Line_04": "Spain. The cultivation of olives and",
+        "Line_05": "the production of olive oil have deep",
+        "Line_06": "roots in Spanish history. About 45% of",
+        "Line_07": "the world's olive oil is produced in",
+        "Line_08": "Spain! Each year, the average Spaniard",
+        "Line_09": "consumes around 14 liters (or 3.7",
+        "Line_10": "gallons) of olive oil."
+      }]
+    },
+    "Lesson_0478": {
+      "Name": "Lesson_0478",
+      "Number": 478,
+      "Description": "Germany",
+      "Lines": [{
+        "Line_01": "Germany is one of the largest and most",
+        "Line_02": "powerful economies in Europe. After the",
+        "Line_03": "United States, Germany is the second",
+        "Line_04": "most popular country for migration in",
+        "Line_05": "the world. When John F. Kennedy",
+        "Line_06": "visited Berlin in June, 1963, he",
+        "Line_07": "infamously said, 'Ich bin ein",
+        "Line_08": "Berliner', which also happens to",
+        "Line_09": "translate in German as 'I am a jelly donut'."
+      }]
+    },
+    "Lesson_0479": {
+      "Name": "Lesson_0479",
+      "Number": 479,
+      "Description": "Trees",
+      "Lines": [{
+        "Line_01": "The leaves of trees are green most of",
+        "Line_02": "the time, but they can come in many",
+        "Line_03": "colors, shapes, and sizes. Leaves take",
+        "Line_04": "in sunlight and use water and food",
+        "Line_05": "from the roots to help the tree grow",
+        "Line_06": "and reproduce. Trees and shrubs take",
+        "Line_07": "in water and carbon dioxide and give",
+        "Line_08": "out oxygen. As a tree grows, it may",
+        "Line_09": "produce growth rings."
+      }]
+    },
+    "Lesson_0480": {
+      "Name": "Lesson_0480",
+      "Number": 480,
+      "Description": "Flowers",
+      "Lines": [{
+        "Line_01": "A flower is a part of a plant.",
+        "Line_02": "Flowers are also called the bloom or",
+        "Line_03": "blossom of a plant. The plant grows on",
+        "Line_04": "a stalk, a thin node, which supports",
+        "Line_05": "the flower. Flowers have petals. Inside",
+        "Line_06": "the petals are the parts which produce",
+        "Line_07": "seeds. Flowers are the reproductive",
+        "Line_08": "structure of flowering plants, which",
+        "Line_09": "are plants of the division Magnoliophyta."
+      }]
+    },
+    "Lesson_0481": {
+      "Name": "Lesson_0481",
+      "Number": 481,
+      "Description": "Test 57: Play Words 31",
+      "Lines": [{
+        "Line_01": "After produce world nothing people green country water culture Inside family flower their division second oxygen"
+      }]
+    },
+    "Lesson_0482": {
+      "Name": "Lesson_0482",
+      "Number": 482,
+      "Description": "Dynamic Practice 14",
+      "Lines": [{
+        "Line_01": "gr gr gra gro gradually ground greenhouse",
+        "Line_02": "ge ge rge nge charge exchange change",
+        "Line_03": "ga ga ega gal legal began gardens",
+        "Line_04": "gn gn agn ign electromagnetic foreign recognized",
+        "Line_05": "gi gi egi ngi beginning engine ranging"
+      }]
+    },
+    "Lesson_0483": {
+      "Name": "Lesson_0483",
+      "Number": 483,
+      "Description": "Pocket Monsters",
+      "Lines": [{
+        "Line_01": "Pokemon (abbreviated from Pocket",
+        "Line_02": "Monsters) is a Japanese anime series.",
+        "Line_03": "It is part of the Pokemon media",
+        "Line_04": "franchise which is owned by Nintendo.",
+        "Line_05": "It has been brought to many other",
+        "Line_06": "places, including North America,",
+        "Line_07": "Europe, and Australia. The series is",
+        "Line_08": "about Pokemon and the humans (trainers)",
+        "Line_09": "that catch and train them to battle each other."
+      }]
+    },
+    "Lesson_0484": {
+      "Name": "Lesson_0484",
+      "Number": 484,
+      "Description": "California",
+      "Lines": [{
+        "Line_01": "California is a big power in American",
+        "Line_02": "culture as well as the business life",
+        "Line_03": "of the nation. Many of the great",
+        "Line_04": "changes in technology and law came",
+        "Line_05": "from California, and the state pays",
+        "Line_06": "more to the U.S. government than it",
+        "Line_07": "gets back. It also has some of the",
+        "Line_08": "county's largest cities, such as Los",
+        "Line_09": "Angeles, San Diego, San Jose, and San Francisco."
+      }]
+    },
+    "Lesson_0485": {
+      "Name": "Lesson_0485",
+      "Number": 485,
+      "Description": "Drones",
+      "Lines": [{
+        "Line_01": "Done flights will be permitted only",
+        "Line_02": "during the day and at twilight. Drone",
+        "Line_03": "industry officials have long complained",
+        "Line_04": "that these time restrictions precluded",
+        "Line_05": "a great many uses. Among them are some",
+        "Line_06": "search and rescue operations. Some",
+        "Line_07": "agricultural operations are best done",
+        "Line_08": "after dark as well. Operators can seek",
+        "Line_09": "waivers to many of these restrictions."
+      }]
+    },
+    "Lesson_0486": {
+      "Name": "Lesson_0486",
+      "Number": 486,
+      "Description": "Parts of Trees",
+      "Lines": [{
+        "Line_01": "A  tree is a tall plant with a trunk",
+        "Line_02": "and branches made of wood. It can live",
+        "Line_03": "for many years. The four main parts of",
+        "Line_04": "a tree are the roots, the trunk, the",
+        "Line_05": "branches, and the leaves. A single",
+        "Line_06": "tree has many roots. The roots of a",
+        "Line_07": "tree are usually underground. One case",
+        "Line_08": "for which this is not true are the",
+        "Line_09": "roots of the mangrove tree."
+      }]
+    },
+    "Lesson_0487": {
+      "Name": "Lesson_0487",
+      "Number": 487,
+      "Description": "Amelia Earhart",
+      "Lines": [{
+        "Line_01": "'The most difficult thing is the",
+        "Line_02": "decision to act, the rest is merely",
+        "Line_03": "tenacity.' Amelia Earhart was the first",
+        "Line_04": "female aviator to fly solo across the",
+        "Line_05": "Atlantic Ocean. In 1937, Earhart",
+        "Line_06": "disappeared over the central Pacific",
+        "Line_07": "Ocean near Howland Island when",
+        "Line_08": "attempting to make a circumnavigational",
+        "Line_09": "flight around the globe."
+      }]
+    },
+    "Lesson_0488": {
+      "Name": "Lesson_0488",
+      "Number": 488,
+      "Description": "Telephone",
+      "Lines": [{
+        "Line_01": "Alexander Graham Bell was the first",
+        "Line_02": "person to patent the telephone, in",
+        "Line_03": "1876. Early telephones were wired",
+        "Line_04": "directly to each other and could only",
+        "Line_05": "talk to the phone that they were",
+        "Line_06": "connected to. Later, telephone",
+        "Line_07": "exchanges allowed connecting to other",
+        "Line_08": "telephones. During the 20th century the",
+        "Line_09": "machines that made the connections were automated."
+      }]
+    },
+    "Lesson_0489": {
+      "Name": "Lesson_0489",
+      "Number": 489,
+      "Description": "Korean Language",
+      "Lines": [{
+        "Line_01": "The Korean alphabet, also known as",
+        "Line_02": "Hangul, is the native alphabet of the",
+        "Line_03": "Korean language. It was created by",
+        "Line_04": "Sejong the Great during the Joseon",
+        "Line_05": "Dynasty in 1443, and is now the",
+        "Line_06": "official script of both South Korea",
+        "Line_07": "and North Korea. There are 14 basic",
+        "Line_08": "consanants and 10 basic vowels. Letters",
+        "Line_09": "that have similar sounds also have",
+        "Line_10": "similar shapes."
+      }]
+    },
+    "Lesson_0490": {
+      "Name": "Lesson_0490",
+      "Number": 490,
+      "Description": "Seawater",
+      "Lines": [{
+        "Line_01": "Seawater cannot be drunk safely because",
+        "Line_02": "it has high salinity, or concentration",
+        "Line_03": "of salt. Seawater is also called salt",
+        "Line_04": "water. Both people and animals often",
+        "Line_05": "live near rivers, because they need",
+        "Line_06": "water to survive. The water in a river",
+        "Line_07": "is called fresh water. Fresh water",
+        "Line_08": "comes from rain or snow and it can",
+        "Line_09": "usually be drunk safely, unless it has",
+        "Line_10": "been polluted. River water is often polluted",
+        "Line_11": "by bacteria, which can cause sickness such as",
+        "Line_12": "Giardia, in Mexico it is called Montezuma's Revenge."
+      }]
+    },
+    "Lesson_0491": {
+      "Name": "Lesson_0491",
+      "Number": 491,
+      "Description": "Birds",
+      "Lines": [{
+        "Line_01": "Birds are found on every continent of",
+        "Line_02": "the world. Birds of different types",
+        "Line_03": "can live in freezing cold environments,",
+        "Line_04": "and others can live in hot deserts.",
+        "Line_05": "Birds live in forests, in grasslands,",
+        "Line_06": "on cliff faces, in river banks, on",
+        "Line_07": "stony seashores, down mine shafts, and",
+        "Line_08": "under the roofs of houses."
+      }]
+    },
+    "Lesson_0492": {
+      "Name": "Lesson_0492",
+      "Number": 492,
+      "Description": "John Lennon",
+      "Lines": [{
+        "Line_01": "'Life is what happens to you while",
+        "Line_02": "you're busy making other plans.' John",
+        "Line_03": "Lennon was an English singer &",
+        "Line_04": "songwriter, and one of the founders of",
+        "Line_05": "the Beatles. The Beatles were one of",
+        "Line_06": "the most influential bands of their",
+        "Line_07": "time. Lennon also had a solo career",
+        "Line_08": "with such famous songs as 'Image'",
+        "Line_09": "and 'Give Peace a Chance'."
+      }]
+    },
+    "Lesson_0493": {
+      "Name": "Lesson_0493",
+      "Number": 493,
+      "Description": "Walt Disney",
+      "Lines": [{
+        "Line_01": "Walt Disney worked very hard to run",
+        "Line_02": "his movie studio. He liked to spend",
+        "Line_03": "weekends with his two daughters. The",
+        "Line_04": "family liked going to carnivals and",
+        "Line_05": "fairs. Mr. Disney wanted to build a",
+        "Line_06": "place that had all of the fun of the",
+        "Line_07": "traveling fairs where parents and",
+        "Line_08": "children could ride together. That is",
+        "Line_09": "how Mr. Disney got the idea for Disneyland."
+      }]
+    },
+    "Lesson_0494": {
+      "Name": "Lesson_0494",
+      "Number": 494,
+      "Description": "Indy 500",
+      "Lines": [{
+        "Line_01": "One famous attraction of Indiana is",
+        "Line_02": "the Indianapolis Motor Speedway, which",
+        "Line_03": "is where the Indy 500 is held every",
+        "Line_04": "year. The Indy 500 is one of the most",
+        "Line_05": "famous car races in the United States.",
+        "Line_06": "The Indianapolis Motor Speedway is not",
+        "Line_07": "actually in Indianapolis. It is in a",
+        "Line_08": "town called Speedway, which is",
+        "Line_09": "completely surrounded by Indianapolis."
+      }]
+    },
+    "Lesson_0495": {
+      "Name": "Lesson_0495",
+      "Number": 495,
+      "Description": "Washington D.C.",
+      "Lines": [{
+        "Line_01": "At first, Washington D.C. was made up",
+        "Line_02": "of a piece of Virginia located south",
+        "Line_03": "of the Potomac River and a piece of",
+        "Line_04": "Maryland located north of the Potomac",
+        "Line_05": "River. In 1847, Virginia's land was",
+        "Line_06": "returned to it. This area is now part",
+        "Line_07": "of Arlington County. Since 1847, all",
+        "Line_08": "of Washington D.C. is on the north",
+        "Line_09": "side of the Potomac River."
+      }]
+    },
+    "Lesson_0496": {
+      "Name": "Lesson_0496",
+      "Number": 496,
+      "Description": "Election",
+      "Lines": [{
+        "Line_01": "In the United States, the presidential",
+        "Line_02": "election is held every four years on",
+        "Line_03": "the Tuesday after the first Monday in",
+        "Line_04": "November. You help choose your state's",
+        "Line_05": "electors when you vote for President",
+        "Line_06": "because when you vote for your",
+        "Line_07": "candidate you are actually voting for",
+        "Line_08": "your candidate's electors. This is part",
+        "Line_09": "of a system called the Electoral College."
+      }]
+    },
+    "Lesson_0497": {
+      "Name": "Lesson_0497",
+      "Number": 497,
+      "Description": "Henry Ford",
+      "Lines": [{
+        "Line_01": "'Whether you think you can or you",
+        "Line_02": "think you can't, you're right.' Henry",
+        "Line_03": "Ford was an American industrialist, the",
+        "Line_04": "founder of the Ford Motor Company, and",
+        "Line_05": "the sponsor of the development of the",
+        "Line_06": "assembly line technique of mass",
+        "Line_07": "production. Ford developed and",
+        "Line_08": "manufactured the first automobile that",
+        "Line_09": "many middle-class Americans could afford."
+      }]
+    },
+    "Lesson_0498": {
+      "Name": "Lesson_0498",
+      "Number": 498,
+      "Description": "Test 58: Play Words 32",
+      "Lines": [{
+        "Line_01": "South busy Florida Business Attraction safely branches famous Piece Disney spend Seawater wood culture years Drone life states important"
+      }]
+    },
+    "Lesson_0499": {
+      "Name": "Lesson_0499",
+      "Number": 499,
+      "Description": "U.S. Constitution",
+      "Lines": [{
+        "Line_01": "The United States Constitution makes",
+        "Line_02": "the President the Commander-in-Chief of",
+        "Line_03": "the armed forces and lists powers",
+        "Line_04": "given to the president. George",
+        "Line_05": "Washington was the first President of",
+        "Line_06": "the United States from 1789 to 1797.",
+        "Line_07": "He was also the commander in chief of",
+        "Line_08": "all American forces during the American",
+        "Line_09": "Revolutionary War."
+      }]
+    },
+    "Lesson_0500": {
+      "Name": "Lesson_0500",
+      "Number": 500,
+      "Description": "Moon's Surface",
+      "Lines": [{
+        "Line_01": "The Moon appears to have more craters",
+        "Line_02": "and scars than Eart because it has a",
+        "Line_03": "lot less natural activity. The Earth",
+        "Line_04": "is constantly reforming its surface",
+        "Line_05": "through earthquakes, erosion, rain,",
+        "Line_06": "wind, and plants growing on the",
+        "Line_07": "surface. The Moon, however, has very",
+        "Line_08": "little weather or activity that would",
+        "Line_09": "alter its appearance."
+      }]
     }
   }]
 }
