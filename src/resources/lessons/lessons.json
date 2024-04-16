@@ -6315,6 +6315,169 @@
         "Line_09": "temperature, precipitation, air",
         "Line_10": "pressure, and cloud cover."
       }]
+    },
+    "Lesson_0521": {
+      "Name": "Lesson_0521",
+      "Number": 521,
+      "Description": "War and Peace",
+      "Lines": [{
+        "Line_01": "Leo Tolstoy is a Russian author who",
+        "Line_02": "wrote one of the most famous Russian",
+        "Line_03": "novels in the history of literature",
+        "Line_04": "called War and Peace. The book",
+        "Line_05": "describes life in Russia in the 19th",
+        "Line_06": "century during the wars with Napoleon.",
+        "Line_07": "There are almost 600 characters",
+        "Line_08": "mentioned in the story, but the main",
+        "Line_09": "characters are members of 4 noble",
+        "Line_10": "families."
+      }]
+    },
+    "Lesson_0522": {
+      "Name": "Lesson_0522",
+      "Number": 522,
+      "Description": "Prehistoric Art",
+      "Lines": [{
+        "Line_01": "Cave paintings are painted drawings on",
+        "Line_02": "cave walls or ceilings, mainly of",
+        "Line_03": "prehistoric origin. Evidence suggests",
+        "Line_04": "that they were not merely decorations",
+        "Line_05": "of living areas since the caves in",
+        "Line_06": "which they have been found do not have",
+        "Line_07": "signs of ongoing habitation. They are",
+        "Line_08": "also often located in areas of caves",
+        "Line_09": "that are not easily accessible."
+      }]
+    },
+    "Lesson_0523": {
+      "Name": "Lesson_0523",
+      "Number": 523,
+      "Description": "Car Races",
+      "Lines": [{
+        "Line_01": "Almost as soon as automobiles were",
+        "Line_02": "invented races of various sorts were",
+        "Line_03": "organized, with the first recorded as",
+        "Line_04": "early as 1867. Many of the earliest",
+        "Line_05": "events were reliability trials, aimed",
+        "Line_06": "at proving these new machines were a",
+        "Line_07": "practical mode of transport. Soon, they",
+        "Line_08": "became an important way for competing",
+        "Line_09": "makers to demonstrate their machines."
+      }]
+    },
+    "Lesson_0524": {
+      "Name": "Lesson_0524",
+      "Number": 524,
+      "Description": "Martial Arts",
+      "Lines": [{
+        "Line_01": "Martial arts are codified systems and",
+        "Line_02": "traditions of combat practices, which",
+        "Line_03": "are practiced for a variety of reasons",
+        "Line_04": "including self-defense, military and",
+        "Line_05": "law enforcement applications, and",
+        "Line_06": "mental and spiritual development. In",
+        "Line_07": "addition, they are practiced for",
+        "Line_08": "entertainment and the preservation of a",
+        "Line_09": "nation's intangible cultural heritage."
+      }]
+    },
+    "Lesson_0525": {
+      "Name": "Lesson_0525",
+      "Number": 525,
+      "Description": "Communities",
+      "Lines": [{
+        "Line_01": "Online communities are now a normal",
+        "Line_02": "part of our everyday lives. The",
+        "Line_03": "internet has not only changed the way",
+        "Line_04": "we form communities, but the tools we",
+        "Line_05": "use to communicate, too. People around",
+        "Line_06": "the world use social media sites to",
+        "Line_07": "keep in touch with family and meet new",
+        "Line_08": "people, or connect with friends using",
+        "Line_09": "online games on their phones or",
+        "Line_10": "computers."
+      }]
+    },
+    "Lesson_0526": {
+      "Name": "Lesson_0526",
+      "Number": 526,
+      "Description": "Music Everywhere",
+      "Lines": [{
+        "Line_01": "Music is found in every known culture,",
+        "Line_02": "past and present, varying widely",
+        "Line_03": "between times and places. Since all",
+        "Line_04": "people of the world, including the",
+        "Line_05": "most isolated tribal groups, have a",
+        "Line_06": "form of music, it may be concluded",
+        "Line_07": "that music is likely to have been",
+        "Line_08": "present in the ancestral population",
+        "Line_09": "prior to the dispersal of humans",
+        "Line_10": "around the world."
+      }]
+    },
+    "Lesson_0527": {
+      "Name": "Lesson_0527",
+      "Number": 527,
+      "Description": "Pandas, Part 3",
+      "Lines": [{
+        "Line_01": "Giant pandas are about the size of an",
+        "Line_02": "American black bear. They are about 3",
+        "Line_03": "feet (91 cm) tall at the shoulder when",
+        "Line_04": "they are standing on all four legs.",
+        "Line_05": "Pandas are typically about 6 feet (180",
+        "Line_06": "cm) long. In the wild, males can weigh",
+        "Line_07": "up to 250 pounds (110 kg). Females",
+        "Line_08": "usually weigh less than 220 pounds",
+        "Line_09": "(110 kg)."
+      }]
+    },
+    "Lesson_0528": {
+      "Name": "Lesson_0528",
+      "Number": 528,
+      "Description": "Cave Paintings",
+      "Lines": [{
+        "Line_01": "Some theories hold that cave paintings",
+        "Line_02": "may have been a way of communicating",
+        "Line_03": "with others, while other theories",
+        "Line_04": "ascribe a religious or ceremonial",
+        "Line_05": "purpose to them. The paintings are",
+        "Line_06": "remarkably similar around the world,",
+        "Line_07": "with animals being common subjects.",
+        "Line_08": "humans mainly appear as images of",
+        "Line_09": "hands."
+      }]
+    },
+    "Lesson_0529": {
+      "Name": "Lesson_0529",
+      "Number": 529,
+      "Description": "Ancient Music",
+      "Lines": [{
+        "Line_01": "The prehistoric age is considered to",
+        "Line_02": "have ended with the development of",
+        "Line_03": "writing, and with it, by definition,",
+        "Line_04": "prehistoric music. 'Ancient music' is",
+        "Line_05": "the name given to the music that",
+        "Line_06": "followed. The oldest known son was",
+        "Line_07": "written in cuneiform, dating to 3400",
+        "Line_08": "years ago from Ugarit. It was",
+        "Line_09": "deciphered by Anne Draffkorn Kilmer."
+      }]
+    },
+    "Lesson_0530": {
+      "Name": "Lesson_0530",
+      "Number": 530,
+      "Description": "Anglo-Saxons",
+      "Lines": [{
+        "Line_01": "The area now called England was first",
+        "Line_02": "inhabited by modern humans during the",
+        "Line_03": "Upper Palaeolitic period, but it takes",
+        "Line_04": "its name from the Angles, one of the",
+        "Line_05": "Germanic tribes who settled the area",
+        "Line_06": "during the 5th and 6th centuries. The",
+        "Line_07": "term Anglo-Saxon stems from the Angles",
+        "Line_08": "and the Saxons, another tribe that",
+        "Line_09": "inhabited the area during that time."
+      }]
     }
   }]
 }
