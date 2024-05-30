@@ -7928,6 +7928,165 @@
         "Line_09": "explanation. -Lewis Carroll, Alice's",
         "Line_10": "Adeventures in Wonderland"
       }]
+    },
+    "Lesson_0621": {
+      "Name": "Lesson_0621",
+      "Number": 621,
+      "Description": "Firefighters",
+      "Lines": [{
+        "Line_01": "Firefighters are people whose job is",
+        "Line_02": "to rescue people and put out fires.",
+        "Line_03": "Firefighters are often taught first aid",
+        "Line_04": "and given medical training.",
+        "Line_05": "Firefighters work at a fire station.",
+        "Line_06": "Fire stations have multiple trucks",
+        "Line_07": "which serve different purposes (water",
+        "Line_08": "tank, rescue truck, ladder truck). If",
+        "Line_09": "you see a fire truck on the road and",
+        "Line_10": "the siren is on, give it the right-of-way."
+      }]
+    },
+    "Lesson_0622": {
+      "Name": "Lesson_0622",
+      "Number": 622,
+      "Description": "First President",
+      "Lines": [{
+        "Line_01": "George Washington, the first President",
+        "Line_02": "of the United States, is often called",
+        "Line_03": "the father of the United States.",
+        "Line_04": "Washington was a farmer like his",
+        "Line_05": "father. His large plantation was called",
+        "Line_06": "Mount Vernon. The estate is situated",
+        "Line_07": "in Fairfax County, Virginia. George",
+        "Line_08": "Washington also worked as a surveyor,",
+        "Line_09": "someone who measures land. Washington",
+        "Line_10": "always wanted to be a soldier."
+      }]
+    },
+    "Lesson_0623": {
+      "Name": "Lesson_0623",
+      "Number": 623,
+      "Description": "Plagiarism",
+      "Lines": [{
+        "Line_01": "Everyone knows stealing property is",
+        "Line_02": "wrong. It's wrong in real life and on",
+        "Line_03": "the Internet. Property isn't just",
+        "Line_04": "things you can hold. Words, music,",
+        "Line_05": "artwork, and even ideas are property",
+        "Line_06": "and can be stolen. Stealing and",
+        "Line_07": "claiming them as your own is illegal",
+        "Line_08": "and will get you into trouble. This is",
+        "Line_09": "a form of cheating called plagiarism."
+      }]
+    },
+    "Lesson_0624": {
+      "Name": "Lesson_0624",
+      "Number": 624,
+      "Description": "Programming",
+      "Lines": [{
+        "Line_01": "If you learn to control computers, or",
+        "Line_02": "better yet, if you learn how to speak",
+        "Line_03": "to them directly like programmers do,",
+        "Line_04": "they will follow your every order and",
+        "Line_05": "will make you more powerful than a",
+        "Line_06": "superhero. In fact, some of the most",
+        "Line_07": "successful and powerful people on the",
+        "Line_08": "planet have become so by learning how",
+        "Line_09": "to use computers really well."
+      }]
+    },
+    "Lesson_0625": {
+      "Name": "Lesson_0625",
+      "Number": 625,
+      "Description": "The National Mall",
+      "Lines": [{
+        "Line_01": "The National Mall in Washington D.C.",
+        "Line_02": "is a large, open park that has many",
+        "Line_03": "monuments and museums. D.C.'s many",
+        "Line_04": "museums and monuments make it a",
+        "Line_05": "popular place for tourists to visit.",
+        "Line_06": "Washington D.C. is called many things",
+        "Line_07": "by different people. It can be called",
+        "Line_08": "D.C., The district of Columbia, The",
+        "Line_09": "District, or sometimes just Washington."
+      }]
+    },
+    "Lesson_0626": {
+      "Name": "Lesson_0626",
+      "Number": 626,
+      "Description": "Farmers",
+      "Lines": [{
+        "Line_01": "Farming is one of the oldest",
+        "Line_02": "professions since the beginning of",
+        "Line_03": "civilization. Farmers are people who",
+        "Line_04": "own land, raise animals, and grow",
+        "Line_05": "crops. This profession is not very",
+        "Line_06": "popular amongst young people, and many",
+        "Line_07": "of them move away from farming to find",
+        "Line_08": "a job in the city."
+      }]
+    },
+    "Lesson_0627": {
+      "Name": "Lesson_0627",
+      "Number": 627,
+      "Description": "Secretary",
+      "Lines": [{
+        "Line_01": "A secretary is responsible for keeping",
+        "Line_02": "the office organized. I nthe past, the",
+        "Line_03": "role of a secretary was typically held",
+        "Line_04": "by men. Throughout the years, the",
+        "Line_05": "roles have switched and today we have",
+        "Line_06": "far more women than men filling the",
+        "Line_07": "role. Some of their responsibilities",
+        "Line_08": "include answering the phone, keeping",
+        "Line_09": "files organized, and managing correspondence."
+      }]
+    },
+    "Lesson_0628": {
+      "Name": "Lesson_0628",
+      "Number": 628,
+      "Description": "Balance of Power",
+      "Lines": [{
+        "Line_01": "The three branches of the U.S.",
+        "Line_02": "government work together and ensure",
+        "Line_03": "that no one person has too much power.",
+        "Line_04": "This is done through checks and",
+        "Line_05": "balances. A branch may use its powers",
+        "Line_06": "to check the powers of the other two",
+        "Line_07": "in order to maintain a balance of",
+        "Line_08": "power among the three branches of",
+        "Line_09": "government."
+      }]
+    },
+    "Lesson_0629": {
+      "Name": "Lesson_0629",
+      "Number": 629,
+      "Description": "Cucumbers",
+      "Lines": [{
+        "Line_01": "Cucumbers have the power to relieve",
+        "Line_02": "sunburned skin. Simply place a couple",
+        "Line_03": "slices of cucumbers on the affected",
+        "Line_04": "area. Cucumbers are also believed to",
+        "Line_05": "cure bad breath. One slice of cucumber",
+        "Line_06": "pressed against the roof of your mouth",
+        "Line_07": "can supposedly kill the problematic",
+        "Line_08": "bacteria."
+      }]
+    },
+    "Lesson_0630": {
+      "Name": "Lesson_0630",
+      "Number": 630,
+      "Description": "Strawberries",
+      "Lines": [{
+        "Line_01": "Strawberries are very tasty, and very",
+        "Line_02": "good for you. They're low in calories,",
+        "Line_03": "and contain a high percentage of",
+        "Line_04": "several vitamins, including C, B6 and",
+        "Line_05": "K. Fibre, folic acid and potassium",
+        "Line_06": "(three things your body needs) can",
+        "Line_07": "also be found in strawberries. They",
+        "Line_08": "are a delicious treat on a hot summer day."
+      }]
     }
   }]
 }
