@@ -9,14 +9,14 @@
       }],
       "Description": "Keys f & j",
       "Lines": [{
-        "Line_01": "fj fj",
-        "Line_02": "fffjjj",
-        "Line_03": "jjjfff",
-        "Line_04": "jjffjj",
-        "Line_05": "fjjfjf",
+        "Line_01": "fj",
+        "Line_02": "ffffjjj",
+        "Line_03": "jffffjj",
+        "Line_04": "jjffjjf",
+        "Line_05": "fjjfjfj",
         "Line_06": "jfjf"
       }],
-      "Refactored": true
+      "Refactored": false
     },
     "Lesson_0002": {
       "Name": "Lesson_0002",
@@ -27,13 +27,13 @@
       }],
       "Description": "Practice f & j Lesson 1",
       "Lines": [{
-        "Line_01": "jf ff",
-        "Line_02": "f jf f",
-        "Line_03": "ffjj",
-        "Line_04": "j j j j",
-        "Line_05": "jf jf"
+        "Line_01": "f f j j",
+        "Line_02": "ff f f",
+        "Line_03": "jj jj f",
+        "Line_04": "j jf ff",
+        "Line_05": "j j"
       }],
-      "Refactored": true
+      "Refactored": false
     },
     "Lesson_0003": {
       "Name": "Lesson_0003",
@@ -44,11 +44,11 @@
       }],
       "Description": "Practice f & j Lesson 2",
       "Lines": [{
-        "Line_01": "ffj fjf jfj fjf fjj jfj fjj jfj fjj jfj",
-        "Line_02": "jjf fjj fjf fjj fjj fjf fjj fjj fjf fjj",
-        "Line_03": "fff fff fff jjj jjj jjj jjj fff fff fff"
+        "Line_01": "ffff jjjj ff jj fff jjj fj fj jjf ffj",
+        "Line_02": "fff jjj ffj jjf fjfj fffj jjjf ffjj",
+        "Line_03": "ff jj ffff"
       }],
-      "Refactored": true
+      "Refactored": false
     },
     "Lesson_0004": {
       "Name": "Lesson_0004",
@@ -59,14 +59,14 @@
       }],
       "Description": "Keys d & k",
       "Lines": [{
-        "Line_01": "kd kd",
-        "Line_02": "kkkddd",
-        "Line_03": "dddkkk",
-        "Line_04": "kkdkkd",
+        "Line_01": "dk",
+        "Line_02": "ddddkkk",
+        "Line_03": "kddddkk",
+        "Line_04": "kkddkkd",
         "Line_05": "dkkdkdk",
         "Line_06": "kdkd"
       }],
-      "Refactored": true
+      "Refactored": false
     },
     "Lesson_0005": {
       "Name": "Lesson_0005",
@@ -77,11 +77,11 @@
       }],
       "Description": "Practice d & k Lesson 1",
       "Lines": [{
-        "Line_01": "dk dk kd kd dk dk kkd ddk ddk ddk",
-        "Line_02": "kddk ddkk ddkk kkkk dddk kddk ddk kddd",
-        "Line_03": "kd dk"
+        "Line_01": "dd kk dk dk kd kd ddd kkd ddk dkk",
+        "Line_02": "kkdd ddkk dddd kkkk ddkk kkdd kdd kddd",
+        "Line_03": "dk kk"
       }],
-      "Refactored": true
+      "Refactored": false
     },
     "Lesson_0006": {
       "Name": "Lesson_0006",
@@ -92,12 +92,12 @@
       }],
       "Description": "Practice d & k Lesson 2",
       "Lines": [{
-        "Line_01": "fdkd jfdf kkkk fkdf kjjf jjjj jdjf fdkj jfkj dkkj",
-        "Line_02": "dfjd kfdf dddd kdfk jdfj fkjd kjdf ffff jfkd jdjf",
-        "Line_03": "kdjf dkkj dfkd fjdf jjjj kjdk ddkj fdkj jfdf kdfj",
-        "Line_04": "dfkk dddd fjkd ddkj dfjk kkkk ddkj fjkd dfkk jdkk"
+        "Line_01": "ffff ddd jjjj kkkk df df jk jk jjj",
+        "Line_02": "fff ddff jjkk kkdd fdfd jkjk dfjk dfjk",
+        "Line_03": "kkdd jkjk dfdf dfjj jjfd kkjj dfjk",
+        "Line_04": "ddkd kkdk"
       }],
-      "Refactored": true
+      "Refactored": false
     },
     "Lesson_0007": {
       "Name": "Lesson_0007",
@@ -108,9 +108,9 @@
       }],
       "Description": "Test 1",
       "Lines": [{
-        "Line_01": "fjkdfkjdfjjdfkjdkfjjkdfjdkfjjkdjkfjdkf"
+        "Line_01": "ffjjfjkdjkdfkjdkfjkdjfkjdfkdjfkdfdkjfkdf"
       }],
-      "Refactored": true
+      "Refactored": false
     },
     "Lesson_0008": {
       "Name": "Lesson_0008",
@@ -121,14 +121,14 @@
       }],
       "Description": "Keys s & l",
       "Lines": [{
-        "Line_01": "ls",
-        "Line_02": "slslsls",
-        "Line_03": "lslslsl",
-        "Line_04": "llsssls",
-        "Line_05": "ssllls",
-        "Line_06": "ssls"
+        "Line_01": "sl",
+        "Line_02": "sssslll",
+        "Line_03": "lssssll",
+        "Line_04": "llsslls",
+        "Line_05": "sllslsl",
+        "Line_06": "lsls"
       }],
-      "Refactored": true
+      "Refactored": false
     },
     "Lesson_0009": {
       "Name": "Lesson_0009",
@@ -139,11 +139,11 @@
       }],
       "Description": "Practice s & l Lesson 1",
       "Lines": [{
-        "Line_01": "ls ls sss sss ls ls sss sss lls sss",
-        "Line_02": "lls sss sll lsl sls sls lss lss lsl",
-        "Line_03": "ssl lls"
+        "Line_01": "ll ss ssll slsl lsssl slls lsll ssl",
+        "Line_02": "lss ssll slsl llsslsll ssl ssll slsl",
+        "Line_03": "lsll ll"
       }],
-      "Refactored": true
+      "Refactored": false
     },
     "Lesson_0010": {
       "Name": "Lesson_0010",
@@ -154,13 +154,12 @@
       }],
       "Description": "Practice s & l Lesson 2",
       "Lines": [{
-        "Line_01": "jj jj ff ff kk kk dd dd ll ll ss ss",
-        "Line_02": "sssssd dddd dfdf fjfj jkjk kllk kjsj",
-        "Line_03": "lkjdf fjkl"
+        "Line_01": "jj ff kk dd ll ssssd df fj jk kl",
+        "Line_02": "sdfsk dl ks jf kd lslfl kl js kd jf",
+        "Line_03": "sdfllk kkj jjf"
       }],
-      "Refactored": true
+      "Refactored": false
     },
-    //******************************
     "Lesson_0011": {
       "Name": "Lesson_0011",
       "Number": 11,
