@@ -160,7 +160,6 @@
       }],
       "Refactored": true
     },
-    //******************************
     "Lesson_0011": {
       "Name": "Lesson_0011",
       "Number": 11,
@@ -170,14 +169,14 @@
       }],
       "Description": "Keys a & ;",
       "Lines": [{
-        "Line_01": "a;",
-        "Line_02": "aaaa;;;",
-        "Line_03": ";aaaa;;",
-        "Line_04": ";;aa;;a",
-        "Line_05": "a;;a;a;",
+        "Line_01": "a;a",
+        "Line_02": "aaaa;;",
+        "Line_03": ";aaaa;",
+        "Line_04": ";;a;a;a",
+        "Line_05": "a;a;;a",
         "Line_06": ";a;a"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0012": {
       "Name": "Lesson_0012",
@@ -188,11 +187,11 @@
       }],
       "Description": "Practice a & ; Lesson 1",
       "Lines": [{
-        "Line_01": "aa ;; ;;aa ;a;a a;;;a ;aa; a;aa",
-        "Line_02": ";;aaa;; ;;aa ;a;a aa;;a;aa ;;a ;;aa",
+        "Line_01": "a;a ;; ;;a; ;a;a a;aa aa;a ;aa; ;a;a",
+        "Line_02": ";;a;a; ;;aa a;; ;a;a a;aa aa;a ;aa; ;a;a",
         "Line_03": ";a;a"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0013": {
       "Name": "Lesson_0013",
@@ -203,11 +202,11 @@
       }],
       "Description": "Practice a & ; Lesson 2",
       "Lines": [{
-        "Line_01": "ask dad all salads fall; lass as all",
-        "Line_02": "ads add salsa jaff kad; flask lass sad",
-        "Line_03": "fall alfa jak kaj dad ask"
+        "Line_01": "ad dad ads; as dad alas all",
+        "Line_02": "a sad lad dad lad; dada all",
+        "Line_03": "all alas as"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0014": {
       "Name": "Lesson_0014",
@@ -218,9 +217,9 @@
       }],
       "Description": "Test 2",
       "Lines": [{
-        "Line_01": "all;fallflask;salad;salad;sfallfallaladjlaskflaskasasaladask"
+        "Line_01": "all;fallfallfallflask;slad;salad;salfallfallfallfallfallflask;falsalfalfasaladask"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0015": {
       "Name": "Lesson_0015",
@@ -231,11 +230,11 @@
       }],
       "Description": "Home Row L-Hand",
       "Lines": [{
-        "Line_01": "dad dada ad ada adad sad sada",
-        "Line_02": "dasad fas fasd dada affa fada fasa",
-        "Line_03": "saf fdds sadf"
+        "Line_01": "asd dasa ad as ada sda",
+        "Line_02": "asd asd asd dad ad as",
+        "Line_03": "asd sda asd asd"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0016": {
       "Name": "Lesson_0016",
@@ -246,12 +245,12 @@
       }],
       "Description": "Home Row R-Hand",
       "Lines": [{
-        "Line_01": "jk jk jjkk jlkj ;;;; lkjj jj;;",
-        "Line_02": "lkjj lkjj lk;; jkl; jjkk lkj jjkk",
-        "Line_03": "lkjj ;;;; llll kkkk jjjj jl jk kj",
-        "Line_04": "klj lkj kljj kljj"
+        "Line_01": "jk jk jk jlkj ;;;; lkjj jj;;",
+        "Line_02": "lkjj kkjj lk;; jkl; jjll lkj jjkk",
+        "Line_03": "jjkl ;;;; kkkk llll jjjj jl jk kj",
+        "Line_04": "klj klj kljj kljj"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0017": {
       "Name": "Lesson_0017",
@@ -262,14 +261,14 @@
       }],
       "Description": "Keys g & h",
       "Lines": [{
-        "Line_01": "gh",
-        "Line_02": "gggghhh",
-        "Line_03": "hgggghh",
-        "Line_04": "hhgghhg",
-        "Line_05": "ghhghgh",
-        "Line_06": "hgh"
+        "Line_01": "hg",
+        "Line_02": "hhhhggg",
+        "Line_03": "ghhhggg",
+        "Line_04": "hhggghh",
+        "Line_05": "ghghghh",
+        "Line_06": "ghh"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0018": {
       "Name": "Lesson_0018",
@@ -280,12 +279,12 @@
       }],
       "Description": "Practice g & h Lesson 1",
       "Lines": [{
-        "Line_01": "gf ggf gf ggf hj hhj hj hhj gfgf",
-        "Line_02": "hjhj gggf hhhj fghj fgf jhj fgfgf",
-        "Line_03": "jhjhj ggf hhj gghh ghgh ghfj ggf",
-        "Line_04": "hhj"
+        "Line_01": "hhgh hhgh hh hh ghhh hhgh hh",
+        "Line_02": "hh hhgh hh hh hhghhh hh ghhh",
+        "Line_03": "hhghhh hh hh ghhh hh hhghhh",
+        "Line_04": "gh hh"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0019": {
       "Name": "Lesson_0019",
@@ -296,11 +295,14 @@
       }],
       "Description": "Practice g & h Lesson 2",
       "Lines": [{
-        "Line_01": "glad glass gag had haha gal hal",
+        "Line_01": "dags saga hags gla hash alga flag",
         "Line_02": "gaf hah haha gaga glad hala hal",
-        "Line_03": "hasha shash gl"
+        "Line_03": "hasha shash gl",
+        "Line_04": "gash lags saga slag alas fads",
+        "Line_05": "lash hags sagas lass lags shad",
+        "Line_06": "gala lag dash"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0020": {
       "Name": "Lesson_0020",
@@ -311,12 +313,11 @@
       }],
       "Description": "Home Row Review",
       "Lines": [{
-        "Line_01": "glad dad had half a glass as",
-        "Line_02": "salad; dad shall ask glass flags",
-        "Line_03": "had glass ask shall flask had",
-        "Line_04": "slash jaff"
+        "Line_01": "dad had sad had as; ask fad",
+        "Line_02": "jag had a dash; alas flag as",
+        "Line_03": "hag glad flask lad dad"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0021": {
       "Name": "Lesson_0021",
@@ -327,9 +328,9 @@
       }],
       "Description": "Test 3",
       "Lines": [{
-        "Line_01": "dadhalfasaladagladflaghadslashladsaladhalfasaladadsfadfs"
+        "Line_01": "flashfleshgallshadesheadsfallshalfsashesdashfadesfalse"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0022": {
       "Name": "Lesson_0022",
@@ -340,14 +341,14 @@
       }],
       "Description": "Keys r & u",
       "Lines": [{
-        "Line_01": "ru",
-        "Line_02": "rrruuru",
-        "Line_03": "uuuruur",
-        "Line_04": "rruruur",
-        "Line_05": "rrruruu",
-        "Line_06": "uruu"
+        "Line_01": "ur",
+        "Line_02": "uurrurr",
+        "Line_03": "ruruurr",
+        "Line_04": "rruurur",
+        "Line_05": "urruurr",
+        "Line_06": "ru"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0023": {
       "Name": "Lesson_0023",
@@ -358,12 +359,12 @@
       }],
       "Description": "Practice r & u Lesson 1",
       "Lines": [{
-        "Line_01": "rf rrf rf rrf uj uuj uj uuj rfrf",
-        "Line_02": "ujuj rrrf uuuj fruj frf juj frfrf",
-        "Line_03": "jujuj rrf uuj rruu ruru rufj rrf",
-        "Line_04": "uuj"
+        "Line_01": "ru uur ru uur frf rf rf frf uuj",
+        "Line_02": "rf frfru uuj jujfr uuj uuurrfrfr",
+        "Line_03": "rfjfurur rruu juj rrf juj rruj rrf",
+        "Line_04": "uuju"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0024": {
       "Name": "Lesson_0024",
@@ -374,11 +375,11 @@
       }],
       "Description": "Practice r & u Lesson 2",
       "Lines": [{
-        "Line_01": "usual salad has hug laugh rush us lurk",
-        "Line_02": "radar rural shark skull sugar us ask",
-        "Line_03": "dull dad flag harsh"
+        "Line_01": "usual hug skull sugar rural has lard",
+        "Line_02": "shade rush sugar as usual dial afar",
+        "Line_03": "half gulf said salad"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0025": {
       "Name": "Lesson_0025",
@@ -389,14 +390,14 @@
       }],
       "Description": "Keys e & i",
       "Lines": [{
-        "Line_01": "ei",
-        "Line_02": "eiiieee",
-        "Line_03": "eiieiee",
-        "Line_04": "iieieii",
-        "Line_05": "ieeiiei",
-        "Line_06": "eiee"
+        "Line_01": "ie",
+        "Line_02": "iieeiie",
+        "Line_03": "eiiieii",
+        "Line_04": "eeiiiee",
+        "Line_05": "eieieii",
+        "Line_06": "iiee"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0026": {
       "Name": "Lesson_0026",
@@ -407,11 +408,11 @@
       }],
       "Description": "Practice e & i Lesson 1",
       "Lines": [{
-        "Line_01": "ed eed ed eed ik iik ik iik eded ikik",
-        "Line_02": "eeed iik deik dede kik deded kikik",
-        "Line_03": "eed iik eeii eiei eidk eed ik"
+        "Line_01": "ied ieed ide eied ki iik ik kii deeii",
+        "Line_02": "iieed kii edik edei iki edied kiiki",
+        "Line_03": "ied iki ieii eiie eidk ied ik"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0027": {
       "Name": "Lesson_0027",
@@ -422,12 +423,12 @@
       }],
       "Description": "Practice e & i Lesson 2",
       "Lines": [{
-        "Line_01": "address add reader skill did suffer",
-        "Line_02": "all field ear free kiss ride aide died",
-        "Line_03": "dealers lied alike darker area afraid",
-        "Line_04": "all air duller user free idea"
+        "Line_01": "deed rises seas fields side discuss",
+        "Line_02": "rise seed slide lies field rider ease",
+        "Line_03": "deed rider side field discuss idle",
+        "Line_04": "field side lies"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0028": {
       "Name": "Lesson_0028",
@@ -438,13 +439,12 @@
       }],
       "Description": "Review Home + ruei",
       "Lines": [{
-        "Line_01": "red fair hear her her life here has",
-        "Line_02": "raise a hers here is read his rugs",
-        "Line_03": "raised her rule as reared far as he",
-        "Line_04": "red field her dreaded here al hard",
-        "Line_05": "herself hair;"
+        "Line_01": "real fare hear hire; he far her had",
+        "Line_02": "hair ruse fire; free; rise read read",
+        "Line_03": "rise her freed earred; fear here hair",
+        "Line_04": "red field hear drear ear heard far;"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0029": {
       "Name": "Lesson_0029",
@@ -455,12 +455,11 @@
       }],
       "Description": "Top Row: Left Hand",
       "Lines": [{
-        "Line_01": "a red address dragged a dare dare as",
-        "Line_02": "feared degree reads rage are seeds a",
-        "Line_03": "address are see fared garage dare read",
-        "Line_04": "dear see"
+        "Line_01": "a dear dared red deals a dear red a",
+        "Line_02": "dear dared address red red are read dear",
+        "Line_03": "dears deal dear read"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0030": {
       "Name": "Lesson_0030",
@@ -471,11 +470,11 @@
       }],
       "Description": "Top Row: Right Hand",
       "Lines": [{
-        "Line_01": "hill ill lill; hill lik jil jh jll",
-        "Line_02": "kll jjjk jjjl lll; ;;;k lkj ;lkj jill",
-        "Line_03": "hill kih khil khil likh"
+        "Line_01": "jill; jil; kill; kill; kill; alli rill",
+        "Line_02": "all kil jill jill kill aki kill kil",
+        "Line_03": "kill all lill lill kill kil kill"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0031": {
       "Name": "Lesson_0031",
@@ -486,9 +485,9 @@
       }],
       "Description": "Test 4 - ruei",
       "Lines": [{
-        "Line_01": "afraid guess laugh heard shall dress glass field"
+        "Line_01": "dress shall heard field guess afraid glass laugh"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0032": {
       "Name": "Lesson_0032",
@@ -500,13 +499,13 @@
       "Description": "Keys w & o",
       "Lines": [{
         "Line_01": "wo",
-        "Line_02": "wwoowwo",
-        "Line_03": "owwooow",
-        "Line_04": "woowwwo",
-        "Line_05": "owwowoo",
-        "Line_06": "wwwo"
+        "Line_02": "oowwoow",
+        "Line_03": "wwwooo",
+        "Line_04": "wwoowoow",
+        "Line_05": "wowwoo",
+        "Line_06": "owwoww"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0033": {
       "Name": "Lesson_0033",
@@ -517,11 +516,11 @@
       }],
       "Description": "Practice w & o Lesson 1",
       "Lines": [{
-        "Line_01": "ws wws ws wws ol ool ol ool wsws olol",
-        "Line_02": "wwws oool swol sws lol swsws lolol wws",
-        "Line_03": "ool wwoo wowo wosl wws ool"
+        "Line_01": "wso sol wsw sol ooo llw swo osl sol",
+        "Line_02": "woo sow osl lsl lwo oww sos loo oll",
+        "Line_03": "lol wsw owo wos wol slol"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0034": {
       "Name": "Lesson_0034",
@@ -532,12 +531,11 @@
       }],
       "Description": "Practice w & o Lesson 2",
       "Lines": [{
-        "Line_01": "swear owe lower alo allow row weak",
-        "Line_02": "flower follow wear sure well road saw",
-        "Line_03": "rear risker order soldiers worried",
-        "Line_04": "awkward firewood afford"
+        "Line_01": "swear lower follow flower awkward wear fire soldiers sure",
+        "Line_02": "saw allow order fellows awwar rear road rise all",
+        "Line_03": "role weary worked"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0035": {
       "Name": "Lesson_0035",
@@ -548,9 +546,9 @@
       }],
       "Description": "Test 5 - Top 6 Keys",
       "Lines": [{
-        "Line_01": "soshewaswereafewflowerssawhisshadowwereweawareofwhere"
+        "Line_01": "flowerssawwhereofshadowsawflowersfewhewhispokeherewithrows"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0036": {
       "Name": "Lesson_0036",
@@ -562,13 +560,13 @@
       "Description": "Keys q & y",
       "Lines": [{
         "Line_01": "qy",
-        "Line_02": "qyyqyyyy",
-        "Line_03": "qyqqqyy",
-        "Line_04": "yqyqyyq",
-        "Line_05": "yyyqqqy",
-        "Line_06": "yqyq"
+        "Line_02": "yyqqyyy",
+        "Line_03": "yqqqqq",
+        "Line_04": "qqqyyyq",
+        "Line_05": "qqyyyy",
+        "Line_06": "qqqyyy"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0037": {
       "Name": "Lesson_0037",
@@ -579,11 +577,11 @@
       }],
       "Description": "Practice q & y Lesson 1",
       "Lines": [{
-        "Line_01": "qa qqa qa qqa yj yyj yj yyj qaqa yjyj",
-        "Line_02": "qqqa yyyj aqyj aqa jyj aqaqa jyjyj qqa",
-        "Line_03": "yyj qqy qyqy qyaj qqa yyj"
+        "Line_01": "qaa qy yja qaq aqa qqq ayy yjj aqq aqa jy jjq",
+        "Line_02": "qaq yja jqq aqq aaj yyj yyj jqa qaq yyj jj jq",
+        "Line_03": "qyy jy qqy qyq qqy yjjq"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0038": {
       "Name": "Lesson_0038",
@@ -594,11 +592,11 @@
       }],
       "Description": "Practice q & y Lesson 2",
       "Lines": [{
-        "Line_01": "sheaf qualify already yellow we early",
-        "Line_02": "why require year sir how liquid yard",
-        "Line_03": "joy yield risk lady offer rough ready"
+        "Line_01": "we year already liquid why yard rough lady",
+        "Line_02": "early sheaf offer qualify ready how sir",
+        "Line_03": "risk yellow joy yield require we heard"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0039": {
       "Name": "Lesson_0039",
@@ -609,14 +607,14 @@
       }],
       "Description": "Keys t & p",
       "Lines": [{
-        "Line_01": "tp",
-        "Line_02": "pptptpt",
-        "Line_03": "ttttptp",
-        "Line_04": "tpptptp",
-        "Line_05": "pptpttp",
+        "Line_01": "pt",
+        "Line_02": "tptpptt",
+        "Line_03": "tppttpt",
+        "Line_04": "pttpttp",
+        "Line_05": "pptptpt",
         "Line_06": "tppt"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0040": {
       "Name": "Lesson_0040",
@@ -627,12 +625,13 @@
       }],
       "Description": "Practice t & p Lesson 1",
       "Lines": [{
-        "Line_01": "tf ttf tf ttf p; pp; p; pp; tftf p;p;",
-        "Line_02": "tttf ppp; ftp; ftf ;p; ftftf ;p;p; ttf",
-        "Line_03": "pp; ttpp tptp tpf; ttf pp;"
+        "Line_01": "ftp ttfp tftp tf tpf ;pp ;p; p;p tftf ftp;p;p",
+        "Line_02": "ppp tftf ftp; pf pf ;p; pp ;pp tftp ;p;p ptp",
+        "Line_03": "ft; ptt ptp tp tfp tfp ;p; ptp pp ;pp"
       }],
       "Refactored": false
     },
+    //******************************
     "Lesson_0041": {
       "Name": "Lesson_0041",
       "Number": 41,
@@ -784,6 +783,7 @@
       }],
       "Refactored": false
     },
+    //******************************
     "Lesson_0051": {
       "Name": "Lesson_0051",
       "Number": 51,
