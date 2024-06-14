@@ -1383,7 +1383,6 @@
       }],
       "Refactored": true
     },
-    //******************************
     "Lesson_0091": {
       "Name": "Lesson_0091",
       "Number": 91,
@@ -1393,10 +1392,10 @@
       }],
       "Description": "Practice L Hand",
       "Lines": [{
-        "Line_01": "as tree grew grass waved grass were",
-        "Line_02": "watered trees were fed"
+        "Line_01": "trees were fed, grass wet, free water,",
+        "Line_02": "vast grass swayed free as cats."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0092": {
       "Name": "Lesson_0092",
@@ -1407,9 +1406,9 @@
       }],
       "Description": "Test 14 - Play: Numbers",
       "Lines": [{
-        "Line_01": "one two three four five six seven eight nine ten eleven twelve"
+        "Line_01": "twelve eleven ten nine eight seven six five four three two one"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0093": {
       "Name": "Lesson_0093",
@@ -1420,11 +1419,11 @@
       }],
       "Description": "Muscle Memory",
       "Lines": [{
-        "Line_01": "it usually takes a few weeks of",
-        "Line_02": "practice to build the muscle memory",
-        "Line_03": "needed to type fast."
+        "Line_01": "a simple task often needs work",
+        "Line_02": "practice input a line to type quickly",
+        "Line_03": "focus and practice builds up muscle memory"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0094": {
       "Name": "Lesson_0094",
@@ -1435,12 +1434,12 @@
       }],
       "Description": "Good posture",
       "Lines": [{
-        "Line_01": "good posture helps improve our",
-        "Line_02": "concentration, letting you work longer",
-        "Line_03": "and harder. it also prevents sore",
-        "Line_04": "muscles."
+        "Line_01": "keeping good posture improves",
+        "Line_02": "our ability to work longer",
+        "Line_03": "and harder. it also helps",
+        "Line_04": "prevent muscle aches."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0095": {
       "Name": "Lesson_0095",
@@ -1451,12 +1450,12 @@
       }],
       "Description": "Adjust Your Screen",
       "Lines": [{
-        "Line_01": "look straight ahead. make sure your",
-        "Line_02": "eyes look directly into your monitor",
-        "Line_03": "the same way you would look at someone",
-        "Line_04": "across the table from you."
+        "Line_01": "keep looking straight ahead. align",
+        "Line_02": "your eyes directly with the monitor",
+        "Line_03": "just as you would look at someone",
+        "Line_04": "sitting across the room from you."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0096": {
       "Name": "Lesson_0096",
@@ -1467,12 +1466,12 @@
       }],
       "Description": "Trust Yourself",
       "Lines": [{
-        "Line_01": "once you are more comfortable with the",
-        "Line_02": "keyboard, you may turn off the virtual",
-        "Line_03": "hand guides by using the settings at",
-        "Line_04": "the top of the page."
+        "Line_01": "you can type more quickly and with",
+        "Line_02": "greater ease as you practice. keep",
+        "Line_03": "using the keyboard to improve your",
+        "Line_04": "skills over time."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0097": {
       "Name": "Lesson_0097",
@@ -1483,10 +1482,10 @@
       }],
       "Description": "Practice R Hand",
       "Lines": [{
-        "Line_01": "my opinion on him. pumpkin oil, milk,",
-        "Line_02": "ink, mill."
+        "Line_01": "pink lily on him. my moon pyon,",
+        "Line_02": "you my inky milky pumpkin."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0098": {
       "Name": "Lesson_0098",
@@ -1497,9 +1496,9 @@
       }],
       "Description": "Test 15 - Play Words 1",
       "Lines": [{
-        "Line_01": "improve good weeks usually ahead ahead practice sure straight memory keyboard make posture look concentration"
+        "Line_01": "make progress using practice tools ahead surely keep steady motion become more comfortable typing keyboard"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0099": {
       "Name": "Lesson_0099",
@@ -1510,13 +1509,13 @@
       }],
       "Description": "Brain Power",
       "Lines": [{
-        "Line_01": "as you type, your brain remembers each",
-        "Line_02": "word as a pattern of keystrokes. this",
-        "Line_03": "allows you to type the same words",
-        "Line_04": "without thining about how to type",
-        "Line_05": "each character."
+        "Line_01": "your memory works like a vault, storing",
+        "Line_02": "keys to unlock words you often type.",
+        "Line_03": "this ability enhances your typing speed",
+        "Line_04": "and accuracy effortlessly.",
+        "Line_05": "engage your brain as you type!"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0100": {
       "Name": "Lesson_0100",
@@ -1527,14 +1526,18 @@
       }],
       "Description": "Repeat Lessons",
       "Lines": [{
-        "Line_01": "to see how it works lets type the",
-        "Line_02": "next sentence five times. i am glad. i",
-        "Line_03": "am glad. i am glad. i am glad. i am",
-        "Line_04": "glad."
+        "Line_01": "practice the words until they flow",
+        "Line_02": "smoothly from your fingertips. repetition",
+        "Line_03": "builds muscle memory, ensuring you type",
+        "Line_04": "with speed and precision every time.",
+        "Line_05": "practice makes perfect.",
+        "Line_06": "practice makes perfect.",
+        "Line_07": "practice makes perfect.",
+        "Line_08": "practice makes perfect.",
+        "Line_09": "practice makes perfect."
       }],
-      "Refactored": false
+      "Refactored": true
     },
-    //******************************
     "Lesson_0101": {
       "Name": "Lesson_0101",
       "Number": 101,
@@ -1544,12 +1547,12 @@
       }],
       "Description": "Never Stop",
       "Lines": [{
-        "Line_01": "to make sure you do not go back to",
-        "Line_02": "typing with two or four fingers, make",
-        "Line_03": "sure to revisit these lessons a few",
-        "Line_04": "times during the coming week."
+        "Line_01": "always keep pushing forward. consistency",
+        "Line_02": "is key to mastering any skill. practice",
+        "Line_03": "regularly to maintain your progress and",
+        "Line_04": "improve your typing efficiency."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0102": {
       "Name": "Lesson_0102",
@@ -1560,12 +1563,12 @@
       }],
       "Description": "No Peeking",
       "Lines": [{
-        "Line_01": "if you learn to never look at your",
-        "Line_02": "keyboard when typing, the computer will",
-        "Line_03": "feel like a part of your body with",
-        "Line_04": "your mind in full control."
+        "Line_01": "master the art of touch typing. keep",
+        "Line_02": "your eyes focused on the screen and let",
+        "Line_03": "your fingers dance across the keys with",
+        "Line_04": "precision and confidence."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0103": {
       "Name": "Lesson_0103",
@@ -1576,10 +1579,10 @@
       }],
       "Description": "Practice L Hand",
       "Lines": [{
-        "Line_01": "streets are safe better see a fast car",
-        "Line_02": "race served a tea we rest"
+        "Line_01": "safe car rest race see tea streets we",
+        "Line_02": "are served better fast sea"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0104": {
       "Name": "Lesson_0104",
@@ -1590,9 +1593,9 @@
       }],
       "Description": "Test 16 - Play Words 2",
       "Lines": [{
-        "Line_01": "next five your brain keyboard how remember words patterns typing keyboards"
+        "Line_01": "keyboard typing words brain how your patterns five remember next history painted broken shadow boxed whisper printed"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0105": {
       "Name": "Lesson_0105",
@@ -1603,13 +1606,13 @@
       }],
       "Description": "Home Row",
       "Lines": [{
-        "Line_01": "placing your fingers on the home row",
-        "Line_02": "will help you learn to type faster and",
-        "Line_03": "bild the correct muscle memory. now",
-        "Line_04": "try doing it with your eyes closed or",
-        "Line_05": "while you look at the screen."
+        "Line_01": "with your fingers on the home row",
+        "Line_02": "will help you type really fast and",
+        "Line_03": "build muscle memory for better typing",
+        "Line_04": "try it with your eyes closed now",
+        "Line_05": "while you focus on the screen."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0106": {
       "Name": "Lesson_0106",
@@ -1620,13 +1623,13 @@
       }],
       "Description": "Moving Forward",
       "Lines": [{
-        "Line_01": "from the home row all other keys are",
-        "Line_02": "just a short distance away. as you",
-        "Line_03": "practice, you will build speed because",
-        "Line_04": "you hardly have to move your fingers",
-        "Line_05": "from one key to the next."
+        "Line_01": "your fingers on the home row will move",
+        "Line_02": "quickly across the keyboard. build muscle",
+        "Line_03": "memory for accurate typing. try closing",
+        "Line_04": "your eyes for better concentration while",
+        "Line_05": "you focus on improving your typing speed."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0107": {
       "Name": "Lesson_0107",
@@ -1637,13 +1640,14 @@
       }],
       "Description": "Type Correctly",
       "Lines": [{
-        "Line_01": "while it may feel easier at first,",
-        "Line_02": "hunting and pecking at letters makes",
-        "Line_03": "it harder to concentrate when you",
-        "Line_04": "type. you also type slower and build",
-        "Line_05": "the wrong muscle memory."
+        "Line_01": "it may seem easy to move your fingers",
+        "Line_02": "across the keyboard quickly by hunt and peck,",
+        "Line_03": "looking for each key. this builds the wrong",
+        "Line_04": "muscle memory and decreases accuracy in typing.",
+        "Line_05": "you will type faster and develop correct muscle memory. try",
+        "Line_06": "locking your eyes to the screen for better concentration."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0108": {
       "Name": "Lesson_0108",
@@ -1654,12 +1658,13 @@
       }],
       "Description": "Train Your Muscles",
       "Lines": [{
-        "Line_01": "just like a basketball player trains",
-        "Line_02": "their muscles so they focus on the",
-        "Line_03": "game, you can train your muscles to",
-        "Line_04": "type without much thinking about it"
+        "Line_01": "like a great coach will tell you to practice,",
+        "Line_02": "you can train your fingers to move swiftly",
+        "Line_03": "on the keyboard and up your typing game",
+        "Line_04": "with practice. this builds typing speed",
+        "Line_05": "and accuracy. keep typing!"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0109": {
       "Name": "Lesson_0109",
@@ -1670,10 +1675,10 @@
       }],
       "Description": "Practice R Hand",
       "Lines": [{
-        "Line_01": "jolly puppy look up on you. lumpy",
-        "Line_02": "pumkin only you."
+        "Line_01": "jumpy link monk on my holy lump",
+        "Line_02": "mop. jolly hymn."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0110": {
       "Name": "Lesson_0110",
@@ -1684,9 +1689,9 @@
       }],
       "Description": "Test 16 - Play Words 3",
       "Lines": [{
-        "Line_01": "basketball trains hunting pecking distance fingers comfortable players"
+        "Line_01": "keyboard monstrous broadcasting unstoppable transformation productive"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0111": {
       "Name": "Lesson_0111",
@@ -1697,12 +1702,12 @@
       }],
       "Description": "Virtual Guide",
       "Lines": [{
-        "Line_01": "whenever you are unsure which finger",
-        "Line_02": "you should use to type a certain",
-        "Line_03": "letter, take a look down at the",
-        "Line_04": "virtual hands. they will guide you."
+        "Line_01": "vow to work with every key skillfully",
+        "Line_02": "for rapid typing. align your hands",
+        "Line_03": "like a team all in a row. meet your goals by",
+        "Line_04": "training daily. strive for mastery."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0112": {
       "Name": "Lesson_0112",
@@ -1711,15 +1716,15 @@
         "AccuracyRequirement": "",
         "SpeedRequirement": ""
       }],
-      "Description": "Bumps on J & F",
+      "Description": "Finding Home Row",
       "Lines": [{
-        "Line_01": "your index fngers should always find",
-        "Line_02": "their way back to f and j by feeling",
-        "Line_03": "for those bumps. it takes some",
-        "Line_04": "practice ut it will help you get",
-        "Line_05": "better."
+        "Line_01": "feel gentle bumps. let fingers settle",
+        "Line_02": "on j, f keys. they mark home. agile",
+        "Line_03": "fingers make quick work. glide over",
+        "Line_04": "keys to craft letters. write, learn, grow.",
+        "Line_05": "master typing."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0113": {
       "Name": "Lesson_0113",
@@ -1728,14 +1733,16 @@
         "AccuracyRequirement": "",
         "SpeedRequirement": ""
       }],
-      "Description": "Become a Pro",
+      "Description": "Becoming Proficient",
       "Lines": [{
-        "Line_01": "fast typists forget about the kyeboard",
-        "Line_02": "and do not even realize their fingers",
-        "Line_03": "are at work. once you practice more",
-        "Line_04": "you will feel the same way too."
+        "Line_01": "master typists swiftly adapt, leveraging",
+        "Line_02": "skills without keyboard distraction. fingers",
+        "Line_03": "move fluidly. with practice, you achieve",
+        "Line_04": "mastery. typing becomes like breathing.",
+        "Line_05": "soon you do not even thing about it.",
+        "Line_06": "enjoy typing prowess."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0114": {
       "Name": "Lesson_0114",
@@ -1744,14 +1751,14 @@
         "AccuracyRequirement": "",
         "SpeedRequirement": ""
       }],
-      "Description": "The Shift Key",
+      "Description": "Mastering Shift Key",
       "Lines": [{
-        "Line_01": "next, we will move on to practice",
-        "Line_02": "tricky words and then focus on",
-        "Line_03": "learning how to type capital",
-        "Line_04": "characters. great work so far."
+        "Line_01": "first, try capitalizing key terms",
+        "Line_02": "while mastering tricky typing",
+        "Line_03": "tasks. work towards great results",
+        "Line_04": "with skill and determination."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0115": {
       "Name": "Lesson_0115",
@@ -1762,10 +1769,10 @@
       }],
       "Description": "Practice L Hand",
       "Lines": [{
-        "Line_01": "a sad state after a few dates we",
-        "Line_02": "agree a few cards were fade"
+        "Line_01": "a sad case faces a fast date",
+        "Line_02": "a safe race dares a sacred face"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0116": {
       "Name": "Lesson_0116",
@@ -1776,10 +1783,10 @@
       }],
       "Description": "Test 17 - Play Words 4",
       "Lines": [{
-        "Line_01": "type finger certain final help key should about whenever unsure distance sift",
-        "Line_02": "virtual practice comfortable realize typists keyboard shift"
+        "Line_01": "keyboard greatly enhances your ability to type quickly and accurately over time",
+        "Line_02": "skillful typists always aim for peak performance using efficient methods"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0117": {
       "Name": "Lesson_0117",
@@ -1790,14 +1797,13 @@
       }],
       "Description": "Dynamic Practice 2",
       "Lines": [{
-        "Line_01": "gr gr gra gre grand great greek",
-        "Line_02": "ge ge dge nge bridge range exchane",
-        "Line_03": "ga ga rga aga organic again gave",
-        "Line_04": "gn gn ign gna signals foreign reign",
-        "Line_05": "gi gi igi ngi religious changing",
-        "Line_06": "engineering"
+        "Line_01": "gi gi iga ign gigantic ginger ignite",
+        "Line_02": "gr gr gra gre grasp greater ground",
+        "Line_03": "ga ga rga aga garlic gamble galaxy",
+        "Line_04": "gn gn ign gna ignore gnaw signal",
+        "Line_05": "ge ge ger gen gentle gerbil genuine"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0118": {
       "Name": "Lesson_0118",
@@ -1806,20 +1812,20 @@
         "AccuracyRequirement": "",
         "SpeedRequirement": ""
       }],
-      "Description": "Jewelry...",
+      "Description": "weary lady...",
       "Lines": [{
-        "Line_01": "she wore dazzling jewelry with",
-        "Line_02": "sparkling gems.",
-        "Line_03": "jewelry jewelry jewelry jewelry jewelry",
-        "Line_04": "she put a single rapberry on top of",
-        "Line_05": "each cupcake.",
-        "Line_06": "raspberry raspberry raspberry raspberry",
-        "Line_07": "raspberry",
-        "Line_08": "the piece of jewelry looked like a",
-        "Line_09": "tiny raspberry.",
-        "Line_10": "jewlery raspberry jewelry raspberry"
+          "Line_01": "vow gem kilt tailor galaxy",
+          "Line_02": "galaxy galaxy galaxy galaxy galaxy",
+          "Line_03": "story weary lady woke weary",
+          "Line_04": "weary weary weary weary weary",
+          "Line_05": "legacy war eagle vow loyal",
+          "Line_06": "legacy legacy legacy legacy legacy",
+          "Line_07": "leg emir vote goal way meat",
+          "Line_08": "teal meat trial weary lady",
+          "Line_09": "weary lady weary lady weary",
+          "Line_10": "lady weary lady weary lady"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0119": {
       "Name": "Lesson_0119",
@@ -1828,19 +1834,19 @@
         "AccuracyRequirement": "",
         "SpeedRequirement": ""
       }],
-      "Description": "Achieve-Believe",
+      "Description": "Accomplish-Confidence",
       "Lines": [{
-        "Line_01": "you can achieve anything if you focus",
-        "Line_02": "and work hard.",
-        "Line_03": "achieve achieve achieve achieve achieve",
-        "Line_04": "no matter what they say, always",
-        "Line_05": "believe in yourself.",
-        "Line_06": "believe believe believe believe believe",
-        "Line_07": "you can achieve your dreams if you",
-        "Line_08": "believe in yourself.",
-        "Line_09": "achieve believe achieve believe"
+          "Line_01": "you can accomplish anything if you persevere",
+          "Line_02": "and remain determined.",
+          "Line_03": "accomplish accomplish accomplish accomplish accomplish",
+          "Line_04": "no matter what they say, always",
+          "Line_05": "have confidence in yourself.",
+          "Line_06": "confidence confidence confidence confidence confidence",
+          "Line_07": "you can achieve your aspirations if you",
+          "Line_08": "have faith in yourself.",
+          "Line_09": "accomplish confidence accomplish faith"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0120": {
       "Name": "Lesson_0120",
@@ -1849,20 +1855,22 @@
         "AccuracyRequirement": "",
         "SpeedRequirement": ""
       }],
-      "Description": "Breath-Breathe",
+      "Description": "Succeed-Confide",
       "Lines": [{
-        "Line_01": "if you feel overwhelmed stop and take",
-        "Line_02": "a deep breath.",
-        "Line_03": "breath breath breath breath breath",
-        "Line_04": "when you are exercising remember to",
-        "Line_05": "breathe.",
-        "Line_06": "breathe breathe breathe breathe breathe",
-        "Line_07": "she took a deep breath and reminded",
-        "Line_08": "herself it is important to breathe.",
-        "Line_09": "breath breathe breath breathe"
+        "Line_01": "to succeed in life, you must believe",
+        "Line_02": "in yourself and trust your abilities.",
+        "Line_03": "succeed succeed succeed succeed succeed",
+        "Line_04": "never doubt your capacity to",
+        "Line_05": "accomplish your goals.",
+        "Line_06": "accomplish accomplish accomplish accomplish accomplish",
+        "Line_07": "she wanted to confide in her friends and",
+        "Line_08": "trust their advice.",
+        "Line_09": "confide confide confide confide confide",
+        "Line_10": "succeed confide succeed confide"
       }],
-      "Refactored": false
+      "Refactored": true
     },
+    //******************************
     "Lesson_0121": {
       "Name": "Lesson_0121",
       "Number": 121,
@@ -1872,18 +1880,16 @@
       }],
       "Description": "Disappear...",
       "Lines": [{
-        "Line_01": "most rainbows disappear very quickly.",
-        "Line_02": "disappear disappear disappear disappear",
-        "Line_03": "disappear",
-        "Line_04": "it will disappoint me if you do",
-        "Line_05": "not share the candy.",
-        "Line_06": "disappoint disappoint disappoint",
-        "Line_07": "disappoint disappoint",
-        "Line_08": "the magician was disappointed that the",
-        "Line_09": "rabbit did not disappear.",
-        "Line_10": "disappear disappoint disappear disappoint"
+        "Line_01": "stars often disappear into the night sky.",
+        "Line_02": "disappear disappear disappear disappear disappear",
+        "Line_03": "it can dismay us when we see",
+        "Line_04": "the stars vanish quickly.",
+        "Line_05": "dismay dismay dismay dismay dismay dismay",
+        "Line_06": "the magician was dismayed when the",
+        "Line_07": "dove did not disappear.",
+        "Line_08": "disappear dismay disappear dismay"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0122": {
       "Name": "Lesson_0122",
@@ -1894,16 +1900,14 @@
       }],
       "Description": "Accept-Except",
       "Lines": [{
-        "Line_01": "she cannot accept any presents.",
-        "Line_02": "accept accept acept accept accept",
-        "Line_03": "he passed all of his tests except for",
-        "Line_04": "math.",
-        "Line_05": "except except except except except",
-        "Line_06": "i can accept your rules except for the",
-        "Line_07": "one about running.",
-        "Line_08": "accept except accept except"
+        "Line_01": "the teacher will accept late assignments.",
+        "Line_02": "accept accept accept accept accept",
+        "Line_03": "everyone arrived on time except for john.",
+        "Line_04": "except except except except except",
+        "Line_05": "you must accept the truth except when it's harmful.",
+        "Line_06": "accept except accept except"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0123": {
       "Name": "Lesson_0123",
@@ -1914,19 +1918,17 @@
       }],
       "Description": "Forward-Foreword",
       "Lines": [{
-        "Line_01": "you must move forward and leave the",
-        "Line_02": "past behind you.",
+        "Line_01": "to advance, we must move forward and",
+        "Line_02": "embrace change.",
         "Line_03": "forward forward forward forward forward",
-        "Line_04": "a foreword is a piece of writing",
-        "Line_05": "sometimes placed at the beginning of a",
-        "Line_06": "book.",
-        "Line_07": "foreword foreword foreword foreword",
-        "Line_08": "foreword",
-        "Line_09": "we cannot move forward until the",
-        "Line_10": "author finishes writing the foreword.",
-        "Line_11": "forward foreword forward foreword"
+        "Line_04": "a foreword introduces the book's",
+        "Line_05": "content and purpose.",
+        "Line_06": "foreword foreword foreword foreword foreword",
+        "Line_07": "keep moving forward while the",
+        "Line_08": "foreword sets the stage.",
+        "Line_09": "forward foreword forward foreword"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0124": {
       "Name": "Lesson_0124",
@@ -1937,17 +1939,14 @@
       }],
       "Description": "Prefer-Defer",
       "Lines": [{
-        "Line_01": "people generally prefer to exercise in",
-        "Line_02": "the morning.",
-        "Line_03": "prefer prefer prefer prefer prefer",
-        "Line_04": "he will defer to his parents because",
-        "Line_05": "they know best.",
-        "Line_06": "defer defer defer defer defer",
-        "Line_07": "i would prefer if you would defer to",
-        "Line_08": "your mother.",
-        "Line_09": "prefer defer prefer defer"
+        "Line_01": "many prefer to read in the evening light.",
+        "Line_02": "prefer prefer prefer prefer prefer",
+        "Line_03": "he will defer his decision until tomorrow.",
+        "Line_04": "defer defer defer defer defer",
+        "Line_05": "she would prefer it if you defer to her judgment.",
+        "Line_06": "prefer defer prefer defer"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0125": {
       "Name": "Lesson_0125",
@@ -1958,17 +1957,16 @@
       }],
       "Description": "To-Too-Two",
       "Lines": [{
-        "Line_01": "please give this cookie to your",
-        "Line_02": "friend.",
+        "Line_01": "give a note to your teacher today.",
         "Line_03": "to to to to to",
-        "Line_04": "that is my favorite video game too.",
+        "Line_04": "i like ice cream too much",
         "Line_05": "to too too too too",
-        "Line_06": "i read two books over the weekend.",
+        "Line_06": "two cats sat on the fence.",
         "Line_07": "two two two two two",
-        "Line_08": "give two cookies to your brother, too.",
+        "Line_08": "she gave two apples to her friend too.",
         "Line_09": "to too two to too two"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0126": {
       "Name": "Lesson_0126",
@@ -1979,17 +1977,17 @@
       }],
       "Description": "Advice-Advise",
       "Lines": [{
-        "Line_01": "sarah asked the advice of her friends",
-        "Line_02": "before deciding.",
+        "Line_01": "they sought the advice of an expert",
+        "Line_02": "before proceeding.",
         "Line_03": "advice advice advice advice advice",
-        "Line_04": "older studetns advise younger students",
-        "Line_05": "on the rules.",
+        "Line_04": "mentors advise their mentees on career",
+        "Line_05": "choices and growth.",
         "Line_06": "advise advise advise advise advise",
-        "Line_07": "i would advise that you should not",
-        "Line_08": "give advice unless it is asked for.",
+        "Line_07": "i would advise you to listen to",
+        "Line_08": "the advice given by professionals.",
         "Line_09": "advice advise advice advise"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0127": {
       "Name": "Lesson_0127",
@@ -2000,20 +1998,20 @@
       }],
       "Description": "By-Bye-Buy",
       "Lines": [{
-        "Line_01": "this book was written by a famous",
-        "Line_02": "author.",
-        "Line_03": "by by by by by",
-        "Line_04": "sometimes it is hard to say bye to a",
-        "Line_05": "good friend.",
-        "Line_06": "bye bye bye bye bye",
-        "Line_07": "my grandma said she will buy me a",
-        "Line_08": "puppy.",
-        "Line_09": "buy buy buy buy buy",
-        "Line_10": "by the time i buy the groceries, you",
-        "Line_11": "should say bye to your friends.",
-        "Line_12": "by bye buy by bye buy"
+        "Line_01": "they left by the back door quickly.",
+        "Line_02": "by by by by by",
+        "Line_03": "she waved bye to her family.",
+        "Line_04": "bye bye bye bye bye",
+        "Line_05": "i need to buy some fresh apples.",
+        "Line_06": "buy buy buy buy buy",
+        "Line_07": "he left a note by the desk lamp.",
+        "Line_08": "by by by by by",
+        "Line_09": "they said bye as the train departed.",
+        "Line_10": "bye bye bye bye bye",
+        "Line_11": "don't forget to buy milk and eggs.",
+        "Line_12": "buy by bye buy by bye buy by bye"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0128": {
       "Name": "Lesson_0128",
@@ -2024,14 +2022,14 @@
       }],
       "Description": "Dynamic Practice 3",
       "Lines": [{
-        "Line_01": "gr gr ogr gra grand program groups",
-        "Line_02": "ge ge nge rge change range charge",
-        "Line_03": "ga ga aga gai against gardens gas",
-        "Line_04": "gn gn ogn ign recognized reign",
-        "Line_05": "magnetic,",
-        "Line_06": "gi gi ngi egi giving changing begins"
+        "Line_01": "tr tr tro tri trip tropic triangle",
+        "Line_02": "br br bro bri bright bridge broad",
+        "Line_03": "fr fr fro fre fresh freedom frost",
+        "Line_04": "cr cr cre cri crime create crispness",
+        "Line_05": "dr dr dra dri drive drift drama",
+        "Line_06": "gr gr gra gre grand green grant grain greed"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0129": {
       "Name": "Lesson_0129",
@@ -2066,6 +2064,7 @@
       }],
       "Refactored": false
     },
+    //******************************
     "Lesson_0131": {
       "Name": "Lesson_0131",
       "Number": 131,
