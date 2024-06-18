@@ -1870,7 +1870,6 @@
       }],
       "Refactored": true
     },
-    //******************************
     "Lesson_0121": {
       "Name": "Lesson_0121",
       "Number": 121,
@@ -2040,13 +2039,13 @@
       }],
       "Description": "Capital F & J",
       "Lines": [{
-        "Line_01": "fFfFfFj",
-        "Line_02": "JjJjJFf",
-        "Line_03": "JjFfJjF",
-        "Line_04": "fJjFFJJ",
-        "Line_05": "fJjF"
+        "Line_01": "JfFJfJf",
+        "Line_02": "fFjFJjJ",
+        "Line_03": "JfJjFjF",
+        "Line_04": "FjJjJFF",
+        "Line_05": "FfJjF"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0130": {
       "Name": "Lesson_0130",
@@ -2057,14 +2056,13 @@
       }],
       "Description": "Review F & J",
       "Lines": [{
-        "Line_01": "faa Faa faa Faa Foo Faa",
-        "Line_02": "Jee Jaa Jee Joo Jaa Jee",
-        "Line_03": "faa Faa faa Faa Foo Fee",
-        "Line_04": "Joo Jii Joo Jee Joo Jee"
+        "Line_01": "Faa faa Faa foo Faa foo",
+        "Line_02": "Jii Joo Jaa Joo Jee Joo",
+        "Line_03": "Foo faa Faa foo Faa fee",
+        "Line_04": "Jaa Jee Joo Jaa Jee Jaa"
       }],
-      "Refactored": false
+      "Refactored": true
     },
-    //******************************
     "Lesson_0131": {
       "Name": "Lesson_0131",
       "Number": 131,
@@ -2074,12 +2072,12 @@
       }],
       "Description": "Practice F & J",
       "Lines": [{
-        "Line_01": "From Just Fun Jump Father Job Fly July",
-        "Line_02": "For Join Fast January Four Joke Fell",
-        "Line_03": "Joy Farm Junior Found Join Fish July",
-        "Line_04": "Funny Jam Fire June Find Jim Five Jobs"
+        "Line_01": "June Follows Jack Finds Joy Fine Job",
+        "Line_02": "Fry Fast Joke Join January Jumps Four",
+        "Line_03": "Just July Funny Farm Jim Join July",
+        "Line_04": "Fish Father Fire Jobs Jam Fell Find"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0132": {
       "Name": "Lesson_0132",
@@ -2090,13 +2088,13 @@
       }],
       "Description": "Capital D & K",
       "Lines": [{
-        "Line_01": "dDdDdDk",
-        "Line_02": "KkKkKDd",
-        "Line_03": "KkDdKkD",
-        "Line_04": "dKkDDKK",
-        "Line_05": "dKkD"
+        "Line_01": "DdDdDdk",
+        "Line_02": "KkDdKkK",
+        "Line_03": "DkKkDkD",
+        "Line_04": "kDKdKDK",
+        "Line_05": "KkKd"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0133": {
       "Name": "Lesson_0133",
@@ -2107,12 +2105,12 @@
       }],
       "Description": "Review D & K",
       "Lines": [{
-        "Line_01": "Dee Doo Dee Doo Dee Doo",
-        "Line_02": "Kee Koo Kee Koo Kee Koo",
-        "Line_03": "Dea Dea Dea Dea Daa Doa",
-        "Line_04": "Ko Kea Koo Kea Koo Kea"
+        "Line_01": "Kee Koo Kee Kaa Kee Kaa",
+        "Line_02": "Dee Doo Dee Doa Dee Doa",
+        "Line_03": "Kea Koo Kee Koo Kee Koo",
+        "Line_04": "Daa Dea Doo Dea Doo Dea"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0134": {
       "Name": "Lesson_0134",
@@ -2123,13 +2121,13 @@
       }],
       "Description": "Practice D & K",
       "Lines": [{
-        "Line_01": "Keen Dad Kind Did Jump King Door Know",
-        "Line_02": "June Join Dog Knife Dress Fast Kick",
-        "Line_03": "Develop Kurd Far Demand Found Keep For",
-        "Line_04": "During Kept Did From July Key Dad",
-        "Line_05": "Known Duck"
+          "Line_01": "Kind King Door Keen Know Dad Jump Did",
+          "Line_02": "Develop Join June Dog Kick Dress Dad",
+          "Line_03": "Far Knife Known Demand Found Kurd For",
+          "Line_04": "Duck From July Key During Fast Did",
+          "Line_05": "Kept Keep"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0135": {
       "Name": "Lesson_0135",
@@ -2140,9 +2138,9 @@
       }],
       "Description": "Test 18 - FJDK",
       "Lines": [{
-        "Line_01": "FooJeeDooKeeKFooDFooKJooJooFeeDFJKJooJeeDooDeeKooKeeFeeFoo"
+        "Line_01": "DooJooFooKeeDFooJooKeeFooDFKJJooKDeeDKFDJFeeJooFooKooKFooJeeJoo"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0136": {
       "Name": "Lesson_0136",
@@ -2153,13 +2151,13 @@
       }],
       "Description": "Capital S & L",
       "Lines": [{
-        "Line_01": "sSsSsSl",
-        "Line_02": "LlLlLSs",
-        "Line_03": "LlSsLlS",
-        "Line_04": "sLlSSLL",
-        "Line_05": "sLlS"
+        "Line_01": "sLsLsLs",
+        "Line_02": "SlSlLs",
+        "Line_03": "LSLsLSLs",
+        "Line_04": "LsLsSl",
+        "Line_05": "SsSLsL"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0137": {
       "Name": "Lesson_0137",
@@ -2170,12 +2168,12 @@
       }],
       "Description": "Review S & L",
       "Lines": [{
-        "Line_01": "See Soo See Soo See Soo",
-        "Line_02": "Lee Loo Lee Loo Lee Loo",
-        "Line_03": "Sea Sea Sea Sea Saa Soa",
-        "Line_04": "Loo Lea Loo Lea Loo Lea"
+        "Line_01": "Soo Loo Sea Loo Lee See",
+        "Line_02": "Soa Lee Soo Sea Loo Lea",
+        "Line_03": "Lea Loo Loo See Soo Lee",
+        "Line_04": "Lee See Loo Soo Loo Lea"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0138": {
       "Name": "Lesson_0138",
@@ -2186,13 +2184,13 @@
       }],
       "Description": "Practice S & L",
       "Lines": [{
-        "Line_01": "Late Sleep Say Dad Stay Street Some",
-        "Line_02": "Last Jump Lot Listen Left Dog Live",
-        "Line_03": "Stop Look Like Sie Sky Sand Long",
-        "Line_04": "Something Know Story Sat Shall Little",
-        "Line_05": "Sent Leave Funny"
+          "Line_01": "Listen Street Long Sky Late Something",
+          "Line_02": "Stop Sent Left Like Sleep Say Shall",
+          "Line_03": "Funny Last Look Live Sat Story Some",
+          "Line_04": "Lot Sand Stay Jump Know Dog Dad",
+          "Line_05": "Leave Something"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0139": {
       "Name": "Lesson_0139",
@@ -2203,13 +2201,13 @@
       }],
       "Description": "Capital A & :",
       "Lines": [{
-        "Line_01": "aAaAaA;",
-        "Line_02": ":;:;:Aa",
-        "Line_03": ":;Aa:;A",
-        "Line_04": "a:;AA::",
-        "Line_05": "a:;A"
+          "Line_01": "a:;aA:;",
+          "Line_02": "A;a:;Aa",
+          "Line_03": "Aa:;:;A",
+          "Line_04": "a:;AAa:",
+          "Line_05": ":;Aa"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0140": {
       "Name": "Lesson_0140",
@@ -2220,12 +2218,12 @@
       }],
       "Description": "Review A & :",
       "Lines": [{
-        "Line_01": "A;; A:: A:a A;a a:: a;; a:A a;A",
-        "Line_02": "A;a A:a A;: A:; a;A a:A a;: a:;",
-        "Line_03": ";:: ;;: ;:; ::; aaA AAa AaA aaA",
-        "Line_04": "A:; A;: a:; A:; :a; ;a: ;A: :A:"
+          "Line_01": "a:: A:a a;; A;A a:A A;; a:A A:a",
+          "Line_02": "A;: a:A A:; A;a a:; A:a A:; a;A",
+          "Line_03": "AAa ;:; aaA ;;: :a; AaA ;:: ::;",
+          "Line_04": "A;: :A: A:; ;A: a:; A;a ;a: A:;"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0141": {
       "Name": "Lesson_0141",
@@ -2236,13 +2234,13 @@
       }],
       "Description": "Practice A & :",
       "Lines": [{
-        "Line_01": "All: Are: An: Known At: Away: Stay",
-        "Line_02": "About: June Ask: After: Lot Apple:",
-        "Line_03": "Around: Far Afraid: Airplane Sky: Add:",
-        "Line_04": "Again; Across: Along: Any: Air: Almost:",
-        "Line_05": "Also: Always:"
+          "Line_01": "Away: Stay All: Are: An: At: Known",
+          "Line_02": "Apple: Lot June Also: Ask: After:",
+          "Line_03": "Add: Far Sky: Airplane Around: Afraid:",
+          "Line_04": "Air: Again: Any: Almost: Always: Along:",
+          "Line_05": "Across: About:"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0142": {
       "Name": "Lesson_0142",
@@ -2253,9 +2251,9 @@
       }],
       "Description": "Test 19: SLA",
       "Lines": [{
-        "Line_01": "Aa;jJ;lLkK:hLgoodDoosSoobhSghSgAaa;ghsSDd"
+        "Line_01": "SgA;hJ;LkL:hLkSdoSooLghSghAaa;jSdDooobgSghlLa"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0143": {
       "Name": "Lesson_0143",
@@ -2266,13 +2264,13 @@
       }],
       "Description": "Capital G & H",
       "Lines": [{
-        "Line_01": "gGgGgGh",
-        "Line_02": "HhHhHGg",
-        "Line_03": "HhGgHhG",
-        "Line_04": "gHhGGHH",
-        "Line_05": "gHhG"
+        "Line_01": "hGgGhGg",
+        "Line_02": "HhGgHGh",
+        "Line_03": "GhGhHgH",
+        "Line_04": "gGHhGGH",
+        "Line_05": "HghGGgG"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0144": {
       "Name": "Lesson_0144",
@@ -2283,12 +2281,12 @@
       }],
       "Description": "Review G & H",
       "Lines": [{
-        "Line_01": "Gaa Gaa Gaa Gaa Gee Gee",
-        "Line_02": "Hoo Hoo Haa Hii Hoo Hee",
-        "Line_03": "Gee Hee Gee Hee Goo Hoo",
-        "Line_04": "Gah Haa Haa Gah Hoo Goo"
+        "Line_01": "Hoo Hii Gaa Gaa Gaa Gee",
+        "Line_02": "Gee Goo Hee Haa Hoo Gah",
+        "Line_03": "Hoo Gee Hee Gee Goo Haa",
+        "Line_04": "Hoo Haa Hoo Hii Hee Hoo"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0145": {
       "Name": "Lesson_0145",
@@ -2299,13 +2297,13 @@
       }],
       "Description": "Practice G & H",
       "Lines": [{
-        "Line_01": "Hat Horse Great Him At Home Got Hair",
-        "Line_02": "About Give He House Lot Gave Get How",
-        "Line_03": "Game Go Demand Green Happy Good Heard",
-        "Line_04": "Kept Hurry Help Here Have Head Almost",
-        "Line_05": "Hello Gold"
+        "Line_01": "Give Horse Good How Help Heard Green",
+        "Line_02": "Home Got Him Head Hat Hello Gold",
+        "Line_03": "House Hurry Happy Have Game Here At",
+        "Line_04": "Almost Hair He Kept About Have Gave",
+        "Line_05": "Got Grebals Dribbles"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0146": {
       "Name": "Lesson_0146",
@@ -2316,13 +2314,13 @@
       }],
       "Description": "Capital T & Y",
       "Lines": [{
-        "Line_01": "tTtTtTy",
-        "Line_02": "YyYyYTt",
-        "Line_03": "YyTtYyT",
-        "Line_04": "tYyTTYY",
-        "Line_05": "tYyT"
+        "Line_01": "tTtYtTt",
+        "Line_02": "YtYtYTt",
+        "Line_03": "YyYtTtY",
+        "Line_04": "YyTTtYT",
+        "Line_05": "tYYtT"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0147": {
       "Name": "Lesson_0147",
@@ -2333,12 +2331,12 @@
       }],
       "Description": "Review T & Y",
       "Lines": [{
-        "Line_01": "Tee Too Tee Too Tee Too",
-        "Line_02": "Yoo Yee Yoo Yee Yoo Yee",
-        "Line_03": "Tee Yoo Tee Yee Too Yee",
-        "Line_04": "You Tou Yea Tea You Tea"
+          "Line_01": "Yoo Tee Too Tea Yoo Tee",
+          "Line_02": "Too Yea Yoo Tee Yee Too",
+          "Line_03": "Two Tee Yoo Tea Yoyo Two",
+          "Line_04": "Yee You YooTwo Too Too Tea"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0148": {
       "Name": "Lesson_0148",
@@ -2349,13 +2347,13 @@
       }],
       "Description": "Practice T & Y",
       "Lines": [{
-        "Line_01": "Take Great Young Them Yourself Thank",
-        "Line_02": "Hat Yesterday Tran You They Apple",
-        "Line_03": "Yours Took Yacht Add Thing Tell Yoyo",
-        "Line_04": "Yard Kept Tree There Too Did Yes Three",
-        "Line_05": "Yard For Then You"
+          "Line_01": "Year Tree Told Kite Yellow Water Tricky",
+          "Line_02": "Kite You're Top Yawn Metal Key Elm",
+          "Line_03": "Mail Task Yell Eight Toy Team Water",
+          "Line_04": "Key Metal You Tall Oak Team Layer",
+          "Line_05": "Green You Might Talent Kite Old Tale"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0149": {
       "Name": "Lesson_0149",
@@ -2366,9 +2364,9 @@
       }],
       "Description": "Test 20: GHTY",
       "Lines": [{
-        "Line_01": "TeaYouHeaGeeHelloYouHeaGraHyeHeaYouHoGea"
+        "Line_01": "YeaTeeGeeHowYeaHeyYeaGeeOatHerGooHogHeyTogGooTheOatTheTheGooYeaGotHey"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0150": {
       "Name": "Lesson_0150",
@@ -2379,13 +2377,13 @@
       }],
       "Description": "Capital R & U",
       "Lines": [{
-        "Line_01": "rRrRrRu",
-        "Line_02": "UuuuURr",
-        "Line_03": "UuRrUuR",
-        "Line_04": "rUuRRUU",
-        "Line_05": "rUuR"
+        "Line_01": "uRrUuRr",
+        "Line_02": "rRuuuRr",
+        "Line_03": "RrRuuRr",
+        "Line_04": "uRUrRUR",
+        "Line_05": "UruRRuU"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0151": {
       "Name": "Lesson_0151",
@@ -2396,12 +2394,12 @@
       }],
       "Description": "Review R & U",
       "Lines": [{
-        "Line_01": "Rea Rou Rea Rou Rea Rou",
-        "Line_02": "Umb Umb Und Und Umb Und",
-        "Line_03": "Rea Umb Rou Und Und Rou",
-        "Line_04": "Rel Unc Use Rea Rai Usu"
+        "Line_01": "Ruea Umb Rou Und Rea rai",
+        "Line_02": "Rea Rou Udd UsUmb Rea Und",
+        "Line_03": "RoU Umb Rel Rou Und Rai",
+        "Line_04": "REA umb Usu RoU Und UsUmb"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0152": {
       "Name": "Lesson_0152",
@@ -2412,13 +2410,13 @@
       }],
       "Description": "Practice R & U",
       "Lines": [{
-        "Line_01": "Room Unique Road Try Up Ride Roll Huge",
-        "Line_02": "Round Us Lot University Race Yours",
-        "Line_03": "Useful Rope Universe Job Remember Read",
-        "Line_04": "Got Understand Right Stay Rain Real",
-        "Line_05": "Reach Leave Usualy"
+        "Line_01": "Road Unique Usually Reach Real Rope",
+        "Line_02": "University Understand Right Use Rain",
+        "Line_03": "Up Remember Usual Roll Huge Room",
+        "Line_04": "Job Ride Round Got Leave Yours",
+        "Line_05": "Read Stay Try Race Useful Lot"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0153": {
       "Name": "Lesson_0153",
@@ -2429,13 +2427,13 @@
       }],
       "Description": "Capital E & I",
       "Lines": [{
-        "Line_01": "eEeEeEi",
-        "Line_02": "IiIiIEe",
-        "Line_03": "IiEeIiE",
-        "Line_04": "eIiEEII",
-        "Line_05": "eIiE"
+        "Line_01": "iEiEeIe",
+        "Line_02": "EeEiIeI",
+        "Line_03": "EiIeEeI",
+        "Line_04": "iEeIEIE",
+        "Line_05": "eIeI"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0154": {
       "Name": "Lesson_0154",
@@ -2446,12 +2444,12 @@
       }],
       "Description": "Review E & I",
       "Lines": [{
-        "Line_01": "Ele Ele End End Ele Ele",
-        "Line_02": "Int Int Ice Ice Inv Ind",
-        "Line_03": "Inv Ide Exi Eco Ira Ess",
-        "Line_04": "Enf Eva Imp Ele Ins Ina"
+        "Line_01": "Ide Ide Eva Inv Ins Imp",
+        "Line_02": "Ele Ele End Ele Ind Enf",
+        "Line_03": "Int Ice Eco Ess Exi Ira",
+        "Line_04": "Ele Ins Ind Inv Imp Eva"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0155": {
       "Name": "Lesson_0155",
@@ -2462,13 +2460,13 @@
       }],
       "Description": "Practice E & I",
       "Lines": [{
-        "Line_01": "Is Explain If End them Even Each Under",
-        "Line_02": "Ice East Iea Reiver Early Ever",
-        "Line_03": "Include Took its Every I Green Into",
-        "Line_04": "Egg Except Happy Iron Inside Apple",
-        "Line_05": "Inch Itself Gold Easy Eat"
+        "Line_01": "Into Each Iron Easy Green If Apple Egg",
+        "Line_02": "Include Inch Its Gold Iea Reiver Under",
+        "Line_03": "Even Happy End Except Inside Explain",
+        "Line_04": "Eat Early Every Inside Took Ice Its",
+        "Line_05": "Is Itself Happy Under If Each Its"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0156": {
       "Name": "Lesson_0156",
@@ -2479,9 +2477,9 @@
       }],
       "Description": "Test 21: RUEI",
       "Lines": [{
-        "Line_01": "IcHeFeGeEieLiUndofEaRoUeIeUeIaTerYer"
+        "Line_01": "RoEeHeIeIieUeEiTeIYfEaUeYnLiUndofGerri"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0157": {
       "Name": "Lesson_0157",
@@ -2492,13 +2490,13 @@
       }],
       "Description": "Capital W & O",
       "Lines": [{
-        "Line_01": "wWwWwWo",
-        "Line_02": "OoOoOWw",
-        "Line_03": "OoWwOoW",
-        "Line_04": "wOoWWOO",
-        "Line_05": "wOoW"
+        "Line_01": "OwWoWoOw",
+        "Line_02": "WoOwWwOo",
+        "Line_03": "WwOoWwWw",
+        "Line_04": "oOoWWoOW",
+        "Line_05": "wOwW"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0158": {
       "Name": "Lesson_0158",
@@ -2509,12 +2507,12 @@
       }],
       "Description": "Review W & O",
       "Lines": [{
-        "Line_01": "Wow Wow Whe Whe Wow Whe",
-        "Line_02": "Owe Ora Owe Ora Oka Obe",
-        "Line_03": "Whe Wow Ora Owe Whe Wow",
-        "Line_04": "Ora Whe One Wha Wow Oka"
+        "Line_01": "owe Wow Who Owe Who Oka",
+        "Line_02": "Wow Obe ora Owe ora Ora",
+        "Line_03": "Ora Who oka Owe Who oka",
+        "Line_04": "Obe Who Oka Who Wow Who"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0159": {
       "Name": "Lesson_0159",
@@ -2525,13 +2523,13 @@
       }],
       "Description": "Practice W & O",
       "Lines": [{
-        "Line_01": "Open Well Our Is What Or Over End",
-        "Line_02": "Other Orange Huge One Went Who Your",
-        "Line_03": "Will Wall Why Is Was Once Would Got",
-        "Line_04": "We Outside Out Gold When Old Way Oh",
-        "Line_05": "Try Only Want With Hat On Eat"
+        "Line_01": "Wealth Own Wish Over Own Will Owl",
+        "Line_02": "One Wise Work On West Water Will",
+        "Line_03": "Or Went Old With When Walks One",
+        "Line_04": "Woman With Over Whose Was On One",
+        "Line_05": "Where Off Went Want Orange On Own"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0160": {
       "Name": "Lesson_0160",
@@ -2542,13 +2540,13 @@
       }],
       "Description": "Capital Q & P",
       "Lines": [{
-        "Line_01": "qQqQqQp",
-        "Line_02": "PpPpPQq",
-        "Line_03": "PpQqPpQ",
-        "Line_04": "qPpQQPP",
-        "Line_05": "qPpQ"
+        "Line_01": "PqPqQp",
+        "Line_02": "QqQqPp",
+        "Line_03": "PpQqQp",
+        "Line_04": "PqQqPQ",
+        "Line_05": "qPpP"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0161": {
       "Name": "Lesson_0161",
@@ -2559,12 +2557,12 @@
       }],
       "Description": "Review Q & P",
       "Lines": [{
-        "Line_01": "Pla Pla Par Par Pou Pou",
-        "Line_02": "Que Que Qui Qui Que Qui",
-        "Line_03": "Pic Pla Pic Peo Peo Pic",
-        "Line_04": "Que Qui Que Qui Que Qui"
+        "Line_01": "Piq Poq Poq Pai Pli Par",
+        "Line_02": "Plo Peo Pai Qui Qui Que",
+        "Line_03": "Que Pui Plo Qui Plo Par",
+        "Line_04": "Piq Plo Par Plo Que Qui"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0162": {
       "Name": "Lesson_0162",
@@ -2575,13 +2573,13 @@
       }],
       "Description": "Practice Q & P",
       "Lines": [{
-        "Line_01": "Quickly Well Quiet Pink Other Purple",
-        "Line_02": "Part Quaify Early Paper Place Will",
-        "Line_03": "Quality Quantity Why Pass Queen Once",
-        "Line_04": "Quail Play Tree Pet Pretty Pull Head",
-        "Line_05": "Quick Pig Leave Pick"
+        "Line_01": "Plant Quick Power Pushy Pack Pine",
+        "Line_02": "Party Quite Easy Party Pup Paint",
+        "Line_03": "Purple Quick Partly Quiet Peace When",
+        "Line_04": "Peak Pot Pie Pure Pink Week Pile",
+        "Line_05": "Plum Pool Tied Path"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0163": {
       "Name": "Lesson_0163",
@@ -2592,9 +2590,9 @@
       }],
       "Description": "Test 22: WOQP",
       "Lines": [{
-        "Line_01": "PartyPurpleQualityPartQualifyPutPinkPaperQuickPlayPaint"
+        "Line_01": "QualityPutPlayPartyPinkQuickPaintPartPurpleQualifyPaper"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0164": {
       "Name": "Lesson_0164",
@@ -2605,13 +2603,13 @@
       }],
       "Description": "Capital V & M",
       "Lines": [{
-        "Line_01": "vVvVvVm",
-        "Line_02": "MmMmMVv",
-        "Line_03": "MmVvMmV",
-        "Line_04": "vMmVVMM",
-        "Line_05": "vMmV"
+        "Line_01": "mVmMmVv",
+        "Line_02": "VvMmVvM",
+        "Line_03": "VvVvMmM",
+        "Line_04": "MmVmVVv",
+        "Line_05": "MmMVmVV"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0165": {
       "Name": "Lesson_0165",
@@ -2622,12 +2620,12 @@
       }],
       "Description": "Review V & M",
       "Lines": [{
-        "Line_01": "Vie Vie Voi Voi Val Val",
-        "Line_02": "Mor Mak Mad Met Man May",
-        "Line_03": "Var Var Veg Vis Vac Vol",
-        "Line_04": "Mus Mon Muc Mig Min Moo"
+        "Line_01": "Moo Val Man Muc Vis Moo Vie",
+        "Line_02": "Vac Voi Mor Mig May Mak Val",
+        "Line_03": "Vie Met Mon Var Moo Mus Met",
+        "Line_04": "Voi Min Vol Man Mad May Val"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0166": {
       "Name": "Lesson_0166",
@@ -2638,13 +2636,13 @@
       }],
       "Description": "Practice V & M",
       "Lines": [{
-        "Line_01": "Man Verb Well Visit Vacation Pink",
-        "Line_02": "Middle Most Qualify Valley Many Early",
-        "Line_03": "Met Voyage Wall Various Money Why Very",
-        "Line_04": "Mad Milk Egg Men Value Old Miss Me",
-        "Line_05": "Veto It View My Pick"
+        "Line_01": "Money Egg Verb Early View Many My",
+        "Line_02": "Visit Valley Milk Men Vacation Pink",
+        "Line_03": "Man Miss Well Old Pick It Veto",
+        "Line_04": "Mad Most Various Middle Me Why",
+        "Line_05": "Met Very My Man Qualify Value"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0167": {
       "Name": "Lesson_0167",
@@ -2655,9 +2653,9 @@
       }],
       "Description": "Travel Index Caps",
       "Lines": [{
-        "Line_01": "UMJ RVFR UMJU VRFR MUMJUJ VFRFVRVF UJM"
+        "Line_01": "FUM JRVM UMVJ MRMUFJV MFRMUJ UMVJU RFJJUF VRMUJF"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0168": {
       "Name": "Lesson_0168",
@@ -2668,13 +2666,13 @@
       }],
       "Description": "Capital C & ?",
       "Lines": [{
-        "Line_01": "cCcCcC?",
-        "Line_02": "?????Cc",
-        "Line_03": "??Cc??C",
-        "Line_04": "c??CC??",
-        "Line_05": "c??C"
+        "Line_01": "c?Ccc?cCCc?",
+        "Line_02": "??ccC??cCc?",
+        "Line_03": "C?cCcCc??C?",
+        "Line_04": "??cCcc???cC",
+        "Line_05": "Cc??CCccC??"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0169": {
       "Name": "Lesson_0169",
@@ -2685,11 +2683,11 @@
       }],
       "Description": "Review C & ?",
       "Lines": [{
-        "Line_01": "Can? Cat? Can? Cow? Cap? Cut?",
-        "Line_02": "Con? Coa? Com? Cau? Com? Can?",
-        "Line_03": "Cha? Con? Can? Cap? Cat? Can?"
+        "Line_01": "Coa? Cau? Con? Cap? Can? Cat?",
+        "Line_02": "Can? Con? Cha? Com? Can? Cap?",
+        "Line_03": "Can? Cut? Con? Can? Com? Can?"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0170": {
       "Name": "Lesson_0170",
@@ -2700,14 +2698,15 @@
       }],
       "Description": "Practice C & ?",
       "Lines": [{
-        "Line_01": "Clothes Country Please Cat? Caught Play",
-        "Line_02": "Cap? Clock? At Clean Can? Horse Cake?",
-        "Line_03": "Cloud You Climb Came? Last Cover?",
-        "Line_04": "Coat? Try Chair? Corner Call? Miss Cut",
-        "Line_05": "Corn? View Car? Could?"
+        "Line_01": "Cap? Could? Call? Play Chair? Cloud Please",
+        "Line_02": "Corner Climb Clean? Coat? Caught Could?",
+        "Line_03": "Car? Cat? Came? Clothes Could? Cake?",
+        "Line_04": "Clock? Last View Miss Try Horse Cover?",
+        "Line_05": "Came? You Play Could? Cat? Chair?? Country?"
       }],
-      "Refactored": false
+      "Refactored": true
     },
+    //******************************
     "Lesson_0171": {
       "Name": "Lesson_0171",
       "Number": 171,
@@ -2861,6 +2860,7 @@
       }],
       "Refactored": false
     },
+    //******************************
     "Lesson_0181": {
       "Name": "Lesson_0181",
       "Number": 181,
