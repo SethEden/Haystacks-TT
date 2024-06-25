@@ -3410,7 +3410,7 @@
       "Description": "Sharks",
       "Lines": [{
         "Line_01": "Sharks are ancient creatures that have",
-        "Line_02": "survived for millions of years. They",
+        "Line_02": "survived for eons. They",
         "Line_03": "are apex predators, meaning they are at",
         "Line_04": "the top of their food chain in the ocean.",
         "Line_05": "Despite their fierce reputation, sharks",
@@ -3419,7 +3419,6 @@
       }],
       "Refactored": true
     },
-    //******************************
     "Lesson_0211": {
       "Name": "Lesson_0211",
       "Number": 211,
@@ -3429,14 +3428,16 @@
       }],
       "Description": "Biology",
       "Lines": [{
-        "Line_01": "Like al sciences, biology uses the",
-        "Line_02": "scientific method. This means that",
-        "Line_03": "biologists must be able to show",
-        "Line_04": "evidence for their ideas, and that",
-        "Line_05": "other biologists must be able to test",
-        "Line_06": "the ideas for themselves."
+        "Line_01": "Biology is the study of living organisms,",
+        "Line_02": "from the smallest bacteria to the largest",
+        "Line_03": "whales. It covers various fields such as",
+        "Line_04": "genetics, ecology, and physiology. Biologists",
+        "Line_05": "investigate the complex interactions",
+        "Line_06": "that sustain life on Earth, exploring",
+        "Line_07": "everything from cellular processes to",
+        "Line_08": "ecosystem dynamics."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0212": {
       "Name": "Lesson_0212",
@@ -3447,9 +3448,9 @@
       }],
       "Description": "Test 27: Play Words 8",
       "Lines": [{
-        "Line_01": "single each human respect Sailor Tissue method Greek idea Name Sharks nose bone region star culture"
+        "Line_01": "Dance sharp Silent range Singer heart Alone touch car Shine Gather Culture respect Region Method Idea"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0213": {
       "Name": "Lesson_0213",
@@ -3460,14 +3461,14 @@
       }],
       "Description": "Typewriters",
       "Lines": [{
-        "Line_01": "Typewriters, unlike modern keyboards,",
-        "Line_02": "use large mechanical parts to press",
-        "Line_03": "ink down on paper. If someone pressed",
-        "Line_04": "down keys that were next to each other",
-        "Line_05": "on the typewriter, the parts would",
-        "Line_06": "sometimes get jammed."
+        "Line_01": "Typewriters were once the main tools for",
+        "Line_02": "writing documents. They used a system of",
+        "Line_03": "levers and hammers to imprint ink on paper.",
+        "Line_04": "Pressing adjacent keys too quickly could",
+        "Line_05": "cause the mechanisms to stick, resulting in",
+        "Line_06": "a jam that needed to be manually fixed."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0214": {
       "Name": "Lesson_0214",
@@ -3478,14 +3479,14 @@
       }],
       "Description": "Pandas",
       "Lines": [{
-        "Line_01": "The giant panda, or panda, is a bear",
-        "Line_02": "native to central western and",
-        "Line_03": "southwestern China. It is easily",
-        "Line_04": "recognized by its large, distinctive",
-        "Line_05": "black patches around the eyes, over",
-        "Line_06": "the ears, and across its round body."
+        "Line_01": "Pandas are known for their unique black",
+        "Line_02": "and white coloring. They live mainly in",
+        "Line_03": "the bamboo forests of China. These bears",
+        "Line_04": "have a diet that is 99% bamboo. The",
+        "Line_05": "distinctive markings on their fur make",
+        "Line_06": "them easily recognizable worldwide."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0215": {
       "Name": "Lesson_0215",
@@ -3496,14 +3497,15 @@
       }],
       "Description": "Biologist",
       "Lines": [{
-        "Line_01": "People who study biology are called",
-        "Line_02": "biologists. Biology looks at how",
-        "Line_03": "animals and other organisms behave and",
-        "Line_04": "work, and what they are like. Biology",
-        "Line_05": "also studies how organisms react with",
-        "Line_06": "each other and the environment."
+        "Line_01": "Biologists explore the vast diversity",
+        "Line_02": "of life on Earth. They study the",
+        "Line_03": "structure, function, growth, origin,",
+        "Line_04": "selective breeding, and distribution of living",
+        "Line_05": "organisms. Research in biology helps",
+        "Line_06": "us understand diseases, ecosystems,",
+        "Line_07": "and the genetics of plants and animals."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0216": {
       "Name": "Lesson_0216",
@@ -3514,14 +3516,14 @@
       }],
       "Description": "Keyboard Layout",
       "Lines": [{
-        "Line_01": "Keyboards look as if someone jumbled",
-        "Line_02": "the letters around to make it harder",
-        "Line_03": "to find each key. In fact, the QWERTY",
-        "Line_04": "layout was very carefully designed to",
-        "Line_05": "prevent the mechanical parts of",
-        "Line_06": "typewriters from jamming together."
+        "Line_01": "The arrangement of keys on a keyboard",
+        "Line_02": "is known as the QWERTY layout. It was",
+        "Line_03": "invented by Christopher Sholes.",
+        "Line_04": "This design was intended to reduce the",
+        "Line_05": "chance of typewriters jamming by spacing",
+        "Line_06": "out commonly used letter pairs."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0217": {
       "Name": "Lesson_0217",
@@ -3532,9 +3534,9 @@
       }],
       "Description": "Test 28: Play Words 9",
       "Lines": [{
-        "Line_01": "modern large Bioogy around prevent Behave keys native People look body Letter round keyboard"
+        "Line_01": "Developing a Keen sense of Observation, People Explore various Key elements of Nature, Looking Beyond everyday aspects and Identifying Unique behaviors Around them."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0218": {
       "Name": "Lesson_0218",
@@ -3545,15 +3547,19 @@
       }],
       "Description": "Super Power",
       "Lines": [{
-        "Line_01": "Our muscles have an amazing way of",
-        "Line_02": "letting our bodies do difficult things",
-        "Line_03": "without even thinking about it. It is",
-        "Line_04": "called Muscle Memory. When you practice",
-        "Line_05": "typing, you are building muscle memory",
-        "Line_06": "so you can type without having to",
-        "Line_07": "focus on it."
-      }],
-      "Refactored": false
+          "Line_01": "Typing is a valuable skill that allows",
+          "Line_02": "us to express ideas quickly and",
+          "Line_03": "accurately. With practice,",
+          "Line_04": "typing becomes second nature,",
+          "Line_05": "freeing the mind to focus on",
+          "Line_06": "content. Muscle memory in typing",
+          "Line_07": "helps us type effortlessly,",
+          "Line_08": "enhancing efficiency and",
+          "Line_09": "creativity. Mastering typing can",
+          "Line_10": "become your superpower,",
+          "Line_11": "improving communication and productivity."
+        }],
+      "Refactored": true
     },
     "Lesson_0219": {
       "Name": "Lesson_0219",
@@ -3564,14 +3570,18 @@
       }],
       "Description": "Mongolia's Capital",
       "Lines": [{
-        "Line_01": "Ulaanbaatar is the capital of Mongolia",
-        "Line_02": "and its largest city. As a nomadic",
-        "Line_03": "city, the capital used to move three",
-        "Line_04": "times a year. With just four people",
-        "Line_05": "per square mile, Mongolia is the least",
-        "Line_06": "densely populated country on Earth."
-      }],
-      "Refactored": false
+          "Line_01": "Ulaanbaatar, Mongolia's vibrant capital,",
+          "Line_02": "stands as a cultural and economic hub",
+          "Line_03": "amidst its vast, rugged landscapes.",
+          "Line_04": "Formerly a nomadic city that relocated",
+          "Line_05": "three times yearly, Ulaanbaatar now",
+          "Line_06": "anchors the nation's growth and",
+          "Line_07": "modernization. With a population density",
+          "Line_08": "among the lowest globally, Mongolia's",
+          "Line_09": "capital embodies a unique blend of",
+          "Line_10": "tradition and rapid development."
+        }],
+      "Refactored": true
     },
     "Lesson_0220": {
       "Name": "Lesson_0220",
@@ -3582,17 +3592,18 @@
       }],
       "Description": "Chinese Art",
       "Lines": [{
-        "Line_01": "Arts and crafts have a long history in",
-        "Line_02": "China. Thousands of years ago the",
-        "Line_03": "Chinese were some of the first people",
-        "Line_04": "to use silk, jade, bronze, wood, and",
-        "Line_05": "paper to make art. The artistic",
-        "Line_06": "writing called caligraphy was invented",
-        "Line_07": "in China."
+        "Line_01": "Chinese art boasts a rich legacy spanning",
+        "Line_02": "millennia. Ancient Chinese artisans",
+        "Line_03": "pioneered the use of silk, jade, bronze,",
+        "Line_04": "wood, and paper in their crafts, setting",
+        "Line_05": "foundations for artistic expression that",
+        "Line_06": "endures today. The art of calligraphy,",
+        "Line_07": "renowned for its elegance and precision,",
+        "Line_08": "originated in China and remains a",
+        "Line_09": "cherished cultural tradition."
       }],
-      "Refactored": false
+      "Refactored": true
     },
-    //******************************
     "Lesson_0221": {
       "Name": "Lesson_0221",
       "Number": 221,
@@ -3602,14 +3613,14 @@
       }],
       "Description": "Pandas, Part 2",
       "Lines": [{
-        "Line_01": "Giant pandas live in the temperate",
-        "Line_02": "zone bamboo forests of central China.",
-        "Line_03": "They are among the best recognized but",
-        "Line_04": "rarest animals in the world. Pandas",
-        "Line_05": "have come to symbolize endangered",
-        "Line_06": "species and conservation efforts."
+        "Line_01": "Giant pandas inhabit the dense bamboo",
+        "Line_02": "forests of central China's temperate",
+        "Line_03": "zones. These iconic bears are not only",
+        "Line_04": "widely recognized but also highly",
+        "Line_05": "endangered, representing global efforts",
+        "Line_06": "in wildlife conservation."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0222": {
       "Name": "Lesson_0222",
@@ -3620,9 +3631,9 @@
       }],
       "Description": "Test 29: Play Words 10",
       "Lines": [{
-        "Line_01": "boxing Earth live China move Giant capital among Mile pandas Three black history paper Effort Wood"
+        "Line_01": "Goal early legal oak large game rate learn layer area omega real great gem arm tray metal"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0223": {
       "Name": "Lesson_0223",
@@ -3633,13 +3644,13 @@
       }],
       "Description": "Dynamic Practice 6",
       "Lines": [{
-        "Line_01": "gr gr gre gro great gradually program",
-        "Line_02": "ge ge nge get get range general",
-        "Line_03": "ga ga aga gai again gave games",
-        "Line_04": "gn gn ign gna design doreign signals",
-        "Line_05": "gi gi egi ngi begins engines giving"
+        "Line_01": "ge ge gen gea gear genre generous",
+        "Line_02": "ga ga gat gam gate game gamma",
+        "Line_03": "gi gi giv gin gingiva gill give",
+        "Line_04": "gr gr gra gre great grain graphic",
+        "Line_05": "gn gn gin gna gnash imagine ignore"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0224": {
       "Name": "Lesson_0224",
@@ -3650,17 +3661,16 @@
       }],
       "Description": "Lose/Loose/Loss",
       "Lines": [{
-        "Line_01": "It can be very frustrating to lose",
-        "Line_02": "your homework.",
-        "Line_03": "lose lose lose lose lose",
-        "Line_04": "Be careful because your shoelace is",
-        "Line_05": "loose.",
-        "Line_06": "loose loose loose loose loose",
-        "Line_07": "Their loss today means they are out of",
-        "Line_08": "the championship.",
-        "Line_09": "loss loss loss loss loss"
+        "Line_01": "It can be quite frustrating to lose",
+        "Line_02": "your notebook.",
+        "Line_03": "lose lose lose lose lose lose",
+        "Line_04": "Be cautious because your knot is loose.",
+        "Line_05": "loose loose loose loose loose loose",
+        "Line_06": "Their defeat today means they are out of",
+        "Line_07": "the tournament.",
+        "Line_08": "loss loss loss loss loss loss"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0225": {
       "Name": "Lesson_0225",
@@ -3671,17 +3681,14 @@
       }],
       "Description": "Scene/Science",
       "Lines": [{
-        "Line_01": "The artist painted a beautiful scene",
-        "Line_02": "with mountains.",
-        "Line_03": "scene scene scene scene scene",
-        "Line_04": "I love learning about the universe in",
-        "Line_05": "science class.",
-        "Line_06": "science science science science science",
-        "Line_07": "She drew a scene of her science",
-        "Line_08": "classroom.",
-        "Line_09": "scene science scene science"
+        "Line_01": "The painter depicted a scenic view of hills.",
+        "Line_02": "scene scene scene scene scene scene",
+        "Line_03": "I adore studying the cosmos in science lab.",
+        "Line_04": "science science science science science science",
+        "Line_05": "She illustrated a scene from her science lecture.",
+        "Line_06": "science scene science scene science scene"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0226": {
       "Name": "Lesson_0226",
@@ -3692,14 +3699,14 @@
       }],
       "Description": "Thought/Fought",
       "Lines": [{
-        "Line_01": "She thought she saw a rabgbit in the woods.",
+        "Line_01": "They had a thought they saw a hare in the woods.",
         "Line_02": "thought thought thought thought thought",
-        "Line_03": "They fought over the last piece of pizza.",
-        "Line_04": "fought fought fought fought fought",
-        "Line_05": "I thought they fought too much.",
-        "Line_06": "thought fought thought fought"
+        "Line_03": "She imagined they fought over the last slice of pie.",
+        "Line_04": "fought fought fought fought fought fought",
+        "Line_05": "We both thought that she had fought.",
+        "Line_06": "thought fought thought fought thought fought"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0227": {
       "Name": "Lesson_0227",
@@ -3710,16 +3717,15 @@
       }],
       "Description": "Hole/Whole",
       "Lines": [{
-        "Line_01": "The dog dug a hole in the backyard",
-        "Line_02": "for his bone.",
-        "Line_03": "hole hole hole hole hole",
-        "Line_04": "My brother and sister ate the whole pizza.",
-        "Line_05": "whole whole whole whole whole",
-        "Line_06": "The fat squirrel squished its whole",
-        "Line_07": "body into the tiny hole in the tree.",
-        "Line_08": "hole whole hole whole"
+        "Line_01": "The squirrel dug a deep hole in the garden.",
+        "Line_02": "hole hole hole hole hole hole",
+        "Line_03": "We devoured the whole cake in one sitting.",
+        "Line_04": "whole whole whole whole whole whole",
+        "Line_05": "A mole burrowed a hole under the fence",
+        "Line_06": "and he crawled so far in his whole body was inside.",
+        "Line_07": "whole hole whole hole whole hole whole"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0228": {
       "Name": "Lesson_0228",
@@ -3730,17 +3736,14 @@
       }],
       "Description": "Prepare/Presence",
       "Lines": [{
-        "Line_01": "To prepare for a test, you should",
-        "Line_02": "study hard.",
-        "Line_03": "prepare prepare prepare prepare prepare",
-        "Line_04": "Your presence in class makes everyone",
-        "Line_05": "happy.",
-        "Line_06": "presence presence presence presence presence",
-        "Line_07": "They will prepare for the presence of",
-        "Line_08": "the queen.",
-        "Line_09": "prepare presence prepare presence"
+        "Line_01": "They need to prepare a feast for the event.",
+        "Line_02": "prepare prepare prepare prepare prepare prepare",
+        "Line_03": "Her presence at the party was a pleasant surprise.",
+        "Line_04": "presence presence presence presence presence presence",
+        "Line_05": "We should prepare ourselves for the presence of any challenges.",
+        "Line_06": "presence prepare presence prepare presence prepare presence"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0229": {
       "Name": "Lesson_0229",
@@ -3751,17 +3754,15 @@
       }],
       "Description": "Desert/Dessert",
       "Lines": [{
-        "Line_01": "Camels are well adapted to living in",
-        "Line_02": "the desert.",
-        "Line_03": "desert desert desert desert desert",
-        "Line_04": "She baked a delicious dessert to share",
-        "Line_05": "with her friends.",
-        "Line_06": "dessert dessert dessert dessert dessert",
-        "Line_07": "In the hot and dry desert, cold ice",
-        "Line_08": "cream makes a great dessert.",
-        "Line_09": "desert dessert desert dessert"
+        "Line_01": "The desert landscape is vast and empty.",
+        "Line_02": "desert desert desert desert desert desert",
+        "Line_03": "She served a dessert of chocolate cake.",
+        "Line_04": "dessert dessert dessert dessert dessert dessert",
+        "Line_05": "Desert nights can be very cold, almost as cold.",
+        "Line_06": "as soft serve ice cream dessert",
+        "Line_07": "dessert desert dessert desert dessert desert dessert"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0230": {
       "Name": "Lesson_0230",
@@ -3772,16 +3773,15 @@
       }],
       "Description": "Piece/Peace",
       "Lines": [{
-        "Line_01": "He offered her a piece of the vanilla",
-        "Line_02": "cake.",
-        "Line_03": "piece piece piece piece piece",
-        "Line_04": "Everyone wants world peace.",
-        "Line_05": "peace peace peace peace peace",
-        "Line_06": "She offered her sister a piece of cake",
-        "Line_07": "to make peace with her.",
-        "Line_08": "piece peace piece peace"
+        "Line_01": "She gave him a piece of chocolate.",
+        "Line_02": "piece piece piece piece piece",
+        "Line_03": "They strive for global peace.",
+        "Line_04": "peace peace peace peace peace",
+        "Line_05": "A small piece of bread was left,",
+        "Line_06": "it was just enough to break and make peace.",
+        "Line_07": "piece peace piece peace piece peace"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0231": {
       "Name": "Lesson_0231",
@@ -3790,21 +3790,18 @@
         "AccuracyRequirement": "",
         "SpeedRequirement": ""
       }],
-      "Description": "Definitely",
+      "Description": "Definitely/Completely",
       "Lines": [{
-        "Line_01": "Our teacher is definitely the best.",
+        "Line_01": "She is definitely going to the concert.",
         "Line_02": "definitely definitely definitely",
         "Line_03": "definitely definitely",
-        "Line_04": "I have completely mastered touch",
-        "Line_05": "typing.",
-        "Line_06": "completely completely completely",
-        "Line_07": "completely completely",
-        "Line_08": "He definitely said he was completely",
-        "Line_09": "finished.",
-        "Line_10": "definitely completely definitely",
-        "Line_11": "completely"
+        "Line_04": "The project is completely finished now.",
+        "Line_05": "completely completely completely",
+        "Line_06": "completely completely",
+        "Line_07": "He definitely needs to completely understand it.",
+        "Line_08": "definitely completely definitely completely"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0232": {
       "Name": "Lesson_0232",
@@ -3813,21 +3810,18 @@
         "AccuracyRequirement": "",
         "SpeedRequirement": ""
       }],
-      "Description": "Ridiculous",
+      "Description": "Ridiculous/Glamorous",
       "Lines": [{
-        "Line_01": "They laughed because the clown made a",
-        "Line_02": "ridiculous face.",
-        "Line_03": "ridiculous ridiculous ridiculous",
-        "Line_04": "ridiculous ridiculous",
-        "Line_05": "The glamorous movie star posed for a",
-        "Line_06": "picture.",
-        "Line_07": "glamorous glamorous glamorous glamorous",
-        "Line_08": "glamorous",
-        "Line_09": "The clown looked ridiculous in the",
-        "Line_10": "glamorus dress.",
-        "Line_11": "ridiculous glamorous ridiculous glamorous"
+        "Line_01": "The plan sounded completely ridiculous.",
+        "Line_02": "ridiculous ridiculous ridiculous",
+        "Line_03": "ridiculous ridiculous",
+        "Line_04": "Her glamorous dress shimmered under the lights.",
+        "Line_05": "glamorous glamorous glamorous",
+        "Line_06": "glamorous glamorous",
+        "Line_07": "It was ridiculous how glamorous the party looked.",
+        "Line_08": "ridiculous glamorous ridiculous glamorous"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0233": {
       "Name": "Lesson_0233",
@@ -3838,17 +3832,19 @@
       }],
       "Description": "Scent/Cent",
       "Lines": [{
-        "Line_01": "The scent of baking cookies drifted",
-        "Line_02": "rom the bakery.",
-        "Line_03": "scent scent scent scent scent",
-        "Line_04": "A penny is one cent and a quarter is",
-        "Line_05": "twenty five cents.",
-        "Line_06": "cent cent cent cent cent",
-        "Line_07": "The scent of the cookies convinced him",
-        "Line_08": "to spend hsi last cent on them.",
-        "Line_09": "scent cent scent cent"
+        "Line_01": "She noticed the fresh scent of flowers in the garden.",
+        "Line_02": "scent scent scent scent scent scent",
+        "Line_03": "He found a shiny cent on the ground.",
+        "Line_04": "cent cent cent cent cent cent",
+        "Line_05": "The scent of the bakery made him hungry.",
+        "Line_06": "scent scent scent scent scent scent",
+        "Line_07": "She saved every cent she earned.",
+        "Line_08": "cent cent cent cent cent cent",
+        "Line_09": "The scent of coffee filled the air and",
+        "Line_10": "convinced her to spend her last cent on it.",
+        "Line_11": "cent scent cent scent cent scent cent scent"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0234": {
       "Name": "Lesson_0234",
@@ -3859,14 +3855,13 @@
       }],
       "Description": "Dynamic Practice 7",
       "Lines": [{
-        "Line_01": "gr gr gro gre ground groups greatly",
-        "Line_02": "ge ge nge rge angeles largely bridges",
-        "Line_03": "ga ga gar gav gardens garden gave",
-        "Line_04": "gn gn ign agn signal electromagnetic",
-        "Line_05": "foreign",
-        "Line_06": "gi gi igi gin original give origin"
+        "Line_01": "ge ge rge ger merge eager largest",
+        "Line_02": "gr gr gra gre great grapes greeting",
+        "Line_03": "gn gn ign nig agn sign benign magnify signal",
+        "Line_04": "gi gi ign gig gift vigil ignite",
+        "Line_05": "ga ga gua gal galaxy guard gamma"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0235": {
       "Name": "Lesson_0235",
@@ -3877,11 +3872,11 @@
       }],
       "Description": "Keys 4 and 7",
       "Lines": [{
-        "Line_01": "4747447",
-        "Line_02": "7477447",
-        "Line_03": "447474"
+        "Line_01": "4744747",
+        "Line_02": "4477447",
+        "Line_03": "744744"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0236": {
       "Name": "Lesson_0236",
@@ -3892,10 +3887,10 @@
       }],
       "Description": "Review: 4 and 7",
       "Lines": [{
-        "Line_01": "f4f4 j7j7 f4j7 jj7 4ffj 74jf 47fj jf74",
-        "Line_02": "447 4f7j 7j4f j47f 447j 74jf j7j474"
+        "Line_01": "j7j4f 4ffj 7j7 jf74 447 4f4f f4j7 74jf",
+        "Line_02": "47fj j47f 74jf 447j 4f7j j7j474 jj7"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0237": {
       "Name": "Lesson_0237",
@@ -3906,14 +3901,14 @@
       }],
       "Description": "Practice: 4 and 7",
       "Lines": [{
-        "Line_01": "44 cats 74 men 44 doors in the room",
-        "Line_02": "74 trees more than 47 is the number 7",
-        "Line_03": "is a great choice 4 is a better one 4",
-        "Line_04": "by 7 is you guessed right 44 more",
-        "Line_05": "days give me 4 and a 7 then 47 then",
-        "Line_06": "44777"
+        "Line_01": "74 doors more than 44 cats in the room",
+        "Line_02": "4 is a better choice 7 is a great one 4",
+        "Line_03": "give me 47 then 44 more days",
+        "Line_04": "you guessed right by 7 then 74 trees",
+        "Line_05": "47 is the number 4 7477447",
+        "Line_06": "74 men 44 7 and a 4th"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0238": {
       "Name": "Lesson_0238",
@@ -3924,11 +3919,11 @@
       }],
       "Description": "Keys 3 and 8",
       "Lines": [{
-        "Line_01": "8838383",
-        "Line_02": "3883883",
-        "Line_03": "838838"
+        "Line_01": "383883838388",
+        "Line_02": "838383838833",
+        "Line_03": "383838883"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0239": {
       "Name": "Lesson_0239",
@@ -3939,10 +3934,14 @@
       }],
       "Description": "Review: 3 and 8",
       "Lines": [{
-        "Line_01": "d3k8 d3k8 d3k8 kk8 3dd8 k38dk 83kd8",
-        "Line_02": "kk38dk k83k 38dk3 k83d d38 k3d8 k 3 8 d"
+        "Line_01": "3kddk8 k38dk3 kk883d 3dk8kk3d 38dkk",
+        "Line_02": "d3k8 kd8kk3 d3k8kk8 83kd38d kk3dk8 k83",
+        "Line_03": "d8 k38dkd3 kk8 3dk8k3d8 k83d 3dk8kk8",
+        "Line_04": "3kd8 kk38k3d kk838dk k3d8 kk8d3k8 k38d",
+        "Line_05": "kk3 83dk kd83k8d kk3d 8k3dkk38 dk83dk8",
+        "Line_06": "kk83dk38k dk38 k3d8kd3 k38 d3k8kd838kd3"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0240": {
       "Name": "Lesson_0240",
@@ -3953,15 +3952,15 @@
       }],
       "Description": "Practice: 3 and 8",
       "Lines": [{
-        "Line_01": "88 ittle dogs 3 big cows 33 more",
-        "Line_02": "likes 83 is greater 38 is not 88 cars",
-        "Line_03": "3 shoes 33 bags now 88 sounds good 33",
-        "Line_04": "not so good 3 is a little less 8 is",
-        "Line_05": "more than that 333 and 888 now 338",
-        "Line_06": "and 883"
+        "Line_01": "88 dogs 3 cows 33 more likes",
+        "Line_02": "83 is greater 38 is not 88 airplanes",
+        "Line_03": "3 sandels 33 bugs 88 sounds good",
+        "Line_04": "33 even better 3 is less 8 is more",
+        "Line_05": "333 and 888 833 and 383 then and now only 8"
       }],
-      "Refactored": false
+      "Refactored": true
     },
+    //******************************
     "Lesson_0241": {
       "Name": "Lesson_0241",
       "Number": 241,
@@ -4116,6 +4115,7 @@
       }],
       "Refactored": false
     },
+    //******************************
     "Lesson_0251": {
       "Name": "Lesson_0251",
       "Number": 251,
