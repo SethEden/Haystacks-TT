@@ -3960,7 +3960,6 @@
       }],
       "Refactored": true
     },
-    //******************************
     "Lesson_0241": {
       "Name": "Lesson_0241",
       "Number": 241,
@@ -3970,11 +3969,14 @@
       }],
       "Description": "Keys 2 and 9",
       "Lines": [{
-        "Line_01": "2292929",
-        "Line_02": "2292992",
-        "Line_03": "929929"
+        "Line_01": "2929929",
+        "Line_02": "929292",
+        "Line_03": "922992",
+        "Line_04": "299229",
+        "Line_05": "229299",
+        "Line_06": "992992"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0242": {
       "Name": "Lesson_0242",
@@ -3985,10 +3987,11 @@
       }],
       "Description": "Review: 2 and 9",
       "Lines": [{
-        "Line_01": "s2 l9 s2l9 292s 9l2s 9ll2s 2ls9 9s2l",
-        "Line_02": "l9s2 ll2s 929s 29sl ls92 92ll 2s99 2ls"
+        "Line_01": "l9l9l9 9l2l9 s2l992l s2s22s 2sl99ls9",
+        "Line_02": "9s9s2l 2sl2992 s29 9sl22s l9s2l2s 2s",
+        "Line_03": "2l92 2l9l l29l2s 9s2ll9 9l29 l2s92l"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0243": {
       "Name": "Lesson_0243",
@@ -3999,14 +4002,13 @@
       }],
       "Description": "Practice: 2 and 9",
       "Lines": [{
-        "Line_01": "29 bat 92 boats 99 cents with 22 more",
-        "Line_02": "2 short plants and 92 stones 2 white",
-        "Line_03": "cars travel 9 hundred miles 29 times",
-        "Line_04": "to the zoo 2 is a number and 9 is",
-        "Line_05": "too but 2 is the smaller one you must",
-        "Line_06": "know"
+          "Line_01": "229 rocks 92 flowers 99 books with 22 more",
+          "Line_02": "22 red apples and 992 leaves 2 brown",
+          "Line_03": "cats jump 9 feet high 29 times",
+          "Line_04": "to the park 2 is a digit and 9 is",
+          "Line_05": "too but 2 is the smaller one you must see that"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0244": {
       "Name": "Lesson_0244",
@@ -4017,11 +4019,11 @@
       }],
       "Description": "Keys 1 and 0",
       "Lines": [{
-        "Line_01": "1001010",
-        "Line_02": "0100101",
-        "Line_03": "010011"
-      }],
-      "Refactored": false
+          "Line_01": "0011001",
+          "Line_02": "1000100",
+          "Line_03": "010101"
+        }],
+      "Refactored": true
     },
     "Lesson_0245": {
       "Name": "Lesson_0245",
@@ -4032,11 +4034,11 @@
       }],
       "Description": "Review: 1 and 0",
       "Lines": [{
-        "Line_01": "a1 ;0 a10; 01;a 1010 a;10 0110;a",
-        "Line_02": ";a001; 10a;10a; 011;a 1;a0 0a;1 a1;0",
-        "Line_03": ";1a0;"
-      }],
-      "Refactored": false
+          "Line_01": "1a 0; 01a; 0;a1 a10; 1010; a01 ;a01 10;0",
+          "Line_02": ";1a0 ;0a1; a1;0 10;a 1a0; 011;a 0;1",
+          "Line_03": "1;0a ;01a 1a;0 a;10 0a1; a10; ;0a1"
+        }],
+      "Refactored": true
     },
     "Lesson_0246": {
       "Name": "Lesson_0246",
@@ -4047,13 +4049,13 @@
       }],
       "Description": "Practice: 1 and 0",
       "Lines": [{
-        "Line_01": "1 is teh only one 0 is none 11 is",
-        "Line_02": "more and 10 is less 100 is a ot but",
-        "Line_03": "1000 is even more learn the numbers",
-        "Line_04": "and you should know more 1010101 type",
-        "Line_05": "the key 1 and next type the key 0"
-      }],
-      "Refactored": false
+          "Line_01": "one is 1 and zero is 0 11 is a pair",
+          "Line_02": "10 is a mix but 100 is a lot more",
+          "Line_03": "1000 means plenty learn the count",
+          "Line_04": "and you know more 1010101 practice",
+          "Line_05": "typing 1 then typing 0 to remember"
+        }],
+      "Refactored": true
     },
     "Lesson_0247": {
       "Name": "Lesson_0247",
@@ -4064,11 +4066,11 @@
       }],
       "Description": "Keys 5 and 6",
       "Lines": [{
-        "Line_01": "5656555",
-        "Line_02": "5656556",
-        "Line_03": "566565"
+        "Line_01": "5565656",
+        "Line_02": "6555656",
+        "Line_03": "565665"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0248": {
       "Name": "Lesson_0248",
@@ -4079,10 +4081,10 @@
       }],
       "Description": "Review: 5 and 6",
       "Lines": [{
-        "Line_01": "f5 j6 g5 h6 56gj 55 66 5656 j65f f56j",
-        "Line_02": "jf56 j5f6 6f5j 5j6f j556f f66j5 f5j6f"
+        "Line_01": "5j6 h6 f56 j65 g5 6f5 66 jf5 56fj",
+        "Line_02": "j5f 5j6 f66 j5f jf6 6j56 5j6f f5j6f"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0249": {
       "Name": "Lesson_0249",
@@ -4093,14 +4095,13 @@
       }],
       "Description": "Practice: 5 and 6",
       "Lines": [{
-        "Line_01": "5 cute dolphins, 6 big whales, and 55",
+        "Line_01": "6 big whales, 5 cute dolphins, and 55",
         "Line_02": "baloons are floatng in the air. 56",
-        "Line_03": "reversed is 65 but 56 is smaller than",
-        "Line_04": "65. Five pounds of sand in 6 little",
-        "Line_05": "jars. 5 is my favorite number and 6",
-        "Line_06": "is yours."
+        "Line_03": "jars. 5 is my favorite number and 6",
+        "Line_04": "reversed is 65 but 56 is just a little smaller",
+        "Line_05": "556. Five pounds of sand in 6 little jam jars."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0250": {
       "Name": "Lesson_0250",
@@ -4111,11 +4112,10 @@
       }],
       "Description": "Test 30: All Numbers",
       "Lines": [{
-        "Line_01": "9234712340987598102346501234087156926357"
+        "Line_01": "2345678901234567890123456789012345678901"
       }],
-      "Refactored": false
+      "Refactored": true
     },
-    //******************************
     "Lesson_0251": {
       "Name": "Lesson_0251",
       "Number": 251,
@@ -4125,12 +4125,12 @@
       }],
       "Description": "Travel 4 and 5",
       "Lines": [{
-        "Line_01": "f4v4r4 b5g5t5 rv4f 5t5gb5g fr4vr4f",
-        "Line_02": "de3cde3 f4v4f4r d3c3e3d v4c3r4e c3v4e3c3"
+        "Line_01": "v4f5b5 g5r4v4 f4r5v5 fr4v5b5 c3d3e3 v4r4v4",
+        "Line_02": "f5b5g5 t5b5g5 v4c3e3 r4f4v4 c3e3d3 v4f5r5"
       }],
-      "Refactored": false
+      "Refactored": true
     },
-    "Lesson_0252": {
+      "Lesson_0252": {
       "Name": "Lesson_0252",
       "Number": 252,
       "IndividualizedLessonPassingCriteria": [{
@@ -4139,11 +4139,11 @@
       }],
       "Description": "Travel 3 and 2",
       "Lines": [{
-        "Line_01": "d3 c3 d3 e3 s2x2 w2x2 s2 w2 s22x2",
-        "Line_02": "sw22 x22w2 x2w x22w d3 c3 d33e c33c33",
-        "Line_03": "e3d"
+        "Line_01": "d3c3 s2x2 w2x2 s2w w2s2 d3e3 c3d d3e",
+        "Line_02": "s2w2 x22w x2w2 c3d3 e3c3 c3d d3c3 e3d3",
+        "Line_03": "w2s x22 s22x x22w2 d33e3 c33c33 e3d"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0253": {
       "Name": "Lesson_0253",
@@ -4154,10 +4154,10 @@
       }],
       "Description": "Travel 1 and 5",
       "Lines": [{
-        "Line_01": "a1z1q1 a1z1q1 g5t5b5 b5g5t5 1a1q1z1",
-        "Line_02": "5t5g5b5 1q1a1z1 5b5g5t5 1q1a1z1 5b5g5t"
+        "Line_01": "5t5g5 g5t5b5 5g5b5 5g5t5 1q1z1 a1q1z1",
+        "Line_02": "5t5b5 1q1z1a 5b5g5 1q1a1 5g5t5b 1z1a1 1a1z1"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0254": {
       "Name": "Lesson_0254",
@@ -4168,10 +4168,11 @@
       }],
       "Description": "Travel 6 and 7",
       "Lines": [{
-        "Line_01": "j7j7m7u7 h6n6y6 u7j7m7 6y6h6n j7m7u7",
-        "Line_02": "h6n6y6 7u7j7m7 6h6n6y6 6y6h6n6 7u7j7m7"
+        "Line_01": "u7m7jm7 y6hn6n6y 7j7m7 u7j7 6n6h6 y6h6n",
+        "Line_02": "6h6n6 7m7u7j 7u7m7 6y6h6 7m7u7 j7u7m",
+        "Line_03": "6n6hy6y 6n6h6 7j7m7 6y6h6 u7m7j7 h6n6"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0255": {
       "Name": "Lesson_0255",
@@ -4182,10 +4183,11 @@
       }],
       "Description": "Travel 8 and 9",
       "Lines": [{
-        "Line_01": "k8i8,8 l9.9o9 k8i8,8 i8k8,8 l9l.o9l i8,8k8",
-        "Line_02": "8i8k8,8 9o9l9.9 8,8k8i8 9.9l9o9"
+        "Line_01": "i88k,8 8k8i8,8 l9o9.9l k8,8i8 9l9o9.9",
+        "Line_02": "k8i8,8 88ki,88 9o9.9l9 l9o9.9l i8k8,8",
+        "Line_03": "8,8i8k 9.9o9l9 i,88k8 8k8,8i"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0256": {
       "Name": "Lesson_0256",
@@ -4196,11 +4198,11 @@
       }],
       "Description": "Travel 0 and 6",
       "Lines": [{
-        "Line_01": ";0p0/0 /0;0p0 /0p0/0 h7n7y6 h6y6m6",
-        "Line_02": ";0p0/0 n6y6 0;0/ n6y6 0;0/ 6n6n6n",
-        "Line_03": "0/0/0/"
+        "Line_01": "p0;0/0 ;0/0p0 0p0/;0 /0p00/ 6n6y6 6ny6",
+        "Line_02": "0;0/0/ n6n6 6n6y ;0/0p0 0/0;0 0p0/0;",
+        "Line_03": "0/0p0/ /0p0;0"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0257": {
       "Name": "Lesson_0257",
@@ -4211,11 +4213,11 @@
       }],
       "Description": "Keys 1 to 5",
       "Lines": [{
-        "Line_01": "15243 5 4 3 1 23 51 43 2 11 23 42",
-        "Line_02": "15 5112 34143 5521 24123 52 2 11 324",
-        "Line_03": "5321"
+        "Line_01": "243 51 43 2 15 51 324 5 4 3 11 23",
+        "Line_02": "422 11152 43 241552 34143 2351",
+        "Line_03": "52115 5322 3124"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0258": {
       "Name": "Lesson_0258",
@@ -4226,10 +4228,11 @@
       }],
       "Description": "Keys 6 to 0",
       "Lines": [{
-        "Line_01": "69 07 87 9 7 6789 807 9876 07 79 807",
-        "Line_02": "987 60 687 9870 607978 6078 067 66 087"
+        "Line_01": "6789 8 7 690779 80707 987678907",
+        "Line_02": "987 60078 687 60 798607 987607067",
+        "Line_03": "987876 087 607798 066 078789678"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0259": {
       "Name": "Lesson_0259",
@@ -4240,10 +4243,11 @@
       }],
       "Description": "Travel Left",
       "Lines": [{
-        "Line_01": "f4d3 s2a1 g5 d3a1 f4d3 s2g5 a1g5d3",
-        "Line_02": "s2f4 g5d3s2 a1d3f4 s2d3 1a2s3d4f5g g54f"
+        "Line_01": "d3f4 a1s2 g5 2s4f4 d3g5 1a13d34f4 2sg5g",
+        "Line_02": "f4s2 d31a 5g53d22s f43da1 s25g a1d3s2",
+        "Line_03": "g5f4 2sd3df4 1a15g3d 2s1a1 d3f4g5 a2s3d4f5"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0260": {
       "Name": "Lesson_0260",
@@ -4254,11 +4258,13 @@
       }],
       "Description": "Travel Right",
       "Lines": [{
-        "Line_01": "j7k8 l9;0 h6k8 j7k8 h6;0 l9k8 h6j7",
-        "Line_02": "h6j7 l9;0 k8;0 l9k8 j7h6 k8l9 j70; k89l"
+        "Line_01": "k8j7 h6;0 9l8k8 7j8k8 6h68k8 ;0l9 7j76h",
+        "Line_02": "h6k8 j7;0 9l8k8 6h67j k8;0 9l8k8 7j76h",
+        "Line_03": "k89l9 7j76h ;0l9 k89j7 9l90; k8j7"
       }],
-      "Refactored": false
+      "Refactored": true
     },
+    //******************************
     "Lesson_0261": {
       "Name": "Lesson_0261",
       "Number": 261,
@@ -4430,6 +4436,7 @@
       }],
       "Refactored": false
     },
+    //******************************
     "Lesson_0271": {
       "Name": "Lesson_0271",
       "Number": 271,
