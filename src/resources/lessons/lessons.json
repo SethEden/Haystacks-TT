@@ -4795,7 +4795,6 @@
       }],
       "Refactored": true
     },
-    //******************************
     "Lesson_0291": {
       "Name": "Lesson_0291",
       "Number": 291,
@@ -4805,9 +4804,9 @@
       }],
       "Description": "Test 34: Play Words 13",
       "Lines": [{
-        "Line_01": "vehicle Sheet Tracks Franklin vast Calculate protect train cargo Invent weather large cloud pressure"
+        "Line_01": "varnish glove patient ice alert faucet North truck capture fresh snake pile caught tall December"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0292": {
       "Name": "Lesson_0292",
@@ -4818,15 +4817,16 @@
       }],
       "Description": "Newton's First Law",
       "Lines": [{
-        "Line_01": "The first law of motion says: if a",
-        "Line_02": "body is at rest it remains at rest",
-        "Line_03": "or, if it is in motion, it moves with",
-        "Line_04": "uniform velocity, until it is acted on",
-        "Line_05": "by a resultant force. An object",
-        "Line_06": "continues to do whatever it happens to",
-        "Line_07": "be doing unless a force is exerted upon it."
+        "Line_01": "Newton's First Law states that an object",
+        "Line_02": "will not change its motion unless a force",
+        "Line_03": "acts on it. For instance, a stationary",
+        "Line_04": "object will stay still unless pushed.",
+        "Line_05": "Likewise, an object moving at a constant",
+        "Line_06": "speed of 20 meters per second will",
+        "Line_07": "continue to move at that speed until",
+        "Line_08": "a force changes its velocity."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0293": {
       "Name": "Lesson_0293",
@@ -4837,15 +4837,16 @@
       }],
       "Description": "Silverback",
       "Lines": [{
-        "Line_01": "An adult male gorilla is called a",
-        "Line_02": "silverback because of the distinctive",
-        "Line_03": "silvery fur growing on their back and",
-        "Line_04": "hips. Each gorilla family has a",
-        "Line_05": "silverback as leader who scares away",
-        "Line_06": "other animals by standing on their",
-        "Line_07": "back legs and beating their chest."
+        "Line_01": "A silverback gorilla typically weighs",
+        "Line_02": "between 300 and 400 pounds and stands",
+        "Line_03": "about 5.5 feet tall. The silver hair",
+        "Line_04": "on their back signifies maturity. In",
+        "Line_05": "the wild, they can live up to 35 years.",
+        "Line_06": "Silverbacks play a crucial role in their",
+        "Line_07": "group, making decisions, and leading the",
+        "Line_08": "troop to food and safety."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0294": {
       "Name": "Lesson_0294",
@@ -4856,16 +4857,16 @@
       }],
       "Description": "Manhattan",
       "Lines": [{
-        "Line_01": "The oldest part of New York City, the",
-        "Line_02": "island of Manhattan, still has its",
-        "Line_03": "original Lenape Native American name.",
-        "Line_04": "Although native people such as the",
-        "Line_05": "Lenape and Canarsees had lived there",
-        "Line_06": "for many thousands of years, New York",
-        "Line_07": "City was first explored by Europeans",
-        "Line_08": "in the 1500s."
+        "Line_01": "Manhattan is the most densely populated",
+        "Line_02": "borough of New York City, home to over",
+        "Line_03": "1.6 million people. Known for its iconic",
+        "Line_04": "skyline, it includes landmarks such as",
+        "Line_05": "Times Square, Central Park, and Wall",
+        "Line_06": "Street. The area was purchased in 1626",
+        "Line_07": "by Dutch settlers for 60 guilders,",
+        "Line_08": "equivalent to roughly $1,000 today."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0295": {
       "Name": "Lesson_0295",
@@ -4876,15 +4877,16 @@
       }],
       "Description": "Inside Hurricanes",
       "Lines": [{
-        "Line_01": "Hurricanes gather head and energy",
-        "Line_02": "through contact with warm ocean waters.",
-        "Line_03": "Evaporation from the seawater increases",
-        "Line_04": "their power. Hurricanes rotate in a",
-        "Line_05": "counterclockwise direction around the",
-        "Line_06": "eye in the Northern Hemisphere, and",
-        "Line_07": "clockwise direction in the Southern Hemisphere."
+        "Line_01": "Hurricane wind speeds can exceed",
+        "Line_02": "74 miles per hour, making them one of",
+        "Line_03": "the most powerful natural phenomena.",
+        "Line_04": "The eye of a hurricane is typically",
+        "Line_05": "20 to 40 miles wide, surrounded by the",
+        "Line_06": "eye wall, where the most intense weather",
+        "Line_07": "occurs. Hurricanes can release energy",
+        "Line_08": "equivalent to 10 atomic bombs per second."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0296": {
       "Name": "Lesson_0296",
@@ -4895,9 +4897,9 @@
       }],
       "Description": "Test 35: Play Words 14",
       "Lines": [{
-        "Line_01": "heat First law Gorilla energy uniform Rest force Velocity name still People native chest because From"
+        "Line_01": "apple lovely bright Shiny calm huge tight Crazy simple Royal night Happy Faithful brave cozy Glimpse Earth flying Amazing Train purple"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0297": {
       "Name": "Lesson_0297",
@@ -4908,16 +4910,17 @@
       }],
       "Description": "Native Americans",
       "Lines": [{
-        "Line_01": "Native American tradition says that",
-        "Line_02": "they were always in America. Most of",
-        "Line_03": "the scientific evidence suggests that",
-        "Line_04": "their ancestors came from Asia in",
-        "Line_05": "prehistoric times, either by foot over",
-        "Line_06": "a land bridge or using ancient boats.",
-        "Line_07": "This would have hapened more than",
-        "Line_08": "20,000 years ago."
+        "Line_01": "The population of Native Americans",
+        "Line_02": "in the United States was estimated at",
+        "Line_03": "around 5 million before European",
+        "Line_04": "contact. They spoke over 300 different",
+        "Line_05": "languages. The Navajo Nation is the",
+        "Line_06": "largest tribe today, with more than",
+        "Line_07": "300,000 members. Many Native American",
+        "Line_08": "tribes have a rich oral history, passed",
+        "Line_09": "down through generations."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0298": {
       "Name": "Lesson_0298",
@@ -4928,16 +4931,18 @@
       }],
       "Description": "Astronomy",
       "Lines": [{
-        "Line_01": "Astronomy is the study of everything",
-        "Line_02": "outside the atmosphere of the Earth.",
-        "Line_03": "It studies celestial objects such as",
-        "Line_04": "stars, galaxies, planets, moons,",
-        "Line_05": "asterids, comets and nebulae and",
-        "Line_06": "processes such as supernovae",
-        "Line_07": "explosions, gamma ray bursts, and",
-        "Line_08": "cosmic microwave background radiation."
+        "Line_01": "Astronomy explores the universe beyond",
+        "Line_02": "Earth, including the study of planets,",
+        "Line_03": "stars, and galaxies. The Milky Way",
+        "Line_04": "contains over 100 billion stars. In",
+        "Line_05": "2015, astronomers discovered over",
+        "Line_06": "1,000 exoplanets. The Hubble Space",
+        "Line_07": "Telescope has captured images of",
+        "Line_08": "distant galaxies and nebulae. Black",
+        "Line_09": "holes are regions of space where gravity",
+        "Line_10": "is so strong that nothing can escape."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0299": {
       "Name": "Lesson_0299",
@@ -4948,16 +4953,16 @@
       }],
       "Description": "Speed of Light",
       "Lines": [{
-        "Line_01": "The speed of light in a vacuum,",
-        "Line_02": "usually denoted by c, is a physical",
-        "Line_03": "constant important in many areas of",
-        "Line_04": "physics. Its value is 299,792,458",
-        "Line_05": "meters per second, a figure that is",
-        "Line_06": "exact snce the length of the meter is",
-        "Line_07": "defiend from this constant and the",
-        "Line_08": "international standard for time."
+        "Line_01": "The speed of light in vacuum, denoted",
+        "Line_02": "by the symbol c, is a fundamental",
+        "Line_03": "constant in physics. It travels at",
+        "Line_04": "299,792,458 meters per second, which is",
+        "Line_05": "exact since the meter is defined based",
+        "Line_06": "on this constant and the second.",
+        "Line_07": "Light takes about 8 minutes and 20",
+        "Line_08": "seconds to reach Earth from the Sun."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0300": {
       "Name": "Lesson_0300",
@@ -4968,18 +4973,17 @@
       }],
       "Description": "Wind Farms",
       "Lines": [{
-        "Line_01": "A.W. Hawaii Wind is a Texas company,",
-        "Line_02": "It is proposing two offshore floating",
-        "Line_03": "wind farms. Each would consist of 50",
-        "Line_04": "turbines that would generate about 400",
-        "Line_05": "megawatts of energy. The wind farms",
-        "Line_06": "would be placed more than 10 miles",
-        "Line_07": "offshore. Tehy would float in waters",
-        "Line_08": "about a half a mile deep."
+        "Line_01": "Wind farms are renewable energy projects",
+        "Line_02": "that harness wind power to generate",
+        "Line_03": "electricity. They typically consist of",
+        "Line_04": "multiple turbines located in areas with",
+        "Line_05": "strong and consistent wind patterns.",
+        "Line_06": "These turbines can vary in size and",
+        "Line_07": "number, with each turbine capable of",
+        "Line_08": "producing several megawatts of power."
       }],
-      "Refactored": false
+      "Refactored": true
     },
-    //******************************
     "Lesson_0301": {
       "Name": "Lesson_0301",
       "Number": 301,
@@ -4989,9 +4993,9 @@
       }],
       "Description": "Test 36: Play Words 15",
       "Lines": [{
-        "Line_01": "Company Figure Moon exact Texas foot planet evidence vacuum tradition Bridge value Light object speed"
+        "Line_01": "Rate Year Goal Wake travel royal Grey water dream leaf earth real leafy aura"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0302": {
       "Name": "Lesson_0302",
@@ -5002,16 +5006,16 @@
       }],
       "Description": "Spanish New Year",
       "Lines": [{
-        "Line_01": "In Spain and many Latin American",
-        "Line_02": "countries they celebrate New Year by",
-        "Line_03": "eating 12 grapes at midnight, just as",
-        "Line_04": "the new year begins. The tradition",
-        "Line_05": "consists of eating a grape with each",
-        "Line_06": "bell strike at midnight on December",
-        "Line_07": "31. According to the tradition, this",
-        "Line_08": "leads to a year of prosperity."
+        "Line_01": "In Spain and various Latin American countries,",
+        "Line_02": "New Year celebrations are marked by a unique",
+        "Line_03": "ritual of consuming 12 grapes precisely at",
+        "Line_04": "midnight as the new year commences. This",
+        "Line_05": "custom involves eating one grape with each",
+        "Line_06": "chime of the bell at the stroke of midnight",
+        "Line_07": "on December 31. The belief is that adhering",
+        "Line_08": "to this tradition brings about a prosperous year."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0303": {
       "Name": "Lesson_0303",
@@ -5022,16 +5026,16 @@
       }],
       "Description": "Wild Dogs",
       "Lines": [{
-        "Line_01": "Wild dogs travel in groups called",
-        "Line_02": "packs. These packs are very social,",
-        "Line_03": "working together to hunt, raise pups,",
-        "Line_04": "and share food. They have been known",
-        "Line_05": "to take care of sick or injured pack",
-        "Line_06": "members. Wild dogs are different than",
-        "Line_07": "stray dogs. A stray dog was once a pet,",
-        "Line_08": "but a wild dog has never been domesticated."
+        "Line_01": "Wild dogs, also known as African wild dogs",
+        "Line_02": "or painted wolves, are highly social animals",
+        "Line_03": "that live in packs. These packs exhibit complex",
+        "Line_04": "social structures and cooperative behaviors,",
+        "Line_05": "such as cooperative hunting and caring for",
+        "Line_06": "sick or injured pack members. They are known",
+        "Line_07": "for their exceptional stamina and ability to",
+        "Line_08": "chase down prey over long distances."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0304": {
       "Name": "Lesson_0304",
@@ -5042,16 +5046,16 @@
       }],
       "Description": "Tornadoes",
       "Lines": [{
-        "Line_01": "The USA has more tornadoes than any",
-        "Line_02": "other country in the world, averaging",
-        "Line_03": "around 1,200 a year. This is due",
-        "Line_04": "largely to the unique geography of the",
-        "Line_05": "Midwest wich forms an area known as",
-        "Line_06": "Tornado Alley. The highest recorded",
-        "Line_07": "tornado wind speed is 302 miles per",
-        "Line_08": "hour, on May 3, 1999 in Bridge Creek, Oklahoma."
+        "Line_01": "Tornadoes are violent, rotating columns",
+        "Line_02": "of air that extend from a thunderstorm",
+        "Line_03": "cloud to the ground. They are known",
+        "Line_04": "for their destructive power and ability",
+        "Line_05": "to cause widespread damage in a matter",
+        "Line_06": "of seconds. The USA experiences more",
+        "Line_07": "tornadoes than any other country, with",
+        "Line_08": "an average of 1,200 tornadoes annually."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0305": {
       "Name": "Lesson_0305",
@@ -5062,16 +5066,16 @@
       }],
       "Description": "Chicago",
       "Lines": [{
-        "Line_01": "Chicago is the largest city in",
-        "Line_02": "Illinois. It is the third largest city",
-        "Line_03": "in the United States, although it used",
-        "Line_04": "to be the second largest. Chicago is",
-        "Line_05": "next to Lake Michigan, one of the five",
-        "Line_06": "Great Lakes. In the 2000 census,",
-        "Line_07": "almost 2,900,000 people lived there,",
-        "Line_08": "with six million more people living nearby."
+        "Line_01": "Chicago, often called the Windy City,",
+        "Line_02": "is renowned for its stunning skyline",
+        "Line_03": "and diverse culture. It sits on the",
+        "Line_04": "shores of Lake Michigan, one of the",
+        "Line_05": "largest freshwater lakes in the world.",
+        "Line_06": "As of the latest census, Chicago is home",
+        "Line_07": "to over 2.7 million residents, with a",
+        "Line_08": "metropolitan area population exceeding 9.5 million."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0306": {
       "Name": "Lesson_0306",
@@ -5082,9 +5086,9 @@
       }],
       "Description": "Test 37: Play Words 16",
       "Lines": [{
-        "Line_01": "lake Spain Illinois million Grape measure strike event new Michigan Chicago Large begin six lead City"
+        "Line_01": "Greatly goal large Meat army Travel event early Wake layer Rate Measure Illinois loyalty lake gray grape align Spain million"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0307": {
       "Name": "Lesson_0307",
@@ -5095,13 +5099,13 @@
       }],
       "Description": "Dynamic Practice 9",
       "Lines": [{
-        "Line_01": "gr gr gro gre groups greatest ground",
-        "Line_02": "ge ge oge rge hydrogen largest oxygen",
-        "Line_03": "ga ga ega rga began organization gas",
-        "Line_04": "gn gn ign agn signal significantly electromagnetic",
-        "Line_05": "gi gi giv giv give giving given"
+        "Line_01": "gr gr gra gre grand great greet",
+        "Line_02": "ge ge ega egr age degree legacy manage",
+        "Line_03": "ga ga aga gal again agate galaxy",
+        "Line_04": "gn gn ign gna signal reign benign",
+        "Line_05": "gi gi igi giv gin giving digital origin"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0308": {
       "Name": "Lesson_0308",
@@ -5112,11 +5116,11 @@
       }],
       "Description": "Keys $ to &",
       "Lines": [{
-        "Line_01": "$&$&$$&",
-        "Line_02": "&$&&$$&",
-        "Line_03": "$$&$&$"
+        "Line_01": "&$$&$&$",
+        "Line_02": "$&$&&$$",
+        "Line_03": "$&$$&&$"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0309": {
       "Name": "Lesson_0309",
@@ -5127,10 +5131,11 @@
       }],
       "Description": "Review $ and &",
       "Lines": [{
-        "Line_01": "f$f$ j&j& f$j& jj& $ffj &$jf $&fj jf&$",
-        "Line_02": "$$&& $f&j &j$f j$&f $$&j &$jf j&j$&$"
+        "Line_01": "$f& $jf j$& $&f f$f$ j&j& $&f jfj $j&$",
+        "Line_02": "f$j& jj& $ffj &$jf $&fj jf&$ $$&& $f&j",
+        "Line_03": "&j$f j$&f $$&j &$jf j&j$&$ f$f$ jfj"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0310": {
       "Name": "Lesson_0310",
@@ -5141,12 +5146,12 @@
       }],
       "Description": "Practice: $ and &",
       "Lines": [{
-        "Line_01": "$resolve &gravity thought$ prepare&",
-        "Line_02": "chamber$ collecting$ interested&",
-        "Line_03": "continue$ building& relation& mother$",
-        "Line_04": "engage&"
+        "Line_01": "$algorithm &persistent thematic$ transaction&",
+        "Line_02": "corporate$ arrangement$ innovative&",
+        "Line_03": "performance$ strategy& ecosystem& economic$",
+        "Line_04": "operation&"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0311": {
       "Name": "Lesson_0311",
@@ -5157,11 +5162,11 @@
       }],
       "Description": "Keys # to *",
       "Lines": [{
-        "Line_01": "**#*#*#",
-        "Line_02": "#**#**#",
-        "Line_03": "*#**#*"
+        "Line_01": "*#*#**#",
+        "Line_02": "#*##*#*",
+        "Line_03": "*#**##*"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0312": {
       "Name": "Lesson_0312",
@@ -5172,10 +5177,10 @@
       }],
       "Description": "Review # and *",
       "Lines": [{
-        "Line_01": "d#k* d#k* d#k* kk* #dd* k#*dk *#kd*",
-        "Line_02": "kk#*dk k*#k #*dk# k*#d d#* k#d* k # * d"
+        "Line_01": "k#d* d#k* k#d* dk* d#* k#d* d*#k*",
+        "Line_02": "dk#*k d*#k #*kd# d*#k k#* d#k* kd * # * d"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0313": {
       "Name": "Lesson_0313",
@@ -5186,12 +5191,12 @@
       }],
       "Description": "Practice: # and *",
       "Lines": [{
-        "Line_01": "#wise *busy #past *both *park #when",
-        "Line_02": "#length* sooner # thrown * income#",
-        "Line_03": "expense# windows* drawn# *eat #off",
-        "Line_04": "*doors #money #welcome *six #day #bed"
+        "Line_01": "*fruit #steady *storm #actor *fire #jacket",
+        "Line_02": "#music* table #light *cloud *goal#",
+        "Line_03": "road# glass* dance# *truth #city",
+        "Line_04": "*book #bird #high *game #night #space"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0314": {
       "Name": "Lesson_0314",
@@ -5202,11 +5207,11 @@
       }],
       "Description": "Keys @ to (",
       "Lines": [{
-        "Line_01": "@@(@(@(",
-        "Line_02": "@@(@((@",
-        "Line_03": "(@((@("
+        "Line_01": "(@((@((",
+        "Line_02": "(@((@@@",
+        "Line_03": "((@@(@("
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0315": {
       "Name": "Lesson_0315",
@@ -5217,10 +5222,10 @@
       }],
       "Description": "Review @ and (",
       "Lines": [{
-        "Line_01": "s@ l( s@l( @(@s (l@s (ll@s @ls( (s@l",
-        "Line_02": "l(s@ ll@s (@(s @(sl ls(@ (@ll @s(( @ls"
+        "Line_01": "l(s@ @ls( (s@l s(l@ s@l( (l@s s@l l@sl",
+        "Line_02": "(@ll s@( s@l( l@sl l(s@ @ls( (ll@ @s(l"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0316": {
       "Name": "Lesson_0316",
@@ -5231,11 +5236,11 @@
       }],
       "Description": "Practice: @ and (",
       "Lines": [{
-        "Line_01": "@new (event @company @first (culture",
-        "Line_02": "@island @research lake( @ocean (energy",
-        "Line_03": "@foot( year@ native( @tradition (vacuum@"
+        "Line_01": "(native @goal @musician @future (tour",
+        "Line_02": "@river @community wave( @mountain (harmony",
+        "Line_03": "@art( land@ festival( @heritage (spirit@"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0317": {
       "Name": "Lesson_0317",
@@ -5246,11 +5251,11 @@
       }],
       "Description": "Keys ! to )",
       "Lines": [{
-        "Line_01": "!))!)!)",
-        "Line_02": ")!))!)!",
-        "Line_03": ")!))!!"
+        "Line_01": "!!)!)!)!)",
+        "Line_02": "!!))!)!!",
+        "Line_03": ")!)!)!))"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0318": {
       "Name": "Lesson_0318",
@@ -5261,10 +5266,10 @@
       }],
       "Description": "Review ! and )",
       "Lines": [{
-        "Line_01": "a! ;) a!); )!;a !)!) a;!) )!!);a",
-        "Line_02": ";a))!; !)a;!)a; )!!;a !;a) )a;! a!;) ;!a);"
+        "Line_01": ";a) ;)a a!); )!)a ;a!) )!;) a;!;",
+        "Line_02": "!a)a; ;)!)a a;))! a!;) ;!)a;) )!;a"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0319": {
       "Name": "Lesson_0319",
@@ -5275,12 +5280,12 @@
       }],
       "Description": "Practice: ! and )",
       "Lines": [{
-        "Line_01": "!state )boat !transport )weather",
-        "Line_02": "pressure! region! )boarder sweet!",
-        "Line_03": ")surface palm! )music! written) index!",
-        "Line_04": ")habit !paper)"
+        "Line_01": "!cloud )apple !system )river ))life )ball !goal",
+        "Line_02": "season! heart! )forest sweet! !park) !!visit) )trip",
+        "Line_03": ")mountain palm! )art! written) dance! !love!! !song)",
+        "Line_04": ")sunset !novel) idea!! !)chair) )!room!"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0320": {
       "Name": "Lesson_0320",
@@ -5291,11 +5296,11 @@
       }],
       "Description": "Keys % to ^",
       "Lines": [{
-        "Line_01": "%^%^%%%",
-        "Line_02": "%^%^%%^",
-        "Line_03": "%^^%^%"
+        "Line_01": "%^%^^%%% %^^%^%^",
+        "Line_02": "%^%^%%^^ %^^%^^^",
+        "Line_03": "%^^%^%^% %^%^^^%"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0321": {
       "Name": "Lesson_0321",
@@ -5306,10 +5311,10 @@
       }],
       "Description": "Review % and ^",
       "Lines": [{
-        "Line_01": "f% j^ g% h^ %^gj %% ^^ %^%^ j^%f f%^j",
-        "Line_02": "jf%^ j%f^ ^f%j %j^f j%%^f f^^j% f%j^f"
+        "Line_01": "j^f %^j h^g f%j j^% ^^f %^g %j^ jf%^ h^gf",
+        "Line_02": "^%^ j^%j f%^j f^^ %%j %f^ jf%j ^^f% %^gj %j^f"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0322": {
       "Name": "Lesson_0322",
@@ -5320,11 +5325,11 @@
       }],
       "Description": "Practice: % and ^",
       "Lines": [{
-        "Line_01": "%inside ^power %famous ^south %children",
-        "Line_02": "%smell ^river% ^follow %piece^ united%",
-        "Line_03": "^break %example quick^ @cloud billion^"
+        "Line_01": "^growth %artist ^spirit %unite %charm",
+        "Line_02": "%culture ^wisdom % ^energy %dream^ journey%",
+        "Line_03": "^quest %wonder ^muse %grace galaxy^ %harmony"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0323": {
       "Name": "Lesson_0323",
@@ -5335,9 +5340,9 @@
       }],
       "Description": "Test 38: Play All Symbols",
       "Lines": [{
-        "Line_01": "$&#*@(!)%^*$(@*%!)@(&$&%*(@#$!@%#@&%(@#*"
+        "Line_01": "$&#*@(!)%^*$(@*%!)@(&$&%*(@#$!@%#@&%(@#*&@^%!"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0324": {
       "Name": "Lesson_0324",
@@ -5348,10 +5353,10 @@
       }],
       "Description": "Travel $",
       "Lines": [{
-        "Line_01": "F$ R% V$ R$ V$ F$R$V$ F$V$R$",
-        "Line_02": "$R$F$V $R$F$V $F$R$V R$V$R$"
+        "Line_01": "V$ R% F$ T^ R$ V$ F$R$V$ F$V$R$ P$R$F$",
+        "Line_02": "$R$F$V $R$F$V $F$R$V R$V$R$ F$V$R$F"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0325": {
       "Name": "Lesson_0325",
@@ -5362,10 +5367,10 @@
       }],
       "Description": "Travel #",
       "Lines": [{
-        "Line_01": "D# C# E# D# D# E# C# #D #E #C D#E#C#",
-        "Line_02": "E#D#C# #E#D#C #D#C#E"
+        "Line_01": "E# C# D# E# E# C# D# #E #D #C E#D#C#",
+        "Line_02": "C#E#D# #C#E#D #D#E#C"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0326": {
       "Name": "Lesson_0326",
@@ -5376,10 +5381,10 @@
       }],
       "Description": "Travel @",
       "Lines": [{
-        "Line_01": "S@ X@ W@ S@ S@ W@ X@ @S @W @X @W@S@X",
-        "Line_02": "@W@X@S S@W@X@ W@S@X@"
+        "Line_01": "X@ S@ W@ @X @W S@ X@ W@S@X @W@X@S",
+        "Line_02": "@X@W@S @W@X S@ W@S@X X@ S@X@"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0327": {
       "Name": "Lesson_0327",
@@ -5390,10 +5395,10 @@
       }],
       "Description": "Travel !",
       "Lines": [{
-        "Line_01": "A! Q! Z! A! Z! Q! A! Q! Z! A!Q!Z!",
-        "Line_02": "Q!A!Z! !Q!A!Z !Q!Z!Q"
+        "Line_01": "Q! A! Z! Q! A! Z! Q! A! Z! Q! Z! A! Z!",
+        "Line_02": "A!Q!Z!A! Q!Z!Q! A!Z!!Q!Z! Q!A!"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0328": {
       "Name": "Lesson_0328",
@@ -5404,10 +5409,10 @@
       }],
       "Description": "Travel %",
       "Lines": [{
-        "Line_01": "G% T% B% B% G% T% G% T% B% %T%G%B",
-        "Line_02": "%G%B%T G%T%B% T%B%T%"
+        "Line_01": "T% B% G% B% T% G% T% G% B% %T% G%B",
+        "Line_02": "%G%B%T% T%B%G% T%B%%TB%G%"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0329": {
       "Name": "Lesson_0329",
@@ -5418,10 +5423,10 @@
       }],
       "Description": "Travel &",
       "Lines": [{
-        "Line_01": "J& U& M& J& U& M& J&U&M& J&U&M&",
-        "Line_02": "&U&J&M &J&M&U &M&J&U"
+        "Line_01": "U& J& M& J& M& U& U& J&M& J&U&M",
+        "Line_02": "M&U&J& U&M&J& J&M&U&M&J&U"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0330": {
       "Name": "Lesson_0330",
@@ -5432,10 +5437,10 @@
       }],
       "Description": "Travel *",
       "Lines": [{
-        "Line_01": "K* I* K* K* I* I* K*I*K* K*I*K*",
-        "Line_02": "*I*K*I *K*I*K K*I*K*"
+        "Line_01": "K* I* K* I* K* K*I*I K*K*I* K*I*K",
+        "Line_02": "I* K*K K*I*I K*I*K K*K*I I*K*I"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0331": {
       "Name": "Lesson_0331",
@@ -5446,10 +5451,10 @@
       }],
       "Description": "Travel (",
       "Lines": [{
-        "Line_01": "L( O( L( O( LL((OO(( (OO(L(OO(L",
-        "Line_02": "L(O(LL(OO("
+        "Line_01": "O( L( L(O O( O( LL(O (O(O (L(O",
+        "Line_02": "(O(O (L(O L(O L(LO(O LL(LO("
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0332": {
       "Name": "Lesson_0332",
@@ -5460,10 +5465,10 @@
       }],
       "Description": "Travel )",
       "Lines": [{
-        "Line_01": ":) P) :) P) ::))PP)) )PP):)PP):",
-        "Line_02": ":)P)::)PP)"
+        "Line_01": "P) :) P) :) :) P)P)PP:)PP:))",
+        "Line_02": ":)P)::)PP):)PP:)P)P:P:)P:PP:PP:)P"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0333": {
       "Name": "Lesson_0333",
@@ -5474,10 +5479,10 @@
       }],
       "Description": "Travel ^",
       "Lines": [{
-        "Line_01": "H^ Y^ N^ H^ Y^ N^ H^Y^N^ H^N^Y^",
-        "Line_02": "^Y^H^N ^H^Y^N"
+        "Line_01": "Y^ H^ N^ Y^ H^ N^ N^Y^H^ Y^H^N^",
+        "Line_02": "^N^H^Y Y^N^H H^Y^N H^N^Y Y^N^H N^H^Y H^Y^N Y^N^H"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0334": {
       "Name": "Lesson_0334",
@@ -5488,10 +5493,10 @@
       }],
       "Description": "Travel Symbols Left",
       "Lines": [{
-        "Line_01": "F$ T% V$ S@ A! D# F$ G% C# W@ Z! a!",
-        "Line_02": "s@ d3 f$ g% q1 wW e# r$ v$ b% x@"
+        "Line_01": "F$ R% V$ S@ A! D# G$ C# W@ Z! Q!",
+        "Line_02": "q@ w3 e$ g% h@ u! i# o$ k% l@ x@"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0335": {
       "Name": "Lesson_0335",
@@ -5502,10 +5507,10 @@
       }],
       "Description": "Travel Symbols Right",
       "Lines": [{
-        "Line_01": "J& K* L( :) H^ j& k* l( ;) m& ,* .9",
-        "Line_02": "h^ u& i* o( p) y^ n^ ,* i* o( l("
+        "Line_01": "k* L( i* o( m& j& h^ j& K* l( :)",
+        "Line_02": "p) y^ n^ ,* .9 J& h^ u& i* o( l("
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0336": {
       "Name": "Lesson_0336",
@@ -5516,10 +5521,10 @@
       }],
       "Description": "Review Symbols",
       "Lines": [{
-        "Line_01": "a!s@d#f$g%h^j&k*l(;) q!w@e3r$t%y^u&i*o(p)",
-        "Line_02": "z!x@c#v$b%n^m&,*.("
+        "Line_01": "S@d#F$g%h^J&k*l(;)A!q!W@e3r$t%Y^u&i*o(p)",
+        "Line_02": "Z!x@c#v$b%n^m&.a!(,Q!w@"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0337": {
       "Name": "Lesson_0337",
@@ -5530,10 +5535,10 @@
       }],
       "Description": "Practice Symbols",
       "Lines": [{
-        "Line_01": "2*2 is 4 & 4! is 24 & 2^3 is 8.",
-        "Line_02": "$dollar @at gmial (open)close percent%"
+        "Line_01": "&my do* go^ !4s 2*2 h!e j*o b&n r^e",
+        "Line_02": "(cat) jump^ &over *bus* ice$ ^run! s@l h*o (h^o) b!n"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0338": {
       "Name": "Lesson_0338",
@@ -5544,14 +5549,14 @@
       }],
       "Description": "own",
       "Lines": [{
-        "Line_01": "own own own own own own",
-        "Line_02": "grown blown grown blown grown blown",
-        "Line_03": "own own own own own own",
-        "Line_04": "shown town shown town shown town",
-        "Line_05": "own own own own own own",
-        "Line_06": "drown crown drown crown drown crown"
+        "Line_01": "clown brown clown brown clown brown",
+        "Line_02": "own own own own own own own",
+        "Line_03": "frown down frown down frown down",
+        "Line_04": "own own own own own own own",
+        "Line_05": "renown shown renown shown renown shown",
+        "Line_06": "own own own own own own own"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0339": {
       "Name": "Lesson_0339",
@@ -5562,14 +5567,14 @@
       }],
       "Description": "ill",
       "Lines": [{
-        "Line_01": "ill ill ill ill ill ill",
-        "Line_02": "fill still fill still fill still",
-        "Line_03": "ill ill ill ill ill ill",
-        "Line_04": "bill lill bill lill bill lill",
-        "Line_05": "ill ill ill ill ill ill",
-        "Line_06": "will pill will pill will pill"
+        "Line_01": "drill chill drill chill drill chill",
+        "Line_02": "ill ill ill ill ill ill ill",
+        "Line_03": "grill spill grill spill grill spill",
+        "Line_04": "ill ill ill ill ill ill ill",
+        "Line_05": "trill krill trill krill trill krill",
+        "Line_06": "ill ill ill ill ill ill ill"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0340": {
       "Name": "Lesson_0340",
@@ -5580,14 +5585,14 @@
       }],
       "Description": "son",
       "Lines": [{
-        "Line_01": "son son son son son son",
-        "Line_02": "reason person reason person reason person",
-        "Line_03": "son son son son son son",
-        "Line_04": "treason season treason season treason season",
-        "Line_05": "son son son son son son",
-        "Line_06": "lesson grandson lesson grandson lesson grandson"
+        "Line_01": "crimson bison crimson bison crimson bison",
+        "Line_02": "son son son son son son son",
+        "Line_03": "prison unison prison unison prison unison",
+        "Line_04": "son son son son son son son",
+        "Line_05": "tucson arson tucson arson tucson arson",
+        "Line_06": "son son son son son son son"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0341": {
       "Name": "Lesson_0341",
@@ -5598,12 +5603,12 @@
       }],
       "Description": "ink",
       "Lines": [{
-        "Line_01": "ink ink ink ink ink ink",
-        "Line_02": "think sink think sink think sink",
-        "Line_03": "ink ink ink ink ink ink",
-        "Line_04": "pink link pink link pink link",
-        "Line_05": "ink ink ink ink ink ink",
-        "Line_06": "drink wink drink wink drink wink"
+        "Line_01": "blink shrink blink shrink blink shrink",
+        "Line_02": "ink ink ink ink ink ink ink",
+        "Line_03": "clink brink clink brink clink brink",
+        "Line_04": "ink ink ink ink ink ink ink",
+        "Line_05": "stink slink stink slink stink slink",
+        "Line_06": "ink ink ink ink ink ink ink"
       }],
       "Refactored": false
     },
@@ -5616,14 +5621,14 @@
       }],
       "Description": "rea",
       "Lines": [{
-        "Line_01": "rea rea rea rea rea rea",
-        "Line_02": "area reason area reason area reason",
-        "Line_03": "rea rea rea rea rea rea",
-        "Line_04": "real reach real reach real reach",
-        "Line_05": "rea rea rea rea rea rea",
-        "Line_06": "read react read react read react"
+        "Line_01": "create already create already create already",
+        "Line_02": "rea rea rea rea rea rea rea",
+        "Line_03": "tread crease tread crease tread crease",
+        "Line_04": "rea rea rea rea rea rea rea",
+        "Line_05": "breathe streak breathe streak breathe streak",
+        "Line_06": "rea rea rea rea rea rea rea"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0343": {
       "Name": "Lesson_0343",
@@ -5634,14 +5639,14 @@
       }],
       "Description": "eed",
       "Lines": [{
-        "Line_01": "eed eed eed eed eed eed",
-        "Line_02": "feed seed feed seed feed seed",
-        "Line_03": "eed eed eed eed eed eed",
-        "Line_04": "breed need breed need breed need",
-        "Line_05": "eed eed eed eed eed eed",
-        "Line_06": "indeed greed indeed greed indeed greed"
+        "Line_01": "speed creed speed creed speed creed",
+        "Line_02": "eed eed eed eed eed eed eed",
+        "Line_03": "freed heed freed heed freed heed",
+        "Line_04": "eed eed eed eed eed eed eed",
+        "Line_05": "precede kneed precede kneed precede kneed",
+        "Line_06": "eed eed eed eed eed eed eed"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0344": {
       "Name": "Lesson_0344",
@@ -5652,14 +5657,14 @@
       }],
       "Description": "ast",
       "Lines": [{
-        "Line_01": "ast ast ast ast ast ast",
-        "Line_02": "fast alst fast last fast last",
-        "Line_03": "ast ast ast ast ast ast",
-        "Line_04": "vast past vast past vast past",
-        "Line_05": "ast ast ast ast ast ast",
-        "Line_06": "cast blast cast blast cast blast"
+        "Line_01": "forecast contrast forecast contrast forecast contrast",
+        "Line_02": "ast ast ast ast ast ast ast",
+        "Line_03": "broadcast aftercast broadcast aftercast broadcast aftercast",
+        "Line_04": "ast ast ast ast ast ast ast",
+        "Line_05": "podcast overcast podcast overcast podcast overcast",
+        "Line_06": "ast ast ast ast ast ast ast"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0345": {
       "Name": "Lesson_0345",
@@ -5670,14 +5675,14 @@
       }],
       "Description": "you",
       "Lines": [{
-        "Line_01": "you you you you you you",
-        "Line_02": "youth young youth young youth young",
-        "Line_03": "you you you you you you",
-        "Line_04": "layout yourself layout yourself layout yourself",
-        "Line_05": "you you you you you you",
-        "Line_06": "tryout payout tryout payout tryout payout"
+        "Line_01": "youtube youthful youtube youthful youtube youthful",
+        "Line_02": "you you you you you you you",
+        "Line_03": "bayou yours bayou yours bayou yours",
+        "Line_04": "you you you you you you you",
+        "Line_05": "youngness youngster youngness youngster youngness youngster",
+        "Line_06": "you you you you you you you"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0346": {
       "Name": "Lesson_0346",
@@ -5688,14 +5693,14 @@
       }],
       "Description": "utt",
       "Lines": [{
-        "Line_01": "utt utt utt utt utt utt",
-        "Line_02": "button butter button butter button butter",
-        "Line_03": "utt utt utt utt utt utt",
-        "Line_04": "cutter gutter cutter gutter cutter gutter",
-        "Line_05": "utt utt utt utt utt utt",
-        "Line_06": "clutter utter clutter utter clutter utter"
+        "Line_01": "shuttle mutter shuttle mutter shuttle mutter",
+        "Line_02": "utt utt utt utt utt utt utt",
+        "Line_03": "cutthroat shutdown cutthroat shutdown cutthroat shutdown",
+        "Line_04": "utt utt utt utt utt utt utt",
+        "Line_05": "gutted rebuttal gutted rebuttal gutted rebuttal",
+        "Line_06": "utt utt utt utt utt utt utt"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0347": {
       "Name": "Lesson_0347",
@@ -5706,14 +5711,14 @@
       }],
       "Description": "ity",
       "Lines": [{
-        "Line_01": "ity ity ity ity ity ity",
-        "Line_02": "unity city unity city unity city",
-        "Line_03": "ity ity ity ity ity ity",
-        "Line_04": "cavity sanity cavity sanity cavity sanity",
-        "Line_05": "ity ity ity ity ity ity",
-        "Line_06": "gravity reality gravity reality gravity reality"
+        "Line_02": "serenity charity serenity charity serenity charity",
+        "Line_01": "ity ity ity ity ity ity ity",
+        "Line_04": "activity security activity security activity security",
+        "Line_03": "ity ity ity ity ity ity ity",
+        "Line_06": "capacity sincerity capacity sincerity capacity sincerity",
+        "Line_05": "ity ity ity ity ity ity ity"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0348": {
       "Name": "Lesson_0348",
@@ -5724,13 +5729,13 @@
       }],
       "Description": "Dynamic Practice 10",
       "Lines": [{
-        "Line_01": "gr gr gro gro grow ground groups",
-        "Line_02": "ge ge dge nge bridges get longer",
-        "Line_03": "ga ga ega gas gas began legal",
-        "Line_04": "gn gn ign agn design electromagnetic signals",
-        "Line_05": "gi gi egi gin begins give given"
+        "Line_01": "ga ga saga gala gamble gavel gauge",
+        "Line_02": "gi gi gig gift giggle gill give",
+        "Line_03": "gn gn signal assign design gnawing gaining",
+        "Line_04": "gr gr gray grid grow grapple grew",
+        "Line_05": "ge ge stage edge engage gentle genius"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0349": {
       "Name": "Lesson_0349",
@@ -5741,12 +5746,12 @@
       }],
       "Description": "Energy Formula",
       "Lines": [{
-        "Line_01": "Energy equals mass multiplied by (*)",
-        "Line_02": "the peed of light squared (^2). The",
-        "Line_03": "multiplication sign is usually left",
-        "Line_04": "out, giving e is equal to mc squared."
+        "Line_01": "In physics, energy is calculated as mass",
+        "Line_02": "multiplied by the speed of light squared (c^2).",
+        "Line_03": "The formula e = mc^2 represents the",
+        "Line_04": "equivalence of energy (e) and mass (m)."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0350": {
       "Name": "Lesson_0350",
@@ -5757,16 +5762,22 @@
       }],
       "Description": "Formula",
       "Lines": [{
-        "Line_01": "E^2 is equal to (m0c^2)^2 plus (pc)^2 where",
-        "Line_02": "#1 E represents the energy of a particle",
-        "Line_03": "#2 m0 represents the mass of the",
-        "Line_04": "particle when it is not moving",
-        "Line_05": "#3 p represents the momentum of the",
-        "Line_06": "particle when it is moving",
-        "Line_07": "#4 c represents the speed of light."
+        "Line_01": "In physics, the equation E^2 = (m0c^2)^2 + (pc)^2",
+        "Line_02": "is fundamental. Here's what each term represents:",
+        "Line_03": "#1 E stands for the total energy of a particle.",
+        "Line_04": "#2 m0 denotes the rest mass of the particle,",
+        "Line_05": "which is its mass when stationary.",
+        "Line_06": "#3 p represents the momentum of the particle",
+        "Line_07": "when it's in motion.",
+        "Line_08": "#4 c symbolizes the speed of light in a vacuum,",
+        "Line_09": "a fundamental constant.",
+        "Line_10": "This formula illustrates the relationship between",
+        "Line_11": "energy, mass, momentum, and the speed of light,",
+        "Line_12": "central to Einstein's theory of relativity."
       }],
-      "Refactored": false
+      "Refactored": true
     },
+    //******************************
     "Lesson_0351": {
       "Name": "Lesson_0351",
       "Number": 351,
@@ -5961,6 +5972,7 @@
       }],
       "Refactored": false
     },
+    //******************************
     "Lesson_0361": {
       "Name": "Lesson_0361",
       "Number": 361,
