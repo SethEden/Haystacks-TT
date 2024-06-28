@@ -4264,7 +4264,6 @@
       }],
       "Refactored": true
     },
-    //******************************
     "Lesson_0261": {
       "Name": "Lesson_0261",
       "Number": 261,
@@ -4274,11 +4273,11 @@
       }],
       "Description": "Left Hand Numbers",
       "Lines": [{
-        "Line_01": "a1 d3 s2 f4 g5 c2 d4 v5 c1 x4 r4",
-        "Line_02": "ev2 ec4 rv2 ce2 ez5 x4c2 b2v4 z4 x2",
-        "Line_03": "c53 v2"
+        "Line_01": "d3 a1 s2 f4 c1 g5 d4 v5 r4 x4 c2",
+        "Line_02": "c1x2 v5ev2 r4x4 d4ec4 rv2 ce2",
+        "Line_03": "x4 z4c53 v2 ez5"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0262": {
       "Name": "Lesson_0262",
@@ -4289,11 +4288,11 @@
       }],
       "Description": "Right Hand Numbers",
       "Lines": [{
-        "Line_01": ";0 l9 k8 j7 p0 o9 i8 u7 ju7 ki8 lo9",
-        "Line_02": ";p0 m7 m7 ,8 ,8 l9 l9 p0 p0 7j 8k",
-        "Line_03": "9l 0p"
+        "Line_01": "k8 j7 p0 o9 l9 0; ju7 lo9 ki8 u7",
+        "Line_02": "0p; ,8 m7 0pp 8k8 l9 8, 7j m7 l9",
+        "Line_03": "0p 9l"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0263": {
       "Name": "Lesson_0263",
@@ -4304,10 +4303,11 @@
       }],
       "Description": "Travel All Numbers",
       "Lines": [{
-        "Line_01": "j7f4 k8d3 l9s2 ;0a1 4f7j 3d8k 2s9l",
-        "Line_02": "1a0; 10a; 29sl 38dk 47fj 56gh dk38 sl29"
+        "Line_01": "a1;0 l9k8 s2j7 d3f4 j7s2 d3k8 ff47j",
+        "Line_02": "s2s9l 10a; 2s9ls 8kd38 d3d8k3 47fj 2l29s",
+        "Line_03": "3kd38k a10;"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0264": {
       "Name": "Lesson_0264",
@@ -4318,9 +4318,9 @@
       }],
       "Description": "Test 31: Numbers",
       "Lines": [{
-        "Line_01": "15cars 6bears 4ducks 9chairs 1bus 20trees 9cents 3boats 7trains 18homes 23bikes 76planes"
+        "Line_01": "76trees 4cars 1bears 23ducks 18chairs 3bus 9homes 20boats 6cents 7bikes 15trains 9planes"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0265": {
       "Name": "Lesson_0265",
@@ -4331,14 +4331,14 @@
       }],
       "Description": "Common Patterns: eal",
       "Lines": [{
-        "Line_01": "eal eal eal eal eal eal",
-        "Line_02": "deal real deal real deal real",
-        "Line_03": "eal eal eal eal eal eal",
-        "Line_04": "real meal real meal real meal",
-        "Line_05": "eal eal eal eal eal eal",
-        "Line_06": "heal peal heal peal heal peal"
+        "Line_04": "real meal real meal real meal real",
+        "Line_03": "eal eal eal eal eal eal eal",
+        "Line_02": "real deal real deal real deal real",
+        "Line_01": "eal eal eal eal eal eal eal",
+        "Line_06": "peal heal peal heal peal heal",
+        "Line_05": "eal eal eal eal eal eal eal"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0266": {
       "Name": "Lesson_0266",
@@ -4349,14 +4349,14 @@
       }],
       "Description": "Common Patterns: ate",
       "Lines": [{
-        "Line_01": "ate ate ate ate ate ate",
-        "Line_02": "fate late fate late fate late",
-        "Line_03": "ate ate ate ate ate ate",
-        "Line_04": "hate gate hate gate hate gate",
-        "Line_05": "ate ate ate ate ate ate",
-        "Line_06": "date rate date rate date rate"
+        "Line_01": "mate plate mate plate mate plate",
+        "Line_02": "ate ate ate ate ate ate ate",
+        "Line_03": "crate slate crate slate crate slate",
+        "Line_04": "ate ate ate ate ate ate ate",
+        "Line_05": "state create state create state create",
+        "Line_06": "ate ate ate ate ate ate ate"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0267": {
       "Name": "Lesson_0267",
@@ -4367,17 +4367,17 @@
       }],
       "Description": "Common Patterns: ted",
       "Lines": [{
-        "Line_01": "ted ted ted ted ted ted",
-        "Line_02": "created interested created interested",
-        "Line_03": "created interested",
-        "Line_04": "ted ted ted ted ted ted",
-        "Line_05": "united located united located united",
-        "Line_06": "located",
-        "Line_07": "ted ted ted ted ted ted",
-        "Line_08": "counted tainted counted tainted counted",
-        "Line_09": "tainted"
+        "Line_01": "planted tested planted tested",
+        "Line_02": "planted tested",
+        "Line_03": "ted ted ted ted ted ted ted",
+        "Line_04": "painted rested painted rested painted",
+        "Line_05": "rested",
+        "Line_06": "ted ted ted ted ted ted ted",
+        "Line_07": "fainted gifted fainted gifted fainted",
+        "Line_08": "gifted",
+        "Line_09": "ted ted ted ted ted ted ted"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0268": {
       "Name": "Lesson_0268",
@@ -4388,14 +4388,14 @@
       }],
       "Description": "Common Patterns: one",
       "Lines": [{
-        "Line_01": "one one one one one one",
-        "Line_02": "done phone done phone done phone",
-        "Line_03": "one one one one one one",
-        "Line_04": "drone cone drone cone drone cone",
-        "Line_05": "one one one one one one",
-        "Line_06": "bone zone bone zone bone zone"
+        "Line_01": "stone alone stone alone stone alone",
+        "Line_02": "one one one one one one one",
+        "Line_03": "throne clone throne clone throne clone",
+        "Line_04": "one one one one one one one",
+        "Line_05": "groan prone groan prone groan prone",
+        "Line_06": "one one one one one one one"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0269": {
       "Name": "Lesson_0269",
@@ -4406,14 +4406,14 @@
       }],
       "Description": "Common Patterns: ame",
       "Lines": [{
-        "Line_01": "ame ame ame ame ame ame",
-        "Line_02": "came flame came flame came flame",
-        "Line_03": "ame ame ame ame ame ame",
-        "Line_04": "shame blame shame blame shame blame",
-        "Line_05": "ame ame ame ame ame ame",
-        "Line_06": "game same game same game same"
+        "Line_01": "frame name frame name frame name",
+        "Line_02": "ame ame ame ame ame ame ame",
+        "Line_03": "tame lame tame lame tame lame",
+        "Line_04": "ame ame ame ame ame ame ame",
+        "Line_05": "fame dame fame dame fame dame",
+        "Line_06": "ame ame ame ame ame ame ame"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0270": {
       "Name": "Lesson_0270",
@@ -4424,19 +4424,18 @@
       }],
       "Description": "Common Patterns: tor",
       "Lines": [{
-        "Line_01": "tor tor tor tor tor tor",
-        "Line_02": "creator inventor creator inventor",
-        "Line_03": "creator inventor",
-        "Line_04": "tor tor tor tor tor tor",
-        "Line_05": "mentor vector mentor vector mentor",
-        "Line_06": "vector",
-        "Line_07": "tor tor tor tor tor tor",
-        "Line_08": "tractor rotor tractor rotor tractor",
-        "Line_09": "rotor"
+        "Line_01": "monitor resistor monitor resistor",
+        "Line_02": "monitor resistor",
+        "Line_03": "tor tor tor tor tor tor tor",
+        "Line_04": "navigator spectator navigator spectator navigator",
+        "Line_05": "spectator",
+        "Line_06": "tor tor tor tor tor tor tor",
+        "Line_07": "elevator decorator elevator decorator elevator",
+        "Line_08": "decorator",
+        "Line_09": "tor tor tor tor tor tor tor"
       }],
-      "Refactored": false
+      "Refactored": true
     },
-    //******************************
     "Lesson_0271": {
       "Name": "Lesson_0271",
       "Number": 271,
@@ -4446,14 +4445,14 @@
       }],
       "Description": "Common Patterns: ine",
       "Lines": [{
-        "Line_01": "ine ine ine ine ine ine",
-        "Line_02": "dine fine dine fine dine fine",
-        "Line_03": "ine ine ine ine ine ine",
-        "Line_04": "shine line shine line shine line",
-        "Line_05": "ine ine ine ine ine ine",
-        "Line_06": "wine pine wine pine wine pine"
+        "Line_01": "define combine define combine define combine",
+        "Line_02": "ine ine ine ine ine ine ine",
+        "Line_03": "define combine",
+        "Line_04": "refine twine refine twine refine twine",
+        "Line_05": "engine medicine engine medicine engine",
+        "Line_06": "ine ine ine ine ine ine ine"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0272": {
       "Name": "Lesson_0272",
@@ -4464,14 +4463,14 @@
       }],
       "Description": "Common Patterns: ave",
       "Lines": [{
-        "Line_01": "ave ave ave ave ave ave",
-        "Line_02": "gave save gave save gave save",
-        "Line_03": "ave ave ave ave ave ave",
-        "Line_04": "behave forgave behave forgave behave forgave",
-        "Line_05": "ave ave ave ave ave ave",
-        "Line_06": "wave cave wave cave wave cave"
+        "Line_01": "brave crave brave crave brave crave",
+        "Line_02": "brave crave",
+        "Line_03": "ave ave ave ave ave ave ave",
+        "Line_04": "save enclave save enclave save enclave",
+        "Line_05": "pave stave pave stave pave stave",
+        "Line_06": "ave ave ave ave ave ave ave"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0273": {
       "Name": "Lesson_0273",
@@ -4482,14 +4481,14 @@
       }],
       "Description": "Common Patterns: ound",
       "Lines": [{
-        "Line_01": "ound ound ound ound ound",
-        "Line_02": "ground found ground found ground found",
-        "Line_03": "ound ound ound ound ound",
-        "Line_04": "sound hound sound hound sound hound",
-        "Line_05": "ound ound ound ound ound",
-        "Line_06": "round pound round pound round pound"
+        "Line_01": "mound compound mound compound mound compound",
+        "Line_02": "mound compound",
+        "Line_03": "ound ound ound ound ound ound",
+        "Line_04": "around rebound around rebound around rebound",
+        "Line_05": "profound background profound background profound background",
+        "Line_06": "ound ound ound ound ound ound"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0274": {
       "Name": "Lesson_0274",
@@ -4500,14 +4499,14 @@
       }],
       "Description": "Common Patterns: age",
       "Lines": [{
-        "Line_01": "age age age age age age",
-        "Line_02": "stage manage stage manage stage manage",
-        "Line_03": "age age age age age age",
-        "Line_04": "page wage page wage page wage",
-        "Line_05": "age age age age age age",
-        "Line_06": "courage foliage courage foliage courage foliage"
+        "Line_01": "message passage message passage message passage",
+        "Line_02": "message passage",
+        "Line_03": "age age age age age age age",
+        "Line_04": "damage image damage image damage image",
+        "Line_05": "heritage storage heritage storage heritage storage",
+        "Line_06": "age age age age age age age"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0275": {
       "Name": "Lesson_0275",
@@ -4518,13 +4517,13 @@
       }],
       "Description": "Dynamic Practice 8",
       "Lines": [{
-        "Line_01": "gr gr ogr gra gravity groups programs",
-        "Line_02": "ge ge rge dge get large bridge",
-        "Line_03": "ga ga aga gai against gave gas",
-        "Line_04": "gn gn agn ign magnetic electromagnetic designed",
-        "Line_05": "gi gi ngi gin engines changing ranging"
+        "Line_01": "gr gr gre gra grasp greedy graphs",
+        "Line_02": "ge ge rge dge gem large hedge",
+        "Line_03": "ga ga age gar gala garage gauge",
+        "Line_04": "gn gn gna ign signal align benign",
+        "Line_05": "gi gi gan gin gigantic origin margin"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0276": {
       "Name": "Lesson_0276",
@@ -4535,14 +4534,14 @@
       }],
       "Description": "San Francisco",
       "Lines": [{
-        "Line_01": "San Francisco, officially the City and",
-        "Line_02": "County of San Francisco, is the",
-        "Line_03": "financial, cultural, and transportation",
-        "Line_04": "center of the San Francisco Bay Area,",
-        "Line_05": "a region of 7.15 million people which",
-        "Line_06": "includes San Jose and Oakland."
+          "Line_01": "San Francisco is known for its",
+          "Line_02": "iconic Golden Gate Bridge, Alcatraz Island,",
+          "Line_03": "and historic cable cars. The city",
+          "Line_04": "has over 220 public parks, making it",
+          "Line_05": "a popular tourist destination, with a",
+          "Line_06": "diverse population and a rich cultural history."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0277": {
       "Name": "Lesson_0277",
@@ -4553,14 +4552,14 @@
       }],
       "Description": "Spoken Languages",
       "Lines": [{
-        "Line_01": "There are over 6,000 languages spoken",
-        "Line_02": "in the world today, many of which are",
-        "Line_03": "spoken by fewer than a few hundred",
-        "Line_04": "people. The top 10 or 12 languages,",
-        "Line_05": "however, make up the vast majority of",
-        "Line_06": "all of the speakers in the world."
+          "Line_01": "Mandarin Chinese is the most spoken",
+          "Line_02": "language in the world, with over",
+          "Line_03": "1 billion native speakers. It is",
+          "Line_04": "followed by Spanish, which has around",
+          "Line_05": "460 million native speakers. English",
+          "Line_06": "is widely spoken globally as a 2nd language."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0278": {
       "Name": "Lesson_0278",
@@ -4571,14 +4570,14 @@
       }],
       "Description": "New Mexico",
       "Lines": [{
-        "Line_01": "New Mexico became a state on January",
-        "Line_02": "6, 1912 and became the 47th state",
-        "Line_03": "accepted into the United States. The",
-        "Line_04": "state capital is Santa Fe. The",
-        "Line_05": "population is 1,819,046 and most of",
-        "Line_06": "the people live in the biggest city, Albuquerque."
+          "Line_01": "New Mexico, known as the Land of",
+          "Line_02": "Enchantment, is famous for its",
+          "Line_03": "diverse landscapes which include",
+          "Line_04": "deserts, high plains, and mountains.",
+          "Line_05": "It has 35 state parks and 19 national",
+          "Line_06": "parks, monuments, and historic sites."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0279": {
       "Name": "Lesson_0279",
@@ -4589,15 +4588,15 @@
       }],
       "Description": "Earthquake",
       "Lines": [{
-        "Line_01": "There are dozens of tectonic plates",
-        "Line_02": "below the surface of the Earth that",
-        "Line_03": "move continuously and slowly past each",
-        "Line_04": "other. When the plates squeeze or",
-        "Line_05": "stretch, huge rocks form at their",
-        "Line_06": "edges and the rocks shift with great",
-        "Line_07": "force, causing an earthquake."
+          "Line_01": "An earthquake occurs when energy stored",
+          "Line_02": "in the Earth's crust is suddenly released.",
+          "Line_03": "This release creates seismic waves that",
+          "Line_04": "travel through the Earth. The magnitude",
+          "Line_05": "of an earthquake is measured using the",
+          "Line_06": "Richter scale, with the largest recorded",
+          "Line_07": "earthquake having a magnitude of 9.5."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0280": {
       "Name": "Lesson_0280",
@@ -4608,9 +4607,9 @@
       }],
       "Description": "Test 32: Play Words 11",
       "Lines": [{
-        "Line_01": "about world Today many county Surface state Mexico past huge edge shift Great force vast area People"
+        "Line_01": "beach told ways story dance house wings exact form path stage street good extra find"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0281": {
       "Name": "Lesson_0281",
@@ -4621,15 +4620,15 @@
       }],
       "Description": "Hurricane",
       "Lines": [{
-        "Line_01": "A hurricane is a huge storm. It can",
-        "Line_02": "be up to 600 miles across and have",
-        "Line_03": "strong winds spiraling inwards and",
-        "Line_04": "upward at speeds of 75 to 200 mph.",
-        "Line_05": "Each hurricane usually lasts for over",
-        "Line_06": "a week, movign 10 to 20 miles per",
-        "Line_07": "hour over the open ocean."
+        "Line_01": "Hurricanes are intense tropical storms",
+        "Line_02": "with winds reaching up to 157 mph.",
+        "Line_03": "They form over ocean waters warmer",
+        "Line_04": "than 80°F and can cause massive",
+        "Line_05": "damage. A hurricane can dump over",
+        "Line_06": "9 trillion liters of rain a day, and",
+        "Line_07": "cause storm surges up to 20 feet high."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0282": {
       "Name": "Lesson_0282",
@@ -4638,17 +4637,17 @@
         "AccuracyRequirement": "",
         "SpeedRequirement": ""
       }],
-      "Description": "Tectonic Plates",
+      "Description": "Tectonic Plates 1",
       "Lines": [{
-        "Line_01": "The Pacific Ocean is currently",
-        "Line_02": "shrinking due to plate tectonics, while",
-        "Line_03": "the Atlantic Ocean is increasing in",
-        "Line_04": "size, by roughly an inch per year or",
-        "Line_05": "2 to 3 cm/yr on 3 sides, roughly",
-        "Line_06": "averaging 0.2 square miles or 0.52",
-        "Line_07": "square kilometers a year."
+        "Line_01": "The Earth's crust is divided into",
+        "Line_02": "15 major tectonic plates. These plates",
+        "Line_03": "move at a rate of 1 to 2 inches",
+        "Line_04": "per year. The Pacific Plate is the",
+        "Line_05": "largest, covering 103 million square",
+        "Line_06": "kilometers. Earthquakes often occur",
+        "Line_07": "where these plates meet."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0283": {
       "Name": "Lesson_0283",
@@ -4657,17 +4656,17 @@
         "AccuracyRequirement": "",
         "SpeedRequirement": ""
       }],
-      "Description": "Tectonic Plates",
+      "Description": "Tectonic Plates 2",
       "Lines": [{
-        "Line_01": "The Pacific Ocean is currently",
-        "Line_02": "shrinking due to plate tectonics, while",
-        "Line_03": "the Atlantic Ocean is increasing in",
-        "Line_04": "size, by roughly an inch per year or",
-        "Line_05": "2 to 3 cm/yr on 3 sides, roughly",
-        "Line_06": "averaging 0.2 square miles or 0.52",
-        "Line_07": "square kilometers a year."
+        "Line_01": "Tectonic plates are pieces of Earth's",
+        "Line_02": "lithosphere that can move and interact.",
+        "Line_03": "There are about 20 major plates, with",
+        "Line_04": "the largest being the Pacific Plate.",
+        "Line_05": "This plate moves at an average rate",
+        "Line_06": "of 7.5 cm per year. The collision of",
+        "Line_07": "plates can create mountain ranges."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0284": {
       "Name": "Lesson_0284",
@@ -4678,15 +4677,15 @@
       }],
       "Description": "Aphelion",
       "Lines": [{
-        "Line_01": "July 4th is the 185th day of the year",
-        "Line_02": "or 186th in leap years in the",
-        "Line_03": "Gregorian calendar. There are 180 days",
-        "Line_04": "remaining until the end of the year.",
-        "Line_05": "Aphelion, the point durng the orbit",
-        "Line_06": "of the Earth when it is furthest from",
-        "Line_07": "the Sun, occurs around this date."
+        "Line_01": "Aphelion is the point in Earth's orbit",
+        "Line_02": "when it is farthest from the Sun. It",
+        "Line_03": "occurs annually around July 5th. At",
+        "Line_04": "aphelion, Earth is approximately 94.5",
+        "Line_05": "million miles or 152 million kilometers",
+        "Line_06": "away from the Sun. This distance varies",
+        "Line_07": "due to the elliptical shape of Earth's orbit."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0285": {
       "Name": "Lesson_0285",
@@ -4697,15 +4696,15 @@
       }],
       "Description": "Mark Twain Quote",
       "Lines": [{
-        "Line_01": "Twenty years from now you will be more",
-        "Line_02": "disappointed by the things that you",
-        "Line_03": "did not do than by the ones you did do,",
-        "Line_04": "so throw off the bowlines, sail",
-        "Line_05": "away from safe harbor, catch the trade",
-        "Line_06": "winds in your sails, Explore, Dream,",
-        "Line_07": "Discover. Mark Twain"
+        "Line_01": "Mark Twain, a renowned American writer",
+        "Line_02": "and humorist, once said, \"The secret",
+        "Line_03": "of getting ahead is getting started.\"",
+        "Line_04": "This quote encourages taking action",
+        "Line_05": "and embracing opportunities. Twain's",
+        "Line_06": "writings often reflected a blend of",
+        "Line_07": "wit, wisdom, and insightful observations."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0286": {
       "Name": "Lesson_0286",
@@ -4716,9 +4715,9 @@
       }],
       "Description": "Test 33: Play Words 12",
       "Lines": [{
-        "Line_01": "last Surface harbor Safe over until Ocean year throws pacific shrink speed storm huge Leap Average"
+        "Line_01": "great stories form each plan team mix nice charm spot deeply game chance real"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0287": {
       "Name": "Lesson_0287",
@@ -4729,15 +4728,15 @@
       }],
       "Description": "Galaxies",
       "Lines": [{
-        "Line_01": "Scientists calculate that there are at",
-        "Line_02": "least 10 billion galaxies in the",
-        "Line_03": "observable universe, each one brimming",
-        "Line_04": "with stars. On a very large scale,",
-        "Line_05": "they form a bubbly structure, in which",
-        "Line_06": "vast sheets and  filaments of galaxies",
-        "Line_07": "surround gargantuan voids."
+        "Line_01": "Galaxies are vast collections of stars,",
+        "Line_02": "dust, and dark matter bound together",
+        "Line_03": "by gravity. There are estimated to be",
+        "Line_04": "over 100 billion galaxies in the",
+        "Line_05": "observable universe, ranging in size",
+        "Line_06": "from dwarf galaxies with a few billion",
+        "Line_07": "stars to massive galaxies with trillions."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0288": {
       "Name": "Lesson_0288",
@@ -4748,15 +4747,15 @@
       }],
       "Description": "Trains",
       "Lines": [{
-        "Line_01": "A train is a connected series of",
-        "Line_02": "vehicles for rail transport that moves",
-        "Line_03": "along a track to transport cargo or",
-        "Line_04": "passengers from one place to another.",
-        "Line_05": "The track usually consists of two",
-        "Line_06": "rails, but might also be a monorail or",
-        "Line_07": "maglev guideway."
+        "Line_01": "Trains are vital for transporting",
+        "Line_02": "people and goods efficiently over long",
+        "Line_03": "distances. They operate on tracks that",
+        "Line_04": "can span thousands of miles, linking",
+        "Line_05": "cities and countries. The world's",
+        "Line_06": "longest railway, the Trans-Siberian",
+        "Line_07": "Railway, stretches over 9,000 kilometers."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0289": {
       "Name": "Lesson_0289",
@@ -4767,15 +4766,15 @@
       }],
       "Description": "Lightning Rods",
       "Lines": [{
-        "Line_01": "Benjamin Franklin carried out extensive",
-        "Line_02": "electricity research in the 18th",
-        "Line_03": "century, inventing the lightning rod",
-        "Line_04": "amongst his many discoveries. Lightning",
-        "Line_05": "rods protect buildings in the event of",
-        "Line_06": "lightning by conducting lightning",
-        "Line_07": "strikes through a grounded wire."
+        "Line_01": "Benjamin Franklin invented the lightning rod",
+        "Line_02": "in the 18th century. It protects buildings",
+        "Line_03": "by directing lightning strikes safely into",
+        "Line_04": "the ground through a metal conductor,",
+        "Line_05": "thus preventing fire hazards. This invention",
+        "Line_06": "revolutionized safety measures against",
+        "Line_07": "electrical storms."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0290": {
       "Name": "Lesson_0290",
@@ -4786,16 +4785,17 @@
       }],
       "Description": "Weather",
       "Lines": [{
-        "Line_01": "Weather is the state of the atmosphere",
-        "Line_02": "at any time, including things such as",
-        "Line_03": "temperature, precipitation, air",
-        "Line_04": "pressure, and cloud cover. Daily",
-        "Line_05": "changes in the weather are due to",
-        "Line_06": "winds and storms. Seasonal changes are",
-        "Line_07": "due to the Earth revolving around the sun."
+        "Line_01": "Weather refers to the atmospheric conditions",
+        "Line_02": "that encompass temperature, humidity, wind,",
+        "Line_03": "precipitation, and cloud cover at any given",
+        "Line_04": "time and place. These elements interact to",
+        "Line_05": "create the daily fluctuations we experience,",
+        "Line_06": "such as rain showers, sunny spells, or",
+        "Line_07": "windy days."
       }],
-      "Refactored": false
+      "Refactored": true
     },
+    //******************************
     "Lesson_0291": {
       "Name": "Lesson_0291",
       "Number": 291,
@@ -4979,6 +4979,7 @@
       }],
       "Refactored": false
     },
+    //******************************
     "Lesson_0301": {
       "Name": "Lesson_0301",
       "Number": 301,
