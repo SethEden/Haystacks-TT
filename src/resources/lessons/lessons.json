@@ -7369,7 +7369,6 @@
       }],
       "Refactored": true
     },
-    //******************************
     "Lesson_0441": {
       "Name": "Lesson_0441",
       "Number": 441,
@@ -7490,7 +7489,7 @@
         "Line_10": "Public health promotes iron-rich diets to prevent deficiency.",
         "Line_11": "Understanding iron's role is crucial for health maintenance."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0447": {
       "Name": "Lesson_0447",
@@ -7781,6 +7780,7 @@
       }],
       "Refactored": false
     },
+    //******************************
     "Lesson_0461": {
       "Name": "Lesson_0461",
       "Number": 461,
