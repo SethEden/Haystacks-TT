@@ -6355,7 +6355,6 @@
       }],
       "Refactored": true
     },
-    //******************************
     "Lesson_0381": {
       "Name": "Lesson_0381",
       "Number": 381,
@@ -6365,9 +6364,9 @@
       }],
       "Description": "Review ~ and `",
       "Lines": [{
-        "Line_01": "a~a` j~k` u~i` e~w` P~n` c`x~"
+        "Line_01": "k~u` n~C` W~i` e~a` J`x~ p~n` a~K` u~j`"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0382": {
       "Name": "Lesson_0382",
@@ -6378,10 +6377,10 @@
       }],
       "Description": "Practice: ~ and `",
       "Lines": [{
-        "Line_01": "some` symbols~ are` kind~ of`",
-        "Line_02": "difficult~ to master`"
+        "Line_01": "unique~ letters` help~ train` skills~ quickly`",
+        "Line_02": "focus` on accuracy~ improves~ typing` speed~"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0383": {
       "Name": "Lesson_0383",
@@ -6392,11 +6391,11 @@
       }],
       "Description": "Keys ' and \"",
       "Lines": [{
-        "Line_01": "\"'\"'\"''",
-        "Line_02": "\"\"'\"\"'\"",
-        "Line_03": "'\"\"'\"\""
+        "Line_01": "'\"'\"\"'",
+        "Line_02": "\"'\"\"'\"'",
+        "Line_03": "'\"'\"\"'\"''\""
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0384": {
       "Name": "Lesson_0384",
@@ -6407,9 +6406,10 @@
       }],
       "Description": "Review ' and \"",
       "Lines": [{
-        "Line_01": "e'c\" y'i\" n'c\" w\"q' i'p\" q'W\""
+        "Line_01": "p\"q' n'c\" e'y\" w\"i' q'p\" i'w\"",
+        "Line_02": "c'n\" y\"e' p'i\" q'w' e'c\" i'q\""
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0385": {
       "Name": "Lesson_0385",
@@ -6420,10 +6420,10 @@
       }],
       "Description": "Practice: ' and \"",
       "Lines": [{
-        "Line_01": "we don't always use \"special symbols\"",
-        "Line_02": "in normal text"
+        "Line_01": "she can't recall the \"exact phrase\"",
+        "Line_02": "for unique \"quotes\""
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0386": {
       "Name": "Lesson_0386",
@@ -6434,11 +6434,11 @@
       }],
       "Description": "Keys - and =",
       "Lines": [{
-        "Line_01": "-=-=--=",
-        "Line_02": "-==-=-=",
-        "Line_03": "--==-="
+        "Line_01": "-==-=-=",
+        "Line_02": "=--=--=",
+        "Line_03": "-=-==-="
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0387": {
       "Name": "Lesson_0387",
@@ -6449,9 +6449,9 @@
       }],
       "Description": "Review - and =",
       "Lines": [{
-        "Line_01": "e-w= c-v= n-i= q-e= i=x- s-a="
+        "Line_01": "c-a= e-x= q-s= i-v= n-e- w-i="
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0388": {
       "Name": "Lesson_0388",
@@ -6462,10 +6462,10 @@
       }],
       "Description": "Practice: - and =",
       "Lines": [{
-        "Line_01": "minus- and equal= symbols are- typed",
-        "Line_02": "with= the -same- finger="
+        "Line_01": "equal= and minus- symbols are= crucial-",
+        "Line_02": "for= typing- accuracy= and speed="
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0389": {
       "Name": "Lesson_0389",
@@ -6476,11 +6476,11 @@
       }],
       "Description": "Keys _ and +",
       "Lines": [{
-        "Line_01": "_+_+__+",
-        "Line_02": "_+_+++_",
-        "Line_03": "+_++_+"
+        "Line_01": "+_+__+ _+++_ _+_+",
+        "Line_02": "_+__+_ +_++_+",
+        "Line_03": "+_+_+ _+_+++"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0390": {
       "Name": "Lesson_0390",
@@ -6491,11 +6491,10 @@
       }],
       "Description": "Review _ and +",
       "Lines": [{
-        "Line_01": "d_w+ w_q+ j+l_ n_i+ q_o+ c+x_"
+        "Line_01": "i+d_ l+j+ q+w_ n+x_ o_c+ r_e+ m_y+ u_t_"
       }],
-      "Refactored": false
+      "Refactored": true
     },
-    //******************************
     "Lesson_0391": {
       "Name": "Lesson_0391",
       "Number": 391,
@@ -6505,10 +6504,10 @@
       }],
       "Description": "Practice: _ and +",
       "Lines": [{
-        "Line_01": "_ and + are _more_ examples +of+",
-        "Line_02": "symbols_ on +the keyboard+"
+        "Line_01": "_ and +_ are +used_ +for_ +programming_",
+        "Line_02": "_ They_ +signify_ +addition+ and_+ +concatenation_"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0392": {
       "Name": "Lesson_0392",
@@ -6519,11 +6518,11 @@
       }],
       "Description": "Keys [ and ]",
       "Lines": [{
-        "Line_01": "[][[][]",
-        "Line_02": "[]][][]",
-        "Line_03": "[]][]["
+        "Line_01": "[]][][[]]",
+        "Line_02": "[][][]][]",
+        "Line_03": "][[[][]]"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0393": {
       "Name": "Lesson_0393",
@@ -6534,9 +6533,10 @@
       }],
       "Description": "Review [ and ]",
       "Lines": [{
-        "Line_01": "w[d] c]z[ i[p] l[s] S]Q[ K[p] ]s["
+        "Line_01": "w[s] p[k] l[z] c[d] q[p] k[s] m[q]",
+        "Line_02": "s[d] z[k] a[s] i[l] e[w] r[z] n[p]"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0394": {
       "Name": "Lesson_0394",
@@ -6547,10 +6547,10 @@
       }],
       "Description": "Practice: [ and ]",
       "Lines": [{
-        "Line_01": "open[ and closed] square[] brackets are",
-        "Line_02": "[symbols] used ]in[ coding"
+        "Line_01": "_and[ ]are[ ]fundamental[ ]symbols[ ]in[ ]programming",
+        "Line_02": "[They]are[ ]vital[ ]components[ ]used[ ]in[ ]coding"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0395": {
       "Name": "Lesson_0395",
@@ -6561,11 +6561,11 @@
       }],
       "Description": "Keys { and }",
       "Lines": [{
-        "Line_01": "{}{{}{}",
-        "Line_02": "}}{{}{{",
-        "Line_03": "}}{}}{"
+        "Line_01": "}{{}}{{}{",
+        "Line_02": "{{{}{}}}",
+        "Line_03": "{}{{}{}}"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0396": {
       "Name": "Lesson_0396",
@@ -6576,9 +6576,9 @@
       }],
       "Description": "Review { and }",
       "Lines": [{
-        "Line_01": "w{q} c}d} k{s} }ww{ s{W} o{a}"
+        "Line_01": "s}o{ w{w} c}k{ s}d} k{s} a}l{ d{e} q{r}"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0397": {
       "Name": "Lesson_0397",
@@ -6589,10 +6589,10 @@
       }],
       "Description": "Practice: { and }",
       "Lines": [{
-        "Line_01": "open{ and closed} curly{} brackets are",
-        "Line_02": "{also} used frequently {in} coding"
+        "Line_01": "{code} {syntax} {and} {usage} {of} {braces} {symbols}",
+        "Line_02": "{in} {programming} {are} {essential}"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0398": {
       "Name": "Lesson_0398",
@@ -6603,11 +6603,11 @@
       }],
       "Description": "Keys \\ and |",
       "Lines": [{
-        "Line_01": "\\|\\|\\|",
-        "Line_02": "\\\\|||\\|",
-        "Line_03": "\\|\\\\|\\"
+        "Line_01": "|\\|\\|\\|\\",
+        "Line_02": "\\|\\|||\\|\\",
+        "Line_03": "\\|\\\\|\\|"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0399": {
       "Name": "Lesson_0399",
@@ -6618,9 +6618,9 @@
       }],
       "Description": "Review \\ and |",
       "Lines": [{
-        "Line_01": "w|s\\ x\\q| o\\p| k\\z\\ o|i| p\\u\\"
+        "Line_01": "w\\q\\s| o|z\\ p|i\\ o\\p| k\\u\\ q\\v|"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0400": {
       "Name": "Lesson_0400",
@@ -6631,10 +6631,10 @@
       }],
       "Description": "Practice: \\ and |",
       "Lines": [{
-        "Line_01": "some|more|examples \\of\\symbols\\ are the",
-        "Line_02": "|pipe| and \\back\\slash symbols"
+        "Line_01": "many|new|instances \\of\\symbols\\ occur in",
+        "Line_02": "|bar| and \\backward\\slash notations"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0401": {
       "Name": "Lesson_0401",
@@ -6645,11 +6645,11 @@
       }],
       "Description": "Keys < and >",
       "Lines": [{
-        "Line_01": "<><><>>",
-        "Line_02": "<<><><>",
-        "Line_03": ">><<>>"
+        "Line_01": "<<>><<>><><>",
+        "Line_02": ">>><<<<>",
+        "Line_03": "<><<>><><"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0402": {
       "Name": "Lesson_0402",
@@ -6660,9 +6660,9 @@
       }],
       "Description": "Review < and >",
       "Lines": [{
-        "Line_01": "x<o> p>d< t>w< u>i< s>a> p>w<"
+        "Line_01": "i<w> n<t> e<u> s<p> o<a> r<d> i<m> w<t> h<y> t<h>"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0403": {
       "Name": "Lesson_0403",
@@ -6673,10 +6673,10 @@
       }],
       "Description": "Practice: < and >",
       "Lines": [{
-        "Line_01": "there are <two> mroe symbols >to<",
-        "Line_02": "learn. The less<than and greater>than signs."
+        "Line_01": "example< sentences< with< symbols>>",
+        "Line_02": "the> keys< on> the> keyboard< are< used>"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0404": {
       "Name": "Lesson_0404",
@@ -6687,9 +6687,9 @@
       }],
       "Description": "Test 45: Play Symbols",
       "Lines": [{
-        "Line_01": "~-+[{]|+-'\"-+-_[{]'|{\"\\~`'~]{]}\\|]]_~_~'"
+        "Line_01": "~'|]-+'\"-+'{\"[}|_-~-|\\{~\\[~'_\"'~'{]-+[\"~'_|-~'_"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0405": {
       "Name": "Lesson_0405",
@@ -6700,9 +6700,9 @@
       }],
       "Description": "Review: No shift",
       "Lines": [{
-        "Line_01": "\\]['=-` \\][=-'` \\]['=-` \\]['=-` =]-'` \\] =['`\\"
+        "Line_01": "=]['`\\ \\][=`-' \\]='`[ \\]['`= `-]=\\' -`=\\`]"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0406": {
       "Name": "Lesson_0406",
@@ -6713,9 +6713,9 @@
       }],
       "Description": "Review: With shift",
       "Lines": [{
-        "Line_01": "|}{\"+_~ |}{\"+_~ |}{\"+_~ |}{\"+_~ +}_\"~ |} +{\"~|"
+        "Line_01": "}\"{+_~ +}{\"~_| +}{\"_~| \"}{+_~ +}{\"_~|"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0407": {
       "Name": "Lesson_0407",
@@ -6726,11 +6726,11 @@
       }],
       "Description": "Practice: Symbols 1",
       "Lines": [{
-        "Line_01": "{it} is -equally+ [important] to",
-        "Line_02": "\\learn\\ \"how\" to' type _all_ the",
-        "Line_03": "symbols+ =on _your` keyboard~"
+        "Line_01": "{we} is -equally+ [crucial] to",
+        "Line_02": "\\master\\ \"how\" to' type _each_ the",
+        "Line_03": "signs+ =on _your` {~keyboard'~}"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0408": {
       "Name": "Lesson_0408",
@@ -6741,11 +6741,11 @@
       }],
       "Description": "Practice: Symbols 2",
       "Lines": [{
-        "Line_01": "\\Typing' {symbols~ can\" 'be] =tricky_",
-        "Line_02": "[so+ \\keep- =practicing| =until~ 'you{",
-        "Line_03": "}fully[ 'master~ \\it\\"
+        "Line_01": "\\Typing' {characters~ may\" 'seem] =challenging_",
+        "Line_02": "=always+ [test- \\your~ =abilities| =with\\ 'new{",
+        "Line_03": "}are an {absolute}[ 'beast-mode~ \\at ~typing~\\"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0409": {
       "Name": "Lesson_0409",
@@ -6756,11 +6756,11 @@
       }],
       "Description": "Practice: Symbols 3",
       "Lines": [{
-        "Line_01": "_at_ this+point- you\\ should- be' able|",
-        "Line_02": "to type~ all\" the{ letters] and",
-        "Line_03": "symbols{ on} [your] |keyboard\\"
+        "Line_01": "=mastering' \\the| [art- of] 'typing+",
+        "Line_02": "[requires\" =dedication~ and{ constant]",
+        "Line_03": "\\practice\\| [with] 'various~ 'characters\\"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0410": {
       "Name": "Lesson_0410",
@@ -6771,16 +6771,16 @@
       }],
       "Description": "Weather/Whether",
       "Lines": [{
-        "Line_01": "The weather is suposed to be warmer tomorrow.",
-        "Line_02": "weather weather weather weather weather",
-        "Line_03": "You can still come whether or not you are invited.",
-        "Line_04": "wheather whether whether whether whether",
-        "Line_05": "Whether the weather is good, or",
-        "Line_06": "whether the weather is bad, whatever",
-        "Line_07": "the weather, we'll weather together.",
-        "Line_08": "weather whether weather whether"
+        "Line_01": "Weather forecasts predict sunshine for tomorrow.",
+        "Line_02": "weather weather weather weather weather weather",
+        "Line_03": "Whether you come today or tomorrow, the weather will be lovely.",
+        "Line_04": "whether whether whether whether whether whether",
+        "Line_05": "The weather report confirms whether it will rain or shine.",
+        "Line_06": "Whether it's hot or cold, weather patterns are fascinating.",
+        "Line_07": "Do you wonder whether the weather will affect your plans?",
+        "Line_08": "weather whether weather whether weather whether"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0411": {
       "Name": "Lesson_0411",
@@ -6789,17 +6789,17 @@
         "AccuracyRequirement": "",
         "SpeedRequirement": ""
       }],
-      "Description": "Lightning",
+      "Description": "Lightning/lightening",
       "Lines": [{
-        "Line_01": "The bright flash of lightning lit up",
-        "Line_02": "the night sky.",
-        "Line_03": "lightning lightning lightning lightning lightning",
-        "Line_04": "The sun is lightening the sky as it rises.",
-        "Line_05": "lightening lightening lightening lightening lightening",
-        "Line_06": "Flashes of lightning are lightening up the sky.",
-        "Line_07": "lightning lightening lightning lightening lightning lightening"
+        "Line_01": "The sky lit up with a sudden flash of lightning.",
+        "Line_02": "lightning lightning lightning lightning lightning",
+        "Line_03": "Is lightening the load really worth the effort?",
+        "Line_04": "lightening lightening lightening lightening lightening",
+        "Line_05": "The storm brought thunder and lightning together.",
+        "Line_06": "lightning lightening lightning lightening lightning lightening",
+        "Line_07": "Lightning strikes often precede heavy lightening showers."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0412": {
       "Name": "Lesson_0412",
@@ -6808,17 +6808,17 @@
         "AccuracyRequirement": "",
         "SpeedRequirement": ""
       }],
-      "Description": "Environment...",
+      "Description": "Environment/Judgement",
       "Lines": [{
-        "Line_01": "We should do all we can to save the environment.",
-        "Line_02": "environment environment environment",
-        "Line_03": "environment environment",
-        "Line_04": "Use your best judgment when making choices.",
-        "Line_05": "judgment judgment judgment judgment judgment",
-        "Line_06": "Good judgment can save the evnironment.",
-        "Line_07": "environment judgment environment judgment"
+        "Line_01": "Protecting the environment requires everyone's effort.",
+        "Line_02": "environment environment environment environment",
+        "Line_03": "Good judgment is essential in environmental decisions.",
+        "Line_04": "judgment judgment judgment judgment judgment",
+        "Line_05": "We must consider environmental impact in our judgment.",
+        "Line_06": "environment judgment environment judgment environment judgment",
+        "Line_07": "Using sound judgment can help preserve the environment."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0413": {
       "Name": "Lesson_0413",
@@ -6829,14 +6829,14 @@
       }],
       "Description": "Their-They're-There",
       "Lines": [{
-        "Line_01": "Their teacher said they were the best class.",
-        "Line_02": "their their their their their",
-        "Line_03": "They're climbing to the top of the mountain.",
-        "Line_04": "They're They're They're They're They're",
-        "Line_05": "There are so many monkeys in that tree!",
-        "Line_06": "there there there there there"
+        "Line_01": "Their friends are waiting for them at the park.",
+        "Line_02": "their their their their their their",
+        "Line_03": "They're not sure if they should go there today.",
+        "Line_04": "They're They're They're They're They're They're",
+        "Line_05": "There are many options available to choose from.",
+        "Line_06": "there there there there there there"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0414": {
       "Name": "Lesson_0414",
@@ -6845,16 +6845,18 @@
         "AccuracyRequirement": "",
         "SpeedRequirement": ""
       }],
-      "Description": "Personal-Personnel",
+      "Description": "Personal/Personnel",
       "Lines": [{
-        "Line_01": "You should keep your personal belongings safe.",
-        "Line_02": "personal personal personal personal personal",
-        "Line_03": "The company's personnel were trained well.",
-        "Line_04": "personnel personnel personnel personnel personnel",
-        "Line_05": "The company's personnel each have a personal laptop.",
-        "Line_06": "personal personnel personal personnel"
+        "Line_01": "Your personal growth is important.",
+        "Line_02": "personal personal personal personal personal personal",
+        "Line_03": "The company's personnel attended the training session.",
+        "Line_04": "personnel personnel personnel personnel personnel personnel",
+        "Line_05": "Each employee's personal data is protected.",
+        "Line_06": "personal personal personal personal personal personal",
+        "Line_07": "The personnel office handles personal information securely.",
+        "Line_08": "personal personnel personal personnel personal personnel"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0415": {
       "Name": "Lesson_0415",
@@ -6863,16 +6865,16 @@
         "AccuracyRequirement": "",
         "SpeedRequirement": ""
       }],
-      "Description": "Appreciate...",
+      "Description": "Appreciate/Exaggerate",
       "Lines": [{
-        "Line_01": "Tell your friends you appreciate they often.",
-        "Line_02": "appreciate appreciate appreciate appreciate appreciate",
-        "Line_03": "He would exaggerate about hwo fast could type.",
-        "Line_04": "exaggerate exaggerate exaggerate exaggerate exaggerate",
-        "Line_05": "I do not exaggerate when I say how much I appreciate you.",
-        "Line_06": "apreciate exaggerate appreciate exaggerate"
+        "Line_01": "I appreciate your hard work and dedication.",
+        "Line_02": "appreciate appreciate appreciate appreciate appreciate appreciate",
+        "Line_03": "He tends to exaggerate the size of his achievements.",
+        "Line_04": "exaggerate exaggerate exaggerate exaggerate exaggerate exaggerate",
+        "Line_05": "I do not exaggerate when I say I appreciate you deeply.",
+        "Line_06": "appreciate exaggerate appreciate exaggerate appreciate exaggerate"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0416": {
       "Name": "Lesson_0416",
@@ -6881,17 +6883,16 @@
         "AccuracyRequirement": "",
         "SpeedRequirement": ""
       }],
-      "Description": "Principle-Principal",
+      "Description": "Principle/Principal",
       "Lines": [{
-        "Line_01": "Majority rule is a basic principle of democracy.",
-        "Line_02": "principle principle principle principle principle",
-        "Line_03": "Our school's principal is a kind and intelligent woman.",
-        "Line_04": "principal principal principal principal principal",
-        "Line_05": "Their principal reminded them of the principle rule:",
-        "Line_06": "be kind to others.",
-        "Line_07": "principal principle principal principle principal principle"
+        "Line_01": "A core principle of our school is integrity.",
+        "Line_02": "principle principle principle principle principle principle",
+        "Line_03": "The principal welcomed everyone with a smile.",
+        "Line_04": "principal principal principal principal principal principal",
+        "Line_05": "Our principal upholds the principle of honesty.",
+        "Line_06": "principle principal principle principal principle principal"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0417": {
       "Name": "Lesson_0417",
@@ -6900,16 +6901,16 @@
         "AccuracyRequirement": "",
         "SpeedRequirement": ""
       }],
-      "Description": "Grammar",
+      "Description": "Calendar/Particular",
       "Lines": [{
-        "Line_01": "She wrote the date on the calendar.",
-        "Line_02": "calendar calendar calendar calendar calendar",
-        "Line_03": "He was not particular about food. He would eat anything.",
-        "Line_04": "particular particular particular particular particular",
-        "Line_05": "Which particular calendar did yuo want to buy?",
-        "Line_06": "calendar particular calendar particular"
+        "Line_01": "Mark the important dates on your calendar.",
+        "Line_02": "calendar calendar calendar calendar calendar calendar",
+        "Line_03": "She is very particular about her morning routine.",
+        "Line_04": "particular particular particular particular particular particular",
+        "Line_05": "For this particular event, use the new calendar.",
+        "Line_06": "calendar particular calendar particular calendar particular"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0418": {
       "Name": "Lesson_0418",
@@ -6920,14 +6921,14 @@
       }],
       "Description": "It's-Its",
       "Lines": [{
-        "Line_01": "Sometimes it's hard to understand a difficult subject.",
-        "Line_02": "it's it's it's it's it's",
-        "Line_03": "The dog turned its head and barked.",
-        "Line_04": "its its its its its",
-        "Line_05": "When a dog is wagging its tail, it's usually happy.",
-        "Line_06": "its it's its it's its"
+        "Line_01": "It's amazing how quickly time flies.",
+        "Line_02": "it's it's it's it's it's it's",
+        "Line_03": "The cat chased its tail around the room.",
+        "Line_04": "its its its its its its",
+        "Line_05": "It's funny when a cat chases its own tail.",
+        "Line_06": "its it's its it's its it's its"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0419": {
       "Name": "Lesson_0419",
@@ -6936,16 +6937,16 @@
         "AccuracyRequirement": "",
         "SpeedRequirement": ""
       }],
-      "Description": "Though-Thorough",
+      "Description": "Though/Thorough",
       "Lines": [{
-        "Line_01": "Though she be but little, she is fierce.",
-        "Line_02": "though though though though though",
-        "Line_03": "He gave a thorough explaination of the math principle.",
-        "Line_04": "thorough thorough thorough thorough thorough",
-        "Line_05": "Even though he was thorough, he still made a mistake.",
-        "Line_06": "though thorough though thorough"
+        "Line_01": "Though she was tired, she completed the task thoroughly.",
+        "Line_02": "though though though though though though",
+        "Line_03": "He gave a thorough answer, though it was brief.",
+        "Line_04": "thorough thorough thorough thorough thorough thorough",
+        "Line_05": "Though he was thorough, he missed some points.",
+        "Line_06": "though thorough though thorough though thorough"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0420": {
       "Name": "Lesson_0420",
@@ -6956,13 +6957,13 @@
       }],
       "Description": "Dynamic Practice 12",
       "Lines": [{
-        "Line_01": "gr gr gro gro groups ground grown",
-        "Line_02": "ge ge nge uge exchange longer huge",
-        "Line_03": "ga ga aga ega against gate began",
-        "Line_04": "gn gn ign gna signal design reign",
-        "Line_05": "gi gi igi gin original originally origin"
+        "Line_01": "gr gr gra gre grand great greedy",
+        "Line_02": "ge ge gen rge genre verge large",
+        "Line_03": "ga ga aga gam gal galaxy again gamma",
+        "Line_04": "gn gn ign gno signal align gnome",
+        "Line_05": "gi gi igi iga ign gigantic align origin"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0421": {
       "Name": "Lesson_0421",
@@ -6973,17 +6974,17 @@
       }],
       "Description": "Red-Crowned Parrot",
       "Lines": [{
-        "Line_01": "In 2011, the U.S. Fish and Wildlife",
-        "Line_02": "Service announced that the red-crowned",
-        "Line_03": "parrot warranted federal protection.",
-        "Line_04": "They too acknowledged that the birds'",
-        "Line_05": "homes ahve been lost, and that they've",
-        "Line_06": "been poached for the pet trade. They",
-        "Line_07": "wanted the birds to be protected by",
-        "Line_08": "being on America's official list of",
-        "Line_09": "endangered species."
+        "Line_01": "The red-crowned parrot population has",
+        "Line_02": "declined by about 50% in the last 30 years.",
+        "Line_03": "In 2020, there were an estimated 2,500",
+        "Line_04": "red-crowned parrots left in the wild.",
+        "Line_05": "These birds are native to northeastern",
+        "Line_06": "Mexico but have also established populations",
+        "Line_07": "in the United States, particularly in Texas.",
+        "Line_08": "Conservation efforts are crucial as their",
+        "Line_09": "habitats continue to be threatened by deforestation."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0422": {
       "Name": "Lesson_0422",
@@ -6994,17 +6995,17 @@
       }],
       "Description": "Eclipse of 2017",
       "Lines": [{
-        "Line_01": "During the eclipse of 2017, the Moon's",
-        "Line_02": "shadow raced over the Earth's surface",
-        "Line_03": "at more than 2,00 miles per hour. A",
-        "Line_04": "roughly 65-mile-wide zone, called the",
-        "Line_05": "path of totality, offered the best",
-        "Line_06": "viewing. Stars and planets came out,",
-        "Line_07": "and the Sun's corona glowed in a",
-        "Line_08": "perfect circle around the dark side of",
-        "Line_09": "the Moon."
+        "Line_01": "The 2017 solar eclipse was visible across",
+        "Line_02": "a 70-mile-wide path stretching from Oregon",
+        "Line_03": "to South Carolina. This event attracted",
+        "Line_04": "millions of spectators who witnessed the",
+        "Line_05": "Moon completely covering the Sun for up",
+        "Line_06": "to 2 minutes and 40 seconds in some areas.",
+        "Line_07": "Scientists studied its impact on wildlife",
+        "Line_08": "and weather patterns, revealing new insights",
+        "Line_09": "into solar phenomena and atmospheric changes."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0423": {
       "Name": "Lesson_0423",
@@ -7013,19 +7014,20 @@
         "AccuracyRequirement": "",
         "SpeedRequirement": ""
       }],
-      "Description": "Thomas Jeferson",
+      "Description": "Thomas Jefferson",
       "Lines": [{
-        "Line_01": "Thomas Jefferson, the third of ten",
-        "Line_02": "children, was born on April 13, 1743",
-        "Line_03": "in Shadwell, Virginia into a planter",
-        "Line_04": "family. His parents were Peter and",
-        "Line_05": "Jane Jefferson. He had six sisters and",
-        "Line_06": "three brothers. At 9 years old",
-        "Line_07": "Jefferson began studying Latin, Greek,",
-        "Line_08": "and French; he also learned to ride",
-        "Line_09": "horses, and began to study nature."
+        "Line_01": "Thomas Jefferson, one of America's Founding",
+        "Line_02": "Fathers, authored the Declaration of",
+        "Line_03": "Independence, a historic document adopted",
+        "Line_04": "by Congress on July 4, 1776. Born into a",
+        "Line_05": "prominent Virginia family, Jefferson later",
+        "Line_06": "served as the third President of the United",
+        "Line_07": "States from 1801 to 1809. His contributions",
+        "Line_08": "to American democracy and his advocacy for",
+        "Line_09": "education and individual liberties remain",
+        "Line_10": "enduring legacies of his presidency."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0424": {
       "Name": "Lesson_0424",
@@ -7036,17 +7038,17 @@
       }],
       "Description": "Food Allergies",
       "Lines": [{
-        "Line_01": "Food allergies are fairly common",
-        "Line_02": "amongst adults and even more so among",
-        "Line_03": "children. Around 2% of adults and 8%",
-        "Line_04": "of children suffer from some type of",
-        "Line_05": "food allergy where the immune system",
-        "Line_06": "makes a mistake and thinks a certain",
-        "Line_07": "food protein is dangerous and attacks",
-        "Line_08": "it. Common food alergies are to",
-        "Line_09": "Seafood and peanuts."
+        "Line_01": "Food allergies affect millions of people",
+        "Line_02": "worldwide, with approximately 32 million",
+        "Line_03": "Americans having some form of food allergy.",
+        "Line_04": "These allergies can range from mild reactions",
+        "Line_05": "like itching to severe anaphylaxis. The most",
+        "Line_06": "common allergens include peanuts, tree nuts,",
+        "Line_07": "shellfish, milk, eggs, soy, and wheat. Avoidance",
+        "Line_08": "of allergens is critical, and many people carry",
+        "Line_09": "epinephrine auto-injectors for emergencies."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0425": {
       "Name": "Lesson_0425",
@@ -7057,9 +7059,9 @@
       }],
       "Description": "Test 46: Play Words 22",
       "Lines": [{
-        "Line_01": "family around certain third Service began study circle surface among being perfect federal include where known"
+        "Line_01": "nature dolphin charm select boat turtle storm mobile market gallery ground mobile strong secure store common college"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0426": {
       "Name": "Lesson_0426",
@@ -7070,17 +7072,17 @@
       }],
       "Description": "King Kong",
       "Lines": [{
-        "Line_01": "King Kong is a fictional character, a",
-        "Line_02": "giant movie monster resembling a",
-        "Line_03": "gorilla, that has appeared in several",
-        "Line_04": "movies since 1933. These include the",
-        "Line_05": "groundbreaking 1933 movie, the film",
-        "Line_06": "remakes of 1976 and 2005, as well as",
-        "Line_07": "various sequels of the first two",
-        "Line_08": "films. The character has become one of",
-        "Line_09": "the world's most famous movie icons."
+        "Line_01": "King Kong, a legendary giant ape, has",
+        "Line_02": "been an enduring symbol in cinema",
+        "Line_03": "since his debut in the groundbreaking",
+        "Line_04": "1933 film. Appearing in later remakes",
+        "Line_05": "like the 1976 and 2005 versions, as well",
+        "Line_06": "as sequels expanding his cinematic",
+        "Line_07": "legacy. This iconic creature captivated",
+        "Line_08": "audiences worldwide, cementing its",
+        "Line_09": "status as a movie legend."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0427": {
       "Name": "Lesson_0427",
@@ -7091,18 +7093,18 @@
       }],
       "Description": "Great Eclipse",
       "Lines": [{
-        "Line_01": "In 2017, the mainland U.S. will",
-        "Line_02": "experience its first solar eclipse in",
-        "Line_03": "almost 30 years. At the time of",
-        "Line_04": "writing, the ecipse is scheduled to",
-        "Line_05": "occur on August 21, 2017. Some are",
-        "Line_06": "calling it the Great American Eclipse",
-        "Line_07": "because the moon's shadow will cross",
-        "Line_08": "twelve states from Oregon in the",
-        "Line_09": "Pacific Northwest to Suth Carolina in",
-        "Line_10": "the Southeast."
+        "Line_01": "The upcoming solar eclipse in August",
+        "Line_02": "2017 will mark a significant event",
+        "Line_03": "for mainland U.S., heralding the first",
+        "Line_04": "total eclipse visible across twelve",
+        "Line_05": "states from Oregon to South Carolina.",
+        "Line_06": "Known as the Great American Eclipse,",
+        "Line_07": "it's a rare celestial phenomenon",
+        "Line_08": "captivating astronomers and the public",
+        "Line_09": "alike, scheduled precisely on August 21,",
+        "Line_10": "2017."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0428": {
       "Name": "Lesson_0428",
@@ -7113,18 +7115,18 @@
       }],
       "Description": "Great Depression",
       "Lines": [{
-        "Line_01": "The timing of the Great Depression",
-        "Line_02": "varied across nations, but in most",
-        "Line_03": "countries it started in 1929 and",
-        "Line_04": "lasted until the late 1930s or early",
-        "Line_05": "1940s. It was the longest, most",
-        "Line_06": "widespread, and deepest depression of",
-        "Line_07": "the 20th century. In the 21st century,",
-        "Line_08": "the Great Depression is commonly used",
-        "Line_09": "as an example of how far the world's",
-        "Line_10": "economy can decline."
+        "Line_01": "The Great Depression, a global economic",
+        "Line_02": "crisis, commenced in 1929 and persisted",
+        "Line_03": "throughout the early 1940s. It marked",
+        "Line_04": "a significant downturn in economies",
+        "Line_05": "worldwide, with severe impacts on",
+        "Line_06": "employment, industry, and commerce.",
+        "Line_07": "During this era, unemployment rates",
+        "Line_08": "soared to unprecedented levels, leading",
+        "Line_09": "to widespread poverty and social",
+        "Line_10": "disruption across many nations."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0429": {
       "Name": "Lesson_0429",
@@ -7135,17 +7137,18 @@
       }],
       "Description": "Jovian Planets",
       "Lines": [{
-        "Line_01": "The four outer planets, or gas giants,",
-        "Line_02": "collectively make up 99% of the mass",
-        "Line_03": "known to orbit the Sun. Jupiter",
-        "Line_04": "and Saturn are each many tens of times the",
-        "Line_05": "mass of the Earth and consist",
-        "Line_06": "overwhelmingly of hydrogen and helium.",
-        "Line_07": "Uranus and Neptune are far less",
-        "Line_08": "massive (<20 Earth masses) and possess",
-        "Line_09": "ore ice in their makeup."
+        "Line_01": "The Jovian planets, also known as gas giants,",
+        "Line_02": "are the largest planets in our solar system.",
+        "Line_03": "Jupiter and Saturn dominate the outer solar system,",
+        "Line_04": "both composed primarily of hydrogen and helium gases.",
+        "Line_05": "Uranus and Neptune, although smaller in size,",
+        "Line_06": "are distinct with their icy compositions and unique rings.",
+        "Line_07": "Together, these planets account for nearly all the mass",
+        "Line_08": "orbiting the Sun beyond the asteroid belt.",
+        "Line_09": "Their colossal sizes and diverse features make them",
+        "Line_10": "fascinating subjects of study for astronomers."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0430": {
       "Name": "Lesson_0430",
@@ -7156,9 +7159,9 @@
       }],
       "Description": "Test 47: Play Words 23",
       "Lines": [{
-        "Line_01": "solar until because These example economy become orbit various cross mainland twelve their famous include first"
+        "Line_01": "tally alone browned summer vote home man simple live yourself night stay homework tree straw starve movement lemon summer coat"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0431": {
       "Name": "Lesson_0431",
@@ -7169,15 +7172,17 @@
       }],
       "Description": "Independence Day",
       "Lines": [{
-        "Line_01": "Independence Day in the United States",
-        "Line_02": "of America is celebrated on the 4th of",
-        "Line_03": "July. On this day, the Declaration of",
-        "Line_04": "Independence was aproved by Congress.",
-        "Line_05": "This document declared that the 13",
-        "Line_06": "colonies were a new nation, and",
-        "Line_07": "independent from the British Empire."
+        "Line_01": "Independence Day, celebrated on July 4th,",
+        "Line_02": "marks the adoption of the Declaration of",
+        "Line_03": "Independence in 1776. It declared the 13",
+        "Line_04": "American colonies as a new nation",
+        "Line_05": "independent from British rule. The day is",
+        "Line_06": "honored with fireworks, parades, and",
+        "Line_07": "gatherings across the United States. The",
+        "Line_08": "Declaration asserted principles of",
+        "Line_09": "self-governance, liberty, and equality."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0432": {
       "Name": "Lesson_0432",
@@ -7188,17 +7193,17 @@
       }],
       "Description": "Carbon Dioxide",
       "Lines": [{
-        "Line_01": "When humans burn fossil fuels like gas",
-        "Line_02": "and oil, a gas caled carbon dioxide",
-        "Line_03": "is released into the air. There, it",
-        "Line_04": "reacts with water vapor. Some of the",
-        "Line_05": "carbon falls back to Earth as rain.",
-        "Line_06": "This causes the level of carbon in the",
-        "Line_07": "ocean to rise. The carbon prevents",
-        "Line_08": "oysters and clams from growing thick,",
-        "Line_09": "hard shells. It also hurts coral."
+        "Line_01": "Carbon dioxide (CO2) is a greenhouse gas",
+        "Line_02": "that contributes to global warming when",
+        "Line_03": "released into the atmosphere from burning",
+        "Line_04": "fossil fuels like gas and oil. This gas",
+        "Line_05": "interacts with water vapor, affecting",
+        "Line_06": "rainfall patterns and ocean acidity. It",
+        "Line_07": "impacts marine life such as shellfish and",
+        "Line_08": "coral reefs, hindering their growth and",
+        "Line_09": "survival."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0433": {
       "Name": "Lesson_0433",
@@ -7209,18 +7214,19 @@
       }],
       "Description": "Diesel Engines",
       "Lines": [{
-        "Line_01": "Cars with diesel engines tend to have",
-        "Line_02": "better fuel economy, which means they",
-        "Line_03": "can travel further on a single tank of",
-        "Line_04": "gas. Teh drawback is that diesel",
-        "Line_05": "engines emit gases called oxides of",
-        "Line_06": "nitrogen, which pollute the",
-        "Line_07": "environment. NOx can lead to acid",
-        "Line_08": "rain, smog, and ozone. High levels of",
-        "Line_09": "NOx in the atmosphere can make it hard",
-        "Line_10": "to breathe."
+        "Line_01": "Diesel engines are known for their superior",
+        "Line_02": "fuel efficiency, allowing vehicles to travel",
+        "Line_03": "farther per tank of fuel. However, they emit",
+        "Line_04": "nitrogen oxides (NOx) that contribute to",
+        "Line_05": "environmental pollution. NOx pollutants can",
+        "Line_06": "lead to acid rain, smog formation, and ozone",
+        "Line_07": "depletion, impacting air quality and human",
+        "Line_08": "health. Additionally, sulfur dioxide (SO2),",
+        "Line_09": "another byproduct, acts as a potent greenhouse",
+        "Line_10": "gas, albeit cooling the atmosphere more",
+        "Line_11": "effectively than carbon dioxide (CO2) warms it."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0434": {
       "Name": "Lesson_0434",
@@ -7231,18 +7237,17 @@
       }],
       "Description": "Stay-at-home Dads",
       "Lines": [{
-        "Line_01": "Fathers are more involved in their",
-        "Line_02": "children's lives today than in the",
-        "Line_03": "past, says a new report from the",
-        "Line_04": "American Academy of Pediatrics. It",
-        "Line_05": "draws on census data, surveys, and",
-        "Line_06": "academic research. Among the findings,",
-        "Line_07": "the number of stay-at-home dads has",
-        "Line_08": "increased by more than 60%. There were",
-        "Line_09": "98,000 n 2003 and 159,000 in 2012,",
-        "Line_10": "according to the U.S. Census."
+        "Line_01": "Modern fathers are increasingly",
+        "Line_02": "involved in their children's lives,",
+        "Line_03": "a trend highlighted by the American",
+        "Line_04": "Academy of Pediatrics. Recent data",
+        "Line_05": "from censuses and surveys reveal a",
+        "Line_06": "significant rise in stay-at-home dads.",
+        "Line_07": "Between 2003 and 2012, their numbers",
+        "Line_08": "surged by over 60%, reaching 159,000",
+        "Line_09": "according to the U.S. Census Bureau."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0435": {
       "Name": "Lesson_0435",
@@ -7253,9 +7258,9 @@
       }],
       "Description": "Test 48: Play Words 24",
       "Lines": [{
-        "Line_01": "drawback their level number water Academy Among economy United single declared colonies ocean research better"
+        "Line_01": "waterway array decay keyboard economy wayward trek mayday academy motion pathway wormhole average breakaway timber gamma"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0436": {
       "Name": "Lesson_0436",
@@ -7266,17 +7271,21 @@
       }],
       "Description": "The US President",
       "Lines": [{
-        "Line_01": "The president of the United States of",
-        "Line_02": "America is both the head of state and",
-        "Line_03": "head of the government. The office of",
-        "Line_04": "president was created in the United",
-        "Line_05": "States Constitution in 1788. The first",
-        "Line_06": "president took office in 1789. The",
-        "Line_07": "president serves as chief executive and",
-        "Line_08": "is in charge of the executive branch",
-        "Line_09": "of the United States government."
+        "Line_01": "The presidency in the United States is a",
+        "Line_02": "unique blend of ceremonial duties and",
+        "Line_03": "administrative power. The role dates back",
+        "Line_04": "to the establishment of the office in the",
+        "Line_05": "late 18th century. From Washington to",
+        "Line_06": "Biden, each president has shaped the",
+        "Line_07": "nation's history and policies. The",
+        "Line_08": "president oversees the federal government",
+        "Line_09": "and is responsible for diplomatic",
+        "Line_10": "relations, law enforcement, and military",
+        "Line_11": "defense. The powers of the presidency",
+        "Line_12": "continue to evolve with the challenges of",
+        "Line_13": "the modern era."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0437": {
       "Name": "Lesson_0437",
@@ -7287,18 +7296,20 @@
       }],
       "Description": "Mexican Parrots",
       "Lines": [{
-        "Line_01": "In Mexico, bird habitats have been",
-        "Line_02": "destroyed as forests and trees have",
-        "Line_03": "been cut down to make room for farms",
-        "Line_04": "and ranches. Right now, scientists are",
-        "Line_05": "working to get an accurate count of",
-        "Line_06": "the population. The last study,",
-        "Line_07": "pubished in 1994, estimated the parrot",
-        "Line_08": "population to be 3,000 to 6,500 birds.",
-        "Line_09": "That's down from more than 100,000 in",
-        "Line_10": "the 1950's."
+        "Line_01": "The conservation efforts for Mexican",
+        "Line_02": "parrots face challenges due to habitat",
+        "Line_03": "loss and illegal pet trade. These",
+        "Line_04": "colorful birds once thrived in Mexico's",
+        "Line_05": "forests, but deforestation has reduced",
+        "Line_06": "their numbers significantly. Recent",
+        "Line_07": "studies indicate their population now",
+        "Line_08": "stands at approximately 5,000 to 7,000",
+        "Line_09": "birds, a sharp decline from historical",
+        "Line_10": "estimates. Conservationists are working",
+        "Line_11": "to protect their habitats and combat",
+        "Line_12": "illegal trafficking."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0438": {
       "Name": "Lesson_0438",
@@ -7309,18 +7320,20 @@
       }],
       "Description": "Gold Rush",
       "Lines": [{
-        "Line_01": "In 1776, colonists from Spain",
-        "Line_02": "established a fort at the Golden Gate",
-        "Line_03": "and a mission named for Francis of",
-        "Line_04": "Assisi. The California Gold Rush of",
-        "Line_05": "1849 propelled the city into a period",
-        "Line_06": "of rapid growth, increasing the",
-        "Line_07": "population in one year frmo 1,000 to",
-        "Line_08": "25,000, and thus transforming it into",
-        "Line_09": "the largest city on the West Coast at",
-        "Line_10": "the time."
+        "Line_01": "The California Gold Rush, starting in",
+        "Line_02": "1848, attracted people from around the",
+        "Line_03": "world to seek fortune in the Sierra",
+        "Line_04": "Nevada foothills. The discovery of gold",
+        "Line_05": "by James W. Marshall at Sutter's Mill",
+        "Line_06": "triggered a frenzy that saw the city of",
+        "Line_07": "San Francisco's population explode from",
+        "Line_08": "a modest settlement to a bustling",
+        "Line_09": "metropolis of 300,000 by the 1860s.",
+        "Line_10": "The Gold Rush forever changed the",
+        "Line_11": "landscape of California, contributing to",
+        "Line_12": "its rapid growth and cultural diversity."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0439": {
       "Name": "Lesson_0439",
@@ -7331,17 +7344,17 @@
       }],
       "Description": "Pluto",
       "Lines": [{
-        "Line_01": "Pluto is the 2nd most massive known",
-        "Line_02": "dwarf planet in the solar system and",
-        "Line_03": "the 10th most massive body observed",
-        "Line_04": "directly orbiting the Sun. Originally",
-        "Line_05": "classified as the 9th planet from the",
-        "Line_06": "Sun, Pluto was recategorized as a",
-        "Line_07": "dwarf planet and plutoid due to the",
-        "Line_08": "discovery that it is 1 of many large",
-        "Line_09": "bodies in the newly charted Kuiper belt."
+        "Line_01": "Pluto, once considered the smallest and",
+        "Line_02": "farthest planet from the Sun, orbits",
+        "Line_03": "beyond Neptune in the Kuiper Belt.",
+        "Line_04": "Discovered in 1930 by Clyde Tombaugh,",
+        "Line_05": "Pluto's status as a planet was",
+        "Line_06": "redefined in 2006 by the International",
+        "Line_07": "Astronomical Union. Despite its small",
+        "Line_08": "size, Pluto has 5 known moons, with",
+        "Line_09": "Charon being the largest and closest."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0440": {
       "Name": "Lesson_0440",
@@ -7352,10 +7365,11 @@
       }],
       "Description": "Test 49: Play Words 25",
       "Lines": [{
-        "Line_01": "after state ninth first Right study within second several charge period chief United planet Coast Solar branch count"
+        "Line_01": "early create voice art own freedom new leader toward ever almost often always value why city over might last until one"
       }],
-      "Refactored": false
+      "Refactored": true
     },
+    //******************************
     "Lesson_0441": {
       "Name": "Lesson_0441",
       "Number": 441,
@@ -7365,18 +7379,17 @@
       }],
       "Description": "Mexico",
       "Lines": [{
-        "Line_01": "First inhabited more than 10,000 years",
-        "Line_02": "ago, the cultures that developed in",
-        "Line_03": "Mexico became one of the cradles of",
-        "Line_04": "civilization. During the 300 year rule",
-        "Line_05": "by the Spanish, Mexico became a",
-        "Line_06": "crossroad for the people and cultures",
-        "Line_07": "of Europe, Africa, and Asia. The",
-        "Line_08": "government of Mexico actively promotes",
-        "Line_09": "shared cultural traits in order to",
-        "Line_10": "create a national identity."
+        "Line_01": "Mexico, with a history spanning over",
+        "Line_02": "10,000 years, is a cultural mosaic",
+        "Line_03": "shaped by diverse civilizations. The",
+        "Line_04": "Spanish colonization for 300 years",
+        "Line_05": "brought influences from Europe, Africa,",
+        "Line_06": "and Asia, enriching its cultural",
+        "Line_07": "landscape. Today, Mexico embraces its",
+        "Line_08": "shared heritage, fostering a strong",
+        "Line_09": "national identity."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0442": {
       "Name": "Lesson_0442",
@@ -7387,17 +7400,16 @@
       }],
       "Description": "The Moon",
       "Lines": [{
-        "Line_01": "The Moon is in synchronous rotation",
-        "Line_02": "with Earth. This means it always shows",
-        "Line_03": "Earth the same face with its near side",
-        "Line_04": "marked by dark volcanic maria that",
-        "Line_05": "fills the spaces between the crustal",
-        "Line_06": "highlands and impact craters. It is",
-        "Line_07": "the brightest object in the sky after",
-        "Line_08": "the Sun, although its surface is",
-        "Line_09": "actually dark."
+        "Line_01": "The Moon, Earth's natural satellite,",
+        "Line_02": "is tidally locked, showing only one",
+        "Line_03": "side to Earth. Its surface features",
+        "Line_04": "include dark volcanic plains called",
+        "Line_05": "maria, contrasting with bright",
+        "Line_06": "cratered highlands. Despite appearing",
+        "Line_07": "bright, the Moon's surface is actually",
+        "Line_08": "darker than it seems."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0443": {
       "Name": "Lesson_0443",
@@ -7408,18 +7420,19 @@
       }],
       "Description": "Oil",
       "Lines": [{
-        "Line_01": "The word oil is used for many",
-        "Line_02": "different kinds of liquids. Oil usually",
-        "Line_03": "does not mix with water. Some oils are",
-        "Line_04": "made from plants and used in foods and",
-        "Line_05": "for cooking. Some varieties of plant",
-        "Line_06": "oils are African palm, maize (corn),",
-        "Line_07": "olive, peanut, soy, and sunflower.",
-        "Line_08": "Other kinds of oil are made from crude",
-        "Line_09": "oil (petroleum) which comes from under",
-        "Line_10": "the ground."
+        "Line_01": "Oil is a versatile substance used in",
+        "Line_02": "many applications. It typically",
+        "Line_03": "repels water and exists in various",
+        "Line_04": "forms. Plant-based oils like African",
+        "Line_05": "palm, corn, olive, peanut, soy, and",
+        "Line_06": "sunflower oils are common in cooking",
+        "Line_07": "and food preparation. In contrast,",
+        "Line_08": "petroleum-derived oils, such as crude",
+        "Line_09": "oil, originate from underground",
+        "Line_10": "reservoirs and serve diverse industrial",
+        "Line_11": "and commercial purposes."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0444": {
       "Name": "Lesson_0444",
@@ -7430,17 +7443,18 @@
       }],
       "Description": "Life of Plants",
       "Lines": [{
-        "Line_01": "Plants take water from soil through",
-        "Line_02": "their veins, which are called xylem.",
-        "Line_03": "The water goes to their leaves, which",
-        "Line_04": "take carbon dioxide from the air.",
-        "Line_05": "carbon dioxide mixes with the water.",
-        "Line_06": "Energy from the sun helps this process",
-        "Line_07": "along and turns the combination into a",
-        "Line_08": "sugar called glucose. Glucose is plant",
-        "Line_09": "food, it gives plants energy to grow."
+        "Line_01": "Plants absorb water from the soil",
+        "Line_02": "through their root systems, utilizing",
+        "Line_03": "specialized tissues called xylem. This",
+        "Line_04": "water is transported to their leaves,",
+        "Line_05": "where it combines with carbon dioxide",
+        "Line_06": "taken from the air. Through the process",
+        "Line_07": "of photosynthesis, facilitated by solar",
+        "Line_08": "energy, this mixture is converted into",
+        "Line_09": "glucose, a type of sugar essential for",
+        "Line_10": "plant growth and development."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0445": {
       "Name": "Lesson_0445",
@@ -7451,9 +7465,9 @@
       }],
       "Description": "Test 50: Play Words 26",
       "Lines": [{
-        "Line_01": "number although fatigue Other plant object their before people after Earth always water peanut nunder Energy process"
+        "Line_01": "peanut travel early goal layer year way rely meaty rat relay omega wake legal war tear array goal layer team rate meet lively merry tale"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0446": {
       "Name": "Lesson_0446",
@@ -7464,17 +7478,17 @@
       }],
       "Description": "Iron",
       "Lines": [{
-        "Line_01": "It might only take you a few minutes",
-        "Line_02": "to finish a meal but it takes your",
-        "Line_03": "body around 12 hours before it has",
-        "Line_04": "completely digested the food. The human",
-        "Line_05": "body needs iron to help perform a",
-        "Line_06": "number of important functions. Iron",
-        "Line_07": "helps carry oxygen to parts of your",
-        "Line_08": "body in the form of hemoglobin. Not",
-        "Line_09": "having enough can lead to iron",
-        "Line_10": "deficiency and symptoms such as",
-        "Line_11": "weakness and fatigue."
+        "Line_01": "Iron aids oxygen transport in the body.",
+        "Line_02": "Hemoglobin, facilitated by iron, carries oxygen in blood.",
+        "Line_03": "Deficiency causes fatigue, weakness, and anemia.",
+        "Line_04": "Sources: red meat, beans, leafy greens.",
+        "Line_05": "Vitamin C enhances iron absorption.",
+        "Line_06": "Supports energy production and immune function.",
+        "Line_07": "Symptoms: tiredness, pale skin.",
+        "Line_08": "Excess intake poses health risks.",
+        "Line_09": "Include iron-rich foods for overall health.",
+        "Line_10": "Public health promotes iron-rich diets to prevent deficiency.",
+        "Line_11": "Understanding iron's role is crucial for health maintenance."
       }],
       "Refactored": false
     },
@@ -7487,19 +7501,19 @@
       }],
       "Description": "Refrigeration",
       "Lines": [{
-        "Line_01": "Persians invented a type of evaporative",
-        "Line_02": "cooler known as a Yakhchal around 400",
-        "Line_03": "BCE. It was a dome-shaped object used",
-        "Line_04": "as a means of refrigeration. The items",
-        "Line_05": "meant to be kept cool were stored in",
-        "Line_06": "the subterranean part of this structure",
-        "Line_07": "and since it had this subterranean",
-        "Line_08": "space as well as heat-resistant",
-        "Line_09": "materials, it was capable of storing",
-        "Line_10": "ice or foods in the hot desert",
-        "Line_11": "year-round."
+        "Line_01": "Ancient methods used ice and underground storage.",
+        "Line_02": "Persians developed Yakhchal, a cooler around 400 BCE.",
+        "Line_03": "Yakhchal used evaporative cooling in desert climates.",
+        "Line_04": "It featured heat-resistant materials like clay and straw.",
+        "Line_05": "Modern refrigeration employs compressors and refrigerants.",
+        "Line_06": "It revolutionized food preservation and distribution.",
+        "Line_07": "Cold chains ensure safe transport of perishable goods.",
+        "Line_08": "Understanding enhances food safety and reduces waste.",
+        "Line_09": "Effective systems are critical for global food security.",
+        "Line_10": "Maintaining temperature control in storage is essential.",
+        "Line_11": "Technology evolves, improving efficiency and sustainability."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0448": {
       "Name": "Lesson_0448",
@@ -7510,21 +7524,28 @@
       }],
       "Description": "Muhammad Ali",
       "Lines": [{
-        "Line_01": "Muhammad Ali, the three time world",
-        "Line_02": "heavyweight boxing champion, never",
-        "Line_03": "forgot his roots. He returned to his",
-        "Line_04": "old neighborhood and visited high",
-        "Line_05": "school classmates even after becoming",
-        "Line_06": "one of the most recognizable men in",
-        "Line_07": "the world. Muhammad Ali was born and",
-        "Line_08": "raised in Kentucky, where he started",
-        "Line_09": "boxing at the age of 12.",
-        "Line_10": "Also the author of this application, Haystacks-TT, has",
-        "Line_11": "seen Muhammad Ali in person visiting",
-        "Line_12": "Andrews University Pioneer Memorial Church",
-        "Line_13": "In Berrien Springs Michigan"
+        "Line_01": "Muhammad Ali, born Cassius Marcellus Clay Jr.,",
+        "Line_02": "was an American professional boxer and activist.",
+        "Line_03": "He rose to prominence in the 1960s, winning an",
+        "Line_04": "Olympic gold medal in boxing at age 18.",
+        "Line_05": "Ali converted to Islam and changed his name",
+        "Line_06": "after winning the world heavyweight title in 1964.",
+        "Line_07": "Known for his charisma and outspoken views,",
+        "Line_08": "Ali was a vocal advocate for civil rights",
+        "Line_09": "and opposed the Vietnam War, which led to",
+        "Line_10": "his temporary suspension from boxing.",
+        "Line_11": "He regained his titles multiple times and retired",
+        "Line_12": "with an impressive record, inspiring millions worldwide.",
+        "Line_13": "In retirement, he devoted himself to humanitarian",
+        "Line_14": "work and Parkinson's disease advocacy until his passing",
+        "Line_15": "in 2016. Muhammad Ali's legacy transcends boxing,",
+        "Line_16": "symbolizing courage, conviction, and the pursuit of justice.",
+        "Line_17": "Also the author of this application, Haystacks-TT, has",
+        "Line_18": "seen Muhammad Ali in person visiting",
+        "Line_19": "Andrews University Pioneer Memorial Church",
+        "Line_20": "In Berrien Springs Michigan"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0449": {
       "Name": "Lesson_0449",
@@ -7535,17 +7556,17 @@
       }],
       "Description": "Music Production",
       "Lines": [{
-        "Line_01": "There are many more people working on",
-        "Line_02": "pop music than those that are seen on",
-        "Line_03": "stage or in the videos. These people",
-        "Line_04": "include the studio, production,",
-        "Line_05": "distribution and retail staff, each of",
-        "Line_06": "which help the musicians to record",
-        "Line_07": "with extensive quality control, and",
-        "Line_08": "sell it to the stores and finally to",
-        "Line_09": "people."
+        "Line_01": "Music production involves a diverse team",
+        "Line_02": "beyond the spotlight. From studio engineers",
+        "Line_03": "to distribution managers, each plays a crucial",
+        "Line_04": "role in bringing music to audiences worldwide.",
+        "Line_05": "Did you know? Approximately 20,000 new songs",
+        "Line_06": "are uploaded to Spotify every day, highlighting",
+        "Line_07": "the scale of modern music production and consumption.",
+        "Line_08": "These professionals ensure quality control",
+        "Line_09": "from recording to retail, shaping the music industry."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0450": {
       "Name": "Lesson_0450",
@@ -7556,10 +7577,11 @@
       }],
       "Description": "Test 51: Play Words 27",
       "Lines": [{
-        "Line_01": "Include quality Persians meal Video structure muscle iron fatigue cooler music Oxygen Memory retail Power function"
+        "Line_01": "Capillary grand folly meter Legalized oak king Vast ocean Hat vex Gate Joyful excellence journey Mighty tiger Lily owl Yell"
       }],
-      "Refactored": false
+      "Refactored": true
     },
+    //******************************
     "Lesson_0451": {
       "Name": "Lesson_0451",
       "Number": 451,
