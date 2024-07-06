@@ -8574,7 +8574,6 @@
       }],
       "Refactored": true
     },
-    //******************************
     "Lesson_0501": {
       "Name": "Lesson_0501",
       "Number": 501,
@@ -8584,16 +8583,17 @@
       }],
       "Description": "Library",
       "Lines": [{
-        "Line_01": "A library is not a bookstore (a store",
-        "Line_02": "that sells books). Many places have a",
-        "Line_03": "public library, where anybody can join",
-        "Line_04": "if they live in the area. With a",
-        "Line_05": "library card, people can burrow books",
-        "Line_06": "and take them home for several weeks.",
-        "Line_07": "It does not cost money to get a",
-        "Line_08": "library card at most public libraries."
+        "Line_01": "Libraries are places where books are",
+        "Line_02": "kept for public use. They offer many",
+        "Line_03": "resources like books, magazines, and",
+        "Line_04": "computers. Anyone in the community",
+        "Line_05": "can use a library card to borrow",
+        "Line_06": "items for free. Libraries often host",
+        "Line_07": "events such as book readings and",
+        "Line_08": "workshops. Many have digital catalogs",
+        "Line_09": "to help people find what they need."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0502": {
       "Name": "Lesson_0502",
@@ -8604,17 +8604,17 @@
       }],
       "Description": "Coconut Pickers",
       "Lines": [{
-        "Line_01": "Thailand has been raising and training",
-        "Line_02": "pigtailed macaques, a species of monkey",
-        "Line_03": "common to the area, to pick coconuts",
-        "Line_04": "for around 400 years. Coconut farmers",
-        "Line_05": "in Sri Lanka, Malaysia, India and",
-        "Line_06": "other countries in the region sometimes",
-        "Line_07": "rely on monkeys, too. The monkeys",
-        "Line_08": "attend a training school where they",
-        "Line_09": "learn to pick coconuts."
+        "Line_01": "In some regions, monkeys are trained",
+        "Line_02": "to pick coconuts from tall trees.",
+        "Line_03": "In Thailand, this practice has been",
+        "Line_04": "used for centuries. Farmers in India",
+        "Line_05": "and Malaysia also train monkeys to",
+        "Line_06": "help with harvesting. These monkeys",
+        "Line_07": "are skilled and can pick many",
+        "Line_08": "coconuts quickly. The practice is",
+        "Line_09": "a traditional method in many places."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0503": {
       "Name": "Lesson_0503",
@@ -8625,17 +8625,17 @@
       }],
       "Description": "Thoreau",
       "Lines": [{
-        "Line_01": "'Go confidently in the direction of",
-        "Line_02": "your dreams. Live the life you have",
-        "Line_03": "imagined.' Henry David Thoreau was a",
-        "Line_04": "19th century American essayist, poet,",
-        "Line_05": "and philosopher. Among his lasting",
-        "Line_06": "contributions are his writings on",
-        "Line_07": "natural history and philosophy, in",
-        "Line_08": "which he anticipated the methods and",
-        "Line_09": "findings of ecology and environmental history"
+        "Line_01": "Henry David Thoreau authored 'Walden'",
+        "Line_02": "in 1854. He was known for his thoughts",
+        "Line_03": "on simple living. Thoreau's philosophy",
+        "Line_04": "focused on nature and self-reliance.",
+        "Line_05": "His works inspired environmentalism.",
+        "Line_06": "Thoreau was also a strong advocate of",
+        "Line_07": "civil disobedience. His ideas were",
+        "Line_08": "influential in the 20th century.",
+        "Line_09": "Thoreau's legacy continues to impact many."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0504": {
       "Name": "Lesson_0504",
@@ -8646,19 +8646,19 @@
       }],
       "Description": "Recycling",
       "Lines": [{
-        "Line_01": "Recycling is turning the materials from",
-        "Line_02": "trash into something new. Glass, paper,",
-        "Line_03": "plastic, and metals such as aluminum",
-        "Line_04": "and steel are all commonly recycled.",
-        "Line_05": "Dead plants and some kitchen trash can",
-        "Line_06": "be recycled through composting.",
-        "Line_07": "Recycling is different than reusing,",
-        "Line_08": "which is where old things, such as",
-        "Line_09": "clothes, are donated or given a new",
-        "Line_10": "use instead of being thrown out in the trash,",
-        "Line_11": "and ending up in the landfill."
+        "Line_01": "Recycling conserves natural resources.",
+        "Line_02": "About 75% of waste is recyclable, yet",
+        "Line_03": "we only recycle about 30% of it. Paper",
+        "Line_04": "recycling can save trees and water.",
+        "Line_05": "Recycling one aluminum can save enough",
+        "Line_06": "energy to run a TV for 3 hours. Glass",
+        "Line_07": "can be recycled endlessly without loss.",
+        "Line_08": "Plastic recycling reduces landfill waste.",
+        "Line_09": "Composting organic waste enriches soil.",
+        "Line_10": "Recycling reduces the need for new raw",
+        "Line_11": "materials and decreases pollution."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0505": {
       "Name": "Lesson_0505",
@@ -8669,17 +8669,17 @@
       }],
       "Description": "Dolphins",
       "Lines": [{
-        "Line_01": "There are two species in the Delphinus",
-        "Line_02": "genus, the Short-beaked Common Dolphin",
-        "Line_03": "(Delphinus delphis), and the",
-        "Line_04": "Long-beaked Common Dolphin (Delphinus",
-        "Line_05": "capensis). Some studies say there is a",
-        "Line_06": "third species, the 'Arabian Common",
-        "Line_07": "Dolphin' (Delphinus tropicalis), which",
-        "Line_08": "has a long, thin beak and is found in",
-        "Line_09": "the Indian Ocean and the Red Sea."
+        "Line_01": "Dolphins are known for their intelligence.",
+        "Line_02": "They use echolocation to find their prey.",
+        "Line_03": "Dolphins can swim up to 25 miles per hour.",
+        "Line_04": "There are over 40 species of dolphins.",
+        "Line_05": "The largest dolphin is the orca, or killer whale.",
+        "Line_06": "Dolphins communicate using clicks and whistles.",
+        "Line_07": "They live in social groups called pods.",
+        "Line_08": "Some dolphins can hold their breath for 15 minutes.",
+        "Line_09": "Dolphins can jump up to 20 feet out of the water."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0506": {
       "Name": "Lesson_0506",
@@ -8690,18 +8690,18 @@
       }],
       "Description": "Disneyland",
       "Lines": [{
-        "Line_01": "The first Disneyland opened on July",
-        "Line_02": "17, 1955. It is one of the most",
-        "Line_03": "popular theme parks in the world.",
-        "Line_04": "Disneyland celebrated its golden",
-        "Line_05": "anniversary on July 17, 2005. In 2001,",
-        "Line_06": "the area around the park expanded into",
-        "Line_07": "a resort with 3 hotels, a shopping and",
-        "Line_08": "dining area called Downtown Disney and",
-        "Line_09": "a second theme park, Disney's",
-        "Line_10": "California Adventure."
+        "Line_01": "Disneyland was inspired by Walt Disney's",
+        "Line_02": "desire to create a park for families.",
+        "Line_03": "The park is located in Anaheim, California.",
+        "Line_04": "Disneyland covers 85 acres of land.",
+        "Line_05": "Over 700 million guests have visited.",
+        "Line_06": "The park has nine themed lands.",
+        "Line_07": "Main Street, U.S.A. is the entrance area.",
+        "Line_08": "Sleeping Beauty Castle is an iconic symbol.",
+        "Line_09": "Disneyland employs about 30,000 people.",
+        "Line_10": "It is known as the happiest place on earth."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0507": {
       "Name": "Lesson_0507",
@@ -8712,16 +8712,17 @@
       }],
       "Description": "Reasons to Recycle",
       "Lines": [{
-        "Line_01": "Recycling redueces the amount of raw",
-        "Line_02": "materials and energy used to make",
-        "Line_03": "things, Most of the time, it takes",
-        "Line_04": "less energy to recycle trash than to",
-        "Line_05": "throw it away, The Economist says.",
-        "Line_06": "Recycling helps minimize the amount of",
-        "Line_07": "garbage that ends up in trash dumps",
-        "Line_08": "and landfills around the world."
+        "Line_01": "Recycling conserves resources like metal",
+        "Line_02": "and paper. It reduces the need for new",
+        "Line_03": "raw materials. In 2018, 67 million tons",
+        "Line_04": "of waste were recycled in the U.S.",
+        "Line_05": "Recycling also saves energy. Producing",
+        "Line_06": "recycled aluminum uses 95% less energy.",
+        "Line_07": "It reduces greenhouse gas emissions.",
+        "Line_08": "Recycling helps reduce landfill space.",
+        "Line_09": "It creates jobs in the recycling industry."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0508": {
       "Name": "Lesson_0508",
@@ -8732,19 +8733,17 @@
       }],
       "Description": "Light Year",
       "Lines": [{
-        "Line_01": "A light year is the distance that",
-        "Line_02": "light travels through empty space in",
-        "Line_03": "one year. Since the speed of light is",
-        "Line_04": "about 300,000 km per second (about",
-        "Line_05": "186,000 miles per second), then one",
-        "Line_06": "light year is about 10 trillion",
-        "Line_07": "kilometers (about 6 trillion miles). A",
-        "Line_08": "light year is not a length of time.",
-        "Line_09": "Light years are used in astronomy",
-        "Line_10": "to measure distance because the",
-        "Line_11": "universe is so huge!"
+        "Line_01": "A light year is how far light travels",
+        "Line_02": "in a year. Light moves at 300,000 km",
+        "Line_03": "per second, or about 186,000 miles.",
+        "Line_04": "So, one light year equals 10 trillion",
+        "Line_05": "km, or roughly 6 trillion miles. It",
+        "Line_06": "is a distance measure, not time.",
+        "Line_07": "Astronomers use light years to gauge",
+        "Line_08": "space distances due to vastness.",
+        "Line_09": "Stars and galaxies are light years away."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0509": {
       "Name": "Lesson_0509",
@@ -8755,18 +8754,18 @@
       }],
       "Description": "Freedom of Speech",
       "Lines": [{
-        "Line_01": "Few countries with 'free speech' let",
-        "Line_02": "everything be said. For example, the",
-        "Line_03": "U.S. Supreme Court said that it is",
-        "Line_04": "against the law to shout 'fire' in a",
-        "Line_05": "crowded theater if there is no fire",
-        "Line_06": "because it might cause people to",
-        "Line_07": "panic. The International Covenant on",
-        "Line_08": "Civil and Political Rights also says",
-        "Line_09": "that it is not okay to cause national,",
-        "Line_10": "racial, or religious hatred."
+        "Line_01": "Freedom of speech allows people to",
+        "Line_02": "express their ideas and opinions.",
+        "Line_03": "However, not all speech is protected.",
+        "Line_04": "For instance, laws prevent slander,",
+        "Line_05": "libel, and incitement to violence.",
+        "Line_06": "Many countries have specific limits",
+        "Line_07": "to ensure public safety and order.",
+        "Line_08": "Hate speech laws vary globally, but",
+        "Line_09": "many protect against harmful rhetoric.",
+        "Line_10": "Balancing free speech and harm is key."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0510": {
       "Name": "Lesson_0510",
@@ -8777,19 +8776,18 @@
       }],
       "Description": "Lake Okeechobee",
       "Lines": [{
-        "Line_01": "In the center of southern Florida is a",
-        "Line_02": "very big lake called Lake Okeechobee.",
-        "Line_03": "It is the seventh largest freshwater",
-        "Line_04": "lake in the United States and the",
-        "Line_05": "second largest freshwater lake entirely",
-        "Line_06": "within the lower 48 states. Okeechobee",
-        "Line_07": "is 730 square miles, about half the",
-        "Line_08": "size of the state of Rhode Island, and",
-        "Line_09": "is very shallow for a lake of its size."
+        "Line_01": "Lake Okeechobee, in southern Florida,",
+        "Line_02": "is a vital part of the region's ecology.",
+        "Line_03": "It serves as a reservoir, covering 730",
+        "Line_04": "square miles. Despite its size, it is",
+        "Line_05": "remarkably shallow, with an average",
+        "Line_06": "depth of only 9 feet. Okeechobee is",
+        "Line_07": "crucial for flood control and supports",
+        "Line_08": "diverse wildlife, including birds and",
+        "Line_09": "aquatic species like bass and catfish."
       }],
-      "Refactored": false
+      "Refactored": true
     },
-    //******************************
     "Lesson_0511": {
       "Name": "Lesson_0511",
       "Number": 511,
@@ -8799,18 +8797,17 @@
       }],
       "Description": "Romeo and Juliet",
       "Lines": [{
-        "Line_01": "Romeo and Juliet is one of the most",
-        "Line_02": "famous plays written by William",
-        "Line_03": "Shakespeare. It tells a story of two",
-        "Line_04": "young people who love each other",
-        "Line_05": "eternally, but have to overcome",
-        "Line_06": "numerous obstacles to be together. They",
-        "Line_07": "both come from noble families, however",
-        "Line_08": "the Capulets and the Montagues are",
-        "Line_09": "mortal enemies. The story is set in",
-        "Line_10": "the beautiful Italian city of Verona."
+        "Line_01": "Shakespeare's 'Romeo and Juliet' is a",
+        "Line_02": "timeless tragedy of love and fate. The",
+        "Line_03": "young lovers, Romeo and Juliet, are",
+        "Line_04": "caught in a feud between their families,",
+        "Line_05": "the Montagues and Capulets, leading to",
+        "Line_06": "tragic consequences. The play explores",
+        "Line_07": "themes of passion, youth, and societal",
+        "Line_08": "conflict against the backdrop of Verona's",
+        "Line_09": "romantic streets and ancient rivalry."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0512": {
       "Name": "Lesson_0512",
@@ -8821,18 +8818,18 @@
       }],
       "Description": "Police Dogs",
       "Lines": [{
-        "Line_01": "There are dogs that are trained to",
-        "Line_02": "smell for diseases in the human body",
-        "Line_03": "or to find bombs or illegal drugs.",
-        "Line_04": "These dogs sometimes help police in",
-        "Line_05": "airports or other areas. Sniffer dogs",
-        "Line_06": "(usually beagles) are sometimes trained",
-        "Line_07": "for this job. Dogs have even been sent",
-        "Line_08": "by Russians into outer space. The",
-        "Line_09": "first dog sent to space was named",
-        "Line_10": "Laika."
+        "Line_01": "Police dogs are highly trained canines",
+        "Line_02": "used in law enforcement to detect",
+        "Line_03": "drugs, explosives, and track down",
+        "Line_04": "criminals. These dogs, such as German",
+        "Line_05": "Shepherds and Belgian Malinois, undergo",
+        "Line_06": "rigorous training to develop their keen",
+        "Line_07": "sense of smell and obedience skills,",
+        "Line_08": "making them invaluable in operations",
+        "Line_09": "like airport security and search and",
+        "Line_10": "rescue missions."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0513": {
       "Name": "Lesson_0513",
@@ -8843,18 +8840,19 @@
       }],
       "Description": "Alexander G. Bell",
       "Lines": [{
-        "Line_01": "'When one door closes, another door",
-        "Line_02": "opens. But we so often look so long",
-        "Line_03": "and so regretfully upon the closed",
-        "Line_04": "door, that we do not see the ones",
-        "Line_05": "which open for us.' A quote by",
-        "Line_06": "Alexander Graham Bell, the brilliant",
-        "Line_07": "scientist, inventor, and engineer",
-        "Line_08": "credited with patenting the first",
-        "Line_09": "telephone in 1876. He refused to have",
-        "Line_10": "a telephone in his study."
+        "Line_01": "Alexander Graham Bell, a pioneering",
+        "Line_02": "figure in communication technology,",
+        "Line_03": "invented the telephone in 1876. His",
+        "Line_04": "quote 'When one door closes, another",
+        "Line_05": "door opens' reflects his optimistic",
+        "Line_06": "spirit. Bell was also involved in",
+        "Line_07": "aviation and hydrofoils, showing his",
+        "Line_08": "versatility beyond telecommunications.",
+        "Line_09": "Despite his invention, he preferred",
+        "Line_10": "silence in his study, shunning his own",
+        "Line_11": "invention."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0514": {
       "Name": "Lesson_0514",
@@ -8865,9 +8863,9 @@
       }],
       "Description": "Test 59: Play Words 33",
       "Lines": [{
-        "Line_01": "recycle Officially door Reduce Train center Bookstore Kingtom parks include several Supreme important Monkey library Lake common human sports Officially Bookstore Kingdom"
+        "Line_01": "Celebration journey valley tennis Monument morning river author oasis October Project Kingdom village Earth Tiger century Night wonderful monetary travel Venture Creation growth"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0515": {
       "Name": "Lesson_0515",
@@ -8878,13 +8876,13 @@
       }],
       "Description": "Dynamic Practice 15",
       "Lines": [{
-        "Line_01": "gr gr gro gre group greatly great",
-        "Line_02": "ge ge nge uge exchange huge charge",
-        "Line_03": "ga ga ega gas gas gate began",
-        "Line_04": "gn gn ign gni significantly designed design",
-        "Line_05": "gi gi egi igi regions originally beginning"
+        "Line_01": "gr gr gra gre grain green grand grant grasp",
+        "Line_02": "ge ge gea gen ges gear gentle gesture generate",
+        "Line_03": "ga ga gai gal gar gat gain galaxy garden gather",
+        "Line_04": "gn gn gno gen gra gnome gentle grand genuine",
+        "Line_05": "gi gi gia gig gir gin gif giant giggle girl gift ginger"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0516": {
       "Name": "Lesson_0516",
@@ -8895,17 +8893,17 @@
       }],
       "Description": "Oliver Twist",
       "Lines": [{
-        "Line_01": "Oliver is Charles Dickens's",
-        "Line_02": "second novel. It tells a story of an",
-        "Line_03": "orphan boy who was captured by thieves",
-        "Line_04": "and forced to work with them. The book",
-        "Line_05": "is often referred to as a social",
-        "Line_06": "novel, as it draws the reader's",
-        "Line_07": "attention to child labor and the",
-        "Line_08": "presence of orphan children on the",
-        "Line_09": "streets."
+        "Line_01": "Oliver, a Dickensian tale, portrays",
+        "Line_02": "a young orphan ensnared by thieves,",
+        "Line_03": "forced into their criminal world.",
+        "Line_04": "The novel starkly highlights child",
+        "Line_05": "labor, shedding light on orphaned",
+        "Line_06": "street children's plight.",
+        "Line_07": "Dickens weaves a narrative exposing",
+        "Line_08": "social injustices and the harsh",
+        "Line_09": "realities of Victorian London."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0517": {
       "Name": "Lesson_0517",
@@ -8916,18 +8914,18 @@
       }],
       "Description": "Red Pandas",
       "Lines": [{
-        "Line_01": "Red pandas are native to the Himalayas",
-        "Line_02": "and southwestern China. The English",
-        "Line_03": "word for red panda is 'Firefox' which",
-        "Line_04": "is where the popular web browser gets",
-        "Line_05": "its name from. Many people think that",
-        "Line_06": "the Firefox logo is a fox, but the",
-        "Line_07": "truth is that the logo is actually a",
-        "Line_08": "red panda. The browser was created in",
-        "Line_09": "2002 and its full name is Mozilla",
-        "Line_10": "Firefox."
+        "Line_01": "Red pandas inhabit the Himalayas",
+        "Line_02": "and parts of southwestern China. Known",
+        "Line_03": "as 'Firefox' in English, inspiring the",
+        "Line_04": "name of a popular web browser, their",
+        "Line_05": "logo misleads as it features a red",
+        "Line_06": "panda, not a fox. Mozilla Firefox",
+        "Line_07": "emerged in 2002, integrating their",
+        "Line_08": "symbolic mascot. These small mammals",
+        "Line_09": "are cherished for their arboreal",
+        "Line_10": "habitat and bamboo-based diet."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0518": {
       "Name": "Lesson_0518",
@@ -8938,17 +8936,17 @@
       }],
       "Description": "Illinois",
       "Lines": [{
-        "Line_01": "Marquette and Joliet are given credit",
-        "Line_02": "for being the first Europeans to find",
-        "Line_03": "the state of Illinois. Illinois became",
-        "Line_04": "a state on December 3, 1818. Its state",
-        "Line_05": "insect is the Monarch Butterfly. its",
-        "Line_06": "state tree is the white oak, its state",
-        "Line_07": "flower is the violet, its state bird",
-        "Line_08": "is the cardinal, and its state animal",
-        "Line_09": "is the white-tailed deer."
+        "Line_01": "Explorers Marquette and Joliet are famed",
+        "Line_02": "for discovering Illinois first among",
+        "Line_03": "Europeans. On December 3, 1818, Illinois",
+        "Line_04": "joined the Union as the 21st state. The",
+        "Line_05": "Monarch Butterfly represents its state",
+        "Line_06": "insect, while the white oak stands as",
+        "Line_07": "its state tree. The violet is the state",
+        "Line_08": "flower, the cardinal its state bird, and",
+        "Line_09": "the white-tailed deer its state animal."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0519": {
       "Name": "Lesson_0519",
@@ -8959,18 +8957,18 @@
       }],
       "Description": "Music Structure",
       "Lines": [{
-        "Line_01": "Music is sound that has been organized",
-        "Line_02": "using rhythm, melody, or harmony. If",
-        "Line_03": "someone bangs saucepans while cooking,",
-        "Line_04": "it makes a noise. If a person bangs",
-        "Line_05": "saucepans in a rhythmic way, they are",
-        "Line_06": "making a simple type of music. Blues",
-        "Line_07": "is played by singing, using the",
-        "Line_08": "harmonica, or the acoustic guitar. Jazz",
-        "Line_09": "musicians use instruments such as the",
-        "Line_10": "trumpet and saxaphone."
+        "Line_01": "Music is an art form that combines",
+        "Line_02": "sound, rhythm, melody, and harmony to",
+        "Line_03": "create expressions of emotion. From",
+        "Line_04": "classical symphonies to contemporary",
+        "Line_05": "pop hits, music spans diverse genres",
+        "Line_06": "and cultures worldwide. Instruments like",
+        "Line_07": "the piano, violin, and drums play vital",
+        "Line_08": "roles in orchestras and bands. Jazz,",
+        "Line_09": "born in the early 20th century, blends",
+        "Line_10": "improvisation with complex rhythms."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0520": {
       "Name": "Lesson_0520",
@@ -8981,18 +8979,18 @@
       }],
       "Description": "Climate",
       "Lines": [{
-        "Line_01": "Climate is the average weather usually",
-        "Line_02": "taken over a 30 year time period for",
-        "Line_03": "a particular region and time period.",
-        "Line_04": "Climate is not the same as weather,",
-        "Line_05": "but rather, it is the average pattern",
-        "Line_06": "of weather for a particular region.",
-        "Line_07": "Weather describes the short-term state",
-        "Line_08": "of the atmosphere, including",
-        "Line_09": "temperature, precipitation, air",
-        "Line_10": "pressure, and cloud cover."
+        "Line_01": "Climate refers to the long-term average",
+        "Line_02": "weather patterns observed over several",
+        "Line_03": "decades in a specific region. It is",
+        "Line_04": "determined by factors such as latitude,",
+        "Line_05": "altitude, ocean currents, and land",
+        "Line_06": "topography. For instance, polar regions",
+        "Line_07": "have frigid climates due to their",
+        "Line_08": "proximity to the poles, while equatorial",
+        "Line_09": "regions experience tropical climates",
+        "Line_10": "with consistent warmth and rainfall."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0521": {
       "Name": "Lesson_0521",
@@ -9003,18 +9001,18 @@
       }],
       "Description": "War and Peace",
       "Lines": [{
-        "Line_01": "Leo Tolstoy is a Russian author who",
-        "Line_02": "wrote one of the most famous Russian",
-        "Line_03": "novels in the history of literature",
-        "Line_04": "called War and Peace. The book",
-        "Line_05": "describes life in Russia in the 19th",
-        "Line_06": "century during the wars with Napoleon.",
-        "Line_07": "There are almost 600 characters",
-        "Line_08": "mentioned in the story, but the main",
-        "Line_09": "characters are members of 4 noble",
-        "Line_10": "families."
+        "Line_01": "War and Peace is a monumental novel",
+        "Line_02": "written by Leo Tolstoy, a renowned",
+        "Line_03": "Russian author. It chronicles the lives",
+        "Line_04": "of Russian aristocrats during the French",
+        "Line_05": "invasion of Russia in the early 19th",
+        "Line_06": "century. Tolstoy's narrative spans",
+        "Line_07": "themes of love, war, and societal",
+        "Line_08": "transformation amidst historical",
+        "Line_09": "turbulence. It remains a masterpiece",
+        "Line_10": "of world literature."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0522": {
       "Name": "Lesson_0522",
@@ -9025,17 +9023,17 @@
       }],
       "Description": "Prehistoric Art",
       "Lines": [{
-        "Line_01": "Cave paintings are painted drawings on",
-        "Line_02": "cave walls or ceilings, mainly of",
-        "Line_03": "prehistoric origin. Evidence suggests",
-        "Line_04": "that they were not merely decorations",
-        "Line_05": "of living areas since the caves in",
-        "Line_06": "which they have been found do not have",
-        "Line_07": "signs of ongoing habitation. They are",
-        "Line_08": "also often located in areas of caves",
-        "Line_09": "that are not easily accessible."
+        "Line_01": "Prehistoric cave paintings are ancient",
+        "Line_02": "depictions found on cave walls and",
+        "Line_03": "ceilings. They depict animals, hunting",
+        "Line_04": "scenes, and symbolic rituals. These",
+        "Line_05": "artworks provide insights into early",
+        "Line_06": "human culture and spirituality. Many",
+        "Line_07": "paintings are remarkably well-preserved",
+        "Line_08": "despite their age, offering a glimpse",
+        "Line_09": "into the lives of our ancestors."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0523": {
       "Name": "Lesson_0523",
@@ -9046,17 +9044,17 @@
       }],
       "Description": "Car Races",
       "Lines": [{
-        "Line_01": "Almost as soon as automobiles were",
-        "Line_02": "invented races of various sorts were",
-        "Line_03": "organized, with the first recorded as",
-        "Line_04": "early as 1867. Many of the earliest",
-        "Line_05": "events were reliability trials, aimed",
-        "Line_06": "at proving these new machines were a",
-        "Line_07": "practical mode of transport. Soon, they",
-        "Line_08": "became an important way for competing",
-        "Line_09": "makers to demonstrate their machines."
+        "Line_01": "Early car races began shortly after the",
+        "Line_02": "invention of automobiles in the late",
+        "Line_03": "19th century. The first recorded race",
+        "Line_04": "took place in 1867. Initially, these",
+        "Line_05": "events focused on proving the",
+        "Line_06": "reliability of cars as a practical",
+        "Line_07": "transportation mode. Over time, races",
+        "Line_08": "evolved into competitive showcases for",
+        "Line_09": "manufacturers to demonstrate their"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0524": {
       "Name": "Lesson_0524",
@@ -9067,17 +9065,17 @@
       }],
       "Description": "Martial Arts",
       "Lines": [{
-        "Line_01": "Martial arts are codified systems and",
-        "Line_02": "traditions of combat practices, which",
-        "Line_03": "are practiced for a variety of reasons",
-        "Line_04": "including self-defense, military and",
-        "Line_05": "law enforcement applications, and",
-        "Line_06": "mental and spiritual development. In",
-        "Line_07": "addition, they are practiced for",
-        "Line_08": "entertainment and the preservation of a",
-        "Line_09": "nation's intangible cultural heritage."
+        "Line_01": "Martial arts encompass diverse combat",
+        "Line_02": "techniques and disciplines practiced for",
+        "Line_03": "self-defense, military training, and",
+        "Line_04": "physical fitness. Originating from various",
+        "Line_05": "cultures, they emphasize mental focus and",
+        "Line_06": "spiritual growth alongside physical",
+        "Line_07": "discipline. Popular forms include karate,",
+        "Line_08": "taekwondo, judo, and kung fu, each",
+        "Line_09": "promoting distinct philosophies and"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0525": {
       "Name": "Lesson_0525",
@@ -9088,18 +9086,18 @@
       }],
       "Description": "Communities",
       "Lines": [{
-        "Line_01": "Online communities are now a normal",
-        "Line_02": "part of our everyday lives. The",
-        "Line_03": "internet has not only changed the way",
-        "Line_04": "we form communities, but the tools we",
-        "Line_05": "use to communicate, too. People around",
-        "Line_06": "the world use social media sites to",
-        "Line_07": "keep in touch with family and meet new",
-        "Line_08": "people, or connect with friends using",
-        "Line_09": "online games on their phones or",
-        "Line_10": "computers."
+        "Line_01": "Modern communities thrive through online",
+        "Line_02": "platforms, shaping global interactions",
+        "Line_03": "and societal norms. Social networks like",
+        "Line_04": "Facebook and Instagram facilitate",
+        "Line_05": "connections across borders. Gaming",
+        "Line_06": "communities like Twitch and Discord",
+        "Line_07": "provide spaces for shared interests and",
+        "Line_08": "live interactions. Virtual communities",
+        "Line_09": "now transcend physical boundaries,",
+        "Line_10": "reshaping social dynamics."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0526": {
       "Name": "Lesson_0526",
@@ -9110,18 +9108,18 @@
       }],
       "Description": "Music Everywhere",
       "Lines": [{
-        "Line_01": "Music is found in every known culture,",
-        "Line_02": "past and present, varying widely",
-        "Line_03": "between times and places. Since all",
-        "Line_04": "people of the world, including the",
-        "Line_05": "most isolated tribal groups, have a",
-        "Line_06": "form of music, it may be concluded",
-        "Line_07": "that music is likely to have been",
-        "Line_08": "present in the ancestral population",
-        "Line_09": "prior to the dispersal of humans",
-        "Line_10": "around the world."
+        "Line_01": "Music transcends cultural boundaries,",
+        "Line_02": "uniting humanity through rhythms and",
+        "Line_03": "melodies. From ancient rituals to",
+        "Line_04": "modern concerts, it evolves with each",
+        "Line_05": "generation. Instruments like drums and",
+        "Line_06": "flutes echo across diverse landscapes,",
+        "Line_07": "reflecting shared emotions and",
+        "Line_08": "expressions worldwide. Melodies persist",
+        "Line_09": "as a universal language of creativity,",
+        "Line_10": "connecting hearts globally."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0527": {
       "Name": "Lesson_0527",
@@ -9132,17 +9130,18 @@
       }],
       "Description": "Pandas, Part 3",
       "Lines": [{
-        "Line_01": "Giant pandas are about the size of an",
-        "Line_02": "American black bear. They are about 3",
-        "Line_03": "feet (91 cm) tall at the shoulder when",
-        "Line_04": "they are standing on all four legs.",
-        "Line_05": "Pandas are typically about 6 feet (180",
-        "Line_06": "cm) long. In the wild, males can weigh",
-        "Line_07": "up to 250 pounds (110 kg). Females",
-        "Line_08": "usually weigh less than 220 pounds",
-        "Line_09": "(110 kg)."
+        "Line_01": "Giant pandas have a unique diet mainly",
+        "Line_02": "consisting of bamboo shoots and leaves.",
+        "Line_03": "They spend up to 14 hours a day eating",
+        "Line_04": "due to low nutrient content in bamboo,",
+        "Line_05": "which is difficult to digest. Despite",
+        "Line_06": "their size, pandas are agile climbers,",
+        "Line_07": "capable of scaling trees to escape",
+        "Line_08": "predators like snow leopards. Pandas",
+        "Line_09": "often live solitary lives except during",
+        "Line_10": "mating season."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0528": {
       "Name": "Lesson_0528",
@@ -9153,17 +9152,18 @@
       }],
       "Description": "Cave Paintings",
       "Lines": [{
-        "Line_01": "Some theories hold that cave paintings",
-        "Line_02": "may have been a way of communicating",
-        "Line_03": "with others, while other theories",
-        "Line_04": "ascribe a religious or ceremonial",
-        "Line_05": "purpose to them. The paintings are",
-        "Line_06": "remarkably similar around the world,",
-        "Line_07": "with animals being common subjects.",
-        "Line_08": "humans mainly appear as images of",
-        "Line_09": "hands."
+        "Line_01": "Cave paintings may have served as early",
+        "Line_02": "forms of storytelling, depicting hunting",
+        "Line_03": "scenes or daily life. Some caves show",
+        "Line_04": "evidence of repeated use over",
+        "Line_05": "thousands of years, suggesting they held",
+        "Line_06": "cultural significance, much like modern",
+        "Line_07": "day graffiti. The images often",
+        "Line_08": "depict animals in motion, capturing",
+        "Line_09": "their vitality and strength. Handprints",
+        "Line_10": "may have symbolized ownership or identity."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0529": {
       "Name": "Lesson_0529",
@@ -9174,17 +9174,17 @@
       }],
       "Description": "Ancient Music",
       "Lines": [{
-        "Line_01": "The prehistoric age is considered to",
-        "Line_02": "have ended with the development of",
-        "Line_03": "writing, and with it, by definition,",
-        "Line_04": "prehistoric music. 'Ancient music' is",
-        "Line_05": "the name given to the music that",
-        "Line_06": "followed. The oldest known son was",
-        "Line_07": "written in cuneiform, dating to 3400",
-        "Line_08": "years ago from Ugarit. It was",
-        "Line_09": "deciphered by Anne Draffkorn Kilmer."
+        "Line_01": "Ancient music spans millennia, evolving",
+        "Line_02": "from rudimentary forms in prehistoric",
+        "Line_03": "times to complex compositions recorded",
+        "Line_04": "in ancient civilizations. Instruments",
+        "Line_05": "like lyres and flutes were common,",
+        "Line_06": "creating melodies that echoed through",
+        "Line_07": "temples and royal courts. Notably, the",
+        "Line_08": "world's oldest known song, deciphered",
+        "Line_09": "from cuneiform tablets, dates to 3400 BC."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0530": {
       "Name": "Lesson_0530",
@@ -9195,17 +9195,17 @@
       }],
       "Description": "Anglo-Saxons",
       "Lines": [{
-        "Line_01": "The area now called England was first",
-        "Line_02": "inhabited by modern humans during the",
-        "Line_03": "Upper Palaeolitic period, but it takes",
-        "Line_04": "its name from the Angles, one of the",
-        "Line_05": "Germanic tribes who settled the area",
-        "Line_06": "during the 5th and 6th centuries. The",
-        "Line_07": "term Anglo-Saxon stems from the Angles",
-        "Line_08": "and the Saxons, another tribe that",
-        "Line_09": "inhabited the area during that time."
+        "Line_01": "The Anglo-Saxons were Germanic tribes",
+        "Line_02": "who settled in England during the 5th",
+        "Line_03": "and 6th centuries. They contributed to",
+        "Line_04": "the cultural and linguistic landscape",
+        "Line_05": "of England, blending their own customs",
+        "Line_06": "with those of the existing Celtic",
+        "Line_07": "inhabitants. The term 'Anglo-Saxon'",
+        "Line_08": "derives from the Angles and Saxons,",
+        "Line_09": "the dominant tribes of the period."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0531": {
       "Name": "Lesson_0531",
@@ -9216,9 +9216,9 @@
       }],
       "Description": "Test 60: Play Words 34",
       "Lines": [{
-        "Line_01": "writing melody internet Origin Modern harmony prehistoric Found Invent story giant Sound twist painting music novel england present Panda"
+        "Line_01": "Twist painting Giant story Present novel origin great Writing modern Music internet Harmony england Melody found Panda prehistoric"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0532": {
       "Name": "Lesson_0532",
@@ -9229,17 +9229,17 @@
       }],
       "Description": "Newton's Law",
       "Lines": [{
-        "Line_01": "Newton's second law of motion is: the",
-        "Line_02": "resultant force is equal to mass times",
-        "Line_03": "acceleration. This law says that",
-        "Line_04": "acceleration is dependent on the forces",
-        "Line_05": "acting upon an object and the mass of",
-        "Line_06": "the object. Therefore if the force",
-        "Line_07": "increases, acceleration increases, and",
-        "Line_08": "the more mass the object has, the",
-        "Line_09": "acceleration decreases."
+        "Line_01": "Isaac Newton formulated three laws of motion.",
+        "Line_02": "His second law is F=ma, force equals mass",
+        "Line_03": "times acceleration. This implies more force",
+        "Line_04": "leads to more acceleration. Mass resists",
+        "Line_05": "acceleration, a concept called inertia.",
+        "Line_06": "Newton's laws were published in 1687.",
+        "Line_07": "In space, 0 gravity, objects float freely.",
+        "Line_08": "Newton's laws explain why planets orbit.",
+        "Line_09": "Mass is measured in kilograms (kg)."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0533": {
       "Name": "Lesson_0533",
@@ -9250,17 +9250,17 @@
       }],
       "Description": "Health Care",
       "Lines": [{
-        "Line_01": "Health care is the preservation of",
-        "Line_02": "mental and physical health by",
-        "Line_03": "preventing or treating illnesses",
-        "Line_04": "through services offered by the health",
-        "Line_05": "profession and its staff. Health care",
-        "Line_06": "includes all reasonable and necessary",
-        "Line_07": "medical aid, medical evaluations, and",
-        "Line_08": "medical services. The right to health",
-        "Line_09": "care is considered a human right."
+        "Line_01": "Global health spending reached $8.3 trillion.",
+        "Line_02": "Primary care prevents 70% of illnesses.",
+        "Line_03": "Mental health services aid 1 in 4 people.",
+        "Line_04": "WHO was founded in 1948 for global health.",
+        "Line_05": "Life expectancy rises with better health care.",
+        "Line_06": "Vaccinations save 2-3 million lives yearly.",
+        "Line_07": "Universal health care covers all citizens.",
+        "Line_08": "Telemedicine grew 154% during COVID-19.",
+        "Line_09": "Health care access is a fundamental right."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0534": {
       "Name": "Lesson_0534",
@@ -9271,18 +9271,18 @@
       }],
       "Description": "Industry Awakes",
       "Lines": [{
-        "Line_01": "The Industrial Revolution was a period",
-        "Line_02": "from the 18th to the 19th century",
-        "Line_03": "where major changes in agriculture,",
-        "Line_04": "manufacturing, mining, transportation,",
-        "Line_05": "and technology had a profound effect",
-        "Line_06": "on the socioeconomic and cultural",
-        "Line_07": "conditions of the times. It began in",
-        "Line_08": "the United Kingdom, then spread",
-        "Line_09": "throughout Europe, North America, and",
-        "Line_10": "eventually the world."
+        "Line_01": "The steam engine, invented in 1712, was key.",
+        "Line_02": "Factories grew from 1760 to 1840 rapidly.",
+        "Line_03": "Textile production increased by 1000%.",
+        "Line_04": "In 1800, coal mining employed thousands.",
+        "Line_05": "Railways expanded quickly after 1825.",
+        "Line_06": "Electricity began transforming industries.",
+        "Line_07": "Urbanization surged due to factory jobs.",
+        "Line_08": "In 1850, half of Britain lived in cities.",
+        "Line_09": "Child labor laws began in the 1830s.",
+        "Line_10": "Global trade expanded industrial growth."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0535": {
       "Name": "Lesson_0535",
@@ -9293,18 +9293,18 @@
       }],
       "Description": "Static Electricity",
       "Lines": [{
-        "Line_01": "When an electric charge builds up on",
-        "Line_02": "the surface of an object it creates",
-        "Line_03": "static electricity. You have probably",
-        "Line_04": "experienced static electricity in the",
-        "Line_05": "form of a small electric shock, which",
-        "Line_06": "is what happens when an electric",
-        "Line_07": "charge is quickly neutralized by an",
-        "Line_08": "opposite charge. Opposite charges",
-        "Line_09": "attract each other. Positive charges",
-        "Line_10": "repel each other, as do negative charges."
+        "Line_01": "Static electricity occurs when electrons",
+        "Line_02": "move between objects. Rubbing balloons",
+        "Line_03": "can transfer electrons. In 1752, Ben",
+        "Line_04": "Franklin conducted his famous kite",
+        "Line_05": "experiment. Lightning is a large-scale",
+        "Line_06": "static discharge. Humidity affects",
+        "Line_07": "static buildup. Devices like photocopiers",
+        "Line_08": "use static electricity. A spark can be",
+        "Line_09": "thousands of volts. Static charges can",
+        "Line_10": "damage electronic components easily."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0536": {
       "Name": "Lesson_0536",
@@ -9315,17 +9315,18 @@
       }],
       "Description": "Words per Minute",
       "Lines": [{
-        "Line_01": "Words per minute (WPM) is a measure of",
-        "Line_02": "input or output speed. For the",
-        "Line_03": "purposes of WPM measurement, a word is",
-        "Line_04": "standardized to five characters or",
-        "Line_05": "keystrokes. The average person types",
-        "Line_06": "around 40 words per minute, However,",
-        "Line_07": "professional typists type a lot faster.",
-        "Line_08": "On average, professional typists can",
-        "Line_09": "type upwards of 65 to 80 WPM."
+        "Line_01": "Words per minute (WPM) gauge typing speed.",
+        "Line_02": "A word is counted as five characters.",
+        "Line_03": "The average typing speed is 40 WPM.",
+        "Line_04": "Fast typists can reach speeds of 80 WPM.",
+        "Line_05": "In 1946, Stella Pajunas typed 216 WPM.",
+        "Line_06": "Typing tests often use simple texts.",
+        "Line_07": "Errors can reduce your WPM score.",
+        "Line_08": "Practicing can significantly improve WPM.",
+        "Line_09": "Typing games can help boost WPM rates.",
+        "Line_10": "Speed and accuracy are both important."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0537": {
       "Name": "Lesson_0537",
@@ -9336,17 +9337,18 @@
       }],
       "Description": "Divine Comedy",
       "Lines": [{
-        "Line_01": "The Divine Comedy is an epic poem",
-        "Line_02": "written by Dante Alighieri. It is",
-        "Line_03": "divided in three parts, with Inferno",
-        "Line_04": "being the most famous one. The word",
-        "Line_05": "'comedy' in the title does not mean",
-        "Line_06": "that the poem is funny, rather that it",
-        "Line_07": "has a positive ending. Dante has to",
-        "Line_08": "travel through 9 concentric circles of",
-        "Line_09": "suffering to be saved."
+        "Line_01": "Dante's Divine Comedy has 14,233 lines.",
+        "Line_02": "It is split into Inferno, Purgatorio, Paradiso.",
+        "Line_03": "Inferno describes 9 circles of Hell.",
+        "Line_04": "Each circle punishes different sins.",
+        "Line_05": "Dante meets historical figures in Hell.",
+        "Line_06": "Purgatorio depicts souls being purified.",
+        "Line_07": "Paradiso represents the journey to Heaven.",
+        "Line_08": "The poem was written in Tuscan dialect.",
+        "Line_09": "Dante started writing it in 1308.",
+        "Line_10": "It took over 12 years to complete."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0538": {
       "Name": "Lesson_0538",
@@ -9357,18 +9359,18 @@
       }],
       "Description": "Elephant's Trunk",
       "Lines": [{
-        "Line_01": "An elephant's trunk is able to sense",
-        "Line_02": "the size, shape, and temperature of an",
-        "Line_03": "object. An elephant uses its trunk",
-        "Line_04": "like a human uses its hands. It can",
-        "Line_05": "grab food and put it in its mouth to",
-        "Line_06": "feed itself. It can also suck up water",
-        "Line_07": "and pour it into its mouth or spray",
-        "Line_08": "itself on a hot day. Elephants can use",
-        "Line_09": "their trunks like a snorkel to breathe",
-        "Line_10": "in deep water."
+        "Line_01": "Elephant trunks have over 40,000 muscles.",
+        "Line_02": "They can lift objects weighing up to 350 kg.",
+        "Line_03": "Elephants drink about 200 liters of water daily.",
+        "Line_04": "Their trunks can hold 10 liters of water at once.",
+        "Line_05": "They use trunks to communicate through touch.",
+        "Line_06": "Trunks can smell water from kilometers away.",
+        "Line_07": "Elephants use trunks to dust themselves.",
+        "Line_08": "Trunks can pick up a single grain of rice.",
+        "Line_09": "Elephants can trumpet sounds with trunks.",
+        "Line_10": "They can snorkel underwater using their trunks."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0539": {
       "Name": "Lesson_0539",
@@ -9379,18 +9381,21 @@
       }],
       "Description": "Healthy Diet",
       "Lines": [{
-        "Line_01": "A healthy diet provides the body with",
-        "Line_02": "essential nutrition: fluid, adequate",
-        "Line_03": "essential amino acids from protein,",
-        "Line_04": "essential fatty acitds, vitamins,",
-        "Line_05": "minerals, and adequate calories. The",
-        "Line_06": "requirements for a healthy diet can be",
-        "Line_07": "met from a variety of plant-based and",
-        "Line_08": "animal-based foods. Although the healthiest",
-        "Line_09": "diet of all for humans is almost entirely",
-        "Line_10": "plant-based."
+        "Line_01": "Eating 5 servings of fruits and veggies",
+        "Line_02": "daily is crucial. A balanced diet includes",
+        "Line_03": "proteins, fats, and carbohydrates.",
+        "Line_04": "Adults should drink about 3 liters of",
+        "Line_05": "water daily. Omega-3 fatty acids, found",
+        "Line_06": "in fish, help brain health. Vitamins A,",
+        "Line_07": "C, and E are antioxidants. Whole grains",
+        "Line_08": "provide essential fiber. Limit sugar to",
+        "Line_09": "25 grams per day. A healthy diet aids",
+        "Line_10": "in preventing chronic diseases. The healthiest",
+        "Line_11": "diet of all for humans is almost entirely",
+        "Line_12": "plant-based, as described in the Christian",
+        "LIne_13": "Holy Bible, in both Genesis and Daniel."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0540": {
       "Name": "Lesson_0540",
@@ -9401,18 +9406,18 @@
       }],
       "Description": "Nefertiti",
       "Lines": [{
-        "Line_01": "Nefertiti was the primary wife of the",
-        "Line_02": "Pharaoh Akhenaten, who unsuccessfully",
-        "Line_03": "tried to change the religion of Egypt.",
-        "Line_04": "Akhenaten was then secceeded by a",
-        "Line_05": "pharaoh referred to as Smenkhare. Some",
-        "Line_06": "scientists believe Smenkhare and",
-        "Line_07": "Nefertiti are the same person. Many",
-        "Line_08": "think the queen changed her name",
-        "Line_09": "during her rule. She reigned during",
-        "Line_10": "the wealthiest period of Ancient Egypt."
+        "Line_01": "Nefertiti, born circa 1370 BC, was",
+        "Line_02": "known for her beauty. She ruled with",
+        "Line_03": "Akhenaten from 1353 to 1336 BC. They",
+        "Line_04": "founded a new capital at Amarna. Her",
+        "Line_05": "famous bust was discovered in 1912.",
+        "Line_06": "The bust is now in a Berlin museum.",
+        "Line_07": "Her full title was 'Great Royal Wife.'",
+        "Line_08": "Her death remains a mystery. Some",
+        "Line_09": "believe she ruled as Pharaoh briefly.",
+        "Line_10": "Nefertiti means 'the beautiful one.'"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0541": {
       "Name": "Lesson_0541",
@@ -9423,17 +9428,17 @@
       }],
       "Description": "Teachers",
       "Lines": [{
-        "Line_01": "Teachers direct the eduction of",
-        "Line_02": "students and might draw on many",
-        "Line_03": "subjects, including reading, writing,",
-        "Line_04": "mathematics, science, and history. In",
-        "Line_05": "many countries, teachers must obtain",
-        "Line_06": "certifications or a university degree",
-        "Line_07": "in order to qualify for a position.",
-        "Line_08": "Teachers around the world work hard to",
-        "Line_09": "help students learn."
+        "Line_01": "Teachers play a vital role in shaping",
+        "Line_02": "young minds. They cover a wide range",
+        "Line_03": "of subjects like literature, math,",
+        "Line_04": "science, and more. Qualifications often",
+        "Line_05": "include degrees and certifications.",
+        "Line_06": "In some places, teachers must pass",
+        "Line_07": "exams to teach specific subjects. They",
+        "Line_08": "are dedicated to fostering learning",
+        "Line_09": "and growth in students worldwide."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0542": {
       "Name": "Lesson_0542",
@@ -9444,17 +9449,17 @@
       }],
       "Description": "Atoms",
       "Lines": [{
-        "Line_01": "The basic unit of an element is called",
-        "Line_02": "an atom. An atom is the smallest",
-        "Line_03": "building block that you can cut an",
-        "Line_04": "element into without the element",
-        "Line_05": "breaking down into a lighter element.",
-        "Line_06": "Two ways that atoms can be broken down",
-        "Line_07": "are through nuclear fission or",
-        "Line_08": "radioactive decay. A chemical compound",
-        "Line_09": "is a substance made up of 2 or more elements."
+        "Line_01": "Atoms are the fundamental units of",
+        "Line_02": "matter. They consist of protons,",
+        "Line_03": "neutrons, and electrons. Each element",
+        "Line_04": "is defined by its unique atomic number",
+        "Line_05": "and atomic mass. Nuclear fission and",
+        "Line_06": "radioactive decay are processes that",
+        "Line_07": "alter atomic nuclei. Chemical compounds",
+        "Line_08": "are formed when atoms combine in fixed",
+        "Line_09": "ratios to create new substances."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0543": {
       "Name": "Lesson_0543",
@@ -9465,18 +9470,18 @@
       }],
       "Description": "Olympic History",
       "Lines": [{
-        "Line_01": "The Olympic Games were a series of",
-        "Line_02": "athletic competitions among",
-        "Line_03": "representatives of city-states and one",
-        "Line_04": "of the Panhellenic Games of Ancient",
-        "Line_05": "Greece. They were held in honor of",
-        "Line_06": "Zeus, and the Greeks gave them a",
-        "Line_07": "mythological origin. The first Olympic",
-        "Line_08": "Games were held in 776 BC, and they",
-        "Line_09": "continued to be celebrated when Greece",
-        "Line_10": "came to be under Roman rule."
+        "Line_01": "The ancient Olympics began as a religious",
+        "Line_02": "festival honoring Zeus in Olympia, Greece.",
+        "Line_03": "Athletes competed in events like running,",
+        "Line_04": "wrestling, and chariot racing. The games",
+        "Line_05": "gained international recognition and",
+        "Line_06": "symbolized unity among city-states. They",
+        "Line_07": "ceased during Roman rule but were revived",
+        "Line_08": "in 1896 in Athens, marking the start of",
+        "Line_09": "the modern Olympics. Today, the Olympics",
+        "Line_10": "promote sportsmanship and global peace."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0544": {
       "Name": "Lesson_0544",
@@ -9487,18 +9492,18 @@
       }],
       "Description": "Olympics Ceremony",
       "Lines": [{
-        "Line_01": "During the celebration of the games,",
-        "Line_02": "an Olympic Truce was enacted so that",
-        "Line_03": "athletes could travel from their cities",
-        "Line_04": "to the games in safety. The prizes for",
-        "Line_05": "the victors were olive leaf wreaths or",
-        "Line_06": "crowns. The games became a political",
-        "Line_07": "tool used by city-states to assert",
-        "Line_08": "dominance over their rivals. The",
-        "Line_09": "Olympics also featured religious",
-        "Line_10": "celebrations."
+        "Line_01": "The Olympics ceremony marked a time of",
+        "Line_02": "peace with the Olympic Truce ensuring",
+        "Line_03": "safe passage for athletes. Winners received",
+        "Line_04": "olive wreaths as symbols of victory. Beyond",
+        "Line_05": "sports, the games influenced politics,",
+        "Line_06": "projecting city-state power and fostering",
+        "Line_07": "unity among Greeks. Religious rites",
+        "Line_08": "honored Zeus, emphasizing divine",
+        "Line_09": "blessings on the competitors. The games",
+        "Line_10": "showcased athleticism and cultural pride."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0545": {
       "Name": "Lesson_0545",
@@ -9509,17 +9514,17 @@
       }],
       "Description": "GM Foods",
       "Lines": [{
-        "Line_01": "Genetically modified foods, or GMOs,",
-        "Line_02": "are foods produced from organisms that",
-        "Line_03": "have had changes introduced to their",
-        "Line_04": "DNA using methods of genetic engineering.",
-        "Line_05": "Genetic engineering techniques allow for",
-        "Line_06": "the introduction of new traits as well",
-        "Line_07": "as greater control over traits than",
-        "Line_08": "previous methods such as selective",
-        "Line_09": "breeding and mutation breeding."
+        "Line_01": "Genetically modified foods, known as GMOs,",
+        "Line_02": "are products altered using genetic",
+        "Line_03": "engineering techniques. These modifications",
+        "Line_04": "enable crops to resist pests or withstand",
+        "Line_05": "harsh environments. GMOs can enhance",
+        "Line_06": "nutritional content and increase crop yields,",
+        "Line_07": "addressing global food security challenges.",
+        "Line_08": "However, concerns persist regarding",
+        "Line_09": "environmental impact and human health."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0546": {
       "Name": "Lesson_0546",
@@ -9530,18 +9535,19 @@
       }],
       "Description": "Michael Jordan",
       "Lines": [{
-        "Line_01": "'I've missed more than 9000 shots in",
-        "Line_02": "my career. I've lost almost 300 games.",
-        "Line_03": "26 times I've been trusted to take the",
-        "Line_04": "game winning shot and missed. I've",
-        "Line_05": "failed over and over and over again in",
-        "Line_06": "my life. And that is why I succeed.'",
-        "Line_07": "Michael Jordan is a retired",
-        "Line_08": "professional basketball player. He",
-        "Line_09": "played 15 seasons with the Bulls and",
-        "Line_10": "Wizards."
+        "Line_01": "Michael Jordan, a legend in basketball,",
+        "Line_02": "had a remarkable career marked by",
+        "Line_03": "perseverance and success. His iconic quote,",
+        "Line_04": "'I've missed over 9000 shots in my career.",
+        "Line_05": "I've lost almost 300 games. 26 times I've",
+        "Line_06": "been trusted to take the game-winning shot",
+        "Line_07": "and missed. I've failed over and over again",
+        "Line_08": "in my life. And that is why I succeed,'",
+        "Line_09": "reflects his determination and resilience.",
+        "Line_10": "Jordan played 15 seasons with the Bulls",
+        "Line_11": "and Wizards, earning six NBA championships."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0547": {
       "Name": "Lesson_0547",
@@ -9552,9 +9558,9 @@
       }],
       "Description": "Test 61: Play Words 35",
       "Lines": [{
-        "Line_01": "information Message Electronic remember Banker Track Game healthy person essential comedy Source celebration olympic Jordan material"
+        "Line_01": "Elephant river laptop Goat key mountain Ticket birthday cat Dog apple grape Honey Ink ink Galaxy elephant river Laptop goat key Mountain ticket Birthday cat dog Apple Grape Honey ink Ink galaxy"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0548": {
       "Name": "Lesson_0548",
@@ -9565,13 +9571,13 @@
       }],
       "Description": "Dynamic Practice 16",
       "Lines": [{
-        "Line_01": "gr gr gre gre greatly great greenhouse",
-        "Line_02": "ge ge nge rge changed changes charge",
-        "Line_03": "ga ga ega gan began legal garden",
-        "Line_04": "gn gn agn ign electromagnetic signals significant",
-        "Line_05": "gi gi ngi gin engine ranging changing"
+        "Line_01": "ga ga gar gal gam galaxy garden gallery gamma",
+        "Line_02": "gn gn gna gno ign gin gnome gnawing ginseng signal",
+        "Line_03": "gi gi gia giv gin giant give ginger engine",
+        "Line_04": "ge ge gin gen nge gentle generous engineer engage",
+        "Line_05": "gr gr gre gra grand gravity greater greenhouse"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0549": {
       "Name": "Lesson_0549",
@@ -9582,18 +9588,18 @@
       }],
       "Description": "Our Solar System",
       "Lines": [{
-        "Line_01": "There are eight planets in the solar",
-        "Line_02": "system. From closest to farthest from",
-        "Line_03": "the Sun, they are: Mercury, Venus,",
-        "Line_04": "Earth, Mars, Jupiter, Saturn, Uranus",
-        "Line_05": "and Neptune. A fun way to remember the",
-        "Line_06": "order of the planets is to use a",
-        "Line_07": "mnemonic device: My Very Excellent",
-        "Line_08": "Mother Just Served Us Noodles. Each",
-        "Line_09": "letter represents the name of one",
-        "Line_10": "planet."
+        "Line_01": "The solar system consists of eight",
+        "Line_02": "planets. They orbit the Sun at varying",
+        "Line_03": "distances. These include Mercury, Venus,",
+        "Line_04": "Earth, Mars, Jupiter, Saturn, Uranus,",
+        "Line_05": "and Neptune. A mnemonic to remember",
+        "Line_06": "their order: Many Vessels Excitedly",
+        "Line_07": "Made Journeys Serving Unusual Needs.",
+        "Line_08": "Each initial letter corresponds to a",
+        "Line_09": "planet's name in sequence from the Sun.",
+        "Line_10": "The solar system spans vast distances."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0550": {
       "Name": "Lesson_0550",
@@ -9604,17 +9610,17 @@
       }],
       "Description": "Volcano",
       "Lines": [{
-        "Line_01": "A volcano is an opening, typically a",
-        "Line_02": "mountain, in the Earth's surface that",
-        "Line_03": "opens downward to a pool of hot liquid",
-        "Line_04": "rock, or magma. When pressure builds",
-        "Line_05": "up underneath the volcano, eruptions",
-        "Line_06": "can occur. When a volcano erupts, gas,",
-        "Line_07": "ash, and magma can shoot through the",
-        "Line_08": "opening. When magma leaves a volcano,",
-        "Line_09": "it is known as laval."
+        "Line_01": "A volcano is a geological feature formed",
+        "Line_02": "by the eruption of molten rock, ash, and",
+        "Line_03": "gases from beneath the Earth's crust.",
+        "Line_04": "These eruptions are often explosive,",
+        "Line_05": "sending volcanic material high into the",
+        "Line_06": "atmosphere. Volcanoes can be found on",
+        "Line_07": "land and beneath the oceans.",
+        "Line_08": "When magma reaches the Earth's surface,",
+        "Line_09": "it solidifies into igneous rock."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0551": {
       "Name": "Lesson_0551",
@@ -9625,17 +9631,17 @@
       }],
       "Description": "Frogs",
       "Lines": [{
-        "Line_01": "Frogs can live on land and in fresh",
-        "Line_02": "water. They cannot survive in salt",
-        "Line_03": "water. Their development is by",
-        "Line_04": "metamorphosis. They hatch from eggs as",
-        "Line_05": "tadpoles, which are laid by a female",
-        "Line_06": "frog. The eggs are called frogspawn.",
-        "Line_07": "Tadpoles have tails and gills. When",
-        "Line_08": "they grow up, they loose their tails",
-        "Line_09": "and gills and grow four long legs."
+        "Line_01": "Frogs are amphibians that inhabit both",
+        "Line_02": "land and freshwater ecosystems. They",
+        "Line_03": "are known for their unique life cycle",
+        "Line_04": "called metamorphosis. Initially hatching",
+        "Line_05": "as tadpoles from frogspawn, they later",
+        "Line_06": "develop legs and lose their tails and",
+        "Line_07": "gills as they mature into adult frogs.",
+        "Line_08": "Tadpoles rely on gills for breathing",
+        "Line_09": "underwater, adapting to their aquatic"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0552": {
       "Name": "Lesson_0552",
@@ -9646,17 +9652,18 @@
       }],
       "Description": "Australia",
       "Lines": [{
-        "Line_01": "Australia is a country in the Southern",
-        "Line_02": "Hemisphere between the Pacific Ocean",
-        "Line_03": "and the Indian Ocean. Its official",
-        "Line_04": "name is the Commonwealth of Australia.",
-        "Line_05": "Australia is the sixth biggest country",
-        "Line_06": "in the world by landmass. The",
-        "Line_07": "Australian emblem is a flower called",
-        "Line_08": "the Golden Wattle. Australia is also",
-        "Line_09": "the smallest continent in the world."
+        "Line_01": "Australia, officially known as the",
+        "Line_02": "Commonwealth of Australia, is located",
+        "Line_03": "in the Southern Hemisphere. It is",
+        "Line_04": "surrounded by the Pacific and Indian",
+        "Line_05": "Oceans. The country ranks sixth in the",
+        "Line_06": "world in terms of landmass. The",
+        "Line_07": "national flower of Australia is the",
+        "Line_08": "Golden Wattle, symbolizing resilience",
+        "Line_09": "and unity. Despite its vast size,",
+        "Line_10": "Australia is the smallest continent."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0553": {
       "Name": "Lesson_0553",
@@ -9667,18 +9674,18 @@
       }],
       "Description": "Japan",
       "Lines": [{
-        "Line_01": "When Japanese meet, they traditionally",
-        "Line_02": "bow instead of shake hands. The lower",
-        "Line_03": "the bow, the deeper respect it shows.",
-        "Line_04": "Sumo is recognized as the national",
-        "Line_05": "sport of Japan, although it isn't the",
-        "Line_06": "most popular one. Sumo is a wrestling",
-        "Line_07": "sport where a wrestler tries to force",
-        "Line_08": "another wrestler out of a circular",
-        "Line_09": "ring. Sumo is practiced professionally",
-        "Line_10": "in Japan."
+        "Line_01": "In Japan, bowing is a traditional",
+        "Line_02": "greeting instead of shaking hands. The",
+        "Line_03": "depth of the bow reflects respect. Sumo",
+        "Line_04": "wrestling is Japan's national sport,",
+        "Line_05": "though not the most popular. It involves",
+        "Line_06": "pushing an opponent out of a circular",
+        "Line_07": "ring. Professional sumo wrestlers train",
+        "Line_08": "rigorously in Japan's sumo stables,",
+        "Line_09": "dedicated to mastering the sport.",
+        "Line_10": "Sumo tournaments draw large audiences."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0554": {
       "Name": "Lesson_0554",
@@ -9687,19 +9694,19 @@
         "AccuracyRequirement": "",
         "SpeedRequirement": ""
       }],
-      "Description": "Excercise",
+      "Description": "Exercise",
       "Lines": [{
-        "Line_01": "The benefits of exercise for all ages",
-        "Line_02": "have been known since antiquity. Marcus",
-        "Line_03": "Cicero, around 65 BC, stated, 'It is",
-        "Line_04": "exercise alone that supports the",
-        "Line_05": "spirits, and keeps the mind in vigor.'",
-        "Line_06": "Regular exercise has been shown to",
-        "Line_07": "help high blood pressure, obesity,",
-        "Line_08": "heart disease, diabetes, and",
-        "Line_09": "depression, among other conditions."
+        "Line_01": "Exercise benefits all ages. Ancient",
+        "Line_02": "wisdom, like Cicero's, recognized its",
+        "Line_03": "value millennia ago. 'It supports",
+        "Line_04": "spirits, keeps minds vigorous,' he said.",
+        "Line_05": "Regular exercise aids hypertension,",
+        "Line_06": "obesity, heart disease, diabetes,",
+        "Line_07": "depression, and more health issues.",
+        "Line_08": "It's crucial for overall well-being.",
+        "Line_09": "Make it a daily habit for a better life."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0555": {
       "Name": "Lesson_0555",
@@ -9710,18 +9717,18 @@
       }],
       "Description": "Milky Way",
       "Lines": [{
-        "Line_01": "There are many other systems like our",
-        "Line_02": "solar system in the universe. Each",
-        "Line_03": "star has the potential to have a",
-        "Line_04": "planetary system. There are more than",
-        "Line_05": "200 billion stars in the Milky Way",
-        "Line_06": "galaxy. The Sun is the star found at",
-        "Line_07": "the center of our solar system. At",
-        "Line_08": "around 1,392,00 kilometers (865,000",
-        "Line_09": "miles) wide, the Sun's diameter is",
-        "Line_10": "about 110 times wider than Earth's."
+        "Line_01": "Beyond our solar system, countless",
+        "Line_02": "systems exist in the universe. Each",
+        "Line_03": "star may harbor planets. The Milky Way",
+        "Line_04": "galaxy hosts over 200 billion stars.",
+        "Line_05": "Our Sun, center of our solar system,",
+        "Line_06": "is 1,392,000 kilometers wide—110 times",
+        "Line_07": "Earth's diameter. Exploring its vastness",
+        "Line_08": "unveils cosmic wonders and mysteries.",
+        "Line_09": "Learn more about our galactic home.",
+        "Line_10": "Discover the wonders of the universe."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0556": {
       "Name": "Lesson_0556",
@@ -9730,19 +9737,19 @@
         "AccuracyRequirement": "",
         "SpeedRequirement": ""
       }],
-      "Description": "J.K Rowling",
+      "Description": "J.K. Rowling",
       "Lines": [{
-        "Line_01": "'Rock bottom became the solid",
-        "Line_02": "foundation on which I rebuilt my",
-        "Line_03": "life.' J.K. Rowling is a British",
-        "Line_04": "novelist and screenwriter. She is best",
-        "Line_05": "known as the author of the very",
-        "Line_06": "popular fantasy book series Harry",
-        "Line_07": "Potter. The Harry Potter book series",
-        "Line_08": "consists of 7 books, which were turned",
-        "Line_09": "into 8 movies."
+        "Line_01": "J.K. Rowling, a British novelist and",
+        "Line_02": "screenwriter, found strength in rock",
+        "Line_03": "bottom. She's celebrated for creating",
+        "Line_04": "Harry Potter, a beloved fantasy series",
+        "Line_05": "of 7 books, adapted into 8 movies.",
+        "Line_06": "Her journey inspired millions worldwide,",
+        "Line_07": "illustrating resilience and creativity.",
+        "Line_08": "Discover the magic she wove in her",
+        "Line_09": "remarkable literary universe."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0557": {
       "Name": "Lesson_0557",
@@ -9753,18 +9760,17 @@
       }],
       "Description": "Internet Size",
       "Lines": [{
-        "Line_01": "Over the years, the web has grown",
-        "Line_02": "bigger and bigger. Today, there are",
-        "Line_03": "tens of trillions of pages on the",
-        "Line_04": "internet. That's so many pages that if",
-        "Line_05": "you were to print them out and stack",
-        "Line_06": "them all, you would have a pile that",
-        "Line_07": "would reach from Earth to the Moon at",
-        "Line_08": "least a dozen times. All of these",
-        "Line_09": "pages are connected to each other",
-        "Line_10": "through links."
+        "Line_01": "The internet's vastness continues to",
+        "Line_02": "expand exponentially. There are over",
+        "Line_03": "tens of trillions of web pages today,",
+        "Line_04": "equivalent to stacking paper from Earth",
+        "Line_05": "to the Moon dozens of times. Every page",
+        "Line_06": "is interconnected through hyperlinks,",
+        "Line_07": "creating a global information network.",
+        "Line_08": "Explore the boundless expanse of data",
+        "Line_09": "and knowledge at your fingertips."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0558": {
       "Name": "Lesson_0558",
@@ -9775,18 +9781,18 @@
       }],
       "Description": "Human Posture",
       "Lines": [{
-        "Line_01": "The general concept of human posture",
-        "Line_02": "refers to the 'arriage of the body as",
-        "Line_03": "a whole, the attitude of the body, or",
-        "Line_04": "the position of the limbs.' Good",
-        "Line_05": "posture helps improve our",
-        "Line_06": "concentration, letting us work longer",
-        "Line_07": "and harder. It also prevents sore",
-        "Line_08": "muscles, leading us to feel happier",
-        "Line_09": "and healthier both at and away from",
-        "Line_10": "the computer."
+        "Line_01": "Human posture is crucial for overall",
+        "Line_02": "health and well-being. It encompasses",
+        "Line_03": "the body's alignment and limb",
+        "Line_04": "positions. Maintaining good posture",
+        "Line_05": "boosts concentration, enhances work",
+        "Line_06": "productivity, and prevents muscle",
+        "Line_07": "strain. Correct posture promotes",
+        "Line_08": "physical comfort and mental clarity,",
+        "Line_09": "making everyday activities more",
+        "Line_10": "enjoyable and sustainable."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0559": {
       "Name": "Lesson_0559",
@@ -9797,18 +9803,18 @@
       }],
       "Description": "Italy",
       "Lines": [{
-        "Line_01": "Italy is a country in Europe and one",
-        "Line_02": "of the founding countries of the",
-        "Line_03": "European Union. It is a peninsula",
-        "Line_04": "located in the heart of the",
-        "Line_05": "Mediterranean Sea. Thanks to its shape,",
-        "Line_06": "it is often referred to as the Boot.",
-        "Line_07": "Italy is said to have more",
-        "Line_08": "masterpieces per square mile than any",
-        "Line_09": "other country. Italy's capital, Rome,",
-        "Line_10": "is home to the famous Colosseum."
+        "Line_01": "Italy, located in Europe, is known as",
+        "Line_02": "the 'Boot' due to its shape. It is a",
+        "Line_03": "Mediterranean peninsula and a founding",
+        "Line_04": "member of the European Union. The",
+        "Line_05": "country boasts more masterpieces per",
+        "Line_06": "square mile than any other, including",
+        "Line_07": "the iconic Colosseum in Rome, its",
+        "Line_08": "capital. Italy's rich history and",
+        "Line_09": "culture attract millions of tourists",
+        "Line_10": "each year."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0560": {
       "Name": "Lesson_0560",
@@ -9819,18 +9825,19 @@
       }],
       "Description": "Reading Speed",
       "Lines": [{
-        "Line_01": "Some studies suggest that people tend",
-        "Line_02": "to reach as much as 10% slower from a",
-        "Line_03": "screen than from paper. Reading text",
-        "Line_04": "from a computer screen can negatively",
-        "Line_05": "impact your vision in the long term.",
-        "Line_06": "The blue light emitted from devices",
-        "Line_07": "such as computers or mobile phones has",
-        "Line_08": "been proven to diminish the quality of",
-        "Line_09": "sleep and cause headaches."
+        "Line_01": "Reading from screens may slow down",
+        "Line_02": "comprehension by up to 10% compared to",
+        "Line_03": "reading from paper. Extended screen",
+        "Line_04": "use can strain vision and disrupt",
+        "Line_05": "sleep due to blue light exposure.",
+        "Line_06": "Devices like computers and phones emit",
+        "Line_07": "this light, affecting health and",
+        "Line_08": "productivity. Opt for breaks and screen",
+        "Line_09": "filters to mitigate these effects."
       }],
-      "Refactored": false
+      "Refactored": true
     },
+    //******************************
     "Lesson_0561": {
       "Name": "Lesson_0561",
       "Number": 561,
@@ -10037,6 +10044,7 @@
       }],
       "Refactored": false
     },
+    //******************************
     "Lesson_0571": {
       "Name": "Lesson_0571",
       "Number": 571,
