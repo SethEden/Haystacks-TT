@@ -9837,7 +9837,6 @@
       }],
       "Refactored": true
     },
-    //******************************
     "Lesson_0561": {
       "Name": "Lesson_0561",
       "Number": 561,
@@ -9847,17 +9846,18 @@
       }],
       "Description": "New Mexico",
       "Lines": [{
-        "Line_01": "New Mexico is a state in the United",
-        "Line_02": "States of America. It is part of the",
-        "Line_03": "American Southwest and is bordered by",
-        "Line_04": "Texas to the east, Oklahoma to the",
-        "Line_05": "Northeast, Colorado to the north, and",
-        "Line_06": "Arizona to the west. The northwest",
-        "Line_07": "corner of the state also touches Utah.",
-        "Line_08": "This area is known as the Four Corners",
-        "Line_09": "because four states meet there."
+        "Line_01": "New Mexico, a state in the USA, has",
+        "Line_02": "diverse landscapes. It is famous for",
+        "Line_03": "its hot air balloon festival held",
+        "Line_04": "annually in Albuquerque. The state",
+        "Line_05": "is rich in Native American culture.",
+        "Line_06": "Over 200,000 people speak Spanish.",
+        "Line_07": "New Mexico became the 47th state",
+        "Line_08": "on January 6, 1912. Its capital is",
+        "Line_09": "Santa Fe, the oldest capital city",
+        "Line_10": "in the United States."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0562": {
       "Name": "Lesson_0562",
@@ -9868,18 +9868,18 @@
       }],
       "Description": "Notifications",
       "Lines": [{
-        "Line_01": "A modern notification system is a",
-        "Line_02": "combination of software and hardware",
-        "Line_03": "that provides a means of delivering a",
-        "Line_04": "message to a set of recipients. For",
-        "Line_05": "example, notification systems can send",
-        "Line_06": "an email when a new topic has been",
-        "Line_07": "added to Wikipedia. The emergency broadcast",
-        "Line_08": "system sends out text notifications to",
-        "Line_09": "all cellular phones in an area to alert people",
-        "Line_10": "in times of natural disasters."
+        "Line_01": "Notifications inform users about updates",
+        "Line_02": "or important events. Email alerts are",
+        "Line_03": "common for new messages. Phone apps",
+        "Line_04": "send notifications for messages, calls.",
+        "Line_05": "Push notifications appear on your screen",
+        "Line_06": "to remind you of tasks. In 2019, there",
+        "Line_07": "were 18.7 billion push notifications sent",
+        "Line_08": "daily. Emergency alerts can warn about",
+        "Line_09": "severe weather or public safety threats.",
+        "Line_10": "These alerts can save lives."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0563": {
       "Name": "Lesson_0563",
@@ -9890,18 +9890,18 @@
       }],
       "Description": "US Territories",
       "Lines": [{
-        "Line_01": "There are 50 states in the United",
-        "Line_02": "States of America, with Hawaii being",
-        "Line_03": "the last one to join in 1959. There",
-        "Line_04": "are independent US territories believed",
-        "Line_05": "to be part of the 50 states, such as",
-        "Line_06": "Puerto Rico and Guam, which is a very",
-        "Line_07": "common misconception. They are self",
-        "Line_08": "governing territories with locally",
-        "Line_09": "elected governors and territorial",
-        "Line_10": "legislatures."
+        "Line_01": "The US has five major territories. They",
+        "Line_02": "are Puerto Rico, Guam, Northern",
+        "Line_03": "Mariana Islands, American Samoa, and",
+        "Line_04": "the US Virgin Islands. Puerto Rico's",
+        "Line_05": "population is about 3.2 million.",
+        "Line_06": "Guam has approximately 168,000 people.",
+        "Line_07": "American Samoa has around 55,000",
+        "Line_08": "residents. The US Virgin Islands",
+        "Line_09": "consist of 3 main islands. The total",
+        "Line_10": "area of these territories is 9,850 sq km."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0564": {
       "Name": "Lesson_0564",
@@ -9912,9 +9912,9 @@
       }],
       "Description": "Test 62: Play Words 36",
       "Lines": [{
-        "Line_01": "Survive benefit Software ocean document apple Today salt Water Pacific combination website Posture hardware system Frog Notification general"
+        "Line_01": "Website apple Hardware benefit ocean Posture Frog Pacific general software System salt Today combination document Survive water notification"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0565": {
       "Name": "Lesson_0565",
@@ -9925,18 +9925,18 @@
       }],
       "Description": "Power of Water",
       "Lines": [{
-        "Line_01": "Plants and animals (including people)",
-        "Line_02": "are mostly water inside. The human",
-        "Line_03": "body is made up of 60% to 70% water.",
-        "Line_04": "All plants and animals need water to",
-        "Line_05": "live. Water gives a medium for",
-        "Line_06": "chemical reactions to take place, and",
-        "Line_07": "is the main part of blood. Water helps",
-        "Line_08": "blood carry nutrients from the stomach",
-        "Line_09": "to all parts of the body to keep the",
-        "Line_10": "body alive."
+        "Line_01": "The Earth is covered with about 71%",
+        "Line_02": "water, mostly in oceans. Humans need",
+        "Line_03": "water to survive, and our bodies are",
+        "Line_04": "around 60% water. Water aids in",
+        "Line_05": "digestion, absorption, and circulation.",
+        "Line_06": "Hydropower generates about 16% of the",
+        "Line_07": "world's electricity. Water is essential",
+        "Line_08": "for agriculture, making up about 70%",
+        "Line_09": "of global water use. Freshwater is",
+        "Line_10": "vital for drinking and sanitation."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0566": {
       "Name": "Lesson_0566",
@@ -9947,17 +9947,17 @@
       }],
       "Description": "Stay Healthy",
       "Lines": [{
-        "Line_01": "Here is a quick recipe for staying",
-        "Line_02": "healthy: take a break every 15 minutes",
-        "Line_03": "to give your eyes and body a rest!",
-        "Line_04": "Get out of your chair; maybe even take",
-        "Line_05": "a short walk. If you have a window in",
-        "Line_06": "the room, take a look outside. Stretch",
-        "Line_07": "your back, neck, and arms, and reach",
-        "Line_08": "for the sky. Take a break, get active,",
-        "Line_09": "and stay healthy!"
+        "Line_01": "For good health, drink 8 glasses of water",
+        "Line_02": "daily. Exercise for at least 30 minutes",
+        "Line_03": "most days. Aim for 7 to 9 hours of sleep",
+        "Line_04": "each night. Include fruits and vegetables",
+        "Line_05": "in your diet. Limit sugar and salt intake.",
+        "Line_06": "Manage stress through relaxation or hobbies.",
+        "Line_07": "Regular check-ups help monitor health.",
+        "Line_08": "Stay connected with family and friends.",
+        "Line_09": "Avoid smoking and excessive alcohol."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0567": {
       "Name": "Lesson_0567",
@@ -9968,17 +9968,17 @@
       }],
       "Description": "Copernicus",
       "Lines": [{
-        "Line_01": "Polish astronomer Nicolas Copernicus",
-        "Line_02": "was the first scientist to suggest",
-        "Line_03": "that the Earth was not the center of",
-        "Line_04": "the universe. He proposed a model that",
-        "Line_05": "placed the Sun in the center in his",
-        "Line_06": "publication in 1543. It is said that",
-        "Line_07": "Copernicus did not want to publish his",
-        "Line_08": "theses for fear of the reaction he",
-        "Line_09": "would receive."
+        "Line_01": "Born in 1473, Copernicus revolutionized",
+        "Line_02": "astronomy by stating that the Earth",
+        "Line_03": "orbits the Sun. This heliocentric theory",
+        "Line_04": "was published in 1543, the year he died.",
+        "Line_05": "His work faced opposition from the",
+        "Line_06": "Church. Copernicus's ideas laid the",
+        "Line_07": "groundwork for future astronomers, such",
+        "Line_08": "as Galileo and Kepler, who further",
+        "Line_09": "developed his theories."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0568": {
       "Name": "Lesson_0568",
@@ -9989,17 +9989,17 @@
       }],
       "Description": "Man's Best Friend",
       "Lines": [{
-        "Line_01": "Dogs can smell and hear very well, but",
-        "Line_02": "cannot see colors very well. Dogs are",
-        "Line_03": "sometimes referred to as 'man's best",
-        "Line_04": "friend' because they are kept as",
-        "Line_05": "domestic pets, are usually loyal, and",
-        "Line_06": "like being around humans. Dogs can be",
-        "Line_07": "taught many skills and often have jobs",
-        "Line_08": "helping people, such as service dogs,",
-        "Line_09": "guard dogs, and police dogs."
+        "Line_01": "Dogs have a sense of smell about 10,000",
+        "Line_02": "to 100,000 times stronger than humans.",
+        "Line_03": "They can hear frequencies from 40 Hz to",
+        "Line_04": "60,000 Hz. Dogs are often called man's",
+        "Line_05": "best friend due to their loyalty and",
+        "Line_06": "companionship. They have been pets for",
+        "Line_07": "thousands of years. Dogs can learn many",
+        "Line_08": "commands and tasks, and work in various",
+        "Line_09": "roles, such as guides and rescuers."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0569": {
       "Name": "Lesson_0569",
@@ -10010,18 +10010,18 @@
       }],
       "Description": "Little Women",
       "Lines": [{
-        "Line_01": "Little Women is a book by Louisa May",
-        "Line_02": "Alcott published in 1868. The story is",
-        "Line_03": "about the fictional March sisters, who",
-        "Line_04": "lived in the time of the American",
-        "Line_05": "Civil War. Their father served as a",
-        "Line_06": "chaplain in the Union Army. The author",
-        "Line_07": "was inspired by her own childhood",
-        "Line_08": "expeirences when writing the book. The",
-        "Line_09": "book was made into a drama film in",
-        "Line_10": "1994."
+        "Line_01": "Little Women, written by Louisa Alcott,",
+        "Line_02": "was first published in 1868. It tells",
+        "Line_03": "the tale of the March sisters during",
+        "Line_04": "the American Civil War. Their father",
+        "Line_05": "was a Union Army chaplain. Alcott drew",
+        "Line_06": "inspiration from her own life. In 1994,",
+        "Line_07": "a film adaptation of the book was",
+        "Line_08": "released. The book remains popular",
+        "Line_09": "and has inspired many adaptations",
+        "Line_10": "in various forms over the years."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0570": {
       "Name": "Lesson_0570",
@@ -10032,19 +10032,18 @@
       }],
       "Description": "Social Media I",
       "Lines": [{
-        "Line_01": "Most social media sites share some of",
-        "Line_02": "the basics. You create a profile which",
-        "Line_03": "tells other users who you are. You get",
-        "Line_04": "to pick an avatar, your online",
-        "Line_05": "likeness in the form of a picture or",
-        "Line_06": "drawing. You'll probably meet trolls,",
-        "Line_07": "or people who are there to annoy others.",
-        "Line_08": "You'll have tools to flag or report",
-        "Line_09": "inconsiderate and improper content."
+        "Line_01": "Social media platforms let users connect",
+        "Line_02": "by creating profiles. Users often choose",
+        "Line_03": "an avatar, which is a small image. Users",
+        "Line_04": "share posts, photos, and videos. Some",
+        "Line_05": "people may encounter trolls, who cause",
+        "Line_06": "disruption online. Many platforms have",
+        "Line_07": "options to report or block these users.",
+        "Line_08": "It's crucial to use privacy settings to",
+        "Line_09": "protect personal information online."
       }],
-      "Refactored": false
+      "Refactored": true
     },
-    //******************************
     "Lesson_0571": {
       "Name": "Lesson_0571",
       "Number": 571,
@@ -10054,18 +10053,17 @@
       }],
       "Description": "Dental Hygienist",
       "Lines": [{
-        "Line_01": "A dental hygienist is a dental",
-        "Line_02": "professional registered with a dental",
-        "Line_03": "association in their country. Dental",
-        "Line_04": "hygienists often work alongside",
-        "Line_05": "dentists to provide a full oral health",
-        "Line_06": "care. Very few dental hygienists work",
-        "Line_07": "independently. Their training focuses",
-        "Line_08": "on the prevention and treatment of",
-        "Line_09": "oral disease, such as cavities, gum",
-        "Line_10": "disease etc."
+        "Line_01": "Dental hygienists are crucial in dental",
+        "Line_02": "care teams, focusing on oral health",
+        "Line_03": "prevention and treatment. They work",
+        "Line_04": "closely with dentists and are trained",
+        "Line_05": "to address issues like cavities and gum",
+        "Line_06": "disease. Most hygienists are registered",
+        "Line_07": "professionals with dental associations",
+        "Line_08": "and play a vital role in maintaining",
+        "Line_09": "oral hygiene for patients."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0572": {
       "Name": "Lesson_0572",
@@ -10076,18 +10074,17 @@
       }],
       "Description": "Disneland Park",
       "Lines": [{
-        "Line_01": "Mr. Disney's friends thought the idea",
-        "Line_02": "of making an amusement park was a",
-        "Line_03": "crazy one. After selling land that he",
-        "Line_04": "loved very much in Palm springs to",
-        "Line_05": "help pay for the park, the building of",
-        "Line_06": "Disneyland began in 1954. He also used",
-        "Line_07": "a weekly television show called",
-        "Line_08": "Disneyland to make people want to see",
-        "Line_09": "his park. In only one year, Disneyland",
-        "Line_10": "Park was open."
+        "Line_01": "Walt Disney's dream of an amusement",
+        "Line_02": "park was initially met with skepticism",
+        "Line_03": "from friends. Despite selling cherished",
+        "Line_04": "land in Palm Springs to fund Disneyland",
+        "Line_05": "Park's construction, he persevered. His",
+        "Line_06": "weekly TV show, 'Disneyland', promoted",
+        "Line_07": "the park. In 1955, Disneyland Park",
+        "Line_08": "opened to the public, becoming an instant",
+        "Line_09": "success."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0573": {
       "Name": "Lesson_0573",
@@ -10098,17 +10095,17 @@
       }],
       "Description": "Hummingbirds",
       "Lines": [{
-        "Line_01": "Some birds that eat mainly seeds feed",
-        "Line_02": "their young on insects. A few types of",
-        "Line_03": "birds eat green plants, but only one",
-        "Line_04": "species lives on leaves. Hummingbirds",
-        "Line_05": "and Honeyeaters live on the nectar or",
-        "Line_06": "honey in flowers. Birds come in many",
-        "Line_07": "sizes from the Bee hummingbird that is",
-        "Line_08": "only 60 mm long to the ostrich which",
-        "Line_09": "stands 2.5 meters high."
+        "Line_01": "Hummingbirds and Honeyeaters rely on",
+        "Line_02": "nectar from flowers. They are among",
+        "Line_03": "the smallest birds, such as the Bee",
+        "Line_04": "hummingbird at just 60 mm long. In",
+        "Line_05": "contrast, ostriches stand tall at 2.5",
+        "Line_06": "meters high. Birds have diverse diets,",
+        "Line_07": "from seed-eaters to leaf-dwellers.",
+        "Line_08": "Each species plays a unique role in",
+        "Line_09": "their ecosystems."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0574": {
       "Name": "Lesson_0574",
@@ -10119,17 +10116,19 @@
       }],
       "Description": "Flame",
       "Lines": [{
-        "Line_01": "A flame is the visible, gaseous part",
-        "Line_02": "of a fire. A flame is a mixture of",
-        "Line_03": "reacting gases and solids emitting",
-        "Line_04": "visible, infarred, and sometimes",
-        "Line_05": "ultraviolet light. The frequency",
-        "Line_06": "spectrum of the emitted light depends",
-        "Line_07": "on the chemical composition of the",
-        "Line_08": "burning material, or fuel, and the",
-        "Line_09": "intermediate reaction products."
+        "Line_01": "A flame is the visible result of",
+        "Line_02": "combustion, emitting light across",
+        "Line_03": "various wavelengths including infrared",
+        "Line_04": "and ultraviolet. Its colors depend on",
+        "Line_05": "the burning material and chemical",
+        "Line_06": "reactions involved. Flames are crucial",
+        "Line_07": "in many industrial processes and are",
+        "Line_08": "studied for their heat and light",
+        "Line_09": "properties. It is actually a form of plasma,",
+        "Line_10": "a different state of matter like:",
+        "Line_11": "solid, liquid, gas, and plasma"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0575": {
       "Name": "Lesson_0575",
@@ -10140,17 +10139,17 @@
       }],
       "Description": "Healing Arts",
       "Lines": [{
-        "Line_01": "Healing arts programs began at",
-        "Line_02": "a handful of hospitals in the 1960s but",
-        "Line_03": "have skyrocketed in the past decade or",
-        "Line_04": "so. Research has shown that art can be",
-        "Line_05": "therapeutic for people during stressful",
-        "Line_06": "times. A 2015 Review: of past studies",
-        "Line_07": "in The Lancet found that listening to",
-        "Line_08": "music before, during or after surgery",
-        "Line_09": "helped recovery."
+        "Line_01": "Healing arts programs started in hospitals",
+        "Line_02": "during the 1960s and have grown immensely",
+        "Line_03": "since. Recent studies highlight art's",
+        "Line_04": "therapeutic benefits in reducing stress",
+        "Line_05": "levels. For instance, a 2015 review in",
+        "Line_06": "The Lancet emphasized music's role in",
+        "Line_07": "enhancing recovery before, during, and",
+        "Line_08": "after surgical procedures.",
+        "Line_09": "Art therapy continues to evolve."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0576": {
       "Name": "Lesson_0576",
@@ -10161,18 +10160,17 @@
       }],
       "Description": "Maps",
       "Lines": [{
-        "Line_01": "The earliest maps were probably simple",
-        "Line_02": "sketches in dirt. Eventually, ancient",
-        "Line_03": "people began to carve maps on stone",
-        "Line_04": "and clay tablets. The oldest surviving",
-        "Line_05": "clay map, dated to around 2,300 B.C.,",
-        "Line_06": "comes from ancient Mesopotamia, Other",
-        "Line_07": "ancient maps have been found around",
-        "Line_08": "the world. These were typically focused",
-        "Line_09": "on the area around the map-makers and",
-        "Line_10": "did not attempt to map the whole Earth."
+        "Line_01": "Early maps were often rudimentary,",
+        "Line_02": "etched in dirt or later carved on stone",
+        "Line_03": "and clay tablets. The oldest known clay",
+        "Line_04": "map, dating to around 2,300 B.C., was",
+        "Line_05": "found in ancient Mesopotamia. Ancient",
+        "Line_06": "maps focused locally, reflecting the",
+        "Line_07": "surroundings of their creators without",
+        "Line_08": "attempting a global scale depiction.",
+        "Line_09": "Maps evolved significantly over time."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0577": {
       "Name": "Lesson_0577",
@@ -10183,18 +10181,17 @@
       }],
       "Description": "Social Media II",
       "Lines": [{
-        "Line_01": "There are many different types of",
-        "Line_02": "social media. The most common are",
-        "Line_03": "personal networks like Facebook, where",
-        "Line_04": "you connect with other people. There",
-        "Line_05": "are media sharing sites like Instagram",
-        "Line_06": "where you post pictures. There are",
-        "Line_07": "also forums, where people meet to chat",
-        "Line_08": "about specific topics, and social",
-        "Line_09": "publishing, like KidBlog where you post",
-        "Line_10": "longer articles."
+        "Line_01": "Social media platforms vary widely, from",
+        "Line_02": "personal networks such as Facebook for",
+        "Line_03": "connecting with others, to Instagram for",
+        "Line_04": "sharing photos. Forums provide spaces",
+        "Line_05": "for topic-specific discussions, while",
+        "Line_06": "sites like KidBlog cater to longer-form",
+        "Line_07": "content publishing. Each platform serves",
+        "Line_08": "different user needs and interests,",
+        "Line_09": "enabling diverse forms of engagement."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0578": {
       "Name": "Lesson_0578",
@@ -10205,18 +10202,18 @@
       }],
       "Description": "Nursing",
       "Lines": [{
-        "Line_01": "Nursing is an extremely popular",
-        "Line_02": "profession in the United States, with",
-        "Line_03": "around 3 million registered nurses",
-        "Line_04": "nationwide. Nurses provide care and",
-        "Line_05": "support for individuals and their",
-        "Line_06": "families. They work alongside",
-        "Line_07": "physicians and follow their directions",
-        "Line_08": "precisely to ensure a quick recovery",
-        "Line_09": "of each patient. Their ultimate goal",
-        "Line_10": "is to improve our quality of life."
+        "Line_01": "In the healthcare field, nursing is",
+        "Line_02": "crucial, boasting over 3 million",
+        "Line_03": "registered nurses in the U.S. These",
+        "Line_04": "professionals provide compassionate",
+        "Line_05": "care and crucial support to patients",
+        "Line_06": "and their families. Working closely",
+        "Line_07": "with doctors, they execute precise",
+        "Line_08": "medical instructions for optimal",
+        "Line_09": "patient recovery, aiming always to",
+        "Line_10": "enhance quality of life."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0579": {
       "Name": "Lesson_0579",
@@ -10227,17 +10224,17 @@
       }],
       "Description": "Pure Water",
       "Lines": [{
-        "Line_01": "While relatively small quantities of",
-        "Line_02": "water are observed by humans to be",
-        "Line_03": "colorless, pure water has a slight",
-        "Line_04": "blue color. The blue tint of water is",
-        "Line_05": "an intrinsic property and is caused by",
-        "Line_06": "selective absorption and scattering of",
-        "Line_07": "white light. Impurities dissolved or",
-        "Line_08": "suspended in water may give water",
-        "Line_09": "different colored appearances."
+        "Line_01": "Although pure water appears colorless",
+        "Line_02": "to the human eye, it actually has a",
+        "Line_03": "subtle blue hue due to light absorption",
+        "Line_04": "and scattering. This phenomenon is a",
+        "Line_05": "result of water's molecular structure",
+        "Line_06": "and composition. However, impurities",
+        "Line_07": "can alter water's color, giving it",
+        "Line_08": "different hues depending on what is",
+        "Line_09": "dissolved or suspended in it."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0580": {
       "Name": "Lesson_0580",
@@ -10248,9 +10245,9 @@
       }],
       "Description": "Test 63: Play Words 37",
       "Lines": [{
-        "Line_01": "Million Mountain hospital research create personal surfing Common recipe Popular Dental recent dental Quick Program professional Seed"
+        "Line_01": "River key Important Creative team Worldwide gel rhythm union Monday role coffee Bowl mighty Everyday Journey guide dark Equality several Impact Member Theatre"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0581": {
       "Name": "Lesson_0581",
@@ -10261,13 +10258,13 @@
       }],
       "Description": "Dynamic Practice 17",
       "Lines": [{
-        "Line_01": "gr gr gro gra ground grand greatly",
-        "Line_02": "ge ge rge nge charged change changed",
-        "Line_03": "ga ga ega gar gardens negative gas",
-        "Line_04": "gn gn ign gni significant significantly design",
-        "Line_05": "gi gi egi ngi begins engine ranging"
+        "Line_01": "ga ga gar gab gar gal gat garlic gable garage galaxy gather",
+        "Line_02": "gr gr gro gra growth graphic gracefully",
+        "Line_03": "ge ge gee gen geo geese generator geometric gentle",
+        "Line_04": "gi gi gir gia gid gig gin giraffe giant giddy giggle gingerbread",
+        "Line_05": "gn gn gna gno gna gnaw gnome gnashing gnarly gnosis"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0582": {
       "Name": "Lesson_0582",
@@ -10278,18 +10275,21 @@
       }],
       "Description": "Postnatal Brain",
       "Lines": [{
-        "Line_01": "Mental abilities, as well as other",
-        "Line_02": "abilities such as motor control,",
-        "Line_03": "memory, and general reasoning are",
-        "Line_04": "served equally by the two hemispheres.",
-        "Line_05": "Until very recently medical experts",
-        "Line_06": "believed that humans were born with",
-        "Line_07": "all of the brain cells they would ever",
-        "Line_08": "have. However, we now know that new",
-        "Line_09": "neurons can be created in the",
-        "Line_10": "postnatal brain."
+        "Line_01": "The brain's abilities, including",
+        "Line_02": "motor skills, memory, and reasoning,",
+        "Line_03": "are managed by both hemispheres.",
+        "Line_04": "Until recently, experts thought",
+        "Line_05": "humans had all brain cells at birth.",
+        "Line_06": "Now, we know new neurons develop",
+        "Line_07": "in the brain after birth.",
+        "Line_08": "Neurogenesis, the birth of neurons,",
+        "Line_09": "occurs throughout life in specific",
+        "Line_10": "regions of the brain.",
+        "Line_11": "Learning and experiences stimulate",
+        "Line_12": "neuroplasticity, allowing the brain",
+        "Line_13": "to adapt and change over time."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0583": {
       "Name": "Lesson_0583",
@@ -10300,18 +10300,18 @@
       }],
       "Description": "What Computers...",
       "Lines": [{
-        "Line_01": "Computers are curious things. They hold",
-        "Line_02": "your favorite stories, but they aren't",
-        "Line_03": "books. They take you to faraway",
-        "Line_04": "places, but they aren't airplanes. They",
-        "Line_05": "whisk you through history, but they",
-        "Line_06": "aren't time machines. With the push of",
-        "Line_07": "a button, computers help you play,",
-        "Line_08": "learn, share, and communicate. These",
-        "Line_09": "days, computers affect your life in",
-        "Line_10": "countless ways."
+        "Line_01": "Computers transform data into stories,",
+        "Line_02": "bridging imagination and reality.",
+        "Line_03": "They connect minds across oceans,",
+        "Line_04": "making distances irrelevant.",
+        "Line_05": "Navigating through time and space,",
+        "Line_06": "they archive our past and envision",
+        "Line_07": "our future with precision.",
+        "Line_08": "At a keystroke, they entertain, educate,",
+        "Line_09": "and empower billions worldwide.",
+        "Line_10": "Today, computers are indispensable."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0584": {
       "Name": "Lesson_0584",
@@ -10322,17 +10322,17 @@
       }],
       "Description": "Butcher",
       "Lines": [{
-        "Line_01": "Butcher is one of the professions",
-        "Line_02": "which are not very popular with the",
-        "Line_03": "new generation. A butcher is the",
-        "Line_04": "person who prepares and sells meat.",
-        "Line_05": "They prepare cuts of meat and poultry",
-        "Line_06": "for sale in retail. Nowadays, it is",
-        "Line_07": "very hard to find a place to get a",
-        "Line_08": "fresh cut of meat which does not come",
-        "Line_09": "from a giant chain grocery store."
+        "Line_01": "A butcher crafts cuts of meat with",
+        "Line_02": "precision, ensuring quality and flavor.",
+        "Line_03": "Traditionally skilled, they select and",
+        "Line_04": "prepare meats for culinary delight.",
+        "Line_05": "Their craft blends tradition with modern",
+        "Line_06": "sourcing, ensuring freshness and taste.",
+        "Line_07": "Today, artisanal butchers are reviving",
+        "Line_08": "the art of locally sourced meats,",
+        "Line_09": "offering a taste of quality beyond mass"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0585": {
       "Name": "Lesson_0585",
@@ -10343,18 +10343,18 @@
       }],
       "Description": "Brazil",
       "Lines": [{
-        "Line_01": "Brazil is the largest",
-        "Line_02": "Portuguese-speaking country in the",
-        "Line_03": "world. It is home to the Amazon",
-        "Line_04": "Rainforest which produces more than",
-        "Line_05": "twenty percent of the Earth's oxygen.",
-        "Line_06": "In fact, the large amount of green in",
-        "Line_07": "Brazil's flag represents the forests of",
-        "Line_08": "Brazil. The reason Brazilians speak",
-        "Line_09": "Portuguese is that Portugal claimed the",
-        "Line_10": "land of Brazil in the year 1500."
+        "Line_01": "Brazil, the largest country where",
+        "Line_02": "Portuguese is spoken, boasts the vast",
+        "Line_03": "Amazon Rainforest, a vital source of",
+        "Line_04": "over twenty percent of Earth's oxygen.",
+        "Line_05": "The green on Brazil's flag symbolizes",
+        "Line_06": "its rich rainforests. Portuguese became",
+        "Line_07": "the official language due to Portugal's",
+        "Line_08": "claim in 1500, shaping Brazil's culture",
+        "Line_09": "and identity ever since.",
+        "Line_10": "Brazil's diverse ecosystem captivates everyone!"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0586": {
       "Name": "Lesson_0586",
@@ -10365,17 +10365,17 @@
       }],
       "Description": "Maya Angelou",
       "Lines": [{
-        "Line_01": "'I've learned that people will forget",
-        "Line_02": "what you said, people will forget what",
-        "Line_03": "you did, but people will never forget",
-        "Line_04": "how you made them feel.' Maya Angelou",
-        "Line_05": "was an American poet, memoirist, and",
-        "Line_06": "civil rights activitst. Angelou's best",
-        "Line_07": "known work is 'I Know Why the Caged",
-        "Line_08": "Bird Sings,' a memoir spanning her",
-        "Line_09": "early childhood through the age of 17."
+        "Line_01": "'People will forget what you said,",
+        "Line_02": "people will forget what you did, but",
+        "Line_03": "they will never forget how you made",
+        "Line_04": "them feel.' Maya Angelou, an iconic",
+        "Line_05": "American writer and activist, gained",
+        "Line_06": "fame for her poignant memoirs and",
+        "Line_07": "poetry. 'I Know Why the Caged Bird",
+        "Line_08": "Sings,' her celebrated autobiography,",
+        "Line_09": "captures her early struggles and triumphs."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0587": {
       "Name": "Lesson_0587",
@@ -10386,18 +10386,18 @@
       }],
       "Description": "Jane Eyre",
       "Lines": [{
-        "Line_01": "Jane Eyre is a popular love story",
-        "Line_02": "written by Charlotte Bronte. The book",
-        "Line_03": "tells a story of a young orphan Jane",
-        "Line_04": "who falls in love with Mr. Rochester.",
-        "Line_05": "Jane soon learns that he is already",
-        "Line_06": "married to a crazy woman and decides",
-        "Line_07": "to leave him. A few years later, after",
-        "Line_08": "almost agreeing to marry another man,",
-        "Line_09": "she returns to marry Mr. Rochester",
-        "Line_10": "after his wife's death."
+        "Line_01": "Jane Eyre, a classic novel by",
+        "Line_02": "Charlotte Bronte, explores themes of",
+        "Line_03": "love, independence, and societal",
+        "Line_04": "expectations. The protagonist, Jane,",
+        "Line_05": "overcomes adversity and finds herself",
+        "Line_06": "drawn to Mr. Rochester, despite the",
+        "Line_07": "challenges they face. Their complex",
+        "Line_08": "relationship unfolds against the",
+        "Line_09": "backdrop of 19th-century England,",
+        "Line_10": "capturing readers with its depth."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0588": {
       "Name": "Lesson_0588",
@@ -10408,17 +10408,17 @@
       }],
       "Description": "Florida",
       "Lines": [{
-        "Line_01": "Florida is the Sunshine State. The",
-        "Line_02": "reason for this nickname is its warm",
-        "Line_03": "temperatures may rise up to as high as",
-        "Line_04": "109 degrees Fahrenheit (or 40.5 degrees",
-        "Line_05": "Celsius). Its average temperature is",
-        "Line_06": "much warmer than many of the other",
-        "Line_07": "states, but during winter, tempreatures",
-        "Line_08": "occasionally fall below 32 degrees",
-        "Line_09": "Fahrenheit."
+        "Line_01": "Florida, known as the Sunshine State,",
+        "Line_02": "boasts diverse ecosystems from sandy",
+        "Line_03": "beaches to lush wetlands. Its warm",
+        "Line_04": "climate supports unique wildlife such",
+        "Line_05": "as manatees and alligators. Over 21",
+        "Line_06": "million people call Florida home, drawn",
+        "Line_07": "by its vibrant cities and tropical",
+        "Line_08": "scenery. Tourists flock to its theme",
+        "Line_09": "parks and famous orange groves."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0589": {
       "Name": "Lesson_0589",
@@ -10429,18 +10429,18 @@
       }],
       "Description": "NASA",
       "Lines": [{
-        "Line_01": "The National Aeronautics and Space",
-        "Line_02": "Administration or NASA is an executive",
-        "Line_03": "branch agency of the United States",
-        "Line_04": "government, responsible for the",
-        "Line_05": "nation's civilian space program and",
-        "Line_06": "aeronautics and aerospace research. The",
-        "Line_07": "Apollo program started by President",
-        "Line_08": "J.F. Kennedy in the 1960s was designed",
-        "Line_09": "to send a man to the Moon and return",
-        "Line_10": "him safely back to Earth."
+        "Line_01": "NASA, established in 1958, pioneers",
+        "Line_02": "space exploration and scientific",
+        "Line_03": "discovery. It has launched iconic",
+        "Line_04": "missions like Voyager and Hubble,",
+        "Line_05": "unveiling mysteries of our universe.",
+        "Line_06": "Its Mars rovers search for signs of",
+        "Line_07": "life, while the ISS fosters",
+        "Line_08": "international collaboration in space.",
+        "Line_09": "NASA's innovations drive",
+        "Line_10": "technological advancements globally."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0590": {
       "Name": "Lesson_0590",
@@ -10451,17 +10451,18 @@
       }],
       "Description": "Lions",
       "Lines": [{
-        "Line_01": "Lions live for 10 to 14 years when",
-        "Line_02": "they are in the wild. When they are",
-        "Line_03": "captive, they can live longer than 20",
-        "Line_04": "years. In the wild, males do not",
-        "Line_05": "usually live longer than 10 years.",
-        "Line_06": "This is due to wounds from fighting",
-        "Line_07": "with other males. They usually live in",
-        "Line_08": "savannahs or grasslands, though they",
-        "Line_09": "sometimes live in bushes and forests."
+        "Line_01": "Lions are majestic predators known",
+        "Line_02": "for their social structure and",
+        "Line_03": "distinctive roars. They primarily",
+        "Line_04": "inhabit grasslands and savannahs,",
+        "Line_05": "where prides defend territories and",
+        "Line_06": "hunt cooperatively. Female lions are",
+        "Line_07": "the primary hunters, working together",
+        "Line_08": "to bring down large prey like zebras",
+        "Line_09": "and wildebeests. Lions communicate",
+        "Line_10": "through various vocalizations."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0591": {
       "Name": "Lesson_0591",
@@ -10472,18 +10473,18 @@
       }],
       "Description": "Steve Jobs",
       "Lines": [{
-        "Line_01": "'Your time is limited, so don't waste",
-        "Line_02": "it living someone else's life.' -",
-        "Line_03": "Steve Jobs. Jobs was an American",
-        "Line_04": "businessman, inventor, and industrial",
-        "Line_05": "designer. He was the co-founder",
-        "Line_06": "chairman, and chief executive officer",
-        "Line_07": "(CEO) of Apple Inc. Jobs is widely",
-        "Line_08": "recognized as a pioneer of the",
-        "Line_09": "microcomputer revolution of the 1970s",
-        "Line_10": "and 1980s."
+        "Line_01": "Steve Jobs, a visionary in technology",
+        "Line_02": "and design, co-founded Apple Inc., a",
+        "Line_03": "company that revolutionized personal",
+        "Line_04": "computing. His innovations include the",
+        "Line_05": "Macintosh, iPod, iPhone, and iPad,",
+        "Line_06": "which reshaped industries worldwide.",
+        "Line_07": "Jobs emphasized simplicity and",
+        "Line_08": "elegance in product design, creating",
+        "Line_09": "products that are both intuitive and",
+        "Line_10": "powerful."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0592": {
       "Name": "Lesson_0592",
@@ -10494,18 +10495,18 @@
       }],
       "Description": "Nutrition",
       "Lines": [{
-        "Line_01": "Nutrition provides the cells of an",
-        "Line_02": "organism with food in a form they can",
-        "Line_03": "use. Organisms need food to keep their",
-        "Line_04": "bodies working properly. They also need",
-        "Line_05": "food to be able to do certain things.",
-        "Line_06": "Malnutrition can happen when a person",
-        "Line_07": "doesn't eat the right amount of",
-        "Line_08": "nutrients. They can get better by",
-        "Line_09": "changing their diet so it has the",
-        "Line_10": "right amount of nutrients."
+        "Line_01": "Nutrition is the process by which",
+        "Line_02": "organisms obtain and utilize food for",
+        "Line_03": "energy and growth. It involves the",
+        "Line_04": "ingestion, digestion, absorption, and",
+        "Line_05": "metabolism of nutrients. Proper",
+        "Line_06": "nutrition is essential for maintaining",
+        "Line_07": "good health and preventing diseases",
+        "Line_08": "such as obesity and malnutrition.",
+        "Line_09": "A balanced diet provides the necessary",
+        "Line_10": "nutrients for optimal bodily function."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0593": {
       "Name": "Lesson_0593",
@@ -10516,18 +10517,18 @@
       }],
       "Description": "Wisconsin",
       "Lines": [{
-        "Line_01": "The word Wisconsin comes from the name",
-        "Line_02": "That one of the Algonquian speaking",
-        "Line_03": "American Indian groups living in the",
-        "Line_04": "area gave to the Wisconsin River. They",
-        "Line_05": "named the Wisconsin River at the time",
-        "Line_06": "that the European contact happened.",
-        "Line_07": "Jacques Marquette, a French explorer,",
-        "Line_08": "was the first European (or person from",
-        "Line_09": "Europe) to get to the Wisconsin River",
-        "Line_10": "and write down the name."
+        "Line_01": "Wisconsin, derived from the Algonquian",
+        "Line_02": "word meaning 'river running through a",
+        "Line_03": "red place,' is known for its dairy",
+        "Line_04": "farming and cheese production. The state",
+        "Line_05": "is home to over 1.8 million dairy cows,",
+        "Line_06": "contributing significantly to the US",
+        "Line_07": "milk and cheese supply. The University",
+        "Line_08": "of Wisconsin-Madison is renowned for",
+        "Line_09": "its agricultural research and plays a",
+        "Line_10": "key role in the state's farming sector."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0594": {
       "Name": "Lesson_0594",
@@ -10538,19 +10539,18 @@
       }],
       "Description": "Perseid Meteors",
       "Lines": [{
-        "Line_01": "The Perseids are a meteor shower",
-        "Line_02": "associated with the comet Swift-Tuttle.",
-        "Line_03": "their name is due to the fact that",
-        "Line_04": "they appear to hail from the",
-        "Line_05": "constellation Perseus. The cloud",
-        "Line_06": "consists of particles ejected by the",
-        "Line_07": "comet as it travels on its 133-year",
-        "Line_08": "orbit. Most of the particles have been",
-        "Line_09": "part of the cloud for around a",
-        "Line_10": "thousand years. During its peak, the",
-        "Line_11": "rate of meteors reaches 60 or more per hour."
+        "Line_01": "The Perseid meteor shower is caused by",
+        "Line_02": "debris left behind by Comet Swift-Tuttle,",
+        "Line_03": "visible annually between July and August.",
+        "Line_04": "These meteors appear to originate from",
+        "Line_05": "the constellation Perseus. The comet's",
+        "Line_06": "orbit brings it close to the Sun every",
+        "Line_07": "133 years, leaving a trail of particles",
+        "Line_08": "that burn up as they enter Earth's",
+        "Line_09": "atmosphere. During its peak, observers",
+        "Line_10": "can see up to 100 meteors per hour."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0595": {
       "Name": "Lesson_0595",
@@ -10559,20 +10559,20 @@
         "AccuracyRequirement": "",
         "SpeedRequirement": ""
       }],
-      "Description": "Moodle Eating",
+      "Description": "Noodle Eating",
       "Lines": [{
-        "Line_01": "In Japan, noodles are slurped",
-        "Line_02": "(somewhat) loudly when eaten. It has",
-        "Line_03": "been said that slurping while eating",
-        "Line_04": "indicates that the food is delicious.",
-        "Line_05": "The slurping also serves to cool down",
-        "Line_06": "hot noodles before eating and enjoying",
-        "Line_07": "them. While it may be perceived as",
-        "Line_08": "disprespectful in western cultures,",
-        "Line_09": "slurping while eating noodles is a",
-        "Line_10": "part of Japanese culture."
+        "Line_01": "In Japan, noodles are traditionally",
+        "Line_02": "enjoyed by slurping them loudly, which",
+        "Line_03": "is considered a sign of appreciation",
+        "Line_04": "for the dish's flavors. This practice",
+        "Line_05": "also cools the noodles before eating,",
+        "Line_06": "enhancing their taste and texture.",
+        "Line_07": "Although frowned upon in some cultures,",
+        "Line_08": "slurping noodles is deeply rooted in",
+        "Line_09": "Japanese culinary customs and etiquette.",
+        "Line_10": "It reflects a cultural respect for food."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0596": {
       "Name": "Lesson_0596",
@@ -10583,17 +10583,18 @@
       }],
       "Description": "Picasso",
       "Lines": [{
-        "Line_01": "'Every child is an artist. The problem",
-        "Line_02": "is how to remain an artist once he",
-        "Line_03": "grows up.' Pablo Picasso was a Spanish",
-        "Line_04": "painter, sculptor, printmaker,",
-        "Line_05": "ceramicist, stage designer, poet and",
-        "Line_06": "playwright who lived from 1881 to",
-        "Line_07": "1973. Picasso is regarded as one of",
-        "Line_08": "the greatest and most influential",
-        "Line_09": "artists of the 20th century."
+        "Line_01": "Pablo Picasso, born in 1881, was a",
+        "Line_02": "prolific Spanish artist known for his",
+        "Line_03": "innovative work across various forms",
+        "Line_04": "of art, including painting, sculpture,",
+        "Line_05": "and ceramics. His artistic career",
+        "Line_06": "spanned over seven decades, during",
+        "Line_07": "which he co-founded the Cubist",
+        "Line_08": "movement and pioneered new artistic",
+        "Line_09": "styles and techniques that continue",
+        "Line_10": "to influence artists worldwide today."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0597": {
       "Name": "Lesson_0597",
@@ -10604,18 +10605,18 @@
       }],
       "Description": "Don Quixote",
       "Lines": [{
-        "Line_01": "Don Quixote is a novel by Miguel de",
-        "Line_02": "Cervantes. It was first written in",
-        "Line_03": "Spanish in the 17th century. It's",
-        "Line_04": "about Alonso, a middle-aged man gone",
-        "Line_05": "crazy after reading too many tales",
-        "Line_06": "about chivalry. He is accompanied by a",
-        "Line_07": "sane squire, Sancho, on his many",
-        "Line_08": "adventures around the country. The book",
-        "Line_09": "depicts many amusing moments when",
-        "Line_10": "Alonso believes his adventures are real."
+        "Line_01": "Don Quixote, written by Miguel de",
+        "Line_02": "Cervantes in the 17th century, is a",
+        "Line_03": "novel that satirizes the romantic",
+        "Line_04": "ideals of medieval chivalry. The",
+        "Line_05": "protagonist, Alonso Quixano, imagines",
+        "Line_06": "himself as a knight errant, embarking",
+        "Line_07": "on adventures with his loyal squire,",
+        "Line_08": "Sancho Panza. Throughout the story,",
+        "Line_09": "Quixote's delusions often lead to",
+        "Line_10": "humorous and poignant situations."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0598": {
       "Name": "Lesson_0598",
@@ -10626,18 +10627,18 @@
       }],
       "Description": "Camels",
       "Lines": [{
-        "Line_01": "Several adaptations help a camel save",
-        "Line_02": "water. Their large feet spread their",
-        "Line_03": "weight on the sand when they are",
-        "Line_04": "walking. When there is food and water,",
-        "Line_05": "a camel can eat and drink large",
-        "Line_06": "amounts and store it as fat in the",
-        "Line_07": "hump. Then, when there is no food or",
-        "Line_08": "water, the camel uses the fat for",
-        "Line_09": "energy, and the hump becomes small and",
-        "Line_10": "soft."
+        "Line_01": "Camels are uniquely adapted to survive",
+        "Line_02": "in harsh desert environments. Their",
+        "Line_03": "large, padded feet help them navigate",
+        "Line_04": "sandy terrain without sinking. These",
+        "Line_05": "remarkable animals can consume large",
+        "Line_06": "quantities of food and water when",
+        "Line_07": "available, storing excess as fat in",
+        "Line_08": "their humps. This stored fat serves as",
+        "Line_09": "energy reserve during periods of",
+        "Line_10": "scarcity, allowing their humps to shrink."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0599": {
       "Name": "Lesson_0599",
@@ -10648,17 +10649,17 @@
       }],
       "Description": "Robots",
       "Lines": [{
-        "Line_01": "A robot is a machine or a computer",
-        "Line_02": "program which seems to have a life of",
-        "Line_03": "its own. It can be programmed to do",
-        "Line_04": "different things, it can move, it can",
-        "Line_05": "do useful jobs, etc. People have been",
-        "Line_06": "interested in building machines to do",
-        "Line_07": "work for them for a long time. It",
-        "Line_08": "takes an enormous amount of time and",
-        "Line_09": "money to build them."
+        "Line_01": "Robots are versatile machines designed",
+        "Line_02": "to perform various tasks autonomously",
+        "Line_03": "or under human control. They range from",
+        "Line_04": "simple automated devices to complex AI",
+        "Line_05": "systems. Early concepts of robots date",
+        "Line_06": "back centuries, evolving into modern",
+        "Line_07": "technologies capable of precision and",
+        "Line_08": "efficiency. Building robots requires",
+        "Line_09": "significant resources in time and funding."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0600": {
       "Name": "Lesson_0600",
@@ -10669,20 +10670,20 @@
       }],
       "Description": "Mount Rushmore",
       "Lines": [{
-        "Line_01": "Mount Rushmore National Memorial is a",
-        "Line_02": "sculpture carved into the side of",
-        "Line_03": "Mount Rushmore in the Black Hills of",
-        "Line_04": "South Dakota, USA. Dynamite was used",
-        "Line_05": "to carve Mount Rushmore followed by a",
-        "Line_06": "process called 'honeycombing'. About",
-        "Line_07": "450,000 tons (over 800 million pounts)",
-        "Line_08": "of stone was removed from the side of",
-        "Line_09": "the mountain during construction.",
-        "Line_10": "Mount Rushmore was featured in a number",
-        "Line_11": "of Hollywood movies including National",
-        "Line_12": "Treasure 2, staring Nicolas Cage."
+        "Line_01": "Mount Rushmore National Memorial showcases",
+        "Line_02": "the faces of four U.S. presidents: George",
+        "Line_03": "Washington, Thomas Jefferson, Theodore",
+        "Line_04": "Roosevelt, and Abraham Lincoln. Carved into",
+        "Line_05": "the granite face of the mountain, each face",
+        "Line_06": "stands at a height of 60 feet (18 meters).",
+        "Line_07": "The project began in 1927 and took 14 years",
+        "Line_08": "to complete, led by sculptor Gutzon Borglum",
+        "Line_09": "and his team. Over 400 workers contributed",
+        "Line_10": "to the monument's creation. Mount Rushmore",
+        "Line_11": "was features in a number of Hollywood movies",
+        "Line_12": "including National Treasure 2, staring Nicoals Cage."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0601": {
       "Name": "Lesson_0601",
@@ -10693,17 +10694,19 @@
       }],
       "Description": "Oscar Wilde",
       "Lines": [{
-        "Line_01": "'To live is the rarest thing in the",
-        "Line_02": "world. Most people exist, that is",
-        "Line_03": "all.' Oscar Wilde was an Irish",
-        "Line_04": "playwright, novelist, essayist, and",
-        "Line_05": "poet in the 19th century. He is well",
-        "Line_06": "known for many of his works, including",
-        "Line_07": "the novel 'The Picture of Dorian Gray'",
-        "Line_08": "and the play 'The Importance of Being",
-        "Line_09": "Earnest'."
+        "Line_01": "Oscar Wilde, born in 1854, was a prolific",
+        "Line_02": "Irish writer known for his wit and",
+        "Line_03": "literary achievements. His sharp",
+        "Line_04": "observations on society are reflected in",
+        "Line_05": "works like 'The Picture of Dorian Gray',",
+        "Line_06": "'Salomé', and his famous comedies such",
+        "Line_07": "as 'Lady Windermere's Fan' and 'An Ideal",
+        "Line_08": "Husband'. Wilde's flamboyant personality",
+        "Line_09": "and lifestyle challenged Victorian norms.",
+        "Line_10": "His legacy continues to inspire and",
+        "Line_11": "intrigue readers and scholars alike."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0602": {
       "Name": "Lesson_0602",
@@ -10714,18 +10717,18 @@
       }],
       "Description": "Teacher",
       "Lines": [{
-        "Line_01": "A teacher is a person who helps others",
-        "Line_02": "learn. There are many different kinds",
-        "Line_03": "of teachers. Some teach kindergarten,",
-        "Line_04": "while others teach elementary and high",
-        "Line_05": "school students. Generally speaking,",
-        "Line_06": "teachers who teach at universities are",
-        "Line_07": "called professors. To earn the title",
-        "Line_08": "of professor, one must pass many",
-        "Line_09": "difficult examinations and become an",
-        "Line_10": "expert in the subject matter."
+        "Line_01": "Teachers play a vital role in shaping",
+        "Line_02": "young minds and imparting knowledge.",
+        "Line_03": "From preschool educators who introduce",
+        "Line_04": "basic concepts to university professors",
+        "Line_05": "who delve deep into specialized fields,",
+        "Line_06": "their impact spans all levels of",
+        "Line_07": "education. A professor's journey",
+        "Line_08": "involves rigorous academic pursuits",
+        "Line_09": "and achieving expertise through years",
+        "Line_10": "of study and research."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0603": {
       "Name": "Lesson_0603",
@@ -10736,18 +10739,18 @@
       }],
       "Description": "Catcher in the Rye",
       "Lines": [{
-        "Line_01": "The Catcher in the Rye is a classic",
-        "Line_02": "novel written by J.D. Salinger. It",
-        "Line_03": "tells a story of a young man who,",
-        "Line_04": "after being expelled from school,",
-        "Line_05": "decides to embark on a short trip",
-        "Line_06": "before returning home. It becomes a",
-        "Line_07": "trip of self-discovery. The main",
-        "Line_08": "character, a young man named Holden,",
-        "Line_09": "narrates the story from a mental",
-        "Line_10": "hospital, but the location is unknown."
+        "Line_01": "J.D. Salinger's novel, The Catcher in",
+        "Line_02": "the Rye, portrays the journey of",
+        "Line_03": "Holden Caulfield, a disillusioned",
+        "Line_04": "teenager navigating through a world",
+        "Line_05": "he perceives as phony. Expelled from",
+        "Line_06": "school, he embarks on a soul-searching",
+        "Line_07": "journey in New York City. The novel's",
+        "Line_08": "narrative captures Holden's cynical",
+        "Line_09": "view of adulthood and societal",
+        "Line_10": "expectations."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0604": {
       "Name": "Lesson_0604",
@@ -10758,17 +10761,17 @@
       }],
       "Description": "George Washington",
       "Lines": [{
-        "Line_01": "George Washington was active in the",
-        "Line_02": "French and Indian War. His first",
-        "Line_03": "military action was a defeat at the",
-        "Line_04": "hands of the French and their Indian",
-        "Line_05": "allies at Fort Necessity.  By the age",
-        "Line_06": "of 23, he was a colonel in charge of",
-        "Line_07": "all the soldiers in Virginia. They",
-        "Line_08": "fought the Indians. In 1759, Washington",
-        "Line_09": "married a widow named Martha Custis."
+        "Line_01": "George Washington, a pivotal figure in",
+        "Line_02": "American history, emerged as a military",
+        "Line_03": "leader during the French and Indian War.",
+        "Line_04": "He faced early setbacks, including a",
+        "Line_05": "defeat at Fort Necessity, yet rose to",
+        "Line_06": "become a colonel overseeing Virginia's",
+        "Line_07": "troops. In 1759, he wed Martha Custis,",
+        "Line_08": "widow and heiress, solidifying his",
+        "Line_09": "status in Virginia society."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0605": {
       "Name": "Lesson_0605",
@@ -10779,17 +10782,18 @@
       }],
       "Description": "Sun's Composition",
       "Lines": [{
-        "Line_01": "The Sun is the star at the center of",
-        "Line_02": "the solar system. It is almost",
-        "Line_03": "perfectly spherical and consists of hot",
-        "Line_04": "plasma interwoven with magnetic fields.",
-        "Line_05": "About three quarters of the Sun's mass",
-        "Line_06": "consists of hydrogen, while the rest",
-        "Line_07": "is mostly helium. The Sun's atmosphere",
-        "Line_08": "has 3 layers: the photosphere, the",
-        "Line_09": "chromosphere, and the corona."
+        "Line_01": "The Sun, a vital star in our solar",
+        "Line_02": "system, shines as a nearly perfect",
+        "Line_03": "sphere of hot plasma enveloped by",
+        "Line_04": "dynamic magnetic fields. Its mass is",
+        "Line_05": "predominantly hydrogen, comprising",
+        "Line_06": "about three quarters, with helium and",
+        "Line_07": "other elements making up the remainder.",
+        "Line_08": "Layers like the photosphere,",
+        "Line_09": "chromosphere, and corona define its",
+        "Line_10": "complex atmosphere."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0606": {
       "Name": "Lesson_0606",
@@ -10800,18 +10804,17 @@
       }],
       "Description": "Costa Rica",
       "Lines": [{
-        "Line_01": "In Costa Rica, 'Pura vida' is the",
-        "Line_02": "national saying which translates as",
-        "Line_03": "'pure life,' a sunny, feel good",
-        "Line_04": "expression used as a greeting, goodbye,",
-        "Line_05": "or if someone asks how you are doing.",
-        "Line_06": "Costa Rica is a country in Central",
-        "Line_07": "America. Roughly a quarter of its area",
-        "Line_08": "is made up of protected jungle,",
-        "Line_09": "teeming with wildlife including sloths",
-        "Line_10": "and quetzal birds."
+        "Line_01": "Costa Rica, known for 'Pura vida',",
+        "Line_02": "meaning 'pure life', embraces this",
+        "Line_03": "slogan as a national ethos. It's a",
+        "Line_04": "warm greeting, a farewell, and an",
+        "Line_05": "expression of well-being. Nestled in",
+        "Line_06": "Central America, a significant portion",
+        "Line_07": "of its land is lush jungle, home to",
+        "Line_08": "diverse wildlife like sloths and the",
+        "Line_09": "colorful quetzal bird."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0607": {
       "Name": "Lesson_0607",
@@ -10822,17 +10825,17 @@
       }],
       "Description": "Left Hand Typing",
       "Lines": [{
-        "Line_01": "The average person's left hand does",
-        "Line_02": "56% of the typing when using the",
-        "Line_03": "proper position of the hands on the",
-        "Line_04": "keyboard (hunting and pecking doesn't",
-        "Line_05": "count!). Now that we have practiced",
-        "Line_06": "the proper form for typing with all 10",
-        "Line_07": "fingers, this includes you! Think about",
-        "Line_08": "which letters each hand is responsible",
-        "Line_09": "for. Does this percentage make sense?"
+        "Line_01": "Mastering left-hand typing efficiency",
+        "Line_02": "is crucial for balanced keyboard use.",
+        "Line_03": "Statistically, the left hand manages",
+        "Line_04": "56% of typing tasks with proper hand",
+        "Line_05": "positioning. Correct technique engages",
+        "Line_06": "all 10 fingers, enhancing accuracy and",
+        "Line_07": "speed. Practice your hand placement",
+        "Line_08": "skills to optimize efficiency. Which",
+        "Line_09": "keys are managed by your left hand?"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0608": {
       "Name": "Lesson_0608",
@@ -10843,18 +10846,18 @@
       }],
       "Description": "Color Vision",
       "Lines": [{
-        "Line_01": "Many cases of color vision deficiency",
-        "Line_02": "are relatively mild, a matter of",
-        "Line_03": "mixing up certain colors or seeing",
-        "Line_04": "very dull versions of the colors. It",
-        "Line_05": "can affect the way people see traffic",
-        "Line_06": "lights when driving. For creative",
-        "Line_07": "people in artistic professions,",
-        "Line_08": "colorblindness can hinder their ability",
-        "Line_09": "to work. It also prevents people from",
-        "Line_10": "entering a number of professions."
+        "Line_01": "Color vision deficiency varies widely,",
+        "Line_02": "often causing confusion with specific",
+        "Line_03": "colors or dull perceptions. It impacts",
+        "Line_04": "driving, affecting traffic light",
+        "Line_05": "interpretation. In creative fields,",
+        "Line_06": "like art, it can limit professional",
+        "Line_07": "growth. Certain careers, inaccessible",
+        "Line_08": "due to colorblindness, include design",
+        "Line_09": "and aviation, where color accuracy is",
+        "Line_10": "critical."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0609": {
       "Name": "Lesson_0609",
@@ -10866,17 +10869,17 @@
       "Description": "Founding Fathers",
       "Lines": [{
         "Line_01": "The Founding Fathers of the United",
-        "Line_02": "States of America, the framers of the",
-        "Line_03": "Constitution, wanted to form a",
-        "Line_04": "government that did not allow one",
-        "Line_05": "person to have too much control. With",
-        "Line_06": "this in mind, the Founding Fathers",
-        "Line_07": "wrote the Constitution to provide for",
-        "Line_08": "a separation of powers, or three",
-        "Line_09": "separate branches of government:",
-        "Line_10": "legislative, executive, and judiciary."
+        "Line_02": "States aimed to prevent authoritarian",
+        "Line_03": "rule by ensuring no single person",
+        "Line_04": "held excessive power. They crafted",
+        "Line_05": "the Constitution with checks and",
+        "Line_06": "balances, dividing government into",
+        "Line_07": "three branches: legislative, executive,",
+        "Line_08": "and judicial, to safeguard liberty",
+        "Line_09": "and uphold democratic principles.",
+        "Line_10": "Their vision shaped America's foundation."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0610": {
       "Name": "Lesson_0610",
@@ -10887,17 +10890,17 @@
       }],
       "Description": "Cinco de Mayo",
       "Lines": [{
-        "Line_01": "In the United States, Cinco de Mayo",
-        "Line_02": "has evolved into a celebration of",
-        "Line_03": "Mexican culture and heritage,",
-        "Line_04": "particularly in areas with large",
-        "Line_05": "Mexican-American populations. Cinco de",
-        "Line_06": "Mayo traditions include parades,",
-        "Line_07": "mariachi music performances, and street",
-        "Line_08": "festivals in cities and towns across",
-        "Line_09": "Mexico and the United States."
+        "Line_01": "Cinco de Mayo commemorates Mexico's",
+        "Line_02": "victory over French forces at the Battle",
+        "Line_03": "of Puebla in 1862, though it's often",
+        "Line_04": "mistaken as Mexican Independence Day,",
+        "Line_05": "which is celebrated on September 16th.",
+        "Line_06": "The holiday has gained popularity in the",
+        "Line_07": "U.S., becoming a festive occasion with",
+        "Line_08": "parades, mariachi bands, and traditional",
+        "Line_09": "Mexican food enjoyed by many Americans."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0611": {
       "Name": "Lesson_0611",
@@ -10908,18 +10911,18 @@
       }],
       "Description": "Web Addresses",
       "Lines": [{
-        "Line_01": "Unlike street addresses, web addresses",
-        "Line_02": "begin with 'www' followed by things",
-        "Line_03": "like 'Google' or 'Yahoo' and end in",
-        "Line_04": "'.com', '.org', or other similar",
-        "Line_05": "endings. We call these types of",
-        "Line_06": "addresses 'urls', 'Websites', 'sites',",
-        "Line_07": "or even simply 'Web Addresses.'",
-        "Line_08": "Countries sometimes have their own url",
-        "Line_09": "endings, such as '.uk' for the United",
-        "Line_10": "Kingdom, and '.au' for Australia."
+        "Line_01": "Web addresses, also known as URLs, are",
+        "Line_02": "unique identifiers for websites. They",
+        "Line_03": "start with 'www' and typically include",
+        "Line_04": "the website's name followed by a domain",
+        "Line_05": "extension like '.com', '.org', or '.net'.",
+        "Line_06": "Each country may have its own domain",
+        "Line_07": "ending, such as '.uk' for the United",
+        "Line_08": "Kingdom and '.au' for Australia,",
+        "Line_09": "reflecting its geographic origin or",
+        "Line_10": "purpose."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0612": {
       "Name": "Lesson_0612",
@@ -10930,13 +10933,13 @@
       }],
       "Description": "Dynamic Practice 18",
       "Lines": [{
-        "Line_01": "gr gr gra gro gravity groups ground",
-        "Line_02": "ge ge nge uge changed exchange huge",
-        "Line_03": "ga ga aga ega against games began",
-        "Line_04": "gn gn ign gni significantly signals design",
-        "Line_05": "gi gi igi egi religious begins changing"
+        "Line_01": "gi gi gil gir gif gin gill girl gift gingerly",
+        "Line_02": "ga ga gal gar gat gaz gate gaze gallon garage",
+        "Line_03": "gn gn ign gna gnarled gnash gnaw ignite",
+        "Line_04": "ge ge gen genre gentle generous",
+        "Line_05": "gr gr gra gro gre great grow grant graphic"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0613": {
       "Name": "Lesson_0613",
@@ -10947,17 +10950,17 @@
       }],
       "Description": "What is a Company?",
       "Lines": [{
-        "Line_01": "A company is a type of business. The",
-        "Line_02": "definition of a term varies by",
-        "Line_03": "country. In general, a company is the",
-        "Line_04": "same as a corporation. It is a",
-        "Line_05": "business organization which makes goods",
-        "Line_06": "in an organized manner and sells them",
-        "Line_07": "to the public for profit. A company",
-        "Line_08": "may hire people to be the staff of",
-        "Line_09": "the company."
+        "Line_01": "A company is a form of business entity",
+        "Line_02": "that operates under legal regulations",
+        "Line_03": "varying by region. Generally, it refers",
+        "Line_04": "to an organization that produces goods",
+        "Line_05": "or services for sale to customers,",
+        "Line_06": "aiming to generate profit. Companies",
+        "Line_07": "employ individuals to carry out their",
+        "Line_08": "operations and fulfill their goals.",
+        "Line_09": "The structure and size of a company"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0614": {
       "Name": "Lesson_0614",
@@ -10968,18 +10971,18 @@
       }],
       "Description": "Internet Tips",
       "Lines": [{
-        "Line_01": "Remember these tips for staying safe",
-        "Line_02": "on the Internet: 1) Everyone you meet",
-        "Line_03": "online is a STRANGER, 2) Never share",
-        "Line_04": "private information on the Internet, 3)",
-        "Line_05": "Only go to websites your parents or",
-        "Line_06": "teachers have approved, 4) Do not",
-        "Line_07": "download or install anything on your",
-        "Line_08": "computer, 5) Think before you click!,",
-        "Line_09": "6) If someone is being mean to you,",
-        "Line_10": "tell a trusted adult right away."
+        "Line_01": "Stay safe online with these tips: 1)",
+        "Line_02": "Always treat online contacts as",
+        "Line_03": "strangers, 2) Avoid sharing personal",
+        "Line_04": "details online, 3) Visit only approved",
+        "Line_05": "websites, 4) Be cautious with downloads",
+        "Line_06": "and installations, 5) Think before you",
+        "Line_07": "click links or ads, 6) Report any",
+        "Line_08": "cyberbullying incidents to a trusted",
+        "Line_09": "adult immediately.",
+        "Line_10": ""
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0615": {
       "Name": "Lesson_0615",
@@ -10990,19 +10993,18 @@
       }],
       "Description": "Accountant",
       "Lines": [{
-        "Line_01": "An accountant is a person who",
-        "Line_02": "communicates financial information about",
-        "Line_03": "a business. Accountants write in the",
-        "Line_04": "books of account that belong to a",
-        "Line_05": "company. Every time money is spent or",
-        "Line_06": "earned, it is written in the ledger.",
-        "Line_07": "The information in the ledger is",
-        "Line_08": "reported every month, every three",
-        "Line_09": "months or once a year. The annual",
-        "Line_10": "accounts show if the company made a",
-        "Line_11": "profit in the year."
+        "Line_01": "Accountants manage financial data for",
+        "Line_02": "businesses. They record transactions",
+        "Line_03": "in ledgers, documenting every expense",
+        "Line_04": "and income. This helps companies track",
+        "Line_05": "their financial health. Accountants",
+        "Line_06": "prepare reports regularly to analyze",
+        "Line_07": "profits and losses. They play a crucial",
+        "Line_08": "role in ensuring financial accuracy and",
+        "Line_09": "compliance with regulations. Their work",
+        "Line_10": "helps businesses make informed decisions."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0616": {
       "Name": "Lesson_0616",
@@ -11013,19 +11015,18 @@
       }],
       "Description": "Mexico's Flag",
       "Lines": [{
-        "Line_01": "Mexico and the United States share the",
-        "Line_02": "second largest boarder in the world,",
-        "Line_03": "only the U.S.-Canadian boarder is",
-        "Line_04": "larger. The Mexican flag consists of",
-        "Line_05": "three vertical stripes, and each of",
-        "Line_06": "them has a unique meaning. The green",
-        "Line_07": "stripe stands for hope, the white",
-        "Line_08": "stripe represents pruity, and the red",
-        "Line_09": "stripe represents the people who",
-        "Line_10": "scarificed their lives for Mexico's",
-        "Line_11": "independence."
+        "Line_01": "Mexico's flag features three vertical",
+        "Line_02": "stripes, each symbolizing important",
+        "Line_03": "aspects of Mexican heritage. The green",
+        "Line_04": "stripe embodies hope for the future,",
+        "Line_05": "while the white signifies purity and",
+        "Line_06": "unity. Red represents the valor and",
+        "Line_07": "sacrifice of those who fought for",
+        "Line_08": "Mexico's independence. This flag is a",
+        "Line_09": "proud emblem of national identity and",
+        "Line_10": "history, revered by all Mexicans."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0617": {
       "Name": "Lesson_0617",
@@ -11036,18 +11037,20 @@
       }],
       "Description": "Tornado",
       "Lines": [{
-        "Line_01": "A tornado is a violent rotating column",
-        "Line_02": "of air extending from a thunderstorm",
-        "Line_03": "to the ground. The most violent",
-        "Line_04": "tornadoes are capable of tremendous",
-        "Line_05": "destruction with wind speeds of up to",
-        "Line_06": "three hundred mph. The vast majority",
-        "Line_07": "of tornadoes occur in the Tornado",
-        "Line_08": "Alley region of the United States. The",
-        "Line_09": "term Tornado Alley was first used in",
-        "Line_10": "1952."
+        "Line_01": "A tornado is caused by a swirling vortex of air",
+        "Line_02": "that descends from thunderstorms down to",
+        "Line_03": "the ground. These storms are known for",
+        "Line_04": "their destructive power, with winds",
+        "Line_05": "reaching speeds of over 300 mph -",
+        "Line_06": "miles per hour. The majority of",
+        "Line_07": "tornadoes strike in Tornado Alley, a",
+        "Line_08": "region spanning the central United",
+        "Line_09": "States. Coined in 1952, the term Tornado",
+        "Line_10": "Alley highlights the frequency and",
+        "Line_11": "intensity of these natural phenomena",
+        "Line_12": "in the central states of the United States."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0618": {
       "Name": "Lesson_0618",
@@ -11058,18 +11061,18 @@
       }],
       "Description": "Calculating Profit",
       "Lines": [{
-        "Line_01": "Profit is how much money somebody",
-        "Line_02": "(normally a company) makes. This is",
-        "Line_03": "found by subtracting how much money",
-        "Line_04": "they have spent (expenditure) from how",
-        "Line_05": "much money they have brought in",
-        "Line_06": "(revenue). For example, if Alex spends",
-        "Line_07": "$40 on some ice cream cones, and then",
-        "Line_08": "sells them for $50, he has made a",
-        "Line_09": "profit of $10. This is because 50",
-        "Line_10": "minus 40 is 10."
+        "Line_01": "Profit is the financial gain achieved",
+        "Line_02": "by subtracting total expenditures from",
+        "Line_03": "total revenues. It represents the",
+        "Line_04": "positive difference between what is",
+        "Line_05": "earned and what is spent. For instance,",
+        "Line_06": "if a company spends $100 on materials",
+        "Line_07": "and sells its products for $150, the",
+        "Line_08": "profit amounts to $50. This calculation",
+        "Line_09": "is crucial for evaluating business",
+        "Line_10": "performance and financial health."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0619": {
       "Name": "Lesson_0619",
@@ -11080,18 +11083,18 @@
       }],
       "Description": "Judicial Branch",
       "Lines": [{
-        "Line_01": "The judicial branch of the U.S.",
-        "Line_02": "government is made up of the court",
-        "Line_03": "system. The Supreme Court is the",
-        "Line_04": "highest court in the country. The 9",
-        "Line_05": "justices are nominated by the president",
-        "Line_06": "and must be approved by the Senate",
-        "Line_07": "(with at least 51 votes). There are",
-        "Line_08": "lower Federal courts that were created",
-        "Line_09": "by Congress using power granted from",
-        "Line_10": "the Constitution."
+        "Line_01": "The judicial branch oversees the court",
+        "Line_02": "system in the U.S. It is led by the",
+        "Line_03": "Supreme Court, composed of 9 justices",
+        "Line_04": "appointed by the president and confirmed",
+        "Line_05": "by the Senate with at least 51 votes.",
+        "Line_06": "Lower Federal courts are established by",
+        "Line_07": "Congress under the Constitution's",
+        "Line_08": "authority. This branch ensures the",
+        "Line_09": "interpretation and application of laws",
+        "Line_10": "across the nation."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0620": {
       "Name": "Lesson_0620",
@@ -11102,18 +11105,18 @@
       }],
       "Description": "Wonderland",
       "Lines": [{
-        "Line_01": "'Would you tell me, please, which way",
-        "Line_02": "I ought to go from here?' 'That",
-        "Line_03": "depends a good deal on where you want",
-        "Line_04": "to get to,' said the Cat. 'I don't",
-        "Line_05": "much care where - ' said Alice. 'Then",
-        "Line_06": "it doesn't matter which way you walk,'",
-        "Line_07": "said the Cat. '- so long as I get",
-        "Line_08": "somewhere,' Alice added as an",
-        "Line_09": "explanation. -Lewis Carroll, Alice's",
-        "Line_10": "Adeventures in Wonderland"
+        "Line_01": "In Lewis Carroll's classic tale, Alice",
+        "Line_02": "encounters a whimsical world where",
+        "Line_03": "directions are as unpredictable as the",
+        "Line_04": "characters she meets. The Cheshire Cat",
+        "Line_05": "offers cryptic guidance, illustrating",
+        "Line_06": "the philosophical idea that one's",
+        "Line_07": "destination depends on their chosen",
+        "Line_08": "path. Alice's journey through Wonderland",
+        "Line_09": "teaches valuable lessons about",
+        "Line_10": "self-discovery and imagination."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0621": {
       "Name": "Lesson_0621",
@@ -11124,18 +11127,18 @@
       }],
       "Description": "Firefighters",
       "Lines": [{
-        "Line_01": "Firefighters are people whose job is",
-        "Line_02": "to rescue people and put out fires.",
-        "Line_03": "Firefighters are often taught first aid",
-        "Line_04": "and given medical training.",
-        "Line_05": "Firefighters work at a fire station.",
-        "Line_06": "Fire stations have multiple trucks",
-        "Line_07": "which serve different purposes (water",
-        "Line_08": "tank, rescue truck, ladder truck). If",
-        "Line_09": "you see a fire truck on the road and",
-        "Line_10": "the siren is on, give it the right-of-way."
+        "Line_01": "Firefighters are dedicated professionals",
+        "Line_02": "trained to respond to emergencies like",
+        "Line_03": "fires, accidents, and medical crises.",
+        "Line_04": "They undergo rigorous training in first",
+        "Line_05": "aid and fire suppression techniques.",
+        "Line_06": "Fire stations house specialized trucks",
+        "Line_07": "including water tanks, rescue vehicles,",
+        "Line_08": "and ladder trucks for various rescue",
+        "Line_09": "operations. Their swift response and",
+        "Line_10": "bravery save lives and protect property."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0622": {
       "Name": "Lesson_0622",
@@ -11146,18 +11149,18 @@
       }],
       "Description": "First President",
       "Lines": [{
-        "Line_01": "George Washington, the first President",
-        "Line_02": "of the United States, is often called",
-        "Line_03": "the father of the United States.",
-        "Line_04": "Washington was a farmer like his",
-        "Line_05": "father. His large plantation was called",
-        "Line_06": "Mount Vernon. The estate is situated",
-        "Line_07": "in Fairfax County, Virginia. George",
-        "Line_08": "Washington also worked as a surveyor,",
-        "Line_09": "someone who measures land. Washington",
-        "Line_10": "always wanted to be a soldier."
+        "Line_01": "George Washington, the inaugural",
+        "Line_02": "President of the United States, is known",
+        "Line_03": "as the founding father of the nation.",
+        "Line_04": "Born in Virginia, he led the Continental",
+        "Line_05": "Army to victory against the British",
+        "Line_06": "during the Revolutionary War. Mount",
+        "Line_07": "Vernon, his plantation in Fairfax County,",
+        "Line_08": "Virginia, remains a historic landmark.",
+        "Line_09": "Washington's legacy as a statesman and",
+        "Line_10": "military leader shaped American history."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0623": {
       "Name": "Lesson_0623",
@@ -11168,17 +11171,19 @@
       }],
       "Description": "Plagiarism",
       "Lines": [{
-        "Line_01": "Everyone knows stealing property is",
-        "Line_02": "wrong. It's wrong in real life and on",
-        "Line_03": "the Internet. Property isn't just",
-        "Line_04": "things you can hold. Words, music,",
-        "Line_05": "artwork, and even ideas are property",
-        "Line_06": "and can be stolen. Stealing and",
-        "Line_07": "claiming them as your own is illegal",
-        "Line_08": "and will get you into trouble. This is",
-        "Line_09": "a form of cheating called plagiarism."
+        "Line_01": "Plagiarism is the act of using someone",
+        "Line_02": "else's words, ideas, or creations without",
+        "Line_03": "proper attribution. It violates ethical",
+        "Line_04": "standards and can lead to serious",
+        "Line_05": "consequences in academic and professional",
+        "Line_06": "settings. Many universities and",
+        "Line_07": "organizations have strict policies",
+        "Line_08": "against plagiarism, aiming to uphold",
+        "Line_09": "integrity and originality in work.",
+        "Line_10": "Understanding plagiarism is crucial for",
+        "Line_11": "maintaining academic honesty."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0624": {
       "Name": "Lesson_0624",
@@ -11210,17 +11215,17 @@
       }],
       "Description": "The National Mall",
       "Lines": [{
-        "Line_01": "The National Mall in Washington D.C.",
-        "Line_02": "is a large, open park that has many",
-        "Line_03": "monuments and museums. D.C.'s many",
-        "Line_04": "museums and monuments make it a",
-        "Line_05": "popular place for tourists to visit.",
-        "Line_06": "Washington D.C. is called many things",
-        "Line_07": "by different people. It can be called",
-        "Line_08": "D.C., The district of Columbia, The",
-        "Line_09": "District, or sometimes just Washington."
+        "Line_01": "The National Mall is an iconic park in",
+        "Line_02": "Washington D.C., renowned for its vast",
+        "Line_03": "collection of memorials, monuments, and",
+        "Line_04": "museums. It spans over 1,000 acres and",
+        "Line_05": "is a focal point for national events and",
+        "Line_06": "celebrations. Visitors can explore the",
+        "Line_07": "Smithsonian museums and pay homage at",
+        "Line_08": "monuments like the Lincoln Memorial and",
+        "Line_09": "the Washington Monument."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0626": {
       "Name": "Lesson_0626",
@@ -11231,16 +11236,16 @@
       }],
       "Description": "Farmers",
       "Lines": [{
-        "Line_01": "Farming is one of the oldest",
-        "Line_02": "professions since the beginning of",
-        "Line_03": "civilization. Farmers are people who",
-        "Line_04": "own land, raise animals, and grow",
-        "Line_05": "crops. This profession is not very",
-        "Line_06": "popular amongst young people, and many",
-        "Line_07": "of them move away from farming to find",
-        "Line_08": "a job in the city."
+        "Line_01": "Throughout history, farming has been a",
+        "Line_02": "vital occupation, essential for feeding",
+        "Line_03": "populations worldwide. Farmers cultivate",
+        "Line_04": "land, rear livestock, and grow crops,",
+        "Line_05": "contributing significantly to the global",
+        "Line_06": "food supply. Despite its importance,",
+        "Line_07": "modern trends show fewer young people",
+        "Line_08": "choosing farming careers."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0627": {
       "Name": "Lesson_0627",
@@ -11251,17 +11256,17 @@
       }],
       "Description": "Secretary",
       "Lines": [{
-        "Line_01": "A secretary is responsible for keeping",
-        "Line_02": "the office organized. I nthe past, the",
-        "Line_03": "role of a secretary was typically held",
-        "Line_04": "by men. Throughout the years, the",
-        "Line_05": "roles have switched and today we have",
-        "Line_06": "far more women than men filling the",
-        "Line_07": "role. Some of their responsibilities",
-        "Line_08": "include answering the phone, keeping",
-        "Line_09": "files organized, and managing correspondence."
+        "Line_01": "The role of a secretary involves",
+        "Line_02": "maintaining office efficiency and",
+        "Line_03": "organization. Traditionally held by men,",
+        "Line_04": "today it is predominantly occupied by",
+        "Line_05": "women. Responsibilities include",
+        "Line_06": "managing communications, scheduling,",
+        "Line_07": "and record-keeping.",
+        "Line_08": "Secretaries are pivotal in ensuring",
+        "Line_09": "smooth operations within workplaces."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0628": {
       "Name": "Lesson_0628",
@@ -11272,17 +11277,17 @@
       }],
       "Description": "Balance of Power",
       "Lines": [{
-        "Line_01": "The three branches of the U.S.",
-        "Line_02": "government work together and ensure",
-        "Line_03": "that no one person has too much power.",
-        "Line_04": "This is done through checks and",
-        "Line_05": "balances. A branch may use its powers",
-        "Line_06": "to check the powers of the other two",
-        "Line_07": "in order to maintain a balance of",
-        "Line_08": "power among the three branches of",
-        "Line_09": "government."
+        "Line_01": "The concept of balance of power",
+        "Line_02": "ensures no single branch of government",
+        "Line_03": "dominates. This principle is crucial in",
+        "Line_04": "maintaining democratic stability. Each",
+        "Line_05": "branch checks the others to prevent",
+        "Line_06": "excessive authority.",
+        "Line_07": "This system encourages cooperation and",
+        "Line_08": "avoids authoritarianism in governance.",
+        "Line_09": "It's a cornerstone of democratic ideals."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0629": {
       "Name": "Lesson_0629",
@@ -11293,16 +11298,17 @@
       }],
       "Description": "Cucumbers",
       "Lines": [{
-        "Line_01": "Cucumbers have the power to relieve",
-        "Line_02": "sunburned skin. Simply place a couple",
-        "Line_03": "slices of cucumbers on the affected",
-        "Line_04": "area. Cucumbers are also believed to",
-        "Line_05": "cure bad breath. One slice of cucumber",
-        "Line_06": "pressed against the roof of your mouth",
-        "Line_07": "can supposedly kill the problematic",
-        "Line_08": "bacteria."
+        "Line_01": "Cucumbers are 95% water, making them",
+        "Line_02": "very hydrating. They are low in",
+        "Line_03": "calories, with only 16 calories per",
+        "Line_04": "cup. Cucumbers contain antioxidants",
+        "Line_05": "like beta-carotene and vitamin C.",
+        "Line_06": "Eating cucumbers may help reduce",
+        "Line_07": "blood sugar levels and promote",
+        "Line_08": "regular bowel movements due to their",
+        "Line_09": "high fiber content."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0630": {
       "Name": "Lesson_0630",
@@ -11313,16 +11319,17 @@
       }],
       "Description": "Strawberries",
       "Lines": [{
-        "Line_01": "Strawberries are very tasty, and very",
-        "Line_02": "good for you. They're low in calories,",
-        "Line_03": "and contain a high percentage of",
-        "Line_04": "several vitamins, including C, B6 and",
-        "Line_05": "K. Fibre, folic acid and potassium",
-        "Line_06": "(three things your body needs) can",
-        "Line_07": "also be found in strawberries. They",
-        "Line_08": "are a delicious treat on a hot summer day."
+        "Line_01": "Strawberries are packed with nutrients.",
+        "Line_02": "One cup has about 49 calories.",
+        "Line_03": "They provide over 100% of the daily",
+        "Line_04": "value of vitamin C. Strawberries are",
+        "Line_05": "rich in antioxidants like ellagic acid.",
+        "Line_06": "They also contain manganese, which",
+        "Line_07": "is important for bone health. In 2018,",
+        "Line_08": "the U.S. produced 1.8 billion pounds.",
+        "Line_09": "Strawberries are a favorite in summer."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0631": {
       "Name": "Lesson_0631",
@@ -11333,17 +11340,17 @@
       }],
       "Description": "Tongue Twisters",
       "Lines": [{
-        "Line_01": "A tongue twister is a sequence of",
-        "Line_02": "words or sounds, typically of an",
-        "Line_03": "alliterative kind, that are difficult",
-        "Line_04": "to pronounce quickly and correctly, as,",
-        "Line_05": "for example, tie twine to three tree",
-        "Line_06": "twigs. The 'sixth sick sheik's sixth",
-        "Line_07": "sheep's sick' is believed to be the",
-        "Line_08": "toughtest tongue twister in the English",
-        "Line_09": "language."
+        "Line_01": "Peter Piper picked a peck of pickled",
+        "Line_02": "peppers. How many pickled peppers",
+        "Line_03": "did Peter Piper pick? Another famous",
+        "Line_04": "one is 'She sells seashells by the",
+        "Line_05": "seashore.' These tongue twisters help",
+        "Line_06": "improve pronunciation skills. A fun",
+        "Line_07": "fact: 'Toy boat' said quickly is tricky.",
+        "Line_08": "The world record for the most tongue",
+        "Line_09": "twisters recited in one minute is 350."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0632": {
       "Name": "Lesson_0632",
@@ -11354,18 +11361,17 @@
       }],
       "Description": "Asia",
       "Lines": [{
-        "Line_01": "Asia is surrounded by the Mediterranean",
-        "Line_02": "Sea, the Black Sea, the Arctic Ocean,",
-        "Line_03": "the Pacific Ocean, and the Indian",
-        "Line_04": "Ocean. It is separated from Europe by",
-        "Line_05": "the Pontic Mountains and the Turkish",
-        "Line_06": "Straits. A long, mianly land boarder in",
-        "Line_07": "the west separates Europe and Asia.",
-        "Line_08": "This line runs North-South down the",
-        "Line_09": "Ural Mountains in Russia, and through",
-        "Line_10": "the Caucasus Mountains."
+        "Line_01": "Asia is the largest continent by area",
+        "Line_02": "and population. It covers about 30%",
+        "Line_03": "of Earth's land area and hosts 60%",
+        "Line_04": "of the global population. Asia is home",
+        "Line_05": "to the highest point on Earth, Mount",
+        "Line_06": "Everest, which stands at 29,029 feet.",
+        "Line_07": "The continent includes 49 countries.",
+        "Line_08": "China and India are the most populous",
+        "Line_09": "nations with over 1 billion people each."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0633": {
       "Name": "Lesson_0633",
@@ -11376,16 +11382,16 @@
       }],
       "Description": "US Legal Branches",
       "Lines": [{
-        "Line_01": "The U.S. government has three branches:",
-        "Line_02": "legislative, executive, and judicial.",
-        "Line_03": "Each of these branches has its own",
-        "Line_04": "responsibilities and at the same time",
-        "Line_05": "they work together to make the country",
-        "Line_06": "run smoothly and to assure that they",
-        "Line_07": "rights of citizens are not ignored or",
-        "Line_08": "disallowed."
+        "Line_01": "U.S.A. has three main government branches.",
+        "Line_02": "The Legislative branch makes the laws.",
+        "Line_03": "It consists of the Senate and the House.",
+        "Line_04": "There are 100 Senators and 435 Representatives.",
+        "Line_05": "The Executive branch enforces the laws.",
+        "Line_06": "It is headed by the President of the U.S.",
+        "Line_07": "The Judicial branch interprets the laws.",
+        "Line_08": "The Supreme Court has 9 Justices."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0634": {
       "Name": "Lesson_0634",
@@ -11396,18 +11402,18 @@
       }],
       "Description": "Education",
       "Lines": [{
-        "Line_01": "Education is about teaching, learning",
-        "Line_02": "skills, and acquiring knowledge.",
-        "Line_03": "Education also means helping people to",
-        "Line_04": "learn how to do things and encouraging",
-        "Line_05": "them to think about what they learn.",
-        "Line_06": "It is important for educators to teach",
-        "Line_07": "ways to find and use information.",
-        "Line_08": "Through education, the knowledge of",
-        "Line_09": "societies, countries, and of the world",
-        "Line_10": "is passed on from generation to generation."
+        "Line_01": "Education shapes skills and knowledge.",
+        "Line_02": "Worldwide, 91% of children attend school.",
+        "Line_03": "Finland ranks high in education quality.",
+        "Line_04": "In the U.S., public school is free.",
+        "Line_05": "Higher education often requires tuition.",
+        "Line_06": "Online courses grew 30% in recent years.",
+        "Line_07": "Adult education programs are increasing.",
+        "Line_08": "STEM fields are crucial in modern learning.",
+        "Line_09": "Lifelong learning enhances job prospects.",
+        "Line_10": "Investing in education boosts economies."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0635": {
       "Name": "Lesson_0635",
@@ -11418,19 +11424,18 @@
       }],
       "Description": "Lava",
       "Lines": [{
-        "Line_01": "Pumice is a term for a lightweight",
-        "Line_02": "volcanic rock. It is solidified frothy",
-        "Line_03": "lava, created when highly-heated",
-        "Line_04": "pressurized molten rock is shot out",
-        "Line_05": "from a volcano. Its light weight is",
-        "Line_06": "due to air spaces, which are caused by",
-        "Line_07": "fast cooling and loss of pressure. The",
-        "Line_08": "loss of pressure makes bubbles by",
-        "Line_09": "lowering the boiling point of the",
-        "Line_10": "lava. The cooling then freezes the",
-        "Line_11": "bubbles in the matrix."
+        "Line_01": "Lava flows at temperatures around 1,200°C.",
+        "Line_02": "Hawaii's Kilauea volcano erupts often.",
+        "Line_03": "Volcanic eruptions can shape landscapes.",
+        "Line_04": "Lava solidifies into igneous rock forms.",
+        "Line_05": "In 1980, Mount St. Helens erupted violently.",
+        "Line_06": "Lava tubes form channels under hardened lava.",
+        "Line_07": "Over 1,500 active volcanoes exist globally.",
+        "Line_08": "Underwater eruptions form new oceanic crust.",
+        "Line_09": "Lava fountains can reach heights of 300m.",
+        "Line_10": "Iceland uses geothermal heat from lava."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0636": {
       "Name": "Lesson_0636",
@@ -11441,19 +11446,19 @@
       }],
       "Description": "Wind Power",
       "Lines": [{
-        "Line_01": "Wind power is the conversion of the",
-        "Line_02": "energy in wind into a more useful form",
-        "Line_03": "of energy, like electricity. It is a",
-        "Line_04": "renewable source of energy that helps",
-        "Line_05": "to cut down on the pollution of",
-        "Line_06": "Earth's air. At the end of 2009, wind",
-        "Line_07": "power supplied about 1.3% of the",
-        "Line_08": "world's electricity. Wind power is",
-        "Line_09": "widely used in European countries, and",
-        "Line_10": "more recently in the United States and",
-        "Line_11": "Asia."
+        "Line_01": "Wind turbines convert wind into energy.",
+        "Line_02": "A single turbine can power 500 homes.",
+        "Line_03": "In 2020, wind power provided 6% of U.S.",
+        "Line_04": "electricity. Offshore wind farms are",
+        "Line_05": "common in Europe. Denmark gets 50% of",
+        "Line_06": "its electricity from wind. The U.S. has",
+        "Line_07": "over 60,000 wind turbines. Wind power",
+        "Line_08": "reduces carbon emissions by millions of",
+        "Line_09": "tons annually. China leads in wind power",
+        "Line_10": "capacity. Wind farms need strong, steady",
+        "Line_11": "winds to be efficient."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0637": {
       "Name": "Lesson_0637",
@@ -11462,20 +11467,21 @@
         "AccuracyRequirement": "",
         "SpeedRequirement": ""
       }],
-      "Description": "Freedome of Speech",
+      "Description": "Freedom of Speech",
       "Lines": [{
-        "Line_01": "Freedom of speech is the right to",
-        "Line_02": "state one's opinions and ideas without",
-        "Line_03": "being stopped or punished. Sometimes",
-        "Line_04": "this is also called freedom of",
-        "Line_05": "expression. Freedom of speech is",
-        "Line_06": "thought to also include freedom of",
-        "Line_07": "information. The Freedom of Information",
-        "Line_08": "Act (FOIA) in the USA is often",
-        "Line_09": "described as a law that keeps",
-        "Line_10": "citizens informated about their government."
+        "Line_01": "Freedom of speech allows expression",
+        "Line_02": "of ideas without censorship or",
+        "Line_03": "penalty. It's a cornerstone of",
+        "Line_04": "democratic societies. In the US,",
+        "Line_05": "First Amendment protects speech,",
+        "Line_06": "press, and assembly. Globally,",
+        "Line_07": "Article 19 of UDHR safeguards",
+        "Line_08": "speech rights. FOIA empowers",
+        "Line_09": "citizens with government access.",
+        "Line_10": "It fosters transparency and",
+        "Line_11": "accountability."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0638": {
       "Name": "Lesson_0638",
@@ -11486,18 +11492,18 @@
       }],
       "Description": "Snow",
       "Lines": [{
-        "Line_01": "Snow is a form of ice. Snow forms",
-        "Line_02": "when water in the atmosphere becomes",
-        "Line_03": "frozen. Snow comes in all different",
-        "Line_04": "shapes and sizes. At the freezing",
-        "Line_05": "point of water, snow melts and becomes",
-        "Line_06": "water. Sometimes, the snow will melt",
-        "Line_07": "very fast and become water vapor. This",
-        "Line_08": "is called sublimation. The opposite,",
-        "Line_09": "where water vapor becomes snow, is",
-        "Line_10": "called deposition."
+        "Line_01": "Snow is crystallized ice formed",
+        "Line_02": "from atmospheric water vapor.",
+        "Line_03": "It varies in shape and size,",
+        "Line_04": "from delicate flakes to heavy",
+        "Line_05": "accumulations. Melting snow",
+        "Line_06": "returns to liquid, while fast",
+        "Line_07": "melting converts to vapor,",
+        "Line_08": "sublimating back to gas. The",
+        "Line_09": "reverse process is deposition,",
+        "Line_10": "vapor solidifying into snow crystals."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0639": {
       "Name": "Lesson_0639",
@@ -11508,18 +11514,18 @@
       }],
       "Description": "Sports in Japan",
       "Lines": [{
-        "Line_01": "Sports in Japan are a part of Japanese",
-        "Line_02": "culture. Japan has many traditional",
-        "Line_03": "sports such as sumo, judo, karate, and",
-        "Line_04": "kendo. Also, there are sports which",
-        "Line_05": "were imported from the West such as",
-        "Line_06": "baseball, basketball, soccer, golf,",
-        "Line_07": "and skiing. Sports are popular with both",
-        "Line_08": "participants and onlookers. In Japan,",
-        "Line_09": "sports groups are an important part of",
-        "Line_10": "school life."
+        "Line_01": "Japanese culture embraces a variety",
+        "Line_02": "of sports. Traditional disciplines",
+        "Line_03": "like sumo, judo, karate, and kendo",
+        "Line_04": "coexist with Western imports such as",
+        "Line_05": "baseball, basketball, soccer, golf,",
+        "Line_06": "and skiing. Both participants and",
+        "Line_07": "spectators alike cherish these sports,",
+        "Line_08": "making them integral to school life",
+        "Line_09": "and beyond. Sports clubs thrive as",
+        "Line_10": "key community institutions in Japan."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0640": {
       "Name": "Lesson_0640",
@@ -11534,16 +11540,17 @@
         "Line_02": "was born billions of years ago, however,",
         "Line_03": "nobody was around when the sun formed.",
         "Line_04": "So there is no recorded evidence to prove",
-        "Line_05": "the theory. Whenever, or however it was formed, it did start",
-        "Line_06": "the process of nuclear fusion, releasing photons",
-        "Line_07": "as it combined hydrogen atoms to form helium.",
-        "Line_08": "Stars such as the Sun release huge amounts",
-        "Line_09": "of energy over their entire lifetime.",
-        "Line_10": "They often end their lives in a spectacular",
-        "Line_11": "explosion, the intense energy helping form",
-        "Line_12": "new elements."
+        "Line_05": "the theory. Whenever, or however it was formed,",
+        "Line_06": "the process of nuclear fusion ignited its",
+        "Line_07": "core, converting hydrogen to helium",
+        "Line_08": "and unleashing photons. Stars like the",
+        "Line_09": "Sun emit vast energy across their",
+        "Line_10": "lifespans, culminating in explosive",
+        "Line_11": "nova that forge new elements in the",
+        "Line_12": "cosmos and collapse the core to a white dwarf",
+        "Line_13": "stellar remnant made entirely out of carbon"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0641": {
       "Name": "Lesson_0641",
@@ -11554,18 +11561,17 @@
       }],
       "Description": "Lion",
       "Lines": [{
-        "Line_01": "The lion is a large mammal of the cat",
-        "Line_02": "family, and is often called the 'king",
-        "Line_03": "of the beasts'. Lions are mostly found",
-        "Line_04": "in Africa and in a small reserve in",
-        "Line_05": "India. They can live in cool areas,",
-        "Line_06": "very hot areas, or in thick forests.",
-        "Line_07": "Today, many live in zoos around the",
-        "Line_08": "world. In the past they lived in",
-        "Line_09": "Northern India, Pakistan, Europe,",
-        "Line_10": "and Arabia."
+        "Line_01": "The lion, a majestic member of the cat",
+        "Line_02": "family, earns its title 'king of the",
+        "Line_03": "beasts'. Found predominantly in Africa",
+        "Line_04": "with a small population in India, lions",
+        "Line_05": "thrive in diverse habitats from arid",
+        "Line_06": "plains to dense forests. While many now",
+        "Line_07": "reside in zoos globally, historically,",
+        "Line_08": "lions roamed Northern India, Pakistan,",
+        "Line_09": "Europe, and Arabia."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0642": {
       "Name": "Lesson_0642",
@@ -11576,34 +11582,33 @@
       }],
       "Description": "Roots",
       "Lines": [{
-        "Line_01": "The roots of a tree carry food and",
-        "Line_02": "water from the ground through the",
-        "Line_03": "trunk and branches to the leaves of",
-        "Line_04": "the tree. The roots that grow above",
-        "Line_05": "the ground are called aerial roots.",
-        "Line_06": "The trunk is the main body of the",
-        "Line_07": "tree. The trunk is covered with bark",
-        "Line_08": "which protects it from damage. Branches",
-        "Line_09": "grow from the trunk. They spread out",
-        "Line_10": "so that the leaves can get more sunlight."
+        "Line_01": "Roots are vital for trees, transporting",
+        "Line_02": "nutrients and water from soil to the",
+        "Line_03": "leaves via the trunk and branches. Aerial",
+        "Line_04": "roots grow above ground, while the trunk",
+        "Line_05": "is shielded by bark, protecting it from",
+        "Line_06": "harm. Branches extend to maximize sunlight",
+        "Line_07": "exposure for leaves, ensuring optimal",
+        "Line_08": "photosynthesis."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0643": {
       "Name": "Lesson_0643",
-      "Number": 643,"IndividualizedLessonPassingCriteria": [{
+      "Number": 643,
+      "IndividualizedLessonPassingCriteria": [{
         "AccuracyRequirement": "",
         "SpeedRequirement": ""
       }],
       "Description": "Dynamic Practice 19",
       "Lines": [{
-        "Line_01": "gr gr gre gro green ground growth",
-        "Line_02": "ge ge nge yge change oxygen exchange",
-        "Line_03": "ga ga aga ega again gas began",
-        "Line_04": "gn gn ign ogn design significant recognized",
-        "Line_05": "gi gi ngi gin ranging engineering changing"
+        "Line_01": "gi gi gia gin ign giant ginger align",
+        "Line_02": "ga ga gar gas gal garage gas galaxy",
+        "Line_03": "gn gn ign gno ignore design sign",
+        "Line_04": "ge ge gen gag generate oxygen engage",
+        "Line_05": "gr gr gra gravity grain graphic"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0644": {
       "Name": "Lesson_0644",
@@ -11614,18 +11619,18 @@
       }],
       "Description": "Stewardess",
       "Lines": [{
-        "Line_01": "'Stweardesses' is the longest word that",
-        "Line_02": "is typed with only the left hand. A",
-        "Line_03": "stewardess is a woman who is employed",
-        "Line_04": "to provide meals for and otherwise",
-        "Line_05": "look after passengers on a ship or",
-        "Line_06": "aircraft. These days, we typically use",
-        "Line_07": "the term flight attendant, which can",
-        "Line_08": "refer to a man or woman that performs",
-        "Line_09": "this job. What other words are typed",
-        "Line_10": "with only one hand?"
+        "Line_01": "Stewardesses, historically known as",
+        "Line_02": "'air hostesses', play a crucial role",
+        "Line_03": "in ensuring passenger safety and",
+        "Line_04": "comfort during air travel. They handle",
+        "Line_05": "in-flight service, assist with",
+        "Line_06": "emergency procedures, and provide",
+        "Line_07": "professional care throughout the",
+        "Line_08": "journey. Modern aviation now uses the",
+        "Line_09": "term 'flight attendant' to be more",
+        "Line_10": "inclusive."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0645": {
       "Name": "Lesson_0645",
@@ -11636,19 +11641,20 @@
       }],
       "Description": "Indiana",
       "Lines": [{
-        "Line_01": "Indiana is a state in the United",
-        "Line_02": "States. Its capital and largest city",
-        "Line_03": "is Indianapolis. Other famous cities",
-        "Line_04": "and towns include Bloomington, Gary,",
-        "Line_05": "Ft. Wayne, South Bend, Evansville,",
-        "Line_06": "Muncie, and Marion. People who live in",
-        "Line_07": "Indiana or are from there are called",
-        "Line_08": "Hoosiers. Indiana's state bird is a",
-        "Line_09": "Cardinal, Indiana's state flower is a",
-        "Line_10": "Peony, Indiana's state tree is a Tulip",
-        "Line_11": "Tree."
+        "Line_01": "Indiana, a Midwestern state in the",
+        "Line_02": "United States, is known for its rich",
+        "Line_03": "history and diverse culture. Its capital,",
+        "Line_04": "Indianapolis, hosts the famous Indy 500,",
+        "Line_05": "one of the largest annual sporting events",
+        "Line_06": "in the world. Notable cities include",
+        "Line_07": "Bloomington, known for Indiana University,",
+        "Line_08": "and South Bend, home to the University",
+        "Line_09": "of Notre Dame. Hoosiers, as residents",
+        "Line_10": "are called, take pride in their state",
+        "Line_11": "bird, the Cardinal, and state flower, the",
+        "Line_12": "Peony."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0646": {
       "Name": "Lesson_0646",
@@ -11659,18 +11665,18 @@
       }],
       "Description": "Smart Phones",
       "Lines": [{
-        "Line_01": "Nowadays, phones are clever enough to",
-        "Line_02": "grasp your physical surroundings. They",
-        "Line_03": "can detect the size of a room and the",
-        "Line_04": "presence of other people. Kids studying",
-        "Line_05": "the Mesozoic Era would be able to",
-        "Line_06": "place a virtual Tyrannosaurus in their",
-        "Line_07": "home or classroom. The technology would",
-        "Line_08": "even know when to display information",
-        "Line_09": "about a scene depicted in a painting",
-        "Line_10": "as you stroll through a museum."
+        "Line_01": "Modern smartphones are adept at sensing",
+        "Line_02": "their environment. They can analyze room",
+        "Line_03": "dimensions and detect people nearby. Imagine",
+        "Line_04": "students learning about ancient civilizations",
+        "Line_05": "bringing historical figures to life virtually,",
+        "Line_06": "placing them in their own homes or classrooms.",
+        "Line_07": "This technology can enhance museum visits",
+        "Line_08": "by providing real-time information about",
+        "Line_09": "exhibits and artworks as visitors explore.",
+        "Line_10": "Smartphones today are truly versatile tools."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0647": {
       "Name": "Lesson_0647",
@@ -11681,17 +11687,17 @@
       }],
       "Description": "Stars vs. Sand",
       "Lines": [{
-        "Line_01": "Which do you think there are more of:",
-        "Line_02": "stars in the universe, or grains of",
-        "Line_03": "sand on the beach? There are more",
-        "Line_04": "stars in the universe than grains of",
-        "Line_05": "sand on the beach. Try to picture",
-        "Line_06": "that! However, there are more atoms in",
-        "Line_07": "a single grain of sand than either",
-        "Line_08": "stars in the universe or grains of",
-        "Line_09": "sand on the beach. Pretty neat, right?"
+        "Line_01": "Did you know there are more stars in",
+        "Line_02": "the universe than grains of sand on",
+        "Line_03": "all the beaches combined? It's a mind-",
+        "Line_04": "boggling thought! But each grain of",
+        "Line_05": "sand contains more atoms than stars",
+        "Line_06": "in the universe or grains on all beaches.",
+        "Line_07": "This fact highlights the vastness of",
+        "Line_08": "space and the intricacies of matter.",
+        "Line_09": "Imagine the cosmos in every grain!"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0648": {
       "Name": "Lesson_0648",
@@ -11702,16 +11708,16 @@
       }],
       "Description": "Elbert Hubbard",
       "Lines": [{
-        "Line_01": "'A friend is someone who knows all",
-        "Line_02": "about you and still loves you.' Elbert",
-        "Line_03": "Hubbard was an American writer,",
-        "Line_04": "publisher, artist, and philosopher in",
-        "Line_05": "the late 19th century and early 20th",
-        "Line_06": "century. He is well known for founding",
-        "Line_07": "an Arts & Crafts community in East",
-        "Line_08": "Aurora, New York called Roycroft."
+        "Line_01": "'A true friend knows everything about",
+        "Line_02": "you and still loves you.' Elbert Hubbard",
+        "Line_03": "was a prolific American writer, artist,",
+        "Line_04": "and philosopher of the late 19th and",
+        "Line_05": "early 20th centuries. He gained fame for",
+        "Line_06": "establishing the Roycroft artisan",
+        "Line_07": "community in East Aurora, New York,",
+        "Line_08": "dedicated to the Arts & Crafts movement."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0649": {
       "Name": "Lesson_0649",
@@ -11722,17 +11728,17 @@
       }],
       "Description": "Emerson",
       "Lines": [{
-        "Line_01": "'To be yourself in a world that is",
-        "Line_02": "constantly trying to make you something",
-        "Line_03": "else is the greatest accomplishment.' -",
-        "Line_04": "Ralph Waldo Emerson. Emerson was an",
-        "Line_05": "American essayist, lecturer, and poet",
-        "Line_06": "in the mid-19th century. He is well",
-        "Line_07": "known as a champion of individualism,",
-        "Line_08": "and for leading the transcendentalism",
-        "Line_09": "movement."
+        "Line_01": "'Trust thyself: every heart vibrates",
+        "Line_02": "to that iron string.' - Ralph Waldo",
+        "Line_03": "Emerson. Emerson, an influential",
+        "Line_04": "American essayist and poet of the 19th",
+        "Line_05": "century, emphasized self-reliance and",
+        "Line_06": "the inherent goodness of people. He",
+        "Line_07": "advocated for individualism and",
+        "Line_08": "spiritual discovery, shaping the",
+        "Line_09": "transcendentalist movement."
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0650": {
       "Name": "Lesson_0650",
@@ -11743,18 +11749,20 @@
       }],
       "Description": "Citing a Source",
       "Lines": [{
-        "Line_01": "If you use someone else's idea on your",
-        "Line_02": "project, make sure to give them credit",
-        "Line_03": "by mentioning their name. If you took",
-        "Line_04": "the idea from a website, or a book,",
-        "Line_05": "put the website's address or the",
-        "Line_06": "book's name. This is called citing a",
-        "Line_07": "source. Citing a course is how you can",
-        "Line_08": "include someone else's text in your",
-        "Line_09": "project without getting into trouble."
+        "Line_01": "When using someone's idea, always give",
+        "Line_02": "credit by citing their name or the",
+        "Line_03": "source's title. Whether it's from a",
+        "Line_04": "website, book, or article, provide the",
+        "Line_05": "necessary information to avoid",
+        "Line_06": "plagiarism. Citing a source ensures",
+        "Line_07": "academic integrity and respects",
+        "Line_08": "intellectual property rights.",
+        "Line_09": "Remember, it's about honesty and",
+        "Line_10": "acknowledgment in your work."
       }],
-      "Refactored": false
+      "Refactored": true
     },
+    //******************************
     "Lesson_0651": {
       "Name": "Lesson_0651",
       "Number": 651,
@@ -11970,6 +11978,7 @@
       }],
       "Refactored": false
     },
+    //******************************
     "Lesson_0661": {
       "Name": "Lesson_0661",
       "Number": 661,
