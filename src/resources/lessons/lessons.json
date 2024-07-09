@@ -3116,7 +3116,6 @@
       }],
       "FactChecked": true
     },
-    // ************************************************************
     "Lesson_0193": {
       "Name": "Lesson_0193",
       "Number": 193,
@@ -3131,9 +3130,9 @@
         "Line_03": "the source of chocolate. The fruit pods",
         "Line_04": "of this tree contain the seeds known as",
         "Line_05": "cacao beans, which are used to produce",
-        "Line_06": "chocolate."
+        "Line_06": "chocolate. Not necessarily the deepest parts."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0194": {
       "Name": "Lesson_0194",
@@ -3147,11 +3146,12 @@
         "Line_01": "In Slovakia, a country nestled in the heart",
         "Line_02": "of Europe, there are nearly fifty stunning",
         "Line_03": "wooden churches that stand as marvels of",
-        "Line_04": "architectural craftsmanship. Built entirely",
-        "Line_05": "without the use of nails, these churches",
-        "Line_06": "are a testament to traditional woodworking"
+        "Line_04": "architectural craftsmanship. Some of them,",
+        "Line_05": "built entirely without the use of nails,",
+        "Line_06": "these churches are a testament to",
+        "Line_07": "traditional woodworking."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0195": {
       "Name": "Lesson_0195",
@@ -3168,7 +3168,7 @@
         "Line_04": "direct sea route that linked the Atlantic",
         "Line_05": "and Indian oceans via the Cape of Good Hope."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0196": {
       "Name": "Lesson_0196",
@@ -3185,7 +3185,7 @@
         "Line_04": "it, including planets, asteroids, comets,",
         "Line_05": "and moons and man made interplanetary satellites."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0197": {
       "Name": "Lesson_0197",
@@ -3198,7 +3198,7 @@
       "Lines": [{
         "Line_01": "tropical island city rain forest unique plant daily amazing sunny ocean perfect"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0198": {
       "Name": "Lesson_0198",
@@ -3215,7 +3215,7 @@
         "Line_04": "used in roles such as search and rescue",
         "Line_05": "and as therapy animals."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0199": {
       "Name": "Lesson_0199",
@@ -3227,12 +3227,12 @@
       "Description": "Spaces in English",
       "Lines": [{
         "Line_01": "In the early stages of English, spaces",
-        "Line_02": "between words were not used. This",
+        "Line_02": "between words were not used exclusively. This",
         "Line_03": "practice made writing quicker but",
-        "Line_04": "reading more challenging. Readers had",
+        "Line_04": "reading more challenging. Readers sometimes had",
         "Line_05": "to decipher word boundaries themselves."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0200": {
       "Name": "Lesson_0200",
@@ -3249,8 +3249,9 @@
         "Line_04": "hearing develop, reducing their",
         "Line_05": "dependence on their mother."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
+    // ************************************************************
     "Lesson_0201": {
       "Name": "Lesson_0201",
       "Number": 201,
@@ -3280,7 +3281,7 @@
       "Lines": [{
         "Line_01": "A quick brown fox jumps over the lazy dog in the park during the sunny year while children play and birds sing happily."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0203": {
       "Name": "Lesson_0203",
@@ -3361,7 +3362,7 @@
       "Lines": [{
         "Line_01": "sing Energy song attach size Both form need Food grow popular film begin Same Period Africa island quickly technique worth"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0208": {
       "Name": "Lesson_0208",
@@ -3451,7 +3452,7 @@
       "Lines": [{
         "Line_01": "Dance sharp Silent range Singer heart Alone touch car Shine Gather Culture respect Region Method Idea"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0213": {
       "Name": "Lesson_0213",
@@ -3537,7 +3538,7 @@
       "Lines": [{
         "Line_01": "Developing a Keen sense of Observation, People Explore various Key elements of Nature, Looking Beyond everyday aspects and Identifying Unique behaviors Around them."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0218": {
       "Name": "Lesson_0218",
@@ -3634,7 +3635,7 @@
       "Lines": [{
         "Line_01": "Goal early legal oak large game rate learn layer area omega real great gem arm tray metal"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0223": {
       "Name": "Lesson_0223",
@@ -3651,7 +3652,7 @@
         "Line_04": "gr gr gra gre great grain graphic",
         "Line_05": "gn gn gin gna gnash imagine ignore"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0224": {
       "Name": "Lesson_0224",
@@ -3671,7 +3672,7 @@
         "Line_07": "the tournament.",
         "Line_08": "loss loss loss loss loss loss"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0225": {
       "Name": "Lesson_0225",
@@ -3689,7 +3690,7 @@
         "Line_05": "She illustrated a scene from her science lecture.",
         "Line_06": "science scene science scene science scene"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0226": {
       "Name": "Lesson_0226",
@@ -3707,7 +3708,7 @@
         "Line_05": "We both thought that she had fought.",
         "Line_06": "thought fought thought fought thought fought"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0227": {
       "Name": "Lesson_0227",
@@ -3726,7 +3727,7 @@
         "Line_06": "and he crawled so far in his whole body was inside.",
         "Line_07": "whole hole whole hole whole hole whole"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0228": {
       "Name": "Lesson_0228",
@@ -3744,7 +3745,7 @@
         "Line_05": "We should prepare ourselves for the presence of any challenges.",
         "Line_06": "presence prepare presence prepare presence prepare presence"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0229": {
       "Name": "Lesson_0229",
@@ -3763,7 +3764,7 @@
         "Line_06": "as soft serve ice cream dessert",
         "Line_07": "dessert desert dessert desert dessert desert dessert"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0230": {
       "Name": "Lesson_0230",
@@ -3782,7 +3783,7 @@
         "Line_06": "it was just enough to break and make peace.",
         "Line_07": "piece peace piece peace piece peace"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0231": {
       "Name": "Lesson_0231",
@@ -3802,7 +3803,7 @@
         "Line_07": "He definitely needs to completely understand it.",
         "Line_08": "definitely completely definitely completely"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0232": {
       "Name": "Lesson_0232",
@@ -3822,7 +3823,7 @@
         "Line_07": "It was ridiculous how glamorous the party looked.",
         "Line_08": "ridiculous glamorous ridiculous glamorous"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0233": {
       "Name": "Lesson_0233",
@@ -3845,7 +3846,7 @@
         "Line_10": "convinced her to spend her last cent on it.",
         "Line_11": "cent scent cent scent cent scent cent scent"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0234": {
       "Name": "Lesson_0234",
@@ -3862,7 +3863,7 @@
         "Line_04": "gi gi ign gig gift vigil ignite",
         "Line_05": "ga ga gua gal galaxy guard gamma"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0235": {
       "Name": "Lesson_0235",
@@ -3877,7 +3878,7 @@
         "Line_02": "4477447",
         "Line_03": "744744"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0236": {
       "Name": "Lesson_0236",
@@ -3891,7 +3892,7 @@
         "Line_01": "j7j4f 4ffj 7j7 jf74 447 4f4f f4j7 74jf",
         "Line_02": "47fj j47f 74jf 447j 4f7j j7j474 jj7"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0237": {
       "Name": "Lesson_0237",
@@ -3909,7 +3910,7 @@
         "Line_05": "47 is the number 4 7477447",
         "Line_06": "74 men 44 7 and a 4th"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0238": {
       "Name": "Lesson_0238",
@@ -3924,7 +3925,7 @@
         "Line_02": "838383838833",
         "Line_03": "383838883"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0239": {
       "Name": "Lesson_0239",
@@ -3942,7 +3943,7 @@
         "Line_05": "kk3 83dk kd83k8d kk3d 8k3dkk38 dk83dk8",
         "Line_06": "kk83dk38k dk38 k3d8kd3 k38 d3k8kd838kd3"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0240": {
       "Name": "Lesson_0240",
@@ -3959,7 +3960,7 @@
         "Line_04": "33 even better 3 is less 8 is more",
         "Line_05": "333 and 888 833 and 383 then and now only 8"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0241": {
       "Name": "Lesson_0241",
@@ -3977,7 +3978,7 @@
         "Line_05": "229299",
         "Line_06": "992992"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0242": {
       "Name": "Lesson_0242",
@@ -3992,7 +3993,7 @@
         "Line_02": "9s9s2l 2sl2992 s29 9sl22s l9s2l2s 2s",
         "Line_03": "2l92 2l9l l29l2s 9s2ll9 9l29 l2s92l"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0243": {
       "Name": "Lesson_0243",
@@ -4009,7 +4010,7 @@
           "Line_04": "to the park 2 is a digit and 9 is",
           "Line_05": "too but 2 is the smaller one you must see that"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0244": {
       "Name": "Lesson_0244",
@@ -4024,7 +4025,7 @@
           "Line_02": "1000100",
           "Line_03": "010101"
         }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0245": {
       "Name": "Lesson_0245",
@@ -4039,7 +4040,7 @@
           "Line_02": ";1a0 ;0a1; a1;0 10;a 1a0; 011;a 0;1",
           "Line_03": "1;0a ;01a 1a;0 a;10 0a1; a10; ;0a1"
         }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0246": {
       "Name": "Lesson_0246",
@@ -4056,7 +4057,7 @@
           "Line_04": "and you know more 1010101 practice",
           "Line_05": "typing 1 then typing 0 to remember"
         }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0247": {
       "Name": "Lesson_0247",
@@ -4071,7 +4072,7 @@
         "Line_02": "6555656",
         "Line_03": "565665"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0248": {
       "Name": "Lesson_0248",
@@ -4085,7 +4086,7 @@
         "Line_01": "5j6 h6 f56 j65 g5 6f5 66 jf5 56fj",
         "Line_02": "j5f 5j6 f66 j5f jf6 6j56 5j6f f5j6f"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0249": {
       "Name": "Lesson_0249",
@@ -4102,7 +4103,7 @@
         "Line_04": "reversed is 65 but 56 is just a little smaller",
         "Line_05": "556. Five pounds of sand in 6 little jam jars."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0250": {
       "Name": "Lesson_0250",
@@ -4115,7 +4116,7 @@
       "Lines": [{
         "Line_01": "2345678901234567890123456789012345678901"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0251": {
       "Name": "Lesson_0251",
@@ -4129,7 +4130,7 @@
         "Line_01": "v4f5b5 g5r4v4 f4r5v5 fr4v5b5 c3d3e3 v4r4v4",
         "Line_02": "f5b5g5 t5b5g5 v4c3e3 r4f4v4 c3e3d3 v4f5r5"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
       "Lesson_0252": {
       "Name": "Lesson_0252",
@@ -4144,7 +4145,7 @@
         "Line_02": "s2w2 x22w x2w2 c3d3 e3c3 c3d d3c3 e3d3",
         "Line_03": "w2s x22 s22x x22w2 d33e3 c33c33 e3d"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0253": {
       "Name": "Lesson_0253",
@@ -4158,7 +4159,7 @@
         "Line_01": "5t5g5 g5t5b5 5g5b5 5g5t5 1q1z1 a1q1z1",
         "Line_02": "5t5b5 1q1z1a 5b5g5 1q1a1 5g5t5b 1z1a1 1a1z1"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0254": {
       "Name": "Lesson_0254",
@@ -4173,7 +4174,7 @@
         "Line_02": "6h6n6 7m7u7j 7u7m7 6y6h6 7m7u7 j7u7m",
         "Line_03": "6n6hy6y 6n6h6 7j7m7 6y6h6 u7m7j7 h6n6"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0255": {
       "Name": "Lesson_0255",
@@ -4188,7 +4189,7 @@
         "Line_02": "k8i8,8 88ki,88 9o9.9l9 l9o9.9l i8k8,8",
         "Line_03": "8,8i8k 9.9o9l9 i,88k8 8k8,8i"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0256": {
       "Name": "Lesson_0256",
@@ -4203,7 +4204,7 @@
         "Line_02": "0;0/0/ n6n6 6n6y ;0/0p0 0/0;0 0p0/0;",
         "Line_03": "0/0p0/ /0p0;0"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0257": {
       "Name": "Lesson_0257",
@@ -4218,7 +4219,7 @@
         "Line_02": "422 11152 43 241552 34143 2351",
         "Line_03": "52115 5322 3124"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0258": {
       "Name": "Lesson_0258",
@@ -4233,7 +4234,7 @@
         "Line_02": "987 60078 687 60 798607 987607067",
         "Line_03": "987876 087 607798 066 078789678"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0259": {
       "Name": "Lesson_0259",
@@ -4248,7 +4249,7 @@
         "Line_02": "f4s2 d31a 5g53d22s f43da1 s25g a1d3s2",
         "Line_03": "g5f4 2sd3df4 1a15g3d 2s1a1 d3f4g5 a2s3d4f5"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0260": {
       "Name": "Lesson_0260",
@@ -4263,7 +4264,7 @@
         "Line_02": "h6k8 j7;0 9l8k8 6h67j k8;0 9l8k8 7j76h",
         "Line_03": "k89l9 7j76h ;0l9 k89j7 9l90; k8j7"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0261": {
       "Name": "Lesson_0261",
@@ -4278,7 +4279,7 @@
         "Line_02": "c1x2 v5ev2 r4x4 d4ec4 rv2 ce2",
         "Line_03": "x4 z4c53 v2 ez5"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0262": {
       "Name": "Lesson_0262",
@@ -4293,7 +4294,7 @@
         "Line_02": "0p; ,8 m7 0pp 8k8 l9 8, 7j m7 l9",
         "Line_03": "0p 9l"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0263": {
       "Name": "Lesson_0263",
@@ -4308,7 +4309,7 @@
         "Line_02": "s2s9l 10a; 2s9ls 8kd38 d3d8k3 47fj 2l29s",
         "Line_03": "3kd38k a10;"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0264": {
       "Name": "Lesson_0264",
@@ -4321,7 +4322,7 @@
       "Lines": [{
         "Line_01": "76trees 4cars 1bears 23ducks 18chairs 3bus 9homes 20boats 6cents 7bikes 15trains 9planes"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0265": {
       "Name": "Lesson_0265",
@@ -4339,7 +4340,7 @@
         "Line_06": "peal heal peal heal peal heal",
         "Line_05": "eal eal eal eal eal eal eal"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0266": {
       "Name": "Lesson_0266",
@@ -4357,7 +4358,7 @@
         "Line_05": "state create state create state create",
         "Line_06": "ate ate ate ate ate ate ate"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0267": {
       "Name": "Lesson_0267",
@@ -4378,7 +4379,7 @@
         "Line_08": "gifted",
         "Line_09": "ted ted ted ted ted ted ted"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0268": {
       "Name": "Lesson_0268",
@@ -4396,7 +4397,7 @@
         "Line_05": "groan prone groan prone groan prone",
         "Line_06": "one one one one one one one"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0269": {
       "Name": "Lesson_0269",
@@ -4414,7 +4415,7 @@
         "Line_05": "fame dame fame dame fame dame",
         "Line_06": "ame ame ame ame ame ame ame"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0270": {
       "Name": "Lesson_0270",
@@ -4435,7 +4436,7 @@
         "Line_08": "decorator",
         "Line_09": "tor tor tor tor tor tor tor"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0271": {
       "Name": "Lesson_0271",
@@ -4453,7 +4454,7 @@
         "Line_05": "engine medicine engine medicine engine",
         "Line_06": "ine ine ine ine ine ine ine"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0272": {
       "Name": "Lesson_0272",
@@ -4471,7 +4472,7 @@
         "Line_05": "pave stave pave stave pave stave",
         "Line_06": "ave ave ave ave ave ave ave"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0273": {
       "Name": "Lesson_0273",
@@ -4489,7 +4490,7 @@
         "Line_05": "profound background profound background profound background",
         "Line_06": "ound ound ound ound ound ound"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0274": {
       "Name": "Lesson_0274",
@@ -4507,7 +4508,7 @@
         "Line_05": "heritage storage heritage storage heritage storage",
         "Line_06": "age age age age age age age"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0275": {
       "Name": "Lesson_0275",
@@ -4524,7 +4525,7 @@
         "Line_04": "gn gn gna ign signal align benign",
         "Line_05": "gi gi gan gin gigantic origin margin"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0276": {
       "Name": "Lesson_0276",
@@ -4610,7 +4611,7 @@
       "Lines": [{
         "Line_01": "beach told ways story dance house wings exact form path stage street good extra find"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0281": {
       "Name": "Lesson_0281",
@@ -4718,7 +4719,7 @@
       "Lines": [{
         "Line_01": "great stories form each plan team mix nice charm spot deeply game chance real"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0287": {
       "Name": "Lesson_0287",
@@ -4807,7 +4808,7 @@
       "Lines": [{
         "Line_01": "varnish glove patient ice alert faucet North truck capture fresh snake pile caught tall December"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0292": {
       "Name": "Lesson_0292",
@@ -4900,7 +4901,7 @@
       "Lines": [{
         "Line_01": "apple lovely bright Shiny calm huge tight Crazy simple Royal night Happy Faithful brave cozy Glimpse Earth flying Amazing Train purple"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0297": {
       "Name": "Lesson_0297",
@@ -4996,7 +4997,7 @@
       "Lines": [{
         "Line_01": "Rate Year Goal Wake travel royal Grey water dream leaf earth real leafy aura"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0302": {
       "Name": "Lesson_0302",
@@ -5089,7 +5090,7 @@
       "Lines": [{
         "Line_01": "Greatly goal large Meat army Travel event early Wake layer Rate Measure Illinois loyalty lake gray grape align Spain million"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0307": {
       "Name": "Lesson_0307",
@@ -5106,7 +5107,7 @@
         "Line_04": "gn gn ign gna signal reign benign",
         "Line_05": "gi gi igi giv gin giving digital origin"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0308": {
       "Name": "Lesson_0308",
@@ -5121,7 +5122,7 @@
         "Line_02": "$&$&&$$",
         "Line_03": "$&$$&&$"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0309": {
       "Name": "Lesson_0309",
@@ -5136,7 +5137,7 @@
         "Line_02": "f$j& jj& $ffj &$jf $&fj jf&$ $$&& $f&j",
         "Line_03": "&j$f j$&f $$&j &$jf j&j$&$ f$f$ jfj"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0310": {
       "Name": "Lesson_0310",
@@ -5152,7 +5153,7 @@
         "Line_03": "performance$ strategy& ecosystem& economic$",
         "Line_04": "operation&"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0311": {
       "Name": "Lesson_0311",
@@ -5167,7 +5168,7 @@
         "Line_02": "#*##*#*",
         "Line_03": "*#**##*"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0312": {
       "Name": "Lesson_0312",
@@ -5181,7 +5182,7 @@
         "Line_01": "k#d* d#k* k#d* dk* d#* k#d* d*#k*",
         "Line_02": "dk#*k d*#k #*kd# d*#k k#* d#k* kd * # * d"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0313": {
       "Name": "Lesson_0313",
@@ -5197,7 +5198,7 @@
         "Line_03": "road# glass* dance# *truth #city",
         "Line_04": "*book #bird #high *game #night #space"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0314": {
       "Name": "Lesson_0314",
@@ -5212,7 +5213,7 @@
         "Line_02": "(@((@@@",
         "Line_03": "((@@(@("
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0315": {
       "Name": "Lesson_0315",
@@ -5226,7 +5227,7 @@
         "Line_01": "l(s@ @ls( (s@l s(l@ s@l( (l@s s@l l@sl",
         "Line_02": "(@ll s@( s@l( l@sl l(s@ @ls( (ll@ @s(l"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0316": {
       "Name": "Lesson_0316",
@@ -5241,7 +5242,7 @@
         "Line_02": "@river @community wave( @mountain (harmony",
         "Line_03": "@art( land@ festival( @heritage (spirit@"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0317": {
       "Name": "Lesson_0317",
@@ -5256,7 +5257,7 @@
         "Line_02": "!!))!)!!",
         "Line_03": ")!)!)!))"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0318": {
       "Name": "Lesson_0318",
@@ -5270,7 +5271,7 @@
         "Line_01": ";a) ;)a a!); )!)a ;a!) )!;) a;!;",
         "Line_02": "!a)a; ;)!)a a;))! a!;) ;!)a;) )!;a"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0319": {
       "Name": "Lesson_0319",
@@ -5286,7 +5287,7 @@
         "Line_03": ")mountain palm! )art! written) dance! !love!! !song)",
         "Line_04": ")sunset !novel) idea!! !)chair) )!room!"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0320": {
       "Name": "Lesson_0320",
@@ -5301,7 +5302,7 @@
         "Line_02": "%^%^%%^^ %^^%^^^",
         "Line_03": "%^^%^%^% %^%^^^%"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0321": {
       "Name": "Lesson_0321",
@@ -5315,7 +5316,7 @@
         "Line_01": "j^f %^j h^g f%j j^% ^^f %^g %j^ jf%^ h^gf",
         "Line_02": "^%^ j^%j f%^j f^^ %%j %f^ jf%j ^^f% %^gj %j^f"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0322": {
       "Name": "Lesson_0322",
@@ -5330,7 +5331,7 @@
         "Line_02": "%culture ^wisdom % ^energy %dream^ journey%",
         "Line_03": "^quest %wonder ^muse %grace galaxy^ %harmony"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0323": {
       "Name": "Lesson_0323",
@@ -5343,7 +5344,7 @@
       "Lines": [{
         "Line_01": "$&#*@(!)%^*$(@*%!)@(&$&%*(@#$!@%#@&%(@#*&@^%!"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0324": {
       "Name": "Lesson_0324",
@@ -5357,7 +5358,7 @@
         "Line_01": "V$ R% F$ T^ R$ V$ F$R$V$ F$V$R$ P$R$F$",
         "Line_02": "$R$F$V $R$F$V $F$R$V R$V$R$ F$V$R$F"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0325": {
       "Name": "Lesson_0325",
@@ -5371,7 +5372,7 @@
         "Line_01": "E# C# D# E# E# C# D# #E #D #C E#D#C#",
         "Line_02": "C#E#D# #C#E#D #D#E#C"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0326": {
       "Name": "Lesson_0326",
@@ -5385,7 +5386,7 @@
         "Line_01": "X@ S@ W@ @X @W S@ X@ W@S@X @W@X@S",
         "Line_02": "@X@W@S @W@X S@ W@S@X X@ S@X@"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0327": {
       "Name": "Lesson_0327",
@@ -5399,7 +5400,7 @@
         "Line_01": "Q! A! Z! Q! A! Z! Q! A! Z! Q! Z! A! Z!",
         "Line_02": "A!Q!Z!A! Q!Z!Q! A!Z!!Q!Z! Q!A!"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0328": {
       "Name": "Lesson_0328",
@@ -5413,7 +5414,7 @@
         "Line_01": "T% B% G% B% T% G% T% G% B% %T% G%B",
         "Line_02": "%G%B%T% T%B%G% T%B%%TB%G%"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0329": {
       "Name": "Lesson_0329",
@@ -5427,7 +5428,7 @@
         "Line_01": "U& J& M& J& M& U& U& J&M& J&U&M",
         "Line_02": "M&U&J& U&M&J& J&M&U&M&J&U"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0330": {
       "Name": "Lesson_0330",
@@ -5441,7 +5442,7 @@
         "Line_01": "K* I* K* I* K* K*I*I K*K*I* K*I*K",
         "Line_02": "I* K*K K*I*I K*I*K K*K*I I*K*I"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0331": {
       "Name": "Lesson_0331",
@@ -5455,7 +5456,7 @@
         "Line_01": "O( L( L(O O( O( LL(O (O(O (L(O",
         "Line_02": "(O(O (L(O L(O L(LO(O LL(LO("
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0332": {
       "Name": "Lesson_0332",
@@ -5469,7 +5470,7 @@
         "Line_01": "P) :) P) :) :) P)P)PP:)PP:))",
         "Line_02": ":)P)::)PP):)PP:)P)P:P:)P:PP:PP:)P"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0333": {
       "Name": "Lesson_0333",
@@ -5483,7 +5484,7 @@
         "Line_01": "Y^ H^ N^ Y^ H^ N^ N^Y^H^ Y^H^N^",
         "Line_02": "^N^H^Y Y^N^H H^Y^N H^N^Y Y^N^H N^H^Y H^Y^N Y^N^H"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0334": {
       "Name": "Lesson_0334",
@@ -5497,7 +5498,7 @@
         "Line_01": "F$ R% V$ S@ A! D# G$ C# W@ Z! Q!",
         "Line_02": "q@ w3 e$ g% h@ u! i# o$ k% l@ x@"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0335": {
       "Name": "Lesson_0335",
@@ -5511,7 +5512,7 @@
         "Line_01": "k* L( i* o( m& j& h^ j& K* l( :)",
         "Line_02": "p) y^ n^ ,* .9 J& h^ u& i* o( l("
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0336": {
       "Name": "Lesson_0336",
@@ -5525,7 +5526,7 @@
         "Line_01": "S@d#F$g%h^J&k*l(;)A!q!W@e3r$t%Y^u&i*o(p)",
         "Line_02": "Z!x@c#v$b%n^m&.a!(,Q!w@"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0337": {
       "Name": "Lesson_0337",
@@ -5539,7 +5540,7 @@
         "Line_01": "&my do* go^ !4s 2*2 h!e j*o b&n r^e",
         "Line_02": "(cat) jump^ &over *bus* ice$ ^run! s@l h*o (h^o) b!n"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0338": {
       "Name": "Lesson_0338",
@@ -5557,7 +5558,7 @@
         "Line_05": "renown shown renown shown renown shown",
         "Line_06": "own own own own own own own"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0339": {
       "Name": "Lesson_0339",
@@ -5575,7 +5576,7 @@
         "Line_05": "trill krill trill krill trill krill",
         "Line_06": "ill ill ill ill ill ill ill"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0340": {
       "Name": "Lesson_0340",
@@ -5593,7 +5594,7 @@
         "Line_05": "tucson arson tucson arson tucson arson",
         "Line_06": "son son son son son son son"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0341": {
       "Name": "Lesson_0341",
@@ -5611,7 +5612,7 @@
         "Line_05": "stink slink stink slink stink slink",
         "Line_06": "ink ink ink ink ink ink ink"
       }],
-      "Refactored": false
+      "Refactored": true
     },
     "Lesson_0342": {
       "Name": "Lesson_0342",
@@ -5629,7 +5630,7 @@
         "Line_05": "breathe streak breathe streak breathe streak",
         "Line_06": "rea rea rea rea rea rea rea"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0343": {
       "Name": "Lesson_0343",
@@ -5647,7 +5648,7 @@
         "Line_05": "precede kneed precede kneed precede kneed",
         "Line_06": "eed eed eed eed eed eed eed"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0344": {
       "Name": "Lesson_0344",
@@ -5665,7 +5666,7 @@
         "Line_05": "podcast overcast podcast overcast podcast overcast",
         "Line_06": "ast ast ast ast ast ast ast"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0345": {
       "Name": "Lesson_0345",
@@ -5683,7 +5684,7 @@
         "Line_05": "youngness youngster youngness youngster youngness youngster",
         "Line_06": "you you you you you you you"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0346": {
       "Name": "Lesson_0346",
@@ -5701,7 +5702,7 @@
         "Line_05": "gutted rebuttal gutted rebuttal gutted rebuttal",
         "Line_06": "utt utt utt utt utt utt utt"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0347": {
       "Name": "Lesson_0347",
@@ -5719,7 +5720,7 @@
         "Line_06": "capacity sincerity capacity sincerity capacity sincerity",
         "Line_05": "ity ity ity ity ity ity ity"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0348": {
       "Name": "Lesson_0348",
@@ -5736,7 +5737,7 @@
         "Line_04": "gr gr gray grid grow grapple grew",
         "Line_05": "ge ge stage edge engage gentle genius"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0349": {
       "Name": "Lesson_0349",
@@ -5832,7 +5833,7 @@
         "Line_01": "The Milky Way galaxy is estimated to contain 100 billion stars and spans about 100,000 light years.",
         "Line_02": "Our solar system is located around 27,000 light years from the galactic center."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0354": {
       "Name": "Lesson_0354",
@@ -5932,7 +5933,7 @@
       "Lines": [{
         "Line_01": "border natural could their world reduce provide these largest million miles route total wildlife area"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0359": {
       "Name": "Lesson_0359",
@@ -6032,7 +6033,7 @@
       "Lines": [{
         "Line_01": "watercolor Gallery water meal community wear The Global Gallery nothing community region hear consider special They adventure number wax always"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0364": {
       "Name": "Lesson_0364",
@@ -6126,7 +6127,7 @@
       "Lines": [{
         "Line_01": "number corner office phrase include sweet special almost street without about smal serving around every There"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0369": {
       "Name": "Lesson_0369",
@@ -6222,7 +6223,7 @@
       "Lines": [{
         "Line_01": "author clever mountain invite nineteen corner hero tower online network color current country alone throw"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0374": {
       "Name": "Lesson_0374",
@@ -6319,7 +6320,7 @@
       "Description": "Test 44: Play Words 21",
       "Lines": [{
         "Line_01": "Weight evolve academy proportion country formal change attend convert nursery order makeup academic energy evolve usually",
-        "FactChecked": false
+        "FactChecked": true
       }]
     },
     "Lesson_0379": {
@@ -6338,7 +6339,7 @@
         "Line_05": "gi gi iga gin agi ginger gigantic imaging",
         "Line_06": "gr gr gra gra grammar grand graph"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0380": {
       "Name": "Lesson_0380",
@@ -6354,7 +6355,7 @@
         "Line_03": "``~`~`",
         "Line_04": "`~~~`~"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0381": {
       "Name": "Lesson_0381",
@@ -6367,7 +6368,7 @@
       "Lines": [{
         "Line_01": "k~u` n~C` W~i` e~a` J`x~ p~n` a~K` u~j`"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0382": {
       "Name": "Lesson_0382",
@@ -6381,7 +6382,7 @@
         "Line_01": "unique~ letters` help~ train` skills~ quickly`",
         "Line_02": "focus` on accuracy~ improves~ typing` speed~"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0383": {
       "Name": "Lesson_0383",
@@ -6396,7 +6397,7 @@
         "Line_02": "\"'\"\"'\"'",
         "Line_03": "'\"'\"\"'\"''\""
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0384": {
       "Name": "Lesson_0384",
@@ -6410,7 +6411,7 @@
         "Line_01": "p\"q' n'c\" e'y\" w\"i' q'p\" i'w\"",
         "Line_02": "c'n\" y\"e' p'i\" q'w' e'c\" i'q\""
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0385": {
       "Name": "Lesson_0385",
@@ -6424,7 +6425,7 @@
         "Line_01": "she can't recall the \"exact phrase\"",
         "Line_02": "for unique \"quotes\""
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0386": {
       "Name": "Lesson_0386",
@@ -6439,7 +6440,7 @@
         "Line_02": "=--=--=",
         "Line_03": "-=-==-="
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0387": {
       "Name": "Lesson_0387",
@@ -6452,7 +6453,7 @@
       "Lines": [{
         "Line_01": "c-a= e-x= q-s= i-v= n-e- w-i="
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0388": {
       "Name": "Lesson_0388",
@@ -6466,7 +6467,7 @@
         "Line_01": "equal= and minus- symbols are= crucial-",
         "Line_02": "for= typing- accuracy= and speed="
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0389": {
       "Name": "Lesson_0389",
@@ -6481,7 +6482,7 @@
         "Line_02": "_+__+_ +_++_+",
         "Line_03": "+_+_+ _+_+++"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0390": {
       "Name": "Lesson_0390",
@@ -6494,7 +6495,7 @@
       "Lines": [{
         "Line_01": "i+d_ l+j+ q+w_ n+x_ o_c+ r_e+ m_y+ u_t_"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0391": {
       "Name": "Lesson_0391",
@@ -6508,7 +6509,7 @@
         "Line_01": "_ and +_ are +used_ +for_ +programming_",
         "Line_02": "_ They_ +signify_ +addition+ and_+ +concatenation_"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0392": {
       "Name": "Lesson_0392",
@@ -6523,7 +6524,7 @@
         "Line_02": "[][][]][]",
         "Line_03": "][[[][]]"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0393": {
       "Name": "Lesson_0393",
@@ -6537,7 +6538,7 @@
         "Line_01": "w[s] p[k] l[z] c[d] q[p] k[s] m[q]",
         "Line_02": "s[d] z[k] a[s] i[l] e[w] r[z] n[p]"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0394": {
       "Name": "Lesson_0394",
@@ -6551,7 +6552,7 @@
         "Line_01": "_and[ ]are[ ]fundamental[ ]symbols[ ]in[ ]programming",
         "Line_02": "[They]are[ ]vital[ ]components[ ]used[ ]in[ ]coding"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0395": {
       "Name": "Lesson_0395",
@@ -6566,7 +6567,7 @@
         "Line_02": "{{{}{}}}",
         "Line_03": "{}{{}{}}"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0396": {
       "Name": "Lesson_0396",
@@ -6579,7 +6580,7 @@
       "Lines": [{
         "Line_01": "s}o{ w{w} c}k{ s}d} k{s} a}l{ d{e} q{r}"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0397": {
       "Name": "Lesson_0397",
@@ -6593,7 +6594,7 @@
         "Line_01": "{code} {syntax} {and} {usage} {of} {braces} {symbols}",
         "Line_02": "{in} {programming} {are} {essential}"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0398": {
       "Name": "Lesson_0398",
@@ -6608,7 +6609,7 @@
         "Line_02": "\\|\\|||\\|\\",
         "Line_03": "\\|\\\\|\\|"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0399": {
       "Name": "Lesson_0399",
@@ -6621,7 +6622,7 @@
       "Lines": [{
         "Line_01": "w\\q\\s| o|z\\ p|i\\ o\\p| k\\u\\ q\\v|"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0400": {
       "Name": "Lesson_0400",
@@ -6635,7 +6636,7 @@
         "Line_01": "many|new|instances \\of\\symbols\\ occur in",
         "Line_02": "|bar| and \\backward\\slash notations"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0401": {
       "Name": "Lesson_0401",
@@ -6650,7 +6651,7 @@
         "Line_02": ">>><<<<>",
         "Line_03": "<><<>><><"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0402": {
       "Name": "Lesson_0402",
@@ -6663,7 +6664,7 @@
       "Lines": [{
         "Line_01": "i<w> n<t> e<u> s<p> o<a> r<d> i<m> w<t> h<y> t<h>"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0403": {
       "Name": "Lesson_0403",
@@ -6677,7 +6678,7 @@
         "Line_01": "example< sentences< with< symbols>>",
         "Line_02": "the> keys< on> the> keyboard< are< used>"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0404": {
       "Name": "Lesson_0404",
@@ -6690,7 +6691,7 @@
       "Lines": [{
         "Line_01": "~'|]-+'\"-+'{\"[}|_-~-|\\{~\\[~'_\"'~'{]-+[\"~'_|-~'_"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0405": {
       "Name": "Lesson_0405",
@@ -6703,7 +6704,7 @@
       "Lines": [{
         "Line_01": "=]['`\\ \\][=`-' \\]='`[ \\]['`= `-]=\\' -`=\\`]"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0406": {
       "Name": "Lesson_0406",
@@ -6716,7 +6717,7 @@
       "Lines": [{
         "Line_01": "}\"{+_~ +}{\"~_| +}{\"_~| \"}{+_~ +}{\"_~|"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0407": {
       "Name": "Lesson_0407",
@@ -6731,7 +6732,7 @@
         "Line_02": "\\master\\ \"how\" to' type _each_ the",
         "Line_03": "signs+ =on _your` {~keyboard'~}"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0408": {
       "Name": "Lesson_0408",
@@ -6746,7 +6747,7 @@
         "Line_02": "=always+ [test- \\your~ =abilities| =with\\ 'new{",
         "Line_03": "}are an {absolute}[ 'beast-mode~ \\at ~typing~\\"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0409": {
       "Name": "Lesson_0409",
@@ -6761,7 +6762,7 @@
         "Line_02": "[requires\" =dedication~ and{ constant]",
         "Line_03": "\\practice\\| [with] 'various~ 'characters\\"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0410": {
       "Name": "Lesson_0410",
@@ -6781,7 +6782,7 @@
         "Line_07": "Do you wonder whether the weather will affect your plans?",
         "Line_08": "weather whether weather whether weather whether"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0411": {
       "Name": "Lesson_0411",
@@ -6800,7 +6801,7 @@
         "Line_06": "lightning lightening lightning lightening lightning lightening",
         "Line_07": "Lightning strikes often precede heavy lightening showers."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0412": {
       "Name": "Lesson_0412",
@@ -6819,7 +6820,7 @@
         "Line_06": "environment judgment environment judgment environment judgment",
         "Line_07": "Using sound judgment can help preserve the environment."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0413": {
       "Name": "Lesson_0413",
@@ -6837,7 +6838,7 @@
         "Line_05": "There are many options available to choose from.",
         "Line_06": "there there there there there there"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0414": {
       "Name": "Lesson_0414",
@@ -6857,7 +6858,7 @@
         "Line_07": "The personnel office handles personal information securely.",
         "Line_08": "personal personnel personal personnel personal personnel"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0415": {
       "Name": "Lesson_0415",
@@ -6875,7 +6876,7 @@
         "Line_05": "I do not exaggerate when I say I appreciate you deeply.",
         "Line_06": "appreciate exaggerate appreciate exaggerate appreciate exaggerate"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0416": {
       "Name": "Lesson_0416",
@@ -6893,7 +6894,7 @@
         "Line_05": "Our principal upholds the principle of honesty.",
         "Line_06": "principle principal principle principal principle principal"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0417": {
       "Name": "Lesson_0417",
@@ -6911,7 +6912,7 @@
         "Line_05": "For this particular event, use the new calendar.",
         "Line_06": "calendar particular calendar particular calendar particular"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0418": {
       "Name": "Lesson_0418",
@@ -6929,7 +6930,7 @@
         "Line_05": "It's funny when a cat chases its own tail.",
         "Line_06": "its it's its it's its it's its"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0419": {
       "Name": "Lesson_0419",
@@ -6947,7 +6948,7 @@
         "Line_05": "Though he was thorough, he missed some points.",
         "Line_06": "though thorough though thorough though thorough"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0420": {
       "Name": "Lesson_0420",
@@ -6964,7 +6965,7 @@
         "Line_04": "gn gn ign gno signal align gnome",
         "Line_05": "gi gi igi iga ign gigantic align origin"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0421": {
       "Name": "Lesson_0421",
@@ -7062,7 +7063,7 @@
       "Lines": [{
         "Line_01": "nature dolphin charm select boat turtle storm mobile market gallery ground mobile strong secure store common college"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0426": {
       "Name": "Lesson_0426",
@@ -7162,7 +7163,7 @@
       "Lines": [{
         "Line_01": "tally alone browned summer vote home man simple live yourself night stay homework tree straw starve movement lemon summer coat"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0431": {
       "Name": "Lesson_0431",
@@ -7261,7 +7262,7 @@
       "Lines": [{
         "Line_01": "waterway array decay keyboard economy wayward trek mayday academy motion pathway wormhole average breakaway timber gamma"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0436": {
       "Name": "Lesson_0436",
@@ -7368,7 +7369,7 @@
       "Lines": [{
         "Line_01": "early create voice art own freedom new leader toward ever almost often always value why city over might last until one"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0441": {
       "Name": "Lesson_0441",
@@ -7467,7 +7468,7 @@
       "Lines": [{
         "Line_01": "peanut travel early goal layer year way rely meaty rat relay omega wake legal war tear array goal layer team rate meet lively merry tale"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0446": {
       "Name": "Lesson_0446",
@@ -7579,7 +7580,7 @@
       "Lines": [{
         "Line_01": "Capillary grand folly meter Legalized oak king Vast ocean Hat vex Gate Joyful excellence journey Mighty tiger Lily owl Yell"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0451": {
       "Name": "Lesson_0451",
@@ -7596,7 +7597,7 @@
         "Line_04": "gr gr gra gre gro grand great gradient growing",
         "Line_05": "gn gn gno ign signal ignore foreign gnome"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0452": {
       "Name": "Lesson_0452",
@@ -7696,7 +7697,7 @@
       "Lines": [{
         "Line_01": "motherboard ventilation aquarium northeast amphibious breakthrough chocolate banana wildlife celebration advertisement keyboard happiness sunshine"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0457": {
       "Name": "Lesson_0457",
@@ -7793,7 +7794,7 @@
       "Lines": [{
         "Line_01": "tad dad sad clad pad rad lad cad mad add glad fad had plaid ad brad grad gad chad doodad"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0462": {
       "Name": "Lesson_0462",
@@ -7890,7 +7891,7 @@
       "Lines": [{
         "Line_01": "slab nab grab drab slabber blab fab cab gab flabber scab tab crab stabber jab"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0467": {
       "Name": "Lesson_0467",
@@ -7993,7 +7994,7 @@
       "Lines": [{
         "Line_01": "Glow heat super across orchestra think walk Large grey elephant apples like kangaroos rays work space no way area"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0472": {
       "Name": "Lesson_0472",
@@ -8091,7 +8092,7 @@
       "Lines": [{
         "Line_01": "Children Music Human Various Among women first current allow given remain where Congress General Colonies Often"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0477": {
       "Name": "Lesson_0477",
@@ -8189,7 +8190,7 @@
       "Lines": [{
         "Line_01": "Gravity teamwork Gallery loyalty Great gate Oral orchestration Route technology Aged triangle Egg balancing Carry industry Tomorrow kidney"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0482": {
       "Name": "Lesson_0482",
@@ -8206,7 +8207,7 @@
         "Line_04": "ge ge gat gen gate gentle generate",
         "Line_05": "gr gr gro gre group greet growth"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0483": {
       "Name": "Lesson_0483",
@@ -8531,7 +8532,7 @@
       "Lines": [{
         "Line_01": "Years culture Drone spend Wood busy Famous Branches States Safely South Florida Piece Seawater Attraction Business Life Disney Important"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0499": {
       "Name": "Lesson_0499",
@@ -8866,7 +8867,7 @@
       "Lines": [{
         "Line_01": "Celebration journey valley tennis Monument morning river author oasis October Project Kingdom village Earth Tiger century Night wonderful monetary travel Venture Creation growth"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0515": {
       "Name": "Lesson_0515",
@@ -8883,7 +8884,7 @@
         "Line_04": "gn gn gno gen gra gnome gentle grand genuine",
         "Line_05": "gi gi gia gig gir gin gif giant giggle girl gift ginger"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0516": {
       "Name": "Lesson_0516",
@@ -9219,7 +9220,7 @@
       "Lines": [{
         "Line_01": "Twist painting Giant story Present novel origin great Writing modern Music internet Harmony england Melody found Panda prehistoric"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0532": {
       "Name": "Lesson_0532",
@@ -9561,7 +9562,7 @@
       "Lines": [{
         "Line_01": "Elephant river laptop Goat key mountain Ticket birthday cat Dog apple grape Honey Ink ink Galaxy elephant river Laptop goat key Mountain ticket Birthday cat dog Apple Grape Honey ink Ink galaxy"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0548": {
       "Name": "Lesson_0548",
@@ -9578,7 +9579,7 @@
         "Line_04": "ge ge gin gen nge gentle generous engineer engage",
         "Line_05": "gr gr gre gra grand gravity greater greenhouse"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0549": {
       "Name": "Lesson_0549",
@@ -9915,7 +9916,7 @@
       "Lines": [{
         "Line_01": "Website apple Hardware benefit ocean Posture Frog Pacific general software System salt Today combination document Survive water notification"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0565": {
       "Name": "Lesson_0565",
@@ -10248,7 +10249,7 @@
       "Lines": [{
         "Line_01": "River key Important Creative team Worldwide gel rhythm union Monday role coffee Bowl mighty Everyday Journey guide dark Equality several Impact Member Theatre"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0581": {
       "Name": "Lesson_0581",
@@ -10265,7 +10266,7 @@
         "Line_04": "gi gi gir gia gid gig gin giraffe giant giddy giggle gingerbread",
         "Line_05": "gn gn gna gno gna gnaw gnome gnashing gnarly gnosis"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0582": {
       "Name": "Lesson_0582",
@@ -10940,7 +10941,7 @@
         "Line_04": "ge ge gen genre gentle generous",
         "Line_05": "gr gr gra gro gre great grow grant graphic"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0613": {
       "Name": "Lesson_0613",
@@ -11609,7 +11610,7 @@
         "Line_04": "ge ge gen gag generate oxygen engage",
         "Line_05": "gr gr gra gravity grain graphic"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0644": {
       "Name": "Lesson_0644",
@@ -12276,7 +12277,7 @@
         "Line_04": "gn gn ign gna ignite signage designed",
         "Line_05": "gi gi gin ngi gig gir gingivitis giggle giraffe"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0675": {
       "Name": "Lesson_0675",
@@ -13018,7 +13019,7 @@
         "Line_09": "Thank you for choosing Haystacks Typing",
         "Line_10": "Tutor. Keep typing and improving!"
       }],
-      "FactChecked": false
+      "FactChecked": true
     }
   }]
 }
