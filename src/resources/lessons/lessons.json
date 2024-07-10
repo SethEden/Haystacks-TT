@@ -3251,7 +3251,6 @@
       }],
       "FactChecked": true
     },
-    // ************************************************************
     "Lesson_0201": {
       "Name": "Lesson_0201",
       "Number": 201,
@@ -3268,7 +3267,7 @@
         "Line_05": "and are cherished by many, especially",
         "Line_06": "book collectors."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0202": {
       "Name": "Lesson_0202",
@@ -3298,7 +3297,7 @@
         "Line_04": "with other whales and navigate the",
         "Line_05": "ocean's vast expanses."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0204": {
       "Name": "Lesson_0204",
@@ -3315,7 +3314,7 @@
         "Line_04": "located in Tanzania, is the tallest",
         "Line_05": "mountain in Africa."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0205": {
       "Name": "Lesson_0205",
@@ -3332,7 +3331,7 @@
         "Line_04": "reproduce asexually, forming colonies",
         "Line_05": "that can grow into vast coral reefs."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0206": {
       "Name": "Lesson_0206",
@@ -3349,7 +3348,7 @@
         "Line_04": "that can be later released to fuel the organisms'",
         "Line_05": "activities. It is crucial for life on Earth."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0207": {
       "Name": "Lesson_0207",
@@ -3381,7 +3380,7 @@
         "Line_06": "The first human to journey into outer space",
         "Line_07": "was Yuri Gagarin from the Soviet Union."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0209": {
       "Name": "Lesson_0209",
@@ -3400,7 +3399,7 @@
         "Line_06": "It promotes tolerance, understanding,",
         "Line_07": "and appreciation for cultural differences."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0210": {
       "Name": "Lesson_0210",
@@ -3419,7 +3418,7 @@
         "Line_06": "play a crucial role in maintaining the",
         "Line_07": "health and balance of marine ecosystems."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0211": {
       "Name": "Lesson_0211",
@@ -3439,7 +3438,7 @@
         "Line_07": "everything from cellular processes to",
         "Line_08": "ecosystem dynamics."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0212": {
       "Name": "Lesson_0212",
@@ -3466,11 +3465,12 @@
         "Line_01": "Typewriters were once the main tools for",
         "Line_02": "writing documents. They used a system of",
         "Line_03": "levers and hammers to imprint ink on paper.",
-        "Line_04": "Pressing adjacent keys too quickly could",
-        "Line_05": "cause the mechanisms to stick, resulting in",
-        "Line_06": "a jam that needed to be manually fixed."
+        "Line_04": "Pressing keys too quickly could cause the",
+        "Line_05": "mechanisms to stick, even if the keys were not",
+        "Line_06": "immediately adjacent to each other, resulting in",
+        "Line_07": "a jam that needed to be manually fixed."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0214": {
       "Name": "Lesson_0214",
@@ -3488,7 +3488,7 @@
         "Line_05": "distinctive markings on their fur make",
         "Line_06": "them easily recognizable worldwide."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0215": {
       "Name": "Lesson_0215",
@@ -3507,7 +3507,7 @@
         "Line_06": "us understand diseases, ecosystems,",
         "Line_07": "and the genetics of plants and animals."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0216": {
       "Name": "Lesson_0216",
@@ -3525,7 +3525,7 @@
         "Line_05": "chance of typewriters jamming by spacing",
         "Line_06": "out commonly used letter pairs."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0217": {
       "Name": "Lesson_0217",
@@ -3561,7 +3561,7 @@
           "Line_10": "become your superpower,",
           "Line_11": "improving communication and productivity."
         }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0219": {
       "Name": "Lesson_0219",
@@ -3583,7 +3583,7 @@
           "Line_09": "capital embodies a unique blend of",
           "Line_10": "tradition and rapid development."
         }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0220": {
       "Name": "Lesson_0220",
@@ -3604,7 +3604,7 @@
         "Line_08": "originated in China and remains a",
         "Line_09": "cherished cultural tradition."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0221": {
       "Name": "Lesson_0221",
@@ -3622,7 +3622,7 @@
         "Line_05": "endangered, representing global efforts",
         "Line_06": "in wildlife conservation."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0222": {
       "Name": "Lesson_0222",
@@ -4543,7 +4543,7 @@
           "Line_05": "a popular tourist destination, with a",
           "Line_06": "diverse population and a rich cultural history."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0277": {
       "Name": "Lesson_0277",
@@ -4559,9 +4559,11 @@
           "Line_03": "1 billion native speakers. It is",
           "Line_04": "followed by Spanish, which has around",
           "Line_05": "460 million native speakers. English",
-          "Line_06": "is widely spoken globally as a 2nd language."
+          "Line_06": "is widely spoken globally as a 2nd language,",
+          "Line_07": "Although English is not the most widely",
+          "Line_08": "spoken second language."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0278": {
       "Name": "Lesson_0278",
@@ -4576,10 +4578,10 @@
           "Line_02": "Enchantment, is famous for its",
           "Line_03": "diverse landscapes which include",
           "Line_04": "deserts, high plains, and mountains.",
-          "Line_05": "It has 35 state parks and 19 national",
+          "Line_05": "It has 35 state parks and 15 national",
           "Line_06": "parks, monuments, and historic sites."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0279": {
       "Name": "Lesson_0279",
@@ -4594,11 +4596,13 @@
           "Line_02": "in the Earth's crust is suddenly released.",
           "Line_03": "This release creates seismic waves that",
           "Line_04": "travel through the Earth. The magnitude",
-          "Line_05": "of an earthquake is measured using the",
+          "Line_05": "of an earthquake was measured using the",
           "Line_06": "Richter scale, with the largest recorded",
-          "Line_07": "earthquake having a magnitude of 9.5."
+          "Line_07": "earthquake having a magnitude of 9.5.",
+          "Line_08": "Earthquakes are now measured using a more",
+          "Line_09": "accurate scale called MMS"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0280": {
       "Name": "Lesson_0280",
@@ -4630,7 +4634,7 @@
         "Line_06": "9 trillion liters of rain a day, and",
         "Line_07": "cause storm surges up to 20 feet high."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0282": {
       "Name": "Lesson_0282",
@@ -4641,15 +4645,15 @@
       }],
       "Description": "Tectonic Plates 1",
       "Lines": [{
-        "Line_01": "The Earth's crust is divided into",
+        "Line_01": "The Earth's crust is divided into approximately",
         "Line_02": "15 major tectonic plates. These plates",
-        "Line_03": "move at a rate of 1 to 2 inches",
+        "Line_03": "move at a rate of about 1 to 2 inches",
         "Line_04": "per year. The Pacific Plate is the",
         "Line_05": "largest, covering 103 million square",
         "Line_06": "kilometers. Earthquakes often occur",
         "Line_07": "where these plates meet."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0283": {
       "Name": "Lesson_0283",
@@ -4662,13 +4666,13 @@
       "Lines": [{
         "Line_01": "Tectonic plates are pieces of Earth's",
         "Line_02": "lithosphere that can move and interact.",
-        "Line_03": "There are about 20 major plates, with",
+        "Line_03": "There are about 15 major plates, with",
         "Line_04": "the largest being the Pacific Plate.",
         "Line_05": "This plate moves at an average rate",
-        "Line_06": "of 7.5 cm per year. The collision of",
+        "Line_06": "of 2 to 4 cm per year. The collision of",
         "Line_07": "plates can create mountain ranges."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0284": {
       "Name": "Lesson_0284",
@@ -4687,7 +4691,7 @@
         "Line_06": "away from the Sun. This distance varies",
         "Line_07": "due to the elliptical shape of Earth's orbit."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0285": {
       "Name": "Lesson_0285",
@@ -4706,7 +4710,7 @@
         "Line_06": "writings often reflected a blend of",
         "Line_07": "wit, wisdom, and insightful observations."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0286": {
       "Name": "Lesson_0286",
@@ -4733,12 +4737,12 @@
         "Line_01": "Galaxies are vast collections of stars,",
         "Line_02": "dust, and dark matter bound together",
         "Line_03": "by gravity. There are estimated to be",
-        "Line_04": "over 100 billion galaxies in the",
+        "Line_04": "over 1 trillion galaxies in the",
         "Line_05": "observable universe, ranging in size",
         "Line_06": "from dwarf galaxies with a few billion",
         "Line_07": "stars to massive galaxies with trillions."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0288": {
       "Name": "Lesson_0288",
@@ -4757,7 +4761,7 @@
         "Line_06": "longest railway, the Trans-Siberian",
         "Line_07": "Railway, stretches over 9,000 kilometers."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0289": {
       "Name": "Lesson_0289",
@@ -4776,7 +4780,7 @@
         "Line_06": "revolutionized safety measures against",
         "Line_07": "electrical storms."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0290": {
       "Name": "Lesson_0290",
@@ -4795,7 +4799,7 @@
         "Line_06": "such as rain showers, sunny spells, or",
         "Line_07": "windy days."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0291": {
       "Name": "Lesson_0291",
@@ -4828,7 +4832,7 @@
         "Line_07": "continue to move at that speed until",
         "Line_08": "a force changes its velocity."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0293": {
       "Name": "Lesson_0293",
@@ -4840,15 +4844,15 @@
       "Description": "Silverback",
       "Lines": [{
         "Line_01": "A silverback gorilla typically weighs",
-        "Line_02": "between 300 and 400 pounds and stands",
+        "Line_02": "between 300 and 430 pounds and stands",
         "Line_03": "about 5.5 feet tall. The silver hair",
         "Line_04": "on their back signifies maturity. In",
-        "Line_05": "the wild, they can live up to 35 years.",
+        "Line_05": "the wild, they can live up to 40-50 years.",
         "Line_06": "Silverbacks play a crucial role in their",
         "Line_07": "group, making decisions, and leading the",
         "Line_08": "troop to food and safety."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0294": {
       "Name": "Lesson_0294",
@@ -4866,9 +4870,10 @@
         "Line_05": "Times Square, Central Park, and Wall",
         "Line_06": "Street. The area was purchased in 1626",
         "Line_07": "by Dutch settlers for 60 guilders,",
-        "Line_08": "equivalent to roughly $1,000 today."
+        "Line_08": "equivalent to roughly $24. After adjusting",
+        "Line_09": "for inflation today it would be about $1000."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0295": {
       "Name": "Lesson_0295",
@@ -4885,10 +4890,9 @@
         "Line_04": "The eye of a hurricane is typically",
         "Line_05": "20 to 40 miles wide, surrounded by the",
         "Line_06": "eye wall, where the most intense weather",
-        "Line_07": "occurs. Hurricanes can release energy",
-        "Line_08": "equivalent to 10 atomic bombs per second."
+        "Line_07": "and highest waves occurs."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0296": {
       "Name": "Lesson_0296",
@@ -4914,7 +4918,7 @@
       "Lines": [{
         "Line_01": "The population of Native Americans",
         "Line_02": "in the United States was estimated at",
-        "Line_03": "around 5 million before European",
+        "Line_03": "around 1-18 million before European",
         "Line_04": "contact. They spoke over 300 different",
         "Line_05": "languages. The Navajo Nation is the",
         "Line_06": "largest tribe today, with more than",
@@ -4922,7 +4926,7 @@
         "Line_08": "tribes have a rich oral history, passed",
         "Line_09": "down through generations."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0298": {
       "Name": "Lesson_0298",
@@ -4936,15 +4940,15 @@
         "Line_01": "Astronomy explores the universe beyond",
         "Line_02": "Earth, including the study of planets,",
         "Line_03": "stars, and galaxies. The Milky Way",
-        "Line_04": "contains over 100 billion stars. In",
-        "Line_05": "2015, astronomers discovered over",
-        "Line_06": "1,000 exoplanets. The Hubble Space",
+        "Line_04": "contains over 100 billion stars. By",
+        "Line_05": "the end of 2015, astronomers discovered over",
+        "Line_06": "1,500 exoplanets. The Hubble Space",
         "Line_07": "Telescope has captured images of",
         "Line_08": "distant galaxies and nebulae. Black",
         "Line_09": "holes are regions of space where gravity",
         "Line_10": "is so strong that nothing can escape."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0299": {
       "Name": "Lesson_0299",
@@ -4964,7 +4968,7 @@
         "Line_07": "Light takes about 8 minutes and 20",
         "Line_08": "seconds to reach Earth from the Sun."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0300": {
       "Name": "Lesson_0300",
@@ -4984,7 +4988,7 @@
         "Line_07": "number, with each turbine capable of",
         "Line_08": "producing several megawatts of power."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0301": {
       "Name": "Lesson_0301",
@@ -5017,7 +5021,7 @@
         "Line_07": "on December 31. The belief is that adhering",
         "Line_08": "to this tradition brings about a prosperous year."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0303": {
       "Name": "Lesson_0303",
@@ -5037,7 +5041,7 @@
         "Line_07": "for their exceptional stamina and ability to",
         "Line_08": "chase down prey over long distances."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0304": {
       "Name": "Lesson_0304",
@@ -5057,7 +5061,7 @@
         "Line_07": "tornadoes than any other country, with",
         "Line_08": "an average of 1,200 tornadoes annually."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0305": {
       "Name": "Lesson_0305",
@@ -5074,10 +5078,10 @@
         "Line_04": "shores of Lake Michigan, one of the",
         "Line_05": "largest freshwater lakes in the world.",
         "Line_06": "As of the latest census, Chicago is home",
-        "Line_07": "to over 2.7 million residents, with a",
-        "Line_08": "metropolitan area population exceeding 9.5 million."
+        "Line_07": "to over 2.71 million residents, with a",
+        "Line_08": "metropolitan area population exceeding 9.53 million."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0306": {
       "Name": "Lesson_0306",
@@ -5753,7 +5757,7 @@
         "Line_03": "The formula e = mc^2 represents the",
         "Line_04": "equivalence of energy (e) and mass (m)."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0350": {
       "Name": "Lesson_0350",
@@ -5777,7 +5781,7 @@
         "Line_11": "energy, mass, momentum, and the speed of light,",
         "Line_12": "central to Einstein's theory of relativity."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0351": {
       "Name": "Lesson_0351",
@@ -5797,7 +5801,7 @@
         "Line_07": "5 units long, as 3^2 + 4^2 = 9 + 16 = 25",
         "Line_08": "and the square root of 25 is 5."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0352": {
       "Name": "Lesson_0352",
@@ -5819,7 +5823,7 @@
         "Line_09": "that specific user, drawing their",
         "Line_10": "attention to the post."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0353": {
       "Name": "Lesson_0353",
@@ -5852,12 +5856,12 @@
         "Line_06": "weigh around 490 pounds (220 kg), while",
         "Line_07": "females weigh approximately 310 pounds",
         "Line_08": "(140 kg). The South China tiger is",
-        "Line_09": "critically endangered, with fewer than 30",
-        "Line_10": "individuals left in the wild. These tigers",
+        "Line_09": "critically endangered and is considered",
+        "Line_10": "functionally extinct in the wild. These tigers",
         "Line_11": "can reach lengths of up to 8 feet (2.4",
         "Line_12": "meters) including the tail."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0355": {
       "Name": "Lesson_0355",
@@ -5876,7 +5880,7 @@
         "Line_09": "substance, diamonds can only be cut",
         "Line_10": "with another diamond."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0356": {
       "Name": "Lesson_0356",
@@ -5892,13 +5896,13 @@
         "Line_03": "square kilometers (3.85 million",
         "Line_04": "square miles), making it the second",
         "Line_05": "largest country by land area. The",
-        "Line_06": "population of Canada is around 38",
+        "Line_06": "population of Canada is around 37.59",
         "Line_07": "million people, with Ottawa as its",
         "Line_08": "capital city. The longest river in",
         "Line_09": "Canada is the Mackenzie River, which",
         "Line_10": "flows for 4,241 kilometers (2,635 miles)."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0357": {
       "Name": "Lesson_0357",
@@ -5917,10 +5921,11 @@
         "Line_06": "These vehicles are designed to enhance road",
         "Line_07": "safety by reducing human errors, which cause",
         "Line_08": "over 90% of accidents. By 2030, it is projected",
-        "Line_09": "that over 10 million autonomous vehicles will",
-        "Line_10": "be on the roads globally."
+        "Line_09": "that a significant number of autonomous vehicles could",
+        "Line_10": "be on the roads globally, although the exact projection",
+        "Line_11": "varies greatly depending on the source of the projection."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0358": {
       "Name": "Lesson_0358",
@@ -5954,7 +5959,7 @@
         "Line_08": "The region is known for its stunning",
         "Line_09": "landscapes, including fjords and forests."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0360": {
       "Name": "Lesson_0360",
@@ -5976,7 +5981,7 @@
         "Line_09": "playing a crucial role in weather and",
         "Line_10": "climate patterns."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0361": {
       "Name": "Lesson_0361",
@@ -5999,7 +6004,7 @@
         "Line_10": "poetry and literature, is spoken by",
         "Line_11": "millions worldwide."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0362": {
       "Name": "Lesson_0362",
@@ -6020,7 +6025,7 @@
         "Line_08": "combination of residential, commercial,",
         "Line_09": "and observation spaces."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0363": {
       "Name": "Lesson_0363",
@@ -6052,7 +6057,7 @@
         "Line_06": "budget of $6 million, it was one of Disney's",
         "Line_07": "most expensive productions at the time."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0365": {
       "Name": "Lesson_0365",
@@ -6072,7 +6077,7 @@
         "Line_07": "categorize their tweets and facilitate",
         "Line_08": "searches within the platform."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0366": {
       "Name": "Lesson_0366",
@@ -6093,7 +6098,7 @@
         "Line_08": "crepe shops often lures passersby to stop",
         "Line_09": "and indulge in a delightful bite."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0367": {
       "Name": "Lesson_0367",
@@ -6114,7 +6119,7 @@
         "Line_08": "complete, connecting major cities since its",
         "Line_09": "completion in 1916."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0368": {
       "Name": "Lesson_0368",
@@ -6148,7 +6153,7 @@
         "Line_08": "widely used in modern typography, especially",
         "Line_09": "in logos and branding."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0370": {
       "Name": "Lesson_0370",
@@ -6167,9 +6172,9 @@
         "Line_06": "are impressively long, measuring",
         "Line_07": "between 4 to 6 meters (around 13 to 20",
         "Line_08": "feet). Coconut water is low in calories",
-        "Line_09": "and contains only 19 calories per 100 ml."
+        "Line_09": "and contains only about 19-21 calories per 100 ml."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0371": {
       "Name": "Lesson_0371",
@@ -6183,14 +6188,14 @@
         "Line_01": "Costa Rica covers a mere 0.03% of Earth's",
         "Line_02": "surface but boasts 5% of its biodiversity.",
         "Line_03": "It is home to more than 130 fish species,",
-        "Line_04": "220 reptile species, and an astounding",
+        "Line_04": "220 reptile species, and over an astounding",
         "Line_05": "1,000 butterfly species. The country",
-        "Line_06": "also hosts 9,000 plant species, 20,000",
+        "Line_06": "also hosts over 9,000 plant species, 20,000",
         "Line_07": "spider species, and 34,000 insect species.",
         "Line_08": "Over 25% of Costa Rica's land is dedicated",
         "Line_09": "to national parks and protected areas."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0372": {
       "Name": "Lesson_0372",
@@ -6210,7 +6215,7 @@
         "Line_07": "Charles VII and recover France from",
         "Line_08": "English domination."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0373": {
       "Name": "Lesson_0373",
@@ -6239,11 +6244,12 @@
         "Line_03": "body needs energy for breathing, circulating blood, and",
         "Line_04": "repairing cells. This basal metabolic rate accounts for",
         "Line_05": "about 60-75% of the calories you burn each day. Physical",
-        "Line_06": "activity accounts for another 15-30%, while the thermic",
-        "Line_07": "effect of food, the energy used to digest, absorb, and",
-        "Line_08": "metabolize food, makes up about 10%."
+        "Line_06": "activity can account for a variable percentage of daily",
+        "Line_07": "energy expenditure, depending on the individuals lifestyle",
+        "Line_08": "and level of activity, effects of food, the energy used to",
+        "Line_09": "digest, absorb, and metabolize food, makes up about 10%."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0375": {
       "Name": "Lesson_0375",
@@ -6264,7 +6270,7 @@
         "Line_08": "Modern country music often includes elements of pop, rock,",
         "Line_09": "and even hip-hop."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0376": {
       "Name": "Lesson_0376",
@@ -6281,11 +6287,12 @@
         "Line_04": "on foundational subjects like math, language arts,",
         "Line_05": "and science. Secondary education builds on these",
         "Line_06": "skills with more specialized subjects and prepares",
-        "Line_07": "students for higher education. Post-secondary education",
-        "Line_08": "includes colleges and universities, where students",
-        "Line_09": "pursue degrees in various fields."
+        "Line_07": "students for a variety of post-secondary education",
+        "Line_08": "pathways, including higher education such as colleges,",
+        "Line_09": "universities, vocational, or technical training, and",
+        "Line_10": "direct entry into the workforce."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0377": {
       "Name": "Lesson_0377",
@@ -6308,7 +6315,7 @@
         "Line_10": "Their diverse adaptations make them fascinating subjects",
         "Line_11": "for scientific study."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0378": {
       "Name": "Lesson_0378",
@@ -6967,6 +6974,7 @@
       }],
       "FactChecked": true
     },
+    // ************************************************************
     "Lesson_0421": {
       "Name": "Lesson_0421",
       "Number": 421,
