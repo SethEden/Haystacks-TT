@@ -6974,7 +6974,6 @@
       }],
       "FactChecked": true
     },
-    // ************************************************************
     "Lesson_0421": {
       "Name": "Lesson_0421",
       "Number": 421,
@@ -6986,15 +6985,16 @@
       "Lines": [{
         "Line_01": "The red-crowned parrot population has",
         "Line_02": "declined by about 50% in the last 30 years.",
-        "Line_03": "In 2020, there were an estimated 2,500",
-        "Line_04": "red-crowned parrots left in the wild.",
-        "Line_05": "These birds are native to northeastern",
-        "Line_06": "Mexico but have also established populations",
-        "Line_07": "in the United States, particularly in Texas.",
-        "Line_08": "Conservation efforts are crucial as their",
-        "Line_09": "habitats continue to be threatened by deforestation."
+        "Line_03": "In 2020, there were an estimated 1,000",
+        "Line_04": "to 2500 mature red-crowned parrots left in the wild,",
+        "Line_05": "with the total population likely being higher when",
+        "Line_06": "including immature individuals. These birds are native",
+        "Line_07": "to northeastern Mexico but have also established",
+        "Line_08": "populations in the United States, particularly",
+        "Line_09": "in Texas. Conservation efforts are crucial as their",
+        "Line_10": "habitats continue to be threatened by deforestation."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0422": {
       "Name": "Lesson_0422",
@@ -7015,7 +7015,7 @@
         "Line_08": "and weather patterns, revealing new insights",
         "Line_09": "into solar phenomena and atmospheric changes."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0423": {
       "Name": "Lesson_0423",
@@ -7037,7 +7037,7 @@
         "Line_09": "education and individual liberties remain",
         "Line_10": "enduring legacies of his presidency."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0424": {
       "Name": "Lesson_0424",
@@ -7049,16 +7049,17 @@
       "Description": "Food Allergies",
       "Lines": [{
         "Line_01": "Food allergies affect millions of people",
-        "Line_02": "worldwide, with approximately 32 million",
-        "Line_03": "Americans having some form of food allergy.",
-        "Line_04": "These allergies can range from mild reactions",
-        "Line_05": "like itching to severe anaphylaxis. The most",
-        "Line_06": "common allergens include peanuts, tree nuts,",
-        "Line_07": "shellfish, milk, eggs, soy, and wheat. Avoidance",
-        "Line_08": "of allergens is critical, and many people carry",
-        "Line_09": "epinephrine auto-injectors for emergencies."
+        "Line_02": "worldwide, it's estimated that 32 million",
+        "Line_03": "Americans, including 5.6 million children under",
+        "Line_04": "age 18, have some form of food allergy.",
+        "Line_05": "These allergies can range from mild reactions",
+        "Line_06": "like itching to severe anaphylaxis. The most",
+        "Line_07": "common allergens include peanuts, tree nuts,",
+        "Line_08": "shellfish, milk, eggs, soy, and wheat. Avoidance",
+        "Line_09": "of allergens is critical, and many people carry",
+        "Line_10": "epinephrine auto-injectors for emergencies."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0425": {
       "Name": "Lesson_0425",
@@ -7092,7 +7093,7 @@
         "Line_08": "audiences worldwide, cementing its",
         "Line_09": "status as a movie legend."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0427": {
       "Name": "Lesson_0427",
@@ -7103,9 +7104,9 @@
       }],
       "Description": "Great Eclipse",
       "Lines": [{
-        "Line_01": "The upcoming solar eclipse in August",
-        "Line_02": "2017 will mark a significant event",
-        "Line_03": "for mainland U.S., heralding the first",
+        "Line_01": "The solar eclipse on August 21,",
+        "Line_02": "2017 marked a significant event",
+        "Line_03": "for the mainland U.S., heralding the first",
         "Line_04": "total eclipse visible across twelve",
         "Line_05": "states from Oregon to South Carolina.",
         "Line_06": "Known as the Great American Eclipse,",
@@ -7114,7 +7115,7 @@
         "Line_09": "alike, scheduled precisely on August 21,",
         "Line_10": "2017."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0428": {
       "Name": "Lesson_0428",
@@ -7126,17 +7127,18 @@
       "Description": "Great Depression",
       "Lines": [{
         "Line_01": "The Great Depression, a global economic",
-        "Line_02": "crisis, commenced in 1929 and persisted",
-        "Line_03": "throughout the early 1940s. It marked",
-        "Line_04": "a significant downturn in economies",
-        "Line_05": "worldwide, with severe impacts on",
-        "Line_06": "employment, industry, and commerce.",
-        "Line_07": "During this era, unemployment rates",
-        "Line_08": "soared to unprecedented levels, leading",
-        "Line_09": "to widespread poverty and social",
-        "Line_10": "disruption across many nations."
+        "Line_02": "crisis, commenced in 1929 and generally",
+        "Line_03": "is considered to have ended in the late",
+        "Line_04": "1930's or early 1940's, depending on the",
+        "Line_05": "country. It marked a significant downturn",
+        "Line_06": "in economies worldwide, with severe impacts",
+        "Line_07": "on employment, industry, and commerce.",
+        "Line_08": "During this era, unemployment rates",
+        "Line_09": "soared to unprecedented levels, leading",
+        "Line_10": "to widespread poverty and social",
+        "Line_11": "disruption across many nations."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0429": {
       "Name": "Lesson_0429",
@@ -7147,18 +7149,19 @@
       }],
       "Description": "Jovian Planets",
       "Lines": [{
-        "Line_01": "The Jovian planets, also known as gas giants,",
-        "Line_02": "are the largest planets in our solar system.",
-        "Line_03": "Jupiter and Saturn dominate the outer solar system,",
-        "Line_04": "both composed primarily of hydrogen and helium gases.",
-        "Line_05": "Uranus and Neptune, although smaller in size,",
-        "Line_06": "are distinct with their icy compositions and unique rings.",
-        "Line_07": "Together, these planets account for nearly all the mass",
-        "Line_08": "orbiting the Sun beyond the asteroid belt.",
-        "Line_09": "Their colossal sizes and diverse features make them",
-        "Line_10": "fascinating subjects of study for astronomers."
+        "Line_01": "The Jovian planets, which include the gas giants",
+        "Line_02": "Jupiter and Saturn, as well as the ice giants Uranus and",
+        "Line_03": "Neptune, are the largest planets in our solar system.",
+        "Line_04": "Jupiter and Saturn dominate the outer solar system,",
+        "Line_05": "both composed primarily of hydrogen and helium gases.",
+        "Line_06": "Uranus and Neptune, although smaller in size,",
+        "Line_07": "are distinct with their icy compositions and unique rings.",
+        "Line_08": "Together, these planets account for nearly all the mass",
+        "Line_09": "orbiting the Sun beyond the asteroid belt.",
+        "Line_10": "Their colossal sizes and diverse features make them",
+        "Line_11": "fascinating subjects of study for astronomers."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0430": {
       "Name": "Lesson_0430",
@@ -7192,7 +7195,7 @@
         "Line_08": "Declaration asserted principles of",
         "Line_09": "self-governance, liberty, and equality."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0432": {
       "Name": "Lesson_0432",
@@ -7207,13 +7210,15 @@
         "Line_02": "that contributes to global warming when",
         "Line_03": "released into the atmosphere from burning",
         "Line_04": "fossil fuels like gas and oil. This gas",
-        "Line_05": "interacts with water vapor, affecting",
-        "Line_06": "rainfall patterns and ocean acidity. It",
-        "Line_07": "impacts marine life such as shellfish and",
-        "Line_08": "coral reefs, hindering their growth and",
-        "Line_09": "survival."
+        "Line_05": "in global warming can lead to changes in",
+        "Line_06": "weather patterns including rainfall. As",
+        "Line_07": "concentrations of CO2 rise in the atmosphere",
+        "Line_08": "the CO2 can migrate through rain to the oceans",
+        "Line_09": "and affect ocean acidity. It impacts marine life",
+        "Line_10": "such as shellfish and coral reefs, hindering",
+        "Line_11": "their growth and survival."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0433": {
       "Name": "Lesson_0433",
@@ -7232,11 +7237,11 @@
         "Line_06": "lead to acid rain, smog formation, and ozone",
         "Line_07": "depletion, impacting air quality and human",
         "Line_08": "health. Additionally, sulfur dioxide (SO2),",
-        "Line_09": "another byproduct, acts as a potent greenhouse",
-        "Line_10": "gas, albeit cooling the atmosphere more",
+        "Line_09": "another byproduct, acts as a potent negative",
+        "Line_10": "greenhouse gas, cooling the atmosphere more",
         "Line_11": "effectively than carbon dioxide (CO2) warms it."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0434": {
       "Name": "Lesson_0434",
@@ -7254,10 +7259,10 @@
         "Line_05": "from censuses and surveys reveal a",
         "Line_06": "significant rise in stay-at-home dads.",
         "Line_07": "Between 2003 and 2012, their numbers",
-        "Line_08": "surged by over 60%, reaching 159,000",
+        "Line_08": "surged, reaching approximately 214,000",
         "Line_09": "according to the U.S. Census Bureau."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0435": {
       "Name": "Lesson_0435",
@@ -7288,14 +7293,15 @@
         "Line_05": "late 18th century. From Washington to",
         "Line_06": "Biden, each president has shaped the",
         "Line_07": "nation's history and policies. The",
-        "Line_08": "president oversees the federal government",
-        "Line_09": "and is responsible for diplomatic",
-        "Line_10": "relations, law enforcement, and military",
-        "Line_11": "defense. The powers of the presidency",
-        "Line_12": "continue to evolve with the challenges of",
-        "Line_13": "the modern era."
+        "Line_08": "president oversees the federal government,",
+        "Line_09": "is responsible for diplomatic relations,",
+        "Line_10": "and military defense, and works with various",
+        "LIne_11": "federal, state and local agencies that handle",
+        "Line_12": "law enforcement duties. The powers of the",
+        "Line_13": "presidency continue to evolve with the",
+        "Line_14": "challenges of the modern era."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0437": {
       "Name": "Lesson_0437",
@@ -7312,14 +7318,16 @@
         "Line_04": "colorful birds once thrived in Mexico's",
         "Line_05": "forests, but deforestation has reduced",
         "Line_06": "their numbers significantly. Recent",
-        "Line_07": "studies indicate their population now",
-        "Line_08": "stands at approximately 5,000 to 7,000",
-        "Line_09": "birds, a sharp decline from historical",
-        "Line_10": "estimates. Conservationists are working",
-        "Line_11": "to protect their habitats and combat",
-        "Line_12": "illegal trafficking."
+        "Line_07": "studies indicate a significant decline in",
+        "Line_08": "their population, but exact numbers are",
+        "Line_09": "difficult to determine due to challenges in",
+        "Line_10": "conducting comprehensive surveys.",
+        "Line_11": "There has been a sharp decline from historical",
+        "Line_12": "estimates. Conservationists are working",
+        "Line_13": "to protect their habitats and combat",
+        "Line_14": "illegal trafficking."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0438": {
       "Name": "Lesson_0438",
@@ -7337,13 +7345,13 @@
         "Line_05": "by James W. Marshall at Sutter's Mill",
         "Line_06": "triggered a frenzy that saw the city of",
         "Line_07": "San Francisco's population explode from",
-        "Line_08": "a modest settlement to a bustling",
-        "Line_09": "metropolis of 300,000 by the 1860s.",
-        "Line_10": "The Gold Rush forever changed the",
+        "Line_08": "a modest settlement of 56,000 in 1880's",
+        "Line_09": "to a bustling metropolis of 300,000 by the",
+        "Line_10": "1880s. The Gold Rush forever changed the",
         "Line_11": "landscape of California, contributing to",
         "Line_12": "its rapid growth and cultural diversity."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0439": {
       "Name": "Lesson_0439",
@@ -7364,7 +7372,7 @@
         "Line_08": "size, Pluto has 5 known moons, with",
         "Line_09": "Charon being the largest and closest."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0440": {
       "Name": "Lesson_0440",
@@ -7389,7 +7397,7 @@
       "Description": "Mexico",
       "Lines": [{
         "Line_01": "Mexico, with a history spanning over",
-        "Line_02": "10,000 years, is a cultural mosaic",
+        "Line_02": "3,000 years, is a cultural mosaic",
         "Line_03": "shaped by diverse civilizations. The",
         "Line_04": "Spanish colonization for 300 years",
         "Line_05": "brought influences from Europe, Africa,",
@@ -7398,7 +7406,7 @@
         "Line_08": "shared heritage, fostering a strong",
         "Line_09": "national identity."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0442": {
       "Name": "Lesson_0442",
@@ -7418,7 +7426,7 @@
         "Line_07": "bright, the Moon's surface is actually",
         "Line_08": "darker than it seems."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0443": {
       "Name": "Lesson_0443",
@@ -7441,7 +7449,7 @@
         "Line_10": "reservoirs and serve diverse industrial",
         "Line_11": "and commercial purposes."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0444": {
       "Name": "Lesson_0444",
@@ -7463,7 +7471,7 @@
         "Line_09": "glucose, a type of sugar essential for",
         "Line_10": "plant growth and development."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0445": {
       "Name": "Lesson_0445",
@@ -7488,18 +7496,19 @@
       "Description": "Iron",
       "Lines": [{
         "Line_01": "Iron aids oxygen transport in the body.",
-        "Line_02": "Hemoglobin, facilitated by iron, carries oxygen in blood.",
-        "Line_03": "Deficiency causes fatigue, weakness, and anemia.",
-        "Line_04": "Sources: red meat, beans, leafy greens.",
-        "Line_05": "Vitamin C enhances iron absorption.",
-        "Line_06": "Supports energy production and immune function.",
-        "Line_07": "Symptoms: tiredness, pale skin.",
-        "Line_08": "Excess intake poses health risks.",
+        "Line_02": "Hemoglobin, facilitated by iron, carries,",
+        "Line_03": "oxygen in blood. Deficiency causes fatigue,",
+        "Line_04": "weakness, and anemia. Sources: red meat,",
+        "Line_05": "beans, leafy greens. Vitamin C enhances iron",
+        "Line_06": "absorption. Supports energy production and",
+        "Line_07": "immune function. Symptoms: tiredness, pale",
+        "Line_08": "skin. Excess intake poses health risks.",
         "Line_09": "Include iron-rich foods for overall health.",
-        "Line_10": "Public health promotes iron-rich diets to prevent deficiency.",
-        "Line_11": "Understanding iron's role is crucial for health maintenance."
+        "Line_10": "Public health promotes iron-rich diets to",
+        "Line_11": "prevent deficiency. Understanding iron's role",
+        "Line_12": "is crucial for health maintenance."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0447": {
       "Name": "Lesson_0447",
@@ -7522,7 +7531,7 @@
         "Line_10": "Maintaining temperature control in storage is essential.",
         "Line_11": "Technology evolves, improving efficiency and sustainability."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0448": {
       "Name": "Lesson_0448",
@@ -7554,7 +7563,7 @@
         "Line_19": "Andrews University Pioneer Memorial Church",
         "Line_20": "In Berrien Springs Michigan"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0449": {
       "Name": "Lesson_0449",
@@ -7569,13 +7578,13 @@
         "Line_02": "beyond the spotlight. From studio engineers",
         "Line_03": "to distribution managers, each plays a crucial",
         "Line_04": "role in bringing music to audiences worldwide.",
-        "Line_05": "Did you know? Approximately 20,000 new songs",
+        "Line_05": "Did you know? Approximately 60,000 new songs",
         "Line_06": "are uploaded to Spotify every day, highlighting",
         "Line_07": "the scale of modern music production and consumption.",
         "Line_08": "These professionals ensure quality control",
         "Line_09": "from recording to retail, shaping the music industry."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0450": {
       "Name": "Lesson_0450",
@@ -7616,19 +7625,19 @@
       }],
       "Description": "Australia",
       "Lines": [{
-        "Line_01": "Australia is home to over 25 million people.",
-        "Line_02": "The Great Barrier Reef, located off the",
-        "Line_03": "coast of Queensland, is the world's largest",
-        "Line_04": "coral reef system, spanning 2,300 kilometers.",
-        "Line_05": "Australia has the 14th largest economy in",
-        "Line_06": "the world, with a GDP of approximately",
-        "Line_07": "1.4 trillion USD. Canberra, the capital",
-        "Line_08": "city of Australia, is located in the",
+        "Line_01": "As of September 2021, Australia is home to over",
+        "Line_02": "26 million people. The Great Barrier Reef,",
+        "Line_03": "located off the coast of Queensland, is the",
+        "Line_04": "world's largest coral reef system, spanning",
+        "Line_05": "2,300 kilometers. Australia has the 14th",
+        "Line_06": "largest economy in the world, with a GDP of",
+        "Line_07": "approximately 1.4 trillion USD. Canberra, the",
+        "Line_08": "capital city of Australia, is located in the",
         "Line_09": "Australian Capital Territory. The country",
         "Line_10": "is known for its diverse wildlife, including",
         "Line_11": "kangaroos, koalas, and emus."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0453": {
       "Name": "Lesson_0453",
@@ -7649,7 +7658,7 @@
         "Line_08": "Educational robots teach kids programming skills.",
         "Line_09": "Hotel robots efficiently deliver various services."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0454": {
       "Name": "Lesson_0454",
@@ -7671,7 +7680,7 @@
         "Line_09": "Maintenance includes checking for wear.",
         "Line_10": "Wind energy reduces reliance on fossil fuels."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0455": {
       "Name": "Lesson_0455",
@@ -7682,17 +7691,17 @@
       }],
       "Description": "Ancient China",
       "Lines": [{
-        "Line_01": "Ancient China built the Great Wall, spanning 13,170 miles.",
-        "Line_02": "The Silk Road connected China to Europe for trade.",
-        "Line_03": "Paper was invented in China around 105 AD.",
-        "Line_04": "Chinese zodiac has 12 animal signs.",
-        "Line_05": "Terracotta Army guards Emperor Qin Shi Huang's tomb.",
-        "Line_06": "Chinese medicine practices have a long history.",
+        "Line_01": "Ancient China built the Great Wall, spanning 13,171",
+        "Line_02": "kilometers (8,187 miles). The Silk Road connected",
+        "Line_03": "China to Europe for trade. Paper was invented in",
+        "Line_04": "China around 105 AD. Chinese zodiac has 12 animal",
+        "Line_05": "signs. Terracotta Army guards Emperor Qin Shi Huang's",
+        "Line_06": "tomb. Chinese medicine practices have a long history.",
         "Line_07": "Forbidden City in Beijing boasts 980 buildings.",
         "Line_08": "Confucius was a renowned Chinese philosopher.",
         "Line_09": "Gunpowder was invented in China in the 9th century."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0456": {
       "Name": "Lesson_0456",
@@ -7726,7 +7735,7 @@
         "Line_08": "Gas giants have many moons.",
         "Line_09": "They are much larger than Earth."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0458": {
       "Name": "Lesson_0458",
@@ -7747,7 +7756,7 @@
         "Line_08": "Water freezes at 0°C (32°F).",
         "Line_09": "Water is essential for all known life forms."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0459": {
       "Name": "Lesson_0459",
@@ -7768,7 +7777,7 @@
         "Line_08": "Bibliographies list all cited sources.",
         "Line_09": "Proper citations strengthen academic work."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0460": {
       "Name": "Lesson_0460",
@@ -7786,10 +7795,11 @@
         "Line_05": "Sunlight takes 8 minutes to reach Earth.",
         "Line_06": "The Sun is 109 times wider than Earth.",
         "Line_07": "It is mostly composed of hydrogen gas.",
-        "Line_08": "Solar flares can disrupt Earth's satellites.",
-        "Line_09": "Our Sun will eventually become a red giant."
+        "Line_08": "Solar flares can disrupt Earth's communications",
+        "Line_09": "with satellites. Our Sun will eventually become",
+        "Line_10": "a red giant star."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0461": {
       "Name": "Lesson_0461",
@@ -7821,7 +7831,7 @@
         "Line_06": "which nothing can return. Black holes can",
         "Line_07": "be detected by their gravitational effects."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0463": {
       "Name": "Lesson_0463",
@@ -7843,7 +7853,7 @@
         "Line_09": "Spend time nurturing these connections",
         "Line_10": "for a more fulfilling life."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0464": {
       "Name": "Lesson_0464",
@@ -7855,17 +7865,17 @@
       "Description": "Marie Curie",
       "Lines": [{
         "Line_01": "Marie Curie was a pioneering scientist.",
-        "Line_02": "She discovered radioactivity in 1896.",
-        "Line_03": "Curie was born in Poland in 1867.",
-        "Line_04": "She moved to France to study science.",
-        "Line_05": "Curie and Pierre married in 1895.",
-        "Line_06": "She won her first Nobel in 1903.",
+        "Line_02": "She conducted pioneering research on",
+        "Line_03": "radioactivity in 1896. Curie was born in",
+        "Line_04": "Poland in 1867. She moved to France to",
+        "Line_05": "study science. Curie and Pierre married",
+        "Line_06": "in 1895. She won her first Nobel in 1903.",
         "Line_07": "Her second Nobel was in 1911.",
         "Line_08": "Curie's daughter also won a Nobel.",
         "Line_09": "Marie Curie's work changed science.",
         "Line_10": "She researched radium and polonium."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0465": {
       "Name": "Lesson_0465",
@@ -7877,7 +7887,7 @@
       "Description": "Marine Life",
       "Lines": [{
         "Line_01": "Marine life is incredibly diverse.",
-        "Line_02": "There are millions of marine species,",
+        "Line_02": "There are 242,000 marine species,",
         "Line_03": "with countless yet to be discovered.",
         "Line_04": "Scientists estimate we've identified",
         "Line_05": "only a fraction. The oceans cover 71%",
@@ -7886,7 +7896,7 @@
         "Line_08": "life on our planet and play a crucial",
         "Line_09": "role in regulating the climate."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0466": {
       "Name": "Lesson_0466",
@@ -7910,18 +7920,18 @@
       }],
       "Description": "Birds",
       "Lines": [{
-        "Line_01": "Birds have diverse diets. Most are carnivorous,",
-        "Line_02": "hunting fish, reptiles, insects, and small mammals.",
-        "Line_03": "Birds of prey, like eagles and hawks, feed on",
-        "Line_04": "larger animals including other birds. Parrots",
-        "Line_05": "and finches thrive on seeds and fruits, while",
-        "Line_06": "hummingbirds rely on nectar from flowers.",
-        "Line_07": "This dietary diversity reflects their adaptability",
-        "Line_08": "to various habitats worldwide. For instance, coastal",
-        "Line_09": "birds might consume marine life, while forest birds",
-        "Line_10": "specialize in insects and fruits."
+        "Line_01": "Birds have diverse diets, reflecting their adaptability",
+        "Line_02": "to various habitats worldwide. Some birds are carnivorous,",
+        "Line_03": "hunting fish, reptiles, insects, and small mammals.",
+        "Line_04": "Birds of prey, like eagles and hawks, feed on",
+        "Line_05": "larger animals including other birds. Parrots",
+        "Line_06": "and finches thrive on seeds and fruits, while",
+        "Line_07": "hummingbirds rely on nectar from flowers.",
+        "Line_08": "However, many birds are omnivorous or primarily herbivorous.",
+        "Line_09": "For instance, coastal birds might consume marine life,",
+        "Line_10": "while forest birds specialize in insects and fruits."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0468": {
       "Name": "Lesson_0468",
@@ -7945,7 +7955,7 @@
         "Line_11": "river, found in Palawan, Philippines, highlights",
         "Line_12": "the marvels of river geography."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0469": {
       "Name": "Lesson_0469",
@@ -7961,13 +7971,13 @@
         "Line_03": "to vote in 1893. Renowned for its stunning",
         "Line_04": "scenery, it's often considered the epitome",
         "Line_05": "of tranquility and is consistently ranked",
-        "Line_06": "as the world's most peaceful country. Kiwis,",
-        "Line_07": "as New Zealanders are fondly called, trace",
-        "Line_08": "their nickname back to World War I when",
+        "Line_06": "as one of the world's most peaceful country.",
+        "Line_07": "Kiwis, as New Zealanders are fondly called,",
+        "Line_08": "trace their nickname back to World War I when",
         "Line_09": "soldiers embraced the resilient kiwi bird,",
         "Line_10": "symbolizing their national spirit."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0470": {
       "Name": "Lesson_0470",
@@ -7989,7 +7999,7 @@
         "Line_09": "carry for several miles, attracting",
         "Line_10": "pollinators from afar."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0471": {
       "Name": "Lesson_0471",
@@ -8024,7 +8034,7 @@
         "Line_09": "known for his integrity and the",
         "Line_10": "precedent he set for future presidents."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0473": {
       "Name": "Lesson_0473",
@@ -8046,7 +8056,7 @@
         "Line_09": "goals. Startups must navigate",
         "Line_10": "regulatory challenges and market risks."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0474": {
       "Name": "Lesson_0474",
@@ -8063,10 +8073,11 @@
         "Line_04": "and commercials. They bring depth to",
         "Line_05": "everyday scenes, portraying diverse roles",
         "Line_06": "from pedestrians to party guests. Earnings",
-        "Line_07": "typically range from $8 to $12 per hour,",
-        "Line_08": "offering flexibility and variety in work."
+        "Line_07": "typically range from $60 to $122 per day,",
+        "Line_08": "as of 2024, offering flexibility and",
+        "Line_09": "variety in work."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0475": {
       "Name": "Lesson_0475",
@@ -8087,7 +8098,7 @@
         "Line_08": "violating the first or second law.",
         "Line_09": "These laws guide ethical robot design."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0476": {
       "Name": "Lesson_0476",
@@ -8119,10 +8130,10 @@
         "Line_06": "produces about 45% of the world's olive oil,",
         "Line_07": "making it a global powerhouse in the",
         "Line_08": "industry. Each year, Spaniards consume",
-        "Line_09": "an average of 14 liters, or 3.7 gallons,",
+        "Line_09": "an average of 11 liters, or 2.5 gallons,",
         "Line_10": "of this liquid gold."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0478": {
       "Name": "Lesson_0478",
@@ -8135,15 +8146,15 @@
       "Lines": [{
         "Line_01": "Germany stands as a cornerstone of Europe's",
         "Line_02": "economic might, known for its precision",
-        "Line_03": "engineering and cultural richness. It ranks",
-        "Line_04": "second globally for inbound migration after",
-        "Line_05": "the United States. In a historic moment,",
-        "Line_06": "John F. Kennedy declared 'Ich bin ein",
+        "Line_03": "engineering and cultural richness. As of 2021,",
+        "Line_04": "Germany had the 3rd largest number of international",
+        "Line_05": "migrants, after the United States. In a historic",
+        "Line_06": "moment, John F. Kennedy declared 'Ich bin ein",
         "Line_07": "Berliner' during his 1963 visit to Berlin,",
         "Line_08": "a phrase echoing solidarity and",
         "Line_09": "misunderstandings alike in German culture."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0479": {
       "Name": "Lesson_0479",
@@ -8164,7 +8175,7 @@
         "Line_08": "reveal the age and history of each tree's",
         "Line_09": "journey."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0480": {
       "Name": "Lesson_0480",
@@ -8185,7 +8196,7 @@
         "Line_08": "are vital contributors to Earth's biodiversity.",
         "Line_09": "They come in countless shapes and colors."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0481": {
       "Name": "Lesson_0481",
@@ -8236,7 +8247,7 @@
         "Line_08": "and train Pokemon creatures for battles,",
         "Line_09": "creating endless adventures."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0484": {
       "Name": "Lesson_0484",
@@ -8257,7 +8268,7 @@
         "Line_08": "California boasts diverse landscapes",
         "Line_09": "and a vibrant cultural scene."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0485": {
       "Name": "Lesson_0485",
@@ -8268,17 +8279,17 @@
       }],
       "Description": "Drones",
       "Lines": [{
-        "Line_01": "Drone flights are regulated to daytime",
-        "Line_02": "and twilight hours, limiting their use",
-        "Line_03": "for search and rescue and agricultural",
-        "Line_04": "operations. Industry leaders advocate",
-        "Line_05": "for waivers to expand operational hours,",
-        "Line_06": "enhancing versatility in emergency",
+        "Line_01": "Drone flight regulations vary by location,",
+        "Line_02": "with some limitations on nighttime flights,",
+        "Line_03": "some exceptions being for search and rescue",
+        "Line_04": "and agricultural operations. Industry leaders",
+        "Line_05": "advocate for waivers to expand operational",
+        "Line_06": "hours, enhancing versatility in emergency",
         "Line_07": "response and farming efficiency.",
         "Line_08": "Regulations evolve to accommodate",
         "Line_09": "advancements in drone technology."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0486": {
       "Name": "Lesson_0486",
@@ -8299,7 +8310,7 @@
         "Line_08": "oxygen, shelter, stability, and",
         "Line_09": "nutrients. Appreciate diverse forms."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0487": {
       "Name": "Lesson_0487",
@@ -8320,7 +8331,7 @@
         "Line_08": "many to this day. Her legacy lives on",
         "Line_09": "in aviation and women's achievements."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0488": {
       "Name": "Lesson_0488",
@@ -8341,7 +8352,7 @@
         "Line_08": "facilitating global connections.",
         "Line_09": "The telephone revolutionized communication."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0489": {
       "Name": "Lesson_0489",
@@ -8362,7 +8373,7 @@
         "Line_08": "It's celebrated for its scientific",
         "Line_09": "design and ease of learning."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0490": {
       "Name": "Lesson_0490",
@@ -8373,16 +8384,18 @@
       }],
       "Description": "Seawater",
       "Lines": [{
-        "Line_01": "Seawater is unfit for drinking due to its",
-        "Line_02": "high salinity, known as saltwater. It's",
-        "Line_03": "essential for marine life but toxic for",
-        "Line_04": "humans. Freshwater from rivers, sourced",
-        "Line_05": "by rain or snow, is safe to drink unless",
-        "Line_06": "polluted. River water can harbor bacteria",
-        "Line_07": "causing illnesses like Giardia, known",
-        "Line_08": "as Montezuma's Revenge in Mexico."
+        "Line_01": "Seawater, known as saltwater due to its high",
+        "Line_02": "salinity, is unfit for drinking. It's essential",
+        "Line_03": "for marine life but can be toxic for humans",
+        "Line_04": "if consumed. Freshwater from rivers, sourced",
+        "Line_05": "by rain or snow, is not always safe to drink.",
+        "Line_06": "Even if it's not visibly polluted, river water",
+        "Line_07": "can harbor bacteria and other contaminants.",
+        "Line_08": "These can cause illnesses like Giardia, known",
+        "Line_09": "as Montezuma's Revenge in Mexico. Therefore, it's",
+        "Line_10": "important to treat or filter river water before drinking."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0491": {
       "Name": "Lesson_0491",
@@ -8401,7 +8414,7 @@
         "Line_06": "Birds display remarkable adaptability to",
         "Line_07": "diverse habitats and climates globally."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0492": {
       "Name": "Lesson_0492",
@@ -8422,7 +8435,7 @@
         "Line_08": "'Give Peace a Chance', promoting",
         "Line_09": "peace and social activism."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0493": {
       "Name": "Lesson_0493",
@@ -8443,7 +8456,7 @@
         "Line_08": "shows together, inspired by his love",
         "Line_09": "for carnivals and fairs."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0494": {
       "Name": "Lesson_0494",
@@ -8464,7 +8477,7 @@
         "Line_08": "celebrating speed and innovation in",
         "Line_09": "motorsport."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0495": {
       "Name": "Lesson_0495",
@@ -8485,7 +8498,7 @@
         "Line_08": "Today, D.C. spans the north bank of the",
         "Line_09": "Potomac River."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0496": {
       "Name": "Lesson_0496",
@@ -8496,17 +8509,17 @@
       }],
       "Description": "Election",
       "Lines": [{
-        "Line_01": "Every four years in the United States,",
-        "Line_02": "presidential elections are held on the",
+        "Line_01": "In the United States, presidential elections",
+        "Line_02": "are generally held every four years, on the",
         "Line_03": "Tuesday after the first Monday in",
         "Line_04": "November. Voters participate by choosing",
-        "Line_05": "electors who represent their candidate in",
-        "Line_06": "the Electoral College system. This unique",
-        "Line_07": "system determines the President based on",
-        "Line_08": "electoral votes rather than the popular",
-        "Line_09": "vote."
+        "Line_05": "a slate of electors who represent their",
+        "Line_06": "preferred candidate in the Electoral College",
+        "Line_07": "system. This unique system determines the",
+        "Line_08": "President based on electoral votes rather",
+        "Line_09": "than the popular vote."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0497": {
       "Name": "Lesson_0497",
@@ -8518,16 +8531,18 @@
       "Description": "Henry Ford",
       "Lines": [{
         "Line_01": "Henry Ford, an American industrialist,",
-        "Line_02": "founded the Ford Motor Company. He",
-        "Line_03": "pioneered the assembly line technique",
-        "Line_04": "for mass production of automobiles. His",
-        "Line_05": "vision made cars affordable to many",
-        "Line_06": "middle-class Americans, revolutionizing",
-        "Line_07": "transportation and manufacturing.",
-        "Line_08": "Ford's quote 'Whether you think you can",
-        "Line_09": "or you think you can't, you're right.'"
+        "Line_02": "founded the Ford Motor Company. While he",
+        "Line_03": "was not the inventor of the assembly line,",
+        "Line_04": "he did pioneer and perfect the adoption of",
+        "Line_05": "the assembly line technique for mass",
+        "Line_06": "production of automobiles. His",
+        "Line_07": "vision made cars affordable to many",
+        "Line_08": "middle-class Americans, revolutionizing",
+        "Line_09": "transportation and manufacturing.",
+        "Line_10": "Ford's quote 'Whether you think you can",
+        "Line_11": "or you think you can't, you're right.'"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0498": {
       "Name": "Lesson_0498",
@@ -8561,7 +8576,7 @@
         "Line_08": "George Washington, the first President,",
         "Line_09": "was instrumental in its creation."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0500": {
       "Name": "Lesson_0500",
@@ -8582,7 +8597,7 @@
         "Line_08": "protects Earth's surface from direct",
         "Line_09": "impacts and erosion."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0501": {
       "Name": "Lesson_0501",
@@ -8603,7 +8618,7 @@
         "Line_08": "workshops. Many have digital catalogs",
         "Line_09": "to help people find what they need."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0502": {
       "Name": "Lesson_0502",
@@ -8622,9 +8637,14 @@
         "Line_06": "help with harvesting. These monkeys",
         "Line_07": "are skilled and can pick many",
         "Line_08": "coconuts quickly. The practice is",
-        "Line_09": "a traditional method in many places."
+        "Line_09": "a traditional method in many places.",
+        "Line_10": "However the practice of using monkeys",
+        "Line_11": "for labor has raised ethical concerns",
+        "Line_12": "about animal cruelty. Some regulators,",
+        "Line_13": "organizations and retails have taken steps",
+        "Line_14": "to control or prevent the usage of animals."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0503": {
       "Name": "Lesson_0503",
@@ -8645,7 +8665,7 @@
         "Line_08": "influential in the 20th century.",
         "Line_09": "Thoreau's legacy continues to impact many."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0504": {
       "Name": "Lesson_0504",
@@ -8668,7 +8688,7 @@
         "Line_10": "Recycling reduces the need for new raw",
         "Line_11": "materials and decreases pollution."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0505": {
       "Name": "Lesson_0505",
@@ -8686,10 +8706,11 @@
         "Line_05": "The largest dolphin is the orca, or killer whale.",
         "Line_06": "Dolphins communicate using clicks and whistles.",
         "Line_07": "They live in social groups called pods.",
-        "Line_08": "Some dolphins can hold their breath for 15 minutes.",
-        "Line_09": "Dolphins can jump up to 20 feet out of the water."
+        "Line_08": "Some dolphins can hold their breath for,",
+        "Line_09": "about 8 to 10 minutes. Dolphins can jump up to",
+        "Line_10": "20 feet out of the water."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0506": {
       "Name": "Lesson_0506",
@@ -8703,7 +8724,7 @@
         "Line_01": "Disneyland was inspired by Walt Disney's",
         "Line_02": "desire to create a park for families.",
         "Line_03": "The park is located in Anaheim, California.",
-        "Line_04": "Disneyland covers 85 acres of land.",
+        "Line_04": "Disneyland covers about 100 acres of land.",
         "Line_05": "Over 700 million guests have visited.",
         "Line_06": "The park has nine themed lands.",
         "Line_07": "Main Street, U.S.A. is the entrance area.",
@@ -8711,7 +8732,7 @@
         "Line_09": "Disneyland employs about 30,000 people.",
         "Line_10": "It is known as the happiest place on earth."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0507": {
       "Name": "Lesson_0507",
@@ -8732,7 +8753,7 @@
         "Line_08": "Recycling helps reduce landfill space.",
         "Line_09": "It creates jobs in the recycling industry."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0508": {
       "Name": "Lesson_0508",
@@ -8746,14 +8767,14 @@
         "Line_01": "A light year is how far light travels",
         "Line_02": "in a year. Light moves at 300,000 km",
         "Line_03": "per second, or about 186,000 miles.",
-        "Line_04": "So, one light year equals 10 trillion",
-        "Line_05": "km, or roughly 6 trillion miles. It",
+        "Line_04": "So, one light year equals 9.461 trillion",
+        "Line_05": "km, or roughly 5.879 trillion miles. It",
         "Line_06": "is a distance measure, not time.",
         "Line_07": "Astronomers use light years to gauge",
         "Line_08": "space distances due to vastness.",
         "Line_09": "Stars and galaxies are light years away."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0509": {
       "Name": "Lesson_0509",
@@ -8775,7 +8796,7 @@
         "Line_09": "many protect against harmful rhetoric.",
         "Line_10": "Balancing free speech and harm is key."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0510": {
       "Name": "Lesson_0510",
@@ -8788,15 +8809,15 @@
       "Lines": [{
         "Line_01": "Lake Okeechobee, in southern Florida,",
         "Line_02": "is a vital part of the region's ecology.",
-        "Line_03": "It serves as a reservoir, covering 730",
-        "Line_04": "square miles. Despite its size, it is",
-        "Line_05": "remarkably shallow, with an average",
-        "Line_06": "depth of only 9 feet. Okeechobee is",
-        "Line_07": "crucial for flood control and supports",
-        "Line_08": "diverse wildlife, including birds and",
-        "Line_09": "aquatic species like bass and catfish."
+        "Line_03": "The lake and its surrounding protected",
+        "Line_04": "ecology zones cover 730 square miles.",
+        "Line_05": "Despite its size, it is remarkably shallow,",
+        "Line_06": "with an average depth of only 9 feet.",
+        "Line_07": "Okeechobee is crucial for flood control",
+        "Line_08": "and supports diverse wildlife, including",
+        "Line_09": "birds and aquatic species like bass and catfish."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0511": {
       "Name": "Lesson_0511",
@@ -8817,7 +8838,7 @@
         "Line_08": "conflict against the backdrop of Verona's",
         "Line_09": "romantic streets and ancient rivalry."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0512": {
       "Name": "Lesson_0512",
@@ -8839,7 +8860,7 @@
         "Line_09": "like airport security and search and",
         "Line_10": "rescue missions."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0513": {
       "Name": "Lesson_0513",
@@ -8852,17 +8873,19 @@
       "Lines": [{
         "Line_01": "Alexander Graham Bell, a pioneering",
         "Line_02": "figure in communication technology,",
-        "Line_03": "invented the telephone in 1876. His",
-        "Line_04": "quote 'When one door closes, another",
-        "Line_05": "door opens' reflects his optimistic",
-        "Line_06": "spirit. Bell was also involved in",
-        "Line_07": "aviation and hydrofoils, showing his",
-        "Line_08": "versatility beyond telecommunications.",
-        "Line_09": "Despite his invention, he preferred",
-        "Line_10": "silence in his study, shunning his own",
-        "Line_11": "invention."
+        "Line_03": "invented the telephone in 1876. He",
+        "Line_04": "is often attributed to the quote:",
+        "Line_05": "'When one door closes, another door",
+        "Line_06": "opens' and reflects his optimistic",
+        "Line_07": "spirit, however, the quote cannot be",
+        "Line_08": "verified to him. Bell was also involved",
+        "Line_09": "in aviation and hydrofoils, showing his",
+        "Line_10": "versatility beyond telecommunications.",
+        "Line_11": "Despite his invention, he preferred",
+        "Line_12": "silence in his study, shunning",
+        "Line_13": "his own invention."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0514": {
       "Name": "Lesson_0514",
@@ -8913,7 +8936,7 @@
         "Line_08": "social injustices and the harsh",
         "Line_09": "realities of Victorian London."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0517": {
       "Name": "Lesson_0517",
@@ -8928,14 +8951,14 @@
         "Line_02": "and parts of southwestern China. Known",
         "Line_03": "as 'Firefox' in English, inspiring the",
         "Line_04": "name of a popular web browser, their",
-        "Line_05": "logo misleads as it features a red",
-        "Line_06": "panda, not a fox. Mozilla Firefox",
-        "Line_07": "emerged in 2002, integrating their",
-        "Line_08": "symbolic mascot. These small mammals",
-        "Line_09": "are cherished for their arboreal",
-        "Line_10": "habitat and bamboo-based diet."
+        "Line_05": "logo could be misleading as the mascot",
+        "Line_06": "concept art was developed from a fox not",
+        "Line_07": "a panda. Mozilla Firefox emerged in 2002,",
+        "Line_08": "integrating their symbolic mascot. These",
+        "Line_09": "small mammals are cherished for their",
+        "Line_10": "arboreal habitat and bamboo-based diet."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0518": {
       "Name": "Lesson_0518",
@@ -8956,7 +8979,7 @@
         "Line_08": "flower, the cardinal its state bird, and",
         "Line_09": "the white-tailed deer its state animal."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0519": {
       "Name": "Lesson_0519",
@@ -8978,7 +9001,7 @@
         "Line_09": "born in the early 20th century, blends",
         "Line_10": "improvisation with complex rhythms."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0520": {
       "Name": "Lesson_0520",
@@ -9000,7 +9023,7 @@
         "Line_09": "regions experience tropical climates",
         "Line_10": "with consistent warmth and rainfall."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0521": {
       "Name": "Lesson_0521",
@@ -9022,7 +9045,7 @@
         "Line_09": "turbulence. It remains a masterpiece",
         "Line_10": "of world literature."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0522": {
       "Name": "Lesson_0522",
@@ -9043,7 +9066,7 @@
         "Line_08": "despite their age, offering a glimpse",
         "Line_09": "into the lives of our ancestors."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0523": {
       "Name": "Lesson_0523",
@@ -9057,14 +9080,14 @@
         "Line_01": "Early car races began shortly after the",
         "Line_02": "invention of automobiles in the late",
         "Line_03": "19th century. The first recorded race",
-        "Line_04": "took place in 1867. Initially, these",
+        "Line_04": "took place in 1894. Initially, these",
         "Line_05": "events focused on proving the",
         "Line_06": "reliability of cars as a practical",
         "Line_07": "transportation mode. Over time, races",
         "Line_08": "evolved into competitive showcases for",
         "Line_09": "manufacturers to demonstrate their"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0524": {
       "Name": "Lesson_0524",
@@ -9085,7 +9108,7 @@
         "Line_08": "taekwondo, judo, and kung fu, each",
         "Line_09": "promoting distinct philosophies and"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0525": {
       "Name": "Lesson_0525",
@@ -9107,7 +9130,7 @@
         "Line_09": "now transcend physical boundaries,",
         "Line_10": "reshaping social dynamics."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0526": {
       "Name": "Lesson_0526",
@@ -9129,7 +9152,7 @@
         "Line_09": "as a universal language of creativity,",
         "Line_10": "connecting hearts globally."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0527": {
       "Name": "Lesson_0527",
@@ -9146,12 +9169,13 @@
         "Line_04": "due to low nutrient content in bamboo,",
         "Line_05": "which is difficult to digest. Despite",
         "Line_06": "their size, pandas are agile climbers,",
-        "Line_07": "capable of scaling trees to escape",
-        "Line_08": "predators like snow leopards. Pandas",
-        "Line_09": "often live solitary lives except during",
-        "Line_10": "mating season."
+        "Line_07": "capable of scaling trees. This helps the",
+        "Line_08": "cubs escape predators like the snow leopard.",
+        "Line_09": "Adult Pandas have no natural predators and",
+        "Line_10": "often live solitary lives except during",
+        "Line_11": "mating season."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0528": {
       "Name": "Lesson_0528",
@@ -9173,7 +9197,7 @@
         "Line_09": "their vitality and strength. Handprints",
         "Line_10": "may have symbolized ownership or identity."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0529": {
       "Name": "Lesson_0529",
@@ -9194,7 +9218,7 @@
         "Line_08": "world's oldest known song, deciphered",
         "Line_09": "from cuneiform tablets, dates to 3400 BC."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0530": {
       "Name": "Lesson_0530",
@@ -9215,7 +9239,7 @@
         "Line_08": "derives from the Angles and Saxons,",
         "Line_09": "the dominant tribes of the period."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0531": {
       "Name": "Lesson_0531",
@@ -9245,11 +9269,16 @@
         "Line_04": "leads to more acceleration. Mass resists",
         "Line_05": "acceleration, a concept called inertia.",
         "Line_06": "Newton's laws were published in 1687.",
-        "Line_07": "In space, 0 gravity, objects float freely.",
-        "Line_08": "Newton's laws explain why planets orbit.",
-        "Line_09": "Mass is measured in kilograms (kg)."
+        "Line_07": "In space, objects float freely because",
+        "Line_08": "they are in a state of freefall.",
+        "Line_09": "Often this experience of floating is called",
+        "Line_10": "zero gravity, but there is gravity which",
+        "Line_11": "is why things are in free fall. A more",
+        "Line_12": "accurate description is micro-gravity.",
+        "Line_13": "Newton's laws explain why planets orbit.",
+        "Line_14": "Mass is measured in kilograms (kg)."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0533": {
       "Name": "Lesson_0533",
@@ -9260,17 +9289,17 @@
       }],
       "Description": "Health Care",
       "Lines": [{
-        "Line_01": "Global health spending reached $8.3 trillion.",
-        "Line_02": "Primary care prevents 70% of illnesses.",
-        "Line_03": "Mental health services aid 1 in 4 people.",
-        "Line_04": "WHO was founded in 1948 for global health.",
-        "Line_05": "Life expectancy rises with better health care.",
-        "Line_06": "Vaccinations save 2-3 million lives yearly.",
-        "Line_07": "Universal health care covers all citizens.",
-        "Line_08": "Telemedicine grew 154% during COVID-19.",
-        "Line_09": "Health care access is a fundamental right."
+        "Line_01": "Global health spending in 2017 reached $7.5",
+        "Line_02": "trillion. Primary care prevents 70% of",
+        "Line_03": "illnesses. Mental health services aid 1 in 4",
+        "Line_04": "people. WHO was founded in 1948 for global",
+        "Line_05": "health. Life expectancy rises with better",
+        "Line_06": "health care. Vaccinations save 2-3 million",
+        "Line_07": "lives yearly. Universal health care covers",
+        "Line_08": "all citizens. Telemedicine grew 154% during",
+        "Line_09": "COVID-19. Health care access is a fundamental right."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0534": {
       "Name": "Lesson_0534",
@@ -9281,18 +9310,19 @@
       }],
       "Description": "Industry Awakes",
       "Lines": [{
-        "Line_01": "The steam engine, invented in 1712, was key.",
-        "Line_02": "Factories grew from 1760 to 1840 rapidly.",
-        "Line_03": "Textile production increased by 1000%.",
-        "Line_04": "In 1800, coal mining employed thousands.",
-        "Line_05": "Railways expanded quickly after 1825.",
-        "Line_06": "Electricity began transforming industries.",
-        "Line_07": "Urbanization surged due to factory jobs.",
-        "Line_08": "In 1850, half of Britain lived in cities.",
-        "Line_09": "Child labor laws began in the 1830s.",
-        "Line_10": "Global trade expanded industrial growth."
+        "Line_01": "The steam engine, invented in 1712, and",
+        "Line_02": "later patented in 1769 by James Watt, was key.",
+        "Line_03": "Factories grew from 1760 to 1840 rapidly.",
+        "Line_04": "Textile production increased by 1000%.",
+        "Line_05": "In 1800, coal mining employed thousands.",
+        "Line_06": "Railways expanded quickly after 1825.",
+        "Line_07": "Electricity began transforming industries.",
+        "Line_08": "Urbanization surged due to factory jobs.",
+        "Line_09": "In 1850, half of Britain lived in cities.",
+        "Line_10": "Child labor laws began in the 1830s.",
+        "Line_11": "Global trade expanded industrial growth."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0535": {
       "Name": "Lesson_0535",
@@ -9303,18 +9333,19 @@
       }],
       "Description": "Static Electricity",
       "Lines": [{
-        "Line_01": "Static electricity occurs when electrons",
-        "Line_02": "move between objects. Rubbing balloons",
-        "Line_03": "can transfer electrons. In 1752, Ben",
-        "Line_04": "Franklin conducted his famous kite",
-        "Line_05": "experiment. Lightning is a large-scale",
-        "Line_06": "static discharge. Humidity affects",
-        "Line_07": "static buildup. Devices like photocopiers",
-        "Line_08": "use static electricity. A spark can be",
-        "Line_09": "thousands of volts. Static charges can",
-        "Line_10": "damage electronic components easily."
+        "Line_01": "Static electricity occurs when there is",
+        "Line_02": "an imbalance of electric charges within or on",
+        "Line_03": "the surface of a material or between objects.",
+        "Line_04": "Rubbing balloons can transfer electrons. In",
+        "Line_05": "1752, Ben Franklin conducted his famous kite",
+        "Line_06": "experiment. Lightning is a large-scale",
+        "Line_07": "static discharge. Humidity affects",
+        "Line_08": "static buildup. Devices like photocopiers",
+        "Line_09": "use static electricity. A spark can be",
+        "Line_10": "thousands of volts. Static charges can",
+        "Line_11": "damage electronic components easily."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0536": {
       "Name": "Lesson_0536",
@@ -9329,12 +9360,13 @@
         "Line_02": "A word is counted as five characters.",
         "Line_03": "The average typing speed is 40 WPM.",
         "Line_04": "Fast typists can reach speeds of 80 WPM.",
-        "Line_05": "In 1946, Stella Pajunas typed 216 WPM.",
-        "Line_06": "Typing tests often use simple texts.",
-        "Line_07": "Errors can reduce your WPM score.",
-        "Line_08": "Practicing can significantly improve WPM.",
-        "Line_09": "Typing games can help boost WPM rates.",
-        "Line_10": "Speed and accuracy are both important."
+        "Line_05": "In 1946, Stella Pajunas typed 216 WPM on a",
+        "Line_06": "QWERTY key layout and a stenotype machine.",
+        "Line_07": "Typing tests often use simple texts.",
+        "Line_08": "Errors can reduce your WPM score.",
+        "Line_09": "Practicing can significantly improve WPM.",
+        "Line_10": "Typing games can help boost WPM rates.",
+        "Line_11": "Speed and accuracy are both important."
       }],
       "FactChecked": false
     },
@@ -9358,7 +9390,7 @@
         "Line_09": "Dante started writing it in 1308.",
         "Line_10": "It took over 12 years to complete."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0538": {
       "Name": "Lesson_0538",
@@ -9370,17 +9402,17 @@
       "Description": "Elephant's Trunk",
       "Lines": [{
         "Line_01": "Elephant trunks have over 40,000 muscles.",
-        "Line_02": "They can lift objects weighing up to 350 kg.",
-        "Line_03": "Elephants drink about 200 liters of water daily.",
-        "Line_04": "Their trunks can hold 10 liters of water at once.",
-        "Line_05": "They use trunks to communicate through touch.",
-        "Line_06": "Trunks can smell water from kilometers away.",
-        "Line_07": "Elephants use trunks to dust themselves.",
-        "Line_08": "Trunks can pick up a single grain of rice.",
-        "Line_09": "Elephants can trumpet sounds with trunks.",
+        "Line_02": "They can lift objects weighing up to approximately",
+        "Line_03": "350 kg. Elephants drink about 200 liters of",
+        "Line_04": "water daily. Their trunks can hold 10 liters",
+        "Line_05": "of water at once. They use trunks to communicate",
+        "Line_06": "through touch. Trunks can smell water from",
+        "Line_07": "kilometers away. Elephants use trunks to dust",
+        "Line_08": "themselves. Trunks can pick up a single grain",
+        "Line_09": "of rice. Elephants can trumpet sounds with trunks.",
         "Line_10": "They can snorkel underwater using their trunks."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0539": {
       "Name": "Lesson_0539",
@@ -9403,9 +9435,9 @@
         "Line_10": "in preventing chronic diseases. The healthiest",
         "Line_11": "diet of all for humans is almost entirely",
         "Line_12": "plant-based, as described in the Christian",
-        "LIne_13": "Holy Bible, in both Genesis and Daniel."
+        "Line_13": "Holy Bible, in both Genesis and Daniel."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0540": {
       "Name": "Lesson_0540",
@@ -9416,7 +9448,7 @@
       }],
       "Description": "Nefertiti",
       "Lines": [{
-        "Line_01": "Nefertiti, born circa 1370 BC, was",
+        "Line_01": "Nefertiti, born around 1370 BC, was",
         "Line_02": "known for her beauty. She ruled with",
         "Line_03": "Akhenaten from 1353 to 1336 BC. They",
         "Line_04": "founded a new capital at Amarna. Her",
@@ -9424,10 +9456,11 @@
         "Line_06": "The bust is now in a Berlin museum.",
         "Line_07": "Her full title was 'Great Royal Wife.'",
         "Line_08": "Her death remains a mystery. Some",
-        "Line_09": "believe she ruled as Pharaoh briefly.",
-        "Line_10": "Nefertiti means 'the beautiful one.'"
+        "Line_09": "believe she ruled as Pharaoh briefly,",
+        "Line_10": "although this is still a contested belief.",
+        "Line_11": "Nefertiti means 'the beautiful one.'"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0541": {
       "Name": "Lesson_0541",
@@ -9448,7 +9481,7 @@
         "Line_08": "are dedicated to fostering learning",
         "Line_09": "and growth in students worldwide."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0542": {
       "Name": "Lesson_0542",
@@ -9469,7 +9502,7 @@
         "Line_08": "are formed when atoms combine in fixed",
         "Line_09": "ratios to create new substances."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0543": {
       "Name": "Lesson_0543",
@@ -9491,7 +9524,7 @@
         "Line_09": "the modern Olympics. Today, the Olympics",
         "Line_10": "promote sportsmanship and global peace."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0544": {
       "Name": "Lesson_0544",
@@ -9504,16 +9537,20 @@
       "Lines": [{
         "Line_01": "The Olympics ceremony marked a time of",
         "Line_02": "peace with the Olympic Truce ensuring",
-        "Line_03": "safe passage for athletes. Winners received",
-        "Line_04": "olive wreaths as symbols of victory. Beyond",
-        "Line_05": "sports, the games influenced politics,",
-        "Line_06": "projecting city-state power and fostering",
-        "Line_07": "unity among Greeks. Religious rites",
-        "Line_08": "honored Zeus, emphasizing divine",
-        "Line_09": "blessings on the competitors. The games",
-        "Line_10": "showcased athleticism and cultural pride."
+        "Line_03": "safe passage for athletes. Such truce agreements",
+        "Line_04": "maybe have not have been a universal rule and",
+        "Line_05": "the enforcement of the truce may have varied.",
+        "Line_06": "Also it is not clear if athletes were given",
+        "Line_07": "protection outside of the truce period.",
+        "Line_08": "Winners received olive wreaths as symbols of",
+        "Line_09": "victory. Beyond sports, the games influenced",
+        "Line_10": "politics, projecting city-state power and",
+        "Line_11": "fostering unity among Greeks. Religious rites",
+        "Line_12": "honored Zeus, emphasizing divine",
+        "Line_13": "blessings on the competitors. The games",
+        "Line_14": "showcased athleticism and cultural pride."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0545": {
       "Name": "Lesson_0545",
@@ -9534,7 +9571,7 @@
         "Line_08": "However, concerns persist regarding",
         "Line_09": "environmental impact and human health."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0546": {
       "Name": "Lesson_0546",
@@ -9554,10 +9591,11 @@
         "Line_07": "and missed. I've failed over and over again",
         "Line_08": "in my life. And that is why I succeed,'",
         "Line_09": "reflects his determination and resilience.",
-        "Line_10": "Jordan played 15 seasons with the Bulls",
-        "Line_11": "and Wizards, earning six NBA championships."
+        "Line_10": "Jordan played 13 seasons with the Bulls",
+        "Line_11": "and 2 seasons with the Wizards, earning",
+        "Line_12": "six NBA championships with the Bulls."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0547": {
       "Name": "Lesson_0547",
@@ -9609,7 +9647,7 @@
         "Line_09": "planet's name in sequence from the Sun.",
         "Line_10": "The solar system spans vast distances."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0550": {
       "Name": "Lesson_0550",
@@ -9630,7 +9668,7 @@
         "Line_08": "When magma reaches the Earth's surface,",
         "Line_09": "it solidifies into igneous rock."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0551": {
       "Name": "Lesson_0551",
@@ -9651,7 +9689,7 @@
         "Line_08": "Tadpoles rely on gills for breathing",
         "Line_09": "underwater, adapting to their aquatic"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0552": {
       "Name": "Lesson_0552",
@@ -9673,7 +9711,7 @@
         "Line_09": "and unity. Despite its vast size,",
         "Line_10": "Australia is the smallest continent."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0553": {
       "Name": "Lesson_0553",
@@ -9695,7 +9733,7 @@
         "Line_09": "dedicated to mastering the sport.",
         "Line_10": "Sumo tournaments draw large audiences."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0554": {
       "Name": "Lesson_0554",
@@ -9716,7 +9754,7 @@
         "Line_08": "It's crucial for overall well-being.",
         "Line_09": "Make it a daily habit for a better life."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0555": {
       "Name": "Lesson_0555",
@@ -9738,7 +9776,7 @@
         "Line_09": "Learn more about our galactic home.",
         "Line_10": "Discover the wonders of the universe."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0556": {
       "Name": "Lesson_0556",
@@ -9759,7 +9797,7 @@
         "Line_08": "Discover the magic she wove in her",
         "Line_09": "remarkable literary universe."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0557": {
       "Name": "Lesson_0557",
@@ -9771,16 +9809,17 @@
       "Description": "Internet Size",
       "Lines": [{
         "Line_01": "The internet's vastness continues to",
-        "Line_02": "expand exponentially. There are over",
-        "Line_03": "tens of trillions of web pages today,",
-        "Line_04": "equivalent to stacking paper from Earth",
-        "Line_05": "to the Moon dozens of times. Every page",
+        "Line_02": "expand exponentially. There are billions",
+        "Line_03": "of web pages today in 2024. Every page",
         "Line_06": "is interconnected through hyperlinks,",
         "Line_07": "creating a global information network.",
-        "Line_08": "Explore the boundless expanse of data",
-        "Line_09": "and knowledge at your fingertips."
+        "Line_08": "ring networks, or websites that link in a",
+        "Line_09": "big circle used to be exist, but were never",
+        "Line_10": "very popular, now they are not used at all.",
+        "Line_11": "Explore the boundless expanse of data and",
+        "Line_12": "knowledge at your fingertips."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0558": {
       "Name": "Lesson_0558",
@@ -9802,7 +9841,7 @@
         "Line_09": "making everyday activities more",
         "Line_10": "enjoyable and sustainable."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0559": {
       "Name": "Lesson_0559",
@@ -9824,7 +9863,7 @@
         "Line_09": "culture attract millions of tourists",
         "Line_10": "each year."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0560": {
       "Name": "Lesson_0560",
@@ -9835,17 +9874,19 @@
       }],
       "Description": "Reading Speed",
       "Lines": [{
-        "Line_01": "Reading from screens may slow down",
-        "Line_02": "comprehension by up to 10% compared to",
-        "Line_03": "reading from paper. Extended screen",
-        "Line_04": "use can strain vision and disrupt",
-        "Line_05": "sleep due to blue light exposure.",
-        "Line_06": "Devices like computers and phones emit",
-        "Line_07": "this light, affecting health and",
-        "Line_08": "productivity. Opt for breaks and screen",
-        "Line_09": "filters to mitigate these effects."
+        "Line_01": "Reading from screens might affect comprehension,",
+        "Line_02": "though the extent can vary widely among individuals,",
+        "Line_03": "and tasks. Extended screen use can potentially",
+        "Line_04": "strain vision and disrupt sleep, particularly if",
+        "Line_05": "exposure occurs in the evening. Blue light is emitted",
+        "Line_06": "by devices like computers and phones, and it can influence",
+        "Line_07": "health and productivity. However, these effects depend",
+        "Line_08": "on various factors, including the duration and timing of",
+        "Line_09": "exposure, and the use of appropriate lighting and screen",
+        "Line_10": "settings. Taking breaks and using screen filters can help",
+        "Line_11": "mitigate these effects."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0561": {
       "Name": "Lesson_0561",
@@ -9867,7 +9908,7 @@
         "Line_09": "Santa Fe, the oldest capital city",
         "Line_10": "in the United States."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0562": {
       "Name": "Lesson_0562",
@@ -9883,13 +9924,13 @@
         "Line_03": "common for new messages. Phone apps",
         "Line_04": "send notifications for messages, calls.",
         "Line_05": "Push notifications appear on your screen",
-        "Line_06": "to remind you of tasks. In 2019, there",
-        "Line_07": "were 18.7 billion push notifications sent",
-        "Line_08": "daily. Emergency alerts can warn about",
-        "Line_09": "severe weather or public safety threats.",
-        "Line_10": "These alerts can save lives."
+        "Line_06": "to remind you of tasks. Every day, a large",
+        "Line_07": "number of push notifications are sent worldwide,",
+        "Line_08": "though the exact number can vary widely.",
+        "Line_09": "Emergency alerts can warn about severe weather",
+        "Line_10": "or public safety threats. These alerts can save lives."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0563": {
       "Name": "Lesson_0563",
@@ -9909,9 +9950,9 @@
         "Line_07": "American Samoa has around 55,000",
         "Line_08": "residents. The US Virgin Islands",
         "Line_09": "consist of 3 main islands. The total",
-        "Line_10": "area of these territories is 9,850 sq km."
+        "Line_10": "area of these territories is 10,657.36 sq km."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0564": {
       "Name": "Lesson_0564",
@@ -9946,7 +9987,7 @@
         "Line_09": "of global water use. Freshwater is",
         "Line_10": "vital for drinking and sanitation."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0566": {
       "Name": "Lesson_0566",
@@ -9957,17 +9998,19 @@
       }],
       "Description": "Stay Healthy",
       "Lines": [{
-        "Line_01": "For good health, drink 8 glasses of water",
-        "Line_02": "daily. Exercise for at least 30 minutes",
-        "Line_03": "most days. Aim for 7 to 9 hours of sleep",
-        "Line_04": "each night. Include fruits and vegetables",
-        "Line_05": "in your diet. Limit sugar and salt intake.",
-        "Line_06": "Manage stress through relaxation or hobbies.",
-        "Line_07": "Regular check-ups help monitor health.",
-        "Line_08": "Stay connected with family and friends.",
-        "Line_09": "Avoid smoking and excessive alcohol."
+        "Line_01": "For good health, drink a sufficient amount",
+        "Line_02": "of water daily, as per your body's needs.",
+        "Line_03": "Aiming for 8 glasses per day is a good start.",
+        "Line_04": "Exercise for at least 30 minutes most days.",
+        "Line_05": "Aim for 7 to 9 hours of sleep each night.",
+        "Line_06": "Include fruits and vegetables in your diet.",
+        "Line_07": "Limit sugar and salt intake.",
+        "Line_08": "Manage stress through relaxation or hobbies.",
+        "Line_09": "Regular check-ups help monitor health.",
+        "Line_10": "Stay connected with family and friends.",
+        "Line_11": "Avoid smoking and excessive alcohol."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0567": {
       "Name": "Lesson_0567",
@@ -9988,7 +10031,7 @@
         "Line_08": "as Galileo and Kepler, who further",
         "Line_09": "developed his theories."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0568": {
       "Name": "Lesson_0568",
@@ -10009,7 +10052,7 @@
         "Line_08": "commands and tasks, and work in various",
         "Line_09": "roles, such as guides and rescuers."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0569": {
       "Name": "Lesson_0569",
@@ -10031,7 +10074,7 @@
         "Line_09": "and has inspired many adaptations",
         "Line_10": "in various forms over the years."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0570": {
       "Name": "Lesson_0570",
@@ -10052,7 +10095,7 @@
         "Line_08": "It's crucial to use privacy settings to",
         "Line_09": "protect personal information online."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0571": {
       "Name": "Lesson_0571",
@@ -10073,7 +10116,7 @@
         "Line_08": "and play a vital role in maintaining",
         "Line_09": "oral hygiene for patients."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0572": {
       "Name": "Lesson_0572",
@@ -10094,7 +10137,7 @@
         "Line_08": "opened to the public, becoming an instant",
         "Line_09": "success."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0573": {
       "Name": "Lesson_0573",
@@ -10115,7 +10158,7 @@
         "Line_08": "Each species plays a unique role in",
         "Line_09": "their ecosystems."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0574": {
       "Name": "Lesson_0574",
@@ -10136,9 +10179,14 @@
         "Line_08": "studied for their heat and light",
         "Line_09": "properties. It is actually a form of plasma,",
         "Line_10": "a different state of matter like:",
-        "Line_11": "solid, liquid, gas, and plasma"
+        "Line_11": "solid, liquid, gas, and plasma.",
+        "Line_12": "Although flame is not a form of ionized",
+        "Line_13": "plasma, the electrons are moving around",
+        "Line_14": "during the chemical oxidation burning",
+        "Line_15": "process and giving off light, making",
+        "Line_16": "it a unique type of low energy plasma."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0575": {
       "Name": "Lesson_0575",
@@ -10149,17 +10197,18 @@
       }],
       "Description": "Healing Arts",
       "Lines": [{
-        "Line_01": "Healing arts programs started in hospitals",
-        "Line_02": "during the 1960s and have grown immensely",
-        "Line_03": "since. Recent studies highlight art's",
-        "Line_04": "therapeutic benefits in reducing stress",
-        "Line_05": "levels. For instance, a 2015 review in",
-        "Line_06": "The Lancet emphasized music's role in",
-        "Line_07": "enhancing recovery before, during, and",
-        "Line_08": "after surgical procedures.",
-        "Line_09": "Art therapy continues to evolve."
+        "Line_01": "The integration of healing arts programs",
+        "Line_02": "in hospitals has evolved over time,",
+        "Line_03": "with significant growth since the late 20th",
+        "Line_04": "century. Recent studies highlight art's therapeutic",
+        "Line_05": "benefits in reducing stress levels. For",
+        "Line_06": "instance, a 2015 review in The Lancet emphasized",
+        "Line_07": "music's role inenhancing recovery before,",
+        "Line_08": "during, and after surgical procedures.",
+        "Line_09": "Art therapy continues to evolve and plays a",
+        "Line_10": "significant role in many healthcare settings."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0576": {
       "Name": "Lesson_0576",
@@ -10173,14 +10222,14 @@
         "Line_01": "Early maps were often rudimentary,",
         "Line_02": "etched in dirt or later carved on stone",
         "Line_03": "and clay tablets. The oldest known clay",
-        "Line_04": "map, dating to around 2,300 B.C., was",
-        "Line_05": "found in ancient Mesopotamia. Ancient",
-        "Line_06": "maps focused locally, reflecting the",
-        "Line_07": "surroundings of their creators without",
-        "Line_08": "attempting a global scale depiction.",
-        "Line_09": "Maps evolved significantly over time."
+        "Line_04": "map, dating to around the 6th century B.C.,",
+        "Line_05": "and was found in ancient Babylon (modern",
+        "Line_06": "day Iraq). Ancient maps focused locally,",
+        "Line_07": "reflecting the surroundings of their",
+        "Line_08": "creators without attempting a global scale",
+        "Line_09": "depiction. Maps evolved significantly over time."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0577": {
       "Name": "Lesson_0577",
@@ -10201,7 +10250,7 @@
         "Line_08": "different user needs and interests,",
         "Line_09": "enabling diverse forms of engagement."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0578": {
       "Name": "Lesson_0578",
@@ -10213,17 +10262,17 @@
       "Description": "Nursing",
       "Lines": [{
         "Line_01": "In the healthcare field, nursing is",
-        "Line_02": "crucial, boasting over 3 million",
-        "Line_03": "registered nurses in the U.S. These",
-        "Line_04": "professionals provide compassionate",
-        "Line_05": "care and crucial support to patients",
-        "Line_06": "and their families. Working closely",
-        "Line_07": "with doctors, they execute precise",
-        "Line_08": "medical instructions for optimal",
+        "Line_02": "crucial, boasting approximately 3.8",
+        "Line_03": "million registered nurses in the U.S.",
+        "Line_04": "as of 2021. These professionals provide",
+        "Line_05": "compassionate care and crucial support",
+        "Line_06": "to patients and their families. Working",
+        "Line_07": "closely with doctors, they execute",
+        "Line_08": "precise medical instructions for optimal",
         "Line_09": "patient recovery, aiming always to",
         "Line_10": "enhance quality of life."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0579": {
       "Name": "Lesson_0579",
@@ -10244,7 +10293,7 @@
         "Line_08": "different hues depending on what is",
         "Line_09": "dissolved or suspended in it."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0580": {
       "Name": "Lesson_0580",
@@ -10299,7 +10348,7 @@
         "Line_12": "neuroplasticity, allowing the brain",
         "Line_13": "to adapt and change over time."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0583": {
       "Name": "Lesson_0583",
@@ -10311,17 +10360,17 @@
       "Description": "What Computers...",
       "Lines": [{
         "Line_01": "Computers transform data into stories,",
-        "Line_02": "bridging imagination and reality.",
-        "Line_03": "They connect minds across oceans,",
-        "Line_04": "making distances irrelevant.",
-        "Line_05": "Navigating through time and space,",
-        "Line_06": "they archive our past and envision",
-        "Line_07": "our future with precision.",
+        "Line_02": "bridging imagination and reality with",
+        "Line_03": "2D and 3D printers. They connect minds",
+        "Line_04": "across oceans, making distances irrelevant.",
+        "Line_05": "Users can navigate through a simulated",
+        "Line_06": "time and space using VR, they archive",
+        "Line_07": "our past and envision our future.",
         "Line_08": "At a keystroke, they entertain, educate,",
         "Line_09": "and empower billions worldwide.",
         "Line_10": "Today, computers are indispensable."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0584": {
       "Name": "Lesson_0584",
@@ -10342,7 +10391,7 @@
         "Line_08": "the art of locally sourced meats,",
         "Line_09": "offering a taste of quality beyond mass"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0585": {
       "Name": "Lesson_0585",
@@ -10356,15 +10405,15 @@
         "Line_01": "Brazil, the largest country where",
         "Line_02": "Portuguese is spoken, boasts the vast",
         "Line_03": "Amazon Rainforest, a vital source of",
-        "Line_04": "over twenty percent of Earth's oxygen.",
+        "Line_04": "between 6% to 9% of Earth's oxygen.",
         "Line_05": "The green on Brazil's flag symbolizes",
         "Line_06": "its rich rainforests. Portuguese became",
         "Line_07": "the official language due to Portugal's",
         "Line_08": "claim in 1500, shaping Brazil's culture",
-        "Line_09": "and identity ever since.",
-        "Line_10": "Brazil's diverse ecosystem captivates everyone!"
+        "Line_09": "and identity ever since. Brazil's",
+        "Line_10": "diverse ecosystem captivates everyone!"
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0586": {
       "Name": "Lesson_0586",
@@ -10385,7 +10434,7 @@
         "Line_08": "Sings,' her celebrated autobiography,",
         "Line_09": "captures her early struggles and triumphs."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0587": {
       "Name": "Lesson_0587",
@@ -10407,7 +10456,7 @@
         "Line_09": "backdrop of 19th-century England,",
         "Line_10": "capturing readers with its depth."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0588": {
       "Name": "Lesson_0588",
@@ -10428,7 +10477,7 @@
         "Line_08": "scenery. Tourists flock to its theme",
         "Line_09": "parks and famous orange groves."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0589": {
       "Name": "Lesson_0589",
@@ -10450,7 +10499,7 @@
         "Line_09": "NASA's innovations drive",
         "Line_10": "technological advancements globally."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0590": {
       "Name": "Lesson_0590",
@@ -10472,7 +10521,7 @@
         "Line_09": "and wildebeests. Lions communicate",
         "Line_10": "through various vocalizations."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0591": {
       "Name": "Lesson_0591",
@@ -10494,7 +10543,7 @@
         "Line_09": "products that are both intuitive and",
         "Line_10": "powerful."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0592": {
       "Name": "Lesson_0592",
@@ -10516,7 +10565,7 @@
         "Line_09": "A balanced diet provides the necessary",
         "Line_10": "nutrients for optimal bodily function."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0593": {
       "Name": "Lesson_0593",
@@ -10530,15 +10579,15 @@
         "Line_01": "Wisconsin, derived from the Algonquian",
         "Line_02": "word meaning 'river running through a",
         "Line_03": "red place,' is known for its dairy",
-        "Line_04": "farming and cheese production. The state",
-        "Line_05": "is home to over 1.8 million dairy cows,",
-        "Line_06": "contributing significantly to the US",
-        "Line_07": "milk and cheese supply. The University",
+        "Line_04": "farming and cheese production. As of 2021",
+        "Line_05": "the state is home to about 1.26 million",
+        "Line_06": "dairy cows, contributing significantly to",
+        "Line_07": "the US milk and cheese supply. The University",
         "Line_08": "of Wisconsin-Madison is renowned for",
         "Line_09": "its agricultural research and plays a",
         "Line_10": "key role in the state's farming sector."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0594": {
       "Name": "Lesson_0594",
@@ -10560,7 +10609,7 @@
         "Line_09": "atmosphere. During its peak, observers",
         "Line_10": "can see up to 100 meteors per hour."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0595": {
       "Name": "Lesson_0595",
@@ -10582,7 +10631,7 @@
         "Line_09": "Japanese culinary customs and etiquette.",
         "Line_10": "It reflects a cultural respect for food."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0596": {
       "Name": "Lesson_0596",
@@ -10604,7 +10653,7 @@
         "Line_09": "styles and techniques that continue",
         "Line_10": "to influence artists worldwide today."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0597": {
       "Name": "Lesson_0597",
@@ -10626,7 +10675,7 @@
         "Line_09": "Quixote's delusions often lead to",
         "Line_10": "humorous and poignant situations."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0598": {
       "Name": "Lesson_0598",
@@ -10648,7 +10697,7 @@
         "Line_09": "energy reserve during periods of",
         "Line_10": "scarcity, allowing their humps to shrink."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0599": {
       "Name": "Lesson_0599",
@@ -10669,7 +10718,7 @@
         "Line_08": "efficiency. Building robots requires",
         "Line_09": "significant resources in time and funding."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
     "Lesson_0600": {
       "Name": "Lesson_0600",
@@ -10691,10 +10740,11 @@
         "Line_09": "and his team. Over 400 workers contributed",
         "Line_10": "to the monument's creation. Mount Rushmore",
         "Line_11": "was features in a number of Hollywood movies",
-        "Line_12": "including National Treasure 2, staring Nicoals Cage."
+        "Line_12": "including National Treasure 2, staring Nicolas Cage."
       }],
-      "FactChecked": false
+      "FactChecked": true
     },
+    // ************************************************************
     "Lesson_0601": {
       "Name": "Lesson_0601",
       "Number": 601,
