@@ -35,6 +35,9 @@ export const applicationSystemConstantsValidation = [
   {Name: 'cadjustedWpm', Actual: app_sys.cadjustedWpm, Expected: 'adjustedWpm'},
   {Name: 'cUsername', Actual: app_sys.cUsername, Expected: 'Username'},
   {Name: 'cLessonNumber', Actual: app_sys.cLessonNumber, Expected: 'LessonNumber'},
+  {Name: 'cIndividualizedLessonPassingCriteria', Actual: app_sys.cIndividualizedLessonPassingCriteria, Expected: 'IndividualizedLessonPassingCriteria'},
+  {Name: 'cAccuracyRequirement', Actual: app_sys.cAccuracyRequirement, Expected: 'AccuracyRequirement'},
+  {Name: 'cSpeedRequirement', Actual: app_sys.cSpeedRequirement, Expected: 'SpeedRequirement'},
 
   // Constants Validation
   {Name: 'cresolvedConstantsPath_Application', Actual: app_sys.cresolvedConstantsPath_Application, Expected: 'resolvedConstantsPath_Application'},

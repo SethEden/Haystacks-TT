@@ -16,6 +16,7 @@ export const cappAccountsPath = wrd.capp + wrd.cAccounts + wrd.cPath; // appAcco
 export const cappLessonsPath = wrd.capp + wrd.cLessons + wrd.cPath; // appLessonsPath
 export const csaveTypingRecords = wrd.csave + wrd.cTyping + wrd.cRecords; // saveTypingRecords
 export const cenableLessonPlanLimitingFactors = wrd.cenable + wrd.cLesson + wrd.cPlan + wrd.cLimiting + wrd.cFactors; // enableLessonPlanLimitingFactors
+export const cenableIndividualizedLessonPassingScores = wrd.cenable + wrd.cIndividualized + wrd.cLesson + wrd.cPassing + wrd.cScores; // enableIndividualizedLessonPassingScores
 export const clessonPlanSuccessLimitingAccuracy = wrd.clesson + wrd.cPlan + wrd.cSuccess + wrd.cLimiting + wrd.cAccuracy; // lessonPlanSuccessLimitingAccuracy
 export const clessonPlanSuccessLimitingSpeed = wrd.clesson + wrd.cPlan + wrd.cSuccess + wrd.cLimiting + wrd.cSpeed; // lessonPlanSuccessLimitingSpeed
 export const cCurrentUser = wrd.cCurrent + wrd.cUser; // CurrentUser

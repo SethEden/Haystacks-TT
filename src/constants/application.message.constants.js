@@ -89,6 +89,7 @@ export const cusersLessonDataAfterPushIs = wrd.cusers + wrd.cLesson + wrd.cData 
 export const clessonNameKeyEqualsLessonName = wrd.clesson + wrd.cName + wrd.cKey + bas.cSpace + bas.cEqualEqualEqual + bas.cSpace + wrd.clesson + wrd.cName; // lessonNameKey === lessonName
 export const cappAccountsPathIs = wrd.capp + wrd.cAccounts + wrd.cPath + sys.cSpaceIsColonSpace; // appAccountsPath is:
 export const cadvancementLimitSettingIs = wrd.cadvancement + wrd.cLimit + wrd.cSetting + sys.cSpaceIsColonSpace; // advancementLimitSetting is:
+export const cindividualizedLessonSettingIs = wrd.cindividualized + wrd.cLesson + wrd.cSetting + sys.cSpaceIsColonSpace; // individualizedLessonSetting is:
 export const callLessonsDataIs = wrd.call + wrd.cLessons + wrd.cData + sys.cSpaceIsColonSpace; // allLessonsData is:
 export const clessonPlanKeysIs = wrd.clesson + wrd.cPlan + wrd.cKeys + sys.cSpaceIsColonSpace; // lessonPlanKeys is:
 export const clessonKeyValueIs = wrd.clesson + wrd.cKey + wrd.cValue + sys.cSpaceIsColonSpace; // lessonKeyValue is:

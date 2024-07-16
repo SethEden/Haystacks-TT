@@ -86,6 +86,7 @@ export const applicationMessageConstantsValidation = [
   {Name: 'clessonNameKeyEqualsLessonName', Actual: app_msg.clessonNameKeyEqualsLessonName, Expected: 'lessonNameKey === lessonName'},
   {Name: 'cappAccountsPathIs', Actual: app_msg.cappAccountsPathIs, Expected: 'appAccountsPath is: '},
   {Name: 'cadvancementLimitSettingIs', Actual: app_msg.cadvancementLimitSettingIs, Expected: 'advancementLimitSetting is: '},
+  {Name: 'cindividualizedLessonSettingIs', Actual: app_msg.cindividualizedLessonSettingIs, Expected: 'individualizedLessonSetting is: '},
   {Name: 'callLessonsDataIs', Actual: app_msg.callLessonsDataIs, Expected: 'allLessonsData is: '},
   {Name: 'clessonPlanKeysIs', Actual: app_msg.clessonPlanKeysIs, Expected: 'lessonPlanKeys is: '},
   {Name: 'clessonKeyValueIs', Actual: app_msg.clessonKeyValueIs, Expected: 'lessonKeyValue is: '},
