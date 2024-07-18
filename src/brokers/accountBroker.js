@@ -32,7 +32,7 @@ import chalk from 'chalk';
 import path from 'path';
 
 // const { createPCMData } = pcmUtils;
-const {bas, biz, clr, cfg, gen, msg, phn, wrd} = hayConst;
+const {bas, biz, clr, cfg, gen, msg, phn, unt, wrd} = hayConst;
 const baseFileName = path.basename(import.meta.url, path.extname(import.meta.url));
 // application.haystacks-tt.brokers.accountBroker.
 const namespacePrefix = wrd.capplication + bas.cDot + apc.cApplicationName + bas.cDot + wrd.cbrokers + bas.cDot + baseFileName + bas.cDot;
@@ -683,7 +683,7 @@ async function executeLesson(lessonNumber) {
       console.log(app_msg.cLessonInstructionsMessage12 + passingAccuracyScoreLimit + bas.cPercent);
       // And a speed score of at least:
       // or higher to advance to the next lesson.
-      console.log(app_msg.clessonInstructionsMessage13 + passingSpeedScoreLimit +  wrd.cWords + bas.cSpace + phn.cPer + bas.cSpace + wrd.cMinute + bas.cSpace + app_msg.cLessonInstructionsMessage14);
+      console.log(app_msg.cLessonInstructionsMessage13 + passingSpeedScoreLimit + bas.cSpace + wrd.cWords + bas.cSpace + phn.cPer + bas.cSpace + unt.cMinute + bas.cSpace + app_msg.cLessonInstructionsMessage14);
     }
     
     // A report showing your score will display after the lesson is complete.
@@ -746,7 +746,7 @@ async function executeLesson(lessonNumber) {
       } // End-for (let individualLessonLineKey in allLessonLines)
       if (lineLessonScoresDataArray.length > 1) {
         // Must compute average values for all of the data elements for all the lines from the lesson.
-        returnData = computeAverageLessonScoreValues(lineLessonScoresDataArray);
+        returnData = computeAverageLessonScoreValues(lineLessonScoresDataArray, lessonNumber);
       } else if (lineLessonScoresDataArray.length === 1) {
         returnData = lineLessonScoresDataArray[0];
       }
@@ -972,15 +972,19 @@ async function executeLessonLine(lessonLineString) {
  * @function computeAverageLessonScoreValues
  * @description Averages all of the values across all the lines for the lesson.
  * @param {array<object>} scoresDataArray An array of JSON objects that contains all of lesson data for each line in the lesson.
+ * @param {integer} lessonNumber The number of the lesson that was executed, used to determine if the user passed the lesson or not.
+ * We need to inform the user if they got a passing score or not.
  * @return {object} A single JSON object that contains an average or sum of all the data from all of the lines of the entire lesson.
  * @author Seth Hollingsead
  * @date 2023/03/06
  */
-async function computeAverageLessonScoreValues(scoresDataArray) {
+async function computeAverageLessonScoreValues(scoresDataArray, lessonNumber) {
   let functionName = computeAverageLessonScoreValues.name;
   await haystacks.consoleLog(namespacePrefix, functionName, msg.cBEGIN_Function);
   // scoresDataArray is:
   await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cscoresDataArrayIs + JSON.stringify(scoresDataArray));
+  // lessonNumber is:
+  await haystacks.consoleLog(namespacePrefix, functionName, app_msg.clessonNumberIs + lessonNumber);
   let returnData = false;
   let lessonTimeStamp = '';
   let totalTime = 0;
@@ -1031,22 +1035,57 @@ async function computeAverageLessonScoreValues(scoresDataArray) {
     // totalWords is:
     await haystacks.consoleLog(namespacePrefix, functionName, app_msg.ctotalWordsIs + totalWords);
     // Total words is:
-    console.log(app_msg.cmessageTotalWordsIs + totalWords);
+    console.log(app_msg.cmessageTotalWordsIs + totalWords.toFixed(2));
 
     // averageWPM is:
     await haystacks.consoleLog(namespacePrefix, functionName, app_msg.caverageWpmIs + averageWPM);
     // Average WPM is:
-    console.log(app_msg.cmessageAverageWpmIs + averageWPM);
+    console.log(app_msg.cmessageAverageWpmIs + averageWPM.toFixed(2));
 
     // averageAccuracy is:
     await haystacks.consoleLog(namespacePrefix, functionName, app_msg.caverageAccuracyIs + averageAccuracy);
     // Average accuracy is:
-    console.log(app_msg.cmessageAverageAccuracyIs + averageAccuracy);
+    console.log(app_msg.cmessageAverageAccuracyIs + averageAccuracy.toFixed(2)*100 + bas.cPercent);
 
     // adjustedWpm is:
     await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cadjustedWpmIs + adjustedWpm);
     // Adjusted WPM is:
-    console.log(app_msg.cmessageAdjustedWpmIs + adjustedWpm);
+    console.log(app_msg.cmessageAdjustedWpmIs + adjustedWpm.toFixed(2));
+
+    // Now we need to compute if the users score is a passing score or not.
+    // We must inform the user if they got a passing score or not passing.
+    let lessonAdvancementScoreLimitAccuracy = await getLessonAdvancementScoreLimitAccuracy(lessonNumber);
+    // lessonAdvancementScoreLimitAccuracy is:
+    await haystacks.consoleLog(namespacePrefix, functionName, app_msg.clessonAdvancementScoreLimitAccuracyIs + lessonAdvancementScoreLimitAccuracy);
+    let lessonAdvancementScoreLimitSpeed = await getLessonAdvancementScoreLimitSpeed(lessonNumber);
+    // lessonAdvancementScoreLimitSpeed is:
+    await haystacks.consoleLog(namespacePrefix, functionName, app_msg.clessonAdvancementScoreLimitSpeedIs + lessonAdvancementScoreLimitSpeed);
+    
+    if (averageAccuracy >= lessonAdvancementScoreLimitAccuracy/100 && averageWPM >= lessonAdvancementScoreLimitSpeed) {
+      // TODO: Make sure we generate a table with many messages that match each of the verbage in the following messages.
+      // TODO: This way we can make the user feel more encouraged and less repetition in the responses.
+      // User got a passing score
+      // You PASSED! YAY!!
+      console.log(app_msg.cLessonPassedMessage);
+    } else {
+      // User did NOT get a passing score!
+      // You did not get a passing score, please try the lesson again. Practice makes perfect!
+      console.log(app_msg.cLessonNotPassedMessage);
+      if (averageAccuracy >= lessonAdvancementScoreLimitAccuracy/100) {
+        // Your accuracy is good.
+        console.log(app_msg.cLessonAccuracyGoodMessage);
+      } else {
+        // You need to improve your accuracy, make sure you go slow at first and get each key exactly correct.
+        console.log(app_msg.cLessonImproveAccuracyMessage);
+      }
+      if (averageWPM >= lessonAdvancementScoreLimitSpeed) {
+        // Your speed is good.
+        console.log(app_msg.cLessonSpeedGoodMessage);
+      } else {
+        // You need to improve your speed, it might take a many times through a lesson before you gain the confidence to type fast.
+        console.log(app_msg.cLessonImproveSpeedMessage);
+      }
+    }
 
     returnData = {};
     returnData = {
