@@ -1101,12 +1101,12 @@ async function getLessonAdvancementScoreLimitAccuracy(lessonNumber) {
   let functionName = getLessonAdvancementScoreLimitAccuracy.name;
   await haystacks.consoleLog(namespacePrefix, functionName, msg.cBEGIN_Function);
   // lessonNumber is:
-  await haystacks.consoleLog(namespacePrefix, functionName, msg.clessonNumberIs + lessonNumber);
+  await haystacks.consoleLog(namespacePrefix, functionName, app_msg.clessonNumberIs + lessonNumber);
   let returnData = 0;
   if (await isLessonAdvancementLimitEnabled() === true) {
     if (await isIndividualizedLessonPassingScoresEnabled() === true) {
       let individualLessonData = await getIndividualLessonData(lessonNumber);
-      returnData = individualLessonData[app_sys.cIndividualizedLessonPassingCriteria][app_sys.cAccuracyRequirement];
+      returnData = individualLessonData[app_sys.cIndividualizedLessonPassingCriteria][0][app_sys.cAccuracyRequirement];
     } else {
       returnData = await haystacks.getConfigurationSetting(wrd.csystem, app_cfg.clessonPlanSuccessLimitingAccuracy);
     }
@@ -1129,12 +1129,12 @@ async function getLessonAdvancementScoreLimitSpeed(lessonNumber) {
   let functionName = getLessonAdvancementScoreLimitSpeed.name;
   await haystacks.consoleLog(namespacePrefix, functionName, msg.cBEGIN_Function);
   // lessonNumber is:
-  await haystacks.consoleLog(namespacePrefix, functionName, msg.clessonNumberIs + lessonNumber);
+  await haystacks.consoleLog(namespacePrefix, functionName, app_msg.clessonNumberIs + lessonNumber);
   let returnData = 0;
   if (await isLessonAdvancementLimitEnabled() === true) {
     if (await isIndividualizedLessonPassingScoresEnabled() === true) {
       let individualLessonData = await getIndividualLessonData(lessonNumber);
-      returnData = individualLessonData[app_sys.cIndividualizedLessonPassingCriteria][app_sys.cSpeedRequirement];
+      returnData = individualLessonData[app_sys.cIndividualizedLessonPassingCriteria][0][app_sys.cSpeedRequirement];
     } else {
       returnData = await haystacks.getConfigurationSetting(wrd.csystem, app_cfg.clessonPlanSuccessLimitingSpeed);
     }
@@ -1268,7 +1268,7 @@ async function getHighestLessonNumberAboveAdvancementScoringLimit(lessonNumber) 
   let functionName = getHighestLessonNumberAboveAdvancementScoringLimit.name;
   await haystacks.consoleLog(namespacePrefix, functionName, msg.cBEGIN_Function);
   // lessonNumber is:
-  await haystacks.consoleLog(namespacePrefix, functionName, msg.clessonNumberIs + lessonNumber);
+  await haystacks.consoleLog(namespacePrefix, functionName, app_msg.clessonNumberIs + lessonNumber);
   let returnData = 0;
   if (await isLessonAdvancementLimitEnabled() === true) {
     let currentUserName = await currentUserAccount();

@@ -1,5 +1,5 @@
 {
-  "debugFiles|debugSetting.application.haystacks-tt.brokers.accountBroker": true,
+  "debugFiles|debugSetting.application.haystacks-tt.brokers.accountBroker": false,
   "debugFiles|debugSetting.application.haystacks-tt.brokers.accountBroker@ModuleFontStyle": "Bold|Underline",
   "debugFiles|debugSetting.application.haystacks-tt.brokers.accountBroker@FunctionFontStyle": "Bold|Underline",
   "debugFiles|debugSetting.application.haystacks-tt.brokers.accountBroker@MessageFontStyle": "Underline",
@@ -337,7 +337,7 @@
   "debugFunctions|debugSetting.application.haystacks-tt.brokers.accountBroker.isLessonAdvancementLimitEnabled@FunctionFontBackgroundColor": "Default",
   "debugFunctions|debugSetting.application.haystacks-tt.brokers.accountBroker.isLessonAdvancementLimitEnabled@MessageFontBackgroundColor": "Default",
   "debugFunctions|debugSetting.application.haystacks-tt.brokers.accountBroker.isLessonAdvancementLimitEnabled@DataFontBackgroundColor": "Default",
-  "debugFunctions|debugSetting.application.haystacks-tt.brokers.accountBroker.isIndividualizedLessonPassingScoresEnabled": true,
+  "debugFunctions|debugSetting.application.haystacks-tt.brokers.accountBroker.isIndividualizedLessonPassingScoresEnabled": false,
   "debugFunctions|debugSetting.application.haystacks-tt.brokers.accountBroker.isIndividualizedLessonPassingScoresEnabled@ModuleFontStyle": "Default",
   "debugFunctions|debugSetting.application.haystacks-tt.brokers.accountBroker.isIndividualizedLessonPassingScoresEnabled@FunctionFontStyle": "Default",
   "debugFunctions|debugSetting.application.haystacks-tt.brokers.accountBroker.isIndividualizedLessonPassingScoresEnabled@MessageFontStyle": "Default",
