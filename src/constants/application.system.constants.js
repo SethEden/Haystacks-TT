@@ -36,6 +36,9 @@ export const caverageAccuracy = wrd.caverage + wrd.cAccuracy; // averageAccuracy
 export const cadjustedWpm = wrd.cadjusted + bas.cWp + bas.cm; // adjustedWpm
 export const cUsername = wrd.cUser + wrd.cname; // Username
 export const cLessonNumber = wrd.cLesson + wrd.cNumber; // LessonNumber
+export const cIndividualizedLessonPassingCriteria = wrd.cIndividualized + wrd.cLesson + wrd.cPassing + wrd.cCriteria; // IndividualizedLessonPassingCriteria
+export const cAccuracyRequirement = wrd.cAccuracy + wrd.cRequirement; // AccuracyRequirement
+export const cSpeedRequirement = wrd.cSpeed + wrd.cRequirement; // SpeedRequirement
 
 // Constants Validation
 export const cresolvedConstantsPath_Application = wrd.cresolved + wrd.cConstants + wrd.cPath + bas.cUnderscore + wrd.cApplication; // resolvedConstantsPath_Application

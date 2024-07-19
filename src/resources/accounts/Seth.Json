@@ -40,6 +40,136 @@
         "averageWpm": 108.80811932024973,
         "averageAccuracy": 1,
         "adjustedWpm": 108.80811932024973
+      },
+      {
+        "lessonTimeStamp": "20240715-174420-317",
+        "totalTime": 6402,
+        "totalCorrectCharacterCount": 30,
+        "totalIncorrectCharacterCount": 3,
+        "totalWords": 6.6000000000000005,
+        "averageWpm": 69.20637716033575,
+        "averageAccuracy": 0.9166666666666666,
+        "adjustedWpm": 63.4391790636411
+      },
+      {
+        "lessonTimeStamp": "20240715-182602-945",
+        "totalTime": 5809,
+        "totalCorrectCharacterCount": 32,
+        "totalIncorrectCharacterCount": 1,
+        "totalWords": 6.6000000000000005,
+        "averageWpm": 71.4056159003842,
+        "averageAccuracy": 0.9722222222222223,
+        "adjustedWpm": 69.42212656981799
+      },
+      {
+        "lessonTimeStamp": "20240718-143948-849",
+        "totalTime": 9233,
+        "totalCorrectCharacterCount": 11,
+        "totalIncorrectCharacterCount": 22,
+        "totalWords": 6.6000000000000005,
+        "averageWpm": 45.0538962108321,
+        "averageAccuracy": 0.33888888888888885,
+        "adjustedWpm": 15.26826482700421
+      },
+      {
+        "lessonTimeStamp": "20240718-170547-819",
+        "totalTime": 15138,
+        "totalCorrectCharacterCount": 2,
+        "totalIncorrectCharacterCount": 31,
+        "totalWords": 6.6000000000000005,
+        "averageWpm": 35.47654980441553,
+        "averageAccuracy": 0.061111111111111116,
+        "adjustedWpm": 2.1680113769365046
+      },
+      {
+        "lessonTimeStamp": "20240718-170941-941",
+        "totalTime": 41957,
+        "totalCorrectCharacterCount": 2,
+        "totalIncorrectCharacterCount": 31,
+        "totalWords": 6.6000000000000005,
+        "averageWpm": 11.867932434172909,
+        "averageAccuracy": 0.06666666666666667,
+        "adjustedWpm": 0.7911954956115272
+      },
+      {
+        "lessonTimeStamp": "20240718-172051-411",
+        "totalTime": 68311,
+        "totalCorrectCharacterCount": 0,
+        "totalIncorrectCharacterCount": 33,
+        "totalWords": 6.6000000000000005,
+        "averageWpm": 6.015765397515273,
+        "averageAccuracy": 0,
+        "adjustedWpm": 0
+      },
+      {
+        "lessonTimeStamp": "20240718-172317-113",
+        "totalTime": 93782,
+        "totalCorrectCharacterCount": 32,
+        "totalIncorrectCharacterCount": 1,
+        "totalWords": 6.6000000000000005,
+        "averageWpm": 4.367383819195873,
+        "averageAccuracy": 0.9722222222222223,
+        "adjustedWpm": 4.246067601995988
+      },
+      {
+        "lessonTimeStamp": "20240718-172539-900",
+        "totalTime": 89256,
+        "totalCorrectCharacterCount": 33,
+        "totalIncorrectCharacterCount": 0,
+        "totalWords": 6.6000000000000005,
+        "averageWpm": 4.703895385935641,
+        "averageAccuracy": 1,
+        "adjustedWpm": 4.703895385935641
+      },
+      {
+        "lessonTimeStamp": "20240718-173315-071",
+        "totalTime": 111710,
+        "totalCorrectCharacterCount": 33,
+        "totalIncorrectCharacterCount": 0,
+        "totalWords": 6.6000000000000005,
+        "averageWpm": 3.99920344259216,
+        "averageAccuracy": 1,
+        "adjustedWpm": 3.99920344259216
+      },
+      {
+        "lessonTimeStamp": "20240718-173332-832",
+        "totalTime": 4230,
+        "totalCorrectCharacterCount": 0,
+        "totalIncorrectCharacterCount": 33,
+        "totalWords": 6.6000000000000005,
+        "averageWpm": 93.2570309870718,
+        "averageAccuracy": 0,
+        "adjustedWpm": 0
+      },
+      {
+        "lessonTimeStamp": "20240718-173355-248",
+        "totalTime": 6592,
+        "totalCorrectCharacterCount": 31,
+        "totalIncorrectCharacterCount": 2,
+        "totalWords": 6.6000000000000005,
+        "averageWpm": 62.12025181024246,
+        "averageAccuracy": 0.9444444444444445,
+        "adjustedWpm": 58.669126709673435
+      },
+      {
+        "lessonTimeStamp": "20240718-173520-097",
+        "totalTime": 5697,
+        "totalCorrectCharacterCount": 32,
+        "totalIncorrectCharacterCount": 1,
+        "totalWords": 6.6000000000000005,
+        "averageWpm": 76.26867712964274,
+        "averageAccuracy": 0.9722222222222223,
+        "adjustedWpm": 74.15010276493045
+      },
+      {
+        "lessonTimeStamp": "20240718-174008-704",
+        "totalTime": 5777,
+        "totalCorrectCharacterCount": 32,
+        "totalIncorrectCharacterCount": 1,
+        "totalWords": 6.6000000000000005,
+        "averageWpm": 82.73372508429242,
+        "averageAccuracy": 0.9722222222222223,
+        "adjustedWpm": 80.4355660541732
       }
     ]
   },
@@ -74,6 +204,26 @@
         "averageWpm": 72.42973239021842,
         "averageAccuracy": 0.9666666666666668,
         "adjustedWpm": 70.01540797721114
+      },
+      {
+        "lessonTimeStamp": "20240715-182625-249",
+        "totalTime": 5665,
+        "totalCorrectCharacterCount": 25,
+        "totalIncorrectCharacterCount": 2,
+        "totalWords": 5.4,
+        "averageWpm": 61.52972049351094,
+        "averageAccuracy": 0.9166666666666667,
+        "adjustedWpm": 56.40224378571837
+      },
+      {
+        "lessonTimeStamp": "20240715-182652-322",
+        "totalTime": 4560,
+        "totalCorrectCharacterCount": 27,
+        "totalIncorrectCharacterCount": 0,
+        "totalWords": 5.4,
+        "averageWpm": 73.84347825837902,
+        "averageAccuracy": 1,
+        "adjustedWpm": 73.84347825837902
       }
     ]
   },
@@ -118,11 +268,32 @@
         "averageWpm": 32.72395389069765,
         "averageAccuracy": 0.8146718146718147,
         "adjustedWpm": 26.659282899371448
+      },
+      {
+        "lessonTimeStamp": "20240716-150946-995",
+        "totalTime": 27121,
+        "totalCorrectCharacterCount": 116,
+        "totalIncorrectCharacterCount": 1,
+        "totalWords": 23.4,
+        "averageWpm": 52.523566663243706,
+        "averageAccuracy": 0.9914529914529915,
+        "adjustedWpm": 52.07464729005359
       }
     ]
   },
   {
-    "Lesson_0004": []
+    "Lesson_0004": [
+      {
+        "lessonTimeStamp": "20240716-151425-549",
+        "totalTime": 7823,
+        "totalCorrectCharacterCount": 33,
+        "totalIncorrectCharacterCount": 1,
+        "totalWords": 6.8,
+        "averageWpm": 65.0243228155165,
+        "averageAccuracy": 0.9722222222222223,
+        "adjustedWpm": 63.2180916261966
+      }
+    ]
   },
   {
     "Lesson_0005": []

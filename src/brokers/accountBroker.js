@@ -32,7 +32,7 @@ import chalk from 'chalk';
 import path from 'path';
 
 // const { createPCMData } = pcmUtils;
-const {bas, biz, clr, cfg, gen, msg, phn, wrd} = hayConst;
+const {bas, biz, clr, cfg, gen, msg, phn, unt, wrd} = hayConst;
 const baseFileName = path.basename(import.meta.url, path.extname(import.meta.url));
 // application.haystacks-tt.brokers.accountBroker.
 const namespacePrefix = wrd.capplication + bas.cDot + apc.cApplicationName + bas.cDot + wrd.cbrokers + bas.cDot + baseFileName + bas.cDot;
@@ -673,17 +673,17 @@ async function executeLesson(lessonNumber) {
     console.log(app_msg.cLessonInstructionsMessage11);
     
     if (lessonPassingScoreEnabled === true) {
-      let passingAccuracyScoreLimit = await getLessonAdvancementScoreLimitAccuracy();
+      let passingAccuracyScoreLimit = await getLessonAdvancementScoreLimitAccuracy(lessonNumber);
       // passingAccuracyScoreLimit is:
       await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cpassingAccuracyScoreLimitIs + passingAccuracyScoreLimit);
-      let passingSpeedScoreLimit = await getLessonAdvancementScoreLimitSpeed();
+      let passingSpeedScoreLimit = await getLessonAdvancementScoreLimitSpeed(lessonNumber);
       // passingSpeedScoreLimit is:
       await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cpassingSpeedScoreLimitIs + passingSpeedScoreLimit);
       // You must get an accuracy score of:
       console.log(app_msg.cLessonInstructionsMessage12 + passingAccuracyScoreLimit + bas.cPercent);
       // And a speed score of at least:
       // or higher to advance to the next lesson.
-      console.log(app_msg.clessonInstructionsMessage13 + passingSpeedScoreLimit +  wrd.cWords + bas.cSpace + phn.cPer + bas.cSpace + wrd.cMinute + bas.cSpace + app_msg.cLessonInstructionsMessage14);
+      console.log(app_msg.cLessonInstructionsMessage13 + passingSpeedScoreLimit + bas.cSpace + wrd.cWords + bas.cSpace + phn.cPer + bas.cSpace + unt.cMinute + bas.cSpace + app_msg.cLessonInstructionsMessage14);
     }
     
     // A report showing your score will display after the lesson is complete.
@@ -746,7 +746,7 @@ async function executeLesson(lessonNumber) {
       } // End-for (let individualLessonLineKey in allLessonLines)
       if (lineLessonScoresDataArray.length > 1) {
         // Must compute average values for all of the data elements for all the lines from the lesson.
-        returnData = computeAverageLessonScoreValues(lineLessonScoresDataArray);
+        returnData = computeAverageLessonScoreValues(lineLessonScoresDataArray, lessonNumber);
       } else if (lineLessonScoresDataArray.length === 1) {
         returnData = lineLessonScoresDataArray[0];
       }
@@ -972,15 +972,19 @@ async function executeLessonLine(lessonLineString) {
  * @function computeAverageLessonScoreValues
  * @description Averages all of the values across all the lines for the lesson.
  * @param {array<object>} scoresDataArray An array of JSON objects that contains all of lesson data for each line in the lesson.
+ * @param {integer} lessonNumber The number of the lesson that was executed, used to determine if the user passed the lesson or not.
+ * We need to inform the user if they got a passing score or not.
  * @return {object} A single JSON object that contains an average or sum of all the data from all of the lines of the entire lesson.
  * @author Seth Hollingsead
  * @date 2023/03/06
  */
-async function computeAverageLessonScoreValues(scoresDataArray) {
+async function computeAverageLessonScoreValues(scoresDataArray, lessonNumber) {
   let functionName = computeAverageLessonScoreValues.name;
   await haystacks.consoleLog(namespacePrefix, functionName, msg.cBEGIN_Function);
   // scoresDataArray is:
   await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cscoresDataArrayIs + JSON.stringify(scoresDataArray));
+  // lessonNumber is:
+  await haystacks.consoleLog(namespacePrefix, functionName, app_msg.clessonNumberIs + lessonNumber);
   let returnData = false;
   let lessonTimeStamp = '';
   let totalTime = 0;
@@ -1031,22 +1035,57 @@ async function computeAverageLessonScoreValues(scoresDataArray) {
     // totalWords is:
     await haystacks.consoleLog(namespacePrefix, functionName, app_msg.ctotalWordsIs + totalWords);
     // Total words is:
-    console.log(app_msg.cmessageTotalWordsIs + totalWords);
+    console.log(app_msg.cmessageTotalWordsIs + totalWords.toFixed(2));
 
     // averageWPM is:
     await haystacks.consoleLog(namespacePrefix, functionName, app_msg.caverageWpmIs + averageWPM);
     // Average WPM is:
-    console.log(app_msg.cmessageAverageWpmIs + averageWPM);
+    console.log(app_msg.cmessageAverageWpmIs + averageWPM.toFixed(2));
 
     // averageAccuracy is:
     await haystacks.consoleLog(namespacePrefix, functionName, app_msg.caverageAccuracyIs + averageAccuracy);
     // Average accuracy is:
-    console.log(app_msg.cmessageAverageAccuracyIs + averageAccuracy);
+    console.log(app_msg.cmessageAverageAccuracyIs + averageAccuracy.toFixed(2)*100 + bas.cPercent);
 
     // adjustedWpm is:
     await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cadjustedWpmIs + adjustedWpm);
     // Adjusted WPM is:
-    console.log(app_msg.cmessageAdjustedWpmIs + adjustedWpm);
+    console.log(app_msg.cmessageAdjustedWpmIs + adjustedWpm.toFixed(2));
+
+    // Now we need to compute if the users score is a passing score or not.
+    // We must inform the user if they got a passing score or not passing.
+    let lessonAdvancementScoreLimitAccuracy = await getLessonAdvancementScoreLimitAccuracy(lessonNumber);
+    // lessonAdvancementScoreLimitAccuracy is:
+    await haystacks.consoleLog(namespacePrefix, functionName, app_msg.clessonAdvancementScoreLimitAccuracyIs + lessonAdvancementScoreLimitAccuracy);
+    let lessonAdvancementScoreLimitSpeed = await getLessonAdvancementScoreLimitSpeed(lessonNumber);
+    // lessonAdvancementScoreLimitSpeed is:
+    await haystacks.consoleLog(namespacePrefix, functionName, app_msg.clessonAdvancementScoreLimitSpeedIs + lessonAdvancementScoreLimitSpeed);
+    
+    if (averageAccuracy >= lessonAdvancementScoreLimitAccuracy/100 && averageWPM >= lessonAdvancementScoreLimitSpeed) {
+      // TODO: Make sure we generate a table with many messages that match each of the verbage in the following messages.
+      // TODO: This way we can make the user feel more encouraged and less repetition in the responses.
+      // User got a passing score
+      // You PASSED! YAY!!
+      console.log(app_msg.cLessonPassedMessage);
+    } else {
+      // User did NOT get a passing score!
+      // You did not get a passing score, please try the lesson again. Practice makes perfect!
+      console.log(app_msg.cLessonNotPassedMessage);
+      if (averageAccuracy >= lessonAdvancementScoreLimitAccuracy/100) {
+        // Your accuracy is good.
+        console.log(app_msg.cLessonAccuracyGoodMessage);
+      } else {
+        // You need to improve your accuracy, make sure you go slow at first and get each key exactly correct.
+        console.log(app_msg.cLessonImproveAccuracyMessage);
+      }
+      if (averageWPM >= lessonAdvancementScoreLimitSpeed) {
+        // Your speed is good.
+        console.log(app_msg.cLessonSpeedGoodMessage);
+      } else {
+        // You need to improve your speed, it might take a many times through a lesson before you gain the confidence to type fast.
+        console.log(app_msg.cLessonImproveSpeedMessage);
+      }
+    }
 
     returnData = {};
     returnData = {
@@ -1092,16 +1131,24 @@ async function getHighestLessonCount() {
  * @function getLessonAdvancementScoreLimitAccuracy
  * @description Recovers the configuration setting for the lesson advancement score limit accuracy.
  * The accuracy that a user must get on any given lesson before advancing to the next lesson.
+ * @param {integer} lessonNumber Optional parameter that is the lesson number. Should be provided if the individualized lesson passing score is enabled.
  * @return {integer} The highest accuracy score the user must get before advancing to the next lesson.
  * @author Seth Hollingsead
  * @date 2023/03/01
  */
-async function getLessonAdvancementScoreLimitAccuracy() {
+async function getLessonAdvancementScoreLimitAccuracy(lessonNumber) {
   let functionName = getLessonAdvancementScoreLimitAccuracy.name;
   await haystacks.consoleLog(namespacePrefix, functionName, msg.cBEGIN_Function);
+  // lessonNumber is:
+  await haystacks.consoleLog(namespacePrefix, functionName, app_msg.clessonNumberIs + lessonNumber);
   let returnData = 0;
   if (await isLessonAdvancementLimitEnabled() === true) {
-    returnData = await haystacks.getConfigurationSetting(wrd.csystem, app_cfg.clessonPlanSuccessLimitingAccuracy);
+    if (await isIndividualizedLessonPassingScoresEnabled() === true) {
+      let individualLessonData = await getIndividualLessonData(lessonNumber);
+      returnData = individualLessonData[app_sys.cIndividualizedLessonPassingCriteria][0][app_sys.cAccuracyRequirement];
+    } else {
+      returnData = await haystacks.getConfigurationSetting(wrd.csystem, app_cfg.clessonPlanSuccessLimitingAccuracy);
+    }
   }
   await haystacks.consoleLog(namespacePrefix, functionName, msg.creturnDataIs + JSON.stringify(returnData));
   await haystacks.consoleLog(namespacePrefix, functionName, msg.cEND_Function);
@@ -1112,16 +1159,24 @@ async function getLessonAdvancementScoreLimitAccuracy() {
  * @function getLessonAdvancementScoreLimitSpeed
  * @description Recovers the configuration setting for the lesson advancement score limit speed.
  * The speed that a user must get on any given lesson before advancing to the next lesson.
+ * @param {integer} lessonNumber Optional parameter that is the lesson number. Should be provided if the individualized lesson passing score is enabled.
  * @return {integer} The highest speed score the user must get before advancing to the next lesson.
  * @author Seth Hollingsead
  * @date 2023/03/07
  */
-async function getLessonAdvancementScoreLimitSpeed() {
+async function getLessonAdvancementScoreLimitSpeed(lessonNumber) {
   let functionName = getLessonAdvancementScoreLimitSpeed.name;
   await haystacks.consoleLog(namespacePrefix, functionName, msg.cBEGIN_Function);
+  // lessonNumber is:
+  await haystacks.consoleLog(namespacePrefix, functionName, app_msg.clessonNumberIs + lessonNumber);
   let returnData = 0;
   if (await isLessonAdvancementLimitEnabled() === true) {
-    returnData = await haystacks.getConfigurationSetting(wrd.csystem, app_cfg.clessonPlanSuccessLimitingSpeed);
+    if (await isIndividualizedLessonPassingScoresEnabled() === true) {
+      let individualLessonData = await getIndividualLessonData(lessonNumber);
+      returnData = individualLessonData[app_sys.cIndividualizedLessonPassingCriteria][0][app_sys.cSpeedRequirement];
+    } else {
+      returnData = await haystacks.getConfigurationSetting(wrd.csystem, app_cfg.clessonPlanSuccessLimitingSpeed);
+    }
   }
   await haystacks.consoleLog(namespacePrefix, functionName, msg.creturnDataIs + JSON.stringify(returnData));
   await haystacks.consoleLog(namespacePrefix, functionName, msg.cEND_Function);
@@ -1144,6 +1199,28 @@ async function isLessonAdvancementLimitEnabled() {
   await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cadvancementLimitSettingIs + advancementLimitSetting);
   if (advancementLimitSetting) {
     returnData = advancementLimitSetting;
+  }
+  await haystacks.consoleLog(namespacePrefix, functionName, msg.creturnDataIs + JSON.stringify(returnData));
+  await haystacks.consoleLog(namespacePrefix, functionName, msg.cEND_Function);
+  return returnData;
+}
+
+/**
+ * @function isIndividualizedLessonPassingScoresEnabled
+ * @description Recovers the configuration setting that determines if the user has enabled of disabled the individualized lesson passing score settings.
+ * @return {boolean} True or False to indicate the state of the configuration setting.
+ * @author Seth Hollingsead
+ * @date 2024/07/15
+ */
+async function isIndividualizedLessonPassingScoresEnabled() {
+  let functionName = isIndividualizedLessonPassingScoresEnabled.name;
+  await haystacks.consoleLog(namespacePrefix, functionName, msg.cBEGIN_Function);
+  let returnData = false;
+  let individualizedLessonSetting = await haystacks.getConfigurationSetting(wrd.csystem, app_cfg.cenableIndividualizedLessonPassingScores);
+  // individualizedLessonSetting is:
+  await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cindividualizedLessonSettingIs + individualizedLessonSetting);
+  if (individualizedLessonSetting) {
+    returnData = individualizedLessonSetting;
   }
   await haystacks.consoleLog(namespacePrefix, functionName, msg.creturnDataIs + JSON.stringify(returnData));
   await haystacks.consoleLog(namespacePrefix, functionName, msg.cEND_Function);
@@ -1221,21 +1298,18 @@ async function getHighestScoringDataObjectForLesson(lessonNumber, inputUserName)
  * @description Uses the currently logged in user to scan the users data and determine what is
  * the highest lesson number with a score above the lesson advancement limit, if the advancement limit is enabled.
  * If the limit is not enabled, then the function returns the highest number of lessons that are currently implemented and loaded in the system.
+ * @param {integer} lessonNumber Optional parameter that is the lesson number. Should be provided if the individualized lesson passing score is enabled.
  * @return {integer} Returns the lesson number with the highest passing score, or the number of lessons in the system, if the passing score is disabled.
  * @author Seth Hollingsead
  * @date 2023/03/01
  */
-async function getHighestLessonNumberAboveAdvancementScoringLimit() {
+async function getHighestLessonNumberAboveAdvancementScoringLimit(lessonNumber) {
   let functionName = getHighestLessonNumberAboveAdvancementScoringLimit.name;
   await haystacks.consoleLog(namespacePrefix, functionName, msg.cBEGIN_Function);
+  // lessonNumber is:
+  await haystacks.consoleLog(namespacePrefix, functionName, app_msg.clessonNumberIs + lessonNumber);
   let returnData = 0;
   if (await isLessonAdvancementLimitEnabled() === true) {
-    let accuracyLimit = await getLessonAdvancementScoreLimitAccuracy();
-    // accuracyLimit is:
-    await haystacks.consoleLog(namespacePrefix, functionName, app_msg.caccuracyLimitIs + accuracyLimit);
-    let speedLimit = await getLessonAdvancementScoreLimitSpeed();
-    // speedLimit is:
-    await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cspeedLimitIs + speedLimit);
     let currentUserName = await currentUserAccount();
     // currentUserName is:
     await haystacks.consoleLog(namespacePrefix, functionName, app_msg.ccurrentUserNameIs + currentUserName);
@@ -1246,6 +1320,12 @@ async function getHighestLessonNumberAboveAdvancementScoringLimit() {
     // lessonCount is:
     await haystacks.consoleLog(namespacePrefix, functionName, app_msg.clessonCountIs + lessonCount);
     for (let i = 1; i < lessonCount; i++) {
+      let accuracyLimit = await getLessonAdvancementScoreLimitAccuracy(i);
+      // accuracyLimit is:
+      await haystacks.consoleLog(namespacePrefix, functionName, app_msg.caccuracyLimitIs + accuracyLimit);
+      let speedLimit = await getLessonAdvancementScoreLimitSpeed(i);
+      // speedLimit is:
+      await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cspeedLimitIs + speedLimit);
       let highestScoreForLesson = await getHighestScoringDataObjectForLesson(i, '');
       // highestScoreForLesson is:
       await haystacks.consoleLog(namespacePrefix, functionName, app_msg.chighestScoreForLessonIs + JSON.stringify(highestScoreForLesson));
@@ -1280,7 +1360,7 @@ async function getHighestLessonNumberAboveAdvancementScoringLimit() {
 /**
  * @function generateUserReport
  * @description Generates a report for the currently logged in user that shows
- * which tests they has passed and which ones they have not yet passed.
+ * which tests they have passed and which ones they have not yet passed.
  * @param {string} inputUserName An optional input parameter that allows the caller to specify the user name.
  * Rather than requiring the user to be logged in.
  * @return {array<array<string>,array<object>>} An array of arrays that contain
@@ -1299,12 +1379,6 @@ async function generateUserReport(inputUserName) {
   let passMessage = wrd.cPass;
   let failMessage = wrd.cFail;
   let passFailLabel = wrd.cPass + bas.cDash + wrd.cFail;
-  let accuracyLimit = await getLessonAdvancementScoreLimitAccuracy();
-  // accuracyLimit is:
-  await haystacks.consoleLog(namespacePrefix, functionName, app_msg.caccuracyLimitIs + accuracyLimit);
-  let speedLimit = await getLessonAdvancementScoreLimitSpeed();
-  // speedLimit is:
-  await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cspeedLimitIs + speedLimit);
   if (inputUserName === '') {
     currentUserName = await currentUserAccount();
   } else {
@@ -1320,6 +1394,12 @@ async function generateUserReport(inputUserName) {
     // lessonCount is:
     await haystacks.consoleLog(namespacePrefix, functionName, app_msg.clessonCountIs + lessonCount);
     for (let i = 1; i < lessonCount; i++) {
+      let accuracyLimit = await getLessonAdvancementScoreLimitAccuracy(i);
+      // accuracyLimit is:
+      await haystacks.consoleLog(namespacePrefix, functionName, app_msg.caccuracyLimitIs + accuracyLimit);
+      let speedLimit = await getLessonAdvancementScoreLimitSpeed(i);
+      // speedLimit is:
+      await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cspeedLimitIs + speedLimit);
       let individualLessonName = await getIndividualLessonName(i);
       // individualLessonName is:
       await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cindividualLessonNameIs + individualLessonName);
@@ -1378,12 +1458,6 @@ async function generateReportAllUsers() {
   let allAccountsData = await getAccountData();
   // allAccountsData is:
   await haystacks.consoleLog(namespacePrefix, functionName, app_msg.callAccountsDataIs + JSON.stringify(allAccountsData));
-  let accuracyLimit = await getLessonAdvancementScoreLimitAccuracy();
-  // accuracyLimit is:
-  await haystacks.consoleLog(namespacePrefix, functionName, app_msg.caccuracyLimitIs + accuracyLimit);
-  let speedLimit = await getLessonAdvancementScoreLimitSpeed();
-  // speedLimit is:
-  await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cspeedLimitIs + speedLimit);
   let lessonCount = await getLessonCount();
   // lessonCount is:
   await haystacks.consoleLog(namespacePrefix, functionName, app_msg.clessonCountIs + lessonCount);
@@ -1398,6 +1472,12 @@ async function generateReportAllUsers() {
     // userAccountData is:
     await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cuserAccountDataIs + JSON.stringify(userAccountData));
     for (let i = 1; i < lessonCount; i++) {
+       let accuracyLimit = await getLessonAdvancementScoreLimitAccuracy(i);
+      // accuracyLimit is:
+      await haystacks.consoleLog(namespacePrefix, functionName, app_msg.caccuracyLimitIs + accuracyLimit);
+      let speedLimit = await getLessonAdvancementScoreLimitSpeed(i);
+      // speedLimit is:
+      await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cspeedLimitIs + speedLimit);
       let highestScoreForLesson = await getHighestScoringDataObjectForLesson(i, currentUserName);
       // highestScoreForLesson is:
       await haystacks.consoleLog(namespacePrefix, functionName, app_msg.chighestScoreForLessonIs + JSON.stringify(highestScoreForLesson));
@@ -1460,6 +1540,7 @@ export default {
   getLessonAdvancementScoreLimitAccuracy,
   getLessonAdvancementScoreLimitSpeed,
   isLessonAdvancementLimitEnabled,
+  isIndividualizedLessonPassingScoresEnabled,
   getHighestScoringDataObjectForLesson,
   getHighestLessonNumberAboveAdvancementScoringLimit,
   generateUserReport,

@@ -297,13 +297,20 @@ async function startLesson(inputData, inputMetaData) {
         // lessonPassingScoreEnabled is:
         await haystacks.consoleLog(namespacePrefix, functionName, app_msg.clessonPassingScoreEnabledIs + lessonPassingScoreEnabled);
         if (lessonPassingScoreEnabled === true) {
-          let lessonAdvancementScoreLimitAccuracy = await accountBroker.getLessonAdvancementScoreLimitAccuracy();
+          let individualizedLessonSetting = await accountBroker.isIndividualizedLessonPassingScoresEnabled();
+          // individualizedLessonSetting is:
+          await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cindividualizedLessonSettingIs + individualizedLessonSetting);
+          // NOTE: All of the below functions to control if the user is allowed to load the next requested lesson or not,
+          // should always function the same way if the user is using the individualized lesson passing scores or,
+          // the universally defined lesson passing scores. The lower level code will have been refactored internally.
+          // Even the above code may need to be evaluated to be removed from this code here.
+          let lessonAdvancementScoreLimitAccuracy = await accountBroker.getLessonAdvancementScoreLimitAccuracy(userLessonNumber);
           // lessonAdvancementScoreLimitAccuracy is:
           await haystacks.consoleLog(namespacePrefix, functionName, app_msg.clessonAdvancementScoreLimitAccuracyIs + lessonAdvancementScoreLimitAccuracy);
-          let lessonAdvancementScoreLimitSpeed = await accountBroker.getLessonAdvancementScoreLimitSpeed();
+          let lessonAdvancementScoreLimitSpeed = await accountBroker.getLessonAdvancementScoreLimitSpeed(userLessonNumber);
           // lessonAdvancementScoreLimitSpeed is:
           await haystacks.consoleLog(namespacePrefix, functionName, app_msg.clessonAdvancementScoreLimitSpeedIs + lessonAdvancementScoreLimitSpeed);
-          let highestScoringLessonAboveAdvancementLimit = await accountBroker.getHighestLessonNumberAboveAdvancementScoringLimit();
+          let highestScoringLessonAboveAdvancementLimit = await accountBroker.getHighestLessonNumberAboveAdvancementScoringLimit(userLessonNumber);
           // highestScoringLessonAboveAdvancementLimit is:
           await haystacks.consoleLog(namespacePrefix, functionName, app_msg.chighestScoringLessonAboveAdvancementLimitIs + highestScoringLessonAboveAdvancementLimit);
           // Validate that the user is trying to execute a lesson a maximum of 1 lesson above the highest lesson number that has a passing score.

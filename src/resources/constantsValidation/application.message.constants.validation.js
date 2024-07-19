@@ -86,6 +86,7 @@ export const applicationMessageConstantsValidation = [
   {Name: 'clessonNameKeyEqualsLessonName', Actual: app_msg.clessonNameKeyEqualsLessonName, Expected: 'lessonNameKey === lessonName'},
   {Name: 'cappAccountsPathIs', Actual: app_msg.cappAccountsPathIs, Expected: 'appAccountsPath is: '},
   {Name: 'cadvancementLimitSettingIs', Actual: app_msg.cadvancementLimitSettingIs, Expected: 'advancementLimitSetting is: '},
+  {Name: 'cindividualizedLessonSettingIs', Actual: app_msg.cindividualizedLessonSettingIs, Expected: 'individualizedLessonSetting is: '},
   {Name: 'callLessonsDataIs', Actual: app_msg.callLessonsDataIs, Expected: 'allLessonsData is: '},
   {Name: 'clessonPlanKeysIs', Actual: app_msg.clessonPlanKeysIs, Expected: 'lessonPlanKeys is: '},
   {Name: 'clessonKeyValueIs', Actual: app_msg.clessonKeyValueIs, Expected: 'lessonKeyValue is: '},
@@ -142,6 +143,15 @@ export const applicationMessageConstantsValidation = [
   {Name: 'cgenerateUserReportMessage02', Actual: app_msg.cgenerateUserReportMessage02, Expected: 'ERROR: User is not logged in, cannot generate user report.'},
   {Name: 'cgenerateUserReportMessage03', Actual: app_msg.cgenerateUserReportMessage03, Expected: 'Login to an account and try again.'},
   {Name: 'cprintRecordsMessage01', Actual: app_msg.cprintRecordsMessage01, Expected: 'Haystacks Typing Tutor users report:'},
+  // ****************************************************************************************************
+  // Pass-Fail user messages
+  {Name: 'cLessonPassedMessage', Actual: app_msg.cLessonPassedMessage, Expected: 'You PASSED! YAY!!'},
+  {Name: 'cLessonNotPassedMessage', Actual: app_msg.cLessonNotPassedMessage, Expected: 'You did not get a passing score, please try the lesson again. Practice makes perfect!'},
+  {Name: 'cLessonAccuracyGoodMessage', Actual: app_msg.cLessonAccuracyGoodMessage, Expected: 'Your accuracy is good.'},
+  {Name: 'cLessonImproveAccuracyMessage', Actual: app_msg.cLessonImproveAccuracyMessage, Expected: 'You need to improve your accuracy, make sure you go slow at first and get each key exactly correct.'},
+  {Name: 'cLessonSpeedGoodMessage', Actual: app_msg.cLessonSpeedGoodMessage, Expected: 'Your speed is good.'},
+  {Name: 'cLessonImproveSpeedMessage', Actual: app_msg.cLessonImproveSpeedMessage, Expected: 'You need to improve your speed, it might take many times through a lesson before you gain the confidence to type fast.'},
+
   {Name: 'cmessageLessonTimeStampIs', Actual: app_msg.cmessageLessonTimeStampIs, Expected: 'Lesson time stamp is: '},
   {Name: 'cmessageTotalTimeIs', Actual: app_msg.cmessageTotalTimeIs, Expected: 'Total time is: '},
   {Name: 'cmessageTotalCorrectCharacterCountIs', Actual: app_msg.cmessageTotalCorrectCharacterCountIs, Expected: 'Total correct character count is: '},
