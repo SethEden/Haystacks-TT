@@ -89,6 +89,7 @@ export const cusersLessonDataAfterPushIs = wrd.cusers + wrd.cLesson + wrd.cData 
 export const clessonNameKeyEqualsLessonName = wrd.clesson + wrd.cName + wrd.cKey + bas.cSpace + bas.cEqualEqualEqual + bas.cSpace + wrd.clesson + wrd.cName; // lessonNameKey === lessonName
 export const cappAccountsPathIs = wrd.capp + wrd.cAccounts + wrd.cPath + sys.cSpaceIsColonSpace; // appAccountsPath is:
 export const cadvancementLimitSettingIs = wrd.cadvancement + wrd.cLimit + wrd.cSetting + sys.cSpaceIsColonSpace; // advancementLimitSetting is:
+export const cindividualizedLessonSettingIs = wrd.cindividualized + wrd.cLesson + wrd.cSetting + sys.cSpaceIsColonSpace; // individualizedLessonSetting is:
 export const callLessonsDataIs = wrd.call + wrd.cLessons + wrd.cData + sys.cSpaceIsColonSpace; // allLessonsData is:
 export const clessonPlanKeysIs = wrd.clesson + wrd.cPlan + wrd.cKeys + sys.cSpaceIsColonSpace; // lessonPlanKeys is:
 export const clessonKeyValueIs = wrd.clesson + wrd.cKey + wrd.cValue + sys.cSpaceIsColonSpace; // lessonKeyValue is:
@@ -165,6 +166,17 @@ export const cgenerateUserReportMessage01 = wrd.cHaystacks + bas.cSpace + wrd.cT
 export const cgenerateUserReportMessage02 = msg.cERROR_Colon + wrd.cUser + bas.cSpace + wrd.cis + bas.cSpace + wrd.cnot + bas.cSpace + wrd.clogged + bas.cSpace + wrd.cin + bas.cComa + bas.cSpace + wrd.ccannot + bas.cSpace + wrd.cgenerate + bas.cSpace + wrd.cuser + bas.cSpace + wrd.creport + bas.cDot; // ERROR: User is not logged in, cannot generate user report.
 export const cgenerateUserReportMessage03 = wrd.cLogin + bas.cSpace + wrd.cto + bas.cSpace + wrd.can + bas.cSpace + wrd.caccount + bas.cSpace + wrd.cand + bas.cSpace + wrd.ctry + bas.cSpace + wrd.cagain + bas.cDot; // Login to an account and try again.
 export const cprintRecordsMessage01 = wrd.cHaystacks + bas.cSpace + wrd.cTyping + bas.cSpace + wrd.cTutor + bas.cSpace + wrd.cusers + bas.cSpace + wrd.creport + bas.cColon; // Haystacks Typing Tutor users report:
+// ****************************************************************************************************
+// Pass-Fail user messages
+export const cLessonPassedMessage = wrd.cYou + bas.cSpace + wrd.cPASSED + bas.cExclamation + bas.cSpace + wrd.cYAY + bas.cExclamation.repeat(2); // You PASSED! YAY!!
+// You did not get a passing score, please try the lesson again. Practice makes perfect!
+export const cLessonNotPassedMessage = wrd.cYou + bas.cSpace + wrd.cdid + bas.cSpace + wrd.cnot + bas.cSpace + wrd.cget + bas.cSpace + bas.ca + bas.cSpace + wrd.cpassing + bas.cSpace + wrd.cscore + bas.cComa + bas.cSpace + wrd.cplease + bas.cSpace + wrd.ctry + bas.cSpace + wrd.cthe + bas.cSpace + wrd.clesson + bas.cSpace + wrd.cagain + bas.cDot + bas.cSpace + wrd.cPractice + bas.cSpace + wrd.cmakes + bas.cSpace + wrd.cperfect + bas.cExclamation;
+export const cLessonAccuracyGoodMessage = wrd.cYour + bas.cSpace + wrd.caccuracy + bas.cSpace + wrd.cis + bas.cSpace + wrd.cgood + bas.cDot; // Your accuracy is good.
+// You need to improve your accuracy, make sure you go slow at first and get each key exactly correct.
+export const cLessonImproveAccuracyMessage = wrd.cYou + bas.cSpace + wrd.cneed + bas.cSpace + wrd.cto + bas.cSpace + wrd.cimprove + bas.cSpace + wrd.cyour + bas.cSpace + wrd.caccuracy + bas.cComa + bas.cSpace + wrd.cmake + bas.cSpace + wrd.csure + bas.cSpace + wrd.cyou + bas.cSpace + wrd.cgo + bas.cSpace + wrd.cslow + bas.cSpace + wrd.cat + bas.cSpace + num.cfirst + bas.cSpace + wrd.cand + bas.cSpace + wrd.cget + bas.cSpace + wrd.ceach + bas.cSpace + wrd.ckey + bas.cSpace + wrd.cexactly + bas.cSpace + wrd.ccorrect + bas.cDot;
+export const cLessonSpeedGoodMessage = wrd.cYour + bas.cSpace + wrd.cspeed + bas.cSpace + wrd.cis + bas.cSpace + wrd.cgood + bas.cDot; // Your speed is good.
+// You need to improve your speed, it might take many times through a lesson before you gain the confidence to type fast.
+export const cLessonImproveSpeedMessage = wrd.cYou + bas.cSpace + wrd.cneed + bas.cSpace + wrd.cto + bas.cSpace + wrd.cimprove + bas.cSpace + wrd.cyour + bas.cSpace + wrd.cspeed + bas.cComa + bas.cSpace + wrd.cit + bas.cSpace + wrd.cmight + bas.cSpace + wrd.ctake + bas.cSpace + wrd.cmany + bas.cSpace + wrd.ctimes + bas.cSpace + wrd.cthrough + bas.cSpace + bas.ca + bas.cSpace + wrd.clesson + bas.cSpace + wrd.cbefore + bas.cSpace + wrd.cyou + bas.cSpace + wrd.cgain + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cconfidence + bas.cSpace + wrd.cto + bas.cSpace + wrd.ctype + bas.cSpace + wrd.cfast + bas.cDot;
 
 export const cmessageLessonTimeStampIs = wrd.cLesson + bas.cSpace + wrd.ctime + bas.cSpace + wrd.cstamp + sys.cSpaceIsColonSpace; // Lesson time stamp is:
 export const cmessageTotalTimeIs = wrd.cTotal + bas.cSpace + wrd.ctime + sys.cSpaceIsColonSpace; // Total time is:
