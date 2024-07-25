@@ -8,15 +8,424 @@
         "AccuracyRequirement": 70.0,
         "SpeedRequirement": 15
       }],
-      "Description": "Keys f & j",
+      "Description": "Hello World in JavaScript",
       "Lines": [{
-        "Line_01": "fj fj",
-        "Line_02": "fffjjj",
-        "Line_03": "jjjfff",
-        "Line_04": "jjffjj",
-        "Line_05": "fjjfjf",
-        "Line_06": "jfjf"
+        "Line_01": "console.log('Hello, World!');",
+        "Line_02": "function greet() {",
+        "Line_03": "  return 'Hello, World!';",
+        "Line_04": "}",
+        "Line_05": "let message = greet();",
+        "Line_06": "console.log(message);",
+        "Line_07": "if (message === 'Hello, World!') {",
+        "Line_08": "  console.log('Greeting confirmed.');",
+        "Line_09": "} else {",
+        "Line_10": "  console.log('Unexpected greeting.');",
+        "Line_11": "}"
       }]
-    }
+    },
+    "Lesson_0002": {
+      "Name": "Lesson_0002",
+      "Number": 2,
+      "IndividualizedLessonPassingCriteria": [{
+        "AccuracyRequirement": 70.0,
+        "SpeedRequirement": 15
+      }],
+      "Description": "Bubble Sort function in JavaScript",
+      "Lines": [{
+        "Line_01": "function bubbleSort(arr) {",
+        "Line_02": "  let len = arr.length;",
+        "Line_03": "  for (let i = 0; i < len; i++) {",
+        "Line_04": "    for (let j = 0; j < len - i - 1; j++) {",
+        "Line_05": "      if (arr[j] > arr[j + 1]) {",
+        "Line_06": "        let temp = arr[j];",
+        "Line_07": "        arr[j] = arr[j + 1];",
+        "Line_08": "        arr[j + 1] = temp;",
+        "Line_09": "      }",
+        "Line_10": "    }",
+        "Line_11": "  }",
+        "Line_12": "  return arr;",
+        "Line_13": "}"
+      }]
+    },
+    "Lesson_0003": {
+      "Name": "Lesson_0003",
+      "Number": 3,
+      "IndividualizedLessonPassingCriteria": [{
+        "AccuracyRequirement": 70.0,
+        "SpeedRequirement": 15
+      }],
+      "Description": "Recursive Factorial Function in JavaScript",
+      "Lines": [{
+        "Line_01": "function factorial(n) {",
+        "Line_02": "  if (n === 0) {",
+        "Line_03": "    return 1;",
+        "Line_04": "  } else {",
+        "Line_05": "    return n * factorial(n - 1);",
+        "Line_06": "  }",
+        "Line_07": "}",
+        "Line_08": "let result = factorial(5);",
+        "Line_09": "console.log(result);"
+      }]
+    },
+    "Lesson_0004": {
+      "Name": "Lesson_0004",
+      "Number": 4,
+      "IndividualizedLessonPassingCriteria": [{
+        "AccuracyRequirement": 70.0,
+        "SpeedRequirement": 15
+      }],
+      "Description": "Constants",
+      "Lines": [{
+        "Line_01": "export const ccreateAccount = 'createAccount';",
+        "Line_02": "export const cprintAccountsData = 'printAccountsData';",
+        "Line_03": "export const cprintAccountData = 'printAccountData';",
+        "Line_04": "export const cdeleteAccount = 'deleteAccount';",
+        "Line_05": "export const clogin = 'login';",
+        "Line_06": "export const clogout = 'logout';",
+        "Line_07": "export const cstartLesson = 'startLesson';",
+        "Line_08": "export const cgenerateUserReport = 'generateUserReport';",
+        "Line_09": "export const cprintRecords = 'printRecords';",
+        "Line_10": "export const cdestroyRecords = 'destroyRecords';"
+      }]
+    },
+    "Lesson_0005": {
+      "Name": "Lesson_0005",
+      "Number": 5,
+      "IndividualizedLessonPassingCriteria": [{
+        "AccuracyRequirement": 70.0,
+        "SpeedRequirement": 15
+      }],
+      "Description": "Basic Variables in JavaScript",
+      "Lines": [{
+        "Line_01": "let name = 'John';",
+        "Line_02": "const age = 30;",
+        "Line_03": "var isStudent = true;",
+        "Line_04": "let city = 'New York';",
+        "Line_05": "const country = 'USA';",
+        "Line_06": "var grade = 'A';",
+        "Line_07": "let height = 5.9;",
+        "Line_08": "const PI = 3.14;",
+        "Line_09": "var score = 100;",
+        "Line_10": "let isActive = false;"
+      }]
+    },
+    "Lesson_0006": {
+      "Name": "Lesson_0006",
+      "Number": 6,
+      "IndividualizedLessonPassingCriteria": [{
+        "AccuracyRequirement": 70.0,
+        "SpeedRequirement": 15
+      }],
+      "Description": "Math Operations in JavaScript",
+      "Lines": [{
+        "Line_01": "let sum = 5 + 3;",
+        "Line_02": "let difference = 10 - 6;",
+        "Line_03": "let product = 4 * 7;",
+        "Line_04": "let quotient = 20 / 5;",
+        "Line_05": "let remainder = 10 % 3;",
+        "Line_06": "let power = 2 ** 3;",
+        "Line_07": "let increment = 5;",
+        "Line_08": "++preIncrement;",
+        "Line_09": "postIncrement++;",
+        "Line_10": "let decrement = 5;",
+        "Line_11": "--preDecrement;",
+        "Line_12": "postDecrement--;"
+      }]
+    },
+    "Lesson_0007": {
+      "Name": "Lesson_0007",
+      "Number": 7,
+      "IndividualizedLessonPassingCriteria": [{
+        "AccuracyRequirement": 70.0,
+        "SpeedRequirement": 15
+      }],
+      "Description": "String Concatenation in JavaScript",
+      "Lines": [{
+        "Line_01": "let firstName = 'John';",
+        "Line_02": "let lastName = 'Doe';",
+        "Line_03": "let fullName = firstName + ' ' + lastName;",
+        "Line_04": "let greeting = 'Hello, ' + fullName + '!';",
+        "Line_05": "let city = 'New York';",
+        "Line_06": "let message = 'Welcome to ' + city + '.';",
+        "Line_07": "let age = 30;",
+        "Line_08": "let ageMessage = 'You are ' + age + ' years old.';",
+        "Line_09": "let intro = 'My name is ' + firstName + '.';",
+        "Line_10": "let hobby = 'I enjoy ' + 'coding' + '.';"
+      }]
+    },
+    "Lesson_0008": {
+      "Name": "Lesson_0008",
+      "Number": 8,
+      "IndividualizedLessonPassingCriteria": [{
+        "AccuracyRequirement": 70.0,
+        "SpeedRequirement": 15
+      }],
+      "Description": "Conditional Statements in JavaScript",
+      "Lines": [{
+        "Line_01": "let age = 20;",
+        "Line_02": "if (age >= 18) {",
+        "Line_03": "  console.log('Adult');",
+        "Line_04": "} else {",
+        "Line_05": "  console.log('Minor');",
+        "Line_06": "}",
+        "Line_07": "let score = 85;",
+        "Line_08": "if (score >= 90) {",
+        "Line_09": "  console.log('A');",
+        "Line_10": "} else if (score >= 80) {",
+        "Line_11": "  console.log('B');",
+        "Line_12": "} else {",
+        "Line_13": "  console.log('C');",
+        "Line_14": "}",
+        "Line_15": "let isMember = true;",
+        "Line_16": "if (isMember) {",
+        "Line_17": "  console.log('Welcome member!');",
+        "Line_18": "} else {",
+        "Line_19": "  console.log('Sign up for membership.');",
+        "Line_20": "}"
+      }]
+    },
+    "Lesson_0009": {
+      "Name": "Lesson_0009",
+      "Number": 9,
+      "IndividualizedLessonPassingCriteria": [{
+        "AccuracyRequirement": 70.0,
+        "SpeedRequirement": 15
+      }],
+      "Description": "For Loops & Nested For Loops in JavaScript",
+      "Lines": [{
+        "Line_01": "for (let i = 0; i < 5; i++) {",
+        "Line_02": "  console.log('Iteration ' + i);",
+        "Line_03": "}",
+        "Line_04": "for (let i = 1; i <= 3; i++) {",
+        "Line_05": "  for (let j = 1; j <= 3; j++) {",
+        "Line_06": "    console.log('i=' + i + ', j=' + j);",
+        "Line_07": "  }",
+        "Line_08": "}",
+        "Line_09": "let sum = 0;",
+        "Line_10": "for (let k = 1; k <= 10; k++) {",
+        "Line_11": "  sum += k;",
+        "Line_12": "}",
+        "Line_13": "console.log('Total sum is ' + sum);",
+        "Line_14": "for (let a = 0; a < 2; a++) {",
+        "Line_15": "  for (let b = 0; b < 2; b++) {",
+        "Line_16": "    console.log('Nested loop ' + a + ',' + b);",
+        "Line_17": "  }",
+        "Line_18": "}"
+      }]
+    },
+    "Lesson_0010": {
+      "Name": "Lesson_0010",
+      "Number": 10,
+      "IndividualizedLessonPassingCriteria": [{
+        "AccuracyRequirement": 70.0,
+        "SpeedRequirement": 15
+      }],
+      "Description": "While Loops in JavaScript",
+      "Lines": [{
+        "Line_01": "let count = 0;",
+        "Line_02": "while (count < 5) {",
+        "Line_03": "  console.log('Count is ' + count);",
+        "Line_04": "  count++;",
+        "Line_05": "}",
+        "Line_06": "let sum = 0;",
+        "Line_07": "let number = 1;",
+        "Line_08": "while (number <= 10) {",
+        "Line_09": "  sum += number;",
+        "Line_10": "  number++;",
+        "Line_11": "}",
+        "Line_12": "console.log('Total sum is ' + sum);",
+        "Line_13": "let n = 5;",
+        "Line_14": "while (n > 0) {",
+        "Line_15": "  console.log('n is ' + n);",
+        "Line_16": "  n--;",
+        "Line_17": "}",
+        "Line_18": "let i = 0;",
+        "Line_19": "while (i < 3) {",
+        "Line_20": "  console.log('Iteration ' + i);",
+        "Line_21": "  i++;",
+        "Line_22": "}"
+      }]
+    },
+    "Lesson_0011": {
+      "Name": "Lesson_0011",
+      "Number": 11,
+      "IndividualizedLessonPassingCriteria": [{
+        "AccuracyRequirement": 70.0,
+        "SpeedRequirement": 15
+      }],
+      "Description": "Arrays Basics in JavaScript",
+      "Lines": [{
+        "Line_01": "let fruits = ['apple', 'banana', 'cherry'];",
+        "Line_02": "console.log(fruits[0]);",
+        "Line_03": "console.log(fruits[1]);",
+        "Line_04": "console.log(fruits[2]);",
+        "Line_05": "fruits.push('date');",
+        "Line_06": "console.log(fruits);",
+        "Line_07": "fruits.pop();",
+        "Line_08": "console.log(fruits);",
+        "Line_09": "let numbers = [1, 2, 3, 4, 5];",
+        "Line_10": "for (let i = 0; i < numbers.length; i++) {",
+        "Line_11": "  console.log(numbers[i]);",
+        "Line_12": "}",
+        "Line_13": "let mixed = ['text', 10, true];",
+        "Line_14": "console.log(mixed[0]);",
+        "Line_15": "console.log(mixed[1]);",
+        "Line_16": "console.log(mixed[2]);"
+      }]
+    },
+    "Lesson_0012": {
+      "Name": "Lesson_0012",
+      "Number": 12,
+      "IndividualizedLessonPassingCriteria": [{
+        "AccuracyRequirement": 70.0,
+        "SpeedRequirement": 15
+      }],
+      "Description": "Array Methods in JavaScript",
+      "Lines": [{
+        "Line_01": "let numbers = [1, 2, 3, 4, 5];",
+        "Line_02": "let doubled = numbers.map(x => x * 2);",
+        "Line_03": "console.log(doubled);",
+        "Line_04": "let filtered = numbers.filter(x => x % 2 === 0);",
+        "Line_05": "console.log(filtered);",
+        "Line_06": "let sum = numbers.reduce((acc, curr) => acc + curr, 0);",
+        "Line_07": "console.log(sum);",
+        "Line_08": "let first = numbers.find(x => x > 3);",
+        "Line_09": "console.log(first);",
+        "Line_10": "numbers.forEach(x => console.log(x));",
+        "Line_11": "let sorted = numbers.sort((a, b) => a - b);",
+        "Line_12": "console.log(sorted);",
+        "Line_13": "let joined = numbers.join(', ');",
+        "Line_14": "console.log(joined);",
+        "Line_15": "numbers.push(6);",
+        "Line_16": "console.log(numbers);",
+        "Line_17": "numbers.pop();",
+        "Line_18": "console.log(numbers);"
+      }]
+    },
+
+
+
+
+
+
+
+    "Lesson_0304": {
+      "Name": "Lesson_0304",
+      "Number": 304,
+      "IndividualizedLessonPassingCriteria": [{
+        "AccuracyRequirement": 70.0,
+        "SpeedRequirement": 15
+      }],
+      "Description": "JavaScript File Header",
+      "Lines": [{
+        "Line_01": "\/\/ * @file haystacks-tt.js",
+        "Line_02": "\/\/ * @module haystacks-tt",
+        "Line_03": "\/\/ * @description This is the main init for the haystacks-tt application.",
+        "Line_04": "\/\/ * It contains just enough of the main program loop",
+        "Line_05": "\/\/ * and basic argument parsing to function as an",
+        "Line_06": "\/\/ * interactive typing tutor application.",
+        "Line_07": "\/\/ * @requires module:accountBroker",
+        "Line_08": "\/\/ * @requires module:tutoringRules",
+        "Line_09": "\/\/ * @requires module:tutoringCommands",
+        "Line_10": "\/\/ * @requires module:application.command.constants",
+        "Line_11": "\/\/ * @requires module:application.configuration.constants",
+        "Line_12": "\/\/ * @requires module:application.constants",
+        "Line_13": "\/\/ * @requires module:application.function.constants",
+        "Line_14": "\/\/ * @requires module:application.message.constants",
+        "Line_15": "\/\/ * @requires module:allApplicationConstantsValidationMetadata",
+        "Line_16": "\/\/ * @requires {@link https://www.npmjs.com/package/@haystacks/async|@haystacks/async}",
+        "Line_17": "\/\/ * @requires {@link https://www.npmjs.com/package/@haystacks/constants|@haystacks/constants}",
+        "Line_18": "\/\/ * @requires {@link https://www.npmjs.com/package/url|url}",
+        "Line_19": "\/\/ * @requires {@link https://www.npmjs.com/package/dotenv|dotenv}",
+        "Line_20": "\/\/ * @requires {@link https://www.npmjs.com/package/path|path}",
+        "Line_21": "\/\/ * @author Seth Hollingsead",
+        "Line_22": "\/\/ * @date 2023/02/23"
+      }]
+    },
+    "Lesson_0305": {
+      "Name": "Lesson_0305",
+      "Number": 305,
+      "IndividualizedLessonPassingCriteria": [{
+        "AccuracyRequirement": 70.0,
+        "SpeedRequirement": 15
+      }],
+      "Description": "Internal Import Statements",
+      "Lines": [{
+        "Line_01": "\/\/ Internal imports",
+        "Line_02": "import accountBroker from './brokers/accountBroker.js';",
+        "Line_03": "import tutoringRules from './businessRules/tutoringRulesLibrary.js';",
+        "Line_04": "import tutoringCommands from './commands/tutoringCommandsLibrary.js';",
+        "Line_05": "import * as app_cmd from './constants/application.command.constants.js';",
+        "Line_06": "import * as app_cfg from './constants/application.configuration.constants.js';",
+        "Line_07": "import * as apc from './constants/application.constants.js';",
+        "Line_08": "import * as app_msg from './constants/application.message.constants.js';",
+        "Line_09": "import * as app_sys from './constants/application.system.constants.js';",
+        "Line_10": "import allAppCV from './resources/constantsValidation/allApplicationConstantsValidationMetadata.js';"
+      }]
+    },
+    "Lesson_0306": {
+      "Name": "Lesson_0306",
+      "Number": 306,
+      "IndividualizedLessonPassingCriteria": [{
+        "AccuracyRequirement": 70.0,
+        "SpeedRequirement": 15
+      }],
+      "Description": "Internal Import Statements",
+      "Lines": [{
+        "Line_01": "\/\/ External imports",
+        "Line_02": "import haystacks from '@haystacks/async';",
+        "Line_03": "import hayConst from '@haystacks/constants';",
+        "Line_04": "import url from 'url';",
+        "Line_05": "import dotenv from 'dotenv';",
+        "Line_06": "import path from 'path';"
+      }]
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    "Lesson_0405": {
+      "Name": "Lesson_0405",
+      "Number": 405,
+      "IndividualizedLessonPassingCriteria": [{
+        "AccuracyRequirement": 70.0,
+        "SpeedRequirement": 15
+      }],
+      "Description": "Internal Import Statements",
+      "Lines": [{
+        "Line_01": "",
+        "Line_02": "",
+        "Line_03": "",
+        "Line_04": "",
+        "Line_05": "",
+        "Line_06": "",
+        "Line_07": "",
+        "Line_08": "",
+        "Line_09": "",
+        "Line_10": "",
+        "Line_11": ""
+      }]
+    },
   }]
 }
+
+
+
+
+
+
+
+
+
+
+
