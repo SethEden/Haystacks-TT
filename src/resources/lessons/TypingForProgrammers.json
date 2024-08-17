@@ -121,7 +121,7 @@
         "Line_01": "let sum = 5 + 3;",
         "Line_02": "let difference = 10 - 6;",
         "Line_03": "let product = 4 * 7;",
-        "Line_04": "let quotient = 20 / 5;",
+        "Line_04": "let quotient = 20 \/ 5;",
         "Line_05": "let remainder = 10 % 3;",
         "Line_06": "let power = 2 ** 3;",
         "Line_07": "let increment = 5;",
@@ -302,21 +302,14 @@
         "Line_18": "console.log(numbers);"
       }]
     },
-
-
-
-
-
-
-
-    "Lesson_0304": {
-      "Name": "Lesson_0304",
-      "Number": 304,
+    "Lesson_0013": {
+      "Name": "Lesson_0013",
+      "Number": 13,
       "IndividualizedLessonPassingCriteria": [{
         "AccuracyRequirement": 70.0,
         "SpeedRequirement": 15
       }],
-      "Description": "JavaScript File Header",
+      "Description": "File Header 1",
       "Lines": [{
         "Line_01": "\/\/ * @file haystacks-tt.js",
         "Line_02": "\/\/ * @module haystacks-tt",
@@ -333,64 +326,585 @@
         "Line_13": "\/\/ * @requires module:application.function.constants",
         "Line_14": "\/\/ * @requires module:application.message.constants",
         "Line_15": "\/\/ * @requires module:allApplicationConstantsValidationMetadata",
-        "Line_16": "\/\/ * @requires {@link https://www.npmjs.com/package/@haystacks/async|@haystacks/async}",
-        "Line_17": "\/\/ * @requires {@link https://www.npmjs.com/package/@haystacks/constants|@haystacks/constants}",
-        "Line_18": "\/\/ * @requires {@link https://www.npmjs.com/package/url|url}",
-        "Line_19": "\/\/ * @requires {@link https://www.npmjs.com/package/dotenv|dotenv}",
-        "Line_20": "\/\/ * @requires {@link https://www.npmjs.com/package/path|path}",
+        "Line_16": "\/\/ * @requires {@link https:\/\/www.npmjs.com\/package\/@haystacks\/async|@haystacks\/async}",
+        "Line_17": "\/\/ * @requires {@link https:\/\/www.npmjs.com\/package\/@haystacks\/constants|@haystacks\/constants}",
+        "Line_18": "\/\/ * @requires {@link https:\/\/www.npmjs.com\/package\/url|url}",
+        "Line_19": "\/\/ * @requires {@link https:\/\/www.npmjs.com\/package\/dotenv|dotenv}",
+        "Line_20": "\/\/ * @requires {@link https:\/\/www.npmjs.com\/package\/path|path}",
         "Line_21": "\/\/ * @author Seth Hollingsead",
-        "Line_22": "\/\/ * @date 2023/02/23"
+        "Line_22": "\/\/ * @date 2023\/02\/23"
       }]
     },
-    "Lesson_0305": {
-      "Name": "Lesson_0305",
-      "Number": 305,
+    "Lesson_0014": {
+      "Name": "Lesson_0014",
+      "Number": 14,
       "IndividualizedLessonPassingCriteria": [{
         "AccuracyRequirement": 70.0,
         "SpeedRequirement": 15
       }],
-      "Description": "Internal Import Statements",
+      "Description": "Import Statements",
       "Lines": [{
         "Line_01": "\/\/ Internal imports",
-        "Line_02": "import accountBroker from './brokers/accountBroker.js';",
-        "Line_03": "import tutoringRules from './businessRules/tutoringRulesLibrary.js';",
-        "Line_04": "import tutoringCommands from './commands/tutoringCommandsLibrary.js';",
-        "Line_05": "import * as app_cmd from './constants/application.command.constants.js';",
-        "Line_06": "import * as app_cfg from './constants/application.configuration.constants.js';",
-        "Line_07": "import * as apc from './constants/application.constants.js';",
-        "Line_08": "import * as app_msg from './constants/application.message.constants.js';",
-        "Line_09": "import * as app_sys from './constants/application.system.constants.js';",
-        "Line_10": "import allAppCV from './resources/constantsValidation/allApplicationConstantsValidationMetadata.js';"
+        "Line_02": "import accountBroker from '.\/brokers\/accountBroker.js';",
+        "Line_03": "import tutoringRules from '.\/businessRules\/tutoringRulesLibrary.js';",
+        "Line_04": "import tutoringCommands from '.\/commands\/tutoringCommandsLibrary.js';",
+        "Line_05": "import * as app_cmd from '.\/constants\/application.command.constants.js';",
+        "Line_06": "import * as app_cfg from '.\/constants\/application.configuration.constants.js';",
+        "Line_07": "import * as apc from '.\/constants\/application.constants.js';",
+        "Line_08": "import * as app_msg from '.\/constants\/application.message.constants.js';",
+        "Line_09": "import * as app_sys from '.\/constants\/application.system.constants.js';",
+        "Line_10": "import allAppCV from '.\/resources\/constantsValidation\/allApplicationConstantsValidationMetadata.js';",
+        "Line_11": "\/\/ External imports",
+        "Line_12": "import haystacks from '@haystacks\/async';",
+        "Line_13": "import hayConst from '@haystacks\/constants';",
+        "Line_14": "import url from 'url';",
+        "Line_15": "import dotenv from 'dotenv';",
+        "Line_16": "import path from 'path';"
       }]
     },
-    "Lesson_0306": {
-      "Name": "Lesson_0306",
-      "Number": 306,
+    "Lesson_0015": {
+      "Name": "Lesson_0015",
+      "Number": 15,
       "IndividualizedLessonPassingCriteria": [{
         "AccuracyRequirement": 70.0,
         "SpeedRequirement": 15
       }],
-      "Description": "Internal Import Statements",
+      "Description": "Global Variables",
       "Lines": [{
-        "Line_01": "\/\/ External imports",
-        "Line_02": "import haystacks from '@haystacks/async';",
-        "Line_03": "import hayConst from '@haystacks/constants';",
-        "Line_04": "import url from 'url';",
-        "Line_05": "import dotenv from 'dotenv';",
-        "Line_06": "import path from 'path';"
+        "Line_01": "const {bas, msg, sys, wrd} = hayConst;",
+        "Line_02": "let rootPath = '';",
+        "Line_03": "let baseFileName = path.basename(import.meta.url, path.extname(import.meta.url));",
+        "Line_04": "\/\/ application.haystacks-tt.",
+        "Line_05": "let namespacePrefix = wrd.capplication + bas.cDot + baseFileName + bas.cDot;",
+        "Line_06": "\/\/ eslint-disable-next-line no-undef",
+        "Line_07": "global.appRoot = path.resolve(process.cwd());",
+        "Line_08": "dotenv.config();",
+        "Line_09": "\/\/ eslint-disable-next-line no-undef",
+        "Line_10": "const {NODE_ENV} = process.env;",
+        "Line_11": "let exitConditionArrayIndex = 0;"
       }]
     },
-
-
-
-
-
-
-
-
-
-
-
+    "Lesson_0016": {
+      "Name": "Lesson_0016",
+      "Number": 16,
+      "IndividualizedLessonPassingCriteria": [{
+        "AccuracyRequirement": 70.0,
+        "SpeedRequirement": 15
+      }],
+      "Description": "Function Header 1",
+      "Lines": [{
+        "Line_01": "\/**",
+        "Line_02": "* @function bootstrapApplication",
+        "Line_03": "* @description Setup all the run-time dependencies,",
+        "Line_04": "* execution environment, data, and configuration settings.",
+        "Line_05": "* @return {void}",
+        "Line_06": "* @author Seth Hollingsead",
+        "Line_07": "* @date 2023/02/23",
+        "Line_08": "*/"
+      }]
+    },
+    "Lesson_0017": {
+      "Name": "Lesson_0017",
+      "Number": 17,
+      "IndividualizedLessonPassingCriteria": [{
+        "AccuracyRequirement": 70.0,
+        "SpeedRequirement": 15
+      }],
+      "Description": "Function Header 2",
+      "Lines": [{
+        "Line_01": "/**",
+        "Line_02": "* @function application",
+        "Line_03": "* @description This is the main program loop,",
+        "Line_04": "* the init for the Haystacks-TT application.",
+        "Line_05": "* @return {void}",
+        "Line_06": "* @author Seth Hollingsead",
+        "Line_07": "* @date 2023/02/23",
+        "Line_08": "*/"
+      }]
+    },
+    "Lesson_0018": {
+      "Name": "Lesson_0018",
+      "Number": 18,
+      "IndividualizedLessonPassingCriteria": [{
+        "AccuracyRequirement": 70.0,
+        "SpeedRequirement": 15
+      }],
+      "Description": "File Header 2",
+      "Lines": [{
+        "Line_01": "\/* eslint-disable no-undef *\/",
+        "Line_02": "\/**",
+        "Line_03": " * @file accountBroker.js",
+        "Line_04": " * @module accountBroker",
+        "Line_05": " * @description Contains all code for managing accounts, and account data.",
+        "Line_06": " * @requires module:application.configuration.constants",
+        "Line_07": " * @requires module:application.constants",
+        "Line_08": " * @requires module:application.message.constants",
+        "Line_09": " * @requires module:application.system.constants",
+        "Line_10": " * @requires {@link https:\/\/www.npmjs.com\/package\/@haystacks\/async|@haystacks\/async}",
+        "Line_11": " * @requires {@link https:\/\/www.npmjs.com\/package\/@haystacks\/constants|@haystacks\/constants}",
+        "Line_12": " * @requires {@link https:\/\/www.npmjs.com\/package\/chalk|chalk}",
+        "Line_13": " * @requires {@link https:\/\/www.npmjs.com\/package\/speaker|speaker}",
+        "Line_14": " * @requires {@link https:\/\/www.npmjs.com\/package\/pcm-util|pcm-util}",
+        "Line_15": " * @requires {@link https:\/\/www.npmjs.com\/package\/path|path}",
+        "Line_16": " * @author Seth Hollingsead",
+        "Line_17": " * @date 2023\/02\/28",
+        "Line_18": " * @copyright Copyright © 2023-… by Seth Hollingsead. All rights reserved",
+        "Line_19": " *\/"
+      }]
+    },
+    "Lesson_0019": {
+      "Name": "Lesson_0019",
+      "Number": 19,
+      "IndividualizedLessonPassingCriteria": [{
+        "AccuracyRequirement": 70.0,
+        "SpeedRequirement": 15
+      }],
+      "Description": "Function Header 3",
+      "Lines": [{
+        "Line_01": "\/**",
+        "Line_02": "* @function getAccountData",
+        "Line_03": "* @description Recovers the currently loaded account data from its storage location",
+        "Line_04": "* on the Haystacks D-data structure data storage hive.",
+        "Line_05": "* @return {object} A JSON object that contains all of the currently loaded account data.",
+        "Line_06": "* @author Seth Hollingsead",
+        "Line_07": "* @date 2023\/02\/28",
+        "Line_08": "*\/"
+      }]
+    },
+    "Lesson_0020": {
+      "Name": "Lesson_0020",
+      "Number": 20,
+      "IndividualizedLessonPassingCriteria": [{
+        "AccuracyRequirement": 70.0,
+        "SpeedRequirement": 15
+      }],
+      "Description": "Function Header 4",
+      "Lines": [{
+        "Line_01": "\/**",
+        "Line_02": "* @function getUserAccountData",
+        "Line_03": "* @description Recovers data for a specific user, if the username is found.",
+        "Line_04": "* @param {string} accountName The name of the user for which data should be recovered.",
+        "Line_05": "* @return {object|boolean} A JSON object that contains all of a users data,",
+        "Line_06": "* or False if no user matches the input name.",
+        "Line_07": "* @author Seth Hollingsead",
+        "Line_08": "* @date 2023\/02\/28",
+        "Line_09": "*\/"
+      }]
+    },
+    "Lesson_0021": {
+      "Name": "Lesson_0021",
+      "Number": 21,
+      "IndividualizedLessonPassingCriteria": [{
+        "AccuracyRequirement": 70.0,
+        "SpeedRequirement": 15
+      }],
+      "Description": "Function Header 5",
+      "Lines": [{
+        "Line_01": "\/**",
+        "Line_02": "* @function storeAccountData",
+        "Line_03": "* @description Stores account data to the Haystacks",
+        "Line_04": "* D-data structure data storage hive.",
+        "Line_05": "* @return {boolean} True or False to indicate if the",
+        "Line_06": "* storage was completed successfully or not.",
+        "Line_07": "* @author Seth Hollingsead",
+        "Line_08": "* @date 2023\/02\/28",
+        "Line_09": "*\/"
+      }]
+    },
+    "Lesson_0022": {
+      "Name": "Lesson_0022",
+      "Number": 22,
+      "IndividualizedLessonPassingCriteria": [{
+        "AccuracyRequirement": 70.0,
+        "SpeedRequirement": 15
+      }],
+      "Description": "Function Header 6",
+      "Lines": [{
+        "Line_01": "\/**",
+        "Line_02": "* @function appendUsersLessonScoreData",
+        "Line_03": "* @description Adds a users lesson score data to a",
+        "Line_04": "* users account data according to the lesson number.",
+        "Line_05": "* @param {object} dataToAppend A JSON object that contains lesson scores data.",
+        "Line_06": "* @param {integer} lessonNumber The lesson number for which the data should apply.",
+        "Line_07": "* @author Seth Hollingsead",
+        "Line_08": "* @date 2023\/03\/06",
+        "Line_09": "*\/"
+      }]
+    },
+    "Lesson_0023": {
+      "Name": "Lesson_0023",
+      "Number": 23,
+      "IndividualizedLessonPassingCriteria": [{
+        "AccuracyRequirement": 70.0,
+        "SpeedRequirement": 15
+      }],
+      "Description": "Function Header 7",
+      "Lines": [{
+        "Line_01": "\/**",
+        "Line_02": "* @function getUsersLessonScoreData",
+        "Line_03": "* @description Finds the lesson score data for the current user and returns the",
+        "Line_04": "* entire collection of data for the specified lesson.",
+        "Line_05": "* @param {integer} lessonNumber The lesson number for which the data should be returned.",
+        "Line_06": "* @return {object} The JSON object that contains all of the",
+        "Line_07": "* lesson data for the specified lesson number.",
+        "Line_08": "* @author Seth Hollingsead",
+        "Line_09": "* @date 2023\/03\/08",
+        "Line_10": "*\/"
+      }]
+    },
+    "Lesson_0024": {
+      "Name": "Lesson_0024",
+      "Number": 24,
+      "IndividualizedLessonPassingCriteria": [{
+        "AccuracyRequirement": 70.0,
+        "SpeedRequirement": 15
+      }],
+      "Description": "Function Header 8",
+      "Lines": [{
+        "Line_01": "\/**",
+        "Line_02": "* @function saveAccountData",
+        "Line_03": "* @description Iterates over all of the user accounts in the system and",
+        "Line_04": "* saves each of them out to JSON files under the accounts resource folder.",
+        "Line_05": "* @return {boolean} True or False to indicate if",
+        "Line_06": "* all of the save operations were successful or not.",
+        "Line_07": "* @author Seth Hollingsead",
+        "Line_08": "* @date 2023\/03\/07",
+        "Line_09": "*\/"
+      }]
+    },
+    "Lesson_0025": {
+      "Name": "Lesson_0025",
+      "Number": 25,
+      "IndividualizedLessonPassingCriteria": [{
+        "AccuracyRequirement": 70.0,
+        "SpeedRequirement": 15
+      }],
+      "Description": "Function Header 9",
+      "Lines": [{
+        "Line_01": "\/**",
+        "Line_02": "* @function getLessonData",
+        "Line_03": "* @description Recovers the currently loaded lesson data from its storage",
+        "Line_04": "* location on the Haystacks D-data structure data storage hive.",
+        "Line_05": "* @return {object} A JSON object that contains all of the currently loaded lesson data.",
+        "Line_06": "* @author Seth Hollingsead",
+        "Line_07": "* @date 2023\/02\/28",
+        "Line_08": "*\/"
+      }]
+    },
+    "Lesson_0026": {
+      "Name": "Lesson_0026",
+      "Number": 26,
+      "IndividualizedLessonPassingCriteria": [{
+        "AccuracyRequirement": 70.0,
+        "SpeedRequirement": 15
+      }],
+      "Description": "Function Header 10",
+      "Lines": [{
+        "Line_01": "\/**",
+        "Line_02": "* @function getLessonCount",
+        "Line_03": "* @description Returns the number of lessons in the curriculum.",
+        "Line_04": "* @return {integer} The number of lessons in the current curriculum.",
+        "Line_05": "* @author Seth Hollingsead",
+        "Line_06": "* @date 2023\/03\/08",
+        "Line_07": "*\/"
+      }]
+    },
+    "Lesson_0027": {
+      "Name": "Lesson_0027",
+      "Number": 27,
+      "IndividualizedLessonPassingCriteria": [{
+        "AccuracyRequirement": 70.0,
+        "SpeedRequirement": 15
+      }],
+      "Description": "Function Header 11",
+      "Lines": [{
+        "Line_01": "\/**",
+        "Line_02": "* @function getIndividualLessonData",
+        "Line_03": "* @description Recovers the data for a specific lesson, based on an input lesson number.",
+        "Line_04": "* @param {integer} lessonNumber The number of the lesson for which we should get data.",
+        "Line_05": "* @return {object} A JSON object that contains lesson data for a specific lesson number.",
+        "Line_06": "* @author Seth Hollingsead",
+        "Line_07": "* @date 2023\/03\/01",
+        "Line_08": "*\/"
+      }]
+    },
+    "Lesson_0028": {
+      "Name": "Lesson_0028",
+      "Number": 28,
+      "IndividualizedLessonPassingCriteria": [{
+        "AccuracyRequirement": 70.0,
+        "SpeedRequirement": 15
+      }],
+      "Description": "Function Header 12",
+      "Lines": [{
+        "Line_01": "\/**",
+        "Line_02": "* @function getIndividualLessonName",
+        "Line_03": "* @description Recovers the name of a lesson, based on the input lesson number.",
+        "Line_04": "* @param {integer} lessonNumber The number of the lesson for which we should get a lesson name.",
+        "Line_05": "* @return {string} The name of the specified lesson.",
+        "Line_06": "* @author Seth Hollingsead",
+        "Line_07": "* @date 2023\/03\/06",
+        "Line_08": "*\/"
+      }]
+    },
+    "Lesson_0029": {
+      "Name": "Lesson_0029",
+      "Number": 29,
+      "IndividualizedLessonPassingCriteria": [{
+        "AccuracyRequirement": 70.0,
+        "SpeedRequirement": 15
+      }],
+      "Description": "Function Header 13",
+      "Lines": [{
+        "Line_01": "/**",
+        "Line_02": "* @function doesAccountExist",
+        "Line_03": "* @description Searches account data and determines if the account exists or does not.",
+        "Line_04": "* @param {string} accountName The name of the account we are checking to see if it exists or not.",
+        "Line_05": "* @return {boolean} True or False to indicate if the account exists or not.",
+        "Line_06": "* @author Seth Hollingsead",
+        "Line_07": "* @date 2023/02/28",
+        "Line_08": "*/"
+      }]
+    },
+    "Lesson_0030": {
+      "Name": "Lesson_0030",
+      "Number": 30,
+      "IndividualizedLessonPassingCriteria": [{
+        "AccuracyRequirement": 70.0,
+        "SpeedRequirement": 15
+      }],
+      "Description": "Function Header 14",
+      "Lines": [{
+        "Line_01": "\/**",
+        "Line_02": "* @function createAccount",
+        "Line_03": "* @description Does all the work of creating an account from scratch and",
+        "Line_04": "* generating all the generic account data.",
+        "Line_05": "* @param {string} accountName The name of the account that should be generated.",
+        "Line_06": "* @return {object} The newly created user account data with",
+        "Line_07": "* empty lesson records for every lesson in the typing tutor curriculum.",
+        "Line_08": "* @author Seth Hollingsead",
+        "Line_09": "* @date 2023\/02\/28",
+        "Line_10": "*\/"
+      }]
+    },
+    "Lesson_0031": {
+      "Name": "Lesson_0031",
+      "Number": 31,
+      "IndividualizedLessonPassingCriteria": [{
+        "AccuracyRequirement": 70.0,
+        "SpeedRequirement": 15
+      }],
+      "Description": "Function Header 15",
+      "Lines": [{
+        "Line_01": "\/**",
+        "Line_02": "* @function removeAccount",
+        "Line_03": "* @description Removes the specified account from the data structure.",
+        "Line_04": "* @param {string} accountName The name of the account to be removed.",
+        "Line_05": "* @param {object} allAccountsData A JSON object that contains all account data.",
+        "Line_06": "* @return {object} The cleaned data structure with the account name removed.",
+        "Line_07": "* @author Seth Hollingsead",
+        "Line_08": "* @date 2023\/02\/28",
+        "Line_09": "*\/"
+      }]
+    },
+    "Lesson_0032": {
+      "Name": "Lesson_0032",
+      "Number": 32,
+      "IndividualizedLessonPassingCriteria": [{
+        "AccuracyRequirement": 70.0,
+        "SpeedRequirement": 15
+      }],
+      "Description": "Function Header 16",
+      "Lines": [{
+        "Line_01": "\/**",
+        "Line_02": "* @function generateBlankLessonData",
+        "Line_03": "* @description Generates an array of blank lessons data for every lesson in the typing tutor curriculum.",
+        "Line_04": "* @return {array} An array of empty JSON objects for every lesson in the typing tutor curriculum.",
+        "Line_05": "* @author Seth Hollingsead",
+        "Line_06": "* @date 2023\/02\/28",
+        "Line_07": "*\/"
+      }]
+    },
+    "Lesson_0033": {
+      "Name": "Lesson_0033",
+      "Number": 33,
+      "IndividualizedLessonPassingCriteria": [{
+        "AccuracyRequirement": 70.0,
+        "SpeedRequirement": 15
+      }],
+      "Description": "Function Header 17",
+      "Lines": [{
+        "Line_01": "\/**",
+        "Line_02": "* @function currentUserAccount",
+        "Line_03": "* @description Gets the currently logged in user account.",
+        "Line_04": "* @return {string} The name of the currently logged in user account.",
+        "Line_05": "* @author Seth Hollingsead",
+        "Line_06": "* @date 2023\/02\/28",
+        "Line_07": "*\/"
+      }]
+    },
+    "Lesson_0034": {
+      "Name": "Lesson_0034",
+      "Number": 34,
+      "IndividualizedLessonPassingCriteria": [{
+        "AccuracyRequirement": 70.0,
+        "SpeedRequirement": 15
+      }],
+      "Description": "Function Header 17",
+      "Lines": [{
+        "Line_01": "\/**",
+        "Line_02": "* @function loginUser",
+        "Line_03": "* @description Does the work to login the specified username.",
+        "Line_04": "* @param {string} accountName The username that should be logged in.",
+        "Line_05": "* @return {boolean} True or False to indicate if the login was completed successfully or not.",
+        "Line_06": "* @author Seth Hollingsead",
+        "Line_07": "* @date 2023\/02\/28",
+        "Line_08": "*\/"
+      }]
+    },
+    "Lesson_0035": {
+      "Name": "Lesson_0035",
+      "Number": 35,
+      "IndividualizedLessonPassingCriteria": [{
+        "AccuracyRequirement": 70.0,
+        "SpeedRequirement": 15
+      }],
+      "Description": "Function Header 18",
+      "Lines": [{
+        "Line_01": "\/**",
+        "Line_02": "* @function logoutUser",
+        "Line_03": "* @description Logs the specified user out of the system,",
+        "Line_04": "* sets the currently logged in user as an empty string.",
+        "Line_05": "* @param {string} accountName The name of the user that should be logged out.",
+        "Line_06": "* Actually we don't even need the name of the currently logged in user to logout.",
+        "Line_07": "* @return {boolean} True or False to indicate if the user was logged out successfully or not.",
+        "Line_08": "* @author Seth Hollingsead",
+        "Line_09": "* @date 2023\/02\/28",
+        "Line_10": "*\/"
+      }]
+    },
+    "Lesson_0036": {
+      "Name": "Lesson_0036",
+      "Number": 36,
+      "IndividualizedLessonPassingCriteria": [{
+        "AccuracyRequirement": 70.0,
+        "SpeedRequirement": 15
+      }],
+      "Description": "Function Header 19",
+      "Lines": [{
+        "Line_01": "\/**",
+        "Line_02": "* @function executeLesson",
+        "Line_03": "* @description Does the work of executing the lesson,",
+        "Line_04": "* print out the line the user should type as part of the lesson.",
+        "Line_05": "* Also capture the user input and compare each character with the",
+        "Line_06": "* expected input and format color output accordingly.",
+        "Line_07": "* Also play a sound on the system speaker if the user types in incorrect keystroke.",
+        "Line_08": "* @param {integer} lessonNumber The number of the lesson that should be executed.",
+        "Line_09": "* @return {object|boolean} A JSON object that contains statistic of the lesson when it is completed,",
+        "Line_10": "* or false if the user presses the ESC key.",
+        "Line_11": "* @author Seth Hollingsead",
+        "Line_12": "* @date 2023\/02\/28",
+        "Line_13": "*\/"
+      }]
+    },
+    "Lesson_0037": {
+      "Name": "Lesson_0037",
+      "Number": 37,
+      "IndividualizedLessonPassingCriteria": [{
+        "AccuracyRequirement": 70.0,
+        "SpeedRequirement": 15
+      }],
+      "Description": "Function Header 20",
+      "Lines": [{
+        "Line_01": "\/**",
+        "Line_02": "* @function executeLessonLine",
+        "Line_03": "* @description Prompts the user with the typing tutoring lesson line,",
+        "Line_04": "* Captures the user input as the user types it,",
+        "Line_05": "* Checks if the user typed the correct character or not,",
+        "Line_06": "* Tracks the time when the user starts typing the line,",
+        "Line_07": "* and when the user is done typing the line.",
+        "Line_08": "* Alerts each time the user makes an error by typing a",
+        "Line_09": "* character that doesn't match the expected input.",
+        "Line_10": "* Tracks all the errors the user makes when typing the same line.",
+        "Line_11": "* Escapes the lesson if the user presses the ESC key.",
+        "Line_12": "* Generates some report data that can be used to aggregate statistics",
+        "Line_13": "* across an entire lesson by the calling function.",
+        "Line_14": "* @param {string} lessonLineString The string of characters the",
+        "Line_15": "* user should type into their keyboard.",
+        "Line_16": "* @return {object} A JSON object that contains the start time, end time,",
+        "Line_17": "* and number of errors, and the length of the string.",
+        "Line_18": "* @author Seth Hollingsead",
+        "Line_19": "* @date 2023\/03\/02",
+        "Line_20": "*\/"
+      }]
+    },
+    "Lesson_0038": {
+      "Name": "Lesson_0038",
+      "Number": 38,
+      "IndividualizedLessonPassingCriteria": [{
+        "AccuracyRequirement": 70.0,
+        "SpeedRequirement": 15
+      }],
+      "Description": "Function Header 21",
+      "Lines": [{
+        "Line_01": "\/**",
+        "Line_02": "* @function computeAverageLessonScoreValues",
+        "Line_03": "* @description Averages all of the values across all the lines for the lesson.",
+        "Line_04": "* @param {array<object>} scoresDataArray An array of JSON objects that",
+        "Line_05": "* contains all of lesson data for each line in the lesson.",
+        "Line_06": "* @param {integer} lessonNumber The number of the lesson that was executed,",
+        "Line_07": "* used to determine if the user passed the lesson or not.",
+        "Line_08": "* We need to inform the user if they got a passing score or not.",
+        "Line_09": "* @return {object} A single JSON object that contains an average",
+        "Line_10": "* or sum of all the data from all of the lines of the entire lesson.",
+        "Line_11": "* @author Seth Hollingsead",
+        "Line_12": "* @date 2023\/03\/06",
+        "Line_13": "*\/"
+      }]
+    },
+    "Lesson_0039": {
+      "Name": "Lesson_0039",
+      "Number": 39,
+      "IndividualizedLessonPassingCriteria": [{
+        "AccuracyRequirement": 70.0,
+        "SpeedRequirement": 15
+      }],
+      "Description": "Function Header 22",
+      "Lines": [{
+        "Line_01": "\/**",
+        "Line_02": "* @function getHighestLessonCount",
+        "Line_03": "* @description Returns a number for the highest lesson number",
+        "Line_04": "* for the lessons currently available in the curriculum.",
+        "Line_05": "* @return {integer} The highest lesson number available in the curriculum.",
+        "Line_06": "* @author Seth Hollingsead",
+        "Line_07": "* @date 2023\/02\/28",
+        "Line_08": "*\/"
+      }]
+    },
+    "Lesson_0040": {
+      "Name": "Lesson_0040",
+      "Number": 40,
+      "IndividualizedLessonPassingCriteria": [{
+        "AccuracyRequirement": 70.0,
+        "SpeedRequirement": 15
+      }],
+      "Description": "Function Header 23",
+      "Lines": [{
+        "Line_01": "\/**",
+        "Line_02": "* @function getLessonAdvancementScoreLimitAccuracy",
+        "Line_03": "* @description Recovers the configuration setting for the",
+        "Line_04": "* lesson advancement score limit accuracy.",
+        "Line_05": "* The accuracy that a user must get on any given",
+        "Line_06": "* lesson before advancing to the next lesson.",
+        "Line_07": "* @param {integer} lessonNumber Optional parameter that is the lesson number.",
+        "Line_08": "* Should be provided if the individualized lesson passing score is enabled.",
+        "Line_09": "* @return {integer} The highest accuracy score the user must",
+        "Line_10": "* get before advancing to the next lesson.",
+        "Line_11": "* @author Seth Hollingsead",
+        "Line_12": "* @date 2023\/03\/01",
+        "Line_13": "*\/"
+      }]
+    },
 
 
 
