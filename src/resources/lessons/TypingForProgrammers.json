@@ -448,7 +448,7 @@
         "Line_15": " * @requires {@link https:\/\/www.npmjs.com\/package\/path|path}",
         "Line_16": " * @author Seth Hollingsead",
         "Line_17": " * @date 2023\/02\/28",
-        "Line_18": " * @copyright Copyright © 2023-… by Seth Hollingsead. All rights reserved",
+        "Line_18": " * @copyright Copyright 2023 by Seth Hollingsead. All rights reserved",
         "Line_19": " *\/"
       }]
     },
@@ -905,7 +905,1235 @@
         "Line_13": "*\/"
       }]
     },
-
+    "Lesson_0041": {
+      "Name": "Lesson_0041",
+      "Number": 41,
+      "IndividualizedLessonPassingCriteria": [{
+        "AccuracyRequirement": 70.0,
+        "SpeedRequirement": 15
+      }],
+      "Description": "Function Header 24",
+      "Lines": [{
+        "Line_01": "\/**",
+        "Line_02": "* @function getLessonAdvancementScoreLimitSpeed",
+        "Line_03": "* @description Recovers the configuration setting for the lesson advancement score limit speed.",
+        "Line_04": "* The speed that a user must get on any given lesson before advancing to the next lesson.",
+        "Line_05": "* @param {integer} lessonNumber Optional parameter that is the lesson number.",
+        "Line_06": "* Should be provided if the individualized lesson passing score is enabled.",
+        "Line_07": "* @return {integer} The highest speed score the user must get before advancing to the next lesson.",
+        "Line_08": "* @author Seth Hollingsead",
+        "Line_09": "* @date 2023\/03\/07",
+        "Line_10": "*\/"
+      }]
+    },
+    "Lesson_0042": {
+      "Name": "Lesson_0042",
+      "Number": 42,
+      "IndividualizedLessonPassingCriteria": [{
+        "AccuracyRequirement": 70.0,
+        "SpeedRequirement": 15
+      }],
+      "Description": "Function Header 25",
+      "Lines": [{
+        "Line_01": "\/**",
+        "Line_02": "* @function isLessonAdvancementLimitEnabled",
+        "Line_03": "* @description Recovers the configuration setting that determines",
+        "Line_04": "* if the user has enabled or disabled the lesson advancement score limit.",
+        "Line_05": "* @return {boolean} True or False to indicate the state of the configuration setting.",
+        "Line_06": "* @author Seth Hollingsead",
+        "Line_07": "* @date 2023\/03\/01",
+        "Line_08": "*\/"
+      }]
+    },
+    "Lesson_0043": {
+      "Name": "Lesson_0043",
+      "Number": 43,
+      "IndividualizedLessonPassingCriteria": [{
+        "AccuracyRequirement": 70.0,
+        "SpeedRequirement": 15
+      }],
+      "Description": "Function Header 26",
+      "Lines": [{
+        "Line_01": "\/**",
+        "Line_02": "* @function isIndividualizedLessonPassingScoresEnabled",
+        "Line_03": "* @description Recovers the configuration setting that determines",
+        "Line_04": "* if the user has enabled of disabled the individualized lesson passing score settings.",
+        "Line_05": "* @return {boolean} True or False to indicate the state of the configuration setting.",
+        "Line_06": "* @author Seth Hollingsead",
+        "Line_07": "* @date 2024\/07\/15",
+        "Line_08": "*\/"
+      }]
+    },
+    "Lesson_0044": {
+      "Name": "Lesson_0044",
+      "Number": 44,
+      "IndividualizedLessonPassingCriteria": [{
+        "AccuracyRequirement": 70.0,
+        "SpeedRequirement": 15
+      }],
+      "Description": "Function Header 27",
+      "Lines": [{
+        "Line_01": "\/**",
+        "Line_02": "* @function getHighestScoringDataObjectForLesson",
+        "Line_03": "* @description Uses the currently logged in user and a lesson number",
+        "Line_04": "* to determine what was the highest score the user got for that lesson.",
+        "Line_05": "* There could be many lesson data records for each lesson.",
+        "Line_06": "* This will find the highest score for all of them.",
+        "Line_07": "* @param {integer} lessonNumber The lesson number",
+        "Line_08": "* that we should get the highest score for.",
+        "Line_09": "* @param {string} inputUserName An optional parameter to allow",
+        "Line_10": "* for the caller to specify the current user name,",
+        "Line_11": "* rather than requiring a user to be logged in.",
+        "Line_12": "* @return {object} A JSON object that contains the data from the highest",
+        "Line_13": "* scoring lesson record the user has for the specified lesson number.",
+        "Line_14": "* @NOTE The caller of this function can use this function",
+        "Line_15": "* to interrogate the registered users lesson records and determine",
+        "Line_16": "* if the user is qualified to execute a specific lesson or not based",
+        "Line_17": "* on the minimum advancement specifications as established",
+        "Line_18": "* in the configuration settings file.",
+        "Line_19": "* @author Seth Hollingsead",
+        "Line_20": "* @date 2023\/03\/01",
+        "Line_21": "*\/"
+      }]
+    },
+    "Lesson_0045": {
+      "Name": "Lesson_0045",
+      "Number": 45,
+      "IndividualizedLessonPassingCriteria": [{
+        "AccuracyRequirement": 70.0,
+        "SpeedRequirement": 15
+      }],
+      "Description": "Function Header 28",
+      "Lines": [{
+        "Line_01": "\/**",
+        "Line_02": "* @function getHighestLessonNumberAboveAdvancementScoringLimit",
+        "Line_03": "* @description Uses the currently logged in user to",
+        "Line_04": "* scan the users data and determine what is",
+        "Line_05": "* the highest lesson number with a score above the lesson",
+        "Line_06": "* advancement limit, if the advancement limit is enabled.",
+        "Line_07": "* If the limit is not enabled, then the function returns the highest",
+        "Line_08": "* number of lessons that are currently implemented and loaded in the system.",
+        "Line_09": "* @param {integer} lessonNumber Optional parameter that is the lesson number.",
+        "Line_10": "* Should be provided if the individualized lesson passing score is enabled.",
+        "Line_11": "* @return {integer} Returns the lesson number with the highest passing score,",
+        "Line_12": "* or the number of lessons in the system, if the passing score is disabled.",
+        "Line_13": "* @author Seth Hollingsead",
+        "Line_14": "* @date 2023\/03\/01",
+        "Line_15": "*/"
+      }]
+    },
+    "Lesson_0046": {
+      "Name": "Lesson_0046",
+      "Number": 46,
+      "IndividualizedLessonPassingCriteria": [{
+        "AccuracyRequirement": 70.0,
+        "SpeedRequirement": 15
+      }],
+      "Description": "Function Header 29",
+      "Lines": [{
+        "Line_01": "\/**",
+        "Line_02": "* @function generateUserReport",
+        "Line_03": "* @description Generates a report for the currently logged in user that shows",
+        "Line_04": "* which tests they have passed and which ones they have not yet passed.",
+        "Line_05": "* @param {string} inputUserName An optional input parameter",
+        "Line_06": "* that allows the caller to specify the user name.",
+        "Line_07": "* Rather than requiring the user to be logged in.",
+        "Line_08": "* @return {array<array<string>,array<object>>} An array of arrays that contain",
+        "Line_09": "* a list of the tests for which there is data,",
+        "Line_10": "* and an array of JSON objects that contain lesson data to display.",
+        "Line_11": "* @author Seth Hollingsead",
+        "Line_12": "* @date 2023\/03\/09",
+        "Line_13": "*\/"
+      }]
+    },
+    "Lesson_0047": {
+      "Name": "Lesson_0047",
+      "Number": 47,
+      "IndividualizedLessonPassingCriteria": [{
+        "AccuracyRequirement": 70.0,
+        "SpeedRequirement": 15
+      }],
+      "Description": "Function Header 30",
+      "Lines": [{
+        "Line_01": "\/**",
+        "Line_02": "* @function generateReportAllUsers",
+        "Line_03": "* @description Generates a report that contains",
+        "Line_04": "* the highest passing lesson number",
+        "Line_05": "* for all users registered with the system.",
+        "Line_06": "* @return {array<array<string>,array<object>>}",
+        "Line_07": "* An array of arrays that contain",
+        "Line_08": "* a list of the tests for which there is data,",
+        "Line_09": "* and an array of JSON objects that contain lesson data to display.",
+        "Line_10": "* @author Seth Hollingsead",
+        "Line_11": "* @date 2023\/03\/09",
+        "Line_12": "*\/"
+      }]
+    },
+    "Lesson_0048": {
+      "Name": "Lesson_0048",
+      "Number": 48,
+      "IndividualizedLessonPassingCriteria": [{
+        "AccuracyRequirement": 70.0,
+        "SpeedRequirement": 15
+      }],
+      "Description": "Function Header 31",
+      "Lines": [{
+        "Line_01": "\/**",
+        "Line_02": "* @function instructions",
+        "Line_03": "* @description Provides instructions to the end user on what",
+        "Line_04": "* steps they need to perform to get up and running and interface with the system.",
+        "Line_05": "* @param {string} inputData Not used for this command.",
+        "Line_06": "* @param {string} inputMetaData Not used for this command.",
+        "Line_07": "* @return {array<boolean,string>} An array with a boolean True or False",
+        "Line_08": "* value to indicate if the application should exit or not exit,",
+        "Line_09": "* followed by an empty string.",
+        "Line_10": "* @author Seth Hollingsead",
+        "Line_11": "* @date 2023\/02\/24",
+        "Line_12": "*\/"
+      }]
+    },
+    "Lesson_0049": {
+      "Name": "Lesson_0049",
+      "Number": 49,
+      "IndividualizedLessonPassingCriteria": [{
+        "AccuracyRequirement": 70.0,
+        "SpeedRequirement": 15
+      }],
+      "Description": "Function Header 32",
+      "Lines": [{
+        "Line_01": "\/**",
+        "Line_02": "* @function applicationHelp",
+        "Line_03": "* @description A command to list the application commands.",
+        "Line_04": "* (There are no plugins for this application.)",
+        "Line_05": "* See the Haystacks testHarness code for how to do this with plugins.",
+        "Line_06": "* @param {string} inputData Not used for this command.",
+        "Line_07": "* @param {string} inputMetaData Not used for this command.",
+        "Line_08": "* @return {array<boolean,string>} An array with a boolean True or False",
+        "Line_09": "* value to indicate if the application should exit or not exit,",
+        "Line_10": "* followed by an empty string.",
+        "Line_11": "* @author Seth Hollingsead",
+        "Line_12": "* @date 2023\/02\/24",
+        "Line_13": "*\/"
+      }]
+    },
+    "Lesson_0050": {
+      "Name": "Lesson_0050",
+      "Number": 50,
+      "IndividualizedLessonPassingCriteria": [{
+        "AccuracyRequirement": 70.0,
+        "SpeedRequirement": 15
+      }],
+      "Description": "Function Header 33",
+      "Lines": [{
+        "Line_01": "\/**",
+        "Line_02": "* @function applicationWorkflowHelp",
+        "Line_03": "* @description A command to list the application workflows.",
+        "Line_04": "* (There are no plugins for this application.)",
+        "Line_05": "* See the Haystacks testHarness code for how to do this with plugins.",
+        "Line_06": "* @param {string} inputData Not used for this command.",
+        "Line_07": "* @param {string} inputMetaData Not used for this command.",
+        "Line_08": "* @return {array<boolean,string>} An array ith a boolean True or False",
+        "Line_09": "* value to indicate if the application should exit or not exit,",
+        "Line_10": "* followed by an empty string.",
+        "Line_11": "* @author Seth Hollingsead",
+        "Line_12": "* @date 2023\/02\/24",
+        "Line_13": "*\/"
+      }]
+    },
+    "Lesson_0051": {
+      "Name": "Lesson_0051",
+      "Number": 51,
+      "IndividualizedLessonPassingCriteria": [{
+        "AccuracyRequirement": 70.0,
+        "SpeedRequirement": 15
+      }],
+      "Description": "File Header 3",
+      "Lines": [{
+        "Line_01": "\/**",
+        "Line_02": "* @file applicationSystem.js",
+        "Line_03": "* @module applicationSystem",
+        "Line_04": "* @description Contains all client application system commands for",
+        "Line_05": "* execution of the client application with basic application system operations.",
+        "Line_06": "* @requires module:application.constants",
+        "Line_07": "* @requires {@link https:\/\/www.npmjs.com\/package\/@haystacks\/async|@haystacks\/async}",
+        "Line_08": "* @requires {@link https:\/\/www.npmjs.com\/package\/@haystacks\/constants|@haystacks\/constants}",
+        "Line_09": "* @requires {@link https:\/\/www.npmjs.com\/package\/path|path}",
+        "Line_10": "* @author Seth Hollingsead",
+        "Line_11": "* @date 2023\/02\/24",
+        "Line_12": "* @copyright Copyright 2023 by Seth Hollingsead. All rights reserved",
+        "Line_13": "*\/"
+      }]
+    },
+    "Lesson_0052": {
+      "Name": "Lesson_0052",
+      "Number": 52,
+      "IndividualizedLessonPassingCriteria": [{
+        "AccuracyRequirement": 70.0,
+        "SpeedRequirement": 15
+      }],
+      "Description": "File Header 4",
+      "Lines": [{
+        "Line_01": "\/**",
+        "Line_02": "* @file applicationTests.js",
+        "Line_03": "* @module applicationTests",
+        "Line_04": "* @description Contains all client defined application",
+        "Line_05": "* specific integration test commands specific to",
+        "Line_06": "* executing integration tests on application data.",
+        "Line_07": "* There are no plugins for this application.",
+        "Line_08": "* @requires module:application.command.constants",
+        "Line_09": "* @requires module:application.constants",
+        "Line_10": "* @requires {@link https:\/\/www.npmjs.com\/package\/@haystacks\/async|@haystacks\/async}",
+        "Line_11": "* @requires {@link https:\/\/www.npmjs.com\/package\/@haystacks\/constants|@haystacks\/constants}",
+        "Line_12": "* @requires {@link https:\/\/www.npmjs.com\/package\/path|path}",
+        "Line_13": "* @author Seth Hollingsead",
+        "Line_14": "* @date 2023\/02\/24",
+        "Line_15": "* @copyright Copyright 2023 by Seth Hollingsead. All rights reserved",
+        "Line_16": "*\/"
+      }]
+    },
+    "Lesson_0053": {
+      "Name": "Lesson_0053",
+      "Number": 53,
+      "IndividualizedLessonPassingCriteria": [{
+        "AccuracyRequirement": 70.0,
+        "SpeedRequirement": 15
+      }],
+      "Description": "File Header 5",
+      "Lines": [{
+        "Line_01": "\/**",
+        "Line_02": "* @file tutoringCommands.js",
+        "Line_03": "* @module tutoringCommands",
+        "Line_04": "* @description Contains all client defined commands for execution",
+        "Line_05": "* of client actions with various operations, specific for typing tutoring.",
+        "Line_06": "* @requires module:accountBroker",
+        "Line_07": "* @requires module:application.command.constants",
+        "Line_08": "* @requires module:application.message.constants",
+        "Line_09": "* @requires module:application.system.constants",
+        "Line_10": "* @requires {@link https:\/\/www.npmjs.com\/package\/@haystacks\/async|@haystacks\/async}",
+        "Line_11": "* @requires {@link https:\/\/www.npmjs.com\/package\/@haystacks\/constants|@haystacks\/constants}",
+        "Line_12": "* @requires {@link https:\/\/www.npmjs.com\/package\/path|path}",
+        "Line_13": "* @author Seth Hollingsead",
+        "Line_14": "* @date 2023\/02\/24",
+        "Line_15": "* @copyright Copyright 2023 by Seth Hollingsead. All rights reserved",
+        "Line_16": "*\/"
+      }]
+    },
+    "Lesson_0054": {
+      "Name": "Lesson_0054",
+      "Number": 54,
+      "IndividualizedLessonPassingCriteria": [{
+        "AccuracyRequirement": 70.0,
+        "SpeedRequirement": 15
+      }],
+      "Description": "File Header 6",
+      "Lines": [{
+        "Line_01": "\/**",
+        "Line_02": "* @file tutoringCommandsLibrary.js",
+        "Line_03": "* @module tutoringCommandsLibrary",
+        "Line_04": "* @description Contains all of the client defined commands",
+        "Line_05": "* as a map between function names and function calls.",
+        "Line_06": "* @requires module:applicationSystem",
+        "Line_07": "* @requires module:applicationTests",
+        "Line_08": "* @requires module:tutoringCommands",
+        "Line_09": "* @requires module:application.command.constants",
+        "Line_10": "* @requires module:application.function.constants",
+        "Line_11": "* @author Seth Hollingsead",
+        "Line_12": "* @date 2023\/02\/24",
+        "Line_13": "* @copyright Copyright 2023 by Seth Hollingsead. All rights reserved",
+        "Line_14": "*\/"
+      }]
+    },
+    "Lesson_0055": {
+      "Name": "Lesson_0055",
+      "Number": 55,
+      "IndividualizedLessonPassingCriteria": [{
+        "AccuracyRequirement": 70.0,
+        "SpeedRequirement": 15
+      }],
+      "Description": "File Header 7",
+      "Lines": [{
+        "Line_01": "\/**",
+        "Line_02": "* @file application.business.constants.js",
+        "Line_03": "* @module application.business.constants",
+        "Line_04": "* @description A file to hold all of the client application business rules constants.",
+        "Line_05": "* So none of the constants in this file should be generic/system/framework constants.",
+        "Line_06": "* @requires {@link https:\/\/www.npmjs.com\/package\/@haystacks\/constants|@haystacks\/constants}",
+        "Line_07": "* @author Seth Hollingsead",
+        "Line_08": "* @date 2023\/02\/23",
+        "Line_09": "* @copyright Copyright 2022 by Seth Hollingsead. All rights reserved",
+        "Line_10": "*\/"
+      }]
+    },
+    "Lesson_0056": {
+      "Name": "Lesson_0056",
+      "Number": 56,
+      "IndividualizedLessonPassingCriteria": [{
+        "AccuracyRequirement": 70.0,
+        "SpeedRequirement": 15
+      }],
+      "Description": "File Header 8",
+      "Lines": [{
+        "Line_01": "\/**",
+        "Line_02": "* @file application.command.constants.js",
+        "Line_03": "* @module application.command.constants",
+        "Line_04": "* @description A file to hold all of the client application command constants.",
+        "Line_05": "* So none of the constants in this file should be generic/system/framework constants",
+        "Line_06": "* @requires {@link https:\/\/www.npmjs.com\/package\/@haystacks\/constants|@haystacks\/constants}",
+        "Line_07": "* @author Seth Hollingsead",
+        "Line_08": "* @date 2023\/02\/24",
+        "Line_09": "* @copyright Copyright 2023 by Seth Hollingsead. All rights reserved",
+        "Line_10": "*\/"
+      }]
+    },
+    "Lesson_0057": {
+      "Name": "Lesson_0057",
+      "Number": 57,
+      "IndividualizedLessonPassingCriteria": [{
+        "AccuracyRequirement": 70.0,
+        "SpeedRequirement": 15
+      }],
+      "Description": "File Header 9",
+      "Lines": [{
+        "Line_01": "\/**",
+        "Line_02": "* @file application.configuration.constants.js",
+        "Line_03": "* @module application.configuration.constants",
+        "Line_04": "* @description A file to hold all of the client configuration constants.",
+        "Line_05": "* @requires {@link https:\/\/www.npmjs.com\/package\/@haystacks\/constants|@haystacks\/constants}",
+        "Line_06": "* @author Seth Hollingsead",
+        "Line_07": "* @date 2023\/02\/24",
+        "Line_08": "* @copyright Copyright 2023 by Seth Hollingsead. All rights reserved",
+        "Line_09": "*\/"
+      }]
+    },
+    "Lesson_0058": {
+      "Name": "Lesson_0058",
+      "Number": 58,
+      "IndividualizedLessonPassingCriteria": [{
+        "AccuracyRequirement": 70.0,
+        "SpeedRequirement": 15
+      }],
+      "Description": "File Header 10",
+      "Lines": [{
+        "Line_01": "\/**",
+        "Line_02": "* @file application.constants.js",
+        "Line_03": "* @module application.constants",
+        "Line_04": "* @description Contains many re-usable application constants",
+        "Line_05": "* @requires {@link https:\/\/www.npmjs.com\/package\/@haystacks\/constants|@haystacks\/constants}",
+        "Line_06": "* @author Seth Hollingsead",
+        "Line_07": "* @date 2023\/02\/24",
+        "Line_08": "* @copyright Copyright 2023 by Seth Hollingsead. All rights reserved",
+        "Line_09": "*\/"
+      }]
+    },
+    "Lesson_0059": {
+      "Name": "Lesson_0059",
+      "Number": 59,
+      "IndividualizedLessonPassingCriteria": [{
+        "AccuracyRequirement": 70.0,
+        "SpeedRequirement": 15
+      }],
+      "Description": "File Header 11",
+      "Lines": [{
+        "Line_01": "\/**",
+        "Line_02": "* @file application.message.constants.js",
+        "Line_03": "* @module application.message.constants",
+        "Line_04": "* @description Contains many re-usable application message constants.",
+        "Line_05": "* @requires module:application.command.constants",
+        "Line_06": "* @requires module:application.configuration.constants",
+        "Line_07": "* @requires module:application.constants",
+        "Line_08": "* @requires module:application.system.constants",
+        "Line_09": "* @requires {@link https:\/\/www.npmjs.com\/package\/@haystacks\/constants|@haystacks\/constants}",
+        "Line_10": "* @author Seth Hollingsead",
+        "Line_11": "* @date 2023\/02\/24",
+        "Line_12": "* @copyright Copyright 2023 by Seth Hollingsead. All rights reserved",
+        "Line_13": "*\/"
+      }]
+    },
+    "Lesson_0060": {
+      "Name": "Lesson_0060",
+      "Number": 60,
+      "IndividualizedLessonPassingCriteria": [{
+        "AccuracyRequirement": 70.0,
+        "SpeedRequirement": 15
+      }],
+      "Description": "File Header 12",
+      "Lines": [{
+        "Line_01": "\/**",
+        "Line_02": "* @file application.system.constants.js",
+        "Line_03": "* @module application.system.constants",
+        "Line_04": "* @description A file to hold all of the client application system constants.",
+        "Line_05": "* So none of the constants in this file should be generic/system/framework constants.",
+        "Line_06": "* @requires {@link https:\/\/www.npmjs.com\/package\/@haystacks\/constants|@haystacks\/constants}",
+        "Line_07": "* @author Seth Hollingsead",
+        "Line_08": "* @date 2023\/02\/24",
+        "Line_09": "* @copyright Copyright 2023 by Seth Hollingsead. All rights reserved",
+        "Line_10": "*\/"
+      }]
+    },
+    "Lesson_0061": {
+      "Name": "Lesson_0061",
+      "Number": 61,
+      "IndividualizedLessonPassingCriteria": [{
+        "AccuracyRequirement": 70.0,
+        "SpeedRequirement": 15
+      }],
+      "Description": "File Header 13",
+      "Lines": [{
+        "Line_01": "\/**",
+        "Line_02": "* @file commandBroker.js",
+        "Line_03": "* @module commandBroker",
+        "Line_05": "* @description Executes commands by calling the appropriate",
+        "Line_06": "* command-function from the commandLibrary,",
+        "Line_07": "* which will actually be stored functions on the D-Data structure.",
+        "Line_08": "* @requires module:ruleBroker",
+        "Line_09": "* @requires module:commandsLibrary",
+        "Line_10": "* @requires module:colorizer",
+        "Line_11": "* @requires module:configurator",
+        "Line_12": "* @requires module:loggers",
+        "Line_13": "* @requires module:data",
+        "Line_14": "* @requires module:queue",
+        "Line_15": "* @requires module:stack",
+        "Line_16": "* @requires {@link https:\/\/www.npmjs.com\/package\/@haystacks\/constants|@haystacks\/constants}",
+        "Line_17": "* @requires {@link https:\/\/www.npmjs.com\/package\/path|path}",
+        "Line_18": "* @author Seth Hollingsead",
+        "Line_19": "* @date 2022\/02\/02",
+        "Line_20": "* @copyright Copyright 2022 by Seth Hollingsead. All rights reserved",
+        "Line_21": "*\/"
+      }]
+    },
+    "Lesson_0062": {
+      "Name": "Lesson_0062",
+      "Number": 62,
+      "IndividualizedLessonPassingCriteria": [{
+        "AccuracyRequirement": 70.0,
+        "SpeedRequirement": 15
+      }],
+      "Description": "File Header 14",
+      "Lines": [{
+        "Line_01": "\/**",
+        "Line_02": "* @file constantBroker.js",
+        "Line_03": "* @module constantBroker",
+        "Line_04": "* @description Low level functions that enable management of constants data,",
+        "Line_05": "* meta-data from the framework, application and plugins.",
+        "Line_06": "* @requires module:configurator",
+        "Line_07": "* @requires module:loggers",
+        "Line_08": "* @requires module:data",
+        "Line_09": "* @requires {@link https:\/\/www.npmjs.com\/package\/@haystacks\/constants|@haystacks\/constants}",
+        "Line_10": "* @requires {@link https:\/\/www.npmjs.com\/package\/path|path}",
+        "Line_11": "* @author Seth Hollingsead",
+        "Line_12": "* @date 2022\/10\/27",
+        "Line_13": "* @copyright Copyright 2022 by Seth Hollingsead. All rights reserved",
+        "Line_14": "*\/"
+      }]
+    },
+    "Lesson_0063": {
+      "Name": "Lesson_0063",
+      "Number": 63,
+      "IndividualizedLessonPassingCriteria": [{
+        "AccuracyRequirement": 70.0,
+        "SpeedRequirement": 15
+      }],
+      "Description": "File Header 15",
+      "Lines": [{
+        "Line_01": "\/**",
+        "Line_02": "* @file dataBroker.js",
+        "Line_03": "* @module dataBroker",
+        "Line_04": "* @description Contains all of the lower level data processing functions,",
+        "Line_05": "* and also acts as an interface for calling the fileOperations.",
+        "Line_06": "* @requires module:ruleBroker",
+        "Line_07": "* @requires module:configurator",
+        "Line_08": "* @requires module:loggers",
+        "Line_09": "* @requires module:data",
+        "Line_10": "* @requires {@link https:\/\/www.npmjs.com\/package\/@haystacks\/constants|@haystacks\/constants}",
+        "Line_11": "* @requires {@link https:\/\/www.npmjs.com\/package\/path|path}",
+        "Line_12": "* @author Seth Hollingsead",
+        "Line_13": "* @date 2021\/10\/15",
+        "Line_14": "* @copyright Copyright 2022 by Seth Hollingsead. All rights reserved",
+        "Line_15": "*\/"
+      }]
+    },
+    "Lesson_0064": {
+      "Name": "Lesson_0064",
+      "Number": 64,
+      "IndividualizedLessonPassingCriteria": [{
+        "AccuracyRequirement": 70.0,
+        "SpeedRequirement": 15
+      }],
+      "Description": "File Header 16",
+      "Lines": [{
+        "Line_01": "\/**",
+        "Line_02": "* @file pluginBroker.js",
+        "Line_03": "* @module pluginBroker",
+        "Line_04": "* @description Contains all of the lower level plugin processing functions,",
+        "Line_05": "* and also acts as an interface for loading, unloading, reloading, registering,",
+        "Line_06": "* unregistering plugins and plugin metaData.",
+        "Line_07": "* @requires module:constantBroker",
+        "Line_08": "* @requires module:dataBroker",
+        "Line_09": "* @requires module:ruleBroker",
+        "Line_10": "* @requires module:workflowBroker",
+        "Line_11": "* @requires module:loggers",
+        "Line_12": "* @requires module:data",
+        "Line_13": "* @requires {@link https:\/\/www.npmjs.com\/package\/@haystacks\/constants|@haystacks\/constants}",
+        "Line_14": "* @requires {@link https:\/\/www.npmjs.com\/package\/url|url}",
+        "Line_15": "* @requires {@link https:\/\/www.npmjs.com\/package\/path|path}",
+        "Line_16": "* @author Seth Hollingsead",
+        "Line_17": "* @date 2022\/09\/02",
+        "Line_18": "* @copyright Copyright 2022 by Seth Hollingsead. All rights reserved",
+        "Line_19": "*\/"
+      }]
+    },
+    "Lesson_0065": {
+      "Name": "Lesson_0065",
+      "Number": 65,
+      "IndividualizedLessonPassingCriteria": [{
+        "AccuracyRequirement": 70.0,
+        "SpeedRequirement": 15
+      }],
+      "Description": "File Header 17",
+      "Lines": [{
+        "line_01": "\/**",
+        "line_02": "* @file ruleBroker.js",
+        "line_03": "* @module ruleBroker",
+        "line_04": "* @description Contains all the functions necessary to manage the business rules system.",
+        "line_05": "* @requires module:ruleParsing",
+        "line_06": "* @requires module:rulesLibrary",
+        "line_07": "* @requires module:data",
+        "line_08": "* @requires {@link https:\/\/www.npmjs.com\/package\/@haystacks\/constants|@haystacks\/constants}",
+        "line_09": "* @requires {@link https:\/\/www.npmjs.com\/package\/path|path}",
+        "line_10": "* @author Seth Hollingsead",
+        "line_11": "* @date 2021\/10\/27",
+        "line_12": "* @copyright Copyright 2022 by Seth Hollingsead. All rights reserved",
+        "line_13": "*\/"
+      }]
+    },
+    "Lesson_0066": {
+      "Name": "Lesson_0066",
+      "Number": 66,
+      "IndividualizedLessonPassingCriteria": [{
+        "AccuracyRequirement": 70.0,
+        "SpeedRequirement": 15
+      }],
+      "Description": "File Header 18",
+      "Lines": [{
+        "Line_01": "\/**",
+        "Line_02": "* @file themeBroker.js",
+        "Line_03": "* @module themeBroker",
+        "Line_04": "* @description Contains all the functions necessary to load and unload debugging themes.",
+        "Line_05": "* @requires module:ruleBroker",
+        "Line_06": "* @requires module:chiefConfiguration",
+        "Line_07": "* @requires module:chiefData",
+        "Line_08": "* @requires module:chiefTheme",
+        "Line_09": "* @requires module:loggers",
+        "Line_10": "* @requires module:data",
+        "Line_11": "* @requires {@link https:\/\/www.npmjs.com\/package\/@haystacks\/constants|@haystacks\/constants}",
+        "Line_12": "* @requires {@link https:\/\/www.npmjs.com\/package\/path|path}",
+        "Line_13": "* @author Seth Hollingsead",
+        "Line_14": "* @date 2022\/06\/10",
+        "Line_15": "* @copyright Copyright 2022 by Seth Hollingsead. All rights reserved",
+        "Line_16": "*\/"
+      }]
+    },
+    "Lesson_0067": {
+      "Name": "Lesson_0067",
+      "Number": 67,
+      "IndividualizedLessonPassingCriteria": [{
+        "AccuracyRequirement": 70.0,
+        "SpeedRequirement": 15
+      }],
+      "Description": "File Header 19",
+      "Lines": [{
+        "Line_01": "\/**",
+        "Line_02": "* @file workflowBroker.js",
+        "Line_03": "* @module workflowBroker",
+        "Line_04": "* @description Holds all fo the low level functions that manage the workflows,",
+        "Line_05": "* system defined workflows, client defined workflows,",
+        "Line_06": "* setting the workflow data and getting the workflow data.",
+        "Line_07": "* @requires module:loggers",
+        "Line_08": "* @requires module:data",
+        "Line_09": "* @requires {@link https:\/\/www.npmjs.com\/package\/path|path}",
+        "Line_10": "* @author Seth Hollingsead",
+        "Line_11": "* @date 2022\/02\/04",
+        "Line_12": "* @copyright Copyright 2022 by Seth Hollingsead. All rights reserved",
+        "Line_13": "*\/"
+      }]
+    },
+    "Lesson_0068": {
+      "Name": "Lesson_0068",
+      "Number": 68,
+      "IndividualizedLessonPassingCriteria": [{
+        "AccuracyRequirement": 70.0,
+        "SpeedRequirement": 15
+      }],
+      "Description": "File Header 20",
+      "Lines": [{
+        "Line_01": "\/**",
+        "Line_02": "* @file auxiliaryArrayParsing.js",
+        "Line_03": "* @module auxiliaryArrayParsing",
+        "Line_04": "* @description Contains all system defined business rules for parsing",
+        "Line_05": "* arrays specific to auxiliary capabilities.",
+        "Line_06": "* @requires module:colorizer",
+        "Line_07": "* @requires module:loggers",
+        "Line_08": "* @requires {@link https:\/\/www.npmjs.com\/package\/@haystacks\/constants|@haystacks\/constants}",
+        "Line_09": "* @requires {@link https:\/\/mathjs.org\/index.html|math}",
+        "Line_10": "* @requires {@link https:\/\/www.npmjs.com\/package\/path|path}",
+        "Line_11": "* @author Seth Hollingsead",
+        "Line_12": "* @date 2022\/04\/26",
+        "Line_13": "* @copyright Copyright 2022 by Seth Hollingsead. All rights reserved",
+        "Line_14": "*\/"
+      }]
+    },
+    "Lesson_0069": {
+      "Name": "Lesson_0069",
+      "Number": 69,
+      "IndividualizedLessonPassingCriteria": [{
+        "AccuracyRequirement": 70.0,
+        "SpeedRequirement": 15
+      }],
+      "Description": "File Header 21",
+      "Lines": [{
+        "Line_01": "\/**",
+        "Line_02": "* @file characterArrayParsing.js",
+        "Line_03": "* @module characterArrayParsing",
+        "Line_04": "* @description Contains all system defined business",
+        "Line_05": "* rules for array parsing with a focus on characters.",
+        "Line_06": "* @requires module:stringParsingUtilities",
+        "Line_07": "* @requires module:ruleParsing",
+        "Line_08": "* @requires module:configurator",
+        "Line_09": "* @requires module:loggers",
+        "Line_10": "* @requires {@link https:\/\/www.npmjs.com\/package\/@haystacks\/constants|@haystacks\/constants}",
+        "Line_11": "* @requires {@link https:\/\/www.npmjs.com\/package\/path|path}",
+        "Line_12": "* @author Seth Hollingsead",
+        "Line_13": "* @date 2022\/04\/25",
+        "Line_14": "* @copyright Copyright © 2022-… by Seth Hollingsead. All rights reserved",
+        "Line_15": "*\/"
+      }]
+    },
+    "Lesson_0070": {
+      "Name": "Lesson_0070",
+      "Number": 70,
+      "IndividualizedLessonPassingCriteria": [{
+        "AccuracyRequirement": 70.0,
+        "SpeedRequirement": 15
+      }],
+      "Description": "File Header 22",
+      "Lines": [{
+        "Line_01": "\/**",
+        "Line_02": "* @file commandArrayParsing.js",
+        "Line_03": "* @module commandArrayParsing",
+        "Line_04": "* @description Contains all system defined business",
+        "Line_05": "* rules for parsing arrays specific to commands.",
+        "Line_06": "* @requires module:ruleParsing",
+        "Line_07": "* @requires module:configurator",
+        "Line_08": "* @requires module:loggers",
+        "Line_09": "* @requires {@link https:\/\/www.npmjs.com\/package\/@haystacks\/constants|@haystacks\/constants}",
+        "Line_10": "* @requires {@link https:\/\/www.npmjs.com\/package\/path|path}",
+        "Line_11": "* @author Seth Hollingsead",
+        "Line_12": "* @date 2022\/04\/26",
+        "Line_13": "* @copyright Copyright 2022 by Seth Hollingsead. All rights reserved",
+        "Line_14": "*\/"
+      }]
+    },
+    "Lesson_0071": {
+      "Name": "Lesson_0071",
+      "Number": 71,
+      "IndividualizedLessonPassingCriteria": [{
+        "AccuracyRequirement": 70.0,
+        "SpeedRequirement": 15
+      }],
+      "Description": "File Header 23",
+      "Lines": [{
+        "Line_01": "\/**",
+        "Line_02": "* @file constantArrayParsing.js",
+        "Line_03": "* @module constantArrayParsing",
+        "Line_04": "* @description Contains all system defined business rules",
+        "Line_05": "* for parsing arrays specific to constants.",
+        "Line_06": "* @requires module:ruleParsing",
+        "Line_07": "* @requires module:configurator",
+        "Line_08": "* @requires module:loggers",
+        "Line_09": "* @requires {@link https:\/\/www.npmjs.com\/package\/@haystacks\/constants|@haystacks\/constants}",
+        "Line_10": "* @requires {@link https:\/\/mathjs.org\/index.html|math}",
+        "Line_11": "* @requires {@link https:\/\/www.npmjs.com\/package\/chalk|chalk}",
+        "Line_12": "* @requires {@link https:\/\/www.npmjs.com\/package\/path|path}",
+        "Line_13": "* @author Seth Hollingsead",
+        "Line_14": "* @date 2022\/04\/26",
+        "Line_15": "* @copyright Copyright 2022 by Seth Hollingsead. All rights reserved",
+        "Line_16": "*\/"
+      }]
+    },
+    "Lesson_0072": {
+      "Name": "Lesson_0072",
+      "Number": 72,
+      "IndividualizedLessonPassingCriteria": [{
+        "AccuracyRequirement": 70.0,
+        "SpeedRequirement": 15
+      }],
+      "Description": "File Header 24",
+      "Lines": [{
+        "Line_01": "\/**",
+        "Line_02": "* @file dataArrayParsing.js",
+        "Line_03": "* @module dataArrayParsing",
+        "Line_04": "* @description Contains all system defined business rules",
+        "Line_05": "* for parsing arrays specific to data.",
+        "Line_06": "* @requires module:dataBroker",
+        "Line_07": "* @requires module:ruleParsing",
+        "Line_08": "* @requires module:loggers",
+        "Line_09": "* @requires module:data",
+        "Line_10": "* @requires {@link https:\/\/www.npmjs.com\/package\/@haystacks\/constants|@haystacks\/constants}",
+        "Line_11": "* @requires {@link https:\/\/www.npmjs.com\/package\/path|path}",
+        "Line_12": "* @author Seth Hollingsead",
+        "Line_13": "* @date 2022\/04\/26",
+        "Line_14": "* @copyright Copyright 2022 by Seth Hollingsead. All rights reserved",
+        "Line_15": "*\/"
+      }]
+    },
+    "Lesson_0073": {
+      "Name": "Lesson_0073",
+      "Number": 73,
+      "IndividualizedLessonPassingCriteria": [{
+        "AccuracyRequirement": 70.0,
+        "SpeedRequirement": 15
+      }],
+      "Description": "File Header 25",
+      "Lines": [{
+        "Line_01": "\/**",
+        "Line_02": "* @file pathArrayParsing.js",
+        "Line_03": "* @module pathArrayParsing",
+        "Line_04": "* @description Contains all system defined business rules",
+        "Line_05": "* for parsing arrays specific to paths.",
+        "Line_06": "* @requires module:ruleParsing",
+        "Line_07": "* @requires module:configurator",
+        "Line_08": "* @requires module:loggers",
+        "Line_09": "* @requires {@link https:\/\/www.npmjs.com\/package\/@haystacks\/constants|@haystacks\/constants}",
+        "Line_10": "* @requires {@link https:\/\/www.npmjs.com\/package\/path|path}",
+        "Line_11": "* @author Seth Hollingsead",
+        "Line_12": "* @date 2021\/10\/28",
+        "Line_13": "* @copyright Copyright 2021 by Seth Hollingsead. All rights reserved",
+        "Line_14": "*\/"
+      }]
+    },
+    "Lesson_0074": {
+      "Name": "Lesson_0074",
+      "Number": 74,
+      "IndividualizedLessonPassingCriteria": [{
+        "AccuracyRequirement": 70.0,
+        "SpeedRequirement": 15
+      }],
+      "Description": "File Header 26",
+      "Lines": [{
+        "Line_01": "\/**",
+        "Line_02": "* @file wordArrayParsing.js",
+        "Line_03": "* @module wordArrayParsing",
+        "Line_04": "* @description Contains all system defined business rules",
+        "Line_05": "* for parsing arrays specific to words.",
+        "Line_06": "* @requires module:ruleParsing",
+        "Line_07": "* @requires module:loggers",
+        "Line_08": "* @requires {@link https:\/\/www.npmjs.com\/package\/@haystacks\/constants|@haystacks\/constants}",
+        "Line_09": "* @requires {@link https:\/\/www.npmjs.com\/package\/path|path}",
+        "Line_10": "* @author Seth Hollingsead",
+        "Line_11": "* @date 2022\/04\/26",
+        "Line_12": "* @copyright Copyright 2021 by Seth Hollingsead. All rights reserved",
+        "Line_13": "*\/"
+      }]
+    },
+    "Lesson_0075": {
+      "Name": "Lesson_0075",
+      "Number": 75,
+      "IndividualizedLessonPassingCriteria": [{
+        "AccuracyRequirement": 70.0,
+        "SpeedRequirement": 15
+      }],
+      "Description": "File Header 27",
+      "Lines": [{
+        "Line_01": "\/**",
+        "Line_02": "* @file auxiliaryStringParsing.js",
+        "Line_03": "* @module auxiliaryStringParsing",
+        "Line_04": "* @description Contains all system defined business rules for parsing strings",
+        "Line_05": "* focused on misc auxiliary capabilities.",
+        "Line_06": "* @requires module:loggers",
+        "Line_07": "* @requires {@link https:\/\/www.npmjs.com\/package\/@haystacks\/constants|@haystacks\/constants}",
+        "Line_08": "* @requires {@link https:\/\/www.npmjs.com\/package\/path|path}",
+        "Line_09": "* @author Seth Hollingsead",
+        "Line_10": "* @date 2022\/04\/25",
+        "Line_11": "* @copyright Copyright 2022 by Seth Hollingsead. All rights reserved",
+        "Line_12": "*\/"
+      }]
+    },
+    "Lesson_0076": {
+      "Name": "Lesson_0076",
+      "Number": 76,
+      "IndividualizedLessonPassingCriteria": [{
+        "AccuracyRequirement": 70.0,
+        "SpeedRequirement": 15
+      }],
+      "Description": "File Header 28",
+      "Lines": [{
+        "Line_01": "\/**",
+        "Line_02": "* @file characterStringParsing.js",
+        "Line_03": "* @module characterStringParsing",
+        "Line_04": "* @description Contains all system defined business rules for parsing characters in strings.",
+        "Line_05": "* @requires module:characterArrayParsing",
+        "Line_06": "* @requires module:ruleParsing",
+        "Line_07": "* @requires module:configurator",
+        "Line_08": "* @requires module:loggers",
+        "Line_09": "* @requires {@link https:\/\/www.npmjs.com\/package\/@haystacks\/constants|@haystacks\/constants}",
+        "Line_10": "* @requires {@link https:\/\/www.npmjs.com\/package\/path|path}",
+        "Line_11": "* @author Seth Hollingsead",
+        "Line_12": "* @date 2022\/04\/25",
+        "Line_13": "* @copyright Copyright 2022 by Seth Hollingsead. All rights reserved",
+        "Line_14": "*\/"
+      }]
+    },
+    "Lesson_0077": {
+      "Name": "Lesson_0077",
+      "Number": 77,
+      "IndividualizedLessonPassingCriteria": [{
+        "AccuracyRequirement": 70.0,
+        "SpeedRequirement": 15
+      }],
+      "Description": "File Header 29",
+      "Lines": [{
+        "Line_01": "\/**",
+        "Line_02": "* @file commandStringParsing.js",
+        "Line_03": "* @module commandStringParsing",
+        "Line_04": "* @description Contains all system defined business rules for parsing strings",
+        "Line_05": "* with specific focus on command string parsing.",
+        "Line_06": "* @requires module:ruleParsing",
+        "Line_07": "* @requires module:loggers",
+        "Line_08": "* @requires {@link https:\/\/www.npmjs.com\/package\/@haystacks\/constants|@haystacks\/constants}",
+        "Line_09": "* @requires {@link https:\/\/www.npmjs.com\/package\/path|path}",
+        "Line_10": "* @author Seth Hollingsead",
+        "Line_11": "* @date 2022\/04\/25",
+        "Line_12": "* @copyright Copyright 2022 by Seth Hollingsead. All rights reserved",
+        "Line_13": "*\/"
+      }]
+    },
+    "Lesson_0078": {
+    "Name": "Lesson_0078",
+      "Number": 78,
+      "IndividualizedLessonPassingCriteria": [{
+        "AccuracyRequirement": 70.0,
+        "SpeedRequirement": 15
+      }],
+      "Description": "File Header 30",
+      "Lines": [{
+        "Line_01": "/**",
+        "Line_02": "* @file constantStringParsing.js",
+        "Line_03": "* @module constantStringParsing",
+        "Line_04": "* @description Contains all system defined business rules",
+        "Line_05": "* for parsing strings related to constants.",
+        "Line_06": "* @requires module:ruleParsing",
+        "Line_07": "* @requires module:configurator",
+        "Line_08": "* @requires module:loggers",
+        "Line_09": "* @requires module:data",
+        "Line_10": "* @requires {@link https://www.npmjs.com/package/@haystacks/constants|@haystacks/constants}",
+        "Line_11": "* @requires {@link https://www.npmjs.com/package/chalk|chalk}",
+        "Line_12": "* @requires {@link https://nodejs.dev/}",
+        "Line_13": "* @requires {@link https://www.npmjs.com/package/path|path}",
+        "Line_14": "* @author Seth Hollingsead",
+        "Line_15": "* @date 2022/04/25",
+        "Line_16": "* @copyright Copyright 2022 by Seth Hollingsead. All rights reserved",
+        "Line_17": "*/"
+      }]
+    },
+    "Lesson_0079": {
+    "Name": "Lesson_0079",
+      "Number": 79,
+      "IndividualizedLessonPassingCriteria": [{
+        "AccuracyRequirement": 70.0,
+        "SpeedRequirement": 15
+      }],
+      "Description": "File Header 31",
+      "Lines": [{
+        "Line_01": "\/**",
+        "Line_02": "* @file dataStringParsing.js",
+        "Line_03": "* @module dataStringParsing",
+        "Line_04": "* @description Contains all system defined business rules",
+        "Line_05": "* for parsing strings as related to data.",
+        "Line_06": "* @requires module:ruleParsing",
+        "Line_07": "* @requires module:loggers",
+        "Line_08": "* @requires {@link https:\/\/www.npmjs.com\/package\/@haystacks\/constants|@haystacks\/constants}",
+        "Line_09": "* @requires {@link https:\/\/www.npmjs.com\/package\/path|path}",
+        "Line_10": "* @author Seth Hollingsead",
+        "Line_11": "* @date 2022\/04\/25",
+        "Line_12": "* @copyright Copyright 2022 by Seth Hollingsead. All rights reserved",
+        "Line_13": "*\/"
+      }]
+    },
+    "Lesson_0080": {
+    "Name": "Lesson_0080",
+      "Number": 80,
+      "IndividualizedLessonPassingCriteria": [{
+        "AccuracyRequirement": 70.0,
+        "SpeedRequirement": 15
+      }],
+      "Description": "File Header 32",
+      "Lines": [{
+        "Line_01": "\/**",
+        "Line_02": "* @file fileStringParsing.js",
+        "Line_03": "* @module fileStringParsing",
+        "Line_04": "* @description Contains all system defined business rules",
+        "Line_05": "* for parsing strings, specific to file names.",
+        "Line_06": "* @requires module:ruleParsing",
+        "Line_07": "* @requires module:loggers",
+        "Line_08": "* @requires {@link https:\/\/www.npmjs.com\/package\/@haystacks\/constants|@haystacks\/constants}",
+        "Line_09": "* @requires {@link https:\/\/www.npmjs.com\/package\/path|path}",
+        "Line_10": "* @author Seth Hollingsead",
+        "Line_11": "* @date 2022\/04\/25",
+        "Line_12": "* @copyright Copyright 2022 by Seth Hollingsead. All rights reserved",
+        "Line_13": "*\/"
+      }]
+    },
+    "Lesson_0081": {
+    "Name": "Lesson_0081",
+      "Number": 81,
+      "IndividualizedLessonPassingCriteria": [{
+        "AccuracyRequirement": 70.0,
+        "SpeedRequirement": 15
+      }],
+      "Description": "File Header 33",
+      "Lines": [{
+        "Line_01": "\/**",
+        "Line_02": "* @file wordStringParsing.js",
+        "Line_03": "* @module wordStringParsing",
+        "Line_04": "* @description Contains all system defined business rules for parsing words and lists.",
+        "Line_05": "* @requires module:ruleParsing",
+        "Line_06": "* @requires module:configurator",
+        "Line_07": "* @requires module:loggers",
+        "Line_08": "* @requires {@link https:\/\/www.npmjs.com\/package\/@haystacks\/constants|@haystacks\/constants}",
+        "Line_09": "* @requires {@link https:\/\/mathjs.org\/index.html|math}",
+        "Line_10": "* @requires {@link https:\/\/www.npmjs.com\/package\/path|path}",
+        "Line_11": "* @author Seth Hollingsead",
+        "Line_12": "* @date 2022\/04\/25",
+        "Line_13": "* @copyright Copyright 2022 by Seth Hollingsead. All rights reserved",
+        "Line_14": "*\/"
+      }]
+    },
+    "Lesson_0082": {
+    "Name": "Lesson_0082",
+      "Number": 82,
+      "IndividualizedLessonPassingCriteria": [{
+        "AccuracyRequirement": 70.0,
+        "SpeedRequirement": 15
+      }],
+      "Description": "File Header 34",
+      "Lines": [{
+        "Line_01": "\/**",
+        "Line_02": "* @file characterGeneration.js",
+        "Line_03": "* @module characterGeneration",
+        "Line_04": "* @description Contains all business rules for randomly generating characters of all kinds.",
+        "Line_05": "* @requires module:ruleParsing",
+        "Line_06": "* @requires module:loggers",
+        "Line_07": "* @requires {@link https:\/\/www.npmjs.com\/package\/@haystacks\/constants|@haystacks\/constants}",
+        "Line_08": "* @requires {@link https:\/\/www.npmjs.com\/package\/path|path}",
+        "Line_09": "* @author Seth Hollingsead",
+        "Line_10": "* @date 2022\/01\/25",
+        "Line_11": "* @copyright Copyright 2022 by Seth Hollingsead. All rights reserved",
+        "Line_12": "*\/"
+      }]
+    },
+    "Lesson_0083": {
+    "Name": "Lesson_0083",
+      "Number": 83,
+      "IndividualizedLessonPassingCriteria": [{
+        "AccuracyRequirement": 70.0,
+        "SpeedRequirement": 15
+      }],
+      "Description": "File Header 35",
+      "Lines": [{
+        "Line_01": "\/**",
+        "Line_02": "* @file fileOperations.js",
+        "Line_03": "* @module fileOperations",
+        "Line_04": "* @description Contains all of the functions required to do file operations",
+        "Line_05": "* on a physical/virtual hard drive and/or mounted volume.",
+        "Line_06": "* Including loading files, saving files, reloading files, resaving files,",
+        "Line_07": "* copying files, moving files, copying folders including copying folders recursively,",
+        "Line_08": "* zipping files and saving sip-packages as part of a deployment/release process.",
+        "Line_09": "* @requires module:ruleParsing",
+        "Line_10": "* @requires module:configurator",
+        "Line_11": "* @requires module:loggers",
+        "Line_12": "* @requires {@link https:\/\/www.npmjs.com\/package\/@haystacks\/constants|@haystacks\/constants}",
+        "Line_13": "* @requires {@link https:\/\/www.npmjs.com\/package\/adm-zip|adm-zip}",
+        "Line_14": "* @requires {@link https:\/\/nodejs.dev\/learn\/the-nodejs-fs-module|fs}",
+        "Line_15": "* @requires {@link https:\/\/www.npmjs.com\/package\/papaparse|papaparse}",
+        "Line_16": "* @requires {@link https:\/\/www.npmjs.com\/package\/xml2js|xml2js}",
+        "Line_17": "* @requires {@link https:\/\/nodejs.org\/api\/child_process.html|child_process}",
+        "Line_18": "* @requires {@link https:\/\/www.nodejs.org\/api\/process.html|process}",
+        "Line_19": "* @requires {@link https:\/\/www.npmjs.com\/package\/path|path}",
+        "Line_20": "* @author Seth Hollingsead",
+        "Line_21": "* @date 2022\/04\/28",
+        "Line_22": "* @copyright Copyright 2022 by Seth Hollingsead. All rights reserved",
+        "Line_23": "*\/"
+      }]
+    },
+    "Lesson_0084": {
+    "Name": "Lesson_0084",
+      "Number": 84,
+      "IndividualizedLessonPassingCriteria": [{
+        "AccuracyRequirement": 70.0,
+        "SpeedRequirement": 15
+      }],
+      "Description": "File Header 36",
+      "Lines": [{
+        "Line_01": "\/**",
+        "Line_02": "* @file lexicalAnalyzer.js",
+        "Line_03": "* @module lexicalAnalyzer",
+        "Line_04": "* @description Contains all functions used for parsing",
+        "Line_05": "* command arguments and/or business rule arguments.",
+        "Line_06": "* @requires module:ruleParsing",
+        "Line_07": "* @requires module:configurator",
+        "Line_08": "* @requires module:loggers",
+        "Line_09": "* @requires {@link https:\/\/www.npmjs.com\/package\/@haystacks\/constants|@haystacks\/constants}",
+        "Line_10": "* @requires {@link https:\/\/www.npmjs.com\/package\/path|path}",
+        "Line_11": "* @author Seth Hollingsead",
+        "Line_12": "* @date 2022\/02\/03",
+        "Line_13": "* @copyright Copyright 2022 by Seth Hollingsead. All rights reserved",
+        "Line_14": "*\/"
+      }]
+    },
+    "Lesson_0085": {
+    "Name": "Lesson_0085",
+      "Number": 85,
+      "IndividualizedLessonPassingCriteria": [{
+        "AccuracyRequirement": 70.0,
+        "SpeedRequirement": 15
+      }],
+      "Description": "File Header 37",
+      "Lines": [{
+        "Line_01": "\/**",
+        "Line_02": "* @file mathOperations",
+        "Line_03": "* @module mathOperations",
+        "Line_04": "* @description Contains all of the business rule functions",
+        "Line_05": "* for ding math operations and conversions.",
+        "Line_06": "* @requires module:ruleParsing",
+        "Line_07": "* @requires module:loggers",
+        "Line_08": "* @requires {@link https:\/\/www.npmjs.com\/package\/@haystacks\/constants|@haystacks\/constants}",
+        "Line_09": "* @requires {@link https:\/\/www.npmjs.com\/package\/path|path}",
+        "Line_10": "* @author Seth Hollingsead",
+        "Line_11": "* @date 2022\/01\/27",
+        "Line_12": "* @copyright Copyright 2022 by Seth Hollingsead. All rights reserved",
+        "Line_13": "*\/"
+      }]
+    },
+    "Lesson_0086": {
+    "Name": "Lesson_0086",
+      "Number": 86,
+      "IndividualizedLessonPassingCriteria": [{
+        "AccuracyRequirement": 70.0,
+        "SpeedRequirement": 15
+      }],
+      "Description": "File Header 38",
+      "Lines": [{
+        "Line_01": "\/* eslint-disable no-undef *\/",
+        "Line_02": "\/**",
+        "Line_03": "* @file promptOperations.js",
+        "Line_04": "* @module promptOperations",
+        "Line_05": "* @description A simple prompt module to get input from the user using process.stdin.",
+        "Line_06": "* @requires module:loggers",
+        "Line_07": "* @requires {@link https:\/\/www.npmjs.com\/package\/@haystacks\/constants|@haystacks\/constants}",
+        "Line_08": "* @requires {@link https:\/\/nodejs.dev\/learn\/the-nodejs-fs-module|fs}",
+        "Line_09": "* @requires {@link https:\/\/www.npmjs.com\/package\/path|path}",
+        "Line_10": "* @author Seth Hollingsead",
+        "Line_11": "* @date 2022\/05\/04 - May the Forth be with you!! ;-)",
+        "Line_12": "* @copyright Copyright 2022 by Seth Hollingsead. All rights reserved",
+        "Line_13": "*\/"
+      }]
+    },
+    "Lesson_0087": {
+    "Name": "Lesson_0087",
+      "Number": 87,
+      "IndividualizedLessonPassingCriteria": [{
+        "AccuracyRequirement": 70.0,
+        "SpeedRequirement": 15
+      }],
+      "Description": "File Header 39",
+      "Lines": [{
+        "Line_01": "\/**",
+        "Line_02": "* @file ruleParsing.js",
+        "Line_03": "* @module ruleParsing",
+        "Line_04": "* @description Contains a function that can be used by the business rules to",
+        "Line_05": "* call business rules internal to business rules.",
+        "Line_06": "* @requires module:loggers",
+        "Line_07": "* @requires module:data",
+        "Line_08": "* @requires {@link https:\/\/www.npmjs.com\/package\/@haystacks\/constants|@haystacks\/constants}",
+        "Line_09": "* @requires {@link https:\/\/www.npmjs.com\/package\/path|path}",
+        "Line_10": "* @author Seth Hollingsead",
+        "Line_11": "* @date 2022\/05\/03",
+        "Line_12": "* @copyright Copyright 2022 by Seth Hollingsead. All rights reserved",
+        "Line_13": "*\/"
+      }]
+    },
+    "Lesson_0088": {
+    "Name": "Lesson_0088",
+      "Number": 88,
+      "IndividualizedLessonPassingCriteria": [{
+        "AccuracyRequirement": 70.0,
+        "SpeedRequirement": 15
+      }],
+      "Description": "File Header 40",
+      "Lines": [{
+        "Line_01": "\/**",
+        "Line_02": "* @file stringGeneration.js",
+        "Line_03": "* @module stringGeneration",
+        "Line_04": "* @description Contains all business rules",
+        "Line_05": "* for randomly generating strings of all kinds.",
+        "Line_06": "* @requires module:ruleParsing",
+        "Line_07": "* @requires module:loggers",
+        "Line_08": "* @requires {@link https:\/\/www.npmjs.com\/package\/@haystacks\/constants|@haystacks\/constants}",
+        "Line_09": "* @requires {@link https:\/\/www.npmjs.com\/package\/path|path}",
+        "Line_10": "* @author Seth Hollingsead",
+        "Line_11": "* @date 2022\/01\/25",
+        "Line_12": "* @copyright Copyright 2022 by Seth Hollingsead. All rights reserved",
+        "Line_13": "*\/"
+      }]
+    },
+    "Lesson_0089": {
+    "Name": "Lesson_0089",
+      "Number": 89,
+      "IndividualizedLessonPassingCriteria": [{
+        "AccuracyRequirement": 70.0,
+        "SpeedRequirement": 15
+      }],
+      "Description": "File Header 41",
+      "Lines": [{
+        "Line_01": "\/* eslint-disable no-unused-vars *\/",
+        "Line_02": "\/**",
+        "Line_03": "* @file stringParsingUtilities.js",
+        "Line_04": "* @module stringParsingUtilities",
+        "Line_05": "* @description Contains all system defined business rules for parsing strings,",
+        "Line_06": "* with values of all kinds, and various parsing operations.",
+        "Line_07": "* Excluding functions that use the loggers.",
+        "Line_08": "* @requires {@link https:\/\/www.npmjs.com\/package\/@haystacks\/constants|@haystacks\/constants}",
+        "Line_09": "* @requires {@link https:\/\/www.npmjs.com\/package\/path|path}",
+        "Line_10": "* @author Seth Hollingsead",
+        "Line_11": "* @date 2021\/12\/28",
+        "Line_12": "* @copyright Copyright 2022 by Seth Hollingsead. All rights reserved",
+        "Line_13": "*\/"
+      }]
+    },
+    "Lesson_0090": {
+    "Name": "Lesson_0090",
+      "Number": 90,
+      "IndividualizedLessonPassingCriteria": [{
+        "AccuracyRequirement": 70.0,
+        "SpeedRequirement": 15
+      }],
+      "Description": "File Header 42",
+      "Lines": [{
+        "Line_01": "\/**",
+        "Line_02": "* @file timeComputation.js",
+        "Line_03": "* @module timeComputation",
+        "Line_04": "* @description Contains all of the business rules needed for generating time stamps,",
+        "Line_05": "* reformatting time stamps and computing time durations.",
+        "Line_06": "* @requires module:loggers",
+        "Line_07": "* @requires {@link https:\/\/www.npmjs.com\/package\/@haystacks\/constants|@haystacks\/constants}",
+        "Line_08": "* @requires {@link https:\/\/www.npmjs.com\/package\/moment|moment}",
+        "Line_09": "* @requires {@link https:\/\/www.npmjs.com\/package\/path|path}",
+        "Line_10": "* @author Seth Hollingsead",
+        "Line_11": "* @date 2022\/05\/04 - May the Forth be with you!! ;-)",
+        "Line_12": "* @copyright Copyright 2022 by Seth Hollingsead. All rights reserved",
+        "Line_13": "*\/"
+      }]
+    },
 
 
     "Lesson_0405": {
