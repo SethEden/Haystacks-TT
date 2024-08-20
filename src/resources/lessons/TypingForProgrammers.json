@@ -2134,6 +2134,282 @@
         "Line_13": "*\/"
       }]
     },
+    "Lesson_0091": {
+    "Name": "Lesson_0091",
+      "Number": 91,
+      "IndividualizedLessonPassingCriteria": [{
+        "AccuracyRequirement": 70.0,
+        "SpeedRequirement": 15
+      }],
+      "Description": "File Header 43",
+      "Lines": [{
+        "Line_01": "\/**",
+        "Line_02": "* @file advanced.js",
+        "Line_03": "* @module advanced",
+        "Line_04": "* @description Contains all of the advanced system commands.",
+        "Line_05": "* @requires module:commandBroker",
+        "Line_06": "* @requires module:ruleBroker",
+        "Line_07": "* @requires module:workflowBroker",
+        "Line_08": "* @requires module:configurator",
+        "Line_09": "* @requires module:loggers",
+        "Line_10": "* @requires module:data",
+        "Line_11": "* @requires module:queue",
+        "Line_12": "* @requires module:stack",
+        "Line_13": "* @requires {@link https:\/\/www.npmjs.com\/package\/@haystacks\/constants|@haystacks\/constants}",
+        "Line_14": "* @requires {@link https:\/\/www.npmjs.com\/package\/path|path}",
+        "Line_15": "* @author Seth Hollingsead",
+        "Line_16": "* @date 2022\/02\/04",
+        "Line_17": "* @copyright Copyright 2022 by Seth Hollingsead. All rights reserved",
+        "Line_18": "*\/"
+      }]
+    },
+    "Lesson_0092": {
+    "Name": "Lesson_0092",
+      "Number": 92,
+      "IndividualizedLessonPassingCriteria": [{
+        "AccuracyRequirement": 70.0,
+        "SpeedRequirement": 15
+      }],
+      "Description": "File Header 44",
+      "Lines": [{
+        "Line_01": "\/**",
+        "Line_02": "* @file auxiliary.js",
+        "Line_03": "* @module auxiliary",
+        "Line_04": "* @description Contains all of the nominal system commands.",
+        "Line_05": "* @requires module:ruleBroker",
+        "Line_06": "* @requires module:loggers",
+        "Line_07": "* @requires module:data",
+        "Line_08": "* @requires {@link https:\/\/www.npmjs.com\/package\/@haystacks\/constants|@haystacks\/constants}",
+        "Line_09": "* @requires {@link https:\/\/www.npmjs.com\/package\/path|path}",
+        "Line_10": "* @author Seth Hollingsead",
+        "Line_11": "* @date 2022\/04\/21",
+        "Line_12": "* @copyright Copyright 2022 by Seth Hollingsead. All rights reserved",
+        "Line_13": "*\/"
+      }]
+    },
+    "Lesson_0093": {
+    "Name": "Lesson_0093",
+      "Number": 93,
+      "IndividualizedLessonPassingCriteria": [{
+        "AccuracyRequirement": 70.0,
+        "SpeedRequirement": 15
+      }],
+      "Description": "File Header 45",
+      "Lines": [{
+        "Line_01": "\/**",
+        "Line_02": "* @file configuration.js",
+        "Line_03": "* @module configuration",
+        "Line_04": "* @description Contains all of the configuration system commands.",
+        "Line_05": "* @requires module:dataBroker",
+        "Line_06": "* @requires module:ruleBroker",
+        "Line_07": "* @requires module:themeBroker",
+        "Line_08": "* @requires module:configurator",
+        "Line_09": "* @requires module:loggers",
+        "Line_10": "* @requires module:data",
+        "Line_11": "* @requires {@link https:\/\/www.npmjs.com\/package\/@haystacks\/constants|@haystacks\/constants}",
+        "Line_12": "* @requires {@link https:\/\/www.npmjs.com\/package\/path|path}",
+        "Line_13": "* @author Seth Hollingsead",
+        "Line_14": "* @date 2022\/02\/04",
+        "Line_15": "* @copyright Copyright 2022 by Seth Hollingsead. All rights reserved",
+        "Line_16": "*\/"
+      }]
+    },
+    "Lesson_0094": {
+    "Name": "Lesson_0094",
+      "Number": 94,
+      "IndividualizedLessonPassingCriteria": [{
+        "AccuracyRequirement": 70.0,
+        "SpeedRequirement": 15
+      }],
+      "Description": "File Header 46",
+      "Lines": [{
+        "Line_01": "\/**",
+        "Line_02": "* @file constant.js",
+        "Line_03": "* @module constant",
+        "Line_04": "* @description Contains all of the constant system commands.",
+        "Line_05": "* @requires module:ruleBroker",
+        "Line_06": "* @requires module:configurator",
+        "Line_07": "* @requires module:loggers",
+        "Line_08": "* @requires module:queue",
+        "Line_09": "* @requires module:stack",
+        "Line_10": "* @requires {@link https:\/\/www.npmjs.com\/package\/@haystacks\/constants|@haystacks\/constants}",
+        "Line_11": "* @requires {@link https:\/\/www.npmjs.com\/package\/path|path}",
+        "Line_12": "* @author Seth Hollingsead",
+        "Line_13": "* @date 2022\/02\/04",
+        "Line_14": "* @copyright Copyright 2022 by Seth Hollingsead. All rights reserved",
+        "Line_15": "*\/"
+      }]
+    },
+    "Lesson_0095": {
+    "Name": "Lesson_0095",
+      "Number": 95,
+      "IndividualizedLessonPassingCriteria": [{
+        "AccuracyRequirement": 70.0,
+        "SpeedRequirement": 15
+      }],
+      "Description": "File Header 47",
+      "Lines": [{
+        "Line_01": "\/**",
+        "Line_02": "* @file dataDirectorate.js",
+        "Line_03": "* @module dataDirectorate",
+        "Line_04": "* @description Contains all of the data directorate commands.",
+        "Line_05": "* @requires module:dataBroker",
+        "Line_06": "* @requires module:ruleBroker",
+        "Line_07": "* @requires module:configurator",
+        "Line_08": "* @requires module:loggers",
+        "Line_09": "* @requires module:data",
+        "Line_10": "* @requires {@link https:\/\/www.npmjs.com\/package\/@haystacks\/constants|@haystacks\/constants}",
+        "Line_11": "* @requires {@link https:\/\/www.npmjs.com\/package\/path|path}",
+        "Line_12": "* @author Seth Hollingsead",
+        "Line_13": "* @date 2022\/02\/04",
+        "Line_14": "* @copyright Copyright 2022 by Seth Hollingsead. All rights reserved",
+        "Line_15": "*\/"
+      }]
+    },
+    "Lesson_0096": {
+    "Name": "Lesson_0096",
+      "Number": 96,
+      "IndividualizedLessonPassingCriteria": [{
+        "AccuracyRequirement": 70.0,
+        "SpeedRequirement": 15
+      }],
+      "Description": "File Header 48",
+      "Lines": [{
+        "Line_01": "\/**",
+        "Line_02": "* @file integrationTests.js",
+        "Line_03": "* @module integrationTests",
+        "Line_04": "* @description Contains all of the commands",
+        "Line_05": "* to test various components of the system.",
+        "Line_06": "* @requires module:commandBroker",
+        "Line_07": "* @requires module:ruleBroker",
+        "Line_08": "* @requires module:workflowBroker",
+        "Line_09": "* @requires module:colorizer",
+        "Line_10": "* @requires module:configurator",
+        "Line_11": "* @requires module:loggers",
+        "Line_12": "* @requires module:data",
+        "Line_13": "* @requires module:queue",
+        "Line_14": "* @requires module:stack",
+        "Line_15": "* @requires {@link https:\/\/www.npmjs.com\/package\/@haystacks\/constants|@haystacks\/constants}",
+        "Line_16": "* @requires {@link https:\/\/www.npmjs.com\/package\/path|path}",
+        "Line_17": "* @author Seth Hollingsead",
+        "Line_18": "* @date 2022\/03\/25",
+        "Line_19": "* @copyright Copyright 2022 by Seth Hollingsead. All rights reserved",
+        "Line_20": "*\/"
+      }]
+    },
+    "Lesson_0097": {
+    "Name": "Lesson_0097",
+      "Number": 97,
+      "IndividualizedLessonPassingCriteria": [{
+        "AccuracyRequirement": 70.0,
+        "SpeedRequirement": 15
+      }],
+      "Description": "File Header 49",
+      "Lines": [{
+        "Line_01": "\/**",
+        "Line_02": "* @file performanceMetric.js",
+        "Line_03": "* @module performanceMetric",
+        "Line_04": "* @description Contains all of the performance metric commands.",
+        "Line_05": "* @requires module:ruleBroker",
+        "Line_06": "* @requires module:configurator",
+        "Line_07": "* @requires module:loggers",
+        "Line_08": "* @requires module:data",
+        "Line_09": "* @requires module:stack",
+        "Line_10": "* @requires {@link https:\/\/www.npmjs.com\/package\/@haystacks\/constants|@haystacks\/constants}",
+        "Line_11": "* @requires {@link https:\/\/mathjs.org\/index.html|math}",
+        "Line_12": "* @requires {@link https:\/\/www.npmjs.com\/package\/path|path}",
+        "Line_13": "* @author Seth Hollingsead",
+        "Line_14": "* @date 2022\/02\/04",
+        "Line_15": "* @copyright Copyright 2022 by Seth Hollingsead. All rights reserved",
+        "Line_16": "*\/"
+      }]
+    },
+    "Lesson_0098": {
+    "Name": "Lesson_0098",
+      "Number": 98,
+      "IndividualizedLessonPassingCriteria": [{
+        "AccuracyRequirement": 70.0,
+        "SpeedRequirement": 15
+      }],
+      "Description": "File Header 50",
+      "Lines": [{
+        "Line_01": "\/**",
+        "Line_02": "* @file plugins.js",
+        "Line_03": "* @module plugins",
+        "Line_04": "* @description Contains all of the plugin and plugin registry commands.",
+        "Line_05": "* @requires module:chiefPlugin",
+        "Line_06": "* @requires module:warden",
+        "Line_07": "* @requires module:loggers",
+        "Line_08": "* @requires {@link https:\/\/www.npmjs.com\/package\/@haystacks\/constants|@haystacks\/constants}",
+        "Line_09": "* @requires {@link https:\/\/www.npmjs.com\/package\/path|path}",
+        "Line_10": "* @author Seth Hollingsead",
+        "Line_11": "* @date 2022\/09\/16",
+        "Line_12": "* @copyright Copyright 2022 by Seth Hollingsead. All rights reserved",
+        "Line_13": "*\/"
+      }]
+    },
+    "Lesson_0099": {
+    "Name": "Lesson_0099",
+      "Number": 99,
+      "IndividualizedLessonPassingCriteria": [{
+        "AccuracyRequirement": 70.0,
+        "SpeedRequirement": 15
+      }],
+      "Description": "File Header 51",
+      "Lines": [{
+        "Line_01": "\/**",
+        "Line_02": "* @file system.js",
+        "Line_03": "* @module system",
+        "Line_04": "* @description Contains all of the system level commands.",
+        "Line_05": "* @requires module:commandBroker",
+        "Line_06": "* @requires module:ruleBroker",
+        "Line_07": "* @requires module:workflowBroker",
+        "Line_08": "* @requires module:configurator",
+        "Line_09": "* @requires module:loggers",
+        "Line_10": "* @requires module:data",
+        "Line_11": "* @requires module:stack",
+        "Line_12": "* @requires {@link https:\/\/www.npmjs.com\/package\/@haystacks\/constants|@haystacks\/constants}",
+        "Line_13": "* @requires {@link https:\/\/www.npmjs.com\/package\/figlet|figlet}",
+        "Line_14": "* @requires {@link https:\/\/www.npmjs.com\/package\/path|path}",
+        "Line_15": "* @author Seth Hollingsead",
+        "Line_16": "* @date 2022\/04\/20",
+        "Line_17": "* @copyright Copyright © 2022-… by Seth Hollingsead. All rights reserved",
+        "Line_18": "*\/"
+      }]
+    },
+    "Lesson_0100": {
+    "Name": "Lesson_0100",
+      "Number": 100,
+      "IndividualizedLessonPassingCriteria": [{
+        "AccuracyRequirement": 70.0,
+        "SpeedRequirement": 15
+      }],
+      "Description": "File Header 52",
+      "Lines": [{
+        "Line_01": "\/**",
+        "Line_02": "* @file commandsLibrary.js",
+        "Line_03": "* @module commandsLibrary",
+        "Line_04": "* @description Contains all of the system defined commands",
+        "Line_05": "* as a map between function names and function calls.",
+        "Line_06": "* @requires module:advanced",
+        "Line_07": "* @requires module:auxiliary",
+        "Line_08": "* @requires module:configuration",
+        "Line_09": "* @requires module:constants",
+        "Line_10": "* @requires module:dataDirectorate",
+        "Line_11": "* @requires module:integrationTests",
+        "Line_12": "* @requires module:performanceMetric",
+        "Line_13": "* @requires module:plugins",
+        "Line_14": "* @requires module:system",
+        "Line_15": "* @requires module:loggers",
+        "Line_16": "* @requires module:data",
+        "Line_17": "* @requires {@link https:\/\/www.npmjs.com\/package\/@haystacks\/constants|@haystacks\/constants}",
+        "Line_18": "* @requires {@link https:\/\/www.npmjs.com\/package\/path|path}",
+        "Line_19": "* @author Seth Hollingsead",
+        "Line_20": "* @date 2022\/02\/04",
+        "Line_21": "* @copyright Copyright 2022 by Seth Hollingsead. All rights reserved",
+        "Line_22": "*\/"
+      }]
+    },
 
 
     "Lesson_0405": {
