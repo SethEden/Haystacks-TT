@@ -5,8 +5,8 @@
       "Name": "Lesson_0001",
       "Number": 1,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 50.0,
+        "SpeedRequirement": 10
       }],
       "Description": "Hello World in JavaScript",
       "Lines": [{
@@ -27,8 +27,8 @@
       "Name": "Lesson_0002",
       "Number": 2,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 50.066889,
+        "SpeedRequirement": 10.100334
       }],
       "Description": "Bubble Sort function in JavaScript",
       "Lines": [{
@@ -51,8 +51,8 @@
       "Name": "Lesson_0003",
       "Number": 3,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 50.133778,
+        "SpeedRequirement": 10.200669
       }],
       "Description": "Recursive Factorial Function in JavaScript",
       "Lines": [{
@@ -71,8 +71,8 @@
       "Name": "Lesson_0004",
       "Number": 4,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 50.200667,
+        "SpeedRequirement": 10.301003
       }],
       "Description": "Constants",
       "Lines": [{
@@ -92,8 +92,8 @@
       "Name": "Lesson_0005",
       "Number": 5,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 50.267556,
+        "SpeedRequirement": 10.401338
       }],
       "Description": "Basic Variables in JavaScript",
       "Lines": [{
@@ -113,8 +113,8 @@
       "Name": "Lesson_0006",
       "Number": 6,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 50.334445,
+        "SpeedRequirement": 10.501672
       }],
       "Description": "Math Operations in JavaScript",
       "Lines": [{
@@ -136,8 +136,8 @@
       "Name": "Lesson_0007",
       "Number": 7,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 50.401334,
+        "SpeedRequirement": 10.602007
       }],
       "Description": "String Concatenation in JavaScript",
       "Lines": [{
@@ -157,8 +157,8 @@
       "Name": "Lesson_0008",
       "Number": 8,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 50.468223,
+        "SpeedRequirement": 10.702341
       }],
       "Description": "Conditional Statements in JavaScript",
       "Lines": [{
@@ -188,8 +188,8 @@
       "Name": "Lesson_0009",
       "Number": 9,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 50.535112,
+        "SpeedRequirement": 10.802676
       }],
       "Description": "For Loops & Nested For Loops in JavaScript",
       "Lines": [{
@@ -217,8 +217,8 @@
       "Name": "Lesson_0010",
       "Number": 10,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 50.602001,
+        "SpeedRequirement": 10.903010
       }],
       "Description": "While Loops in JavaScript",
       "Lines": [{
@@ -250,8 +250,8 @@
       "Name": "Lesson_0011",
       "Number": 11,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 50.668890,
+        "SpeedRequirement": 11.003344
       }],
       "Description": "Arrays Basics in JavaScript",
       "Lines": [{
@@ -277,8 +277,8 @@
       "Name": "Lesson_0012",
       "Number": 12,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 50.735779,
+        "SpeedRequirement": 11.103679
       }],
       "Description": "Array Methods in JavaScript",
       "Lines": [{
@@ -306,8 +306,8 @@
       "Name": "Lesson_0013",
       "Number": 13,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 50.802668,
+        "SpeedRequirement": 11.204013
       }],
       "Description": "File Header 1",
       "Lines": [{
@@ -339,8 +339,8 @@
       "Name": "Lesson_0014",
       "Number": 14,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 50.869557,
+        "SpeedRequirement": 11.304348
       }],
       "Description": "Import Statements",
       "Lines": [{
@@ -366,8 +366,8 @@
       "Name": "Lesson_0015",
       "Number": 15,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 50.936446,
+        "SpeedRequirement": 11.404682
       }],
       "Description": "Global Variables",
       "Lines": [{
@@ -388,8 +388,8 @@
       "Name": "Lesson_0016",
       "Number": 16,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 51.003335,
+        "SpeedRequirement": 11.505017
       }],
       "Description": "Function Header 1",
       "Lines": [{
@@ -407,8 +407,8 @@
       "Name": "Lesson_0017",
       "Number": 17,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 51.070224,
+        "SpeedRequirement": 11.605351
       }],
       "Description": "Function Header 2",
       "Lines": [{
@@ -426,8 +426,8 @@
       "Name": "Lesson_0018",
       "Number": 18,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 51.137113,
+        "SpeedRequirement": 11.705686
       }],
       "Description": "File Header 2",
       "Lines": [{
@@ -456,8 +456,8 @@
       "Name": "Lesson_0019",
       "Number": 19,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 51.204002,
+        "SpeedRequirement": 11.806020
       }],
       "Description": "Function Header 3",
       "Lines": [{
@@ -475,8 +475,8 @@
       "Name": "Lesson_0020",
       "Number": 20,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 51.270891,
+        "SpeedRequirement": 11.906355
       }],
       "Description": "Function Header 4",
       "Lines": [{
@@ -495,8 +495,8 @@
       "Name": "Lesson_0021",
       "Number": 21,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 51.337780,
+        "SpeedRequirement": 12.006689
       }],
       "Description": "Function Header 5",
       "Lines": [{
@@ -515,8 +515,8 @@
       "Name": "Lesson_0022",
       "Number": 22,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 51.404669,
+        "SpeedRequirement": 12.107023
       }],
       "Description": "Function Header 6",
       "Lines": [{
@@ -535,8 +535,8 @@
       "Name": "Lesson_0023",
       "Number": 23,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 51.471558,
+        "SpeedRequirement": 12.207358
       }],
       "Description": "Function Header 7",
       "Lines": [{
@@ -556,8 +556,8 @@
       "Name": "Lesson_0024",
       "Number": 24,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 51.538447,
+        "SpeedRequirement": 12.307692
       }],
       "Description": "Function Header 8",
       "Lines": [{
@@ -576,8 +576,8 @@
       "Name": "Lesson_0025",
       "Number": 25,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 51.605336,
+        "SpeedRequirement": 12.408027
       }],
       "Description": "Function Header 9",
       "Lines": [{
@@ -595,8 +595,8 @@
       "Name": "Lesson_0026",
       "Number": 26,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 51.672225,
+        "SpeedRequirement": 12.508361
       }],
       "Description": "Function Header 10",
       "Lines": [{
@@ -613,8 +613,8 @@
       "Name": "Lesson_0027",
       "Number": 27,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 51.739114,
+        "SpeedRequirement": 12.608696
       }],
       "Description": "Function Header 11",
       "Lines": [{
@@ -632,8 +632,8 @@
       "Name": "Lesson_0028",
       "Number": 28,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 51.806003,
+        "SpeedRequirement": 12.709030
       }],
       "Description": "Function Header 12",
       "Lines": [{
@@ -651,8 +651,8 @@
       "Name": "Lesson_0029",
       "Number": 29,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 51.872892,
+        "SpeedRequirement": 12.809365
       }],
       "Description": "Function Header 13",
       "Lines": [{
@@ -670,8 +670,8 @@
       "Name": "Lesson_0030",
       "Number": 30,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 51.939781,
+        "SpeedRequirement": 12.909699
       }],
       "Description": "Function Header 14",
       "Lines": [{
@@ -691,8 +691,8 @@
       "Name": "Lesson_0031",
       "Number": 31,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 52.006670,
+        "SpeedRequirement": 13.010033
       }],
       "Description": "Function Header 15",
       "Lines": [{
@@ -711,8 +711,8 @@
       "Name": "Lesson_0032",
       "Number": 32,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 52.073559,
+        "SpeedRequirement": 13.110368
       }],
       "Description": "Function Header 16",
       "Lines": [{
@@ -729,8 +729,8 @@
       "Name": "Lesson_0033",
       "Number": 33,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 52.140448,
+        "SpeedRequirement": 13.210702
       }],
       "Description": "Function Header 17",
       "Lines": [{
@@ -747,8 +747,8 @@
       "Name": "Lesson_0034",
       "Number": 34,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 52.207337,
+        "SpeedRequirement": 13.311037
       }],
       "Description": "Function Header 17",
       "Lines": [{
@@ -766,8 +766,8 @@
       "Name": "Lesson_0035",
       "Number": 35,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 52.274226,
+        "SpeedRequirement": 13.411371
       }],
       "Description": "Function Header 18",
       "Lines": [{
@@ -787,8 +787,8 @@
       "Name": "Lesson_0036",
       "Number": 36,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 52.341115,
+        "SpeedRequirement": 13.511706
       }],
       "Description": "Function Header 19",
       "Lines": [{
@@ -811,8 +811,8 @@
       "Name": "Lesson_0037",
       "Number": 37,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 52.408004,
+        "SpeedRequirement": 13.612040
       }],
       "Description": "Function Header 20",
       "Lines": [{
@@ -842,8 +842,8 @@
       "Name": "Lesson_0038",
       "Number": 38,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 52.474893,
+        "SpeedRequirement": 13.712375
       }],
       "Description": "Function Header 21",
       "Lines": [{
@@ -866,8 +866,8 @@
       "Name": "Lesson_0039",
       "Number": 39,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 52.541782,
+        "SpeedRequirement": 13.812709
       }],
       "Description": "Function Header 22",
       "Lines": [{
@@ -885,8 +885,8 @@
       "Name": "Lesson_0040",
       "Number": 40,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 52.608671,
+        "SpeedRequirement": 13.913043
       }],
       "Description": "Function Header 23",
       "Lines": [{
@@ -909,8 +909,8 @@
       "Name": "Lesson_0041",
       "Number": 41,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 52.675560,
+        "SpeedRequirement": 14.013378
       }],
       "Description": "Function Header 24",
       "Lines": [{
@@ -930,8 +930,8 @@
       "Name": "Lesson_0042",
       "Number": 42,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 52.742449,
+        "SpeedRequirement": 14.113712
       }],
       "Description": "Function Header 25",
       "Lines": [{
@@ -949,8 +949,8 @@
       "Name": "Lesson_0043",
       "Number": 43,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 52.809338,
+        "SpeedRequirement": 14.214047
       }],
       "Description": "Function Header 26",
       "Lines": [{
@@ -968,8 +968,8 @@
       "Name": "Lesson_0044",
       "Number": 44,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 52.876227,
+        "SpeedRequirement": 14.314381
       }],
       "Description": "Function Header 27",
       "Lines": [{
@@ -1000,8 +1000,8 @@
       "Name": "Lesson_0045",
       "Number": 45,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 52.943116,
+        "SpeedRequirement": 14.414716
       }],
       "Description": "Function Header 28",
       "Lines": [{
@@ -1026,8 +1026,8 @@
       "Name": "Lesson_0046",
       "Number": 46,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 53.010005,
+        "SpeedRequirement": 14.515050
       }],
       "Description": "Function Header 29",
       "Lines": [{
@@ -1050,8 +1050,8 @@
       "Name": "Lesson_0047",
       "Number": 47,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 53.076894,
+        "SpeedRequirement": 14.615385
       }],
       "Description": "Function Header 30",
       "Lines": [{
@@ -1073,8 +1073,8 @@
       "Name": "Lesson_0048",
       "Number": 48,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 53.143783,
+        "SpeedRequirement": 14.715719
       }],
       "Description": "Function Header 31",
       "Lines": [{
@@ -1096,8 +1096,8 @@
       "Name": "Lesson_0049",
       "Number": 49,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 53.210672,
+        "SpeedRequirement": 14.816054
       }],
       "Description": "Function Header 32",
       "Lines": [{
@@ -1120,8 +1120,8 @@
       "Name": "Lesson_0050",
       "Number": 50,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 53.277561,
+        "SpeedRequirement": 14.916388
       }],
       "Description": "Function Header 33",
       "Lines": [{
@@ -1144,8 +1144,8 @@
       "Name": "Lesson_0051",
       "Number": 51,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 53.344450,
+        "SpeedRequirement": 15.016722
       }],
       "Description": "File Header 3",
       "Lines": [{
@@ -1168,8 +1168,8 @@
       "Name": "Lesson_0052",
       "Number": 52,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 53.411339,
+        "SpeedRequirement": 15.117057
       }],
       "Description": "File Header 4",
       "Lines": [{
@@ -1195,8 +1195,8 @@
       "Name": "Lesson_0053",
       "Number": 53,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 53.478228,
+        "SpeedRequirement": 15.217391
       }],
       "Description": "File Header 5",
       "Lines": [{
@@ -1222,8 +1222,8 @@
       "Name": "Lesson_0054",
       "Number": 54,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 53.545117,
+        "SpeedRequirement": 15.317726
       }],
       "Description": "File Header 6",
       "Lines": [{
@@ -1247,8 +1247,8 @@
       "Name": "Lesson_0055",
       "Number": 55,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 53.612006,
+        "SpeedRequirement": 15.418060
       }],
       "Description": "File Header 7",
       "Lines": [{
@@ -1268,8 +1268,8 @@
       "Name": "Lesson_0056",
       "Number": 56,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 53.678895,
+        "SpeedRequirement": 15.518395
       }],
       "Description": "File Header 8",
       "Lines": [{
@@ -1289,8 +1289,8 @@
       "Name": "Lesson_0057",
       "Number": 57,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 53.745784,
+        "SpeedRequirement": 15.618729
       }],
       "Description": "File Header 9",
       "Lines": [{
@@ -1309,8 +1309,8 @@
       "Name": "Lesson_0058",
       "Number": 58,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 53.812673,
+        "SpeedRequirement": 15.719064
       }],
       "Description": "File Header 10",
       "Lines": [{
@@ -1329,8 +1329,8 @@
       "Name": "Lesson_0059",
       "Number": 59,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 53.879562,
+        "SpeedRequirement": 15.819398
       }],
       "Description": "File Header 11",
       "Lines": [{
@@ -1353,8 +1353,8 @@
       "Name": "Lesson_0060",
       "Number": 60,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 53.946451,
+        "SpeedRequirement": 15.919732
       }],
       "Description": "File Header 12",
       "Lines": [{
@@ -1374,8 +1374,8 @@
       "Name": "Lesson_0061",
       "Number": 61,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 54.013340,
+        "SpeedRequirement": 16.020067
       }],
       "Description": "File Header 13",
       "Lines": [{
@@ -1405,8 +1405,8 @@
       "Name": "Lesson_0062",
       "Number": 62,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 54.080229,
+        "SpeedRequirement": 16.120401
       }],
       "Description": "File Header 14",
       "Lines": [{
@@ -1430,8 +1430,8 @@
       "Name": "Lesson_0063",
       "Number": 63,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 54.147118,
+        "SpeedRequirement": 16.220736
       }],
       "Description": "File Header 15",
       "Lines": [{
@@ -1456,8 +1456,8 @@
       "Name": "Lesson_0064",
       "Number": 64,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 54.214007,
+        "SpeedRequirement": 16.321070
       }],
       "Description": "File Header 16",
       "Lines": [{
@@ -1486,8 +1486,8 @@
       "Name": "Lesson_0065",
       "Number": 65,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 54.280896,
+        "SpeedRequirement": 16.421405
       }],
       "Description": "File Header 17",
       "Lines": [{
@@ -1510,8 +1510,8 @@
       "Name": "Lesson_0066",
       "Number": 66,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 54.347785,
+        "SpeedRequirement": 16.521739
       }],
       "Description": "File Header 18",
       "Lines": [{
@@ -1537,8 +1537,8 @@
       "Name": "Lesson_0067",
       "Number": 67,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 54.414674,
+        "SpeedRequirement": 16.622074
       }],
       "Description": "File Header 19",
       "Lines": [{
@@ -1561,8 +1561,8 @@
       "Name": "Lesson_0068",
       "Number": 68,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 54.481563,
+        "SpeedRequirement": 16.722408
       }],
       "Description": "File Header 20",
       "Lines": [{
@@ -1586,8 +1586,8 @@
       "Name": "Lesson_0069",
       "Number": 69,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 54.548452,
+        "SpeedRequirement": 16.822742
       }],
       "Description": "File Header 21",
       "Lines": [{
@@ -1612,8 +1612,8 @@
       "Name": "Lesson_0070",
       "Number": 70,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 54.615341,
+        "SpeedRequirement": 16.923077
       }],
       "Description": "File Header 22",
       "Lines": [{
@@ -1637,8 +1637,8 @@
       "Name": "Lesson_0071",
       "Number": 71,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 54.682230,
+        "SpeedRequirement": 17.023411
       }],
       "Description": "File Header 23",
       "Lines": [{
@@ -1664,8 +1664,8 @@
       "Name": "Lesson_0072",
       "Number": 72,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 54.749119,
+        "SpeedRequirement": 17.123746
       }],
       "Description": "File Header 24",
       "Lines": [{
@@ -1690,8 +1690,8 @@
       "Name": "Lesson_0073",
       "Number": 73,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 54.816008,
+        "SpeedRequirement": 17.224080
       }],
       "Description": "File Header 25",
       "Lines": [{
@@ -1715,8 +1715,8 @@
       "Name": "Lesson_0074",
       "Number": 74,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 54.882897,
+        "SpeedRequirement": 17.324415
       }],
       "Description": "File Header 26",
       "Lines": [{
@@ -1739,8 +1739,8 @@
       "Name": "Lesson_0075",
       "Number": 75,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 54.949786,
+        "SpeedRequirement": 17.424749
       }],
       "Description": "File Header 27",
       "Lines": [{
@@ -1762,8 +1762,8 @@
       "Name": "Lesson_0076",
       "Number": 76,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 55.016675,
+        "SpeedRequirement": 17.525084
       }],
       "Description": "File Header 28",
       "Lines": [{
@@ -1787,8 +1787,8 @@
       "Name": "Lesson_0077",
       "Number": 77,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 55.083564,
+        "SpeedRequirement": 17.625418
       }],
       "Description": "File Header 29",
       "Lines": [{
@@ -1811,8 +1811,8 @@
     "Name": "Lesson_0078",
       "Number": 78,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 55.150453,
+        "SpeedRequirement": 17.725753
       }],
       "Description": "File Header 30",
       "Lines": [{
@@ -1839,8 +1839,8 @@
     "Name": "Lesson_0079",
       "Number": 79,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 55.217342,
+        "SpeedRequirement": 17.826087
       }],
       "Description": "File Header 31",
       "Lines": [{
@@ -1863,8 +1863,8 @@
     "Name": "Lesson_0080",
       "Number": 80,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 55.284231,
+        "SpeedRequirement": 17.926421
       }],
       "Description": "File Header 32",
       "Lines": [{
@@ -1887,8 +1887,8 @@
     "Name": "Lesson_0081",
       "Number": 81,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 55.351120,
+        "SpeedRequirement": 18.026756
       }],
       "Description": "File Header 33",
       "Lines": [{
@@ -1912,8 +1912,8 @@
     "Name": "Lesson_0082",
       "Number": 82,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 55.418009,
+        "SpeedRequirement": 18.127090
       }],
       "Description": "File Header 34",
       "Lines": [{
@@ -1935,8 +1935,8 @@
     "Name": "Lesson_0083",
       "Number": 83,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 55.484898,
+        "SpeedRequirement": 18.227425
       }],
       "Description": "File Header 35",
       "Lines": [{
@@ -1969,8 +1969,8 @@
     "Name": "Lesson_0084",
       "Number": 84,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 55.551787,
+        "SpeedRequirement": 18.327759
       }],
       "Description": "File Header 36",
       "Lines": [{
@@ -1994,8 +1994,8 @@
     "Name": "Lesson_0085",
       "Number": 85,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 55.618676,
+        "SpeedRequirement": 18.428094
       }],
       "Description": "File Header 37",
       "Lines": [{
@@ -2018,8 +2018,8 @@
     "Name": "Lesson_0086",
       "Number": 86,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 55.685565,
+        "SpeedRequirement": 18.528428
       }],
       "Description": "File Header 38",
       "Lines": [{
@@ -2042,8 +2042,8 @@
     "Name": "Lesson_0087",
       "Number": 87,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 55.752454,
+        "SpeedRequirement": 18.628763
       }],
       "Description": "File Header 39",
       "Lines": [{
@@ -2066,8 +2066,8 @@
     "Name": "Lesson_0088",
       "Number": 88,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 55.819343,
+        "SpeedRequirement": 18.729097
       }],
       "Description": "File Header 40",
       "Lines": [{
@@ -2090,8 +2090,8 @@
     "Name": "Lesson_0089",
       "Number": 89,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 55.886232,
+        "SpeedRequirement": 18.829431
       }],
       "Description": "File Header 41",
       "Lines": [{
@@ -2114,8 +2114,8 @@
     "Name": "Lesson_0090",
       "Number": 90,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 55.953121,
+        "SpeedRequirement": 18.929766
       }],
       "Description": "File Header 42",
       "Lines": [{
@@ -2138,8 +2138,8 @@
     "Name": "Lesson_0091",
       "Number": 91,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 56.020010,
+        "SpeedRequirement": 19.030100
       }],
       "Description": "File Header 43",
       "Lines": [{
@@ -2167,8 +2167,8 @@
     "Name": "Lesson_0092",
       "Number": 92,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 56.086899,
+        "SpeedRequirement": 19.130435
       }],
       "Description": "File Header 44",
       "Lines": [{
@@ -2191,8 +2191,8 @@
     "Name": "Lesson_0093",
       "Number": 93,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 56.153788,
+        "SpeedRequirement": 19.230769
       }],
       "Description": "File Header 45",
       "Lines": [{
@@ -2218,8 +2218,8 @@
     "Name": "Lesson_0094",
       "Number": 94,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 56.220677,
+        "SpeedRequirement": 19.331104
       }],
       "Description": "File Header 46",
       "Lines": [{
@@ -2244,8 +2244,8 @@
     "Name": "Lesson_0095",
       "Number": 95,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 56.287566,
+        "SpeedRequirement": 19.431438
       }],
       "Description": "File Header 47",
       "Lines": [{
@@ -2270,8 +2270,8 @@
     "Name": "Lesson_0096",
       "Number": 96,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 56.354455,
+        "SpeedRequirement": 19.531773
       }],
       "Description": "File Header 48",
       "Lines": [{
@@ -2301,8 +2301,8 @@
     "Name": "Lesson_0097",
       "Number": 97,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 56.421344,
+        "SpeedRequirement": 19.632107
       }],
       "Description": "File Header 49",
       "Lines": [{
@@ -2328,8 +2328,8 @@
     "Name": "Lesson_0098",
       "Number": 98,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 56.488233,
+        "SpeedRequirement": 19.732441
       }],
       "Description": "File Header 50",
       "Lines": [{
@@ -2352,8 +2352,8 @@
     "Name": "Lesson_0099",
       "Number": 99,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 56.555122,
+        "SpeedRequirement": 19.832776
       }],
       "Description": "File Header 51",
       "Lines": [{
@@ -2381,8 +2381,8 @@
     "Name": "Lesson_0100",
       "Number": 100,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 56.622011,
+        "SpeedRequirement": 19.933110
       }],
       "Description": "File Header 52",
       "Lines": [{
@@ -2414,8 +2414,8 @@
     "Name": "Lesson_0101",
       "Number": 101,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 56.688900,
+        "SpeedRequirement": 20.033445
       }],
       "Description": "Basic Constants 1",
       "Lines": [{
@@ -2442,8 +2442,8 @@
     "Name": "Lesson_0102",
       "Number": 102,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 56.755789,
+        "SpeedRequirement": 20.133779
       }],
       "Description": "Basic Constants 2",
       "Lines": [{
@@ -2472,8 +2472,8 @@
     "Name": "Lesson_0103",
       "Number": 103,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 56.822678,
+        "SpeedRequirement": 20.234114
       }],
       "Description": "Basic Constants 3",
       "Lines": [{
@@ -2495,8 +2495,8 @@
     "Name": "Lesson_0104",
       "Number": 104,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 56.889567,
+        "SpeedRequirement": 20.334448
       }],
       "Description": "Business Constants 1",
       "Lines": [{
@@ -2518,8 +2518,8 @@
     "Name": "Lesson_0105",
       "Number": 105,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 56.956456,
+        "SpeedRequirement": 20.434783
       }],
       "Description": "Business Constants 2",
       "Lines": [{
@@ -2548,8 +2548,8 @@
     "Name": "Lesson_0106",
       "Number": 106,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 57.023345,
+        "SpeedRequirement": 20.535117
       }],
       "Description": "Color Constants 1",
       "Lines": [{
@@ -2577,8 +2577,8 @@
     "Name": "Lesson_0107",
       "Number": 107,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 57.090234,
+        "SpeedRequirement": 20.635452
       }],
       "Description": "Color Constants 2",
       "Lines": [{
@@ -2609,8 +2609,8 @@
     "Name": "Lesson_0108",
       "Number": 108,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 57.157123,
+        "SpeedRequirement": 20.735786
       }],
       "Description": "Color Constants 3",
       "Lines": [{
@@ -2641,8 +2641,8 @@
     "Name": "Lesson_0109",
       "Number": 109,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 57.224012,
+        "SpeedRequirement": 20.836120
       }],
       "Description": "Color Constants 4",
       "Lines": [{
@@ -2674,8 +2674,8 @@
     "Name": "Lesson_0110",
       "Number": 110,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 57.290901,
+        "SpeedRequirement": 20.936455
       }],
       "Description": "Color Constants 5",
       "Lines": [{
@@ -2705,8 +2705,8 @@
     "Name": "Lesson_0111",
       "Number": 111,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 57.357790,
+        "SpeedRequirement": 21.036789
       }],
       "Description": "Color Constants 6",
       "Lines": [{
@@ -2736,8 +2736,8 @@
     "Name": "Lesson_0112",
       "Number": 112,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 57.424679,
+        "SpeedRequirement": 21.137124
       }],
       "Description": "Color Constants 7",
       "Lines": [{
@@ -2767,8 +2767,8 @@
     "Name": "Lesson_0113",
       "Number": 113,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 57.491568,
+        "SpeedRequirement": 21.237458
       }],
       "Description": "Color Constants 8",
       "Lines": [{
@@ -2798,8 +2798,8 @@
     "Name": "Lesson_0114",
       "Number": 114,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 57.558457,
+        "SpeedRequirement": 21.337793
       }],
       "Description": "Color Constants 9",
       "Lines": [{
@@ -2829,8 +2829,8 @@
     "Name": "Lesson_0115",
       "Number": 115,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 57.625346,
+        "SpeedRequirement": 21.438127
       }],
       "Description": "Color Constants 10",
       "Lines": [{
@@ -2860,8 +2860,8 @@
     "Name": "Lesson_0116",
       "Number": 116,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 57.692235,
+        "SpeedRequirement": 21.538462
       }],
       "Description": "Color Constants 11",
       "Lines": [{
@@ -2891,8 +2891,8 @@
     "Name": "Lesson_0117",
       "Number": 117,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 57.759124,
+        "SpeedRequirement": 21.638796
       }],
       "Description": "Color Constants 12",
       "Lines": [{
@@ -2922,8 +2922,8 @@
     "Name": "Lesson_0118",
       "Number": 118,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 57.826013,
+        "SpeedRequirement": 21.739130
       }],
       "Description": "Color Constants 13",
       "Lines": [{
@@ -2953,8 +2953,8 @@
     "Name": "Lesson_0119",
       "Number": 119,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 57.892902,
+        "SpeedRequirement": 21.839465
       }],
       "Description": "Color Constants 14",
       "Lines": [{
@@ -2984,8 +2984,8 @@
     "Name": "Lesson_0120",
       "Number": 120,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 57.959791,
+        "SpeedRequirement": 21.939799
       }],
       "Description": "Color Constants 15",
       "Lines": [{
@@ -3015,8 +3015,8 @@
     "Name": "Lesson_0121",
       "Number": 121,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 58.026680,
+        "SpeedRequirement": 22.040134
       }],
       "Description": "Color Constants 16",
       "Lines": [{
@@ -3046,8 +3046,8 @@
     "Name": "Lesson_0122",
       "Number": 122,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 58.093569,
+        "SpeedRequirement": 22.140468
       }],
       "Description": "Color Constants 17",
       "Lines": [{
@@ -3077,8 +3077,8 @@
     "Name": "Lesson_0123",
       "Number": 123,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 58.160458,
+        "SpeedRequirement": 22.240803
       }],
       "Description": "Color Constants 18",
       "Lines": [{
@@ -3108,8 +3108,8 @@
     "Name": "Lesson_0124",
       "Number": 124,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 58.227347,
+        "SpeedRequirement": 22.341137
       }],
       "Description": "Color Constants 19",
       "Lines": [{
@@ -3139,8 +3139,8 @@
     "Name": "Lesson_0125",
       "Number": 125,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 58.294236,
+        "SpeedRequirement": 22.441472
       }],
       "Description": "Color Constants 20",
       "Lines": [{
@@ -3170,8 +3170,8 @@
     "Name": "Lesson_0126",
       "Number": 126,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 58.361125,
+        "SpeedRequirement": 22.541806
       }],
       "Description": "Color Constants 21",
       "Lines": [{
@@ -3201,8 +3201,8 @@
     "Name": "Lesson_0127",
       "Number": 127,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 58.428014,
+        "SpeedRequirement": 22.642140
       }],
       "Description": "Color Constants 22",
       "Lines": [{
@@ -3232,8 +3232,8 @@
     "Name": "Lesson_0128",
       "Number": 128,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 58.494903,
+        "SpeedRequirement": 22.742475
       }],
       "Description": "Color Constants 23",
       "Lines": [{
@@ -3259,24 +3259,12 @@
         "Line_20": "export const cGoldenBrown = cGold + bas.cen + cBrown; \/\/ GoldenBrown"
       }]
     },
-
-
-
-
-
-
-
-
-
-
-
-
     "Lesson_0129": {
     "Name": "Lesson_0129",
       "Number": 129,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 58.561792,
+        "SpeedRequirement": 22.842809
       }],
       "Description": "Command Constants 1",
       "Lines": [{
@@ -3304,8 +3292,8 @@
     "Name": "Lesson_0130",
       "Number": 130,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 58.628681,
+        "SpeedRequirement": 22.943144
       }],
       "Description": "Command Constants 2",
       "Lines": [{
@@ -3334,8 +3322,8 @@
     "Name": "Lesson_0131",
       "Number": 131,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 58.695570,
+        "SpeedRequirement": 23.043478
       }],
       "Description": "Configuration Constants 1",
       "Lines": [{
@@ -3364,8 +3352,8 @@
     "Name": "Lesson_0132",
       "Number": 132,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 58.762459,
+        "SpeedRequirement": 23.143813
       }],
       "Description": "Configuration Constants 2",
       "Lines": [{
@@ -3398,8 +3386,8 @@
     "Name": "Lesson_0133",
       "Number": 133,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 58.829348,
+        "SpeedRequirement": 23.244147
       }],
       "Description": "Country Constants 1",
       "Lines": [{
@@ -3429,8 +3417,8 @@
     "Name": "Lesson_0134",
       "Number": 134,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 58.896237,
+        "SpeedRequirement": 23.344482
       }],
       "Description": "Country Constants 2",
       "Lines": [{
@@ -3459,8 +3447,8 @@
     "Name": "Lesson_0135",
       "Number": 135,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 58.963126,
+        "SpeedRequirement": 23.444816
       }],
       "Description": "Country Constants 3",
       "Lines": [{
@@ -3487,8 +3475,8 @@
     "Name": "Lesson_0136",
       "Number": 136,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 59.030015,
+        "SpeedRequirement": 23.545151
       }],
       "Description": "Country Constants 4",
       "Lines": [{
@@ -3518,8 +3506,8 @@
     "Name": "Lesson_0137",
       "Number": 137,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 59.096904,
+        "SpeedRequirement": 23.645485
       }],
       "Description": "Country Constants 5",
       "Lines": [{
@@ -3549,8 +3537,8 @@
     "Name": "Lesson_0138",
       "Number": 138,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 59.163793,
+        "SpeedRequirement": 23.745819
       }],
       "Description": "Country Constants 6",
       "Lines": [{
@@ -3580,8 +3568,8 @@
     "Name": "Lesson_0139",
       "Number": 139,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 59.230682,
+        "SpeedRequirement": 23.846154
       }],
       "Description": "Element Constants 1",
       "Lines": [{
@@ -3611,8 +3599,8 @@
     "Name": "Lesson_0140",
       "Number": 140,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 59.297571,
+        "SpeedRequirement": 23.946488
       }],
       "Description": "Element Constants 2",
       "Lines": [{
@@ -3642,8 +3630,8 @@
     "Name": "Lesson_0141",
       "Number": 141,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 59.364460,
+        "SpeedRequirement": 24.046823
       }],
       "Description": "Element Constants 3",
       "Lines": [{
@@ -3673,8 +3661,8 @@
     "Name": "Lesson_0142",
       "Number": 142,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 59.431349,
+        "SpeedRequirement": 24.147157
       }],
       "Description": "Element Constants 4",
       "Lines": [{
@@ -3704,8 +3692,8 @@
     "Name": "Lesson_0143",
       "Number": 143,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 59.498238,
+        "SpeedRequirement": 24.247492
       }],
       "Description": "Generic Constants 1",
       "Lines": [{
@@ -3736,8 +3724,8 @@
     "Name": "Lesson_0144",
       "Number": 144,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 59.565127,
+        "SpeedRequirement": 24.347826
       }],
       "Description": "Generic Constants 2",
       "Lines": [{
@@ -3767,8 +3755,8 @@
     "Name": "Lesson_0145",
       "Number": 145,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 59.632016,
+        "SpeedRequirement": 24.448161
       }],
       "Description": "Generic Constants 3",
       "Lines": [{
@@ -3804,8 +3792,8 @@
     "Name": "Lesson_0146",
       "Number": 146,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 59.698905,
+        "SpeedRequirement": 24.548495
       }],
       "Description": "Generic Constants 4",
       "Lines": [{
@@ -3842,8 +3830,8 @@
     "Name": "Lesson_0147",
       "Number": 147,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 59.765794,
+        "SpeedRequirement": 24.648829
       }],
       "Description": "Generic Constants 5",
       "Lines": [{
@@ -3869,8 +3857,8 @@
     "Name": "Lesson_0148",
       "Number": 148,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 59.832683,
+        "SpeedRequirement": 24.749164
       }],
       "Description": "Generic Constants 6",
       "Lines": [{
@@ -3908,8 +3896,8 @@
     "Name": "Lesson_0149",
       "Number": 149,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 59.899572,
+        "SpeedRequirement": 24.849498
       }],
       "Description": "Generic Constants 7",
       "Lines": [{
@@ -3939,8 +3927,8 @@
     "Name": "Lesson_0150",
       "Number": 150,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 59.966461,
+        "SpeedRequirement": 24.949833
       }],
       "Description": "Generic Constants 8",
       "Lines": [{
@@ -3969,8 +3957,8 @@
     "Name": "Lesson_0151",
       "Number": 151,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 60.033350,
+        "SpeedRequirement": 25.050167
       }],
       "Description": "Generic Constants 9",
       "Lines": [{
@@ -4000,8 +3988,8 @@
     "Name": "Lesson_0152",
       "Number": 152,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 60.100239,
+        "SpeedRequirement": 25.150502
       }],
       "Description": "Knot Constants 1",
       "Lines": [{
@@ -4031,8 +4019,8 @@
     "Name": "Lesson_0153",
       "Number": 153,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 60.167128,
+        "SpeedRequirement": 25.250836
       }],
       "Description": "Knot Constants 2",
       "Lines": [{
@@ -4062,8 +4050,8 @@
     "Name": "Lesson_0154",
       "Number": 154,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 60.234017,
+        "SpeedRequirement": 25.351171
       }],
       "Description": "Knot Constants 3",
       "Lines": [{
@@ -4093,8 +4081,8 @@
     "Name": "Lesson_0155",
       "Number": 155,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 60.300906,
+        "SpeedRequirement": 25.451505
       }],
       "Description": "Knot Constants 4",
       "Lines": [{
@@ -4124,8 +4112,8 @@
     "Name": "Lesson_0156",
       "Number": 156,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 60.367795,
+        "SpeedRequirement": 25.551839
       }],
       "Description": "Knot Constants 5",
       "Lines": [{
@@ -4155,8 +4143,8 @@
     "Name": "Lesson_0157",
       "Number": 157,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 60.434684,
+        "SpeedRequirement": 25.652174
       }],
       "Description": "Knot Constants 6",
       "Lines": [{
@@ -4186,8 +4174,8 @@
     "Name": "Lesson_0158",
       "Number": 158,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 60.501573,
+        "SpeedRequirement": 25.752508
       }],
       "Description": "Knot Constants 7",
       "Lines": [{
@@ -4217,8 +4205,8 @@
     "Name": "Lesson_0159",
       "Number": 159,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 60.568462,
+        "SpeedRequirement": 25.852843
       }],
       "Description": "Knot Constants 8",
       "Lines": [{
@@ -4248,8 +4236,8 @@
     "Name": "Lesson_0160",
       "Number": 160,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 60.635351,
+        "SpeedRequirement": 25.953177
       }],
       "Description": "Knot Constants 9",
       "Lines": [{
@@ -4279,8 +4267,8 @@
     "Name": "Lesson_0161",
       "Number": 161,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 60.702240,
+        "SpeedRequirement": 26.053512
       }],
       "Description": "Knot Constants 10",
       "Lines": [{
@@ -4310,8 +4298,8 @@
     "Name": "Lesson_0162",
       "Number": 162,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 60.769129,
+        "SpeedRequirement": 26.153846
       }],
       "Description": "Languarge Constants 1",
       "Lines": [{
@@ -4337,8 +4325,8 @@
     "Name": "Lesson_0163",
       "Number": 163,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 60.836018,
+        "SpeedRequirement": 26.254181
       }],
       "Description": "Message Constants 1",
       "Lines": [{
@@ -4368,8 +4356,8 @@
     "Name": "Lesson_0164",
       "Number": 164,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 60.902907,
+        "SpeedRequirement": 26.354515
       }],
       "Description": "Message Constants 2",
       "Lines": [{
@@ -4401,8 +4389,8 @@
     "Name": "Lesson_0165",
       "Number": 165,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 60.969796,
+        "SpeedRequirement": 26.454849
       }],
       "Description": "Numeric Constants 1",
       "Lines": [{
@@ -4432,8 +4420,8 @@
     "Name": "Lesson_0166",
       "Number": 166,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 61.036685,
+        "SpeedRequirement": 26.555184
       }],
       "Description": "Numeric Constants 2",
       "Lines": [{
@@ -4463,8 +4451,8 @@
     "Name": "Lesson_0167",
       "Number": 167,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 61.103574,
+        "SpeedRequirement": 26.655518
       }],
       "Description": "Numeric Constants 3",
       "Lines": [{
@@ -4494,8 +4482,8 @@
     "Name": "Lesson_0168",
       "Number": 168,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 61.170463,
+        "SpeedRequirement": 26.755853
       }],
       "Description": "Numeric Constants 4",
       "Lines": [{
@@ -4525,8 +4513,8 @@
     "Name": "Lesson_0169",
       "Number": 169,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 61.237352,
+        "SpeedRequirement": 26.856187
       }],
       "Description": "Numeric Constants 5",
       "Lines": [{
@@ -4556,8 +4544,8 @@
     "Name": "Lesson_0170",
       "Number": 170,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 61.304241,
+        "SpeedRequirement": 26.956522
       }],
       "Description": "Numeric Constants 6",
       "Lines": [{
@@ -4587,8 +4575,8 @@
     "Name": "Lesson_0171",
       "Number": 171,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 61.371130,
+        "SpeedRequirement": 27.056856
       }],
       "Description": "Numeric Constants 7",
       "Lines": [{
@@ -4618,8 +4606,8 @@
     "Name": "Lesson_0172",
       "Number": 172,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 61.438019,
+        "SpeedRequirement": 27.157191
       }],
       "Description": "Phonic Constants 1",
       "Lines": [{
@@ -4649,8 +4637,8 @@
     "Name": "Lesson_0173",
       "Number": 173,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 61.504908,
+        "SpeedRequirement": 27.257525
       }],
       "Description": "Phonic Constants 2",
       "Lines": [{
@@ -4680,8 +4668,8 @@
     "Name": "Lesson_0174",
       "Number": 174,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 61.571797,
+        "SpeedRequirement": 27.357860
       }],
       "Description": "Phonic Constants 3",
       "Lines": [{
@@ -4711,8 +4699,8 @@
     "Name": "Lesson_0175",
       "Number": 175,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 61.638686,
+        "SpeedRequirement": 27.458194
       }],
       "Description": "Phonic Constants 4",
       "Lines": [{
@@ -4742,8 +4730,8 @@
     "Name": "Lesson_0176",
       "Number": 176,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 61.705575,
+        "SpeedRequirement": 27.558528
       }],
       "Description": "Phonic Constants 5",
       "Lines": [{
@@ -4773,8 +4761,8 @@
     "Name": "Lesson_0177",
       "Number": 177,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 61.772464,
+        "SpeedRequirement": 27.658863
       }],
       "Description": "Phonic Constants 6",
       "Lines": [{
@@ -4804,8 +4792,8 @@
     "Name": "Lesson_0178",
       "Number": 178,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 61.839353,
+        "SpeedRequirement": 27.759197
       }],
       "Description": "Phonic Constants 7",
       "Lines": [{
@@ -4835,8 +4823,8 @@
     "Name": "Lesson_0179",
       "Number": 179,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 61.906242,
+        "SpeedRequirement": 27.859532
       }],
       "Description": "Phonic Constants 8",
       "Lines": [{
@@ -4866,8 +4854,8 @@
     "Name": "Lesson_0180",
       "Number": 180,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 61.973131,
+        "SpeedRequirement": 27.959866
       }],
       "Description": "Phonic Constants 9",
       "Lines": [{
@@ -4897,8 +4885,8 @@
     "Name": "Lesson_0181",
       "Number": 181,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 62.040020,
+        "SpeedRequirement": 28.060201
       }],
       "Description": "Phonic Constants 10",
       "Lines": [{
@@ -4928,8 +4916,8 @@
     "Name": "Lesson_0182",
       "Number": 182,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 62.106909,
+        "SpeedRequirement": 28.160535
       }],
       "Description": "System Constants 1",
       "Lines": [{
@@ -4955,8 +4943,8 @@
     "Name": "Lesson_0183",
       "Number": 183,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 62.173798,
+        "SpeedRequirement": 28.260870
       }],
       "Description": "System Constants 2",
       "Lines": [{
@@ -4986,8 +4974,8 @@
     "Name": "Lesson_0184",
       "Number": 184,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 62.240687,
+        "SpeedRequirement": 28.361204
       }],
       "Description": "System Constants 3",
       "Lines": [{
@@ -5017,8 +5005,8 @@
     "Name": "Lesson_0185",
       "Number": 185,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 62.307576,
+        "SpeedRequirement": 28.461538
       }],
       "Description": "System Constants 4",
       "Lines": [{
@@ -5048,8 +5036,8 @@
     "Name": "Lesson_0186",
       "Number": 186,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 62.374465,
+        "SpeedRequirement": 28.561873
       }],
       "Description": "System Constants 5",
       "Lines": [{
@@ -5079,8 +5067,8 @@
     "Name": "Lesson_0187",
       "Number": 187,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 62.441354,
+        "SpeedRequirement": 28.662207
       }],
       "Description": "System Constants 6",
       "Lines": [{
@@ -5109,8 +5097,8 @@
     "Name": "Lesson_0188",
       "Number": 188,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 62.508243,
+        "SpeedRequirement": 28.762542
       }],
       "Description": "System Constants 7",
       "Lines": [{
@@ -5140,8 +5128,8 @@
     "Name": "Lesson_0189",
       "Number": 189,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 62.575132,
+        "SpeedRequirement": 28.862876
       }],
       "Description": "System Constants 8",
       "Lines": [{
@@ -5172,8 +5160,8 @@
     "Name": "Lesson_0190",
       "Number": 190,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 62.642021,
+        "SpeedRequirement": 28.963211
       }],
       "Description": "System Constants 9",
       "Lines": [{
@@ -5204,8 +5192,8 @@
     "Name": "Lesson_0191",
       "Number": 191,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 62.708910,
+        "SpeedRequirement": 29.063545
       }],
       "Description": "Unit Constants 1",
       "Lines": [{
@@ -5235,8 +5223,8 @@
     "Name": "Lesson_0192",
       "Number": 192,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 62.775799,
+        "SpeedRequirement": 29.163880
       }],
       "Description": "Unit Constants 2",
       "Lines": [{
@@ -5268,8 +5256,8 @@
     "Name": "Lesson_0193",
       "Number": 193,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 62.842688,
+        "SpeedRequirement": 29.364548
       }],
       "Description": "Unit Constants 3",
       "Lines": [{
@@ -5299,8 +5287,8 @@
     "Name": "Lesson_0194",
       "Number": 194,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 62.909577,
+        "SpeedRequirement": 29.464883
       }],
       "Description": "Word Constants 1",
       "Lines": [{
@@ -5330,8 +5318,8 @@
     "Name": "Lesson_0195",
       "Number": 195,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 62.976466,
+        "SpeedRequirement": 29.565217
       }],
       "Description": "Word Constants 2",
       "Lines": [{
@@ -5361,8 +5349,8 @@
     "Name": "Lesson_0196",
       "Number": 196,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 63.043355,
+        "SpeedRequirement": 29.665552
       }],
       "Description": "Word Constants 3",
       "Lines": [{
@@ -5392,8 +5380,8 @@
     "Name": "Lesson_0197",
       "Number": 197,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 63.110244,
+        "SpeedRequirement": 29.765886
       }],
       "Description": "Word Constants 4",
       "Lines": [{
@@ -5423,8 +5411,8 @@
     "Name": "Lesson_0198",
       "Number": 198,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 63.177133,
+        "SpeedRequirement": 29.866221
       }],
       "Description": "Word Constants 5",
       "Lines": [{
@@ -5455,8 +5443,8 @@
     "Name": "Lesson_0199",
       "Number": 199,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 63.244022,
+        "SpeedRequirement": 29.966555
       }],
       "Description": "Word Constants 6",
       "Lines": [{
@@ -5486,8 +5474,8 @@
     "Name": "Lesson_0200",
       "Number": 200,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 63.310911,
+        "SpeedRequirement": 30.066890
       }],
       "Description": "Word Constants 7",
       "Lines": [{
@@ -5518,8 +5506,8 @@
     "Name": "Lesson_0201",
       "Number": 201,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 63.377800,
+        "SpeedRequirement": 30.167224
       }],
       "Description": "Word Constants Validation 1",
       "Lines": [{
@@ -5550,8 +5538,8 @@
     "Name": "Lesson_0202",
       "Number": 202,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 63.444689,
+        "SpeedRequirement": 30.267559
       }],
       "Description": "Word Constants Validation 2",
       "Lines": [{
@@ -5581,8 +5569,8 @@
     "Name": "Lesson_0203",
       "Number": 203,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 63.511578,
+        "SpeedRequirement": 30.367893
       }],
       "Description": "Word Constants Validation 3",
       "Lines": [{
@@ -5612,8 +5600,8 @@
     "Name": "Lesson_0204",
       "Number": 204,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 63.578467,
+        "SpeedRequirement": 30.468227
       }],
       "Description": "Word Constants Validation 4",
       "Lines": [{
@@ -5643,8 +5631,8 @@
     "Name": "Lesson_0205",
       "Number": 205,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 63.645356,
+        "SpeedRequirement": 30.568562
       }],
       "Description": "Word Constants Validation 5",
       "Lines": [{
@@ -5675,8 +5663,8 @@
     "Name": "Lesson_0206",
       "Number": 206,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 63.712245,
+        "SpeedRequirement": 30.668896
       }],
       "Description": "Word Constants Validation 6",
       "Lines": [{
@@ -5708,8 +5696,8 @@
     "Name": "Lesson_0207",
       "Number": 207,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 63.779134,
+        "SpeedRequirement": 30.769231
       }],
       "Description": "Word Constants Validation 7",
       "Lines": [{
@@ -5740,8 +5728,8 @@
     "Name": "Lesson_0208",
       "Number": 208,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 63.846023,
+        "SpeedRequirement": 30.869565
       }],
       "Description": "Word Constants Validation 8",
       "Lines": [{
@@ -5772,8 +5760,8 @@
     "Name": "Lesson_0209",
       "Number": 209,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 63.912912,
+        "SpeedRequirement": 30.969900
       }],
       "Description": "Word Constants Validation 9",
       "Lines": [{
@@ -5803,8 +5791,8 @@
     "Name": "Lesson_0210",
       "Number": 210,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 63.979801,
+        "SpeedRequirement": 31.070234
       }],
       "Description": "Word Constants Validation 10",
       "Lines": [{
@@ -5834,8 +5822,8 @@
     "Name": "Lesson_0211",
       "Number": 211,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 64.046690,
+        "SpeedRequirement": 31.170569
       }],
       "Description": "Word Constants Validation 11",
       "Lines": [{
@@ -5866,8 +5854,8 @@
     "Name": "Lesson_0212",
       "Number": 212,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 64.113579,
+        "SpeedRequirement": 31.270903
       }],
       "Description": "Word Constants Validation 12",
       "Lines": [{
@@ -5898,8 +5886,8 @@
     "Name": "Lesson_0213",
       "Number": 213,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 64.180468,
+        "SpeedRequirement": 31.371237
       }],
       "Description": "Word Constants Validation 13",
       "Lines": [{
@@ -5929,8 +5917,8 @@
     "Name": "Lesson_0214",
       "Number": 214,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 64.247357,
+        "SpeedRequirement": 31.471572
       }],
       "Description": "Word Constants Validation 14",
       "Lines": [{
@@ -5961,8 +5949,8 @@
     "Name": "Lesson_0215",
       "Number": 215,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 64.314246,
+        "SpeedRequirement": 31.571906
       }],
       "Description": "Word Constants Validation 15",
       "Lines": [{
@@ -5993,8 +5981,8 @@
     "Name": "Lesson_0216",
       "Number": 216,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 64.381135,
+        "SpeedRequirement": 31.672241
       }],
       "Description": "Word Constants Validation 16",
       "Lines": [{
@@ -6024,8 +6012,8 @@
     "Name": "Lesson_0217",
       "Number": 217,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 64.448024,
+        "SpeedRequirement": 31.772575
       }],
       "Description": "Word Constants Validation 17",
       "Lines": [{
@@ -6055,8 +6043,8 @@
     "Name": "Lesson_0218",
       "Number": 218,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 64.514913,
+        "SpeedRequirement": 31.872910
       }],
       "Description": "Word Constants Validation 18",
       "Lines": [{
@@ -6086,8 +6074,8 @@
     "Name": "Lesson_0219",
       "Number": 219,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 64.581802,
+        "SpeedRequirement": 31.973244
       }],
       "Description": "Word Constants Validation 19",
       "Lines": [{
@@ -6117,8 +6105,8 @@
     "Name": "Lesson_0220",
       "Number": 220,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 64.648691,
+        "SpeedRequirement": 32.073579
       }],
       "Description": "Word Constants Validation 20",
       "Lines": [{
@@ -6148,8 +6136,8 @@
     "Name": "Lesson_0221",
       "Number": 221,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 64.715580,
+        "SpeedRequirement": 32.173913
       }],
       "Description": "Business Rules 1",
       "Lines": [{
@@ -6204,8 +6192,8 @@
     "Name": "Lesson_0222",
       "Number": 222,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 64.782469,
+        "SpeedRequirement": 32.274247
       }],
       "Description": "Business Rules 2",
       "Lines": [{
@@ -6226,8 +6214,8 @@
     "Name": "Lesson_0223",
       "Number": 223,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 64.849358,
+        "SpeedRequirement": 32.374582
       }],
       "Description": "Business Rules 3",
       "Lines": [{
@@ -6269,8 +6257,8 @@
     "Name": "Lesson_0224",
       "Number": 224,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 64.916247,
+        "SpeedRequirement": 32.474916
       }],
       "Description": "Business Rules 4",
       "Lines": [{
@@ -6304,8 +6292,8 @@
     "Name": "Lesson_0225",
       "Number": 225,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 64.983136,
+        "SpeedRequirement": 32.575251
       }],
       "Description": "Business Rules 5",
       "Lines": [{
@@ -6334,8 +6322,8 @@
     "Name": "Lesson_0226",
       "Number": 226,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 65.050025,
+        "SpeedRequirement": 32.675585
       }],
       "Description": "Business Rules 6",
       "Lines": [{
@@ -6369,8 +6357,8 @@
     "Name": "Lesson_0227",
       "Number": 227,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 65.116914,
+        "SpeedRequirement": 32.775920
       }],
       "Description": "Business Rules 7",
       "Lines": [{
@@ -6401,8 +6389,8 @@
     "Name": "Lesson_0228",
       "Number": 228,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 65.183803,
+        "SpeedRequirement": 32.876254
       }],
       "Description": "Business Rules 8",
       "Lines": [{
@@ -6450,8 +6438,8 @@
     "Name": "Lesson_0229",
       "Number": 229,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 65.250692,
+        "SpeedRequirement": 32.976589
       }],
       "Description": "Business Rules 9",
       "Lines": [{
@@ -6489,8 +6477,8 @@
     "Name": "Lesson_0230",
       "Number": 230,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 65.317581,
+        "SpeedRequirement": 33.076923
       }],
       "Description": "Business Rules 10",
       "Lines": [{
@@ -6529,8 +6517,8 @@
     "Name": "Lesson_0231",
       "Number": 231,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 65.384470,
+        "SpeedRequirement": 33.177258
       }],
       "Description": "Business Rules 11",
       "Lines": [{
@@ -6553,8 +6541,8 @@
     "Name": "Lesson_0232",
       "Number": 232,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 65.451359,
+        "SpeedRequirement": 33.277592
       }],
       "Description": "Business Rules 12",
       "Lines": [{
@@ -6579,8 +6567,8 @@
     "Name": "Lesson_0233",
       "Number": 233,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 65.518248,
+        "SpeedRequirement": 33.377926
       }],
       "Description": "Business Rules 13",
       "Lines": [{
@@ -6604,8 +6592,8 @@
     "Name": "Lesson_0234",
       "Number": 234,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 65.585137,
+        "SpeedRequirement": 33.478261
       }],
       "Description": "Business Rules 14",
       "Lines": [{
@@ -6628,8 +6616,8 @@
     "Name": "Lesson_0235",
       "Number": 235,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 65.652026,
+        "SpeedRequirement": 33.578595
       }],
       "Description": "Business Rules 15",
       "Lines": [{
@@ -6660,8 +6648,8 @@
     "Name": "Lesson_0236",
       "Number": 236,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 65.718915,
+        "SpeedRequirement": 33.678930
       }],
       "Description": "Business Rules 16",
       "Lines": [{
@@ -6684,8 +6672,8 @@
     "Name": "Lesson_0237",
       "Number": 237,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 65.785804,
+        "SpeedRequirement": 33.779264
       }],
       "Description": "Business Rules 17",
       "Lines": [{
@@ -6710,8 +6698,8 @@
     "Name": "Lesson_0238",
       "Number": 238,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 65.852693,
+        "SpeedRequirement": 33.879599
       }],
       "Description": "Business Rules 18",
       "Lines": [{
@@ -6734,8 +6722,8 @@
     "Name": "Lesson_0239",
       "Number": 239,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 65.919582,
+        "SpeedRequirement": 33.979933
       }],
       "Description": "Business Rules 19",
       "Lines": [{
@@ -6760,8 +6748,8 @@
     "Name": "Lesson_0240",
       "Number": 240,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 65.986471,
+        "SpeedRequirement": 34.080268
       }],
       "Description": "Business Rules 20",
       "Lines": [{
@@ -6786,8 +6774,8 @@
     "Name": "Lesson_0241",
       "Number": 241,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 66.053360,
+        "SpeedRequirement": 34.180602
       }],
       "Description": "Business Rules 21",
       "Lines": [{
@@ -6810,8 +6798,8 @@
     "Name": "Lesson_0242",
       "Number": 242,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 66.120249,
+        "SpeedRequirement": 34.280936
       }],
       "Description": "Business Rules 22",
       "Lines": [{
@@ -6850,8 +6838,8 @@
     "Name": "Lesson_0243",
       "Number": 243,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 66.187138,
+        "SpeedRequirement": 34.381271
       }],
       "Description": "Business Rules 23",
       "Lines": [{
@@ -6890,8 +6878,8 @@
     "Name": "Lesson_0244",
       "Number": 244,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 66.254027,
+        "SpeedRequirement": 34.481605
       }],
       "Description": "Business Rules 24",
       "Lines": [{
@@ -6924,8 +6912,8 @@
     "Name": "Lesson_0245",
       "Number": 245,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 66.320916,
+        "SpeedRequirement": 34.581940
       }],
       "Description": "Business Rules 25",
       "Lines": [{
@@ -6959,8 +6947,8 @@
     "Name": "Lesson_0246",
       "Number": 246,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 66.387805,
+        "SpeedRequirement": 34.682274
       }],
       "Description": "Business Rules 26",
       "Lines": [{
@@ -6996,8 +6984,8 @@
     "Name": "Lesson_0247",
       "Number": 247,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 66.454694,
+        "SpeedRequirement": 34.782609
       }],
       "Description": "Business Rules 27",
       "Lines": [{
@@ -7039,8 +7027,8 @@
     "Name": "Lesson_0248",
       "Number": 248,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 66.521583,
+        "SpeedRequirement": 34.882943
       }],
       "Description": "Business Rules 28",
       "Lines": [{
@@ -7067,8 +7055,8 @@
     "Name": "Lesson_0249",
       "Number": 249,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 66.588472,
+        "SpeedRequirement": 34.983278
       }],
       "Description": "Business Rules 29",
       "Lines": [{
@@ -7093,8 +7081,8 @@
     "Name": "Lesson_0250",
       "Number": 250,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 66.655361,
+        "SpeedRequirement": 35.083612
       }],
       "Description": "Business Rules 30",
       "Lines": [{
@@ -7139,8 +7127,8 @@
     "Name": "Lesson_0251",
       "Number": 251,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 66.722250,
+        "SpeedRequirement": 35.183946
       }],
       "Description": "Business Rules 31",
       "Lines": [{
@@ -7166,8 +7154,8 @@
     "Name": "Lesson_0252",
       "Number": 252,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 66.789139,
+        "SpeedRequirement": 35.284281
       }],
       "Description": "Business Rules 32",
       "Lines": [{
@@ -7197,8 +7185,8 @@
     "Name": "Lesson_0253",
       "Number": 253,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 66.856028,
+        "SpeedRequirement": 35.384615
       }],
       "Description": "Business Rules 33",
       "Lines": [{
@@ -7228,8 +7216,8 @@
     "Name": "Lesson_0254",
       "Number": 254,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 66.922917,
+        "SpeedRequirement": 35.484950
       }],
       "Description": "Business Rules 34",
       "Lines": [{
@@ -7255,8 +7243,8 @@
     "Name": "Lesson_0255",
       "Number": 255,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 66.989806,
+        "SpeedRequirement": 35.585284
       }],
       "Description": "Business Rules 35",
       "Lines": [{
@@ -7281,8 +7269,8 @@
     "Name": "Lesson_0256",
       "Number": 256,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 67.056695,
+        "SpeedRequirement": 35.685619
       }],
       "Description": "Business Rules 36",
       "Lines": [{
@@ -7307,8 +7295,8 @@
     "Name": "Lesson_0257",
       "Number": 257,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 67.123584,
+        "SpeedRequirement": 35.785953
       }],
       "Description": "Business Rules 37",
       "Lines": [{
@@ -7337,8 +7325,8 @@
     "Name": "Lesson_0258",
       "Number": 258,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 67.190473,
+        "SpeedRequirement": 35.886288
       }],
       "Description": "Business Rules 38",
       "Lines": [{
@@ -7361,8 +7349,8 @@
     "Name": "Lesson_0259",
       "Number": 259,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 67.257362,
+        "SpeedRequirement": 35.986622
       }],
       "Description": "Business Rules 39",
       "Lines": [{
@@ -7385,8 +7373,8 @@
     "Name": "Lesson_0260",
       "Number": 260,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 67.324251,
+        "SpeedRequirement": 36.086957
       }],
       "Description": "Business Rules 40",
       "Lines": [{
@@ -7414,8 +7402,8 @@
     "Name": "Lesson_0261",
       "Number": 261,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 67.391140,
+        "SpeedRequirement": 36.187291
       }],
       "Description": "Business Rules 41",
       "Lines": [{
@@ -7443,8 +7431,8 @@
     "Name": "Lesson_0262",
       "Number": 262,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 67.458029,
+        "SpeedRequirement": 36.287625
       }],
       "Description": "Business Rules 42",
       "Lines": [{
@@ -7467,8 +7455,8 @@
     "Name": "Lesson_0263",
       "Number": 263,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 67.524918,
+        "SpeedRequirement": 36.387960
       }],
       "Description": "Business Rules 43",
       "Lines": [{
@@ -7491,8 +7479,8 @@
     "Name": "Lesson_0264",
       "Number": 264,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 67.591807,
+        "SpeedRequirement": 36.488294
       }],
       "Description": "Business Rules 44",
       "Lines": [{
@@ -7521,8 +7509,8 @@
     "Name": "Lesson_0265",
       "Number": 265,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 67.658696,
+        "SpeedRequirement": 36.588629
       }],
       "Description": "Business Rules 45",
       "Lines": [{
@@ -7550,8 +7538,8 @@
     "Name": "Lesson_0266",
       "Number": 266,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 67.725585,
+        "SpeedRequirement": 36.688963
       }],
       "Description": "Business Rules 46",
       "Lines": [{
@@ -7590,8 +7578,8 @@
     "Name": "Lesson_0267",
       "Number": 267,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 67.792474,
+        "SpeedRequirement": 36.789298
       }],
       "Description": "Business Rules 47",
       "Lines": [{
@@ -7626,8 +7614,8 @@
     "Name": "Lesson_0268",
       "Number": 268,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 67.859363,
+        "SpeedRequirement": 36.889632
       }],
       "Description": "Business Rules 48",
       "Lines": [{
@@ -7664,8 +7652,8 @@
     "Name": "Lesson_0269",
       "Number": 269,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 67.926252,
+        "SpeedRequirement": 36.989967
       }],
       "Description": "Business Rules 49",
       "Lines": [{
@@ -7703,8 +7691,8 @@
     "Name": "Lesson_0270",
       "Number": 270,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 67.993141,
+        "SpeedRequirement": 37.090301
       }],
       "Description": "Business Rules 50",
       "Lines": [{
@@ -7742,8 +7730,8 @@
     "Name": "Lesson_0271",
       "Number": 271,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 68.060030,
+        "SpeedRequirement": 37.190635
       }],
       "Description": "Business Rules 51",
       "Lines": [{
@@ -7777,8 +7765,8 @@
     "Name": "Lesson_0272",
       "Number": 272,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 68.126919,
+        "SpeedRequirement": 37.290970
       }],
       "Description": "Business Rules 52",
       "Lines": [{
@@ -7812,8 +7800,8 @@
     "Name": "Lesson_0273",
       "Number": 273,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 68.193808,
+        "SpeedRequirement": 37.391304
       }],
       "Description": "Business Rules 53",
       "Lines": [{
@@ -7847,8 +7835,8 @@
     "Name": "Lesson_0274",
       "Number": 274,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 68.260697,
+        "SpeedRequirement": 37.491639
       }],
       "Description": "Business Rules 54",
       "Lines": [{
@@ -7873,8 +7861,8 @@
     "Name": "Lesson_0275",
       "Number": 275,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 68.327586,
+        "SpeedRequirement": 37.591973
       }],
       "Description": "Business Rules 55",
       "Lines": [{
@@ -7903,8 +7891,8 @@
     "Name": "Lesson_0276",
       "Number": 276,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 68.394475,
+        "SpeedRequirement": 37.692308
       }],
       "Description": "Business Rules 56",
       "Lines": [{
@@ -7936,8 +7924,8 @@
     "Name": "Lesson_0277",
       "Number": 277,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 68.461364,
+        "SpeedRequirement": 37.792642
       }],
       "Description": "Business Rules 57",
       "Lines": [{
@@ -7976,8 +7964,8 @@
     "Name": "Lesson_0278",
       "Number": 278,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 68.528253,
+        "SpeedRequirement": 37.892977
       }],
       "Description": "Business Rules 58",
       "Lines": [{
@@ -8002,8 +7990,8 @@
     "Name": "Lesson_0279",
       "Number": 279,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 68.595142,
+        "SpeedRequirement": 37.993311
       }],
       "Description": "Business Rules 59",
       "Lines": [{
@@ -8033,8 +8021,8 @@
     "Name": "Lesson_0280",
       "Number": 280,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 68.662031,
+        "SpeedRequirement": 38.093645
       }],
       "Description": "Business Rules 60",
       "Lines": [{
@@ -8064,8 +8052,8 @@
     "Name": "Lesson_0281",
       "Number": 281,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 68.728920,
+        "SpeedRequirement": 38.193980
       }],
       "Description": "Business Rules 61",
       "Lines": [{
@@ -8093,8 +8081,8 @@
     "Name": "Lesson_0282",
       "Number": 282,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 68.795809,
+        "SpeedRequirement": 38.294314
       }],
       "Description": "Business Rules 62",
       "Lines": [{
@@ -8120,8 +8108,8 @@
     "Name": "Lesson_0283",
       "Number": 283,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 68.862698,
+        "SpeedRequirement": 38.394649
       }],
       "Description": "Business Rules 63",
       "Lines": [{
@@ -8148,8 +8136,8 @@
     "Name": "Lesson_0284",
       "Number": 284,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 68.929587,
+        "SpeedRequirement": 38.494983
       }],
       "Description": "Business Rules 64",
       "Lines": [{
@@ -8176,8 +8164,8 @@
     "Name": "Lesson_0285",
       "Number": 285,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 68.996476,
+        "SpeedRequirement": 38.595318
       }],
       "Description": "Business Rules 65",
       "Lines": [{
@@ -8202,8 +8190,8 @@
     "Name": "Lesson_0286",
       "Number": 286,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 69.063365,
+        "SpeedRequirement": 38.695652
       }],
       "Description": "Business Rules 66",
       "Lines": [{
@@ -8237,8 +8225,8 @@
     "Name": "Lesson_0287",
       "Number": 287,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 69.130254,
+        "SpeedRequirement": 38.795987
       }],
       "Description": "Business Rules 67",
       "Lines": [{
@@ -8261,8 +8249,8 @@
     "Name": "Lesson_0288",
       "Number": 288,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 69.197143,
+        "SpeedRequirement": 38.896321
       }],
       "Description": "Business Rules 68",
       "Lines": [{
@@ -8285,8 +8273,8 @@
     "Name": "Lesson_0289",
       "Number": 289,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 69.264032,
+        "SpeedRequirement": 38.996656
       }],
       "Description": "Business Rules 69",
       "Lines": [{
@@ -8309,8 +8297,8 @@
     "Name": "Lesson_0290",
       "Number": 290,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 69.330921,
+        "SpeedRequirement": 39.096990
       }],
       "Description": "Business Rules 70",
       "Lines": [{
@@ -8340,8 +8328,8 @@
     "Name": "Lesson_0291",
       "Number": 291,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 69.397810,
+        "SpeedRequirement": 39.197324
       }],
       "Description": "Commands 1",
       "Lines": [{
@@ -8374,8 +8362,8 @@
     "Name": "Lesson_0292",
       "Number": 292,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 69.464699,
+        "SpeedRequirement": 39.297659
       }],
       "Description": "Commands 2",
       "Lines": [{
@@ -8418,8 +8406,8 @@
     "Name": "Lesson_0293",
       "Number": 293,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 69.531588,
+        "SpeedRequirement": 39.397993
       }],
       "Description": "Commands 3",
       "Lines": [{
@@ -8468,8 +8456,8 @@
     "Name": "Lesson_0294",
       "Number": 294,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 69.598477,
+        "SpeedRequirement": 39.498328
       }],
       "Description": "Commands 4",
       "Lines": [{
@@ -8497,8 +8485,8 @@
     "Name": "Lesson_0295",
       "Number": 295,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 69.665366,
+        "SpeedRequirement": 39.598662
       }],
       "Description": "Commands 5",
       "Lines": [{
@@ -8561,8 +8549,8 @@
     "Name": "Lesson_0296",
       "Number": 296,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 69.732255,
+        "SpeedRequirement": 39.698997
       }],
       "Description": "Commands 6",
       "Lines": [{
@@ -8651,8 +8639,8 @@
     "Name": "Lesson_0297",
       "Number": 297,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 69.799144,
+        "SpeedRequirement": 39.799331
       }],
       "Description": "Commands 7",
       "Lines": [{
@@ -8744,8 +8732,8 @@
     "Name": "Lesson_0298",
       "Number": 298,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 69.866033,
+        "SpeedRequirement": 39.899666
       }],
       "Description": "Commands 8",
       "Lines": [{
@@ -8838,8 +8826,8 @@
     "Name": "Lesson_0299",
       "Number": 299,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "AccuracyRequirement": 69.932922,
+        "SpeedRequirement": 40
       }],
       "Description": "Commands 9",
       "Lines": [{
@@ -8908,7 +8896,7 @@
       "Number": 300,
       "IndividualizedLessonPassingCriteria": [{
         "AccuracyRequirement": 70.0,
-        "SpeedRequirement": 15
+        "SpeedRequirement": 40
       }],
       "Description": "Commands 10",
       "Lines": [{
