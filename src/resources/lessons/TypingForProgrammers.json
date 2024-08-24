@@ -1,5 +1,7 @@
 {
   "LessonCurriculumName": "Typing For Programmers",
+  "CurriculumNumber": 2,
+  "CurriculumOrderRequirement": "Not Required",
   "LessonPlan": [{
     "Lesson_0001": {
       "Name": "Lesson_0001",
