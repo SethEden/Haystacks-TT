@@ -100,6 +100,7 @@ export const applicationMessageConstantsValidation = [
   {Name: 'caccuracyLimitIs', Actual: app_msg.caccuracyLimitIs, Expected: 'accuracyLimit is: '},
   {Name: 'cspeedLimitIs', Actual: app_msg.cspeedLimitIs, Expected: 'speedLimit is: '},
   {Name: 'cinputUserNameIs', Actual: app_msg.cinputUserNameIs, Expected: 'inputUserName is: '},
+  {Name: 'cdesiredCurriculumIs', Actual: app_msg.cdesiredCurriculumIs, Expected: 'desiredCurriculum is: '},
 
   // Application messages
   {Name: 'cinstructionsMessage00', Actual: app_msg.cinstructionsMessage00, Expected: 'Instructions to end user:'},
@@ -143,6 +144,8 @@ export const applicationMessageConstantsValidation = [
   {Name: 'cgenerateUserReportMessage02', Actual: app_msg.cgenerateUserReportMessage02, Expected: 'ERROR: User is not logged in, cannot generate user report.'},
   {Name: 'cgenerateUserReportMessage03', Actual: app_msg.cgenerateUserReportMessage03, Expected: 'Login to an account and try again.'},
   {Name: 'cprintRecordsMessage01', Actual: app_msg.cprintRecordsMessage01, Expected: 'Haystacks Typing Tutor users report:'},
+  {Name: 'cErrorSetCurrentCurriculumMessage1', Actual: app_msg.cErrorSetCurrentCurriculumMessage1, Expected: 'ERROR: User must be logged in to set the current curriculum.'},
+  {Name: 'cErrorSetCurrentCurriculumMessage2', Actual: app_msg.cErrorSetCurrentCurriculumMessage2, Expected: 'ERROR: A name or index must be entered for the desired curriculum.'},
   // ****************************************************************************************************
   // Pass-Fail user messages
   {Name: 'cLessonPassedMessage', Actual: app_msg.cLessonPassedMessage, Expected: 'You PASSED! YAY!!'},

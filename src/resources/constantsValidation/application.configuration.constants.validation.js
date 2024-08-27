@@ -27,4 +27,7 @@ export const applicationConfigurationConstantsValidation = [
   {Name: 'clessonPlanSuccessLimitingAccuracy', Actual: app_cfg.clessonPlanSuccessLimitingAccuracy, Expected: 'lessonPlanSuccessLimitingAccuracy'},
   {Name: 'clessonPlanSuccessLimitingSpeed', Actual: app_cfg.clessonPlanSuccessLimitingSpeed, Expected: 'lessonPlanSuccessLimitingSpeed'},
   {Name: 'cCurrentUser', Actual: app_cfg.cCurrentUser, Expected: 'CurrentUser'},
+  {Name: 'cCurrentCurriculumName', Actual: app_cfg.cCurrentCurriculumName, Expected: 'CurrentCurriculumName'},
+  {Name: 'cCurrentCurriculumIndex', Actual: app_cfg.cCurrentCurriculumIndex, Expected: 'CurrentCurriculumIndex'},
+  {Name: 'cadhereToCurriculumOrderRequirement', Actual: app_cfg.cadhereToCurriculumOrderRequirement, Expected: 'adhereToCurriculumOrderRequirement'}
 ];

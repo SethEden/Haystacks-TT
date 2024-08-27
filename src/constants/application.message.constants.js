@@ -103,6 +103,7 @@ export const cusersLessonScoreIndividualLessonRecordIs = wrd.cusers + wrd.cLesso
 export const caccuracyLimitIs = wrd.caccuracy + wrd.cLimit + sys.cSpaceIsColonSpace; // accuracyLimit is:
 export const cspeedLimitIs = wrd.cspeed + wrd.cLimit + sys.cSpaceIsColonSpace; // speedLimit is:
 export const cinputUserNameIs = wrd.cinput + wrd.cUser + wrd.cName + sys.cSpaceIsColonSpace; // inputUserName is:
+export const cdesiredCurriculumIs = wrd.cdesired + wrd.cCurriculum + sys.cSpaceIsColonSpace; // desiredCurriculum is:
 
 // Application messages
 export const cinstructionsMessage00 = wrd.cInstructions + bas.cSpace + wrd.cto + bas.cSpace + wrd.cend + bas.cSpace + wrd.cuser + bas.cColon; // Instructions to end user:
@@ -166,6 +167,10 @@ export const cgenerateUserReportMessage01 = wrd.cHaystacks + bas.cSpace + wrd.cT
 export const cgenerateUserReportMessage02 = msg.cERROR_Colon + wrd.cUser + bas.cSpace + wrd.cis + bas.cSpace + wrd.cnot + bas.cSpace + wrd.clogged + bas.cSpace + wrd.cin + bas.cComa + bas.cSpace + wrd.ccannot + bas.cSpace + wrd.cgenerate + bas.cSpace + wrd.cuser + bas.cSpace + wrd.creport + bas.cDot; // ERROR: User is not logged in, cannot generate user report.
 export const cgenerateUserReportMessage03 = wrd.cLogin + bas.cSpace + wrd.cto + bas.cSpace + wrd.can + bas.cSpace + wrd.caccount + bas.cSpace + wrd.cand + bas.cSpace + wrd.ctry + bas.cSpace + wrd.cagain + bas.cDot; // Login to an account and try again.
 export const cprintRecordsMessage01 = wrd.cHaystacks + bas.cSpace + wrd.cTyping + bas.cSpace + wrd.cTutor + bas.cSpace + wrd.cusers + bas.cSpace + wrd.creport + bas.cColon; // Haystacks Typing Tutor users report:
+// ERROR: User must be logged in to set the current curriculum.
+export const cErrorSetCurrentCurriculumMessage1 = msg.cERROR_Colon + wrd.cUser + bas.cSpace + wrd.cmust + bas.cSpace + wrd.cbe + bas.cSpace + wrd.clogged + bas.cSpace + wrd.cin + bas.cSpace + wrd.cto + bas.cSpace + wrd.cset + bas.cSpace + wrd.cthe + bas.cSpace + wrd.ccurrent + bas.cSpace + wrd.ccurriculum + bas.cDot;
+// ERROR: A name or index must be entered for the desired curriculum.
+export const cErrorSetCurrentCurriculumMessage2 = msg.cERROR_Colon + bas.cA + bas.cSpace + wrd.cname + bas.cSpace + wrd.cor + bas.cSpace + wrd.cindex + bas.cSpace + wrd.cmust + bas.cSpace + wrd.cbe + bas.cSpace + wrd.centered + bas.cSpace + wrd.cfor + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cdesired + bas.cSpace + wrd.ccurriculum + bas.cDot;
 // ****************************************************************************************************
 // Pass-Fail user messages
 export const cLessonPassedMessage = wrd.cYou + bas.cSpace + wrd.cPASSED + bas.cExclamation + bas.cSpace + wrd.cYAY + bas.cExclamation.repeat(2); // You PASSED! YAY!!

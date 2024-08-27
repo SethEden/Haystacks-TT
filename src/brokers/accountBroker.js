@@ -619,6 +619,53 @@ async function logoutUser(accountName) {
 }
 
 /**
+ * @function setCurrentCurriculum
+ * @description Checks to make sure that a valid user is logged in, checks if the setting adhereToCurriculumOrderRequirement
+ * is set or not set. If it is not set, then the current users current curriculum is set to the desired curriculum.
+ * If the setting is set, then also checks if the user has passed all of the necessary prerequisite lessons and curriculums.
+ * If the user has passed all of the necessary prerequisite lessons and curricula, then the desired curriculum is set.
+ * If the necessary prerequisite lessons and curricula have not been passed then an error message is presented and the
+ * desired curriculum is not set.
+ * @param {string|integer} desiredCurriculum The name or index of the desired curriculum to be set as the current curriculum.
+ * @return {boolean} True or False to indicate if the current curriculum was set according to the desired curriculum.
+ * @author Seth Hollingsead
+ * @date 2024/08/27
+ */
+async function setCurrentCurriculum(desiredCurriculum) {
+  let functionName = setCurrentCurriculum.name;
+  await haystacks.consoleLog(namespacePrefix, functionName, msg.cBEGIN_Function);
+  // desiredCurriculum is:
+  await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cdesiredCurriculumIs + desiredCurriculum);
+  let returnData = false;
+  // TODO: Write all the logic as described above in the function description.
+  let currentUser = '';
+  let adhereToCurriculumOrderRequirement = false;
+  if (desiredCurriculum != '') {
+    currentUser = await haystacks.getConfigurationSetting(wrd.csystem, app_cfg.cCurrentUser);
+    if (currentUser != '') {
+      adhereToCurriculumOrderRequirement = await haystacks.getConfigurationSetting(wrd.csystem, app_cfg.cadhereToCurriculumOrderRequirement);
+      // TODO: Look up the curriculum name and curriculum index based on the input: desiredCurriculum, which could be either a name, partial name or index.
+
+      if (adhereToCurriculumOrderRequirement === true) {
+
+      } else {
+        await haystacks.setConfigurationSetting(wrd.csystem, app_cfg.cCurrentCurriculumName, );
+        await haystacks.setConfigurationSetting(wrd.csystem, app_cfg.cCurrentCurriculumIndex, );
+      }
+    } else {
+      // ERROR: User must be logged in to set the current curriculum.
+      console.log(app_msg.cErrorSetCurrentCurriculumMessage1);
+    }
+  } else {
+    // ERROR: A name or index must be entered for the desired curriculum.
+    console.log(app_msg.cErrorSetCurrentCurriculumMessage2);
+  }
+  await haystacks.consoleLog(namespacePrefix, functionName, msg.creturnDataIs + JSON.stringify(returnData));
+  await haystacks.consoleLog(namespacePrefix, functionName, msg.cEND_Function);
+  return returnData;
+}
+
+/**
  * @function executeLesson
  * @description Does the work of executing the lesson, print out the line the user should type as part of the lesson.
  * Also capture the user input and compare each character with the expected input and format color output accordingly.
@@ -1535,6 +1582,7 @@ export default {
   currentUserAccount,
   loginUser,
   logoutUser,
+  setCurrentCurriculum,
   executeLesson,
   getHighestLessonCount,
   getLessonAdvancementScoreLimitAccuracy,

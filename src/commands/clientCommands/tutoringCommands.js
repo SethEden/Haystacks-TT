@@ -285,6 +285,8 @@ async function startLesson(inputData, inputMetaData) {
   let userExecutedLesson = false;
   if (Array.isArray(inputData) && inputData.length === 2) {
     if (parseInt(inputData[1]) > 0) {
+      // TODO: We need to know what curriculum we are on first!!
+      
       let maxLessonNumber = await accountBroker.getHighestLessonCount();
       // maxLessonNumber is:
       await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cmaxLessonNumberIs + maxLessonNumber);

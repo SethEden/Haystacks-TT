@@ -20,3 +20,6 @@ export const cenableIndividualizedLessonPassingScores = wrd.cenable + wrd.cIndiv
 export const clessonPlanSuccessLimitingAccuracy = wrd.clesson + wrd.cPlan + wrd.cSuccess + wrd.cLimiting + wrd.cAccuracy; // lessonPlanSuccessLimitingAccuracy
 export const clessonPlanSuccessLimitingSpeed = wrd.clesson + wrd.cPlan + wrd.cSuccess + wrd.cLimiting + wrd.cSpeed; // lessonPlanSuccessLimitingSpeed
 export const cCurrentUser = wrd.cCurrent + wrd.cUser; // CurrentUser
+export const cCurrentCurriculumName = wrd.cCurrent + wrd.cCurriculum + wrd.cName; // CurrentCurriculumName
+export const cCurrentCurriculumIndex = wrd.cCurrent + wrd.cCurriculum + wrd.cIndex; // CurrentCurriculumIndex
+export const cadhereToCurriculumOrderRequirement = wrd.cadhere + wrd.cTo + wrd.cCurriculum + wrd.cOrder + wrd.cRequirement; // adhereToCurriculumOrderRequirement
