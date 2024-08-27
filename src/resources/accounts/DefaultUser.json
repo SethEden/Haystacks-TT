@@ -1,8 +1,14 @@
 [
   {
-    "Lesson_0001": []
-  },
-  {
-    "Lesson_0002": []
+    "CurriculumName": "Typing Basics",
+    "CurriculumIndex": 0,
+    "Lessons": [
+      {
+        "Lesson_0001": []
+      },
+      {
+        "Lesson_0002": []
+      }
+    ]
   }
 ]

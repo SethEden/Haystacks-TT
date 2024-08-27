@@ -146,6 +146,11 @@ export const applicationMessageConstantsValidation = [
   {Name: 'cprintRecordsMessage01', Actual: app_msg.cprintRecordsMessage01, Expected: 'Haystacks Typing Tutor users report:'},
   {Name: 'cErrorSetCurrentCurriculumMessage1', Actual: app_msg.cErrorSetCurrentCurriculumMessage1, Expected: 'ERROR: User must be logged in to set the current curriculum.'},
   {Name: 'cErrorSetCurrentCurriculumMessage2', Actual: app_msg.cErrorSetCurrentCurriculumMessage2, Expected: 'ERROR: A name or index must be entered for the desired curriculum.'},
+  {Name: 'cErrorSetCurrentCurriculumMessage3', Actual: app_msg.cErrorSetCurrentCurriculumMessage3, Expected: 'ERROR: fullyQualifiedCurriculumIndex is not valid.'},
+  {Name: 'cErrorSetCurrentCurriculumMessage4', Actual: app_msg.cErrorSetCurrentCurriculumMessage4, Expected: 'ERROR: fullyQualifiedCurriculumName is not valid.'},
+  {Name: 'cErrorGetCurrentCurriculumMessage1', Actual: app_msg.cErrorGetCurrentCurriculumMessage1, Expected: 'ERROR: User must be logged in to get the current curriculum.'},
+  {Name: 'cErrorLookupCurriculumMessage1', Actual: app_msg.cErrorLookupCurriculumMessage1, Expected: 'ERROR: No curriculumSearchTerm specified, unable to lookup Curriculum: '},
+  {Name: 'cErrorGetCurriculumNameFromIndexMessage1', Actual: app_msg.cErrorGetCurriculumNameFromIndexMessage1, Expected: 'ERROR: curriculumNamesArray was not valid, reference: getCurriculumNameFromIndex.'},
   // ****************************************************************************************************
   // Pass-Fail user messages
   {Name: 'cLessonPassedMessage', Actual: app_msg.cLessonPassedMessage, Expected: 'You PASSED! YAY!!'},

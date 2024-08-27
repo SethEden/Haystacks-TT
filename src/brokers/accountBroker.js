@@ -19,6 +19,7 @@
  */
 
 // Internal imports
+import { lookup } from 'dns';
 import * as app_cfg from '../constants/application.configuration.constants.js';
 import * as apc from '../constants/application.constants.js';
 import * as app_msg from '../constants/application.message.constants.js';
@@ -637,20 +638,37 @@ async function setCurrentCurriculum(desiredCurriculum) {
   // desiredCurriculum is:
   await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cdesiredCurriculumIs + desiredCurriculum);
   let returnData = false;
-  // TODO: Write all the logic as described above in the function description.
   let currentUser = '';
   let adhereToCurriculumOrderRequirement = false;
+  let fullyQualifiedCurriculumName = '';
+  let fullyQualifiedCurriculumIndex = 0;
   if (desiredCurriculum != '') {
     currentUser = await haystacks.getConfigurationSetting(wrd.csystem, app_cfg.cCurrentUser);
     if (currentUser != '') {
       adhereToCurriculumOrderRequirement = await haystacks.getConfigurationSetting(wrd.csystem, app_cfg.cadhereToCurriculumOrderRequirement);
-      // TODO: Look up the curriculum name and curriculum index based on the input: desiredCurriculum, which could be either a name, partial name or index.
-
-      if (adhereToCurriculumOrderRequirement === true) {
-
+      fullyQualifiedCurriculumIndex = await lookupCurriculum(desiredCurriculum);
+      if (fullyQualifiedCurriculumIndex != false) {
+        fullyQualifiedCurriculumName = await getCurriculumNameFromIndex(fullyQualifiedCurriculumIndex);
+      }
+      if ((fullyQualifiedCurriculumIndex != false && fullyQualifiedCurriculumName != false) &&
+      (fullyQualifiedCurriculumIndex != '' && fullyQualifiedCurriculumName != '')) {
+        if (adhereToCurriculumOrderRequirement === true) {
+          // TODO: Determine if the user is allowed to set the current curriculum name and if all the prerequisites for the current user meet the curriculum order requirement.
+          
+        } else {
+          await haystacks.setConfigurationSetting(wrd.csystem, app_cfg.cCurrentCurriculumName, fullyQualifiedCurriculumName);
+          await haystacks.setConfigurationSetting(wrd.csystem, app_cfg.cCurrentCurriculumIndex, fullyQualifiedCurriculumIndex);
+        }
       } else {
-        await haystacks.setConfigurationSetting(wrd.csystem, app_cfg.cCurrentCurriculumName, );
-        await haystacks.setConfigurationSetting(wrd.csystem, app_cfg.cCurrentCurriculumIndex, );
+        console.log(app_msg.cErrorSetCurrentCurriculumMessage3);
+        if (fullyQualifiedCurriculumIndex === false || fullyQualifiedCurriculumIndex === '') {
+          // ERROR: fullyQualifiedCurriculumIndex is not valid.
+          console.log(app_msg.cErrorSetCurrentCurriculumMessage3);
+        }
+        if (fullyQualifiedCurriculumName === false || fullyQualifiedCurriculumName === '') {
+          // ERROR: fullyQualifiedCurriculumName is not valid.
+          console.log(app_msg.cErrorSetCurrentCurriculumMessage4);
+        }
       }
     } else {
       // ERROR: User must be logged in to set the current curriculum.
@@ -659,6 +677,169 @@ async function setCurrentCurriculum(desiredCurriculum) {
   } else {
     // ERROR: A name or index must be entered for the desired curriculum.
     console.log(app_msg.cErrorSetCurrentCurriculumMessage2);
+  }
+  await haystacks.consoleLog(namespacePrefix, functionName, msg.creturnDataIs + JSON.stringify(returnData));
+  await haystacks.consoleLog(namespacePrefix, functionName, msg.cEND_Function);
+  return returnData;
+}
+
+/**
+ * @function getCurrentCurriculumName
+ * @description Checks to make sure the current user is logged in then gets the name of the current curriculum.
+ * If no user is logged in, then display an error message and return false.
+ * @return {string|boolean} The name of the current curriculum, or false if no user is logged in,
+ * or false if no current curriculum name is set.
+ * @author Seth Hollingsead
+ * @date 2024/08/27
+ */
+async function getCurrentCurriculumName() {
+  let functionName = getCurrentCurriculumName.name;
+  await haystacks.consoleLog(namespacePrefix, functionName, msg.cBEGIN_Function);
+  let returnData = false;
+  let currentUser = '';
+  currentUser = await haystacks.getConfigurationSetting(wrd.csystem, app_cfg.cCurrentUser);
+  if (currentUser != '') {
+    returnData = haystacks.getConfigurationSetting(wrd.csystem, app_cfg.cCurrentCurriculumName);
+  } else {
+    // ERROR: User must be logged in to get the current curriculum.
+    console.log(app_msg.cErrorGetCurrentCurriculumMessage1);
+  }
+  await haystacks.consoleLog(namespacePrefix, functionName, msg.creturnDataIs + JSON.stringify(returnData));
+  await haystacks.consoleLog(namespacePrefix, functionName, msg.cEND_Function);
+  return returnData;
+}
+
+/**
+ * @function getCurrentCurriculumIndex
+ * @description Checks to make sure the current user is logged in then gets the index of the current curriculum.
+ * If not user is logged in, then display an error message and return false.
+ * @return {integer|boolean} The index of the current curriculum, or false if no user is logged in,
+ * or false if no current curriculum index is set.
+ * @author Seth Hollingsead
+ * @date 2024/08/27
+ */
+async function getCurrentCurriculumIndex() {
+  let functionName = getCurrentCurriculumIndex.name;
+  await haystacks.consoleLog(namespacePrefix, functionName, msg.cBEGIN_Function);
+  let returnData = false;
+  let currentUser = '';
+  currentUser = await haystacks.getConfigurationSetting(wrd.csystem, app_cfg.cCurrentUser);
+  if (currentUser != '') {
+    returnData = haystacks.getConfigurationSetting(wrd.csystem, app_cfg.cCurrentCurriculumIndex);
+  } else {
+    // ERROR: User must be logged in to get the current curriculum.
+    console.log(app_msg.cErrorGetCurrentCurriculumMessage1);
+  }
+  await haystacks.consoleLog(namespacePrefix, functionName, msg.creturnDataIs + JSON.stringify(returnData));
+  await haystacks.consoleLog(namespacePrefix, functionName, msg.cEND_Function);
+  return returnData;
+}
+
+/**
+ * @function getListOfCurriculumNames
+ * @description Looks up all of the curriculum names from the lessons data structure,
+ * and returns a list of all available curriculum names.
+ * @return {array<string>} An array of the list of available curriculum names.
+ * @author Seth Hollingsead
+ * @date 2024/08/27
+ */
+async function getListOfCurriculumNames() {
+  let functionName = getListOfCurriculumNames.name;
+  await haystacks.consoleLog(namespacePrefix, functionName, msg.cBEGIN_Function);
+  let returnData = false;
+  let allLessonData = await getLessonData();
+  returnData = Object.values(allLessonData).map(curriculum => curriculum.LessonCurriculumName);
+  await haystacks.consoleLog(namespacePrefix, functionName, msg.creturnDataIs + JSON.stringify(returnData));
+  await haystacks.consoleLog(namespacePrefix, functionName, msg.cEND_Function);
+  return returnData;
+}
+
+/**
+ * @function getListOfCurriculumIndices
+ * @description Looks up all of the curriculum indices from the lessons data structure,
+ * and returns a list of all available curriculum indices.
+ * @return {array<integer>} An array of the list of available curriculum indices.
+ * @author Seth Hollingsead
+ * @date 2024/08/27
+ */
+async function getListOfCurriculumIndices() {
+  let functionName = getListOfCurriculumIndices.name;
+  await haystacks.consoleLog(namespacePrefix, functionName, msg.cBEGIN_Function);
+  let returnData = false;
+  let allLessonData = await getLessonData();
+  returnData = Object.values(allLessonData).map(curriculum => curriculum.CurriculumNumber);
+  await haystacks.consoleLog(namespacePrefix, functionName, msg.creturnDataIs + JSON.stringify(returnData));
+  await haystacks.consoleLog(namespacePrefix, functionName, msg.cEND_Function);
+  return returnData;
+}
+
+/**
+ * @function getCurriculumNameFromIndex
+ * @description Gets a curriculum name given a curriculum index.
+ * @param {integer} curriculumIndex The index of the curriculum for which a curriculum name should be returned.
+ * @returns {string|boolean} The name of the curriculum at the specified curriculum index.
+ * @author Seth Hollingsead
+ * @date 2024/08/27
+ */
+async function getCurriculumNameFromIndex(curriculumIndex) {
+  let functionName = getListOfCurriculumIndices.name;
+  await haystacks.consoleLog(namespacePrefix, functionName, msg.cBEGIN_Function);
+  let returnData = false;
+  let curriculumNamesArray = await getListOfCurriculumNames();
+  if (curriculumNamesArray && curriculumNamesArray.length > 0) {
+    returnData = curriculumNamesArray[curriculumIndex];
+  } else {
+    // ERROR: curriculumNamesArray was not valid, reference: getCurriculumNameFromIndex.
+    console.log(app_msg.cErrorGetCurriculumNameFromIndexMessage1);
+  }
+  returnData = curriculumNamesArray[]
+  await haystacks.consoleLog(namespacePrefix, functionName, msg.creturnDataIs + JSON.stringify(returnData));
+  await haystacks.consoleLog(namespacePrefix, functionName, msg.cEND_Function);
+  return returnData;
+}
+
+/**
+ * @function lookupCurriculum
+ * @description Searches for a matching curriculum that matches with the input search term.
+ * If an index is passed in, then the curriculum will match to the specified curriculum index,
+ * if there exists a curriculum with the specified index.
+ * If the input is the name or partial name of a curriculum then the search algorithm will
+ * do a fuzzy search and try to find a curriculum that most closely matches with the input parameter.
+ * @param {integer|string} curriculumSearchTerm The term that should be used when looking up the
+ * specified curriculum, either an index, a name, or a fuzzy search parameter such as a partial name.
+ * @return {integer|boolean} The index of the matching curriculum, or false if no matching curriculum is found.
+ * Also returns false if the input is invalid.
+ * @author Seth Hollingsead
+ * @date 2024/08/27
+ */
+async function lookupCurriculum(curriculumSearchTerm) {
+  let functionName = lookupCurriculum.name;
+  await haystacks.consoleLog(namespacePrefix, functionName, msg.cBEGIN_Function);
+  let returnData = false;
+  if (curriculumSearchTerm) {
+    let allCurriculumNames = [];
+    let allCurriculumIndices = [];
+    allCurriculumNames = await getListOfCurriculumNames();
+    allCurriculumIndices = await getListOfCurriculumIndices();
+    if (allCurriculumNames && allCurriculumIndices) {
+      if (await haystacks.executeBusinessRules([curriculumSearchTerm, ''], [biz.cisInteger]) === true) {
+        if (await haystacks.executeBusinessRules([[allCurriculumIndices, curriculumSearchTerm], ''], [biz.cdoesArrayContainValue]) === true) {\
+          returnData = curriculumSearchTerm;
+        }
+      } else if (await haystacks.executeBusinessRules([curriculumSearchTerm, ''], [biz.cisString]) === true) {
+        // Here we need to do a fuzzy search in the array.
+        let curriculumNamesMatchedArray = allCurriculumNames.filter(name => name.toLowerCase().includes(curriculumSearchTerm.toLowerCase()));
+        if (curriculumNamesMatchedArray.length > 0) {
+          returnData = allCurriculumNames.indexOf(curriculumNamesMatchedArray[0]);
+        }
+      } else {
+        // ERROR: curriculumSearchTerm is invalid: 
+        console.log(app_msg.cErrorLookupCurriculumMessage2 + curriculumSearchTerm);
+      }
+    }
+  } else {
+    // ERROR: No curriculumSearchTerm specified, unable to lookup Curriculum: 
+    console.log(app_msg.cErrorLookupCurriculumMessage1 + curriculumSearchTerm);
   }
   await haystacks.consoleLog(namespacePrefix, functionName, msg.creturnDataIs + JSON.stringify(returnData));
   await haystacks.consoleLog(namespacePrefix, functionName, msg.cEND_Function);
@@ -1583,6 +1764,12 @@ export default {
   loginUser,
   logoutUser,
   setCurrentCurriculum,
+  getCurrentCurriculumName,
+  getCurrentCurriculumIndex,
+  getListOfCurriculumNames,
+  getListOfCurriculumIndices,
+  getCurriculumNameFromIndex,
+  lookupCurriculum,
   executeLesson,
   getHighestLessonCount,
   getLessonAdvancementScoreLimitAccuracy,

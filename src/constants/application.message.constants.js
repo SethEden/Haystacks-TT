@@ -171,6 +171,16 @@ export const cprintRecordsMessage01 = wrd.cHaystacks + bas.cSpace + wrd.cTyping 
 export const cErrorSetCurrentCurriculumMessage1 = msg.cERROR_Colon + wrd.cUser + bas.cSpace + wrd.cmust + bas.cSpace + wrd.cbe + bas.cSpace + wrd.clogged + bas.cSpace + wrd.cin + bas.cSpace + wrd.cto + bas.cSpace + wrd.cset + bas.cSpace + wrd.cthe + bas.cSpace + wrd.ccurrent + bas.cSpace + wrd.ccurriculum + bas.cDot;
 // ERROR: A name or index must be entered for the desired curriculum.
 export const cErrorSetCurrentCurriculumMessage2 = msg.cERROR_Colon + bas.cA + bas.cSpace + wrd.cname + bas.cSpace + wrd.cor + bas.cSpace + wrd.cindex + bas.cSpace + wrd.cmust + bas.cSpace + wrd.cbe + bas.cSpace + wrd.centered + bas.cSpace + wrd.cfor + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cdesired + bas.cSpace + wrd.ccurriculum + bas.cDot;
+// ERROR: fullyQualifiedCurriculumIndex is not valid.
+export const cErrorSetCurrentCurriculumMessage3 = msg.cERROR_Colon + wrd.cfully + wrd.cQualified + wrd.cCurriculum + wrd.cIndex + bas.cSpace + wrd.cis + bas.cSpace + wrd.cnot + bas.cSpace + wrd.cvalid + bas.cDot;
+// ERROR: fullyQualifiedCurriculumName is not valid.
+export const cErrorSetCurrentCurriculumMessage4 = msg.cERROR_Colon + wrd.cfully + wrd.cQualified + wrd.cCurriculum + wrd.cName + bas.cSpace + wrd.cis + bas.cSpace + wrd.cnot + bas.cSpace + wrd.cvalid + bas.cDot;
+// ERROR: User must be logged in to get the current curriculum.
+export const cErrorGetCurrentCurriculumMessage1 = msg.cERROR_Colon + wrd.cUser + bas.cSpace + wrd.cmust + bas.cSpace + wrd.cbe + bas.cSpace + wrd.clogged + bas.cSpace + wrd.cin + bas.cSpace + wrd.cto + bas.cSpace + wrd.cget + bas.cSpace + wrd.cthe + bas.cSpace + wrd.ccurrent + bas.cSpace + wrd.ccurriculum + bas.cDot;
+// ERROR: No curriculumSearchTerm specified, unable to lookup Curriculum:
+export const cErrorLookupCurriculumMessage1 = msg.cERROR_Colon + wrd.cNo + bas.cSpace + wrd.ccurriculum + wrd.cSearch + wrd.cTerm + bas.cSpace + wrd.cspecified + bas.cComa + bas.cSpace + wrd.cunable + bas.cSpace + wrd.cto + bas.cSpace + wrd.clookup + bas.cSpace + wrd.ccurriculum + bas.cColon + bas.cSpace;
+// ERROR: curriculumNamesArray was not valid, reference: getCurriculumNameFromIndex.
+export const cErrorGetCurriculumNameFromIndexMessage1 = msg.cERROR_Colon + wrd.ccurriculum + wrd.cNames + wrd.cArray + bas.cSpace + wrd.cwas + bas.cSpace + wrd.cnot + bas.cSpace + wrd.cvalid + bas.cComa + bas.cSpace + wrd.creference + bas.cColon + bas.cSpace + wrd.cget + wrd.cCurriculum + wrd.cName + wrd.cFrom + wrd.cIndex + bas.cDot;
 // ****************************************************************************************************
 // Pass-Fail user messages
 export const cLessonPassedMessage = wrd.cYou + bas.cSpace + wrd.cPASSED + bas.cExclamation + bas.cSpace + wrd.cYAY + bas.cExclamation.repeat(2); // You PASSED! YAY!!
