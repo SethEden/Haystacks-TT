@@ -2,6 +2,7 @@
   "LessonCurriculumName": "Typing Basics",
   "CurriculumNumber": 0,
   "CurriculumOrderRequirement": "Required",
+  "ListOfCurriculumPrerequisites": "",
   "LessonPlan": [{
     "Lesson_0001": {
       "Name": "Lesson_0001",

@@ -774,6 +774,25 @@ async function getListOfCurriculumIndices() {
 }
 
 /**
+ * @function getListOfPrerequisiteCurriculumIndicesForSpecifiedIndex
+ * @description Gets the list of prerequisite curriculum indices given a specified index.
+ * @param {integer} curriculumIndex The index for which the list of prerequisite curriculum indices should be returned.
+ * @return {array<integer>|boolean} An array of required curriculum indices for the specified curriculum index.
+ * @author Seth Hollingsead
+ * @date 2024/08/27
+ */
+async function getListOfPrerequisiteCurriculumIndicesForSpecifiedIndex(curriculumIndex) {
+  let functionName = getListOfPrerequisiteCurriculumIndicesForSpecifiedIndex.name;
+  await haystacks.consoleLog(namespacePrefix, functionName, msg.cBEGIN_Function);
+  let returnData = false;
+  // TODO: Implement the functionality here!!
+  
+  await haystacks.consoleLog(namespacePrefix, functionName, msg.creturnDataIs + JSON.stringify(returnData));
+  await haystacks.consoleLog(namespacePrefix, functionName, msg.cEND_Function);
+  return returnData;
+}
+
+/**
  * @function getCurriculumNameFromIndex
  * @description Gets a curriculum name given a curriculum index.
  * @param {integer} curriculumIndex The index of the curriculum for which a curriculum name should be returned.
@@ -782,7 +801,7 @@ async function getListOfCurriculumIndices() {
  * @date 2024/08/27
  */
 async function getCurriculumNameFromIndex(curriculumIndex) {
-  let functionName = getListOfCurriculumIndices.name;
+  let functionName = getCurriculumNameFromIndex.name;
   await haystacks.consoleLog(namespacePrefix, functionName, msg.cBEGIN_Function);
   let returnData = false;
   let curriculumNamesArray = await getListOfCurriculumNames();
