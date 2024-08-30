@@ -6,6 +6,8 @@
       {
         "Lesson_0001": [
           {
+            "curriculumName": "Typing Basics",
+            "curriculumIndex": 1,
             "lessonTimeStamp": "20230309-111700-801",
             "totalTime": 7393,
             "totalCorrectCharacterCount": 12,
@@ -16,6 +18,8 @@
             "adjustedWpm": 31.909105800172945
           },
           {
+            "curriculumName": "Typing Basics",
+            "curriculumIndex": 1,
             "lessonTimeStamp": "20230309-120129-885",
             "totalTime": 14580,
             "totalCorrectCharacterCount": 18,
@@ -26,6 +30,8 @@
             "adjustedWpm": 25.086847237247454
           },
           {
+            "curriculumName": "Typing Basics",
+            "curriculumIndex": 1,
             "lessonTimeStamp": "20230309-120203-743",
             "totalTime": 6464,
             "totalCorrectCharacterCount": 33,
@@ -36,6 +42,8 @@
             "adjustedWpm": 90.28092200612971
           },
           {
+            "curriculumName": "Typing Basics",
+            "curriculumIndex": 1,
             "lessonTimeStamp": "20230317-101439-500",
             "totalTime": 5104,
             "totalCorrectCharacterCount": 34,
@@ -46,6 +54,8 @@
             "adjustedWpm": 108.80811932024973
           },
           {
+            "curriculumName": "Typing Basics",
+            "curriculumIndex": 1,
             "lessonTimeStamp": "20240715-174420-317",
             "totalTime": 6402,
             "totalCorrectCharacterCount": 30,
@@ -56,6 +66,8 @@
             "adjustedWpm": 63.4391790636411
           },
           {
+            "curriculumName": "Typing Basics",
+            "curriculumIndex": 1,
             "lessonTimeStamp": "20240715-182602-945",
             "totalTime": 5809,
             "totalCorrectCharacterCount": 32,
@@ -66,6 +78,8 @@
             "adjustedWpm": 69.42212656981799
           },
           {
+            "curriculumName": "Typing Basics",
+            "curriculumIndex": 1,
             "lessonTimeStamp": "20240718-143948-849",
             "totalTime": 9233,
             "totalCorrectCharacterCount": 11,
@@ -76,6 +90,8 @@
             "adjustedWpm": 15.26826482700421
           },
           {
+            "curriculumName": "Typing Basics",
+            "curriculumIndex": 1,
             "lessonTimeStamp": "20240718-170547-819",
             "totalTime": 15138,
             "totalCorrectCharacterCount": 2,
@@ -86,6 +102,8 @@
             "adjustedWpm": 2.1680113769365046
           },
           {
+            "curriculumName": "Typing Basics",
+            "curriculumIndex": 1,
             "lessonTimeStamp": "20240718-170941-941",
             "totalTime": 41957,
             "totalCorrectCharacterCount": 2,
@@ -96,6 +114,8 @@
             "adjustedWpm": 0.7911954956115272
           },
           {
+            "curriculumName": "Typing Basics",
+            "curriculumIndex": 1,
             "lessonTimeStamp": "20240718-172051-411",
             "totalTime": 68311,
             "totalCorrectCharacterCount": 0,
@@ -106,6 +126,8 @@
             "adjustedWpm": 0
           },
           {
+            "curriculumName": "Typing Basics",
+            "curriculumIndex": 1,
             "lessonTimeStamp": "20240718-172317-113",
             "totalTime": 93782,
             "totalCorrectCharacterCount": 32,
@@ -116,6 +138,8 @@
             "adjustedWpm": 4.246067601995988
           },
           {
+            "curriculumName": "Typing Basics",
+            "curriculumIndex": 1,
             "lessonTimeStamp": "20240718-172539-900",
             "totalTime": 89256,
             "totalCorrectCharacterCount": 33,
@@ -126,6 +150,8 @@
             "adjustedWpm": 4.703895385935641
           },
           {
+            "curriculumName": "Typing Basics",
+            "curriculumIndex": 1,
             "lessonTimeStamp": "20240718-173315-071",
             "totalTime": 111710,
             "totalCorrectCharacterCount": 33,
@@ -136,6 +162,8 @@
             "adjustedWpm": 3.99920344259216
           },
           {
+            "curriculumName": "Typing Basics",
+            "curriculumIndex": 1,
             "lessonTimeStamp": "20240718-173332-832",
             "totalTime": 4230,
             "totalCorrectCharacterCount": 0,
@@ -146,6 +174,8 @@
             "adjustedWpm": 0
           },
           {
+            "curriculumName": "Typing Basics",
+            "curriculumIndex": 1,
             "lessonTimeStamp": "20240718-173355-248",
             "totalTime": 6592,
             "totalCorrectCharacterCount": 31,
@@ -156,6 +186,8 @@
             "adjustedWpm": 58.669126709673435
           },
           {
+            "curriculumName": "Typing Basics",
+            "curriculumIndex": 1,
             "lessonTimeStamp": "20240718-173520-097",
             "totalTime": 5697,
             "totalCorrectCharacterCount": 32,
@@ -166,6 +198,8 @@
             "adjustedWpm": 74.15010276493045
           },
           {
+            "curriculumName": "Typing Basics",
+            "curriculumIndex": 1,
             "lessonTimeStamp": "20240718-174008-704",
             "totalTime": 5777,
             "totalCorrectCharacterCount": 32,
@@ -180,6 +214,8 @@
       {
         "Lesson_0002": [
           {
+            "curriculumName": "Typing Basics",
+            "curriculumIndex": 1,
             "lessonTimeStamp": "20230309-120842-216",
             "totalTime": 6992,
             "totalCorrectCharacterCount": 30,
@@ -190,6 +226,8 @@
             "adjustedWpm": 68.40390485844361
           },
           {
+            "curriculumName": "Typing Basics",
+            "curriculumIndex": 1,
             "lessonTimeStamp": "20230309-121340-392",
             "totalTime": 5594,
             "totalCorrectCharacterCount": 30,
@@ -200,6 +238,8 @@
             "adjustedWpm": 77.90994409973771
           },
           {
+            "curriculumName": "Typing Basics",
+            "curriculumIndex": 1,
             "lessonTimeStamp": "20230316-052529-344",
             "totalTime": 5472,
             "totalCorrectCharacterCount": 29,
@@ -210,6 +250,8 @@
             "adjustedWpm": 70.01540797721114
           },
           {
+            "curriculumName": "Typing Basics",
+            "curriculumIndex": 1,
             "lessonTimeStamp": "20240715-182625-249",
             "totalTime": 5665,
             "totalCorrectCharacterCount": 25,
@@ -220,6 +262,8 @@
             "adjustedWpm": 56.40224378571837
           },
           {
+            "curriculumName": "Typing Basics",
+            "curriculumIndex": 1,
             "lessonTimeStamp": "20240715-182652-322",
             "totalTime": 4560,
             "totalCorrectCharacterCount": 27,
@@ -234,6 +278,8 @@
       {
         "Lesson_0003": [
           {
+            "curriculumName": "Typing Basics",
+            "curriculumIndex": 1,
             "lessonTimeStamp": "20230309-121409-367",
             "totalTime": 18849,
             "totalCorrectCharacterCount": 81,
@@ -244,6 +290,8 @@
             "adjustedWpm": 55.219564008671064
           },
           {
+            "curriculumName": "Typing Basics",
+            "curriculumIndex": 1,
             "lessonTimeStamp": "20230314-151630-334",
             "totalTime": 18018,
             "totalCorrectCharacterCount": 81,
@@ -254,6 +302,8 @@
             "adjustedWpm": 58.779856606720664
           },
           {
+            "curriculumName": "Typing Basics",
+            "curriculumIndex": 1,
             "lessonTimeStamp": "20230314-153831-855",
             "totalTime": 18296,
             "totalCorrectCharacterCount": 79,
@@ -264,6 +314,8 @@
             "adjustedWpm": 56.98962208104097
           },
           {
+            "curriculumName": "Typing Basics",
+            "curriculumIndex": 1,
             "lessonTimeStamp": "20230322-174909-792",
             "totalTime": 38112,
             "totalCorrectCharacterCount": 62,
@@ -274,6 +326,8 @@
             "adjustedWpm": 26.659282899371448
           },
           {
+            "curriculumName": "Typing Basics",
+            "curriculumIndex": 1,
             "lessonTimeStamp": "20240716-150946-995",
             "totalTime": 27121,
             "totalCorrectCharacterCount": 116,
@@ -288,6 +342,8 @@
       {
         "Lesson_0004": [
           {
+            "curriculumName": "Typing Basics",
+            "curriculumIndex": 1,
             "lessonTimeStamp": "20240716-151425-549",
             "totalTime": 7823,
             "totalCorrectCharacterCount": 33,
