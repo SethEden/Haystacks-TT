@@ -1,12 +1,12 @@
 [
   {
-    "curriculumName": "Typing Basics",
+    "curriculumName": "TypingBasics",
     "curriculumIndex": 1,
     "Lessons": [
       {
         "Lesson_0001": [
           {
-            "curriculumName": "Typing Basics",
+            "curriculumName": "TypingBasics",
             "curriculumIndex": 1,
             "lessonTimeStamp": "20230309-171617-586",
             "totalTime": 5357,
@@ -22,7 +22,7 @@
       {
         "Lesson_0002": [
           {
-            "curriculumName": "Typing Basics",
+            "curriculumName": "TypingBasics",
             "curriculumIndex": 1,
             "lessonTimeStamp": "20230309-171636-572",
             "totalTime": 6081,
@@ -38,7 +38,7 @@
       {
         "Lesson_0003": [
           {
-            "curriculumName": "Typing Basics",
+            "curriculumName": "TypingBasics",
             "curriculumIndex": 1,
             "lessonTimeStamp": "20230309-171703-670",
             "totalTime": 19737,
@@ -50,7 +50,7 @@
             "adjustedWpm": 51.925148739670625
           },
           {
-            "curriculumName": "Typing Basics",
+            "curriculumName": "TypingBasics",
             "curriculumIndex": 1,
             "lessonTimeStamp": "20230309-171734-185",
             "totalTime": 19175,
@@ -62,7 +62,7 @@
             "adjustedWpm": 54.5228814299883
           },
           {
-            "curriculumName": "Typing Basics",
+            "curriculumName": "TypingBasics",
             "curriculumIndex": 1,
             "lessonTimeStamp": "20230309-171809-683",
             "totalTime": 15888,
