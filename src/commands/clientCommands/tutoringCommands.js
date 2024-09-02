@@ -65,14 +65,17 @@ async function createAccount(inputData, inputMetaData) {
       if (accountStoredSuccess === false) {
         // ERROR: Newly created account was not saved, could not create the specified account:
         console.log(app_msg.cErrorCreateAccountMessage02 + inputData[1]);
+        await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cErrorCreateAccountMessage02 + inputData[1]);
       }
     } else {
       // ERROR: The user account already exists, please choose a different user name and try again.
       console.log(app_msg.cErrorInvalidUserNameCreateAccountMessage02);
+      await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cErrorInvalidUserNameCreateAccountMessage02);
     }
   } else {
     // ERROR: Invalid user name, please try again with a valid username.
     console.log(app_msg.cErrorInvalidUserNameCreateAccountMessage01 + inputData[1]);
+    await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cErrorInvalidUserNameCreateAccountMessage01 + inputData[1]);
   }
   // let newUserAccount = {userName: }
   await haystacks.consoleLog(namespacePrefix, functionName, msg.creturnDataIs + JSON.stringify(returnData));
@@ -98,6 +101,7 @@ async function printAccountsData(inputData, inputMetaData) {
   let returnData = [true, ''];
   let storedAccountData = await accountBroker.getAccountData();
   console.log(app_msg.cstoredAccountDataIs + JSON.stringify(storedAccountData));
+  await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cstoredAccountDataIs + JSON.stringify(storedAccountData));
   await haystacks.consoleLog(namespacePrefix, functionName, msg.creturnDataIs + JSON.stringify(returnData));
   await haystacks.consoleLog(namespacePrefix, functionName, msg.cEND_Function);
   return returnData;
@@ -124,6 +128,7 @@ async function printAccountData(inputData, inputMetaData) {
     let userAccountData = await accountBroker.getUserAccountData(inputData[1]);
     // userAccountData is:
     console.log(app_msg.cuserAccountDataIs + JSON.stringify(userAccountData));
+    await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cuserAccountDataIs + JSON.stringify(userAccountData));
   } else {
     // User didn't enter any account name for input, so just print all of the data for all accounts!
     await printAccountsData();
@@ -177,18 +182,22 @@ async function deleteAccount(inputData, inputMetaData) {
         if (accountStoredSuccess === false) {
           // ERROR: Newly created account was not saved, could not create the specified account:
           console.log(app_msg.cErrorCreateAccountMessage02 + inputData[1]);
+          await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cErrorCreateAccountMessage02 + inputData[1]);
         }
       } else {
         // INFO: No account was deleted.
         console.log(app_msg.cErrorNoDeleteAccountMessage02)
+        await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cErrorNoDeleteAccountMessage02);
       }
     } else {
       // ERROR: Cannot delete user, user does not exist.
       console.log(app_msg.cErrorNoUserFoundDeleteAccountMessage01);
+      await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cErrorNoUserFoundDeleteAccountMessage01);
     }
   } else {
     // ERROR: Invalid user name, please try again with a valid username.
     console.log(app_msg.cErrorInvalidUserNameCreateAccountMessage01 + inputData[1]);
+    await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cErrorInvalidUserNameCreateAccountMessage01 + inputData[1]);
   }
   await haystacks.consoleLog(namespacePrefix, functionName, msg.creturnDataIs + JSON.stringify(returnData));
   await haystacks.consoleLog(namespacePrefix, functionName, msg.cEND_Function);
@@ -220,14 +229,25 @@ async function login(inputData, inputMetaData) {
       if (configSettingSet === false) {
         // ERROR: Unable to login with the specified user:
         console.log(app_msg.cErrorLoginMessage02 + inputData[1]);
+        await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cErrorLoginMessage02 + inputData[1]);
+      } else {
+        // User is successfully logged in, now we need to do a little homework.
+        // to determine what the current curriculum should be for the current user.
+        // This should be set, but the user can and will be able to change it manually.
+        let currentCurriculumIndex = await accountBroker.scanUserDataForCurrentCurriculum();
+        // currentCurriculumIndex is:
+        await haystacks.consoleLog(namespacePrefix, functionName, 'currentCurriculumIndex is: ' + currentCurriculumIndex);
+        await accountBroker.setCurrentCurriculum(currentCurriculumIndex);
       }
     } else {
       // ERROR: Cannot login, user does not exist.
       console.log(app_msg.cErrorNoUserFoundLoginMessage01);
+      await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cErrorNoUserFoundLoginMessage01);
     }
   } else {
     // ERROR: Invalid user name, please try again with a valid username.
     // console.log(app_msg.cErrorInvalidUserNameCreateAccountMessage01 + inputData[1]);
+    await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cErrorInvalidUserNameCreateAccountMessage01 + inputData[1]);
     
     // If the user didn't specify a username, then we will clear the login configuration setting,
     // So nobody is logged in.
@@ -255,10 +275,11 @@ async function logout(inputData, inputMetaData) {
   await haystacks.consoleLog(namespacePrefix, functionName, msg.cinputMetaDataIs + inputMetaData);
   let returnData = [true, ''];
   let logoutSuccess = false
-  logoutSuccess = accountBroker.logoutUser('');
+  logoutSuccess = await accountBroker.logoutUser('');
   if (logoutSuccess === false) {
     // ERROR: Failure to logout.
     console.log(app_msg.cErrorFailureToLogOutMessage01);
+    await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cErrorFailureToLogOutMessage01);
   }
   await haystacks.consoleLog(namespacePrefix, functionName, msg.creturnDataIs + JSON.stringify(returnData));
   await haystacks.consoleLog(namespacePrefix, functionName, msg.cEND_Function);
@@ -285,11 +306,6 @@ async function startLesson(inputData, inputMetaData) {
   let userExecutedLesson = false;
   if (Array.isArray(inputData) && inputData.length === 2) {
     if (parseInt(inputData[1]) > 0) {
-      // TODO: We need to know what curriculum we are on first!!
-      // TODO: Consider moving this to the Login command,
-      // TODO: that way it gets done earlier and the configuration setting is available for more commands.
-      let currentCurriculumIndex = await accountBroker.scanUserDataForCurrentCurriculum();
-
       let maxLessonNumber = await accountBroker.getHighestLessonCount();
       // maxLessonNumber is:
       await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cmaxLessonNumberIs + maxLessonNumber);
@@ -326,6 +342,7 @@ async function startLesson(inputData, inputMetaData) {
             // WARNING: You are not aloud to run this lesson,
             // please complete the earlier lessons before proceeding.
             console.log(app_msg.cWarningStartLessonMessage01 + bas.cSpace + app_msg.cWarningStartLessonMessage02);
+            await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cWarningStartLessonMessage01 + bas.cSpace + app_msg.cWarningStartLessonMessage02);
           }
         } else {
           lessonScoreData = await accountBroker.executeLesson(userLessonNumber);
@@ -344,16 +361,20 @@ async function startLesson(inputData, inputMetaData) {
       } else {
         // ERROR: The lesson number entered is not available.
         console.log(app_msg.cErrorStartLessonMessage03);
+        await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cErrorStartLessonMessage03);
         // Please enter a lesson number between 1 and:
         console.log(app_msg.cErrorStartLessonMessage04 + maxLessonNumber);
+        await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cErrorStartLessonMessage04 + maxLessonNumber);
       }
     } else {
       // ERROR: Invalid lesson number entered. Please enter a valid lesson number to execute.
-      console.log(app_msg.cErrorStartLessonMessage02)
+      console.log(app_msg.cErrorStartLessonMessage02);
+      await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cErrorStartLessonMessage02);
     }
   } else {
     // ERROR: No lesson number entered. Please enter a valid lesson number to execute.
     console.log(app_msg.cErrorStartLessonMessage01);
+    await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cErrorStartLessonMessage01);
   }
   await haystacks.consoleLog(namespacePrefix, functionName, msg.creturnDataIs + JSON.stringify(returnData));
   await haystacks.consoleLog(namespacePrefix, functionName, msg.cEND_Function);
@@ -388,6 +409,7 @@ async function generateUserReport(inputData, inputMetaData) {
     } else {
       // ERROR: Invalid user name, please try again with a valid username.
       console.log(app_msg.cErrorInvalidUserNameCreateAccountMessage01 + inputData[1]);
+      await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cErrorInvalidUserNameCreateAccountMessage01 + inputData[1]);
     }
   } else {
     currentUserName = await accountBroker.currentUserAccount();

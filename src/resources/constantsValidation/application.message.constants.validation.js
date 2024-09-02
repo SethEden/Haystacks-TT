@@ -150,6 +150,8 @@ export const applicationMessageConstantsValidation = [
   {Name: 'cErrorSetCurrentCurriculumMessage4', Actual: app_msg.cErrorSetCurrentCurriculumMessage4, Expected: 'ERROR: fullyQualifiedCurriculumName is not valid.'},
   {Name: 'cErrorGetCurrentCurriculumMessage1', Actual: app_msg.cErrorGetCurrentCurriculumMessage1, Expected: 'ERROR: User must be logged in to get the current curriculum.'},
   {Name: 'cErrorLookupCurriculumMessage1', Actual: app_msg.cErrorLookupCurriculumMessage1, Expected: 'ERROR: No curriculumSearchTerm specified, unable to lookup Curriculum: '},
+  {Name: 'cErrorLookupCurriculumMessage2', Actual: app_msg.cErrorLookupCurriculumMessage2, Expected: 'ERROR: curriculumSearchTerm is invalid: '},
+  {Name: 'cErrorLookupCurriculumMessage3', Actual: app_msg.cErrorLookupCurriculumMessage3, Expected: 'ERROR: Invalid allCurriculumNames or curriculumIndices.'},
   {Name: 'cErrorGetCurriculumNameFromIndexMessage1', Actual: app_msg.cErrorGetCurriculumNameFromIndexMessage1, Expected: 'ERROR: curriculumNamesArray was not valid, reference: getCurriculumNameFromIndex.'},
   // ****************************************************************************************************
   // Pass-Fail user messages

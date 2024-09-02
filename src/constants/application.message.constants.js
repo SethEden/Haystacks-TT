@@ -179,6 +179,10 @@ export const cErrorSetCurrentCurriculumMessage4 = msg.cERROR_Colon + wrd.cfully 
 export const cErrorGetCurrentCurriculumMessage1 = msg.cERROR_Colon + wrd.cUser + bas.cSpace + wrd.cmust + bas.cSpace + wrd.cbe + bas.cSpace + wrd.clogged + bas.cSpace + wrd.cin + bas.cSpace + wrd.cto + bas.cSpace + wrd.cget + bas.cSpace + wrd.cthe + bas.cSpace + wrd.ccurrent + bas.cSpace + wrd.ccurriculum + bas.cDot;
 // ERROR: No curriculumSearchTerm specified, unable to lookup Curriculum:
 export const cErrorLookupCurriculumMessage1 = msg.cERROR_Colon + wrd.cNo + bas.cSpace + wrd.ccurriculum + wrd.cSearch + wrd.cTerm + bas.cSpace + wrd.cspecified + bas.cComa + bas.cSpace + wrd.cunable + bas.cSpace + wrd.cto + bas.cSpace + wrd.clookup + bas.cSpace + wrd.ccurriculum + bas.cColon + bas.cSpace;
+// ERROR: curriculumSearchTerm is invalid: 
+export const cErrorLookupCurriculumMessage2 = msg.cERROR_Colon + wrd.ccurriculum + wrd.cSearch + wrd.cTerm + bas.cSpace + wrd.cis + bas.cSpace + wrd.cinvalid + bas.cColon + bas.cSpace;
+// ERROR: Invalid allCurriculumNames or curriculumIndices.
+export const cErrorLookupCurriculumMessage3 = msg.cERROR_Colon + wrd.cInvalid + bas.cSpace + wrd.call + wrd.cCurriculum + wrd.cNames + bas.cSpace + wrd.cor + bas.cSpace + wrd.ccurriculum + wrd.cIndices + bas.cDot;
 // ERROR: curriculumNamesArray was not valid, reference: getCurriculumNameFromIndex.
 export const cErrorGetCurriculumNameFromIndexMessage1 = msg.cERROR_Colon + wrd.ccurriculum + wrd.cNames + wrd.cArray + bas.cSpace + wrd.cwas + bas.cSpace + wrd.cnot + bas.cSpace + wrd.cvalid + bas.cComa + bas.cSpace + wrd.creference + bas.cColon + bas.cSpace + wrd.cget + wrd.cCurriculum + wrd.cName + wrd.cFrom + wrd.cIndex + bas.cDot;
 // ****************************************************************************************************
