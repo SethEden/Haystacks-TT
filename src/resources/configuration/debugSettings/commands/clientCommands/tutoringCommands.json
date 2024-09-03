@@ -1,5 +1,5 @@
 {
-  "debugFiles|debugSetting.application.haystacks-tt.commands.clientCommands.tutoringCommands": true,
+  "debugFiles|debugSetting.application.haystacks-tt.commands.clientCommands.tutoringCommands": false,
   "debugFiles|debugSetting.application.haystacks-tt.commands.clientCommands.tutoringCommands@ModuleFontStyle": "Bold|Underline",
   "debugFiles|debugSetting.application.haystacks-tt.commands.clientCommands.tutoringCommands@FunctionFontStyle": "Bold|Underline",
   "debugFiles|debugSetting.application.haystacks-tt.commands.clientCommands.tutoringCommands@MessageFontStyle": "Underline",

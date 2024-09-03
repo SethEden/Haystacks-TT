@@ -1,5 +1,5 @@
 {
-  "debugFiles|debugSetting.application.haystacks-tt.brokers.accountBroker": true,
+  "debugFiles|debugSetting.application.haystacks-tt.brokers.accountBroker": false,
   "debugFiles|debugSetting.application.haystacks-tt.brokers.accountBroker@ModuleFontStyle": "Bold|Underline",
   "debugFiles|debugSetting.application.haystacks-tt.brokers.accountBroker@FunctionFontStyle": "Bold|Underline",
   "debugFiles|debugSetting.application.haystacks-tt.brokers.accountBroker@MessageFontStyle": "Underline",
