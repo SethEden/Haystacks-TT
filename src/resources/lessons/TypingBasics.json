@@ -12381,8 +12381,8 @@
       "Name": "Lesson_0700",
       "Number": 700,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 98,
-        "SpeedRequirement": 85
+        "AccuracyRequirement": 5,
+        "SpeedRequirement": 5
       }],
       "Description": "Congratulations!",
       "Lines": [{

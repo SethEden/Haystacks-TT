@@ -21,6 +21,10 @@ Enter the command:
   git clone https://github.com/SethEden/HaystacksTT.git
 ```
 
+# Known issues
+There is a known issue with performance of the application for high lesson numbers.
+We have a plan to implement a solution to this performance bottleneck, however, it will take some time due to the dependencies and complexity of the systems and sub-systems involved.
+
 # Run the application
 Navigate into the haystacksTT folder.
 Enter the command:

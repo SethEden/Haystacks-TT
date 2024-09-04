@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><BrokerWorkflows>
+  <debug>
+    <brokers>
+      <accountBroker>
+        <Workflow Name="accountBrokerEnable" Value="changeConfigSetting debugSetting.application.haystacks-tt.brokers.accountBroker true"/>
+        <Workflow Name="accountBrokerDisable" Value="changeConfigSetting debugSetting.application.haystacks-tt.brokers.accountBroker false"/>
+        <Workflow Name="accountBrokergetAccountDataEnable" Value="changeConfigSetting debugSetting.application.haystacks-tt.brokers.accountBroker.getAccountData true"/>
+        <Workflow Name="accountBrokergetAccountDataDisable" Value="changeConfigSetting debugSetting.application.haystacks-tt.brokers.accountBroker.getAccountData false"/>
+        <Workflow Name="getUserAccountDataEnable" Value="changeConfigSetting debugSetting.application.haystacks-tt.brokers.accountBroker.getUserAccountData true"/>
+        <Workflow Name="getUserAccountDataDisable" Value="changeConfigSetting debugSetting.application.haystacks-tt.brokers.accountBroker.getUserAccountData false"/>
+        <Workflow Name="storeAccountDataEnable" Value="changeConfigSetting debugSetting.application.haystacks-tt.brokers.accountBroker.storeAccountData true"/>
+        <Workflow Name="storeAccountDataDisable" Value="changeConfigSetting debugSetting.application.haystacks-tt.brokers.accountBroker.storeAccountData false"/>
+        <Workflow Name="appendUsersLessonScoreDataEnable" Value="changeConfigSetting debugSetting.application.haystacks-tt.brokers.accountBroker.appendUsersLessonScoreData true"/>
+        <Workflow Name="appendUsersLessonScoreDataDisable" Value="changeConfigSetting debugSetting.application.haystacks-tt.brokers.accountBroker.appendUsersLessonScoreData false"/>
+        <Workflow Name="getUsersLessonScoreDataEnable" Value="changeConfigSetting debugSetting.application.haystacks-tt.brokers.accountBroker.getUsersLessonScoreData true"/>
+        <Workflow Name="getUsersLessonScoreDataDisable" Value="changeConfigSetting debugSetting.application.haystacks-tt.brokers.accountBroker.getUsersLessonScoreData false"/>
+        <Workflow Name="saveAccountDataEnable" Value="changeConfigSetting debugSetting.application.haystacks-tt.brokers.accountBroker.saveAccountData true"/>
+        <Workflow Name="saveAccountDataDisable" Value="changeConfigSetting debugSetting.application.haystacks-tt.brokers.accountBroker.saveAccountData false"/>
+        <Workflow Name="getLessonDataEnable" Value="changeConfigSetting debugSetting.application.haystacks-tt.brokers.accountBroker.getLessonData true"/>
+        <Workflow Name="getLessonDataDisable" Value="changeConfigSetting debugSetting.application.haystacks-tt.brokers.accountBroker.getLessonData false"/>
+        <Workflow Name="getLessonCountEnable" Value="changeConfigSetting debugSetting.application.haystacks-tt.brokers.accountBroker.getLessonCount true"/>
+        <Workflow Name="getLessonCountDisable" Value="changeConfigSetting debugSetting.application.haystacks-tt.brokers.accountBroker.getLessonCount false"/>
+        <Workflow Name="getIndividualLessonDataEnable" Value="changeConfigSetting debugSetting.application.haystacks-tt.brokers.accountBroker.getIndividualLessonData true"/>
+        <Workflow Name="getIndividualLessonDataDisable" Value="changeConfigSetting debugSetting.application.haystacks-tt.brokers.accountBroker.getIndividualLessonData false"/>
+        <Workflow Name="getIndividualLessonNameEnable" Value="changeConfigSetting debugSetting.application.haystacks-tt.brokers.accountBroker.getIndividualLessonName true"/>
+        <Workflow Name="getIndividualLessonNameDisable" Value="changeConfigSetting debugSetting.application.haystacks-tt.brokers.accountBroker.getIndividualLessonName false"/>
+        <Workflow Name="doesAccountExistEnable" Value="changeConfigSetting debugSetting.application.haystacks-tt.brokers.accountBroker.doesAccountExist true"/>
+        <Workflow Name="doesAccountExistDisable" Value="changeConfigSetting debugSetting.application.haystacks-tt.brokers.accountBroker.doesAccountExist false"/>
+        <Workflow Name="createAccountEnable" Value="changeConfigSetting debugSetting.application.haystacks-tt.brokers.accountBroker.createAccount true"/>
+        <Workflow Name="createAccountDisable" Value="changeConfigSetting debugSetting.application.haystacks-tt.brokers.accountBroker.createAccount false"/>
+        <Workflow Name="removeAccountEnable" Value="changeConfigSetting debugSetting.application.haystacks-tt.brokers.accountBroker.removeAccount true"/>
+        <Workflow Name="removeAccountDisable" Value="changeConfigSetting debugSetting.application.haystacks-tt.brokers.accountBroker.removeAccount false"/>
+        <Workflow Name="generateBlankLessonDataEnable" Value="changeConfigSetting debugSetting.application.haystacks-tt.brokers.accountBroker.generateBlankLessonData true"/>
+        <Workflow Name="generateBlankLessonDataDisable" Value="changeConfigSetting debugSetting.application.haystacks-tt.brokers.accountBroker.generateBlankLessonData false"/>
+        <Workflow Name="currentUserAccountEnable" Value="changeConfigSetting debugSetting.application.haystacks-tt.brokers.accountBroker.currentUserAccount true"/>
+        <Workflow Name="currentUserAccountDisable" Value="changeConfigSetting debugSetting.application.haystacks-tt.brokers.accountBroker.currentUserAccount false"/>
+        <Workflow Name="loginUserEnable" Value="changeConfigSetting debugSetting.application.haystacks-tt.brokers.accountBroker.loginUser true"/>
+        <Workflow Name="loginUserDisable" Value="changeConfigSetting debugSetting.application.haystacks-tt.brokers.accountBroker.loginUser false"/>
+        <Workflow Name="logoutUserEnable" Value="changeConfigSetting debugSetting.application.haystacks-tt.brokers.accountBroker.logoutUser true"/>
+        <Workflow Name="logoutUserDisable" Value="changeConfigSetting debugSetting.application.haystacks-tt.brokers.accountBroker.logoutUser false"/>
+        <Workflow Name="setCurrentCurriculumEnable" Value="changeConfigSetting debugSetting.application.haystacks-tt.brokers.accountBroker.setCurrentCurriculum true"/>
+        <Workflow Name="setCurrentCurriculumDisable" Value="changeConfigSetting debugSetting.application.haystacks-tt.brokers.accountBroker.setCurrentCurriculum false"/>
+        <Workflow Name="getCurrentCurriculumNameEnable" Value="changeConfigSetting debugSetting.application.haystacks-tt.brokers.accountBroker.getCurrentCurriculumName true"/>
+        <Workflow Name="getCurrentCurriculumNameDisable" Value="changeConfigSetting debugSetting.application.haystacks-tt.brokers.accountBroker.getCurrentCurriculumName false"/>
+        <Workflow Name="getCurrentCurriculumIndexEnable" Value="changeConfigSetting debugSetting.application.haystacks-tt.brokers.accountBroker.getCurrentCurriculumIndex true"/>
+        <Workflow Name="getCurrentCurriculumIndexDisable" Value="changeConfigSetting debugSetting.application.haystacks-tt.brokers.accountBroker.getCurrentCurriculumIndex false"/>
+        <Workflow Name="getListOfCurriculumNamesEnable" Value="changeConfigSetting debugSetting.application.haystacks-tt.brokers.accountBroker.getListOfCurriculumNames true"/>
+        <Workflow Name="getListOfCurriculumNamesDisable" Value="changeConfigSetting debugSetting.application.haystacks-tt.brokers.accountBroker.getListOfCurriculumNames false"/>
+        <Workflow Name="getListOfCurriculumIndicesEnable" Value="changeConfigSetting debugSetting.application.haystacks-tt.brokers.accountBroker.getListOfCurriculumIndices true"/>
+        <Workflow Name="getListOfCurriculumIndicesDisable" Value="changeConfigSetting debugSetting.application.haystacks-tt.brokers.accountBroker.getListOfCurriculumIndices false"/>
+        <Workflow Name="getListOfPrerequisiteCurriculumIndicesForSpecifiedIndexEnable" Value="changeConfigSetting debugSetting.application.haystacks-tt.brokers.accountBroker.getListOfPrerequisiteCurriculumIndicesForSpecifiedIndex true"/>
+        <Workflow Name="getListOfPrerequisiteCurriculumIndicesForSpecifiedIndexDisable" Value="changeConfigSetting debugSetting.application.haystacks-tt.brokers.accountBroker.getListOfPrerequisiteCurriculumIndicesForSpecifiedIndex false"/>
+        <Workflow Name="getCurriculumNameFromIndexEnable" Value="changeConfigSetting debugSetting.application.haystacks-tt.brokers.accountBroker.getCurriculumNameFromIndex true"/>
+        <Workflow Name="getCurriculumNameFromIndexDisable" Value="changeConfigSetting debugSetting.application.haystacks-tt.brokers.accountBroker.getCurriculumNameFromIndex false"/>
+        <Workflow Name="lookupCurriculumEnable" Value="changeConfigSetting debugSetting.application.haystacks-tt.brokers.accountBroker.lookupCurriculum true"/>
+        <Workflow Name="lookupCurriculumDisable" Value="changeConfigSetting debugSetting.application.haystacks-tt.brokers.accountBroker.lookupCurriculum false"/>
+        <Workflow Name="getCurriculumObjectEnable" Value="changeConfigSetting debugSetting.application.haystacks-tt.brokers.accountBroker.getCurriculumObject true"/>
+        <Workflow Name="getCurriculumObjectDisable" Value="changeConfigSetting debugSetting.application.haystacks-tt.brokers.accountBroker.getCurriculumObject false"/>
+        <Workflow Name="getLessonPlanKeysForCurriculumIndexEnable" Value="changeConfigSetting debugSetting.application.haystacks-tt.brokers.accountBroker.getLessonPlanKeysForCurriculumIndex true"/>
+        <Workflow Name="getLessonPlanKeysForCurriculumIndexDisable" Value="changeConfigSetting debugSetting.application.haystacks-tt.brokers.accountBroker.getLessonPlanKeysForCurriculumIndex false"/>
+        <Workflow Name="scanUserDataForCurrentCurriculumEnable" Value="changeConfigSetting debugSetting.application.haystacks-tt.brokers.accountBroker.scanUserDataForCurrentCurriculum true"/>
+        <Workflow Name="scanUserDataForCurrentCurriculumDisable" Value="changeConfigSetting debugSetting.application.haystacks-tt.brokers.accountBroker.scanUserDataForCurrentCurriculum false"/>
+        <Workflow Name="executeLessonEnable" Value="changeConfigSetting debugSetting.application.haystacks-tt.brokers.accountBroker.executeLesson true"/>
+        <Workflow Name="executeLessonDisable" Value="changeConfigSetting debugSetting.application.haystacks-tt.brokers.accountBroker.executeLesson false"/>
+        <Workflow Name="executeLessonLineEnable" Value="changeConfigSetting debugSetting.application.haystacks-tt.brokers.accountBroker.executeLessonLine true"/>
+        <Workflow Name="executeLessonLineDisable" Value="changeConfigSetting debugSetting.application.haystacks-tt.brokers.accountBroker.executeLessonLine false"/>
+        <Workflow Name="generateToneEnable" Value="changeConfigSetting debugSetting.application.haystacks-tt.brokers.accountBroker.generateTone true"/>
+        <Workflow Name="generateToneDisable" Value="changeConfigSetting debugSetting.application.haystacks-tt.brokers.accountBroker.generateTone false"/>
+        <Workflow Name="computeAverageLessonScoreValuesEnable" Value="changeConfigSetting debugSetting.application.haystacks-tt.brokers.accountBroker.computeAverageLessonScoreValues true"/>
+        <Workflow Name="computeAverageLessonScoreValuesDisable" Value="changeConfigSetting debugSetting.application.haystacks-tt.brokers.accountBroker.computeAverageLessonScoreValues false"/>
+        <Workflow Name="getHighestLessonCountEnable" Value="changeConfigSetting debugSetting.application.haystacks-tt.brokers.accountBroker.getHighestLessonCount true"/>
+        <Workflow Name="getHighestLessonCountDisable" Value="changeConfigSetting debugSetting.application.haystacks-tt.brokers.accountBroker.getHighestLessonCount false"/>
+        <Workflow Name="getLessonAdvancementScoreLimitAccuracyEnable" Value="changeConfigSetting debugSetting.application.haystacks-tt.brokers.accountBroker.getLessonAdvancementScoreLimitAccuracy true"/>
+        <Workflow Name="getLessonAdvancementScoreLimitAccuracyDisable" Value="changeConfigSetting debugSetting.application.haystacks-tt.brokers.accountBroker.getLessonAdvancementScoreLimitAccuracy false"/>
+        <Workflow Name="getLessonAdvancementScoreLimitSpeedEnable" Value="changeConfigSetting debugSetting.application.haystacks-tt.brokers.accountBroker.getLessonAdvancementScoreLimitSpeed true"/>
+        <Workflow Name="getLessonAdvancementScoreLimitSpeedDisable" Value="changeConfigSetting debugSetting.application.haystacks-tt.brokers.accountBroker.getLessonAdvancementScoreLimitSpeed false"/>
+        <Workflow Name="isLessonAdvancementLimitEnabledEnable" Value="changeConfigSetting debugSetting.application.haystacks-tt.brokers.accountBroker.isLessonAdvancementLimitEnabled true"/>
+        <Workflow Name="isLessonAdvancementLimitEnabledDisable" Value="changeConfigSetting debugSetting.application.haystacks-tt.brokers.accountBroker.isLessonAdvancementLimitEnabled false"/>
+        <Workflow Name="isIndividualizedLessonPassingScoresEnabledEnable" Value="changeConfigSetting debugSetting.application.haystacks-tt.brokers.accountBroker.isIndividualizedLessonPassingScoresEnabled true"/>
+        <Workflow Name="isIndividualizedLessonPassingScoresEnabledDisable" Value="changeConfigSetting debugSetting.application.haystacks-tt.brokers.accountBroker.isIndividualizedLessonPassingScoresEnabled false"/>
+        <Workflow Name="getHighestScoringDataObjectForLessonEnable" Value="changeConfigSetting debugSetting.application.haystacks-tt.brokers.accountBroker.getHighestScoringDataObjectForLesson true"/>
+        <Workflow Name="getHighestScoringDataObjectForLessonDisable" Value="changeConfigSetting debugSetting.application.haystacks-tt.brokers.accountBroker.getHighestScoringDataObjectForLesson false"/>
+        <Workflow Name="getHighestLessonNumberAboveAdvancementScoringLimitEnable" Value="changeConfigSetting debugSetting.application.haystacks-tt.brokers.accountBroker.getHighestLessonNumberAboveAdvancementScoringLimit true"/>
+        <Workflow Name="getHighestLessonNumberAboveAdvancementScoringLimitDisable" Value="changeConfigSetting debugSetting.application.haystacks-tt.brokers.accountBroker.getHighestLessonNumberAboveAdvancementScoringLimit false"/>
+        <Workflow Name="generateUserReportEnable" Value="changeConfigSetting debugSetting.application.haystacks-tt.brokers.accountBroker.generateUserReport true"/>
+        <Workflow Name="generateUserReportDisable" Value="changeConfigSetting debugSetting.application.haystacks-tt.brokers.accountBroker.generateUserReport false"/>
+        <Workflow Name="generateReportAllUsersEnable" Value="changeConfigSetting debugSetting.application.haystacks-tt.brokers.accountBroker.generateReportAllUsers true"/>
+        <Workflow Name="generateReportAllUsersDisable" Value="changeConfigSetting debugSetting.application.haystacks-tt.brokers.accountBroker.generateReportAllUsers false"/>
+      </accountBroker>
+    </brokers>
+  </debug>
+</BrokerWorkflows>

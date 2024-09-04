@@ -29,5 +29,7 @@ export const applicationConfigurationConstantsValidation = [
   {Name: 'cCurrentUser', Actual: app_cfg.cCurrentUser, Expected: 'CurrentUser'},
   {Name: 'cCurrentCurriculumName', Actual: app_cfg.cCurrentCurriculumName, Expected: 'CurrentCurriculumName'},
   {Name: 'cCurrentCurriculumIndex', Actual: app_cfg.cCurrentCurriculumIndex, Expected: 'CurrentCurriculumIndex'},
-  {Name: 'cadhereToCurriculumOrderRequirement', Actual: app_cfg.cadhereToCurriculumOrderRequirement, Expected: 'adhereToCurriculumOrderRequirement'}
+  {Name: 'cadhereToCurriculumOrderRequirement', Actual: app_cfg.cadhereToCurriculumOrderRequirement, Expected: 'adhereToCurriculumOrderRequirement'},
+  {Name: 'cuserHasCompletedFinalLessonInCurriculum', Actual: app_cfg.cuserHasCompletedFinalLessonInCurriculum, Expected: 'userHasCompletedFinalLessonInCurriculum'},
+  {Name: 'cuserHasPassedLesson', Actual: app_cfg.cuserHasPassedLesson, Expected: 'userHasPassedLesson'}
 ];

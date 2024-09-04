@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><DebugWorkflows>
+  <debug>
+    <Workflow Name="primaryDebugEnable" Value="commandSequencer workflow,tutoringCommandsEnable workflow,accountBrokerEnable"/>
+    <Workflow Name="primaryDebugDisable" Value="commandSequencer workflow,tutoringCommandsDisable workflow,accountBrokerDisable"/>
+  </debug>
+</DebugWorkflows>

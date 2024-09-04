@@ -16,6 +16,7 @@
 
 // Internal imports
 import accountBroker from '../../brokers/accountBroker.js';
+import * as app_cfg from '../../constants/application.configuration.constants.js';
 import * as apc from '../../constants/application.constants.js';
 import * as app_msg from '../../constants/application.message.constants.js';
 import * as app_sys from '../../constants/application.system.constants.js';
@@ -336,7 +337,7 @@ async function startLesson(inputData, inputMetaData) {
           let lessonAdvancementScoreLimitSpeed = await accountBroker.getLessonAdvancementScoreLimitSpeed(userLessonNumber, currentCurriculumIndex);
           // lessonAdvancementScoreLimitSpeed is:
           await haystacks.consoleLog(namespacePrefix, functionName, app_msg.clessonAdvancementScoreLimitSpeedIs + lessonAdvancementScoreLimitSpeed);
-          let highestScoringLessonAboveAdvancementLimit = await accountBroker.getHighestLessonNumberAboveAdvancementScoringLimit(currentCurriculumIndex);
+          let highestScoringLessonAboveAdvancementLimit = await accountBroker.getHighestLessonNumberAboveAdvancementScoringLimit('', currentCurriculumIndex);
           // highestScoringLessonAboveAdvancementLimit is:
           await haystacks.consoleLog(namespacePrefix, functionName, app_msg.chighestScoringLessonAboveAdvancementLimitIs + highestScoringLessonAboveAdvancementLimit);
           // Validate that the user is trying to execute a lesson a maximum of 1 lesson above the highest lesson number that has a passing score.
@@ -357,10 +358,22 @@ async function startLesson(inputData, inputMetaData) {
           // lessonScoreData is:
           await haystacks.consoleLog(namespacePrefix, functionName, app_msg.clessonScoreDataIs + JSON.stringify(lessonScoreData));
           if (lessonScoreData) {
-            let updatedUserAccountData = await accountBroker.appendUsersLessonScoreData(lessonScoreData, userLessonNumber);
+            let updatedUserAccountData = await accountBroker.appendUsersLessonScoreData(lessonScoreData, userLessonNumber, currentCurriculumIndex);
             // updatedUserAccountData is:
             await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cupdatedUserAccountDataIs + JSON.stringify(updatedUserAccountData));
             await accountBroker.storeAccountData(updatedUserAccountData);
+
+            let userHasPassedLesson = await haystacks.getConfigurationSetting(wrd.csystem, app_cfg.cuserHasPassedLesson);
+            let userHasCompletedFinalLessonInCurriculum = await haystacks.getConfigurationSetting(wrd.csystem, app_cfg.cuserHasCompletedFinalLessonInCurriculum);
+            if (userHasPassedLesson === true && userHasCompletedFinalLessonInCurriculum === true) {
+              let newCurrentCurriculumIndex = await accountBroker.scanUserDataForCurrentCurriculum();
+              // newCurrentCurriculumIndex is:
+              await haystacks.consoleLog(namespacePrefix, functionName, 'newCurrentCurriculumIndex is: ' + newCurrentCurriculumIndex);
+              await accountBroker.setCurrentCurriculum(newCurrentCurriculumIndex);
+              // Reset these flags.
+              await haystacks.setConfigurationSetting(wrd.csystem, app_cfg.cuserHasPassedLesson, false);
+              await haystacks.setConfigurationSetting(wrd.csystem, app_cfg.cuserHasCompletedFinalLessonInCurriculum, false);
+            }
           }
         } // End-if (userExecutedLesson === true)
       } else {
