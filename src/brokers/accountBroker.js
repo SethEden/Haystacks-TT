@@ -2206,7 +2206,6 @@ async function generateUserReport(inputUserName) {
  * @date 2023/03/09
  */
 async function generateReportAllUsers() {
-  // TODO: Fix up this function for multi-curriculum support!!!!!
   let functionName = generateReportAllUsers.name;
   await haystacks.consoleLog(namespacePrefix, functionName, msg.cBEGIN_Function);
   let returnData = {};
