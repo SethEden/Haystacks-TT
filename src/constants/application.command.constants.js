@@ -30,6 +30,16 @@ export const cvalidateApplicationCommandAliases = wrd.cvalidate + wrd.cApplicati
 export const cvalidateApplicationWorkflows = wrd.cvalidate + wrd.cApplication + wrd.cWorkflows; // validateApplicationWorkflows
 export const callApplicationValidations = wrd.call + wrd.cApplication + wrd.cValidations; // allApplicationValidations
 
+// ***********************************************
+// configuration test commands in order
+// ***********************************************
+export const csetEnableLessonPlanLimitingFactors = wrd.cset + wrd.cEnable + wrd.cLesson + wrd.cPlan + wrd.cLimiting + wrd.cFactors; // setEnableLessonPlanLimitingFactors
+export const csetEnableIndividualizedLessonPassingScores = wrd.cset + wrd.cEnable + wrd.cIndividualized + wrd.cLesson + wrd.cPassing + wrd.cScores; // setEnableIndividualizedLessonPassingScores
+export const csetLessonPlanSuccessLimitingAccuracy = wrd.cset + wrd.cLesson + wrd.cPlan + wrd.cSuccess + wrd.cLimiting + wrd.cAccuracy; // setLessonPlanSuccessLimitingAccuracy
+export const csetLessonPlanSuccessLimitingSpeed = wrd.cset + wrd.cLesson + wrd.cPlan + wrd.cSuccess + wrd.cLimiting + wrd.cSpeed; // setLessonPlanSuccessLimitingSpeed
+export const csetAdhereToCurriculumOrderRequirement = wrd.cset + wrd.cAdhere+ wrd.cTo + wrd.cCurriculum + wrd.cOrder + wrd.cRequirement; // setAdhereToCurriculumOrderRequirement
+export const csetManuallySetCurriculumIndex = wrd.cset + wrd.cManually + wrd.cSet + wrd.cCurriculum + wrd.cIndex; // setManuallySetCurriculumIndex
+
 // ********************************
 // Tutoring Commands in order
 // ********************************

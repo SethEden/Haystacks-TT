@@ -23,5 +23,6 @@ export const cCurrentUser = wrd.cCurrent + wrd.cUser; // CurrentUser
 export const cCurrentCurriculumName = wrd.cCurrent + wrd.cCurriculum + wrd.cName; // CurrentCurriculumName
 export const cCurrentCurriculumIndex = wrd.cCurrent + wrd.cCurriculum + wrd.cIndex; // CurrentCurriculumIndex
 export const cadhereToCurriculumOrderRequirement = wrd.cadhere + wrd.cTo + wrd.cCurriculum + wrd.cOrder + wrd.cRequirement; // adhereToCurriculumOrderRequirement
+export const cmanuallySetCurriculumIndex = wrd.cmanually + wrd.cSet + wrd.cCurriculum + wrd.cIndex; // manuallySetCurriculumIndex
 export const cuserHasCompletedFinalLessonInCurriculum = wrd.cuser + wrd.cHas + wrd.cCompleted + wrd.cFinal + wrd.cLesson + wrd.cIn + wrd.cCurriculum; // userHasCompletedFinalLessonInCurriculum
 export const cuserHasPassedLesson = wrd.cuser + wrd.cHas + wrd.cPassed + wrd.cLesson; // userHasPassedLesson

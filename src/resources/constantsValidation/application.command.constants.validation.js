@@ -34,6 +34,16 @@ export const applicationCommandConstantsValidation = [
   {Name: 'cvalidateApplicationWorkflows', Actual: app_cmd.cvalidateApplicationWorkflows, Expected: 'validateApplicationWorkflows'},
   {Name: 'callApplicationValidations', Actual: app_cmd.callApplicationValidations, Expected: 'allApplicationValidations'},
 
+  // ***********************************************
+  // configuration test commands in order
+  // ***********************************************
+  {Name: 'csetEnableLessonPlanLimitingFactors' , Actual: app_cmd.csetEnableLessonPlanLimitingFactors, Expected: 'setEnableLessonPlanLimitingFactors'},
+  {Name: 'csetEnableIndividualizedLessonPassingScores' , Actual: app_cmd.csetEnableIndividualizedLessonPassingScores, Expected: 'setEnableIndividualizedLessonPassingScores'},
+  {Name: 'csetLessonPlanSuccessLimitingAccuracy' , Actual: app_cmd.csetLessonPlanSuccessLimitingAccuracy, Expected: 'setLessonPlanSuccessLimitingAccuracy'},
+  {Name: 'csetLessonPlanSuccessLimitingSpeed' , Actual: app_cmd.csetLessonPlanSuccessLimitingSpeed, Expected: 'setLessonPlanSuccessLimitingSpeed'},
+  {Name: 'csetAdhereToCurriculumOrderRequirement' , Actual: app_cmd.csetAdhereToCurriculumOrderRequirement, Expected: 'setAdhereToCurriculumOrderRequirement'},
+  {Name: 'csetManuallySetCurriculumIndex' , Actual: app_cmd.csetManuallySetCurriculumIndex, Expected: 'setManuallySetCurriculumIndex'},
+
   // ********************************
   // Tutoring Commands in order
   // ********************************

@@ -34,5 +34,6 @@
   "system.enableIndividualizedLessonPassingScores": true,
   "system.lessonPlanSuccessLimitingAccuracy": 90,
   "system.lessonPlanSuccessLimitingSpeed": 70,
-  "system.adhereToCurriculumOrderRequirement": true
+  "system.adhereToCurriculumOrderRequirement": true,
+  "system.manuallySetCurriculumIndex": false
 }

@@ -15,6 +15,7 @@
 // Internal imports
 import applicationSystem from './clientCommands/applicationSystem.js';
 import applicationTests from './clientCommands/applicationTests.js';
+import configurationCommands from './clientCommands/configurationCommands.js';
 import tutoringCommands from './clientCommands/tutoringCommands.js';
 import * as app_cmd from '../constants/application.command.constants.js';
 
@@ -46,6 +47,16 @@ const initApplicationCommandsLibrary = function() {
     [app_cmd.cvalidateApplicationCommandAliases]: (inputData, inputMetaData) => applicationTests.validateApplicationCommandAliases(inputData, inputMetaData),
     [app_cmd.cvalidateApplicationWorkflows]: (inputData, inputMetaData) => applicationTests.validateApplicationWorkflows(inputData, inputMetaData),
     [app_cmd.callApplicationValidations]: (inputData, inputMetaData) => applicationTests.allApplicationValidations(inputData, inputMetaData),
+
+    // ***********************************************
+    // configuration test commands in order
+    // ***********************************************
+    [app_cmd.csetEnableLessonPlanLimitingFactors]: (inputData, inputMetaData) => configurationCommands.setEnableLessonPlanLimitingFactors(inputData, inputMetaData),
+    [app_cmd.csetEnableIndividualizedLessonPassingScores]: (inputData, inputMetaData) => configurationCommands.setEnableIndividualizedLessonPassingScores(inputData, inputMetaData),
+    [app_cmd.csetLessonPlanSuccessLimitingAccuracy]: (inputData, inputMetaData) => configurationCommands.setLessonPlanSuccessLimitingAccuracy(inputData, inputMetaData),
+    [app_cmd.csetLessonPlanSuccessLimitingSpeed]: (inputData, inputMetaData) => configurationCommands.setLessonPlanSuccessLimitingSpeed(inputData, inputMetaData),
+    [app_cmd.csetAdhereToCurriculumOrderRequirement]: (inputData, inputMetaData) => configurationCommands.setAdhereToCurriculumOrderRequirement(inputData, inputMetaData),
+    [app_cmd.csetManuallySetCurriculumIndex]: (inputData, inputMetaData) => configurationCommands.setManuallySetCurriculumIndex(inputData, inputMetaData),
 
     // ***********************************************
     // tutoring commands in order

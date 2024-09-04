@@ -116,6 +116,49 @@ async function storeAccountData(dataToStore) {
 }
 
 /**
+ * @function doesUserHaveCurriculumIndex
+ * @param {integer} curriculumIndex The index of the curriculum that we should verify exists in the users data lesson records.
+ * @return {boolean} True or False to indicate if the curriculumIndex exists in the users lesson data records.
+ * @author Seth Hollingsead
+ * @date 2024/09/04
+ */
+async function doesUserHaveCurriculumIndex(curriculumIndex) {
+  let functionName = doesUserHaveCurriculumIndex.name;
+  await haystacks.consoleLog(namespacePrefix, functionName, msg.cBEGIN_Function);
+  // curriculumIndex is:
+  await haystacks.consoleLog(namespacePrefix, functionName, 'curriculumIndex is: ' + curriculumIndex);
+  let returnData = false;
+  let currentUserAccountName = await currentUserAccount();
+  // currentUserAccountName is:
+  await haystacks.consoleLog(namespacePrefix, functionName, 'currentUserAccountName is: ' + currentUserAccountName);
+  let allAccountsData = await getAccountData();
+  // allAccountsData is:
+  await haystacks.consoleLog(namespacePrefix, functionName, app_msg.callAccountsDataIs + JSON.stringify(allAccountsData));
+  for (let userName in allAccountsData) {
+    let userData = allAccountsData[userName];
+    // userName is:
+    await haystacks.consoleLog(namespacePrefix, functionName, 'userName is: ' + JSON.stringify(userName));
+    // userData is:
+    await haystacks.consoleLog(namespacePrefix, functionName, 'userData is: ' + JSON.stringify(userData));
+    if (userName === currentUserAccountName) {
+      // We found the matching user account.
+      await haystacks.consoleLog(namespacePrefix, functionName, 'We found the matching user account.');
+      for (let curriculumData of userData) {
+        // curriculumData is:
+        await haystacks.consoleLog(namespacePrefix, functionName, 'curriculumData is: ' + JSON.stringify(curriculumData));
+        if (curriculumData.curriculumIndex === curriculumIndex) {
+          // We found the matching curriculumIndex.
+          returnData = true;
+        }
+      } // End-for (let curriculumData of userData)
+    } // End-if (userName === currentUserAccountName)
+  } // End-for (let userName in allAccountsData)
+  await haystacks.consoleLog(namespacePrefix, functionName, msg.creturnDataIs + JSON.stringify(returnData));
+  await haystacks.consoleLog(namespacePrefix, functionName, msg.cEND_Function);
+  return returnData;
+}
+
+/**
  * @function appendUsersLessonScoreData
  * @description Adds a users lesson score data to a users account data according to the lesson number.
  * @param {object} dataToAppend A JSON object that contains lesson scores data.
@@ -134,6 +177,12 @@ async function appendUsersLessonScoreData(dataToAppend, lessonNumber, optionalCu
   // optionalCurriculumIndex is:
   await haystacks.consoleLog(namespacePrefix, functionName, 'optionalCurriculumIndex is: ' + optionalCurriculumIndex);
   let returnData = false;
+  // We should probably find out if the user has any data for the optionalCurriculumIndex.
+  // It may be the case that the user has just finished their very first lesson in a new curriculum
+  // and there is no object for the optionalCurriculumIndex.
+  let userHasCurriculumIndex = await doesUserHaveCurriculumIndex(optionalCurriculumIndex);
+  // userHasCurriculumIndex is:
+  await haystacks.consoleLog(namespacePrefix, functionName, 'userHasCurriculumIndex is: ' + userHasCurriculumIndex);
   let currentUserAccountName = await currentUserAccount();
   // currentUserAccountName is:
   await haystacks.consoleLog(namespacePrefix, functionName, 'currentUserAccountName is: ' + currentUserAccountName);
@@ -143,51 +192,75 @@ async function appendUsersLessonScoreData(dataToAppend, lessonNumber, optionalCu
   let allAccountsData = await getAccountData();
   // allAccountsData is:
   await haystacks.consoleLog(namespacePrefix, functionName, app_msg.callAccountsDataIs + JSON.stringify(allAccountsData));
-  for (let userName in allAccountsData) {
-    // if (allAccountsData.hasOwnProperty(userName)) {
-      let userData = allAccountsData[userName];
-      // userName is:
-      await haystacks.consoleLog(namespacePrefix, functionName, 'userName is: ' + JSON.stringify(userName));
-      // userData is:
-      await haystacks.consoleLog(namespacePrefix, functionName, 'userData is: ' + JSON.stringify(userData));
-      if (userName === currentUserAccountName) {
-        // We found the matching user account.
-        await haystacks.consoleLog(namespacePrefix, functionName, 'We found the matching user account.');
-        for (let curriculumData of userData) {
-          // curriculumData is:
-          await haystacks.consoleLog(namespacePrefix, functionName, 'curriculumData is: ' + JSON.stringify(curriculumData));
-          if (curriculumData.curriculumIndex === optionalCurriculumIndex) {
-            // We found the matching curriculumIndex.
-            await haystacks.consoleLog(namespacePrefix, functionName, 'We found the matching curriculumIndex.');
-            let lessons = curriculumData.Lessons;
-            let lessonFound = false;
-            // lessons is:
-            await haystacks.consoleLog(namespacePrefix, functionName, 'lessons is: ' + JSON.stringify(lessons));
+  if (!userHasCurriculumIndex) {
+    // We need to add a curriculum object to the users account data,
+    // before we get the users account data and start iterating over it to add the lesson record to it.
+    for (let userName1 in allAccountsData) {
+      // userName2 is:
+      await haystacks.consoleLog(namespacePrefix, functionName, 'userName1 is: ' + JSON.stringify(userName1));
+      if (userName1 === currentUserAccountName) {
+        // We found the matching user account, userName1.
+        await haystacks.consoleLog(namespacePrefix, functionName, 'We found the matching user account, userName1.');
+        let userData1 = allAccountsData[userName1];
+        // userData1 is:
+        await haystacks.consoleLog(namespacePrefix, functionName, 'userData1 is: ' + JSON.stringify(userData1));
+        // Create the new curriculum object
+        let newCurriculum = {
+          "curriculumName": await getCurriculumNameFromIndex(optionalCurriculumIndex),
+          "curriculumIndex": optionalCurriculumIndex,
+          "Lessons": []
+        };
 
-            for (let lesson of lessons) {
-              let existingLessonName = Object.keys(lesson)[0];
-              // existingLessonName is:
-              await haystacks.consoleLog(namespacePrefix, functionName, 'existingLessonName is: ' + existingLessonName);
-              if (existingLessonName === lessonName) {
-                // We found the matching lessonName.
-                await haystacks.consoleLog(namespacePrefix, functionName, 'We found the matching lessonName.');
-                lesson[existingLessonName].push(dataToAppend);
-                lessonFound = true;
-                break;
-              }
-            } // End-for (let lesson of lessons)
-
-            if (!lessonFound) {
-              let newLesson = {};
-              newLesson[lessonName] = [dataToAppend];
-              lessons.push(newLesson);
-            }
-            break;
-          } // End-if (curriculumData.curriculumIndex === optionalCurriculumIndex)
-        } // End-for (let curriculumData of userData)
+        // Add new curriculum object to user data
+        userData1.push(newCurriculum);
         break;
-      } // End-if (userName === currentUserAccountName)
-    // }
+      } // End-if (userName1 === currentUserAccountName)
+    } // End-for (let userName1 in allAccountsData)
+  } // End-if (!userHasCurriculumIndex)
+  
+  for (let userName2 in allAccountsData) {
+    let userData2 = allAccountsData[userName2];
+    // userName2 is:
+    await haystacks.consoleLog(namespacePrefix, functionName, 'userName2 is: ' + JSON.stringify(userName2));
+    // userData2 is:
+    await haystacks.consoleLog(namespacePrefix, functionName, 'userData2 is: ' + JSON.stringify(userData2));
+    if (userName2 === currentUserAccountName) {
+      // We found the matching user account, userName2.
+      await haystacks.consoleLog(namespacePrefix, functionName, 'We found the matching user account, userName2.');
+      for (let curriculumData of userData2) {
+        // curriculumData is:
+        await haystacks.consoleLog(namespacePrefix, functionName, 'curriculumData is: ' + JSON.stringify(curriculumData));
+        if (curriculumData.curriculumIndex === optionalCurriculumIndex) {
+          // We found the matching curriculumIndex.
+          await haystacks.consoleLog(namespacePrefix, functionName, 'We found the matching curriculumIndex.');
+          let lessons = curriculumData.Lessons;
+          let lessonFound = false;
+          // lessons is:
+          await haystacks.consoleLog(namespacePrefix, functionName, 'lessons is: ' + JSON.stringify(lessons));
+
+          for (let lesson of lessons) {
+            let existingLessonName = Object.keys(lesson)[0];
+            // existingLessonName is:
+            await haystacks.consoleLog(namespacePrefix, functionName, 'existingLessonName is: ' + existingLessonName);
+            if (existingLessonName === lessonName) {
+              // We found the matching lessonName.
+              await haystacks.consoleLog(namespacePrefix, functionName, 'We found the matching lessonName.');
+              lesson[existingLessonName].push(dataToAppend);
+              lessonFound = true;
+              break;
+            }
+          } // End-for (let lesson of lessons)
+
+          if (!lessonFound) {
+            let newLesson = {};
+            newLesson[lessonName] = [dataToAppend];
+            lessons.push(newLesson);
+          }
+          break;
+        } // End-if (curriculumData.curriculumIndex === optionalCurriculumIndex)
+      } // End-for (let curriculumData of userData2)
+      break;
+    } // End-if (userName2 === currentUserAccountName)
   } // End-for (let userAccountKey in allAccountsData)
   returnData = allAccountsData;
   await haystacks.consoleLog(namespacePrefix, functionName, msg.creturnDataIs + JSON.stringify(returnData));
@@ -714,18 +787,18 @@ async function setCurrentCurriculum(desiredCurriculum) {
           if (listOfCurrentCurriculumPrerequisites !== '' || (Array.isArray(listOfCurrentCurriculumPrerequisites) === true && listOfCurrentCurriculumPrerequisites.length > 0)) {
             // listOfCurrentCurriculumPrerequisites.length is:
             await haystacks.consoleLog(namespacePrefix, functionName, 'listOfCurrentCurriculumPrerequisites.length is: ' + listOfCurrentCurriculumPrerequisites.length);
-            console.log('listOfCurrentCurriculumPrerequisites is: ', listOfCurrentCurriculumPrerequisites);
             if (listOfCurrentCurriculumPrerequisites.length === 1 && listOfCurrentCurriculumPrerequisites[0] !== '') {
-              // TODO: Determine if the user is allowed to set the current curriculum name and if all the prerequisites for the current user meet the curriculum order requirement.
-              // TODO: Determine if the users has completed the necessary prerequisite lessons and curriculums.
-              console.log('*****************TODO: Determine if the user is allowed to set the current curriculum name and if all the prerequisites for the current user meet the curriculum order requirement.*****************');
-              await haystacks.consoleLog(namespacePrefix, functionName, '*****************TODO: Determine if the user is allowed to set the current curriculum name and if all the prerequisites for the current user meet the curriculum order requirement.*****************');
-              console.log('*****************TODO: Determine if the users has completed the necessary prerequisite lessons and curriculums.*****************');
-              await haystacks.consoleLog(namespacePrefix, functionName, '*****************TODO: Determine if the users has completed the necessary prerequisite lessons and curriculums.*****************');
+              // Determine if the user is allowed to set the current curriculum name and if all the prerequisites for the current user meet the curriculum order requirement.
+              // Determine if the user has completed the necessary prerequisite lessons and curriculums.
+              await haystacks.consoleLog(namespacePrefix, functionName, 'Determine if the user has completed the necessary prerequisite lessons and curriculums.');
               for (const verifyCurriculumIndex in listOfCurrentCurriculumPrerequisites) {
+                // verifyCurriculumIndex is:
+                await haystacks.consoleLog(namespacePrefix, functionName, 'verifyCurriculumIndex is: ' + verifyCurriculumIndex);
                 let dataParsedVerifyCurriculumIndex = await haystacks.executeBusinessRules([verifyCurriculumIndex, ''],[biz.cstringToDataType]);
+                // dataParsedVerifyCurriculumIndex is:
+                await haystacks.consoleLog(namespacePrefix, functionName, 'dataParsedVerifyCurriculumIndex is: ' + dataParsedVerifyCurriculumIndex);
                 let highestLessonForCurriculum = await getHighestLessonCount(dataParsedVerifyCurriculumIndex);
-                let userHighestPassingLessonNumberByCurriculumIndex = await getHighestLessonNumberAboveAdvancementScoringLimit(userName, dataParsedVerifyCurriculumIndex);
+                let userHighestPassingLessonNumberByCurriculumIndex = await getHighestLessonNumberAboveAdvancementScoringLimit('', dataParsedVerifyCurriculumIndex);
                 // highestLessonForCurriculum is:
                 await haystacks.consoleLog(namespacePrefix, functionName, 'highestLessonForCurriculum is: ' + highestLessonForCurriculum);
                 // userHighestPassingLessonNumberByCurriculumIndex is:
@@ -1403,10 +1476,13 @@ async function executeLessonLine(lessonLineString) {
     // Total Number of Words = Total Keys Pressed / 5
     // WPM = Total Number of Words / Time Elapsed in Minutes (rounded down)
     // Accuracy = Number of Correct Keys / Total Number of Keys Pressed
-    let totalNumberOfWords = userCharacterEntryCount / 5;
+    let cappedCharacterEntryCount = Math.min(userCharacterEntryCount, 5);
+    let totalNumberOfWords = cappedCharacterEntryCount / 5;
+
     // totalNumberOfWords is:
     await haystacks.consoleLog(namespacePrefix, functionName, app_msg.ctotalNumberOfWordsIs + totalNumberOfWords);
     let wpm = totalNumberOfWords / (deltaTime / 60000) // convert milliseconds to seconds
+    wpm = Math.min(wpm, 160); // Current world record for fastest typist is around 160wpm.
     // wpm is:
     await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cwpmIs + wpm);
     let accuracy = charactersCorrectCount / userCharacterEntryCount;
@@ -1569,9 +1645,21 @@ async function computeAverageLessonScoreValues(scoresDataArray, lessonNumber) {
       totalCorrectCharacterCount = totalCorrectCharacterCount + scoreObject[app_sys.ccorrectCharacterCount];
       totalIncorrectCharacterCount = totalIncorrectCharacterCount + scoreObject[app_sys.cincorrectCharacterCount];
       totalWords = totalWords + scoreObject[app_sys.ctotalWords];
-      wpmSum = wpmSum + scoreObject[app_sys.cwpm];
+      let wpm = scoreObject[app_sys.cwpm];
+      if (wpm === null || wpm === undefined || !isFinite(wpm)) {
+        wpm = 0; // Catch all of the off-nominal cases!
+      }
+      // wpm is:
+      await haystacks.consoleLog(namespacePrefix, functionName, 'wpm is: ' + wpm);
+      wpmSum = wpmSum + wpm;
       accuracySum = accuracySum + scoreObject[app_sys.caccuracy];
     }
+    // wpmSum is:
+    await haystacks.consoleLog(namespacePrefix, functionName, 'wpmSum is: ' + wpmSum);
+    // accuracySum is:
+    await haystacks.consoleLog(namespacePrefix, functionName, 'accuracySum is: ' + accuracySum);
+    // scoresDataArray.length is:
+    await haystacks.consoleLog(namespacePrefix, functionName, 'scoresDataArray.length is: ' + scoresDataArray.length);
     averageWPM = wpmSum / scoresDataArray.length;
     averageAccuracy = accuracySum / scoresDataArray.length;
     adjustedWpm = averageWPM * averageAccuracy;
@@ -1856,7 +1944,7 @@ async function getHighestScoringDataObjectForLesson(lessonNumber, inputUserName,
   await haystacks.consoleLog(namespacePrefix, functionName, 'optionalCurriculumIndex is: ' + optionalCurriculumIndex);
   let returnData = false;
   let currentMaxScore = 0;
-  let indexOfMaxScore = 0;
+  let indexOfMaxScore = -1;
   let currentCurriculumIndex = 0;
   let currentUserName = '';
   if (inputUserName === '') {
@@ -1882,6 +1970,10 @@ async function getHighestScoringDataObjectForLesson(lessonNumber, inputUserName,
   for (let usersLessonData of userAccountData) {
     // usersLessonData is:
     await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cusersLessonDataIs + JSON.stringify(usersLessonData));
+    // Check if the data has the correct curriculumIndex.
+    if (usersLessonData.curriculumIndex !== currentCurriculumIndex) {
+      continue; // Skip if the curriculumIndex does not match.
+    }
     let lessons = usersLessonData[wrd.cLessons];
     // lessons is:
     await haystacks.consoleLog(namespacePrefix, functionName, 'lessons is: ' + JSON.stringify(lessons));
@@ -2193,6 +2285,7 @@ export default {
   getAccountData,
   getUserAccountData,
   storeAccountData,
+  doesUserHaveCurriculumIndex,
   appendUsersLessonScoreData,
   getUsersLessonScoreData,
   saveAccountData,
