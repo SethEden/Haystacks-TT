@@ -232,13 +232,19 @@ async function login(inputData, inputMetaData) {
         console.log(app_msg.cErrorLoginMessage02 + inputData[1]);
         await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cErrorLoginMessage02 + inputData[1]);
       } else {
-        // User is successfully logged in, now we need to do a little homework.
-        // to determine what the current curriculum should be for the current user.
-        // This should be set, but the user can and will be able to change it manually.
-        let currentCurriculumIndex = await accountBroker.scanUserDataForCurrentCurriculum();
-        // currentCurriculumIndex is:
-        await haystacks.consoleLog(namespacePrefix, functionName, 'currentCurriculumIndex is: ' + currentCurriculumIndex);
-        await accountBroker.setCurrentCurriculum(currentCurriculumIndex);
+        let manuallySetCurriculumIndex = await haystacks.getConfigurationSetting(wrd.csystem, app_cfg.cmanuallySetCurriculumIndex);
+        if (manuallySetCurriculumIndex === false) {
+          // User is successfully logged in, now we need to do a little homework.
+          // to determine what the current curriculum should be for the current user.
+          // This should be set, but the user can and will be able to change it manually.
+          let currentCurriculumIndex = await accountBroker.scanUserDataForCurrentCurriculum();
+          // currentCurriculumIndex is:
+          await haystacks.consoleLog(namespacePrefix, functionName, 'currentCurriculumIndex is: ' + currentCurriculumIndex);
+          await accountBroker.setCurrentCurriculum(currentCurriculumIndex);
+        } else {
+          // Yes we will manually set the current curriculum, and hard code it first to the 0-index.
+          await accountBroker.setCurrentCurriculum(0);
+        }
       }
     } else {
       // ERROR: Cannot login, user does not exist.
@@ -366,7 +372,14 @@ async function startLesson(inputData, inputMetaData) {
             let userHasPassedLesson = await haystacks.getConfigurationSetting(wrd.csystem, app_cfg.cuserHasPassedLesson);
             let userHasCompletedFinalLessonInCurriculum = await haystacks.getConfigurationSetting(wrd.csystem, app_cfg.cuserHasCompletedFinalLessonInCurriculum);
             if (userHasPassedLesson === true && userHasCompletedFinalLessonInCurriculum === true) {
-              let newCurrentCurriculumIndex = await accountBroker.scanUserDataForCurrentCurriculum();
+              let manuallySetCurriculumIndex = await haystacks.getConfigurationSetting(wrd.csystem, app_cfg.cmanuallySetCurriculumIndex);
+              let newCurrentCurriculumIndex = 0;
+              if (manuallySetCurriculumIndex === false) {
+                newCurrentCurriculumIndex = await accountBroker.scanUserDataForCurrentCurriculum();
+              } else {
+                // Manually increment the curriculum index and hard code it essentially!
+                newCurrentCurriculumIndex = currentCurriculumIndex + 1;
+              }
               // newCurrentCurriculumIndex is:
               await haystacks.consoleLog(namespacePrefix, functionName, 'newCurrentCurriculumIndex is: ' + newCurrentCurriculumIndex);
               await accountBroker.setCurrentCurriculum(newCurrentCurriculumIndex);

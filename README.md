@@ -24,6 +24,10 @@ Enter the command:
 # Known issues
 There is a known issue with performance of the application for high lesson numbers.
 We have a plan to implement a solution to this performance bottleneck, however, it will take some time due to the dependencies and complexity of the systems and sub-systems involved.
+In the configuration setting file: src\resources\configuration\application.system.json
+You can set the configuration setting: "system.manuallySetCurriculumIndex": true
+This should improve performance at the cost of having a more reliable automated curriculum advancing process that runs deep scans on the users data to validate each step in the advancement of the curriculum index.
+The performance may still lag in a few places, however, it should be improved as a stop-gap temporary solution until better more performant algorithms can be implemented for a more permanent performance improvement.
 
 # Run the application
 Navigate into the haystacksTT folder.

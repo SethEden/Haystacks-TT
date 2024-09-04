@@ -11480,14 +11480,14 @@
           {
             "curriculumName": "TypingBasics",
             "curriculumIndex": 0,
-            "lessonTimeStamp": "20240904-100040-105",
-            "totalTime": 46499,
-            "totalCorrectCharacterCount": 349,
-            "totalIncorrectCharacterCount": 8,
-            "totalWords": 71.39999999999999,
-            "averageWpm": 93.86087782412793,
-            "averageAccuracy": 0.9776143790849673,
-            "adjustedWpm": 91.7597437944048
+            "lessonTimeStamp": "20240904-175306-782",
+            "totalTime": 83400,
+            "totalCorrectCharacterCount": 601,
+            "totalIncorrectCharacterCount": 10,
+            "totalWords": 18,
+            "averageWpm": 13.836043720022747,
+            "averageAccuracy": 0.9847748776172058,
+            "adjustedWpm": 13.625388261091711
           }
         ]
       }
@@ -11502,38 +11502,14 @@
           {
             "curriculumName": "TypingForProgrammers",
             "curriculumIndex": 1,
-            "lessonTimeStamp": "20240904-132520-190",
-            "totalTime": 43095,
-            "totalCorrectCharacterCount": 234,
-            "totalIncorrectCharacterCount": 0,
-            "totalWords": 46.800000000000004,
-            "averageWpm": null,
-            "averageAccuracy": 1,
-            "adjustedWpm": null
-          },
-          {
-            "curriculumName": "TypingForProgrammers",
-            "curriculumIndex": 1,
-            "lessonTimeStamp": "20240904-133711-209",
-            "totalTime": 42867,
-            "totalCorrectCharacterCount": 234,
-            "totalIncorrectCharacterCount": 0,
-            "totalWords": 46.800000000000004,
-            "averageWpm": 2234.734475832456,
-            "averageAccuracy": 1,
-            "adjustedWpm": 2234.734475832456
-          },
-          {
-            "curriculumName": "TypingForProgrammers",
-            "curriculumIndex": 1,
-            "lessonTimeStamp": "20240904-140043-915",
-            "totalTime": 41477,
-            "totalCorrectCharacterCount": 234,
-            "totalIncorrectCharacterCount": 0,
+            "lessonTimeStamp": "20240904-175733-579",
+            "totalTime": 43349,
+            "totalCorrectCharacterCount": 228,
+            "totalIncorrectCharacterCount": 6,
             "totalWords": 9.399999999999999,
-            "averageWpm": 41.76588170235292,
-            "averageAccuracy": 1,
-            "adjustedWpm": 41.76588170235292
+            "averageWpm": 41.26242136874947,
+            "averageAccuracy": 0.9576434954224001,
+            "adjustedWpm": 39.51468942916118
           }
         ]
       }

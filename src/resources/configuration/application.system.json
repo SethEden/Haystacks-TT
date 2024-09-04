@@ -35,5 +35,5 @@
   "system.lessonPlanSuccessLimitingAccuracy": 90,
   "system.lessonPlanSuccessLimitingSpeed": 70,
   "system.adhereToCurriculumOrderRequirement": true,
-  "system.manuallySetCurriculumIndex": false
+  "system.manuallySetCurriculumIndex": true
 }
