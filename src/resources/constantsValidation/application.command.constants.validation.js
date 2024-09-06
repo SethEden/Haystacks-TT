@@ -42,7 +42,7 @@ export const applicationCommandConstantsValidation = [
   {Name: 'csetLessonPlanSuccessLimitingAccuracy' , Actual: app_cmd.csetLessonPlanSuccessLimitingAccuracy, Expected: 'setLessonPlanSuccessLimitingAccuracy'},
   {Name: 'csetLessonPlanSuccessLimitingSpeed' , Actual: app_cmd.csetLessonPlanSuccessLimitingSpeed, Expected: 'setLessonPlanSuccessLimitingSpeed'},
   {Name: 'csetAdhereToCurriculumOrderRequirement' , Actual: app_cmd.csetAdhereToCurriculumOrderRequirement, Expected: 'setAdhereToCurriculumOrderRequirement'},
-  {Name: 'csetManuallySetCurriculumIndex' , Actual: app_cmd.csetManuallySetCurriculumIndex, Expected: 'setManuallySetCurriculumIndex'},
+  {Name: 'cmanuallySetCurriculumIndex' , Actual: app_cmd.cmanuallySetCurriculumIndex, Expected: 'manuallySetCurriculumIndex'},
 
   // ********************************
   // Tutoring Commands in order

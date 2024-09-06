@@ -56,7 +56,7 @@ const initApplicationCommandsLibrary = function() {
     [app_cmd.csetLessonPlanSuccessLimitingAccuracy]: (inputData, inputMetaData) => configurationCommands.setLessonPlanSuccessLimitingAccuracy(inputData, inputMetaData),
     [app_cmd.csetLessonPlanSuccessLimitingSpeed]: (inputData, inputMetaData) => configurationCommands.setLessonPlanSuccessLimitingSpeed(inputData, inputMetaData),
     [app_cmd.csetAdhereToCurriculumOrderRequirement]: (inputData, inputMetaData) => configurationCommands.setAdhereToCurriculumOrderRequirement(inputData, inputMetaData),
-    [app_cmd.csetManuallySetCurriculumIndex]: (inputData, inputMetaData) => configurationCommands.setManuallySetCurriculumIndex(inputData, inputMetaData),
+    [app_cmd.cmanuallySetCurriculumIndex]: (inputData, inputMetaData) => configurationCommands.manuallySetCurriculumIndex(inputData, inputMetaData),
 
     // ***********************************************
     // tutoring commands in order

@@ -239,7 +239,7 @@ async function setAdhereToCurriculumOrderRequirement(inputData, inputMetaData) {
 }
 
 /**
- * @function setManuallySetCurriculumIndex
+ * @function manuallySetCurriculumIndex
  * @description Sets or resets the manuallySetCurriculumIndex configuration setting.
  * @param {string} inputData A string value of true or false to assign to the configuration setting.
  * @param {string} inputMetaData Not used for this command.
@@ -248,8 +248,8 @@ async function setAdhereToCurriculumOrderRequirement(inputData, inputMetaData) {
  * @author Seth Hollingsead
  * @date 2024/09/04
  */
-async function setManuallySetCurriculumIndex(inputData, inputMetaData) {
-  let functionName = setManuallySetCurriculumIndex.name;
+async function manuallySetCurriculumIndex(inputData, inputMetaData) {
+  let functionName = manuallySetCurriculumIndex.name;
   await haystacks.consoleLog(namespacePrefix, functionName, msg.cBEGIN_Function);
   await haystacks.consoleLog(namespacePrefix, functionName, msg.cinputDataIs + inputData);
   await haystacks.consoleLog(namespacePrefix, functionName, msg.cinputMetaDataIs + inputMetaData);
@@ -286,5 +286,5 @@ export default {
   setLessonPlanSuccessLimitingAccuracy,
   setLessonPlanSuccessLimitingSpeed,
   setAdhereToCurriculumOrderRequirement,
-  setManuallySetCurriculumIndex
+  manuallySetCurriculumIndex
 }

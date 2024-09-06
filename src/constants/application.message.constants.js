@@ -118,7 +118,7 @@ export const cuserName = wrd.cuser + wrd.cName; // userName
 export const cuserNameIs = cuserName + sys.cSpaceIsColonSpace; // userName is:
 export const cuserName1Is = cuserName + num.c1 + sys.cSpaceIsColonSpace; // userName1 is:
 export const cuserName2Is = cuserName + num.c2 + sys.cSpaceIsColonSpace; // userName2 is:
-export const cuserDataIs = wrd.cuser + wrd.cDate + sys.cSpaceIsColonSpace; // userData is:
+export const cuserDataIs = wrd.cuser + wrd.cData + sys.cSpaceIsColonSpace; // userData is:
 export const cuserData1Is = wrd.cuser + wrd.cData + num.c1 + sys.cSpaceIsColonSpace; // userData1 is:
 export const cuserData2Is = wrd.cuser + wrd.cData + num.c2 + sys.cSpaceIsColonSpace; // userData2 is:
 export const ccurriculumDataIs = wrd.ccurriculum + wrd.cData + sys.cSpaceIsColonSpace; // curriculumData is:
@@ -141,7 +141,7 @@ export const cuserHighestPassingLessonNumberByCurriculumIndexIs = wrd.cuser + wr
 export const ccurriculumSearchTermIs = wrd.ccurriculum + wrd.cSearch + wrd.cTerm + sys.cSpaceIsColonSpace; // curriculumSearchTerm is:
 export const callCurriculumNamesIs = wrd.call + wrd.cCurriculum + wrd.cNames + sys.cSpaceIsColonSpace; // allCurriculumNames is:
 export const callCurriculumIndicesIs = wrd.call + wrd.cCurriculum + wrd.cIndices + sys.cSpaceIsColonSpace; // allCurriculumIndices is:
-export const cisIntegerResultIs = wrd.cis + wrd.cInteger + wrd.cResult + sys.cSpaceIsColonSpace; // isIntegerResult is
+export const cisIntegerResultIs = wrd.cis + wrd.cInteger + wrd.cResult + sys.cSpaceIsColonSpace; // isIntegerResult is:
 export const cparsedCurriculumSearchTermIs = wrd.cparsed + wrd.cCurriculum + wrd.cSearch + wrd.cTerm + sys.cSpaceIsColonSpace; // parsedCurriculumSearchTerm is:
 export const ccurriculumLookupIndexIs = wrd.ccurriculum + wrd.cLookup + wrd.cIndex + sys.cSpaceIsColonSpace; // curriculumLookupIndex is:
 export const cindexedCurriculumObjectIs = wrd.cindexed + wrd.cCurriculum + wrd.cObject + sys.cSpaceIsColonSpace; // indexedCurriculumObject is:
@@ -151,7 +151,7 @@ export const clessonObjectIs = wrd.clesson + wrd.cObject + sys.cSpaceIsColonSpac
 export const cusersLessonDataValue = wrd.cusers + wrd.cLesson + wrd.cData + wrd.cValue + sys.cSpaceIsColonSpace; // usersLessonDataValue is:
 export const ccurrentMaxScore = wrd.ccurrent + wrd.cMax + wrd.cScore + sys.cSpaceIsColonSpace; // currentMaxScore is:
 export const cindexOfMaxScore = wrd.cindex + wrd.cOf + wrd.cMax + wrd.cScore + sys.cSpaceIsColonSpace; // indexOfMaxScore is:
-export const callAccountUserNamesIs = wrd.call + wrd.cAccounts + wrd.cUser + wrd.cNames + sys.cSpaceIsColonSpace; // allAccountUserNames is:
+export const callAccountUserNamesIs = wrd.call + wrd.cAccount + wrd.cUser + wrd.cNames + sys.cSpaceIsColonSpace; // allAccountUserNames is:
 export const ccurrentUserNameKeyIs = wrd.ccurrent + wrd.cUser + wrd.cName + wrd.cKey + sys.cSpaceIsColonSpace; // currentUserNameKey is:
 
 // Application messages
@@ -234,17 +234,17 @@ export const cErrorLookupCurriculumMessage2 = msg.cERROR_Colon + wrd.ccurriculum
 export const cErrorLookupCurriculumMessage3 = msg.cERROR_Colon + wrd.cInvalid + bas.cSpace + wrd.call + wrd.cCurriculum + wrd.cNames + bas.cSpace + wrd.cor + bas.cSpace + wrd.ccurriculum + wrd.cIndices + bas.cDot;
 // ERROR: curriculumNamesArray was not valid, reference: getCurriculumNameFromIndex.
 export const cErrorGetCurriculumNameFromIndexMessage1 = msg.cERROR_Colon + wrd.ccurriculum + wrd.cNames + wrd.cArray + bas.cSpace + wrd.cwas + bas.cSpace + wrd.cnot + bas.cSpace + wrd.cvalid + bas.cComa + bas.cSpace + wrd.creference + bas.cColon + bas.cSpace + wrd.cget + wrd.cCurriculum + wrd.cName + wrd.cFrom + wrd.cIndex + bas.cDot;
-export const cErrorSetEnableLessonPlanLimitingFactors1 = msg.cERROR_Colon + wrd.cSetting + bas.cSpace + wrd.cnot + bas.cSpace + wrd.cSaved + bas.cColon + bas.cSpace; // ERROR: Setting not saved: 
+export const cErrorSetEnableLessonPlanLimitingFactors1 = msg.cERROR_Colon + wrd.cSetting + bas.cSpace + wrd.cnot + bas.cSpace + wrd.csaved + bas.cColon + bas.cSpace; // ERROR: Setting not saved: 
 export const cErrorSetEnableLessonPlanLimitingFactors2 = msg.cERROR_Colon + wrd.cInvalid + bas.cSpace + wrd.csetting + bas.cSpace + wrd.cvalue + bas.cSpace + wrd.cinput + bas.cDot + bas.cSpace + wrd.cSetting + bas.cColon + bas.cSpace; // ERROR: Invalid setting value input. Setting:
 export const cWeFoundMatchingUserAccount = wrd.cWe + bas.cSpace + wrd.cfound + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cmatching + bas.cSpace + wrd.cuser + bas.cSpace + wrd.caccount + bas.cDot; // We found the matching user account.
-export const cWeFoundMatchingCurriculumIndex = wrd.cWe + bas.cSpace + wrd.cFound + bas.cSpace + wrd.cMatching + bas.cSpace + wrd.cCurriculum + bas.cSpace + wrd.cIndex + bas.cDot; // We found the matching curriculumIndex.
+export const cWeFoundMatchingCurriculumIndex = wrd.cWe + bas.cSpace + wrd.cfound + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cmatching + bas.cSpace + wrd.ccurriculum + bas.cSpace + wrd.cindex + bas.cDot; // We found the matching curriculum Index.
 export const cWeFoundMatchingLessonName = wrd.cWe + bas.cSpace + wrd.cfound + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cmatching + bas.cSpace + wrd.clesson + wrd.cName + bas.cDot; // We found the matching lessonName.
 // Determine if the user has completed the necessary prerequisite lessons and curriculums.
 export const csetCurrentCurriculumMessage1 = wrd.cDetermine + bas.cSpace + wrd.cif + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cuser + bas.cSpace + wrd.chas + bas.cSpace + wrd.ccompleted + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cnecessary + bas.cSpace + wrd.cprerequisite + bas.cSpace + wrd.clessons + bas.cSpace + wrd.cand + bas.cSpace + wrd.ccurriculums + bas.cDot;
 // allCurriculumNames and allCurriculumIndices is valid.
 export const clookupCurriculumMessage1 = wrd.call + wrd.cCurriculum + wrd.cNames + bas.cSpace + wrd.cand + bas.cSpace + wrd.call + wrd.cCurriculum + wrd.cIndices + bas.cSpace + wrd.cis + bas.cSpace + wrd.cvalid + bas.cDot;
 // curriculumSearchTerm is an integer.
-export const clookupCurriculumMessage2 = wrd.ccurriculum + wrd.cSearch + wrd.cTerm + bas.cSpace + wrd.cis + bas.cSpace + wrd.can + wrd.cinteger + bas.cDot
+export const clookupCurriculumMessage2 = wrd.ccurriculum + wrd.cSearch + wrd.cTerm + bas.cSpace + wrd.cis + bas.cSpace + wrd.can + bas.cSpace + wrd.cinteger + bas.cDot
 // found a matching search index.
 export const clookupCurriculumMessage3 = wrd.cfound + bas.cSpace + bas.ca + bas.cSpace + wrd.cmatching + bas.cSpace + wrd.csearch + bas.cSpace + wrd.cindex + bas.cDot;
 // curriculumSearchTerm is a string.
