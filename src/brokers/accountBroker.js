@@ -914,7 +914,7 @@ async function getCurrentCurriculumIndex(userName) {
     returnData = await haystacks.getConfigurationSetting(wrd.csystem, app_cfg.cCurrentCurriculumIndex);
   } else {
     // ERROR: User must be logged in to get the current curriculum.
-    console.log(app_msg.cErrorGetCurrentCurriculumMessage1);
+    // console.log(app_msg.cErrorGetCurrentCurriculumMessage1);
     await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cErrorGetCurrentCurriculumMessage1);
   }
   await haystacks.consoleLog(namespacePrefix, functionName, msg.creturnDataIs + JSON.stringify(returnData));
