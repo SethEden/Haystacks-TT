@@ -239,7 +239,7 @@ async function login(inputData, inputMetaData) {
           // This should be set, but the user can and will be able to change it manually.
           let currentCurriculumIndex = await accountBroker.scanUserDataForCurrentCurriculum();
           // currentCurriculumIndex is:
-          await haystacks.consoleLog(namespacePrefix, functionName, 'currentCurriculumIndex is: ' + currentCurriculumIndex);
+          await haystacks.consoleLog(namespacePrefix, functionName, app_msg.ccurrentCurriculumIndexIs + currentCurriculumIndex);
           await accountBroker.setCurrentCurriculum(currentCurriculumIndex);
         } else {
           // Yes we will manually set the current curriculum, and hard code it first to the 0-index.
@@ -262,7 +262,7 @@ async function login(inputData, inputMetaData) {
   }
   let currentCurriculumIndex = await accountBroker.getCurrentCurriculumIndex();
   // currentCurriculumIndex is:
-  await haystacks.consoleLog(namespacePrefix, functionName, 'currentCurriculumIndex is: ' + currentCurriculumIndex);
+  await haystacks.consoleLog(namespacePrefix, functionName, app_msg.ccurrentCurriculumIndexIs + currentCurriculumIndex);
   await haystacks.consoleLog(namespacePrefix, functionName, msg.creturnDataIs + JSON.stringify(returnData));
   await haystacks.consoleLog(namespacePrefix, functionName, msg.cEND_Function);
   return returnData;
@@ -318,7 +318,7 @@ async function startLesson(inputData, inputMetaData) {
     if (parseInt(inputData[1]) > 0) {
       let currentCurriculumIndex = await accountBroker.getCurrentCurriculumIndex();
       // currentCurriculumIndex is:
-      await haystacks.consoleLog(namespacePrefix, functionName, 'currentCurriculumIndex is: ' + currentCurriculumIndex);
+      await haystacks.consoleLog(namespacePrefix, functionName, app_msg.ccurrentCurriculumIndexIs + currentCurriculumIndex);
       let maxLessonNumber = await accountBroker.getHighestLessonCount(currentCurriculumIndex);
       // maxLessonNumber is:
       await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cmaxLessonNumberIs + maxLessonNumber);
@@ -381,7 +381,7 @@ async function startLesson(inputData, inputMetaData) {
                 newCurrentCurriculumIndex = currentCurriculumIndex + 1;
               }
               // newCurrentCurriculumIndex is:
-              await haystacks.consoleLog(namespacePrefix, functionName, 'newCurrentCurriculumIndex is: ' + newCurrentCurriculumIndex);
+              await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cnewCurrentCurriculumIndexIs + newCurrentCurriculumIndex);
               await accountBroker.setCurrentCurriculum(newCurrentCurriculumIndex);
               // Reset these flags.
               await haystacks.setConfigurationSetting(wrd.csystem, app_cfg.cuserHasPassedLesson, false);

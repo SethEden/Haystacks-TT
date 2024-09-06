@@ -32,7 +32,7 @@ import chalk from 'chalk';
 import path from 'path';
 
 // const { createPCMData } = pcmUtils;
-const {bas, biz, clr, cfg, gen, msg, phn, unt, wrd} = hayConst;
+const {bas, biz, clr, cfg, gen, msg, num, phn, unt, wrd} = hayConst;
 const baseFileName = path.basename(import.meta.url, path.extname(import.meta.url));
 // application.haystacks-tt.brokers.accountBroker.
 const namespacePrefix = wrd.capplication + bas.cDot + apc.cApplicationName + bas.cDot + wrd.cbrokers + bas.cDot + baseFileName + bas.cDot;
@@ -126,26 +126,26 @@ async function doesUserHaveCurriculumIndex(curriculumIndex) {
   let functionName = doesUserHaveCurriculumIndex.name;
   await haystacks.consoleLog(namespacePrefix, functionName, msg.cBEGIN_Function);
   // curriculumIndex is:
-  await haystacks.consoleLog(namespacePrefix, functionName, 'curriculumIndex is: ' + curriculumIndex);
+  await haystacks.consoleLog(namespacePrefix, functionName, app_msg.ccurriculumIndexIs + curriculumIndex);
   let returnData = false;
   let currentUserAccountName = await currentUserAccount();
   // currentUserAccountName is:
-  await haystacks.consoleLog(namespacePrefix, functionName, 'currentUserAccountName is: ' + currentUserAccountName);
+  await haystacks.consoleLog(namespacePrefix, functionName, app_msg.ccurrentUserAccountNameIs + currentUserAccountName);
   let allAccountsData = await getAccountData();
   // allAccountsData is:
   await haystacks.consoleLog(namespacePrefix, functionName, app_msg.callAccountsDataIs + JSON.stringify(allAccountsData));
   for (let userName in allAccountsData) {
     let userData = allAccountsData[userName];
     // userName is:
-    await haystacks.consoleLog(namespacePrefix, functionName, 'userName is: ' + JSON.stringify(userName));
+    await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cuserNameIs + JSON.stringify(userName));
     // userData is:
-    await haystacks.consoleLog(namespacePrefix, functionName, 'userData is: ' + JSON.stringify(userData));
+    await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cuserDataIs + JSON.stringify(userData));
     if (userName === currentUserAccountName) {
       // We found the matching user account.
-      await haystacks.consoleLog(namespacePrefix, functionName, 'We found the matching user account.');
+      await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cWeFoundMatchingUserAccount);
       for (let curriculumData of userData) {
         // curriculumData is:
-        await haystacks.consoleLog(namespacePrefix, functionName, 'curriculumData is: ' + JSON.stringify(curriculumData));
+        await haystacks.consoleLog(namespacePrefix, functionName, app_msg.ccurriculumDataIs + JSON.stringify(curriculumData));
         if (curriculumData.curriculumIndex === curriculumIndex) {
           // We found the matching curriculumIndex.
           returnData = true;
@@ -175,17 +175,17 @@ async function appendUsersLessonScoreData(dataToAppend, lessonNumber, optionalCu
   // lessonNumber is:
   await haystacks.consoleLog(namespacePrefix, functionName, app_msg.clessonNumberIs + lessonNumber);
   // optionalCurriculumIndex is:
-  await haystacks.consoleLog(namespacePrefix, functionName, 'optionalCurriculumIndex is: ' + optionalCurriculumIndex);
+  await haystacks.consoleLog(namespacePrefix, functionName, app_msg.coptionalCurriculumIndexIs + optionalCurriculumIndex);
   let returnData = false;
   // We should probably find out if the user has any data for the optionalCurriculumIndex.
   // It may be the case that the user has just finished their very first lesson in a new curriculum
   // and there is no object for the optionalCurriculumIndex.
   let userHasCurriculumIndex = await doesUserHaveCurriculumIndex(optionalCurriculumIndex);
   // userHasCurriculumIndex is:
-  await haystacks.consoleLog(namespacePrefix, functionName, 'userHasCurriculumIndex is: ' + userHasCurriculumIndex);
+  await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cuserHasCurriculumIndexIs + userHasCurriculumIndex);
   let currentUserAccountName = await currentUserAccount();
   // currentUserAccountName is:
-  await haystacks.consoleLog(namespacePrefix, functionName, 'currentUserAccountName is: ' + currentUserAccountName);
+  await haystacks.consoleLog(namespacePrefix, functionName, app_msg.ccurrentUserAccountNameIs + currentUserAccountName);
   let lessonName = await getIndividualLessonName(lessonNumber, optionalCurriculumIndex);
   // lessonName is:
   await haystacks.consoleLog(namespacePrefix, functionName, app_msg.clessonNameIs + lessonName);
@@ -197,18 +197,18 @@ async function appendUsersLessonScoreData(dataToAppend, lessonNumber, optionalCu
     // before we get the users account data and start iterating over it to add the lesson record to it.
     for (let userName1 in allAccountsData) {
       // userName2 is:
-      await haystacks.consoleLog(namespacePrefix, functionName, 'userName1 is: ' + JSON.stringify(userName1));
+      await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cuserName1Is + JSON.stringify(userName1));
       if (userName1 === currentUserAccountName) {
-        // We found the matching user account, userName1.
-        await haystacks.consoleLog(namespacePrefix, functionName, 'We found the matching user account, userName1.');
+        // We found the matching user account, userName1
+        await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cWeFoundMatchingUserAccount + app_msg.cuserName + num.c1);
         let userData1 = allAccountsData[userName1];
         // userData1 is:
-        await haystacks.consoleLog(namespacePrefix, functionName, 'userData1 is: ' + JSON.stringify(userData1));
+        await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cuserData1Is + JSON.stringify(userData1));
         // Create the new curriculum object
         let newCurriculum = {
-          "curriculumName": await getCurriculumNameFromIndex(optionalCurriculumIndex),
-          "curriculumIndex": optionalCurriculumIndex,
-          "Lessons": []
+          [app_sys.ccurriculumName]: await getCurriculumNameFromIndex(optionalCurriculumIndex),
+          [app_sys.ccurriculumIndex]: optionalCurriculumIndex,
+          [wrd.cLessons]: []
         };
 
         // Add new curriculum object to user data
@@ -221,30 +221,30 @@ async function appendUsersLessonScoreData(dataToAppend, lessonNumber, optionalCu
   for (let userName2 in allAccountsData) {
     let userData2 = allAccountsData[userName2];
     // userName2 is:
-    await haystacks.consoleLog(namespacePrefix, functionName, 'userName2 is: ' + JSON.stringify(userName2));
+    await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cuserName2Is + JSON.stringify(userName2));
     // userData2 is:
-    await haystacks.consoleLog(namespacePrefix, functionName, 'userData2 is: ' + JSON.stringify(userData2));
+    await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cuserData2Is + JSON.stringify(userData2));
     if (userName2 === currentUserAccountName) {
-      // We found the matching user account, userName2.
-      await haystacks.consoleLog(namespacePrefix, functionName, 'We found the matching user account, userName2.');
+      // We found the matching user account. userName2
+      await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cWeFoundMatchingUserAccount + app_msg.cuserName + num.c2);
       for (let curriculumData of userData2) {
         // curriculumData is:
-        await haystacks.consoleLog(namespacePrefix, functionName, 'curriculumData is: ' + JSON.stringify(curriculumData));
+        await haystacks.consoleLog(namespacePrefix, functionName, app_msg.ccurriculumDataIs + JSON.stringify(curriculumData));
         if (curriculumData.curriculumIndex === optionalCurriculumIndex) {
           // We found the matching curriculumIndex.
-          await haystacks.consoleLog(namespacePrefix, functionName, 'We found the matching curriculumIndex.');
+          await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cWeFoundMatchingCurriculumIndex);
           let lessons = curriculumData.Lessons;
           let lessonFound = false;
           // lessons is:
-          await haystacks.consoleLog(namespacePrefix, functionName, 'lessons is: ' + JSON.stringify(lessons));
+          await haystacks.consoleLog(namespacePrefix, functionName, app_msg.clessonsIs + JSON.stringify(lessons));
 
           for (let lesson of lessons) {
             let existingLessonName = Object.keys(lesson)[0];
             // existingLessonName is:
-            await haystacks.consoleLog(namespacePrefix, functionName, 'existingLessonName is: ' + existingLessonName);
+            await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cexistingLessonNameIs + existingLessonName);
             if (existingLessonName === lessonName) {
               // We found the matching lessonName.
-              await haystacks.consoleLog(namespacePrefix, functionName, 'We found the matching lessonName.');
+              await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cWeFoundMatchingLessonName);
               lesson[existingLessonName].push(dataToAppend);
               lessonFound = true;
               break;
@@ -414,7 +414,7 @@ async function getLessonCount(optionalCurriculumIndex) {
   let functionName = getLessonCount.name;
   await haystacks.consoleLog(namespacePrefix, functionName, msg.cBEGIN_Function);
   // optionalCurriculumIndex is:
-  await haystacks.consoleLog(namespacePrefix, functionName, 'optionalCurriculumIndex is: ' + optionalCurriculumIndex);
+  await haystacks.consoleLog(namespacePrefix, functionName, app_msg.coptionalCurriculumIndexIs + optionalCurriculumIndex);
   let returnData = false;
   returnData = await getHighestLessonCount(optionalCurriculumIndex);
   await haystacks.consoleLog(namespacePrefix, functionName, msg.creturnDataIs + JSON.stringify(returnData));
@@ -437,7 +437,7 @@ async function getIndividualLessonData(lessonNumber, optionalCurriculumIndex) {
   // lessonNumber is:
   await haystacks.consoleLog(namespacePrefix, functionName, app_msg.clessonNumberIs + lessonNumber);
   // optionalCurriculumIndex is:
-  await haystacks.consoleLog(namespacePrefix, functionName, 'optionalCurriculumIndex is: ' + optionalCurriculumIndex);
+  await haystacks.consoleLog(namespacePrefix, functionName, app_msg.coptionalCurriculumIndexIs + optionalCurriculumIndex);
   let returnData = false;
   let currentCurriculumIndex = 0;
   let lessonPlanKeys = [];
@@ -448,7 +448,7 @@ async function getIndividualLessonData(lessonNumber, optionalCurriculumIndex) {
   }
   let currentCurriculumData = await getCurriculumObject(currentCurriculumIndex);
   // currentCurriculumData is:
-  await haystacks.consoleLog(namespacePrefix, functionName, 'currentCurriculumData is: ' + JSON.stringify(currentCurriculumData));
+  await haystacks.consoleLog(namespacePrefix, functionName, app_msg.ccurrentCurriculumDataIs + JSON.stringify(currentCurriculumData));
   // Make sure we are indexing the correct lesson curriculum before we try and get the individual lesson data.
   lessonPlanKeys = await getLessonPlanKeysForCurriculumIndex(currentCurriculumIndex);
   // lessonPlanKeys is:
@@ -502,7 +502,7 @@ async function getIndividualLessonName(lessonNumber, optionalCurriculumIndex) {
   // lessonNumber is:
   await haystacks.consoleLog(namespacePrefix, functionName, app_msg.clessonNumberIs + lessonNumber);
   // optionalCurriculumIndex is:
-  await haystacks.consoleLog(namespacePrefix, functionName, 'optionalCurriculumIndex is: ' + optionalCurriculumIndex);
+  await haystacks.consoleLog(namespacePrefix, functionName, app_msg.coptionalCurriculumIndexIs + optionalCurriculumIndex);
   let returnData = false;
   let currentCurriculumIndex = 0;
   let lessonPlanKeys = [];
@@ -647,7 +647,7 @@ async function generateBlankLessonData(curriculumName) {
   let functionName = generateBlankLessonData.name;
   await haystacks.consoleLog(namespacePrefix, functionName, msg.cBEGIN_Function);
   // curriculumName is:
-  await haystacks.consoleLog(namespacePrefix, functionName, 'curriculumName is: ' + curriculumName);
+  await haystacks.consoleLog(namespacePrefix, functionName, app_msg.ccurriculumNameIs + curriculumName);
   let returnData = false;
   currentCurriculumIndex = await lookupCurriculum(curriculumName);
   // Get the lesson data.
@@ -765,44 +765,44 @@ async function setCurrentCurriculum(desiredCurriculum) {
   if (desiredCurriculum !== undefined && desiredCurriculum !== '') {
     currentUser = await haystacks.getConfigurationSetting(wrd.csystem, app_cfg.cCurrentUser);
     // currentUser is:
-    await haystacks.consoleLog(namespacePrefix, functionName, 'currentUser is: ' + currentUser);
+    await haystacks.consoleLog(namespacePrefix, functionName, app_msg.ccurrentUserIs + currentUser);
     if (currentUser !== '') {
       adhereToCurriculumOrderRequirement = await haystacks.getConfigurationSetting(wrd.csystem, app_cfg.cadhereToCurriculumOrderRequirement);
       // adhereToCurriculumOrderRequirement is:
-      await haystacks.consoleLog(namespacePrefix, functionName, 'adhereToCurriculumOrderRequirement is: ' + adhereToCurriculumOrderRequirement);
+      await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cadhereToCurriculumOrderRequirementIs + adhereToCurriculumOrderRequirement);
       fullyQualifiedCurriculumIndex = await lookupCurriculum(desiredCurriculum);
       // fullyQualifiedCurriculumIndex is:
-      await haystacks.consoleLog(namespacePrefix, functionName, 'fullyQualifiedCurriculumIndex is: ' + fullyQualifiedCurriculumIndex);
+      await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cfullyQualifiedCurriculumIndexIs + fullyQualifiedCurriculumIndex);
       if (fullyQualifiedCurriculumIndex !== false) {
         fullyQualifiedCurriculumName = await getCurriculumNameFromIndex(fullyQualifiedCurriculumIndex);
       }
       // fullyQualifiedCurriculumName is:
-      await haystacks.consoleLog(namespacePrefix, functionName, 'fullyQualifiedCurriculumName is: ' + fullyQualifiedCurriculumName);
+      await haystacks.consoleLog(namespacePrefix, functionName, app_msg.ccfullyQualifiedCurriculumNameIs + fullyQualifiedCurriculumName);
       if ((fullyQualifiedCurriculumIndex !== false && fullyQualifiedCurriculumName !== false) &&
       (fullyQualifiedCurriculumIndex !== '' && fullyQualifiedCurriculumName !== '')) {
         if (adhereToCurriculumOrderRequirement === true) {
           let listOfCurrentCurriculumPrerequisites = await getListOfPrerequisiteCurriculumIndicesForSpecifiedIndex(fullyQualifiedCurriculumIndex);
           // listOfCurrentCurriculumPrerequisites is:
-          await haystacks.consoleLog(namespacePrefix, functionName, 'listOfCurrentCurriculumPrerequisites is: ' + listOfCurrentCurriculumPrerequisites);
+          await haystacks.consoleLog(namespacePrefix, functionName, app_msg.clistOfCurrentCurriculumPrerequisitesIs + listOfCurrentCurriculumPrerequisites);
           if (listOfCurrentCurriculumPrerequisites !== '' || (Array.isArray(listOfCurrentCurriculumPrerequisites) === true && listOfCurrentCurriculumPrerequisites.length > 0)) {
             // listOfCurrentCurriculumPrerequisites.length is:
-            await haystacks.consoleLog(namespacePrefix, functionName, 'listOfCurrentCurriculumPrerequisites.length is: ' + listOfCurrentCurriculumPrerequisites.length);
+            await haystacks.consoleLog(namespacePrefix, functionName, app_msg.clistOfCurrentCurriculumPrerequisitesLengthIs + listOfCurrentCurriculumPrerequisites.length);
             if (listOfCurrentCurriculumPrerequisites.length === 1 && listOfCurrentCurriculumPrerequisites[0] !== '') {
               // Determine if the user is allowed to set the current curriculum name and if all the prerequisites for the current user meet the curriculum order requirement.
               // Determine if the user has completed the necessary prerequisite lessons and curriculums.
-              await haystacks.consoleLog(namespacePrefix, functionName, 'Determine if the user has completed the necessary prerequisite lessons and curriculums.');
+              await haystacks.consoleLog(namespacePrefix, functionName, app_msg.csetCurrentCurriculumMessage1);
               for (const verifyCurriculumIndex in listOfCurrentCurriculumPrerequisites) {
                 // verifyCurriculumIndex is:
-                await haystacks.consoleLog(namespacePrefix, functionName, 'verifyCurriculumIndex is: ' + verifyCurriculumIndex);
+                await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cverifyCurriculumIndexIs + verifyCurriculumIndex);
                 let dataParsedVerifyCurriculumIndex = await haystacks.executeBusinessRules([verifyCurriculumIndex, ''],[biz.cstringToDataType]);
                 // dataParsedVerifyCurriculumIndex is:
-                await haystacks.consoleLog(namespacePrefix, functionName, 'dataParsedVerifyCurriculumIndex is: ' + dataParsedVerifyCurriculumIndex);
+                await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cdataParsedVerifyCurriculumIndexIs + dataParsedVerifyCurriculumIndex);
                 let highestLessonForCurriculum = await getHighestLessonCount(dataParsedVerifyCurriculumIndex);
                 let userHighestPassingLessonNumberByCurriculumIndex = await getHighestLessonNumberAboveAdvancementScoringLimit('', dataParsedVerifyCurriculumIndex);
                 // highestLessonForCurriculum is:
-                await haystacks.consoleLog(namespacePrefix, functionName, 'highestLessonForCurriculum is: ' + highestLessonForCurriculum);
+                await haystacks.consoleLog(namespacePrefix, functionName, app_msg.chighestLessonForCurriculumIs + highestLessonForCurriculum);
                 // userHighestPassingLessonNumberByCurriculumIndex is:
-                await haystacks.consoleLog(namespacePrefix, functionName, 'userHighestPassingLessonNumberByCurriculumIndex is: ' + userHighestPassingLessonNumberByCurriculumIndex);
+                await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cuserHighestPassingLessonNumberByCurriculumIndexIs + userHighestPassingLessonNumberByCurriculumIndex);
                 if (userHighestPassingLessonNumberByCurriculumIndex < highestLessonForCurriculum) {
                   passedAllPrerequisiteRequirements = false;
                   break;
@@ -900,7 +900,7 @@ async function getCurrentCurriculumIndex(userName) {
   let functionName = getCurrentCurriculumIndex.name;
   await haystacks.consoleLog(namespacePrefix, functionName, msg.cBEGIN_Function);
   // userName is:
-  await haystacks.consoleLog(namespacePrefix, functionName, 'userName is: ' + userName);
+  await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cuserNameIs + userName);
   let returnData = false;
   let currentUser = '';
   if (userName !== undefined && userName !== '') {
@@ -909,7 +909,7 @@ async function getCurrentCurriculumIndex(userName) {
     currentUser = await haystacks.getConfigurationSetting(wrd.csystem, app_cfg.cCurrentUser);
   }  
   // currentUser is:
-  await haystacks.consoleLog(namespacePrefix, functionName, 'currentUser is: ' + currentUser);
+  await haystacks.consoleLog(namespacePrefix, functionName, app_msg.ccurrentUserIs + currentUser);
   if (currentUser !== '') {
     returnData = await haystacks.getConfigurationSetting(wrd.csystem, app_cfg.cCurrentCurriculumIndex);
   } else {
@@ -972,7 +972,7 @@ async function getListOfPrerequisiteCurriculumIndicesForSpecifiedIndex(curriculu
   let functionName = getListOfPrerequisiteCurriculumIndicesForSpecifiedIndex.name;
   await haystacks.consoleLog(namespacePrefix, functionName, msg.cBEGIN_Function);
   // curriculumIndex is:
-  await haystacks.consoleLog(namespacePrefix, functionName, 'curriculumIndex is: ' + curriculumIndex);
+  await haystacks.consoleLog(namespacePrefix, functionName, app_msg.ccurriculumIndexIs + curriculumIndex);
   let returnData = false;
   let allLessonData = await getLessonData();
   for (const key of Object.keys(allLessonData)) {
@@ -1005,7 +1005,7 @@ async function getCurriculumNameFromIndex(curriculumIndex) {
   let functionName = getCurriculumNameFromIndex.name;
   await haystacks.consoleLog(namespacePrefix, functionName, msg.cBEGIN_Function);
   // curriculumIndex is:
-  await haystacks.consoleLog(namespacePrefix, functionName, 'curriculumIndex is: ' + curriculumIndex);
+  await haystacks.consoleLog(namespacePrefix, functionName, app_msg.ccurriculumIndexIs + curriculumIndex);
   let returnData = false;
   let curriculumNamesArray = await getListOfCurriculumNames();
   if (curriculumNamesArray && curriculumNamesArray.length > 0) {
@@ -1038,7 +1038,7 @@ async function lookupCurriculum(curriculumSearchTerm) {
   let functionName = lookupCurriculum.name;
   await haystacks.consoleLog(namespacePrefix, functionName, msg.cBEGIN_Function);
   // curriculumSearchTerm is:
-  await haystacks.consoleLog(namespacePrefix, functionName, 'curriculumSearchTerm is: ' + curriculumSearchTerm);
+  await haystacks.consoleLog(namespacePrefix, functionName, app_msg.ccurriculumSearchTermIs + curriculumSearchTerm);
   let returnData = false;
   if (curriculumSearchTerm !== undefined) {
     let allCurriculumNames = [];
@@ -1046,34 +1046,34 @@ async function lookupCurriculum(curriculumSearchTerm) {
     allCurriculumNames = await getListOfCurriculumNames();
     allCurriculumIndices = await getListOfCurriculumIndices();
     // allCurriculumNames is:
-    await haystacks.consoleLog(namespacePrefix, functionName, 'allCurriculumNames is: ' + JSON.stringify(allCurriculumNames));
+    await haystacks.consoleLog(namespacePrefix, functionName, app_msg.callCurriculumNamesIs + JSON.stringify(allCurriculumNames));
     // allCurriculumIndices is:
-    await haystacks.consoleLog(namespacePrefix, functionName, 'allCurriculumIndices is: ' + JSON.stringify(allCurriculumIndices));
+    await haystacks.consoleLog(namespacePrefix, functionName, app_msg.callCurriculumIndicesIs + JSON.stringify(allCurriculumIndices));
     if (allCurriculumNames !== undefined && allCurriculumNames !== false && allCurriculumIndices !== undefined && allCurriculumIndices !== false) {
       // allCurriculumNames and allCurriculumIndices is valid.
-      await haystacks.consoleLog(namespacePrefix, functionName, 'allCurriculumNames and allCurriculumIndices is valid.');
+      await haystacks.consoleLog(namespacePrefix, functionName, app_msg.clookupCurriculumMessage1);
       let isIntegerResult = await haystacks.executeBusinessRules([curriculumSearchTerm, ''], [biz.cisInteger]);
       // isIntegerResult is
-      await haystacks.consoleLog(namespacePrefix, functionName, 'isIntegerResult is: ' + isIntegerResult);
+      await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cisIntegerResultIs + isIntegerResult);
       if (await haystacks.executeBusinessRules([curriculumSearchTerm, ''], [biz.cisInteger]) === true) {
         // curriculumSearchTerm is an integer.
-        await haystacks.consoleLog(namespacePrefix, functionName, 'curriculumSearchTerm is an integer.');
+        await haystacks.consoleLog(namespacePrefix, functionName, app_msg.clookupCurriculumMessage2);
         let parsedCurriculumSearchTerm = await haystacks.executeBusinessRules([curriculumSearchTerm, ''], [biz.cstringToDataType]);
         // parsedCurriculumSearchTerm is:
-        await haystacks.consoleLog(namespacePrefix, functionName, 'parsedCurriculumSearchTerm is: ' + parsedCurriculumSearchTerm);
+        await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cparsedCurriculumSearchTermIs + parsedCurriculumSearchTerm);
         if (await haystacks.executeBusinessRules([[allCurriculumIndices, parsedCurriculumSearchTerm], ''], [biz.cdoesArrayContainValue]) === true) {
           // found a matching search index.
-          await haystacks.consoleLog(namespacePrefix, functionName, 'found a matching search index.');
+          await haystacks.consoleLog(namespacePrefix, functionName, app_msg.clookupCurriculumMessage3);
           returnData = curriculumSearchTerm;
         }
       } else if (await haystacks.executeBusinessRules([curriculumSearchTerm, ''], [biz.cisString]) === true) {
         // curriculumSearchTerm is a string.
-        await haystacks.consoleLog(namespacePrefix, functionName, 'curriculumSearchTerm is a string.');
+        await haystacks.consoleLog(namespacePrefix, functionName, app_msg.clookupCurriculumMessage4);
         // Here we need to do a fuzzy search in the array.
         let curriculumNamesMatchedArray = await Promise.all(allCurriculumNames.filter(async name => name.toLowerCase().includes(curriculumSearchTerm.toLowerCase())));
         if (curriculumNamesMatchedArray.length > 0) {
           // found a matching search term.
-          await haystacks.consoleLog(namespacePrefix, functionName, 'found a matching search term.');
+          await haystacks.consoleLog(namespacePrefix, functionName, app_msg.clookupCurriculumMessage5);
           returnData = allCurriculumNames.indexOf(curriculumNamesMatchedArray[0]);
         }
       } else {
@@ -1086,9 +1086,9 @@ async function lookupCurriculum(curriculumSearchTerm) {
       console.log(app_msg.cErrorLookupCurriculumMessage3);
       await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cErrorLookupCurriculumMessage3);
       // allCurriculumNames is:
-      await haystacks.consoleLog(namespacePrefix, functionName, 'allCurriculumNames is: ' + JSON.stringify(allCurriculumNames));
+      await haystacks.consoleLog(namespacePrefix, functionName, app_msg.callCurriculumNamesIs + JSON.stringify(allCurriculumNames));
       // allCurriculumIndices is:
-      await haystacks.consoleLog(namespacePrefix, functionName, 'allCurriculumIndices is: ' + JSON.stringify(allCurriculumIndices));
+      await haystacks.consoleLog(namespacePrefix, functionName, app_msg.callCurriculumIndicesIs + JSON.stringify(allCurriculumIndices));
     }
   } else {
     // ERROR: No curriculumSearchTerm specified, unable to lookup Curriculum: 
@@ -1113,12 +1113,12 @@ async function getCurriculumObject(curriculumSearchTerm) {
   let functionName = getCurriculumObject.name;
   await haystacks.consoleLog(namespacePrefix, functionName, msg.cBEGIN_Function);
   // curriculumSearchTerm is:
-  await haystacks.consoleLog(namespacePrefix, functionName, 'curriculumSearchTerm is: ' + curriculumSearchTerm);
+  await haystacks.consoleLog(namespacePrefix, functionName, app_msg.ccurriculumSearchTermIs + curriculumSearchTerm);
   let returnData = false;
   if (curriculumSearchTerm !== undefined) {
     let fullyQualifiedCurriculumIndex = await lookupCurriculum(curriculumSearchTerm);
     // fullyQualifiedCurriculumIndex is:
-    await haystacks.consoleLog(namespacePrefix, functionName, 'fullyQualifiedCurriculumIndex is: '+ JSON.stringify(fullyQualifiedCurriculumIndex));
+    await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cfullyQualifiedCurriculumIndexIs + JSON.stringify(fullyQualifiedCurriculumIndex));
     if (fullyQualifiedCurriculumIndex !== undefined && fullyQualifiedCurriculumIndex !== false) {
       let allLessonData = await getLessonData();
       for (const key of Object.keys(allLessonData)) {
@@ -1150,7 +1150,7 @@ async function getLessonPlanKeysForCurriculumIndex(curriculumLookupIndex) {
   let functionName = getLessonPlanKeysForCurriculumIndex.name;
   await haystacks.consoleLog(namespacePrefix, functionName, msg.cBEGIN_Function);
   // curriculumLookupIndex is:
-  await haystacks.consoleLog(namespacePrefix, functionName, 'curriculumLookupIndex is: ' + curriculumLookupIndex);
+  await haystacks.consoleLog(namespacePrefix, functionName, app_msg.ccurriculumLookupIndexIs + curriculumLookupIndex);
   let returnData = false;
   let allLessonsData = await getLessonData();
   // allLessonsData is:
@@ -1161,7 +1161,7 @@ async function getLessonPlanKeysForCurriculumIndex(curriculumLookupIndex) {
     await haystacks.consoleLog(namespacePrefix, functionName, msg.ckeyIs + key);
     let indexedCurriculumObject = allLessonsData[key];
     // indexedCurriculumObject is:
-    await haystacks.consoleLog(namespacePrefix, functionName, 'indexedCurriculumObject is: ' + JSON.stringify(indexedCurriculumObject));
+    await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cindexedCurriculumObjectIs + JSON.stringify(indexedCurriculumObject));
     if (indexedCurriculumObject.CurriculumNumber === curriculumLookupIndex) {
       returnData = Object.keys(indexedCurriculumObject[app_sys.cLessonPlan][0]);
       break; // Exit the loop once the matching curriculum is found.
@@ -1185,7 +1185,7 @@ async function scanUserDataForCurrentCurriculum(userName) {
   let functionName = scanUserDataForCurrentCurriculum.name;
   await haystacks.consoleLog(namespacePrefix, functionName, msg.cBEGIN_Function);
   // userName is:
-  await haystacks.consoleLog(namespacePrefix, functionName, 'userName is: ' + userName);
+  await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cuserNameIs + userName);
   let returnData = false;
   // We need to go through each of the available curriculums and find out what is the highest lesson count the user has achieved,
   // if the highest lesson count the user has achieved with a passing score is less than the number of lessons in the curriculum being scanned,
@@ -1193,22 +1193,22 @@ async function scanUserDataForCurrentCurriculum(userName) {
   let allLessonsData = await getLessonData();
   for (const key of Object.keys(allLessonsData)) {
     // key is:
-    await haystacks.consoleLog(namespacePrefix, functionName, 'key is: ' + key);
+    await haystacks.consoleLog(namespacePrefix, functionName, msg.ckeyIs + key);
     let indexedCurriculumObject = allLessonsData[key];
     // indexedCurriculumObject is:
-    await haystacks.consoleLog(namespacePrefix, functionName, 'indexedCurriculumObject is: ' + JSON.stringify(indexedCurriculumObject));
-    let curriculumIndex = indexedCurriculumObject['CurriculumNumber'];
+    await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cindexedCurriculumObjectIs + JSON.stringify(indexedCurriculumObject));
+    let curriculumIndex = indexedCurriculumObject[app_sys.cCurriculumNumber];
     // curriculumIndex is:
-    await haystacks.consoleLog(namespacePrefix, functionName, 'curriculumIndex is: ' + curriculumIndex);
+    await haystacks.consoleLog(namespacePrefix, functionName, app_msg.ccurriculumIndexIs + curriculumIndex);
     let parsedCurriculumIndex = await haystacks.executeBusinessRules([curriculumIndex, ''], [biz.cstringToDataType]);
     // parsedCurriculumIndex is:
-    await haystacks.consoleLog(namespacePrefix, functionName, 'parsedCurriculumIndex is: ' + parsedCurriculumIndex);
+    await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cparsedCurriculumIndexIs + parsedCurriculumIndex);
     let highestLessonForCurriculum = await getHighestLessonCount(parsedCurriculumIndex);
     // highestLessonForCurriculum is:
-    await haystacks.consoleLog(namespacePrefix, functionName, 'highestLessonForCurriculum is: ' + highestLessonForCurriculum);
+    await haystacks.consoleLog(namespacePrefix, functionName, app_msg.chighestLessonForCurriculumIs + highestLessonForCurriculum);
     let userHighestPassingLessonNumberByCurriculumIndex = await getHighestLessonNumberAboveAdvancementScoringLimit(userName, parsedCurriculumIndex);
     // userHighestPassingLessonNumberByCurriculumIndex is:
-    await haystacks.consoleLog(namespacePrefix, functionName, 'userHighestPassingLessonNumberByCurriculumIndex is: ' + userHighestPassingLessonNumberByCurriculumIndex);
+    await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cuserHighestPassingLessonNumberByCurriculumIndexIs + userHighestPassingLessonNumberByCurriculumIndex);
     if (highestLessonForCurriculum > userHighestPassingLessonNumberByCurriculumIndex) {
       // Users current curriculum index is: parsedCurriculumIndex, so lets return it.
       // Then we are done scanning, exit for performance!
@@ -1218,15 +1218,15 @@ async function scanUserDataForCurrentCurriculum(userName) {
     } else if (highestLessonForCurriculum === userHighestPassingLessonNumberByCurriculumIndex) {
       let listOfCurriculumIndices = await getListOfCurriculumIndices();
       // listOfCurriculumIndices is:
-      await haystacks.consoleLog(namespacePrefix, functionName, 'listOfCurriculumIndices is: ' + JSON.stringify(listOfCurriculumIndices));
+      await haystacks.consoleLog(namespacePrefix, functionName, app_msg.clistOfCurriculumIndicesIs + JSON.stringify(listOfCurriculumIndices));
       if (listOfCurriculumIndices.includes(parsedCurriculumIndex + 1)) {
         parsedCurriculumIndex = parsedCurriculumIndex + 1;
         // Incrementing the parsedCurriculumIndex, stage it for return and continue the loop.
-        await haystacks.consoleLog(namespacePrefix, functionName, 'Incrementing the parsedCurriculumIndex, stage it for return and continue the loop.');
+        await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cscanUserDataForCurrentCurriculumMessage1);
       } else {
         // WARNING: parsedCurriculumIndex is not supported:
-        console.log('WARNING: parsedCurriculumIndex is not supported: ' + parsedCurriculumIndex);
-        await haystacks.consoleLog(namespacePrefix, functionName, 'WARNING: parsedCurriculumIndex is not supported: ' + parsedCurriculumIndex);
+        console.log(app_msg.cWarningScanUserDataForCurrentCurriculumMessage1 + parsedCurriculumIndex);
+        await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cWarningScanUserDataForCurrentCurriculumMessage1 + parsedCurriculumIndex);
       }
       // Save it for the return, if the above for-loop runs out or fails, we will have at least this number.
       returnData = parsedCurriculumIndex;
@@ -1257,7 +1257,7 @@ async function executeLesson(lessonNumber, optionalCurriculumIndex) {
   // lessonNumber is:
   await haystacks.consoleLog(namespacePrefix, functionName, app_msg.clessonNumberIs + lessonNumber);
   // optionalCurriculumIndex is:
-  await haystacks.consoleLog(namespacePrefix, functionName, 'optionalCurriculumIndex is: ' + optionalCurriculumIndex);
+  await haystacks.consoleLog(namespacePrefix, functionName, app_msg.coptionalCurriculumIndexIs + optionalCurriculumIndex);
   let returnData = false;
   let currentCurriculumIndex = 0;
   if (optionalCurriculumIndex !== undefined && optionalCurriculumIndex >= 0) {
@@ -1650,16 +1650,16 @@ async function computeAverageLessonScoreValues(scoresDataArray, lessonNumber) {
         wpm = 0; // Catch all of the off-nominal cases!
       }
       // wpm is:
-      await haystacks.consoleLog(namespacePrefix, functionName, 'wpm is: ' + wpm);
+      await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cwpmIs + wpm);
       wpmSum = wpmSum + wpm;
       accuracySum = accuracySum + scoreObject[app_sys.caccuracy];
     }
     // wpmSum is:
-    await haystacks.consoleLog(namespacePrefix, functionName, 'wpmSum is: ' + wpmSum);
+    await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cwpmSumIs + wpmSum);
     // accuracySum is:
-    await haystacks.consoleLog(namespacePrefix, functionName, 'accuracySum is: ' + accuracySum);
+    await haystacks.consoleLog(namespacePrefix, functionName, app_msg.caccuracySumIs + accuracySum);
     // scoresDataArray.length is:
-    await haystacks.consoleLog(namespacePrefix, functionName, 'scoresDataArray.length is: ' + scoresDataArray.length);
+    await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cscoresDataArrayLengthIs + scoresDataArray.length);
     averageWPM = wpmSum / scoresDataArray.length;
     averageAccuracy = accuracySum / scoresDataArray.length;
     adjustedWpm = averageWPM * averageAccuracy;
@@ -1780,7 +1780,7 @@ async function getHighestLessonCount(optionalCurriculumIndex) {
   let functionName = getHighestLessonCount.name;
   await haystacks.consoleLog(namespacePrefix, functionName, msg.cBEGIN_Function);
   // optionalCurriculumIndex is:
-  await haystacks.consoleLog(namespacePrefix, functionName, 'optionalCurriculumIndex is: ' + optionalCurriculumIndex);
+  await haystacks.consoleLog(namespacePrefix, functionName, app_msg.coptionalCurriculumIndexIs + optionalCurriculumIndex);
   let returnData = 0;
   let currentCurriculumIndex = 0;
   let lessonsData = await getLessonData();
@@ -1793,12 +1793,12 @@ async function getHighestLessonCount(optionalCurriculumIndex) {
     currentCurriculumIndex = await getCurrentCurriculumIndex(); // use the current index stored in the config setting.
   }
   // currentCurriculumIndex is:
-  await haystacks.consoleLog(namespacePrefix, functionName, 'currentCurriculumIndex is: ' + currentCurriculumIndex);
+  await haystacks.consoleLog(namespacePrefix, functionName, app_msg.ccurrentCurriculumIndexIs + currentCurriculumIndex);
   for (const key of Object.keys(lessonsData)) {
     if (lessonsData[key].CurriculumNumber === currentCurriculumIndex) {
       let lessonPlanKeys = Object.keys(lessonsData[key][app_sys.cLessonPlan][0]);
       // lessonPlanKeys is:
-      await haystacks.consoleLog(namespacePrefix, functionName, 'lessonPlanKeys is: ' + JSON.stringify(lessonPlanKeys));
+      await haystacks.consoleLog(namespacePrefix, functionName, app_msg.clessonPlanKeysIs + JSON.stringify(lessonPlanKeys));
       if (lessonPlanKeys && Array.isArray(lessonPlanKeys)) {
         returnData = lessonPlanKeys.length;
       }
@@ -1826,13 +1826,13 @@ async function getLessonAdvancementScoreLimitAccuracy(lessonNumber, optionalCurr
   // lessonNumber is:
   await haystacks.consoleLog(namespacePrefix, functionName, app_msg.clessonNumberIs + lessonNumber);
   // optionalCurriculumIndex is:
-  await haystacks.consoleLog(namespacePrefix, functionName, 'optionalCurriculumIndex is: ' + optionalCurriculumIndex);
+  await haystacks.consoleLog(namespacePrefix, functionName, app_msg.coptionalCurriculumIndexIs + optionalCurriculumIndex);
   let returnData = 0;
   if (await isLessonAdvancementLimitEnabled() === true) {
     if (await isIndividualizedLessonPassingScoresEnabled() === true) {
       let individualLessonData = await getIndividualLessonData(lessonNumber, optionalCurriculumIndex);
       // individualLessonData is:
-      await haystacks.consoleLog(namespacePrefix, functionName, 'individualLessonData is: ' + JSON.stringify(individualLessonData));
+      await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cindividualLessonDataIs + JSON.stringify(individualLessonData));
       returnData = individualLessonData[app_sys.cIndividualizedLessonPassingCriteria][0][app_sys.cAccuracyRequirement];
     } else {
       returnData = await haystacks.getConfigurationSetting(wrd.csystem, app_cfg.clessonPlanSuccessLimitingAccuracy);
@@ -1859,13 +1859,13 @@ async function getLessonAdvancementScoreLimitSpeed(lessonNumber, optionalCurricu
   // lessonNumber is:
   await haystacks.consoleLog(namespacePrefix, functionName, app_msg.clessonNumberIs + lessonNumber);
   // optionalCurriculumIndex is:
-  await haystacks.consoleLog(namespacePrefix, functionName, 'optionalCurriculumIndex is: ' + optionalCurriculumIndex);
+  await haystacks.consoleLog(namespacePrefix, functionName, app_msg.coptionalCurriculumIndexIs + optionalCurriculumIndex);
   let returnData = 0;
   if (await isLessonAdvancementLimitEnabled() === true) {
     if (await isIndividualizedLessonPassingScoresEnabled() === true) {
       let individualLessonData = await getIndividualLessonData(lessonNumber, optionalCurriculumIndex);
       // individualLessonData is:
-      await haystacks.consoleLog(namespacePrefix, functionName, 'individualLessonData is: ' + JSON.stringify(individualLessonData));
+      await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cindividualLessonDataIs + JSON.stringify(individualLessonData));
       returnData = individualLessonData[app_sys.cIndividualizedLessonPassingCriteria][0][app_sys.cSpeedRequirement];
     } else {
       returnData = await haystacks.getConfigurationSetting(wrd.csystem, app_cfg.clessonPlanSuccessLimitingSpeed);
@@ -1941,7 +1941,7 @@ async function getHighestScoringDataObjectForLesson(lessonNumber, inputUserName,
   // inputUserName is:
   await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cinputUserNameIs + inputUserName);
   // optionalCurriculumIndex is:
-  await haystacks.consoleLog(namespacePrefix, functionName, 'optionalCurriculumIndex is: ' + optionalCurriculumIndex);
+  await haystacks.consoleLog(namespacePrefix, functionName, app_msg.coptionalCurriculumIndexIs + optionalCurriculumIndex);
   let returnData = false;
   let currentMaxScore = 0;
   let indexOfMaxScore = -1;
@@ -1958,7 +1958,7 @@ async function getHighestScoringDataObjectForLesson(lessonNumber, inputUserName,
     currentCurriculumIndex = await getCurrentCurriculumIndex(inputUserName); // use the current index stored in the config setting.
   }
   // currentCurriculumIndex is:
-  await haystacks.consoleLog(namespacePrefix, functionName, 'currentCurriculumIndex is: ' + currentCurriculumIndex);
+  await haystacks.consoleLog(namespacePrefix, functionName, app_msg.ccurrentCurriculumIndexIs + currentCurriculumIndex);
   // currentUserName is:
   await haystacks.consoleLog(namespacePrefix, functionName, app_msg.ccurrentUserNameIs + currentUserName);
   let userAccountData = await getUserAccountData(currentUserName);
@@ -1976,22 +1976,22 @@ async function getHighestScoringDataObjectForLesson(lessonNumber, inputUserName,
     }
     let lessons = usersLessonData[wrd.cLessons];
     // lessons is:
-    await haystacks.consoleLog(namespacePrefix, functionName, 'lessons is: ' + JSON.stringify(lessons));
+    await haystacks.consoleLog(namespacePrefix, functionName, app_msg.clessonsIs + JSON.stringify(lessons));
     for (let lesson of lessons) {
       // lessonObject is:
-      await haystacks.consoleLog(namespacePrefix, functionName, 'lessonObject is: ' + JSON.stringify(lesson));
+      await haystacks.consoleLog(namespacePrefix, functionName, app_msg.clessonObjectIs + JSON.stringify(lesson));
       let lessonName = Object.keys(lesson)[0];
       // lessonName is:
-      await haystacks.consoleLog(namespacePrefix, functionName, 'lessonName is: ' + lessonName);
+      await haystacks.consoleLog(namespacePrefix, functionName, app_msg.clessonNameIs + lessonName);
       
       if (lessonName === individualLessonName) {
         let usersLessonDataValue = lesson[lessonName];
         // usersLessonDataValue is:
-        await haystacks.consoleLog(namespacePrefix, functionName, 'usersLessonDataValue is: ' + JSON.stringify(usersLessonDataValue));
+        await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cusersLessonDataValue + JSON.stringify(usersLessonDataValue));
         if (!usersLessonDataValue || usersLessonDataValue.length === 0) {
           returnData = false;
           // WARNING: UsersLessonDataValue is an empty array, return false from function: 
-          await haystacks.consoleLog(namespacePrefix, functionName, 'WARNING: usersLessonDataValue is an empty array, return false from function: ' + functionName);
+          await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cWarningGetHighestScoringDataObjectForLesson1 + functionName);
           break;
         }
         for (let usersLessonScoreIndividualLessonRecordKey in usersLessonDataValue) {
@@ -2002,9 +2002,9 @@ async function getHighestScoringDataObjectForLesson(lessonNumber, inputUserName,
             currentMaxScore = usersLessonScoreIndividualLessonRecord[app_sys.cadjustedWpm]
             indexOfMaxScore = usersLessonScoreIndividualLessonRecordKey;
             // currentMaxScore is:
-            await haystacks.consoleLog(namespacePrefix, functionName, 'currentMaxScore is: ' + currentMaxScore);
+            await haystacks.consoleLog(namespacePrefix, functionName, app_msg.ccurrentMaxScore + currentMaxScore);
             // indexOfMaxScore is:
-            await haystacks.consoleLog(namespacePrefix, functionName, 'indexOfMaxScore is: ' + indexOfMaxScore);
+            await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cindexOfMaxScore + indexOfMaxScore);
           }
         } // End-for (let usersLessonScoreIndividualLessonRecord in usersLessonData[individualLessonName])
         // The max index should now be established, return that object,
@@ -2016,8 +2016,8 @@ async function getHighestScoringDataObjectForLesson(lessonNumber, inputUserName,
     if (returnData) {
       break;
     } else {
-      // individualLessonName not found
-      await haystacks.consoleLog(namespacePrefix, functionName, 'individualLessonName not found: ' + individualLessonName);
+      // WARNING: individualLessonName not found:
+      await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cWarningGetHighestScoringDataObjectForLessonMessage2 + individualLessonName);
     }
   } // End-for (let usersLessonDataKey in userAccountData)
   await haystacks.consoleLog(namespacePrefix, functionName, msg.creturnDataIs + JSON.stringify(returnData));
@@ -2041,9 +2041,9 @@ async function getHighestLessonNumberAboveAdvancementScoringLimit(userName, curr
   let functionName = getHighestLessonNumberAboveAdvancementScoringLimit.name;
   await haystacks.consoleLog(namespacePrefix, functionName, msg.cBEGIN_Function);
   // userName is:
-  await haystacks.consoleLog(namespacePrefix, functionName, 'userName Is: ' + userName);
+  await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cuserNameIs + userName);
   // curriculumIndex is:
-  await haystacks.consoleLog(namespacePrefix, functionName, 'curriculumIndex Is: ' + curriculumIndex);
+  await haystacks.consoleLog(namespacePrefix, functionName, app_msg.ccurriculumIndexIs + curriculumIndex);
   let returnData = 0;
   let currentUserName = '';
   if (await isLessonAdvancementLimitEnabled() === true) {
@@ -2067,7 +2067,7 @@ async function getHighestLessonNumberAboveAdvancementScoringLimit(userName, curr
       // accuracyLimit is:
       await haystacks.consoleLog(namespacePrefix, functionName, app_msg.caccuracyLimitIs + accuracyLimit);
       // curriculumIndex is:
-      await haystacks.consoleLog(namespacePrefix, functionName, 'curriculumIndex is: ' + curriculumIndex);
+      await haystacks.consoleLog(namespacePrefix, functionName, app_msg.ccurriculumIndexIs + curriculumIndex);
       let speedLimit = await getLessonAdvancementScoreLimitSpeed(i, curriculumIndex);
       // speedLimit is:
       await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cspeedLimitIs + speedLimit);
@@ -2076,7 +2076,7 @@ async function getHighestLessonNumberAboveAdvancementScoringLimit(userName, curr
       await haystacks.consoleLog(namespacePrefix, functionName, app_msg.chighestScoreForLessonIs + JSON.stringify(highestScoreForLesson));
       if (!highestScoreForLesson || highestScoreForLesson < 0 || highestScoreForLesson === false) {
         // Found a false or empty lesson, break out of the loop and return that last known good returnData value.
-        await haystacks.consoleLog(namespacePrefix, functionName, 'Found a false or empty lesson, break out of the loop and return that last known good returnData value.');
+        await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cgetHighestLessonNumberAboveAdvancementScoringLimitMessage1);
         break;
       } else {
         // We must have gotten an object back.
@@ -2138,7 +2138,7 @@ async function generateUserReport(inputUserName) {
     currentCurriculumIndex = await scanUserDataForCurrentCurriculum(currentUserName);
   }
   // currentCurriculumIndex is:
-  await haystacks.consoleLog(namespacePrefix, functionName, 'currentCurriculumIndex is: ' + currentCurriculumIndex);
+  await haystacks.consoleLog(namespacePrefix, functionName, app_msg.ccurrentCurriculumIndexIs + currentCurriculumIndex);
   if (currentUserName !== undefined && currentUserName !== '' && currentCurriculumIndex !== undefined && currentCurriculumIndex >= 0) {
     let userAccountData = await getUserAccountData(currentUserName);
     // userAccountData is:
@@ -2216,18 +2216,18 @@ async function generateReportAllUsers() {
   await haystacks.consoleLog(namespacePrefix, functionName, app_msg.callAccountsDataIs + JSON.stringify(allAccountsData));
   let allAccountUserNames = Object.keys(allAccountsData);
   // allAccountUserNames is:
-  await haystacks.consoleLog(namespacePrefix, functionName, 'allAccountUserNames is: ' + allAccountUserNames);
+  await haystacks.consoleLog(namespacePrefix, functionName, app_msg.callAccountUserNamesIs + allAccountUserNames);
   for (let currentUserNameKey in allAccountUserNames) {
     currentUserMaxLessonPass = 0;
     // currentUserNameKey is:
-    await haystacks.consoleLog(namespacePrefix, functionName, `currentUserNameKey is: ` + currentUserNameKey);
+    await haystacks.consoleLog(namespacePrefix, functionName, app_msg.ccurrentUserNameKeyIs + currentUserNameKey);
     let currentUserName = allAccountUserNames[currentUserNameKey];
     // currentUserName is:
     await haystacks.consoleLog(namespacePrefix, functionName, app_msg.ccurrentUserNameIs + currentUserName);
     // Still need to get the lesson index for the current user.
     currentCurriculumIndex = await scanUserDataForCurrentCurriculum(currentUserName);
     // currentCurriculumIndex is:
-    await haystacks.consoleLog(namespacePrefix, functionName, 'currentCurriculumIndex is: ' + currentCurriculumIndex);
+    await haystacks.consoleLog(namespacePrefix, functionName, app_msg.ccurrentCurriculumIndexIs + currentCurriculumIndex);
     let lessonCount = await getLessonCount(currentCurriculumIndex);
     // lessonCount is:
     await haystacks.consoleLog(namespacePrefix, functionName, app_msg.clessonCountIs + lessonCount);

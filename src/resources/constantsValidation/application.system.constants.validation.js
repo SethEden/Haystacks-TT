@@ -28,6 +28,7 @@ export const applicationSystemConstantsValidation = [
   {Name: 'caccuracy', Actual: app_sys.caccuracy, Expected: 'accuracy'},
   {Name: 'ccurriculumName', Actual: app_sys.ccurriculumName, Expected: 'curriculumName'},
   {Name: 'ccurriculumIndex', Actual: app_sys.ccurriculumIndex, Expected: 'curriculumIndex'},
+  {Name: 'cCurriculumNumber', Actual: app_sys.cCurriculumNumber, Expected: 'CurriculumNumber'},
   {Name: 'clessonTimeStamp', Actual: app_sys.clessonTimeStamp, Expected: 'lessonTimeStamp'},
   {Name: 'ctotalTime', Actual: app_sys.ctotalTime, Expected: 'totalTime'},
   {Name: 'ctotalCorrectCharacterCount', Actual: app_sys.ctotalCorrectCharacterCount, Expected: 'totalCorrectCharacterCount'},

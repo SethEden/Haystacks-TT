@@ -17,6 +17,7 @@
 // Internal imports
 import * as app_cfg from '../../constants/application.configuration.constants.js';
 import * as apc from '../../constants/application.constants.js';
+import * as app_msg from '../../constants/application.message.constants.js';
 // External imports
 import haystacks from '@haystacks/async';
 import hayConst from '@haystacks/constants';
@@ -46,22 +47,22 @@ async function setEnableLessonPlanLimitingFactors(inputData, inputMetaData) {
   if (Array.isArray(inputData) && inputData.length === 2) {
     let stringSettingValue = inputData[1];
     // stringSettingValue is:
-    await haystacks.consoleLog(namespacePrefix, functionName, 'stringSettingValue is: ' + stringSettingValue);
+    await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cstringSettingValueIs + stringSettingValue);
     let newSettingValue = false;
     newSettingValue = await haystacks.executeBusinessRules([stringSettingValue, ''], [biz.cstringToDataType]);
     // newSettingValue is:
-    await haystacks.consoleLog(namespacePrefix, functionName, 'newSettingValue is: ' + newSettingValue);
+    await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cnewSettingValueIs + newSettingValue);
     let settingSaved = await haystacks.setConfigurationSetting(wrd.csystem, app_cfg.cenableLessonPlanLimitingFactors, newSettingValue);
     // settingSaved is:
-    await haystacks.consoleLog(namespacePrefix, functionName, 'settingSaved is: ' + settingSaved);
+    await haystacks.consoleLog(namespacePrefix, functionName, app_msg.csettingSavedIs + settingSaved);
     if (settingSaved === false) {
       // ERROR: Setting not saved: 
-      console.log('ERROR: Setting not saved: ' + app_cfg.cenableLessonPlanLimitingFactors);
+      console.log(app_msg.cErrorSetEnableLessonPlanLimitingFactors1 + app_cfg.cenableLessonPlanLimitingFactors);
     }
   } else {
     // ERROR: Invalid setting value input.
-    console.log('ERROR: Invalid setting value input. Setting: ' + app_cfg.cenableLessonPlanLimitingFactors);
-    await haystacks.consoleLog(namespacePrefix, functionName, 'ERROR: Invalid setting value input. Setting: ' + 
+    console.log(app_msg.cErrorSetEnableLessonPlanLimitingFactors2 + app_cfg.cenableLessonPlanLimitingFactors);
+    await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cErrorSetEnableLessonPlanLimitingFactors2 + 
       app_cfg.cenableLessonPlanLimitingFactors);
   }
   await haystacks.consoleLog(namespacePrefix, functionName, msg.creturnDataIs + JSON.stringify(returnData));
@@ -88,22 +89,22 @@ async function setEnableIndividualizedLessonPassingScores(inputData, inputMetaDa
   if (Array.isArray(inputData) && inputData.length === 2) {
     let stringSettingValue = inputData[1];
     // stringSettingValue is:
-    await haystacks.consoleLog(namespacePrefix, functionName, 'stringSettingValue is: ' + stringSettingValue);
+    await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cstringSettingValueIs + stringSettingValue);
     let newSettingValue = false;
     newSettingValue = await haystacks.executeBusinessRules([stringSettingValue, ''], [biz.cstringToDataType]);
     // newSettingValue is:
-    await haystacks.consoleLog(namespacePrefix, functionName, 'newSettingValue is: ' + newSettingValue);
+    await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cnewSettingValueIs + newSettingValue);
     let settingSaved = await haystacks.setConfigurationSetting(wrd.csystem, app_cfg.cenableIndividualizedLessonPassingScores, newSettingValue);
     // settingSaved is:
-    await haystacks.consoleLog(namespacePrefix, functionName, 'settingSaved is: ' + settingSaved);
+    await haystacks.consoleLog(namespacePrefix, functionName, app_msg.csettingSavedIs + settingSaved);
     if (settingSaved === false) {
       // ERROR: Setting not saved: 
-      console.log('ERROR: Setting not saved: ' + app_cfg.cenableIndividualizedLessonPassingScores);
+      console.log(app_msg.cErrorSetEnableLessonPlanLimitingFactors1 + app_cfg.cenableIndividualizedLessonPassingScores);
     }
   } else {
     // ERROR: Invalid setting value input.
-    console.log('ERROR: Invalid setting value input. Setting: ' + app_cfg.cenableIndividualizedLessonPassingScores);
-    await haystacks.consoleLog(namespacePrefix, functionName, 'ERROR: Invalid setting value input. Setting: ' +
+    console.log(app_msg.cErrorSetEnableLessonPlanLimitingFactors2 + app_cfg.cenableIndividualizedLessonPassingScores);
+    await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cErrorSetEnableLessonPlanLimitingFactors2 +
       app_cfg.cenableIndividualizedLessonPassingScores);
   }
   await haystacks.consoleLog(namespacePrefix, functionName, msg.creturnDataIs + JSON.stringify(returnData));
@@ -130,22 +131,22 @@ async function setLessonPlanSuccessLimitingAccuracy(inputData, inputMetaData) {
   if (Array.isArray(inputData) && inputData.length === 2) {
     let stringSettingValue = inputData[1];
     // stringSettingValue is:
-    await haystacks.consoleLog(namespacePrefix, functionName, 'stringSettingValue is: ' + stringSettingValue);
+    await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cstringSettingValueIs + stringSettingValue);
     let newSettingValue = false;
     newSettingValue = await haystacks.executeBusinessRules([stringSettingValue, ''], [biz.cstringToDataType]);
     // newSettingValue is:
-    await haystacks.consoleLog(namespacePrefix, functionName, 'newSettingValue is: ' + newSettingValue);
+    await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cnewSettingValueIs + newSettingValue);
     let settingSaved = await haystacks.setConfigurationSetting(wrd.csystem, app_cfg.clessonPlanSuccessLimitingAccuracy, newSettingValue);
     // settingSaved is:
-    await haystacks.consoleLog(namespacePrefix, functionName, 'settingSaved is: ' + settingSaved);
+    await haystacks.consoleLog(namespacePrefix, functionName, app_msg.csettingSavedIs + settingSaved);
     if (settingSaved === false) {
       // ERROR: Setting not saved: 
-      console.log('ERROR: Setting not saved: ' + app_cfg.clessonPlanSuccessLimitingAccuracy);
+      console.log(app_msg.cErrorSetEnableLessonPlanLimitingFactors1 + app_cfg.clessonPlanSuccessLimitingAccuracy);
     }
   } else {
     // ERROR: Invalid setting value input.
-    console.log('ERROR: Invalid setting value input. Setting: ' + app_cfg.clessonPlanSuccessLimitingAccuracy);
-    await haystacks.consoleLog(namespacePrefix, functionName, 'ERROR: Invalid setting value input. Setting: ' +
+    console.log(app_msg.cErrorSetEnableLessonPlanLimitingFactors2 + app_cfg.clessonPlanSuccessLimitingAccuracy);
+    await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cErrorSetEnableLessonPlanLimitingFactors2 +
       app_cfg.clessonPlanSuccessLimitingAccuracy);
   }
   await haystacks.consoleLog(namespacePrefix, functionName, msg.creturnDataIs + JSON.stringify(returnData));
@@ -172,22 +173,22 @@ async function setLessonPlanSuccessLimitingSpeed(inputData, inputMetaData) {
   if (Array.isArray(inputData) && inputData.length === 2) {
     let stringSettingValue = inputData[1];
     // stringSettingValue is:
-    await haystacks.consoleLog(namespacePrefix, functionName, 'stringSettingValue is: ' + stringSettingValue);
+    await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cstringSettingValueIs + stringSettingValue);
     let newSettingValue = false;
     newSettingValue = await haystacks.executeBusinessRules([stringSettingValue, ''], [biz.cstringToDataType]);
     // newSettingValue is:
-    await haystacks.consoleLog(namespacePrefix, functionName, 'newSettingValue is: ' + newSettingValue);
+    await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cnewSettingValueIs + newSettingValue);
     let settingSaved = await haystacks.setConfigurationSetting(wrd.csystem, app_cfg.clessonPlanSuccessLimitingSpeed, newSettingValue);
     // settingSaved is:
-    await haystacks.consoleLog(namespacePrefix, functionName, 'settingSaved is: ' + settingSaved);
+    await haystacks.consoleLog(namespacePrefix, functionName, app_msg.csettingSavedIs + settingSaved);
     if (settingSaved === false) {
       // ERROR: Setting not saved: 
-      console.log('ERROR: Setting not saved: ' + app_cfg.clessonPlanSuccessLimitingSpeed);
+      console.log(app_msg.cErrorSetEnableLessonPlanLimitingFactors1 + app_cfg.clessonPlanSuccessLimitingSpeed);
     }
   } else {
     // ERROR: Invalid setting value input.
-    console.log('ERROR: Invalid setting value input. Setting: ' + app_cfg.clessonPlanSuccessLimitingSpeed);
-    await haystacks.consoleLog(namespacePrefix, functionName, 'ERROR: Invalid setting value input. Setting: ' +
+    console.log(app_msg.cErrorSetEnableLessonPlanLimitingFactors2 + app_cfg.clessonPlanSuccessLimitingSpeed);
+    await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cErrorSetEnableLessonPlanLimitingFactors2 +
       app_cfg.clessonPlanSuccessLimitingSpeed);
   }
   await haystacks.consoleLog(namespacePrefix, functionName, msg.creturnDataIs + JSON.stringify(returnData));
@@ -214,22 +215,22 @@ async function setAdhereToCurriculumOrderRequirement(inputData, inputMetaData) {
   if (Array.isArray(inputData) && inputData.length === 2) {
     let stringSettingValue = inputData[1];
     // stringSettingValue is:
-    await haystacks.consoleLog(namespacePrefix, functionName, 'stringSettingValue is: ' + stringSettingValue);
+    await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cstringSettingValueIs + stringSettingValue);
     let newSettingValue = false;
     newSettingValue = await haystacks.executeBusinessRules([stringSettingValue, ''], [biz.cstringToDataType]);
     // newSettingValue is:
-    await haystacks.consoleLog(namespacePrefix, functionName, 'newSettingValue is: ' + newSettingValue);
+    await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cnewSettingValueIs + newSettingValue);
     let settingSaved = await haystacks.setConfigurationSetting(wrd.csystem, app_cfg.cadhereToCurriculumOrderRequirement, newSettingValue);
     // settingSaved is:
-    await haystacks.consoleLog(namespacePrefix, functionName, 'settingSaved is: ' + settingSaved);
+    await haystacks.consoleLog(namespacePrefix, functionName, app_msg.csettingSavedIs + settingSaved);
     if (settingSaved === false) {
       // ERROR: Setting not saved: 
-      console.log('ERROR: Setting not saved: ' + app_cfg.cadhereToCurriculumOrderRequirement);
+      console.log(app_msg.cErrorSetEnableLessonPlanLimitingFactors1 + app_cfg.cadhereToCurriculumOrderRequirement);
     }
   } else {
     // ERROR: Invalid setting value input.
-    console.log('ERROR: Invalid setting value input. Setting: ' + app_cfg.cadhereToCurriculumOrderRequirement);
-    await haystacks.consoleLog(namespacePrefix, functionName, 'ERROR: Invalid setting value input. Setting: ' +
+    console.log(app_msg.cErrorSetEnableLessonPlanLimitingFactors2 + app_cfg.cadhereToCurriculumOrderRequirement);
+    await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cErrorSetEnableLessonPlanLimitingFactors2 +
       app_cfg.cadhereToCurriculumOrderRequirement);
   }
   await haystacks.consoleLog(namespacePrefix, functionName, msg.creturnDataIs + JSON.stringify(returnData));
@@ -256,22 +257,22 @@ async function setManuallySetCurriculumIndex(inputData, inputMetaData) {
   if (Array.isArray(inputData) && inputData.length === 2) {
     let stringSettingValue = inputData[1];
     // stringSettingValue is:
-    await haystacks.consoleLog(namespacePrefix, functionName, 'stringSettingValue is: ' + stringSettingValue);
+    await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cstringSettingValueIs + stringSettingValue);
     let newSettingValue = false;
     newSettingValue = await haystacks.executeBusinessRules([stringSettingValue, ''], [biz.cstringToDataType]);
     // newSettingValue is:
-    await haystacks.consoleLog(namespacePrefix, functionName, 'newSettingValue is: ' + newSettingValue);
+    await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cnewSettingValueIs + newSettingValue);
     let settingSaved = await haystacks.setConfigurationSetting(wrd.csystem, app_cfg.cmanuallySetCurriculumIndex, newSettingValue);
     // settingSaved is:
-    await haystacks.consoleLog(namespacePrefix, functionName, 'settingSaved is: ' + settingSaved);
+    await haystacks.consoleLog(namespacePrefix, functionName, app_msg.csettingSavedIs + settingSaved);
     if (settingSaved === false) {
       // ERROR: Setting not saved: 
-      console.log('ERROR: Setting not saved: ' + app_cfg.cmanuallySetCurriculumIndex);
+      console.log(app_msg.cErrorSetEnableLessonPlanLimitingFactors1 + app_cfg.cmanuallySetCurriculumIndex);
     }
   } else {
     // ERROR: Invalid setting value input.
-    console.log('ERROR: Invalid setting value input. Setting: ' + app_cfg.cmanuallySetCurriculumIndex);
-    await haystacks.consoleLog(namespacePrefix, functionName, 'ERROR: Invalid setting value input. Setting: ' +
+    console.log(app_msg.cErrorSetEnableLessonPlanLimitingFactors2 + app_cfg.cmanuallySetCurriculumIndex);
+    await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cErrorSetEnableLessonPlanLimitingFactors2 +
       app_cfg.cmanuallySetCurriculumIndex);
   }
   await haystacks.consoleLog(namespacePrefix, functionName, msg.creturnDataIs + JSON.stringify(returnData));
