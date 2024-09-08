@@ -649,7 +649,7 @@ async function generateBlankLessonData(curriculumName) {
   // curriculumName is:
   await haystacks.consoleLog(namespacePrefix, functionName, app_msg.ccurriculumNameIs + curriculumName);
   let returnData = false;
-  currentCurriculumIndex = await lookupCurriculum(curriculumName);
+  let currentCurriculumIndex = await lookupCurriculum(curriculumName);
   // Get the lesson data.
   let masterLessonsData = await getCurriculumObject(currentCurriculumIndex);
   // masterLessonsData is:
