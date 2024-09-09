@@ -1,0 +1,43 @@
+{
+  "LessonCurriculumName": "TreasureIsland",
+  "CurriculumNumber": 1,
+  "CurriculumOrderRequirement": "Not Required",
+  "ListOfCurriculumPrerequisites": "0",
+  "LessonPlan": [{
+    "Lesson_0001": {
+      "Name": "Lesson_0001",
+      "Number": 1,
+      "IndividualizedLessonPassingCriteria": [{
+        "AccuracyRequirement": 50.0,
+        "SpeedRequirement": 10
+      }],
+      "Description": "Hello World in JavaScript",
+      "Lines": [{
+        "Line_01": "",
+        "Line_02": "",
+        "Line_03": "",
+        "Line_04": "",
+        "Line_05": "",
+        "Line_06": "",
+        "Line_07": "",
+        "Line_08": "",
+        "Line_09": "",
+        "Line_10": "",
+        "Line_11": "",
+        "Line_12": "",
+        "Line_13": ""
+      }]
+    }
+  }]
+}
+
+
+
+
+
+
+
+
+
+
+

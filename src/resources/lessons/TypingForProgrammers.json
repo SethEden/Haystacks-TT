@@ -1,8 +1,8 @@
 {
   "LessonCurriculumName": "TypingForProgrammers",
-  "CurriculumNumber": 1,
+  "CurriculumNumber": 2,
   "CurriculumOrderRequirement": "Not Required",
-  "ListOfCurriculumPrerequisites": "0",
+  "ListOfCurriculumPrerequisites": "0,1",
   "LessonPlan": [{
     "Lesson_0001": {
       "Name": "Lesson_0001",
