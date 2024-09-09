@@ -76,4 +76,4 @@ DO NOT APPROVE!!!
 
 26. Pull the latest code.
 
-27. execute "npm i" again to re-install pulling the latest code that was just published on npm wtih the latest version number.
+27. execute "npm i" again to re-install pulling the latest code that was just published on npm with the latest version number.
