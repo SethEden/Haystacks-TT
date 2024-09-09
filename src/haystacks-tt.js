@@ -181,8 +181,14 @@ async function application() {
   await haystacks.consoleLog(namespacePrefix, functionName, app_msg.capplicationMessage02);
   while (programRunning === true) {
     currentUser = await accountBroker.currentUserAccount();
+    currentCurriculumName = await accountBroker.getCurrentCurriculumName();
     if (await haystacks.isCommandQueueEmpty() === true) {
-      commandInput = await haystacks.executeBusinessRules([currentUser + bas.cGreaterThan, ''], [wrd.cprompt]);
+      if (currentCurriculumName === false) {
+        commandInput = await haystacks.executeBusinessRules([currentUser + bas.cGreaterThan, ''], [wrd.cprompt]);
+      } else {
+        commandInput = await haystacks.executeBusinessRules([currentUser + bas.cGreaterThan +
+        currentCurriculumName + bas.cGreaterThan, ''], [wrd.cprompt]);
+      }
       await haystacks.enqueueCommand(commandInput);
     } // End-if (await haystacks.isCommandQueueEmpty() === true)
     commandResult = await haystacks.processCommandQueue();
@@ -205,6 +211,7 @@ async function application() {
 // Launch the application!
 let programRunning = false;
 let currentUser = '';
+let currentCurriculumName = '';
 await bootStrapApplication();
 programRunning = true;
 await application();

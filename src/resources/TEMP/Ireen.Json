@@ -7,7 +7,7 @@
         "Lesson_0001": [
           {
             "curriculumName": "TypingBasics",
-            "curriculumIndex": 1,
+            "curriculumIndex": 0,
             "lessonTimeStamp": "20230309-171617-586",
             "totalTime": 5357,
             "totalCorrectCharacterCount": 34,
@@ -23,7 +23,7 @@
         "Lesson_0002": [
           {
             "curriculumName": "TypingBasics",
-            "curriculumIndex": 1,
+            "curriculumIndex": 0,
             "lessonTimeStamp": "20230309-171636-572",
             "totalTime": 6081,
             "totalCorrectCharacterCount": 28,

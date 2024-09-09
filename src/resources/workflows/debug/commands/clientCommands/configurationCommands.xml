@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><CommandWorkflows>
+  <debug>
+    <commandsBlob>
+      <commands>
+        <tutoringCommands>
+          <Workflow Name="configurationCommandsEnable" Value="changeConfigSetting debugSetting.application.haystacks-tt.commands.clientCommands.configurationCommands true"/>
+          <Workflow Name="configurationCommandsDisable" Value="changeConfigSetting debugSetting.application.haystacks-tt.commands.clientCommands.configurationCommands false"/>
+          <Workflow Name="setEnableLessonPlanLimitingFactorsEnable" Value="changeConfigSetting debugSetting.application.haystacks-tt.commands.clientCommands.configurationCommands.setEnableLessonPlanLimitingFactors true"/>
+          <Workflow Name="setEnableLessonPlanLimitingFactorsDisable" Value="changeConfigSetting debugSetting.application.haystacks-tt.commands.clientCommands.configurationCommands.setEnableLessonPlanLimitingFactors false"/>
+          <Workflow Name="setEnableIndividualizedLessonPassingScoresEnable" Value="changeConfigSetting debugSetting.application.haystacks-tt.commands.clientCommands.configurationCommands.setEnableIndividualizedLessonPassingScores true"/>
+          <Workflow Name="setEnableIndividualizedLessonPassingScoresDisable" Value="changeConfigSetting debugSetting.application.haystacks-tt.commands.clientCommands.configurationCommands.setEnableIndividualizedLessonPassingScores false"/>
+          <Workflow Name="setLessonPlanSuccessLimitingAccuracyEnable" Value="changeConfigSetting debugSetting.application.haystacks-tt.commands.clientCommands.configurationCommands.setLessonPlanSuccessLimitingAccuracy true"/>
+          <Workflow Name="setLessonPlanSuccessLimitingAccuracyDisable" Value="changeConfigSetting debugSetting.application.haystacks-tt.commands.clientCommands.configurationCommands.setLessonPlanSuccessLimitingAccuracy false"/>
+          <Workflow Name="setLessonPlanSuccessLimitingSpeedEnable" Value="changeConfigSetting debugSetting.application.haystacks-tt.commands.clientCommands.configurationCommands.setLessonPlanSuccessLimitingSpeed true"/>
+          <Workflow Name="setLessonPlanSuccessLimitingSpeedDisable" Value="changeConfigSetting debugSetting.application.haystacks-tt.commands.clientCommands.configurationCommands.setLessonPlanSuccessLimitingSpeed false"/>
+          <Workflow Name="setAdhereToCurriculumOrderRequirementEnable" Value="changeConfigSetting debugSetting.application.haystacks-tt.commands.clientCommands.configurationCommands.setAdhereToCurriculumOrderRequirement true"/>
+          <Workflow Name="setAdhereToCurriculumOrderRequirementDisable" Value="changeConfigSetting debugSetting.application.haystacks-tt.commands.clientCommands.configurationCommands.setAdhereToCurriculumOrderRequirement false"/>
+          <Workflow Name="setManuallySetCurriculumIndexEnable" Value="changeConfigSetting debugSetting.application.haystacks-tt.commands.clientCommands.configurationCommands.setManuallySetCurriculumIndex true"/>
+          <Workflow Name="setManuallySetCurriculumIndexDisable" Value="changeConfigSetting debugSetting.application.haystacks-tt.commands.clientCommands.configurationCommands.setManuallySetCurriculumIndex false"/>
+        </tutoringCommands>
+      </commands>
+    </commandsBlob>
+  </debug>
+</CommandWorkflows>

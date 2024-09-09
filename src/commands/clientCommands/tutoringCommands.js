@@ -16,6 +16,7 @@
 
 // Internal imports
 import accountBroker from '../../brokers/accountBroker.js';
+import * as app_cfg from '../../constants/application.configuration.constants.js';
 import * as apc from '../../constants/application.constants.js';
 import * as app_msg from '../../constants/application.message.constants.js';
 import * as app_sys from '../../constants/application.system.constants.js';
@@ -65,14 +66,17 @@ async function createAccount(inputData, inputMetaData) {
       if (accountStoredSuccess === false) {
         // ERROR: Newly created account was not saved, could not create the specified account:
         console.log(app_msg.cErrorCreateAccountMessage02 + inputData[1]);
+        await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cErrorCreateAccountMessage02 + inputData[1]);
       }
     } else {
       // ERROR: The user account already exists, please choose a different user name and try again.
       console.log(app_msg.cErrorInvalidUserNameCreateAccountMessage02);
+      await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cErrorInvalidUserNameCreateAccountMessage02);
     }
   } else {
     // ERROR: Invalid user name, please try again with a valid username.
     console.log(app_msg.cErrorInvalidUserNameCreateAccountMessage01 + inputData[1]);
+    await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cErrorInvalidUserNameCreateAccountMessage01 + inputData[1]);
   }
   // let newUserAccount = {userName: }
   await haystacks.consoleLog(namespacePrefix, functionName, msg.creturnDataIs + JSON.stringify(returnData));
@@ -98,6 +102,7 @@ async function printAccountsData(inputData, inputMetaData) {
   let returnData = [true, ''];
   let storedAccountData = await accountBroker.getAccountData();
   console.log(app_msg.cstoredAccountDataIs + JSON.stringify(storedAccountData));
+  await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cstoredAccountDataIs + JSON.stringify(storedAccountData));
   await haystacks.consoleLog(namespacePrefix, functionName, msg.creturnDataIs + JSON.stringify(returnData));
   await haystacks.consoleLog(namespacePrefix, functionName, msg.cEND_Function);
   return returnData;
@@ -124,6 +129,7 @@ async function printAccountData(inputData, inputMetaData) {
     let userAccountData = await accountBroker.getUserAccountData(inputData[1]);
     // userAccountData is:
     console.log(app_msg.cuserAccountDataIs + JSON.stringify(userAccountData));
+    await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cuserAccountDataIs + JSON.stringify(userAccountData));
   } else {
     // User didn't enter any account name for input, so just print all of the data for all accounts!
     await printAccountsData();
@@ -177,18 +183,22 @@ async function deleteAccount(inputData, inputMetaData) {
         if (accountStoredSuccess === false) {
           // ERROR: Newly created account was not saved, could not create the specified account:
           console.log(app_msg.cErrorCreateAccountMessage02 + inputData[1]);
+          await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cErrorCreateAccountMessage02 + inputData[1]);
         }
       } else {
         // INFO: No account was deleted.
         console.log(app_msg.cErrorNoDeleteAccountMessage02)
+        await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cErrorNoDeleteAccountMessage02);
       }
     } else {
       // ERROR: Cannot delete user, user does not exist.
       console.log(app_msg.cErrorNoUserFoundDeleteAccountMessage01);
+      await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cErrorNoUserFoundDeleteAccountMessage01);
     }
   } else {
     // ERROR: Invalid user name, please try again with a valid username.
     console.log(app_msg.cErrorInvalidUserNameCreateAccountMessage01 + inputData[1]);
+    await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cErrorInvalidUserNameCreateAccountMessage01 + inputData[1]);
   }
   await haystacks.consoleLog(namespacePrefix, functionName, msg.creturnDataIs + JSON.stringify(returnData));
   await haystacks.consoleLog(namespacePrefix, functionName, msg.cEND_Function);
@@ -220,19 +230,39 @@ async function login(inputData, inputMetaData) {
       if (configSettingSet === false) {
         // ERROR: Unable to login with the specified user:
         console.log(app_msg.cErrorLoginMessage02 + inputData[1]);
+        await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cErrorLoginMessage02 + inputData[1]);
+      } else {
+        let manuallySetCurriculumIndex = await haystacks.getConfigurationSetting(wrd.csystem, app_cfg.cmanuallySetCurriculumIndex);
+        if (manuallySetCurriculumIndex === false) {
+          // User is successfully logged in, now we need to do a little homework.
+          // to determine what the current curriculum should be for the current user.
+          // This should be set, but the user can and will be able to change it manually.
+          let currentCurriculumIndex = await accountBroker.scanUserDataForCurrentCurriculum();
+          // currentCurriculumIndex is:
+          await haystacks.consoleLog(namespacePrefix, functionName, app_msg.ccurrentCurriculumIndexIs + currentCurriculumIndex);
+          await accountBroker.setCurrentCurriculum(currentCurriculumIndex);
+        } else {
+          // Yes we will manually set the current curriculum, and hard code it first to the 0-index.
+          await accountBroker.setCurrentCurriculum(0);
+        }
       }
     } else {
       // ERROR: Cannot login, user does not exist.
       console.log(app_msg.cErrorNoUserFoundLoginMessage01);
+      await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cErrorNoUserFoundLoginMessage01);
     }
   } else {
     // ERROR: Invalid user name, please try again with a valid username.
     // console.log(app_msg.cErrorInvalidUserNameCreateAccountMessage01 + inputData[1]);
+    await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cErrorInvalidUserNameCreateAccountMessage01 + inputData[1]);
     
     // If the user didn't specify a username, then we will clear the login configuration setting,
     // So nobody is logged in.
     await accountBroker.loginUser('');
   }
+  let currentCurriculumIndex = await accountBroker.getCurrentCurriculumIndex();
+  // currentCurriculumIndex is:
+  await haystacks.consoleLog(namespacePrefix, functionName, app_msg.ccurrentCurriculumIndexIs + currentCurriculumIndex);
   await haystacks.consoleLog(namespacePrefix, functionName, msg.creturnDataIs + JSON.stringify(returnData));
   await haystacks.consoleLog(namespacePrefix, functionName, msg.cEND_Function);
   return returnData;
@@ -255,10 +285,11 @@ async function logout(inputData, inputMetaData) {
   await haystacks.consoleLog(namespacePrefix, functionName, msg.cinputMetaDataIs + inputMetaData);
   let returnData = [true, ''];
   let logoutSuccess = false
-  logoutSuccess = accountBroker.logoutUser('');
+  logoutSuccess = await accountBroker.logoutUser('');
   if (logoutSuccess === false) {
     // ERROR: Failure to logout.
     console.log(app_msg.cErrorFailureToLogOutMessage01);
+    await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cErrorFailureToLogOutMessage01);
   }
   await haystacks.consoleLog(namespacePrefix, functionName, msg.creturnDataIs + JSON.stringify(returnData));
   await haystacks.consoleLog(namespacePrefix, functionName, msg.cEND_Function);
@@ -285,7 +316,10 @@ async function startLesson(inputData, inputMetaData) {
   let userExecutedLesson = false;
   if (Array.isArray(inputData) && inputData.length === 2) {
     if (parseInt(inputData[1]) > 0) {
-      let maxLessonNumber = await accountBroker.getHighestLessonCount();
+      let currentCurriculumIndex = await accountBroker.getCurrentCurriculumIndex();
+      // currentCurriculumIndex is:
+      await haystacks.consoleLog(namespacePrefix, functionName, app_msg.ccurrentCurriculumIndexIs + currentCurriculumIndex);
+      let maxLessonNumber = await accountBroker.getHighestLessonCount(currentCurriculumIndex);
       // maxLessonNumber is:
       await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cmaxLessonNumberIs + maxLessonNumber);
       let userLessonNumber = parseInt(inputData[1]);
@@ -293,7 +327,6 @@ async function startLesson(inputData, inputMetaData) {
       await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cuserLessonNumberIs + userLessonNumber);
       if (userLessonNumber > 0 && userLessonNumber <= maxLessonNumber) {
         let lessonPassingScoreEnabled = await accountBroker.isLessonAdvancementLimitEnabled();
-        // TODO: Add support for per-lesson passing score configuration setting.
         // lessonPassingScoreEnabled is:
         await haystacks.consoleLog(namespacePrefix, functionName, app_msg.clessonPassingScoreEnabledIs + lessonPassingScoreEnabled);
         if (lessonPassingScoreEnabled === true) {
@@ -304,13 +337,13 @@ async function startLesson(inputData, inputMetaData) {
           // should always function the same way if the user is using the individualized lesson passing scores or,
           // the universally defined lesson passing scores. The lower level code will have been refactored internally.
           // Even the above code may need to be evaluated to be removed from this code here.
-          let lessonAdvancementScoreLimitAccuracy = await accountBroker.getLessonAdvancementScoreLimitAccuracy(userLessonNumber);
+          let lessonAdvancementScoreLimitAccuracy = await accountBroker.getLessonAdvancementScoreLimitAccuracy(userLessonNumber, currentCurriculumIndex);
           // lessonAdvancementScoreLimitAccuracy is:
           await haystacks.consoleLog(namespacePrefix, functionName, app_msg.clessonAdvancementScoreLimitAccuracyIs + lessonAdvancementScoreLimitAccuracy);
-          let lessonAdvancementScoreLimitSpeed = await accountBroker.getLessonAdvancementScoreLimitSpeed(userLessonNumber);
+          let lessonAdvancementScoreLimitSpeed = await accountBroker.getLessonAdvancementScoreLimitSpeed(userLessonNumber, currentCurriculumIndex);
           // lessonAdvancementScoreLimitSpeed is:
           await haystacks.consoleLog(namespacePrefix, functionName, app_msg.clessonAdvancementScoreLimitSpeedIs + lessonAdvancementScoreLimitSpeed);
-          let highestScoringLessonAboveAdvancementLimit = await accountBroker.getHighestLessonNumberAboveAdvancementScoringLimit(userLessonNumber);
+          let highestScoringLessonAboveAdvancementLimit = await accountBroker.getHighestLessonNumberAboveAdvancementScoringLimit('', currentCurriculumIndex);
           // highestScoringLessonAboveAdvancementLimit is:
           await haystacks.consoleLog(namespacePrefix, functionName, app_msg.chighestScoringLessonAboveAdvancementLimitIs + highestScoringLessonAboveAdvancementLimit);
           // Validate that the user is trying to execute a lesson a maximum of 1 lesson above the highest lesson number that has a passing score.
@@ -321,34 +354,58 @@ async function startLesson(inputData, inputMetaData) {
             // WARNING: You are not aloud to run this lesson,
             // please complete the earlier lessons before proceeding.
             console.log(app_msg.cWarningStartLessonMessage01 + bas.cSpace + app_msg.cWarningStartLessonMessage02);
+            await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cWarningStartLessonMessage01 + bas.cSpace + app_msg.cWarningStartLessonMessage02);
           }
         } else {
-          lessonScoreData = await accountBroker.executeLesson(userLessonNumber);
+          lessonScoreData = await accountBroker.executeLesson(userLessonNumber, currentCurriculumIndex);
           userExecutedLesson = true;
         }
         if (userExecutedLesson === true) {
           // lessonScoreData is:
           await haystacks.consoleLog(namespacePrefix, functionName, app_msg.clessonScoreDataIs + JSON.stringify(lessonScoreData));
           if (lessonScoreData) {
-            let updatedUserAccountData = await accountBroker.appendUsersLessonScoreData(lessonScoreData, userLessonNumber);
+            let updatedUserAccountData = await accountBroker.appendUsersLessonScoreData(lessonScoreData, userLessonNumber, currentCurriculumIndex);
             // updatedUserAccountData is:
             await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cupdatedUserAccountDataIs + JSON.stringify(updatedUserAccountData));
             await accountBroker.storeAccountData(updatedUserAccountData);
+
+            let userHasPassedLesson = await haystacks.getConfigurationSetting(wrd.csystem, app_cfg.cuserHasPassedLesson);
+            let userHasCompletedFinalLessonInCurriculum = await haystacks.getConfigurationSetting(wrd.csystem, app_cfg.cuserHasCompletedFinalLessonInCurriculum);
+            if (userHasPassedLesson === true && userHasCompletedFinalLessonInCurriculum === true) {
+              let manuallySetCurriculumIndex = await haystacks.getConfigurationSetting(wrd.csystem, app_cfg.cmanuallySetCurriculumIndex);
+              let newCurrentCurriculumIndex = 0;
+              if (manuallySetCurriculumIndex === false) {
+                newCurrentCurriculumIndex = await accountBroker.scanUserDataForCurrentCurriculum();
+              } else {
+                // Manually increment the curriculum index and hard code it essentially!
+                newCurrentCurriculumIndex = currentCurriculumIndex + 1;
+              }
+              // newCurrentCurriculumIndex is:
+              await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cnewCurrentCurriculumIndexIs + newCurrentCurriculumIndex);
+              await accountBroker.setCurrentCurriculum(newCurrentCurriculumIndex);
+              // Reset these flags.
+              await haystacks.setConfigurationSetting(wrd.csystem, app_cfg.cuserHasPassedLesson, false);
+              await haystacks.setConfigurationSetting(wrd.csystem, app_cfg.cuserHasCompletedFinalLessonInCurriculum, false);
+            }
           }
         } // End-if (userExecutedLesson === true)
       } else {
         // ERROR: The lesson number entered is not available.
         console.log(app_msg.cErrorStartLessonMessage03);
+        await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cErrorStartLessonMessage03);
         // Please enter a lesson number between 1 and:
         console.log(app_msg.cErrorStartLessonMessage04 + maxLessonNumber);
+        await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cErrorStartLessonMessage04 + maxLessonNumber);
       }
     } else {
       // ERROR: Invalid lesson number entered. Please enter a valid lesson number to execute.
-      console.log(app_msg.cErrorStartLessonMessage02)
+      console.log(app_msg.cErrorStartLessonMessage02);
+      await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cErrorStartLessonMessage02);
     }
   } else {
     // ERROR: No lesson number entered. Please enter a valid lesson number to execute.
     console.log(app_msg.cErrorStartLessonMessage01);
+    await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cErrorStartLessonMessage01);
   }
   await haystacks.consoleLog(namespacePrefix, functionName, msg.creturnDataIs + JSON.stringify(returnData));
   await haystacks.consoleLog(namespacePrefix, functionName, msg.cEND_Function);
@@ -383,6 +440,7 @@ async function generateUserReport(inputData, inputMetaData) {
     } else {
       // ERROR: Invalid user name, please try again with a valid username.
       console.log(app_msg.cErrorInvalidUserNameCreateAccountMessage01 + inputData[1]);
+      await haystacks.consoleLog(namespacePrefix, functionName, app_msg.cErrorInvalidUserNameCreateAccountMessage01 + inputData[1]);
     }
   } else {
     currentUserName = await accountBroker.currentUserAccount();
