@@ -9,6 +9,22 @@
           <Workflow Name="createAccountDisable" Value="changeConfigSetting debugSetting.application.haystacks-tt.commands.clientCommands.tutoringCommands.createAccount false"/>
           <Workflow Name="printAccountsDataEnable" Value="changeConfigSetting debugSetting.application.haystacks-tt.commands.clientCommands.tutoringCommands.printAccountsData true"/>
           <Workflow Name="printAccountsDataDisable" Value="changeConfigSetting debugSetting.application.haystacks-tt.commands.clientCommands.tutoringCommands.printAccountsData false"/>
+          <Workflow Name="printAccountDataEnable" Value="changeConfigSetting debugSetting.application.haystacks-tt.commands.clientCommands.tutoringCommands.printAccountData true"/>
+          <Workflow Name="printAccountDataDisable" Value="changeConfigSetting debugSetting.application.haystacks-tt.commands.clientCommands.tutoringCommands.printAccountData false"/>
+          <Workflow Name="deleteAccountEnable" Value="changeConfigSetting debugSetting.application.haystacks-tt.commands.clientCommands.tutoringCommands.deleteAccount true"/>
+          <Workflow Name="deleteAccountDisable" Value="changeConfigSetting debugSetting.application.haystacks-tt.commands.clientCommands.tutoringCommands.deleteAccount false"/>
+          <Workflow Name="loginEnable" Value="changeConfigSetting debugSetting.application.haystacks-tt.commands.clientCommands.tutoringCommands.login true"/>
+          <Workflow Name="loginDisable" Value="changeConfigSetting debugSetting.application.haystacks-tt.commands.clientCommands.tutoringCommands.login false"/>
+          <Workflow Name="logoutEnable" Value="changeConfigSetting debugSetting.application.haystacks-tt.commands.clientCommands.tutoringCommands.logout true"/>
+          <Workflow Name="logoutDisable" Value="changeConfigSetting debugSetting.application.haystacks-tt.commands.clientCommands.tutoringCommands.logout false"/>
+          <Workflow Name="startLessonEnable" Value="changeConfigSetting debugSetting.application.haystacks-tt.commands.clientCommands.tutoringCommands.startLesson true"/>
+          <Workflow Name="startLessonDisable" Value="changeConfigSetting debugSetting.application.haystacks-tt.commands.clientCommands.tutoringCommands.startLesson false"/>
+          <Workflow Name="generateUserReportEnable" Value="changeConfigSetting debugSetting.application.haystacks-tt.commands.clientCommands.tutoringCommands.generateUserReport true"/>
+          <Workflow Name="generateUserReportDisable" Value="changeConfigSetting debugSetting.application.haystacks-tt.commands.clientCommands.tutoringCommands.generateUserReport false"/>
+          <Workflow Name="printRecordsEnable" Value="changeConfigSetting debugSetting.application.haystacks-tt.commands.clientCommands.tutoringCommands.printRecords true"/>
+          <Workflow Name="printRecordsDisable" Value="changeConfigSetting debugSetting.application.haystacks-tt.commands.clientCommands.tutoringCommands.printRecords false"/>
+          <Workflow Name="destroyRecordsEnable" Value="changeConfigSetting debugSetting.application.haystacks-tt.commands.clientCommands.tutoringCommands.destroyRecords true"/>
+          <Workflow Name="destroyRecordsDisable" Value="changeConfigSetting debugSetting.application.haystacks-tt.commands.clientCommands.tutoringCommands.destroyRecords false"/>
         </tutoringCommands>
       </commands>
     </commandsBlob>
