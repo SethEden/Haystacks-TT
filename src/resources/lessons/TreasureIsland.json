@@ -11,7 +11,60 @@
         "AccuracyRequirement": 50.0,
         "SpeedRequirement": 10
       }],
-      "Description": "Hello World in JavaScript",
+      "Description": "To The Hesitating Purchaser",
+      "Lines": [{
+        "Line_01": "To The Hesitating Purchaser",
+        "Line_02": "If sailor talos to sailor tunes,",
+        "Line_03": "Storm and adventure, heat and cold,",
+        "Line_04": "If schooners, islands, and maroons",
+        "Line_05": "And Buccaneers and buried Gold,",
+        "Line_06": "And all the old romance, retold",
+        "Line_07": "Exactly in the ancient way,",
+        "Line_08": "Can please, as me they pleased of old,",
+        "Line_09": "The wiser youngsters of today:",
+        "Line_10": "-So be it, and fall on! If no,",
+        "Line_11": "If studios youth no longer crave,",
+        "Line_12": "His ancient appetites forgot,",
+        "Line_13": "Kingston, or Ballantyne the brave,",
+        "Line_14": "Or Cooper of the wood and wave:",
+        "Line_15": "So be it, also! And may I",
+        "Line_16": "And all my pirates share the grave",
+        "Line-17": "Where these and their creations lie!"
+      }]
+    },
+    "Lesson_0002": {
+      "Name": "Lesson_0002",
+      "Number": 2,
+      "IndividualizedLessonPassingCriteria": [{
+        "AccuracyRequirement": 50.0,
+        "SpeedRequirement": 10
+      }],
+      "Description": "Part 1 - Chapter 1 - Page 1: The Old Sea Dog At the 'Admiral Benbow'",
+      "Lines": [{
+        "Line_01": "Squire Trelawney, Dr. Livesey, and the rest of these",
+        "Line_02": "gentlemen having asked me to write down the whole",
+        "Line_03": "particulars about Treasure Island, from the beginning",
+        "Line_04": "to the end, keeping nothing back but the bearings of",
+        "Line_05": "the island, and that only because there is still treasure",
+        "Line_06": "not yet lifted, I take up my pen in the year of grace",
+        "Line_07": "17-, and go back to the time when my father kept",
+        "Line_08": "the 'Admiral Benbow' inn, and the brown old seaman,",
+        "Line_09": "with the sabre cut, first took up his lodging under our roof.",
+        "Line_10": "I remember him as if it were yesterday, as he came",
+        "Line_11": "plodding to the inn door, his sea-crest following behind",
+        "Line_12": "him in a hand-barrow; a tall, strong, heavy, nut-brown",
+        "Line_13": "man; his tarry pigtail falling over the shoulders of",
+        "Line_14": "his soiled blue coat; his hands ragged and scarred, with"
+      }]
+    },
+    "Lesson_0003": {
+      "Name": "Lesson_0003",
+      "Number": 3,
+      "IndividualizedLessonPassingCriteria": [{
+        "AccuracyRequirement": 50.0,
+        "SpeedRequirement": 10
+      }],
+      "Description": "Part 1 - Chapter 1 - Page 2: The Old Sea Dog At the 'Admiral Benbow'",
       "Lines": [{
         "Line_01": "",
         "Line_02": "",
@@ -25,9 +78,336 @@
         "Line_10": "",
         "Line_11": "",
         "Line_12": "",
-        "Line_13": ""
+        "Line_13": "",
+        "Line_14": "",
+        "line_15": "",
+        "Line_16": "",
+        "Line_17": "",
+        "Line_18": "",
+        "Line_19": "",
+        "Line_20": "",
+        "Line_21": "",
+        "Line_22": "",
+        "Line_23": "",
+        "Line_24": "",
+        "Line_25": "",
+        "Line_26": "",
+        "Line_27": "",
+        "line_28": ""
       }]
-    }
+    },
+    "Lesson_0004": {
+      "Name": "Lesson_0004",
+      "Number": 4,
+      "IndividualizedLessonPassingCriteria": [{
+        "AccuracyRequirement": 50.0,
+        "SpeedRequirement": 10
+      }],
+      "Description": "Part 1 - Chapter 1 - Page 3: The Old Sea Dog At the 'Admiral Benbow'",
+      "Lines": [{
+        "Line_01": "",
+        "Line_02": "",
+        "Line_03": "",
+        "Line_04": "",
+        "Line_05": "",
+        "Line_06": "",
+        "Line_07": "",
+        "Line_08": "",
+        "Line_09": "",
+        "Line_10": "",
+        "Line_11": "",
+        "Line_12": "",
+        "Line_13": "",
+        "Line_14": "",
+        "line_15": "",
+        "Line_16": "",
+        "Line_17": "",
+        "Line_18": "",
+        "Line_19": "",
+        "Line_20": "",
+        "Line_21": "",
+        "Line_22": "",
+        "Line_23": "",
+        "Line_24": "",
+        "Line_25": "",
+        "Line_26": "",
+        "Line_27": "",
+        "line_28": ""
+      }]
+    },
+    "Lesson_0005": {
+      "Name": "Lesson_0005",
+      "Number": 5,
+      "IndividualizedLessonPassingCriteria": [{
+        "AccuracyRequirement": 50.0,
+        "SpeedRequirement": 10
+      }],
+      "Description": "Part 1 - Chapter 1 - Page 4: The Old Sea Dog At the 'Admiral Benbow'",
+      "Lines": [{
+        "Line_01": "",
+        "Line_02": "",
+        "Line_03": "",
+        "Line_04": "",
+        "Line_05": "",
+        "Line_06": "",
+        "Line_07": "",
+        "Line_08": "",
+        "Line_09": "",
+        "Line_10": "",
+        "Line_11": "",
+        "Line_12": "",
+        "Line_13": "",
+        "Line_14": "",
+        "line_15": "",
+        "Line_16": "",
+        "Line_17": "",
+        "Line_18": "",
+        "Line_19": "",
+        "Line_20": "",
+        "Line_21": "",
+        "Line_22": "",
+        "Line_23": "",
+        "Line_24": "",
+        "Line_25": "",
+        "Line_26": "",
+        "Line_27": "",
+        "line_28": ""
+      }]
+    },
+    "Lesson_0006": {
+      "Name": "Lesson_0006",
+      "Number": 6,
+      "IndividualizedLessonPassingCriteria": [{
+        "AccuracyRequirement": 50.0,
+        "SpeedRequirement": 10
+      }],
+      "Description": "Part 1 - Chapter 1 - Page 5: The Old Sea Dog At the 'Admiral Benbow'",
+      "Lines": [{
+        "Line_01": "",
+        "Line_02": "",
+        "Line_03": "",
+        "Line_04": "",
+        "Line_05": "",
+        "Line_06": "",
+        "Line_07": "",
+        "Line_08": "",
+        "Line_09": "",
+        "Line_10": "",
+        "Line_11": "",
+        "Line_12": "",
+        "Line_13": "",
+        "Line_14": "",
+        "line_15": "",
+        "Line_16": "",
+        "Line_17": "",
+        "Line_18": "",
+        "Line_19": "",
+        "Line_20": "",
+        "Line_21": "",
+        "Line_22": "",
+        "Line_23": "",
+        "Line_24": "",
+        "Line_25": "",
+        "Line_26": "",
+        "Line_27": "",
+        "line_28": ""
+      }]
+    },
+    "Lesson_0007": {
+      "Name": "Lesson_0007",
+      "Number": 7,
+      "IndividualizedLessonPassingCriteria": [{
+        "AccuracyRequirement": 50.0,
+        "SpeedRequirement": 10
+      }],
+      "Description": "Part 1 - Chapter 1 - Page 6: The Old Sea Dog At the 'Admiral Benbow'",
+      "Lines": [{
+        "Line_01": "",
+        "Line_02": "",
+        "Line_03": "",
+        "Line_04": "",
+        "Line_05": "",
+        "Line_06": "",
+        "Line_07": "",
+        "Line_08": "",
+        "Line_09": "",
+        "Line_10": "",
+        "Line_11": "",
+        "Line_12": "",
+        "Line_13": "",
+        "Line_14": "",
+        "line_15": "",
+        "Line_16": "",
+        "Line_17": "",
+        "Line_18": "",
+        "Line_19": "",
+        "Line_20": "",
+        "Line_21": "",
+        "Line_22": "",
+        "Line_23": "",
+        "Line_24": "",
+        "Line_25": "",
+        "Line_26": "",
+        "Line_27": "",
+        "line_28": ""
+      }]
+    },
+    "Lesson_0008": {
+      "Name": "Lesson_0008",
+      "Number": 8,
+      "IndividualizedLessonPassingCriteria": [{
+        "AccuracyRequirement": 50.0,
+        "SpeedRequirement": 10
+      }],
+      "Description": "Part 1 - Chapter 1 - Page 7: The Old Sea Dog At the 'Admiral Benbow'",
+      "Lines": [{
+        "Line_01": "",
+        "Line_02": "",
+        "Line_03": "",
+        "Line_04": "",
+        "Line_05": "",
+        "Line_06": "",
+        "Line_07": "",
+        "Line_08": "",
+        "Line_09": "",
+        "Line_10": "",
+        "Line_11": "",
+        "Line_12": "",
+        "Line_13": "",
+        "Line_14": "",
+        "line_15": "",
+        "Line_16": "",
+        "Line_17": "",
+        "Line_18": "",
+        "Line_19": "",
+        "Line_20": "",
+        "Line_21": "",
+        "Line_22": "",
+        "Line_23": "",
+        "Line_24": "",
+        "Line_25": "",
+        "Line_26": "",
+        "Line_27": "",
+        "line_28": ""
+      }]
+    },
+    "Lesson_0009": {
+      "Name": "Lesson_0009",
+      "Number": 9,
+      "IndividualizedLessonPassingCriteria": [{
+        "AccuracyRequirement": 50.0,
+        "SpeedRequirement": 10
+      }],
+      "Description": "Part 1 - Chapter 1 - Page 8: The Old Sea Dog At the 'Admiral Benbow'",
+      "Lines": [{
+        "Line_01": "",
+        "Line_02": "",
+        "Line_03": "",
+        "Line_04": "",
+        "Line_05": "",
+        "Line_06": "",
+        "Line_07": "",
+        "Line_08": "",
+        "Line_09": "",
+        "Line_10": "",
+        "Line_11": "",
+        "Line_12": "",
+        "Line_13": "",
+        "Line_14": "",
+        "line_15": "",
+        "Line_16": "",
+        "Line_17": "",
+        "Line_18": "",
+        "Line_19": "",
+        "Line_20": "",
+        "Line_21": "",
+        "Line_22": "",
+        "Line_23": "",
+        "Line_24": "",
+        "Line_25": "",
+        "Line_26": "",
+        "Line_27": "",
+        "line_28": ""
+      }]
+    },
+    "Lesson_0010": {
+      "Name": "Lesson_0010",
+      "Number": 10,
+      "IndividualizedLessonPassingCriteria": [{
+        "AccuracyRequirement": 50.0,
+        "SpeedRequirement": 10
+      }],
+      "Description": "Part 1 - Chapter 1 - Page 9: The Old Sea Dog At the 'Admiral Benbow'",
+      "Lines": [{
+        "Line_01": "",
+        "Line_02": "",
+        "Line_03": "",
+        "Line_04": "",
+        "Line_05": "",
+        "Line_06": "",
+        "Line_07": "",
+        "Line_08": "",
+        "Line_09": "",
+        "Line_10": "",
+        "Line_11": "",
+        "Line_12": "",
+        "Line_13": "",
+        "Line_14": "",
+        "line_15": "",
+        "Line_16": "",
+        "Line_17": "",
+        "Line_18": "",
+        "Line_19": "",
+        "Line_20": "",
+        "Line_21": "",
+        "Line_22": "",
+        "Line_23": "",
+        "Line_24": "",
+        "Line_25": "",
+        "Line_26": "",
+        "Line_27": "",
+        "line_28": ""
+      }]
+    },
+    "Lesson_0011": {
+      "Name": "Lesson_0011",
+      "Number": 11,
+      "IndividualizedLessonPassingCriteria": [{
+        "AccuracyRequirement": 50.0,
+        "SpeedRequirement": 10
+      }],
+      "Description": "Part 1 - Chapter 2 - Page 10: Black Dog Appears and Disappears",
+      "Lines": [{
+        "Line_01": "",
+        "Line_02": "",
+        "Line_03": "",
+        "Line_04": "",
+        "Line_05": "",
+        "Line_06": "",
+        "Line_07": "",
+        "Line_08": "",
+        "Line_09": "",
+        "Line_10": "",
+        "Line_11": "",
+        "Line_12": "",
+        "Line_13": "",
+        "Line_14": "",
+        "line_15": "",
+        "Line_16": "",
+        "Line_17": "",
+        "Line_18": "",
+        "Line_19": "",
+        "Line_20": "",
+        "Line_21": "",
+        "Line_22": "",
+        "Line_23": "",
+        "Line_24": "",
+        "Line_25": "",
+        "Line_26": "",
+        "Line_27": "",
+        "line_28": ""
+      }]
+    },
   }]
 }
 
@@ -41,3 +421,43 @@
 
 
 
+Number of pages per chapter for Treasure Island
+Part 1
+Chapter 1 = 9 pages
+Chapter 2 = 9 pages
+Chapter 3 = 9 pages
+Chapter 4 = 9 pages
+Chapter 5 = 8 pages
+Chapter 6 = 9 pages
+Chapter 7 = 7 pages
+Chapter 8 = 8 pages
+Chapter 9 = 8 pages
+Chapter 10 = 8 pages
+Chapter 11 = 9 pages
+Chapter 12 = 8 pages
+
+Part 2
+Chapter 13 = 8 pages
+Chapter 14 = 8 pages
+Chapter 15 = 10 pages
+Chapter 16 = 7 pages
+Chapter 17 = 7 pages
+Chapter 18 = 7 pages
+Chapter 19 = 9 pages
+Chapter 20 = 8 pages
+Chapter 21 = 9 pages
+Chapter 22 = 9 pages
+Chapter 23 = 7 pages
+Chapter 24 = 8 pages
+Chapter 25 = 7 pages
+Chapter 26 = 12 pages
+Chapter 27 = 9 pages
+
+Part 3
+Chapter 28 = 11 pages
+Chapter 29 = 9 pages
+Chapter 30 = 10 pages
+Chapter 31 = 10 pages
+Chapter 32 = 9 pages
+Chapter 33 = 9 pages
+Chapter 34 = 8 pages
