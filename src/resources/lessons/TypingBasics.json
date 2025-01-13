@@ -12388,8 +12388,8 @@
       "Name": "Lesson_0700",
       "Number": 700,
       "IndividualizedLessonPassingCriteria": [{
-        "AccuracyRequirement": 5,
-        "SpeedRequirement": 5
+        "AccuracyRequirement": 98,
+        "SpeedRequirement": 85
       }],
       "Description": "Congratulations on Completing Typing Basics!",
       "Lines": [{
